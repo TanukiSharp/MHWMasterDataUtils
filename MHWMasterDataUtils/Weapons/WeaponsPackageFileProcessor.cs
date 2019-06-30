@@ -67,6 +67,20 @@ namespace MHWMasterDataUtils.Weapons
             return Task.CompletedTask;
         }
 
+        private void AddWeapon(WeaponPrimitiveBase weaponToAdd)
+        {
+            string sourceHash = $"{weaponToAdd.weaponType}-{weaponToAdd.id}";
+
+            foreach (WeaponPrimitiveBase existingWeapon in weapons)
+            {
+                string targetHash = $"{existingWeapon.weaponType}-{existingWeapon.id}";
+                if (sourceHash == targetHash)
+                    return;
+            }
+
+            weapons.Add(weaponToAdd);
+        }
+
         private void ProcessMeleeWeapons(Reader reader, WeaponType weaponType)
         {
             uint num_entries = reader.ReadUInt32();
@@ -75,7 +89,7 @@ namespace MHWMasterDataUtils.Weapons
             {
                 WeaponPrimitiveBase weapon = MeleeWeaponPrimitiveBase.Read(reader);
                 weapon.weaponType = weaponType;
-                weapons.Add(weapon);
+                AddWeapon(weapon);
             }
         }
 
@@ -87,7 +101,7 @@ namespace MHWMasterDataUtils.Weapons
             {
                 WeaponPrimitiveBase weapon = RangeWeaponPrimitiveBase.Read(reader);
                 weapon.weaponType = weaponType;
-                weapons.Add(weapon);
+                AddWeapon(weapon);
             }
         }
 

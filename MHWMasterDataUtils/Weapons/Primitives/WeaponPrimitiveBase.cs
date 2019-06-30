@@ -35,5 +35,69 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public ushort gmd_name_index;
         public ushort gmd_description_index;
         public ushort skill_id;
+
+        public virtual bool Compare(WeaponPrimitiveBase other)
+        {
+            if (other.weaponType != weaponType)
+                return false;
+            if (other.id != id)
+                return false;
+            if (other.unknown1 != unknown1)
+                return false;
+            if (other.unknown2 != unknown2)
+                return false;
+            if (other.base_model_id != base_model_id)
+                return false;
+            if (other.part1_id != part1_id)
+                return false;
+            if (other.part2_id != part2_id)
+                return false;
+            if (other.color != color)
+                return false;
+            if (other.tree_id != tree_id)
+                return false;
+            if (other.is_fixed_upgrade != is_fixed_upgrade)
+                return false;
+            if (other.crafting_cost != crafting_cost)
+                return false;
+            if (other.rarity != rarity)
+                return false;
+            if (other.raw_damage != raw_damage)
+                return false;
+            if (other.defense != defense)
+                return false;
+            if (other.affinity != affinity)
+                return false;
+            if (other.element_id != element_id)
+                return false;
+            if (other.element_damage != element_damage)
+                return false;
+            if (other.hidden_element_id != hidden_element_id)
+                return false;
+            if (other.hidden_element_damage != hidden_element_damage)
+                return false;
+            if (other.elderseal != elderseal)
+                return false;
+            if (other.num_gem_slots != num_gem_slots)
+                return false;
+            if (other.gem_slot1_lvl != gem_slot1_lvl)
+                return false;
+            if (other.gem_slot2_lvl != gem_slot2_lvl)
+                return false;
+            if (other.gem_slot3_lvl != gem_slot3_lvl)
+                return false;
+            if (other.tree_position != tree_position)
+                return false;
+            if (other.order != order)
+                return false;
+            if (other.gmd_name_index != gmd_name_index)
+                return false;
+            if (other.gmd_description_index != gmd_description_index)
+                return false;
+            if (other.skill_id != skill_id)
+                return false;
+
+            return true;
+        }
     }
 }

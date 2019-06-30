@@ -87,8 +87,35 @@ namespace MHWMasterDataUtils.Weapons.Primitives
                 order = order,
                 gmd_name_index = gmd_name_index,
                 gmd_description_index = gmd_description_index,
-                skill_id = skill_id,
+                skill_id = skill_id
             };
+        }
+
+        public override bool Compare(WeaponPrimitiveBase other)
+        {
+            if (base.Compare(other) == false)
+                return false;
+
+            var m = other as RangeWeaponPrimitiveBase;
+            if (m == null)
+                return false;
+
+            if (m.muzzel_type != muzzel_type)
+                return false;
+            if (m.barrel_type != barrel_type)
+                return false;
+            if (m.magazine_type != magazine_type)
+                return false;
+            if (m.scope_type != scope_type)
+                return false;
+            if (m.shell_table_id != shell_table_id)
+                return false;
+            if (m.deviation != deviation)
+                return false;
+            if (m.special_ammo_id != special_ammo_id)
+                return false;
+
+            return true;
         }
     }
 }

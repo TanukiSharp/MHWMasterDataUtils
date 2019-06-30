@@ -82,9 +82,29 @@ namespace MHWMasterDataUtils.Weapons.Primitives
                 order = order,
                 gmd_name_index = gmd_name_index,
                 gmd_description_index = gmd_description_index,
-                skill_id = skill_id,
-
+                skill_id = skill_id
             };
+        }
+
+        public override bool Compare(WeaponPrimitiveBase other)
+        {
+            if (base.Compare(other) == false)
+                return false;
+
+            var m = other as MeleeWeaponPrimitiveBase;
+            if (m == null)
+                return false;
+
+            if (m.kire_id != kire_id)
+                return false;
+            if (m.handicraft != handicraft)
+                return false;
+            if (m.wep1_id != wep1_id)
+                return false;
+            if (m.wep2_id != wep2_id)
+                return false;
+
+            return true;
         }
     }
 }

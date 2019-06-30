@@ -59,11 +59,14 @@ namespace MHWMasterDataUtils.Tester
 
             ILogger logger = new ConsoleLogger(null, LogLevel.Debug);
 
+            var greatSwordLanguages = new LanguagePackageFileProcessor(x => x == @"\common\text\vfont\l_sword_eng.gmd");
+
             var fileProcessors = new IPackageProcessor[]
             {
                 new PrintFilenamePackageProcessor(logger),
-                //new LanguagePackageFileProcessor(IsWeaponLanguageFile),
-                new LanguagePackageFileProcessor(x => x == @"\common\text\vfont\l_sword_eng.gmd"),
+                //new LanguagePackageFileProcessor(IsWeaponLa nguageFile),
+                new LanguagePackageFileProcessor(x => x == @"\common\text\steam\wep_series_eng.gmd"),
+                greatSwordLanguages,
                 new BottleTablePackageFileProcessor(),
                 new WeaponsPackageFileProcessor(),
             };

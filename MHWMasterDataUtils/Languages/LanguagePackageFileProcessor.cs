@@ -42,9 +42,9 @@ namespace MHWMasterDataUtils.Languages
             return fileMatcher(chunkFullFilename);
         }
 
-        public Dictionary<LanguageIdPrimitive, Dictionary<string, string>> Table = new Dictionary<LanguageIdPrimitive, Dictionary<string, string>>();
+        public readonly Dictionary<LanguageIdPrimitive, List<LanguageItem>> Table = new Dictionary<LanguageIdPrimitive, List<LanguageItem>>();
 
-        private string GetNextString(byte[] buffer, ref int index)
+        private string GetNextString(byte[] buffer, ref int index, Encoding encoding)
         {
             int start = index;
 
@@ -53,7 +53,7 @@ namespace MHWMasterDataUtils.Languages
 
             index++;
 
-            return Encoding.UTF8.GetString(buffer, start, index - start - 1);
+            return encoding.GetString(buffer, start, index - start - 1);
         }
 
         public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
@@ -76,28 +76,36 @@ namespace MHWMasterDataUtils.Languages
                 var values = new List<string>();
                 int index = 0;
                 while (index < string_block.Length)
-                    values.Add(GetNextString(string_block, ref index));
+                    values.Add(GetNextString(string_block, ref index, Encoding.UTF8));
 
                 foreach (LanguageInfoEntryPrimitive infoEntry in infoEntries)
                 {
                     index = (int)infoEntry.key_offset;
-                    string key = GetNextString(key_block, ref index);
+
+                    string key = GetNextString(key_block, ref index, Encoding.ASCII);
                     string value = values[(int)infoEntry.string_index];
 
-                    if (Table.TryGetValue(header.lang_id, out Dictionary<string, string> entries) == false)
+                    if (value == "Invalid Message")
+                        continue;
+
+                    if (Table.TryGetValue(header.lang_id, out List<LanguageItem> entries) == false)
                     {
-                        entries = new Dictionary<string, string>();
+                        entries = new List<LanguageItem>();
                         Table.Add(header.lang_id, entries);
                     }
 
-                    if (entries.ContainsKey(key) == false)
-                        entries.Add(key, value);
-                    else
+                    bool isFound = false;
+                    foreach (LanguageItem item in entries)
                     {
-                        if (value != entries[key])
+                        if (item.Key == key)
                         {
+                            isFound = true;
+                            break;
                         }
                     }
+
+                    if (isFound == false)
+                        entries.Add(new LanguageItem(infoEntry.string_index, key, value));
                 }
             }
 
