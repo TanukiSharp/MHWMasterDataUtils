@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MHWMasterDataUtils.Weapons
 {
-    public class BottleTablePackageFileProcessor : PackageProcessorBase
+    public class BottleTablePackageProcessor : PackageProcessorBase
     {
         public override bool IsChunkFileMatching(string filename)
         {

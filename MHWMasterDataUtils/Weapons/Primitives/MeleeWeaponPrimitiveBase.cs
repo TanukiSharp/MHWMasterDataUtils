@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using MHWMasterDataUtils.Equipments;
 
 // Information based on this documentation:
 // https://gitlab.com/frederik-schumacher/mhw-equipment-docs/wikis/WP_DAT
@@ -32,9 +33,9 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             ushort raw_damage = reader.ReadUInt16();
             ushort defense = reader.ReadUInt16();
             sbyte affinity = reader.ReadSByte();
-            var element_id = (WeaponElementPrimitive)reader.ReadByte();
+            var element_id = (ElementStatus)reader.ReadByte();
             ushort element_damage = reader.ReadUInt16();
-            var hidden_element_id = (WeaponElementPrimitive)reader.ReadByte();
+            var hidden_element_id = (ElementStatus)reader.ReadByte();
             ushort hidden_element_damage = reader.ReadUInt16();
             var elderseal = (EldersealPrimitive)reader.ReadByte();
             byte num_gem_slots = reader.ReadByte();

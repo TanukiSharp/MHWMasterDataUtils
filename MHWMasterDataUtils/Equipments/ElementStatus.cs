@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Equipments
 {
-    public enum WeaponElementPrimitive : byte
+    public enum ElementStatus
     {
         None,
         Fire,

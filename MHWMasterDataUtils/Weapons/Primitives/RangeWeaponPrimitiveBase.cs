@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using MHWMasterDataUtils.Equipments;
 
 namespace MHWMasterDataUtils.Weapons.Primitives
 {
@@ -33,9 +34,9 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             ushort raw_damage = reader.ReadUInt16();
             ushort defense = reader.ReadUInt16();
             sbyte affinity = reader.ReadSByte();
-            var element_id = (WeaponElementPrimitive)reader.ReadByte();
+            var element_id = (ElementStatus)reader.ReadByte();
             ushort element_damage = reader.ReadUInt16();
-            var hidden_element_id = (WeaponElementPrimitive)reader.ReadByte();
+            var hidden_element_id = (ElementStatus)reader.ReadByte();
             ushort hidden_element_damage = reader.ReadUInt16();
             var elderseal = (EldersealPrimitive)reader.ReadByte();
             ushort shell_table_id = reader.ReadUInt16();

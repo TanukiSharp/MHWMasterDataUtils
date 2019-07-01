@@ -1,4 +1,6 @@
+using MHWMasterDataUtils.Items;
 using MHWMasterDataUtils.Languages;
+using MHWMasterDataUtils.Sharpness;
 using MHWMasterDataUtils.Weapons;
 using Microsoft.Extensions.Logging;
 using System;
@@ -59,16 +61,18 @@ namespace MHWMasterDataUtils.Tester
 
             ILogger logger = new ConsoleLogger(null, LogLevel.Debug);
 
-            var greatSwordLanguages = new LanguagePackageFileProcessor(x => x == @"\common\text\vfont\l_sword_eng.gmd");
+            var greatSwordLanguages = new LanguagePackageProcessor(x => x == @"\common\text\vfont\l_sword_eng.gmd");
 
             var fileProcessors = new IPackageProcessor[]
             {
+                new ItemsPackageProcessor(),
                 new PrintFilenamePackageProcessor(logger),
-                //new LanguagePackageFileProcessor(IsWeaponLa nguageFile),
-                new LanguagePackageFileProcessor(x => x == @"\common\text\steam\wep_series_eng.gmd"),
+                new SharpnessPackageProcessor(),
+                //new LanguagePackageProcessor(IsWeaponLanguageFile),
+                new LanguagePackageProcessor(x => x == @"\common\text\steam\wep_series_eng.gmd"),
                 greatSwordLanguages,
-                new BottleTablePackageFileProcessor(),
-                new WeaponsPackageFileProcessor(),
+                new BottleTablePackageProcessor(),
+                new WeaponsPackageProcessor(),
             };
 
             await PackageUtility.RunPackageProcessors(logger, packagesFullPath, fileProcessors);

@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using MHWMasterDataUtils.Equipments;
 
 namespace MHWMasterDataUtils.Weapons.Primitives
 {
     public class WeaponPrimitiveBase
     {
-        public WeaponType weaponType;
+        public WeaponClass weaponClass;
         public uint id;
         public byte unknown1;
         public byte unknown2;
@@ -21,9 +22,9 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public ushort raw_damage; // raw damage, display value depends on weapon display multiplier
         public ushort defense;
         public sbyte affinity;
-        public WeaponElementPrimitive element_id; // 0: none, 1: fire, 2: water, 3: ice, 4: thunder, 5: dragon, 6: poison, 7: paralysis, 8: sleep, 9: blast
+        public ElementStatus element_id; // 0: none, 1: fire, 2: water, 3: ice, 4: thunder, 5: dragon, 6: poison, 7: paralysis, 8: sleep, 9: blast
         public ushort element_damage; // appears multiplied by 10 in game
-        public WeaponElementPrimitive hidden_element_id; // 0: none, 1: fire, 2: water, 3: ice, 4: thunder, 5: dragon, 6: poison, 7: paralysis, 8: sleep, 9: blast
+        public ElementStatus hidden_element_id; // 0: none, 1: fire, 2: water, 3: ice, 4: thunder, 5: dragon, 6: poison, 7: paralysis, 8: sleep, 9: blast
         public ushort hidden_element_damage; // appears multiplied by 10 in game
         public EldersealPrimitive elderseal; // 0: none, 1: low, 2: average, 3: high
         public byte num_gem_slots;
@@ -38,7 +39,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
 
         public virtual bool Compare(WeaponPrimitiveBase other)
         {
-            if (other.weaponType != weaponType)
+            if (other.weaponClass != weaponClass)
                 return false;
             if (other.id != id)
                 return false;

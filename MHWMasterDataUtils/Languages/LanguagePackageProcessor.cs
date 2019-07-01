@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace MHWMasterDataUtils.Languages
 {
-    public class LanguagePackageFileProcessor : PackageProcessorBase
+    public class LanguagePackageProcessor : PackageProcessorBase
     {
         public delegate bool FileMatchHandler(string packageFilename);
 
         private readonly FileMatchHandler fileMatcher;
 
-        public LanguagePackageFileProcessor(FileMatchHandler fileMatcher)
+        public LanguagePackageProcessor(FileMatchHandler fileMatcher)
         {
             if (fileMatcher == null)
                 throw new ArgumentNullException(nameof(fileMatcher));
