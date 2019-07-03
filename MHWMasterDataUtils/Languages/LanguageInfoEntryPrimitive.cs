@@ -6,23 +6,23 @@ namespace MHWMasterDataUtils.Languages
 {
     public struct LanguageInfoEntryPrimitive
     {
-        public uint string_index;
-        public ulong key_offset;
-        public ulong bucket_index;
+        public readonly ulong KeyOffset;
+        public readonly uint StringIndex;
+
+        public LanguageInfoEntryPrimitive(ulong keyOffset, uint stringIndex)
+        {
+            KeyOffset = keyOffset;
+            StringIndex = stringIndex;
+        }
 
         public static LanguageInfoEntryPrimitive Read(Reader reader)
         {
-            uint string_index = reader.ReadUInt32();
+            uint stringIndex = reader.ReadUInt32();
             reader.Offset(12); // Skip hash_key_2x, hash_key_3x and pad
-            ulong key_offset = reader.ReadUInt64();
-            ulong bucket_index = reader.ReadUInt64();
+            ulong keyOffset = reader.ReadUInt64();
+            reader.Offset(8); // Skip bucket_index.
 
-            return new LanguageInfoEntryPrimitive
-            {
-                string_index = string_index,
-                key_offset = key_offset,
-                bucket_index = bucket_index
-            };
+            return new LanguageInfoEntryPrimitive(keyOffset, stringIndex);
         }
     }
 }
