@@ -29,7 +29,7 @@ namespace MHWMasterDataUtils.Weapons
 
         public static WeaponClass GetWeaponClassByFilename(string chunkFilename)
         {
-            if (WeaponFilenameUtils.WeaponFilenameToClass.TryGetValue(chunkFilename, out WeaponClass weaponClass))
+            if (WeaponsFilenameUtils.WeaponFilenameToClass.TryGetValue(chunkFilename, out WeaponClass weaponClass))
                 return weaponClass;
 
             return WeaponClass.None;
