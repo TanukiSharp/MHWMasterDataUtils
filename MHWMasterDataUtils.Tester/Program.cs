@@ -1,3 +1,4 @@
+using MHWMasterDataUtils.Crafting;
 using MHWMasterDataUtils.Items;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Sharpness;
@@ -65,6 +66,12 @@ namespace MHWMasterDataUtils.Tester
 
             var fileProcessors = new IPackageProcessor[]
             {
+                new CraftPackageProcessor(@"\common\equip\armor.eq_crt"),
+                new CraftPackageProcessor(@"\common\equip\weapon.eq_crt"),
+                new CraftPackageProcessor(@"\common\equip\ot_equip.eq_crt"),
+                new CraftPackageProcessor(@"\common\equip\equip_custom.eq_cus"),
+                new CraftPackageProcessor(@"\common\equip\weapon.eq_cus"),
+
                 new ItemsPackageProcessor(),
                 new PrintFilenamePackageProcessor(logger),
                 new SharpnessPackageProcessor(),
