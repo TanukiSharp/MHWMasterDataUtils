@@ -13,49 +13,60 @@ namespace MHWMasterDataUtils.Weapons
     {
         private List<WeaponPrimitiveBase> weapons = new List<WeaponPrimitiveBase>();
 
-        public override bool IsChunkFileMatching(string chunkFullFilename)
-        {
-            WeaponClass weaponType = DetermineWeaponClass(chunkFullFilename, true);
+        public const ushort MeleeWeaponHeaderValue = 0x0186;
+        public const ushort RangeWeaponHeaderValue = 0x01B1;
 
-            return weaponType != WeaponClass.None;
+        public static bool IsWeaponInEquipmentPath(string chunkFullFilename)
+        {
+            if (chunkFullFilename.EndsWith(".wp_dat") == false && chunkFullFilename.EndsWith(".wp_dat_g") == false)
+                return false;
+
+            if (chunkFullFilename.StartsWith(@"\common\equip\") == false)
+                return false;
+
+            return true;
         }
 
-        public const ushort MeleeWeaponHeaderIdentifier = 0x0186;
-        public const ushort RangeWeaponHeaderIdentifier = 0x01B1;
-
-        public WeaponClass DetermineWeaponClass(string chunkFullFilename, bool fullCheck)
+        public static WeaponClass GetWeaponClassByFilename(string chunkFilename)
         {
-            if (fullCheck)
-            {
-                if (chunkFullFilename.StartsWith(@"\common\equip\") == false)
-                    return WeaponClass.None;
-
-                if (chunkFullFilename.EndsWith(".wp_dat") == false && chunkFullFilename.EndsWith(".wp_dat_g") == false)
-                    return WeaponClass.None;
-            }
-
-            string filename = Path.GetFileNameWithoutExtension(chunkFullFilename);
-
-            if (WeaponFilenameUtils.WeaponFilenameToClass.TryGetValue(filename, out WeaponClass weaponClass))
+            if (WeaponFilenameUtils.WeaponFilenameToClass.TryGetValue(chunkFilename, out WeaponClass weaponClass))
                 return weaponClass;
 
             return WeaponClass.None;
         }
 
+        public static WeaponClass DetermineWeaponClass(string chunkFullFilename)
+        {
+            string chunkFilename = Path.GetFileNameWithoutExtension(chunkFullFilename);
+
+            return GetWeaponClassByFilename(chunkFilename);
+        }
+
+        public override bool IsChunkFileMatching(string chunkFullFilename)
+        {
+            if (IsWeaponInEquipmentPath(chunkFullFilename) == false)
+                return false;
+
+            WeaponClass weaponType = DetermineWeaponClass(chunkFullFilename);
+
+            return weaponType != WeaponClass.None;
+        }
+
         public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
-            WeaponClass weaponType = DetermineWeaponClass(chunkFullFilename, false);
+            WeaponClass weaponType = DetermineWeaponClass(chunkFullFilename);
 
             using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
             {
-                ushort identifier = reader.ReadUInt16();
+                ushort headerValue = reader.ReadUInt16();
+                uint numEntries = reader.ReadUInt32();
 
-                if (identifier == MeleeWeaponHeaderIdentifier)
-                    ProcessMeleeWeapons(reader, weaponType);
-                else if (identifier == RangeWeaponHeaderIdentifier)
-                    ProcessRangeWeapons(reader, weaponType);
+                if (headerValue == MeleeWeaponHeaderValue)
+                    ProcessMeleeWeapons(reader, numEntries, weaponType);
+                else if (headerValue == RangeWeaponHeaderValue)
+                    ProcessRangeWeapons(reader, numEntries, weaponType);
                 else
-                    throw new FormatException($"Invalid header identifier in file '{reader.Filename ?? "<unknown>"}'. Expected {MeleeWeaponHeaderIdentifier:x4} or {RangeWeaponHeaderIdentifier:x4}, read {identifier:x4}.");
+                    throw new FormatException($"Invalid header in file '{reader.Filename ?? "<unknown>"}'. Expected {MeleeWeaponHeaderValue:x4} (melee) or {RangeWeaponHeaderValue:x4} (range), read {headerValue:x4}.");
             }
 
             return Task.CompletedTask;
@@ -80,11 +91,9 @@ namespace MHWMasterDataUtils.Weapons
             weapons.Add(weaponToAdd);
         }
 
-        private void ProcessMeleeWeapons(Reader reader, WeaponClass weaponClass)
+        private void ProcessMeleeWeapons(Reader reader, uint numEntries, WeaponClass weaponClass)
         {
-            uint num_entries = reader.ReadUInt32();
-
-            for (uint i = 0; i < num_entries; i++)
+            for (uint i = 0; i < numEntries; i++)
             {
                 WeaponPrimitiveBase weapon = MeleeWeaponPrimitiveBase.Read(reader);
                 weapon.weaponClass = weaponClass;
@@ -92,11 +101,9 @@ namespace MHWMasterDataUtils.Weapons
             }
         }
 
-        private void ProcessRangeWeapons(Reader reader, WeaponClass weaponClass)
+        private void ProcessRangeWeapons(Reader reader, uint numEntries, WeaponClass weaponClass)
         {
-            uint num_entries = reader.ReadUInt32();
-
-            for (uint i = 0; i < num_entries; i++)
+            for (uint i = 0; i < numEntries; i++)
             {
                 WeaponPrimitiveBase weapon = RangeWeaponPrimitiveBase.Read(reader);
                 weapon.weaponClass = weaponClass;
