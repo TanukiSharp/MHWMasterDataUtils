@@ -24,5 +24,33 @@ namespace MHWMasterDataUtils.Sharpness
             White = white;
             Purple = purple;
         }
+
+        public ushort[] ToArray()
+        {
+            return new ushort[]
+            {
+                Red,
+                Orange,
+                Yellow,
+                Green,
+                Blue,
+                White,
+                Purple
+            };
+        }
+
+        public void ToArray(ushort[] output)
+        {
+            if (output.Length < 7)
+                throw new ArgumentOutOfRangeException(nameof(output), $"Argument '{nameof(output)}' must be of length 7 or more.");
+
+            output[0] = Red;
+            output[1] = Orange;
+            output[2] = Yellow;
+            output[3] = Green;
+            output[4] = Blue;
+            output[5] = White;
+            output[6] = Purple;
+        }
     }
 }
