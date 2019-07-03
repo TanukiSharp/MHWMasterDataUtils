@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Languages
 {
-    public class LanguageInfoEntryPrimitive
+    public struct LanguageInfoEntryPrimitive
     {
         public uint string_index;
         public ulong key_offset;
