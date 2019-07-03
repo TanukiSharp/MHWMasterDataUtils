@@ -5,7 +5,7 @@ using MHWMasterDataUtils.Equipments;
 
 namespace MHWMasterDataUtils.Weapons.Primitives
 {
-    public class WeaponPrimitiveBase
+    public class WeaponPrimitiveBase : IEquatable<WeaponPrimitiveBase>
     {
         public WeaponClass weaponClass;
         public uint id;
@@ -37,7 +37,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public ushort gmd_description_index;
         public ushort skill_id;
 
-        public virtual bool Compare(WeaponPrimitiveBase other)
+        public virtual bool Equals(WeaponPrimitiveBase other)
         {
             if (other.weaponClass != weaponClass)
                 return false;

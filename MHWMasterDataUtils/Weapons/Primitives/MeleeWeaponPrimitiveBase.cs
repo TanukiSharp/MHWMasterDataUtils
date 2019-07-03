@@ -87,9 +87,9 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             };
         }
 
-        public override bool Compare(WeaponPrimitiveBase other)
+        public override bool Equals(WeaponPrimitiveBase other)
         {
-            if (base.Compare(other) == false)
+            if (base.Equals(other) == false)
                 return false;
 
             var m = other as MeleeWeaponPrimitiveBase;
