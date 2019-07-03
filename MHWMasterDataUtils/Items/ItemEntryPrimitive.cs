@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Items
 {
-    public struct ItemEntryPrimitive
+    public class ItemEntryPrimitive
     {
         public uint id;
         public ItemSubTypePrimitive sub_type; // 0: item, 1: ammunition, 4: coating
