@@ -77,9 +77,6 @@ namespace MHWMasterDataUtils
         private readonly ILogger logger;
         private readonly IEnumerable<IPackageProcessor> packageProcessors;
 
-        private int totalParentCount;
-        private int totalChildrenCount;
-
         private BinaryReader reader;
         private readonly SubStream cachedSubStream = new SubStream();
 
@@ -110,12 +107,13 @@ namespace MHWMasterDataUtils
                 await fileProcessor.PostChunkFileProcess(chunkFullFilename);
         }
 
-        private void ReadHeader()
+        private int ReadHeader()
         {
             reader.BaseStream.Seek(0x0C, SeekOrigin.Begin);
-            totalParentCount = reader.ReadInt32();
-            totalChildrenCount = reader.ReadInt32();
+            int totalParentCount = reader.ReadInt32();
             reader.BaseStream.Seek(0x100, SeekOrigin.Begin);
+
+            return totalParentCount;
         }
 
         private async Task RunMatchingPackageProcessors(PackageChildEntry childEntry, IEnumerable<IPackageProcessor>  matchingPackageProcessors)
@@ -162,27 +160,43 @@ namespace MHWMasterDataUtils
                 await ProcessChildEntry();
         }
 
-        public async Task Begin()
+        private async Task PreProcess()
         {
             foreach (IPackageProcessor fileProcessor in packageProcessors)
                 await fileProcessor.PreProcess();
         }
 
-        public async Task ProcessPackageFile(string packageFullFilename)
+        private async Task ProcessPackageFile(string packageFullFilename)
         {
             using (reader = new BinaryReader(File.OpenRead(packageFullFilename), Encoding.UTF8, false))
             {
-                ReadHeader();
+                int totalParentCount = ReadHeader();
 
                 for (int i = 0; i < totalParentCount; i++)
                     await ProcessParentEntry();
             }
         }
 
-        public async Task End()
+        private async Task PostProcess()
         {
             foreach (IPackageProcessor fileProcessor in packageProcessors.Reverse())
                 await fileProcessor.PostProcess();
+        }
+
+        public async Task Run(string packagesFullPath)
+        {
+            IEnumerable<string> packageFilenames = Directory.GetFiles(packagesFullPath, "chunk*.pkg", SearchOption.TopDirectoryOnly)
+                .Select(x => new { OriginalFilename = x, Index = PackageUtility.GetChunkFileIndex(x) })
+                .Where(x => x.Index >= 0)
+                .OrderByDescending(x => x.Index)
+                .Select(x => x.OriginalFilename);
+
+            await PreProcess();
+
+            foreach (string packageFilename in packageFilenames)
+                await ProcessPackageFile(packageFilename);
+
+            await PostProcess();
         }
     }
 }

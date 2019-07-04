@@ -86,26 +86,6 @@ namespace MHWMasterDataUtils
             return PromptUser(logger, packagesStoreFileFullFilename);
         }
 
-        public static async Task RunPackageProcessors(ILogger logger, string packagesFullPath, IEnumerable<IPackageProcessor> packageProcessors)
-        {
-            var meh = Directory.GetFiles(packagesFullPath, "chunk*.pkg", SearchOption.TopDirectoryOnly);
-
-            IEnumerable<string> packageFilenames = meh
-                .Select(x => new { OriginalFilename = x, Index = GetChunkFileIndex(x) })
-                .Where(x => x.Index >= 0)
-                .OrderByDescending(x => x.Index)
-                .Select(x => x.OriginalFilename);
-
-            var packageReader = new PackageReader(logger, packageProcessors);
-
-            await packageReader.Begin();
-
-            foreach (string packageFilename in packageFilenames)
-                await packageReader.ProcessPackageFile(packageFilename);
-
-            await packageReader.End();
-        }
-
         public static Regex ChunkIndexRegex = new Regex(@"^chunk(\d+)\.pkg$");
 
         public static int GetChunkFileIndex(string packageFullPath)

@@ -82,7 +82,8 @@ namespace MHWMasterDataUtils.Tester
                 new WeaponsPackageProcessor(),
             };
 
-            await PackageUtility.RunPackageProcessors(logger, packagesFullPath, fileProcessors);
+            var packageReader = new PackageReader(logger, fileProcessors);
+            await packageReader.Run(packagesFullPath);
         }
     }
 }
