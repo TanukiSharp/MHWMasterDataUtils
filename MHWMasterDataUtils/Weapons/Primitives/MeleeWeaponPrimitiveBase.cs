@@ -4,108 +4,173 @@ using System.IO;
 using System.Text;
 using MHWMasterDataUtils.Equipments;
 
-// Information based on this documentation:
-// https://gitlab.com/frederik-schumacher/mhw-equipment-docs/wikis/WP_DAT
-
 namespace MHWMasterDataUtils.Weapons.Primitives
 {
     public class MeleeWeaponPrimitiveBase : WeaponPrimitiveBase
     {
-        public byte kire_id;
-        public byte handicraft;
-        public ushort wep1_id;
-        public ushort wep2_id;
+        public byte SharpnessId { get; }
+        public byte Handicraft { get; }
+        public ushort Weapon1Id { get; }
+        public ushort Weapon2Id { get; }
 
-        public static MeleeWeaponPrimitiveBase Read(Reader reader)
+        MeleeWeaponPrimitiveBase(
+            WeaponClass weaponClass,
+            uint id,
+            ushort baseModelId,
+            ushort part1Id,
+            ushort part2Id,
+            byte color,
+            byte treeId,
+            FixedUpgradePrimitive isFixedUpgrade,
+            uint craftingCost,
+            byte rarity,
+            byte sharpnessId,
+            byte handicraft,
+            ushort rawDamage,
+            ushort defense,
+            sbyte affinity,
+            ElementStatus elementId,
+            ushort elementDamage,
+            ElementStatus hiddenElementId,
+            ushort hiddenElementDamage,
+            EldersealPrimitive elderseal,
+            byte gemSlots,
+            byte gemSlot1,
+            byte gemSlot2,
+            byte gemSlot3,
+            ushort weapon1Id,
+            ushort weapon2Id,
+            byte treePosition,
+            ushort order,
+            ushort gmdNameIndex,
+            ushort gmdDescriptionIndex,
+            ushort skillId
+        )
+            : base(
+                weaponClass,
+                id,
+                baseModelId,
+                part1Id,
+                part2Id,
+                color,
+                treeId,
+                isFixedUpgrade,
+                craftingCost,
+                rarity,
+                rawDamage,
+                defense,
+                affinity,
+                elementId,
+                elementDamage,
+                hiddenElementId,
+                hiddenElementDamage,
+                elderseal,
+                gemSlots,
+                gemSlot1,
+                gemSlot2,
+                gemSlot3,
+                treePosition,
+                order,
+                gmdNameIndex,
+                gmdDescriptionIndex,
+                skillId
+            )
+        {
+            SharpnessId = sharpnessId;
+            Handicraft = handicraft;
+            Weapon1Id = weapon1Id;
+            Weapon2Id = weapon2Id;
+        }
+
+        public static MeleeWeaponPrimitiveBase Read(WeaponClass weaponClass, Reader reader)
         {
             uint id = reader.ReadUInt32();
             reader.Offset(2); // Skip unknown1 and unknown2.
-            ushort base_model_id = reader.ReadUInt16();
-            ushort part1_id = reader.ReadUInt16();
-            ushort part2_id = reader.ReadUInt16();
+            ushort baseModelId = reader.ReadUInt16();
+            ushort part1Id = reader.ReadUInt16();
+            ushort part2Id = reader.ReadUInt16();
             byte color = reader.ReadByte();
-            byte tree_id = reader.ReadByte();
-            var is_fixed_upgrade = (FixedUpgradePrimitive)reader.ReadByte();
-            uint crafting_cost = reader.ReadUInt32();
+            byte treeId = reader.ReadByte();
+            var isFixedUpgrade = (FixedUpgradePrimitive)reader.ReadByte();
+            uint craftingCost = reader.ReadUInt32();
             byte rarity = reader.ReadByte();
-            byte kire_id = reader.ReadByte();
+            byte sharpnessId = reader.ReadByte();
             byte handicraft = reader.ReadByte();
-            ushort raw_damage = reader.ReadUInt16();
+            ushort rawDamage = reader.ReadUInt16();
             ushort defense = reader.ReadUInt16();
             sbyte affinity = reader.ReadSByte();
-            var element_id = (ElementStatus)reader.ReadByte();
-            ushort element_damage = reader.ReadUInt16();
-            var hidden_element_id = (ElementStatus)reader.ReadByte();
-            ushort hidden_element_damage = reader.ReadUInt16();
+            var elementId = (ElementStatus)reader.ReadByte();
+            ushort elementDamage = reader.ReadUInt16();
+            var hiddenElementId = (ElementStatus)reader.ReadByte();
+            ushort hiddenElementDamage = reader.ReadUInt16();
             var elderseal = (EldersealPrimitive)reader.ReadByte();
-            byte num_gem_slots = reader.ReadByte();
-            byte gem_slot1_lvl = reader.ReadByte();
-            byte gem_slot2_lvl = reader.ReadByte();
-            byte gem_slot3_lvl = reader.ReadByte();
-            ushort wep1_id = reader.ReadUInt16();
-            ushort wep2_id = reader.ReadUInt16();
+            byte gemSlots = reader.ReadByte();
+            byte gemSlot1 = reader.ReadByte();
+            byte gemSlot2 = reader.ReadByte();
+            byte gemSlot3 = reader.ReadByte();
+            ushort weapon1Id = reader.ReadUInt16();
+            ushort weapon2Id = reader.ReadUInt16();
             reader.Offset(12); // Skip unknown3, unknown4 and unknown5.
-            byte tree_position = reader.ReadByte();
+            byte treePosition = reader.ReadByte();
             ushort order = reader.ReadUInt16();
-            ushort gmd_name_index = reader.ReadUInt16();
-            ushort gmd_description_index = reader.ReadUInt16();
-            ushort skill_id = reader.ReadUInt16();
+            ushort gmdNameIndex = reader.ReadUInt16();
+            ushort gmdDescriptionIndex = reader.ReadUInt16();
+            ushort skillId = reader.ReadUInt16();
             reader.Offset(2); // Skip unknown6.
 
-            return new MeleeWeaponPrimitiveBase
-            {
-                id = id,
-                base_model_id = base_model_id,
-                part1_id = part1_id,
-                part2_id = part2_id,
-                color = color,
-                tree_id = tree_id,
-                is_fixed_upgrade = is_fixed_upgrade,
-                crafting_cost = crafting_cost,
-                rarity = rarity,
-                kire_id = kire_id,
-                handicraft = handicraft,
-                raw_damage = raw_damage,
-                defense = defense,
-                affinity = affinity,
-                element_id = element_id,
-                element_damage = element_damage,
-                hidden_element_id = hidden_element_id,
-                hidden_element_damage = hidden_element_damage,
-                elderseal = elderseal,
-                num_gem_slots = num_gem_slots,
-                gem_slot1_lvl = gem_slot1_lvl,
-                gem_slot2_lvl = gem_slot2_lvl,
-                gem_slot3_lvl = gem_slot3_lvl,
-                wep1_id = wep1_id,
-                wep2_id = wep2_id,
-                tree_position = tree_position,
-                order = order,
-                gmd_name_index = gmd_name_index,
-                gmd_description_index = gmd_description_index,
-                skill_id = skill_id
-            };
+            return new MeleeWeaponPrimitiveBase(
+                weaponClass,
+                id,
+                baseModelId,
+                part1Id,
+                part2Id,
+                color,
+                treeId,
+                isFixedUpgrade,
+                craftingCost,
+                rarity,
+                sharpnessId,
+                handicraft,
+                rawDamage,
+                defense,
+                affinity,
+                elementId,
+                elementDamage,
+                hiddenElementId,
+                hiddenElementDamage,
+                elderseal,
+                gemSlots,
+                gemSlot1,
+                gemSlot2,
+                gemSlot3,
+                weapon1Id,
+                weapon2Id,
+                treePosition,
+                order,
+                gmdNameIndex,
+                gmdDescriptionIndex,
+                skillId
+            );
         }
 
-        public override bool Equals(WeaponPrimitiveBase other)
+        public override int CompareTo(WeaponPrimitiveBase other)
         {
-            if (base.Equals(other) == false)
-                return false;
+            int diff = base.CompareTo(other);
 
-            var m = other as MeleeWeaponPrimitiveBase;
-            if (m == null)
-                return false;
+            var otherMeleeWeapon = other as MeleeWeaponPrimitiveBase;
+            if (otherMeleeWeapon == null)
+                return diff;
 
-            if (m.kire_id != kire_id)
-                return false;
-            if (m.handicraft != handicraft)
-                return false;
-            if (m.wep1_id != wep1_id)
-                return false;
-            if (m.wep2_id != wep2_id)
-                return false;
+            if (SharpnessId != otherMeleeWeapon.SharpnessId)
+                diff++;
+            if (Handicraft != otherMeleeWeapon.Handicraft)
+                diff++;
+            if (Weapon1Id != otherMeleeWeapon.Weapon1Id)
+                diff++;
+            if (Weapon2Id != otherMeleeWeapon.Weapon2Id)
+                diff++;
 
-            return true;
+            return diff;
         }
     }
 }

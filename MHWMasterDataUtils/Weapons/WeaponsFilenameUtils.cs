@@ -7,7 +7,7 @@ namespace MHWMasterDataUtils.Weapons
 {
     public static class WeaponsFilenameUtils
     {
-        public static readonly Dictionary<string, WeaponClass> WeaponFilenameToClass = new Dictionary<string, WeaponClass>
+        public static Dictionary<string, WeaponClass> WeaponFilenameToClass { get; } = new Dictionary<string, WeaponClass>
         {
             ["l_sword"] = WeaponClass.GreatSword,
             ["tachi"] = WeaponClass.LongSword,
@@ -25,7 +25,7 @@ namespace MHWMasterDataUtils.Weapons
             ["bow"] = WeaponClass.Bow
         };
 
-        public static readonly Dictionary<WeaponClass, string> WeaponClassToFilename = new Dictionary<WeaponClass, string>
+        public static Dictionary<WeaponClass, string> WeaponClassToFilename { get; } = new Dictionary<WeaponClass, string>
         {
             [WeaponClass.GreatSword] = "l_sword",
             [WeaponClass.LongSword] = "tachi",

@@ -76,16 +76,16 @@ namespace MHWMasterDataUtils.Weapons
         {
             foreach (WeaponPrimitiveBase weapon in weapons)
             {
-                if (weapon.weaponClass == weaponClass && weapon.id == id)
+                if (weapon.WeaponClass == weaponClass && weapon.Id == id)
                     return weapon;
             }
 
             return null;
         }
 
-        private void AddWeapon(WeaponPrimitiveBase weaponToAdd)
+        private void TryAddWeapon(WeaponPrimitiveBase weaponToAdd)
         {
-            if (FindWeapon(weaponToAdd.weaponClass, weaponToAdd.id) != null)
+            if (FindWeapon(weaponToAdd.WeaponClass, weaponToAdd.Id) != null)
                 return;
 
             weapons.Add(weaponToAdd);
@@ -95,9 +95,8 @@ namespace MHWMasterDataUtils.Weapons
         {
             for (uint i = 0; i < numEntries; i++)
             {
-                WeaponPrimitiveBase weapon = MeleeWeaponPrimitiveBase.Read(reader);
-                weapon.weaponClass = weaponClass;
-                AddWeapon(weapon);
+                WeaponPrimitiveBase weapon = MeleeWeaponPrimitiveBase.Read(weaponClass, reader);
+                TryAddWeapon(weapon);
             }
         }
 
@@ -105,17 +104,16 @@ namespace MHWMasterDataUtils.Weapons
         {
             for (uint i = 0; i < numEntries; i++)
             {
-                WeaponPrimitiveBase weapon = RangeWeaponPrimitiveBase.Read(reader);
-                weapon.weaponClass = weaponClass;
-                AddWeapon(weapon);
+                WeaponPrimitiveBase weapon = RangeWeaponPrimitiveBase.Read(weaponClass, reader);
+                TryAddWeapon(weapon);
             }
         }
 
         public override Task PostProcess()
         {
             weapons = weapons
-                .OrderBy(x => x.weaponClass)
-                .ThenBy(x => x.id)
+                .OrderBy(x => x.WeaponClass)
+                .ThenBy(x => x.Id)
                 .ToList();
 
             return base.PostProcess();
