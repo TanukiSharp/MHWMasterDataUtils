@@ -76,7 +76,7 @@ namespace MHWMasterDataUtils.Languages
                 {
                     int index = (int)infoEntry.KeyOffset;
 
-                    string key = GetNextString(keyBlock, ref index, Encoding.ASCII);
+                    string key = NativeUtils.GetNextString(keyBlock, ref index, Encoding.ASCII);
                     string value = values[(int)infoEntry.StringIndex];
 
                     TryAddEntry(header.LanguageId, infoEntry.StringIndex, key, value);
@@ -86,17 +86,6 @@ namespace MHWMasterDataUtils.Languages
             return Task.CompletedTask;
         }
 
-        private static string GetNextString(byte[] buffer, ref int index, Encoding encoding)
-        {
-            int start = index;
-
-            while (index < buffer.Length && buffer[index] != 0)
-                index++;
-
-            index++;
-
-            return encoding.GetString(buffer, start, index - start - 1);
-        }
 
         private static List<string> ParseStringBlock(byte[] stringBlock)
         {
@@ -104,7 +93,7 @@ namespace MHWMasterDataUtils.Languages
             var values = new List<string>();
 
             while (index < stringBlock.Length)
-                values.Add(GetNextString(stringBlock, ref index, Encoding.UTF8));
+                values.Add(NativeUtils.GetNextString(stringBlock, ref index, Encoding.UTF8));
 
             return values;
         }

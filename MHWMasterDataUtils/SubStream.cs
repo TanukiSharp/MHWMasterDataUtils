@@ -121,33 +121,42 @@ namespace MHWMasterDataUtils
             }
         }
 
+        private void SeekBegin(long offset, SeekOrigin origin)
+        {
+            if (origin < 0)
+                throw new IOException($"An attempt was made to move the file pointer before the beginning of the file: {Filename ?? "<unknown>"}");
+
+            baseStream.Seek(baseOffset + offset, SeekOrigin.Begin);
+            position = offset;
+        }
+
+        private void SeekCurrent(long offset)
+        {
+            if (position + offset < 0)
+                throw new IOException($"An attempt was made to move the file pointer before the beginning of the file: {Filename ?? "<unknown>"}");
+
+            baseStream.Seek(offset, SeekOrigin.Current);
+            position += offset;
+        }
+
+        private void SeekEnd(long offset)
+        {
+            if (length - offset < 0)
+                throw new IOException($"An attempt was made to move the file pointer before the beginning of the file: {Filename ?? "<unknown>"}");
+
+            baseStream.Seek(baseOffset + length - offset, SeekOrigin.Begin);
+            position = length - offset;
+        }
+
         public override long Seek(long offset, SeekOrigin origin)
         {
             if (origin == SeekOrigin.Begin)
-            {
-                if (origin < 0)
-                    throw new IOException($"An attempt was made to move the file pointer before the beginning of the file: {Filename ?? "<unknown>"}");
-
-                baseStream.Seek(baseOffset + offset, SeekOrigin.Begin);
-                position = offset;
-            }
+                SeekBegin(offset, origin);
             else if (origin == SeekOrigin.Current)
-            {
-                if (position + offset < 0)
-                    throw new IOException($"An attempt was made to move the file pointer before the beginning of the file: {Filename ?? "<unknown>"}");
-
-                baseStream.Seek(offset, SeekOrigin.Current);
-                position += offset;
-            }
+                SeekCurrent(offset);
             else
-            {
-                if (length - offset < 0)
-                    throw new IOException($"An attempt was made to move the file pointer before the beginning of the file: {Filename ?? "<unknown>"}");
-
-                baseStream.Seek(baseOffset + length - offset, SeekOrigin.Begin);
-                position = length - offset;
-            }
-
+                SeekEnd(offset);
+ 
             return position;
         }
 
@@ -177,6 +186,7 @@ namespace MHWMasterDataUtils
                     catch
                     {
                     }
+
                     baseStream = null;
                 }
             }
