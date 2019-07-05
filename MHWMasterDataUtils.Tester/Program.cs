@@ -1,5 +1,6 @@
 using MHWMasterDataUtils.Crafting;
 using MHWMasterDataUtils.Items;
+using MHWMasterDataUtils.Jewels;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Sharpness;
 using MHWMasterDataUtils.Weapons;
@@ -66,6 +67,8 @@ namespace MHWMasterDataUtils.Tester
 
             var fileProcessors = new IPackageProcessor[]
             {
+                new JewelPackageProcessor(),
+
                 new CraftPackageProcessor("/common/equip/armor.eq_crt"),
                 new CraftPackageProcessor("/common/equip/weapon.eq_crt"),
                 new CraftPackageProcessor("/common/equip/ot_equip.eq_crt"),
