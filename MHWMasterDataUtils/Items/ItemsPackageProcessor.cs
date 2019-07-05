@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MHWMasterDataUtils.Items
 {
-    public class ItemsPackageProcessor : SimplePackageProcessorBase<uint, ItemEntryPrimitive>
+    public class ItemsPackageProcessor : SimpleMapPackageProcessorBase<uint, ItemEntryPrimitive>
     {
         public override bool IsChunkFileMatching(string chunkFullFilename)
         {

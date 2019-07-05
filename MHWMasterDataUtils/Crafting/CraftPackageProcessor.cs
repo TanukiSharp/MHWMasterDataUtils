@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MHWMasterDataUtils.Crafting
 {
-    public class CraftPackageProcessor : SimplePackageProcessorBase<ushort, CraftEntryPrimitive>
+    public class CraftPackageProcessor : SimpleMapPackageProcessorBase<ushort, CraftEntryPrimitive>
     {
         private readonly IEnumerable<string> matchingChunkFullFilenames;
 

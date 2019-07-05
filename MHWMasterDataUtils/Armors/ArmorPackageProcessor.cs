@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Armors
 {
-    public class ArmorPackageProcessor : SimplePackageProcessorBase<ushort, ArmorPrimitive>
+    public class ArmorPackageProcessor : SimpleMapPackageProcessorBase<ushort, ArmorPrimitive>
     {
         public ArmorPackageProcessor()
             : base(0x005d, ArmorPrimitive.Read, x => x.Id)
