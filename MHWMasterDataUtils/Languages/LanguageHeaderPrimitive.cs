@@ -6,19 +6,19 @@ namespace MHWMasterDataUtils.Languages
 {
     public class LanguageHeaderPrimitive
     {
-        public uint HeaderValue { get; }
-        public uint Version { get; }
-        public LanguageIdPrimitive LanguageId { get; }
-        public uint KeyCount { get; }
-        public uint StringCount { get; }
-        public uint KeyBlockSize { get; }
-        public uint StringBlockSize { get; }
-        public uint NameSize { get; }
-        public string Name { get; } // char name[name_size + 1]; // null byte terminated string
+        public readonly uint HeaderValue;
+        public readonly uint Version;
+        public readonly LanguageIdPrimitive LanguageId;
+        public readonly uint KeyCount;
+        public readonly uint StringCount;
+        public readonly uint KeyBlockSize;
+        public readonly uint StringBlockSize;
+        public readonly uint NameSize;
+        public readonly string Name; // char name[name_size + 1]; // null byte terminated string
 
         private const uint expectedHeaderValue = 0x00444d47;
 
-        public LanguageHeaderPrimitive(
+        private LanguageHeaderPrimitive(
             uint headerValue,
             uint version,
             LanguageIdPrimitive languageId,

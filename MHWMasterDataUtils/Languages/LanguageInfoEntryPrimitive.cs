@@ -9,7 +9,7 @@ namespace MHWMasterDataUtils.Languages
         public readonly ulong KeyOffset;
         public readonly uint StringIndex;
 
-        public LanguageInfoEntryPrimitive(ulong keyOffset, uint stringIndex)
+        private LanguageInfoEntryPrimitive(ulong keyOffset, uint stringIndex)
         {
             KeyOffset = keyOffset;
             StringIndex = stringIndex;

@@ -7,15 +7,15 @@ namespace MHWMasterDataUtils.Weapons.Primitives
 {
     public class RangeWeaponPrimitiveBase : WeaponPrimitiveBase
     {
-        public MuzzelTypePrimitive MuzzelType { get; } // 0: none, 1: silencer
-        public BarrelTypePrimitive BarrelType { get; } // 0: short/none, 1: rifle/long barrel
-        public MagazineTypePrimitive MagazineType { get; } // 0: none, 1: extended, 2: drum
-        public ScopeTypePrimitive ScopeType { get; } // 0: none, 1: scope
-        public ushort ShellTableId { get; }
-        public DeviationPrimitive Deviation { get; } // applies to LBG, HBG. 0: none, 1: low, 2: average, 3: high
-        public sbyte SpecialAmmoId { get; } // LBG and HBG: 0: Wyvernblast, 1: Wyvernfire, 2: Wyvernsnipe. Bow: reference to common/equip/bottle_table.bbtbl
+        public readonly MuzzelTypePrimitive MuzzelType; // 0: none, 1: silencer
+        public readonly BarrelTypePrimitive BarrelType; // 0: short/none, 1: rifle/long barrel
+        public readonly MagazineTypePrimitive MagazineType; // 0: none, 1: extended, 2: drum
+        public readonly ScopeTypePrimitive ScopeType; // 0: none, 1: scope
+        public readonly ushort ShellTableId;
+        public readonly DeviationPrimitive Deviation; // applies to LBG, HBG. 0: none, 1: low, 2: average, 3: high
+        public readonly sbyte SpecialAmmoId; // LBG and HBG: 0: Wyvernblast, 1: Wyvernfire, 2: Wyvernsnipe. Bow: reference to common/equip/bottle_table.bbtbl
 
-        public RangeWeaponPrimitiveBase(
+        private RangeWeaponPrimitiveBase(
             WeaponClass weaponClass,
             uint id,
             ushort baseModelId,

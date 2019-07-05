@@ -7,35 +7,35 @@ namespace MHWMasterDataUtils.Weapons.Primitives
 {
     public class WeaponPrimitiveBase : IComparable<WeaponPrimitiveBase>
     {
-        public WeaponClass WeaponClass { get; }
-        public uint Id { get; }
-        public ushort BaseModelId { get; }
-        public ushort Part1Id { get; }
-        public ushort Part2Id { get; }
-        public byte Color { get; }
-        public byte TreeId { get; }
-        public FixedUpgradePrimitive IsFixedUpgrade { get; }
-        public uint CraftingCost { get; }
-        public byte Rarity { get; }
-        public ushort RawDamage { get; } // raw damage, display value depends on weapon display multiplier
-        public ushort Defense { get; }
-        public sbyte Affinity { get; }
-        public ElementStatus ElementId { get; } // 0: none, 1: fire, 2: water, 3: ice, 4: thunder, 5: dragon, 6: poison, 7: paralysis, 8: sleep, 9: blast
-        public ushort ElementDamage { get; } // appears multiplied by 10 in game
-        public ElementStatus HiddenElement_id { get; } // 0: none, 1: fire, 2: water, 3: ice, 4: thunder, 5: dragon, 6: poison, 7: paralysis, 8: sleep, 9: blast
-        public ushort HiddenElementDamage { get; } // appears multiplied by 10 in game
-        public EldersealPrimitive Elderseal { get; } // 0: none, 1: low, 2: average, 3: high
-        public byte GemSlots { get; }
-        public byte GemSlot1 { get; }
-        public byte GemSlot2 { get; }
-        public byte GemSlot3 { get; }
-        public byte TreePosition { get; }
-        public ushort Order { get; }
-        public ushort GmdNameIndex { get; }
-        public ushort GmdDescriptionIndex { get; }
-        public ushort SkillId { get; }
+        public readonly WeaponClass WeaponClass;
+        public readonly uint Id;
+        public readonly ushort BaseModelId;
+        public readonly ushort Part1Id;
+        public readonly ushort Part2Id;
+        public readonly byte Color;
+        public readonly byte TreeId;
+        public readonly FixedUpgradePrimitive IsFixedUpgrade;
+        public readonly uint CraftingCost;
+        public readonly byte Rarity;
+        public readonly ushort RawDamage; // raw damage, display value depends on weapon display multiplier
+        public readonly ushort Defense;
+        public readonly sbyte Affinity;
+        public readonly ElementStatus ElementId; // 0: none, 1: fire, 2: water, 3: ice, 4: thunder, 5: dragon, 6: poison, 7: paralysis, 8: sleep, 9: blast
+        public readonly ushort ElementDamage; // appears multiplied by 10 in game
+        public readonly ElementStatus HiddenElementId; // 0: none, 1: fire, 2: water, 3: ice, 4: thunder, 5: dragon, 6: poison, 7: paralysis, 8: sleep, 9: blast
+        public readonly ushort HiddenElementDamage; // appears multiplied by 10 in game
+        public readonly EldersealPrimitive Elderseal; // 0: none, 1: low, 2: average, 3: high
+        public readonly byte GemSlots;
+        public readonly byte GemSlot1;
+        public readonly byte GemSlot2;
+        public readonly byte GemSlot3;
+        public readonly byte TreePosition;
+        public readonly ushort Order;
+        public readonly ushort GmdNameIndex;
+        public readonly ushort GmdDescriptionIndex;
+        public readonly ushort SkillId;
 
-        public WeaponPrimitiveBase(
+        protected WeaponPrimitiveBase(
             WeaponClass weaponClass,
             uint id,
             ushort baseModelId,
@@ -51,7 +51,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             sbyte affinity,
             ElementStatus elementId,
             ushort elementDamage,
-            ElementStatus hiddenElement_id,
+            ElementStatus hiddenElementId,
             ushort hiddenElementDamage,
             EldersealPrimitive elderseal,
             byte gemSlots,
@@ -80,7 +80,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             Affinity = affinity;
             ElementId = elementId;
             ElementDamage = elementDamage;
-            HiddenElement_id = hiddenElement_id;
+            HiddenElementId = hiddenElementId;
             HiddenElementDamage = hiddenElementDamage;
             Elderseal = elderseal;
             GemSlots = gemSlots;
@@ -128,7 +128,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
                 diff++;
             if (other.ElementDamage != ElementDamage)
                 diff++;
-            if (other.HiddenElement_id != HiddenElement_id)
+            if (other.HiddenElementId != HiddenElementId)
                 diff++;
             if (other.HiddenElementDamage != HiddenElementDamage)
                 diff++;

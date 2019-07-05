@@ -6,12 +6,12 @@ namespace MHWMasterDataUtils.Weapons.Primitives
 {
     public class BowBottlePrimitive
     {
-        public byte CloseRange { get; }
-        public byte Power { get; }
-        public byte Paralysis { get; }
-        public byte Poison { get; }
-        public byte Sleep { get; }
-        public byte Blast { get; }
+        public readonly byte CloseRange;
+        public readonly byte Power;
+        public readonly byte Paralysis;
+        public readonly byte Poison;
+        public readonly byte Sleep;
+        public readonly byte Blast;
 
         private BowBottlePrimitive(
             byte closeRange,

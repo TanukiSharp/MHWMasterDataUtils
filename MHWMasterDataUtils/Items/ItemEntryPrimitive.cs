@@ -6,49 +6,77 @@ namespace MHWMasterDataUtils.Items
 {
     public class ItemEntryPrimitive
     {
-        public uint id;
-        public ItemSubTypePrimitive sub_type; // 0: item, 1: ammunition, 4: coating
-        public ItemTypePrimitive type; // 0: Item, 1: Monster Material, 2: Endemic Life, 3: Ammunition/Coating, 4: Jewel
-        public byte rarity;
-        public byte carry_limit;
-        public byte unk_limit;
-        public ushort sort_order;
-        public ItemFlagsPrimitive flags;
-        public uint icon_id;
-        public ushort icon_color;
-        public uint sell_price;
-        public uint buy_price;
+        public readonly uint Id;
+        public readonly ItemSubTypePrimitive SubType; // 0: item, 1: ammunition, 4: coating
+        public readonly ItemTypePrimitive Type; // 0: Item, 1: Monster Material, 2: Endemic Life, 3: Ammunition/Coating, 4: Jewel
+        public readonly byte Rarity;
+        public readonly byte CarryLimit;
+        public readonly byte UnknownLimit;
+        public readonly ushort SortOrder;
+        public readonly ItemFlagsPrimitive Flags;
+        public readonly uint IconId;
+        public readonly ushort IconColor;
+        public readonly uint SellPrice;
+        public readonly uint BuyPrice;
+
+        private ItemEntryPrimitive(
+            uint id,
+            ItemSubTypePrimitive subType,
+            ItemTypePrimitive type,
+            byte rarity,
+            byte carryLimit,
+            byte unknownLimit,
+            ushort sortOrder,
+            ItemFlagsPrimitive flags,
+            uint iconId,
+            ushort iconColor,
+            uint sellPrice,
+            uint buyPrice
+        )
+        {
+            Id = id;
+            SubType = subType;
+            Type = type;
+            Rarity = rarity;
+            CarryLimit = carryLimit;
+            UnknownLimit = unknownLimit;
+            SortOrder = sortOrder;
+            Flags = flags;
+            IconId = iconId;
+            IconColor = iconColor;
+            SellPrice = sellPrice;
+            BuyPrice = buyPrice;
+        }
 
         public static ItemEntryPrimitive Read(Reader reader)
         {
             uint id = reader.ReadUInt32();
-            var sub_type = (ItemSubTypePrimitive)reader.ReadByte();
+            var subType = (ItemSubTypePrimitive)reader.ReadByte();
             var type = (ItemTypePrimitive)reader.ReadUInt32();
             byte rarity = reader.ReadByte();
-            byte carry_limit = reader.ReadByte();
-            byte unk_limit = reader.ReadByte();
-            ushort sort_order = reader.ReadUInt16();
+            byte carryLimit = reader.ReadByte();
+            byte unknownLimit = reader.ReadByte();
+            ushort sortOrder = reader.ReadUInt16();
             var flags = (ItemFlagsPrimitive)reader.ReadUInt32();
-            uint icon_id = reader.ReadUInt32();
-            ushort icon_color = reader.ReadUInt16();
-            uint sell_price = reader.ReadUInt32();
-            uint buy_price = reader.ReadUInt32();
+            uint iconId = reader.ReadUInt32();
+            ushort iconColor = reader.ReadUInt16();
+            uint sellPrice = reader.ReadUInt32();
+            uint buyPrice = reader.ReadUInt32();
 
-            return new ItemEntryPrimitive
-            {
-                id = id,
-                sub_type = sub_type,
-                type = type,
-                rarity = rarity,
-                carry_limit = carry_limit,
-                unk_limit = unk_limit,
-                sort_order = sort_order,
-                flags = flags,
-                icon_id = icon_id,
-                icon_color = icon_color,
-                sell_price = sell_price,
-                buy_price = buy_price
-            };
+            return new ItemEntryPrimitive(
+                id,
+                subType,
+                type,
+                rarity,
+                carryLimit,
+                unknownLimit,
+                sortOrder,
+                flags,
+                iconId,
+                iconColor,
+                sellPrice,
+                buyPrice
+            );
         }
     }
 }

@@ -8,12 +8,12 @@ namespace MHWMasterDataUtils.Weapons.Primitives
 {
     public class MeleeWeaponPrimitiveBase : WeaponPrimitiveBase
     {
-        public byte SharpnessId { get; }
-        public byte Handicraft { get; }
-        public ushort Weapon1Id { get; }
-        public ushort Weapon2Id { get; }
+        public readonly byte SharpnessId;
+        public readonly byte Handicraft;
+        public readonly ushort Weapon1Id;
+        public readonly ushort Weapon2Id;
 
-        MeleeWeaponPrimitiveBase(
+        private MeleeWeaponPrimitiveBase(
             WeaponClass weaponClass,
             uint id,
             ushort baseModelId,

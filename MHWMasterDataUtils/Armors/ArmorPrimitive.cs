@@ -7,43 +7,43 @@ namespace MHWMasterDataUtils.Armors
 {
     public class ArmorPrimitive : IComparable<ArmorPrimitive>
     {
-        public ushort Id { get; }
-        public ushort Order { get; }
-        public ArmorVariantPrimitive Variant { get; }
-        public ushort SetId { get; }
-        public ArmorTypePrimitive Type { get; }
-        public EquipmentTypePrimitive EquipSlot { get; }
-        public ushort Defense { get; }
-        public ushort ModelMainId { get; }
-        public ushort ModelSecondaryId { get; }
-        public byte IconColor { get; }
-        public byte IconEffect { get; }
-        public byte Rarity { get; }
-        public uint CraftingCost { get; }
-        public sbyte FireRes { get; }
-        public sbyte WaterRes { get; }
-        public sbyte IceRes { get; }
-        public sbyte ThunderRes { get; }
-        public sbyte DragonRes { get; }
-        public byte GemSlots { get; }
-        public byte GemSlot1 { get; }
-        public byte GemSlot2 { get; }
-        public byte GemSlot3 { get; }
-        public ushort SetSkill1Id { get; }
-        public byte SetSkill1Level { get; }
-        public ushort SetSkill2Id { get; }
-        public byte SetSkill2Level { get; }
-        public ushort Skill1Id { get; }
-        public byte Skill1Level { get; }
-        public ushort Skill2Id { get; }
-        public byte Skill2Level { get; }
-        public ushort Skill3Id { get; }
-        public byte Skill3Level { get; }
-        public GenderPrimitive Gender { get; }
-        public ushort SetGroup { get; }
-        public ushort GmdNameIndex { get; }
-        public ushort GmdDescriptionIndex { get; }
-        public PemanentPrimitive IsPermanent { get; }
+        public readonly ushort Id;
+        public readonly ushort Order;
+        public readonly ArmorVariantPrimitive Variant;
+        public readonly ushort SetId;
+        public readonly ArmorTypePrimitive Type;
+        public readonly EquipmentTypePrimitive EquipSlot;
+        public readonly ushort Defense;
+        public readonly ushort ModelMainId;
+        public readonly ushort ModelSecondaryId;
+        public readonly byte IconColor;
+        public readonly byte IconEffect;
+        public readonly byte Rarity;
+        public readonly uint CraftingCost;
+        public readonly sbyte FireRes;
+        public readonly sbyte WaterRes;
+        public readonly sbyte IceRes;
+        public readonly sbyte ThunderRes;
+        public readonly sbyte DragonRes;
+        public readonly byte GemSlots;
+        public readonly byte GemSlot1;
+        public readonly byte GemSlot2;
+        public readonly byte GemSlot3;
+        public readonly ushort SetSkill1Id;
+        public readonly byte SetSkill1Level;
+        public readonly ushort SetSkill2Id;
+        public readonly byte SetSkill2Level;
+        public readonly ushort Skill1Id;
+        public readonly byte Skill1Level;
+        public readonly ushort Skill2Id;
+        public readonly byte Skill2Level;
+        public readonly ushort Skill3Id;
+        public readonly byte Skill3Level;
+        public readonly GenderPrimitive Gender;
+        public readonly ushort SetGroup;
+        public readonly ushort GmdNameIndex;
+        public readonly ushort GmdDescriptionIndex;
+        public readonly PemanentPrimitive IsPermanent;
 
         private ArmorPrimitive(
             ushort id,
