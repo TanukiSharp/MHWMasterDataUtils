@@ -4,12 +4,12 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Equipments
 {
-    public enum ArmorClass
+    public enum EquipmentTypePrimitive : sbyte
     {
         Head,
         Chest,
-        Arms,
         Waist,
+        Arms,
         Legs,
         Charm
     }
