@@ -28,7 +28,7 @@ namespace MHWMasterDataUtils.Sharpness
 
         public override bool IsChunkFileMatching(string chunkFullFilename)
         {
-            return chunkFullFilename == @"\common\equip\kireaji.kire";
+            return chunkFullFilename == "/common/equip/kireaji.kire";
         }
 
         private uint ReadHeader(Reader reader)

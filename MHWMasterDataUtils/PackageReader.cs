@@ -60,7 +60,7 @@ namespace MHWMasterDataUtils
             lock (nameBuffer)
             {
                 reader.Read(nameBuffer, 0, nameBuffer.Length);
-                chunkFullFilename = NativeUtils.GetFirstString(nameBuffer, Encoding.UTF8);
+                chunkFullFilename = NativeUtils.GetFirstString(nameBuffer, Encoding.UTF8).Replace('\\', '/');
             }
 
             long fileSize = reader.ReadInt64();

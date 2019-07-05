@@ -10,7 +10,7 @@ namespace MHWMasterDataUtils.Weapons
     {
         public override bool IsChunkFileMatching(string filename)
         {
-            return filename == "\\common\\equip\\bottle_table.bbtbl";
+            return filename == "/common/equip/bottle_table.bbtbl";
         }
 
         public override Task ProcessChunkFile(Stream stream, string packageFilename)

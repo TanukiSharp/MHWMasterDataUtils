@@ -21,7 +21,7 @@ namespace MHWMasterDataUtils.Weapons
             if (chunkFullFilename.EndsWith(".wp_dat") == false && chunkFullFilename.EndsWith(".wp_dat_g") == false)
                 return false;
 
-            if (chunkFullFilename.StartsWith(@"\common\equip\") == false)
+            if (chunkFullFilename.StartsWith("/common/equip/") == false)
                 return false;
 
             return true;

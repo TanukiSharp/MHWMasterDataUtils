@@ -10,7 +10,7 @@ namespace MHWMasterDataUtils.Items
     {
         public override bool IsChunkFileMatching(string chunkFullFilename)
         {
-            return chunkFullFilename == @"\common\item\itemData.itm";
+            return chunkFullFilename == "/common/item/itemData.itm";
         }
 
         public ItemsPackageProcessor()

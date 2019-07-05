@@ -38,7 +38,7 @@ namespace MHWMasterDataUtils.Tester
 
         private static bool IsWeaponLanguageFile(string filename)
         {
-            if (filename.StartsWith(@"\common\text\steam\") == false || filename.EndsWith(".gmd") == false)
+            if (filename.StartsWith("/common/text/steam/") == false || filename.EndsWith(".gmd") == false)
                 return false;
 
             filename = Path.GetFileNameWithoutExtension(filename);
@@ -62,21 +62,21 @@ namespace MHWMasterDataUtils.Tester
 
             ILogger logger = new ConsoleLogger(null, LogLevel.Debug);
 
-            var greatSwordLanguages = new LanguagePackageProcessor(x => x == @"\common\text\vfont\l_sword_eng.gmd");
+            var greatSwordLanguages = new LanguagePackageProcessor(x => x == "/common/text/vfont/l_sword_eng.gmd");
 
             var fileProcessors = new IPackageProcessor[]
             {
-                new CraftPackageProcessor(@"\common\equip\armor.eq_crt"),
-                new CraftPackageProcessor(@"\common\equip\weapon.eq_crt"),
-                new CraftPackageProcessor(@"\common\equip\ot_equip.eq_crt"),
-                new CraftPackageProcessor(@"\common\equip\equip_custom.eq_cus"),
-                new CraftPackageProcessor(@"\common\equip\weapon.eq_cus"),
+                new CraftPackageProcessor("/common/equip/armor.eq_crt"),
+                new CraftPackageProcessor("/common/equip/weapon.eq_crt"),
+                new CraftPackageProcessor("/common/equip/ot_equip.eq_crt"),
+                new CraftPackageProcessor("/common/equip/equip_custom.eq_cus"),
+                new CraftPackageProcessor("/common/equip/weapon.eq_cus"),
 
                 new ItemsPackageProcessor(),
                 new PrintFilenamePackageProcessor(logger),
                 new SharpnessPackageProcessor(),
                 //new LanguagePackageProcessor(IsWeaponLanguageFile),
-                new LanguagePackageProcessor(x => x == @"\common\text\steam\wep_series_eng.gmd"),
+                new LanguagePackageProcessor(x => x == "/common/text/steam/wep_series_eng.gmd"),
                 greatSwordLanguages,
                 new BottleTablePackageProcessor(),
                 new WeaponsPackageProcessor(),
