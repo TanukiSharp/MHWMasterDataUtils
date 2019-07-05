@@ -6,78 +6,106 @@ namespace MHWMasterDataUtils.Crafting
 {
     public class CraftEntryPrimitive : IEquatable<CraftEntryPrimitive>
     {
-        public byte equip_type;
-        public ushort equip_id;
-        public ushort key_item;
-        public uint rank;
-        public ushort item1_id; // see ITM
-        public byte item1_qty;
-        public ushort item2_id; // see ITM
-        public byte item2_qty;
-        public ushort item3_id; // see ITM
-        public byte item3_qty;
-        public ushort item4_id; // see ITM
-        public byte item4_qty;
+        public readonly byte EquipType;
+        public readonly ushort EquipId;
+        public readonly ushort KeyItem;
+        public readonly uint Rank;
+        public readonly ushort Item1Id; // see ITM
+        public readonly byte Item1Quantity;
+        public readonly ushort Item2Id; // see ITM
+        public readonly byte Item2Quantity;
+        public readonly ushort Item3Id; // see ITM
+        public readonly byte Item3Quantity;
+        public readonly ushort Item4Id; // see ITM
+        public readonly byte Item4Quantity;
+
+        private CraftEntryPrimitive(
+            byte equipType,
+            ushort equipId,
+            ushort keyItem,
+            uint rank,
+            ushort item1Id,
+            byte item1Quantity,
+            ushort item2Id,
+            byte item2Quantity,
+            ushort item3Id,
+            byte item3Quantity,
+            ushort item4Id,
+            byte item4Quantity
+        )
+        {
+            EquipType = equipType;
+            EquipId = equipId;
+            KeyItem = keyItem;
+            Rank = rank;
+            Item1Id = item1Id;
+            Item1Quantity = item1Quantity;
+            Item2Id = item2Id;
+            Item2Quantity = item2Quantity;
+            Item3Id = item3Id;
+            Item3Quantity = item3Quantity;
+            Item4Id = item4Id;
+            Item4Quantity = item4Quantity;
+        }
 
         public static CraftEntryPrimitive Read(Reader reader)
         {
-            byte equip_type = reader.ReadByte();
-            ushort equip_id = reader.ReadUInt16();
-            ushort key_item = reader.ReadUInt16();
+            byte equipType = reader.ReadByte();
+            ushort equipId = reader.ReadUInt16();
+            ushort keyItem = reader.ReadUInt16();
             reader.Offset(8); // Skipp unknown1 and unknown2.
             uint rank = reader.ReadUInt32();
-            ushort item1_id = reader.ReadUInt16();
-            byte item1_qty = reader.ReadByte();
-            ushort item2_id = reader.ReadUInt16();
-            byte item2_qty = reader.ReadByte();
-            ushort item3_id = reader.ReadUInt16();
-            byte item3_qty = reader.ReadByte();
-            ushort item4_id = reader.ReadUInt16();
-            byte item4_qty = reader.ReadByte();
+            ushort item1Id = reader.ReadUInt16();
+            byte item1Quantity = reader.ReadByte();
+            ushort item2Id = reader.ReadUInt16();
+            byte item2Quantity = reader.ReadByte();
+            ushort item3Id = reader.ReadUInt16();
+            byte item3Quantity = reader.ReadByte();
+            ushort item4Id = reader.ReadUInt16();
+            byte item4Quantity = reader.ReadByte();
             reader.Offset(4); // Skip unknown3, unknown4, unknown5 and unknown6.
 
-            return new CraftEntryPrimitive
-            {
-                equip_type = equip_type,
-                equip_id = equip_id,
-                key_item = key_item,
-                rank = rank,
-                item1_id = item1_id,
-                item1_qty = item1_qty,
-                item2_id = item2_id,
-                item2_qty = item2_qty,
-                item3_id = item3_id,
-                item3_qty = item3_qty,
-                item4_id = item4_id,
-                item4_qty = item4_qty
-            };
+            return new CraftEntryPrimitive(
+                equipType,
+                equipId,
+                keyItem,
+                rank,
+                item1Id,
+                item1Quantity,
+                item2Id,
+                item2Quantity,
+                item3Id,
+                item3Quantity,
+                item4Id,
+                item4Quantity
+            );
         }
 
         public bool Equals(CraftEntryPrimitive other)
         {
-            if (other.equip_type != equip_type)
+            if (other.EquipType != EquipType)
                 return false;
-            if (other.equip_id != equip_id)
+            if (other.EquipId != EquipId)
                 return false;
-            if (other.key_item != key_item)
+            if (other.KeyItem != KeyItem)
                 return false;
-            if (other.rank != rank)
+            if (other.Rank != Rank)
                 return false;
-            if (other.item1_id != item1_id)
+            if (other.Item1Id != Item1Id)
                 return false;
-            if (other.item1_qty != item1_qty)
+            if (other.Item1Quantity != Item1Quantity)
                 return false;
-            if (other.item2_id != item2_id)
+            if (other.Item2Id != Item2Id)
                 return false;
-            if (other.item2_qty != item2_qty)
+            if (other.Item2Quantity != Item2Quantity)
                 return false;
-            if (other.item3_id != item3_id)
+            if (other.Item3Id != Item3Id)
                 return false;
-            if (other.item3_qty != item3_qty)
+            if (other.Item3Quantity != Item3Quantity)
                 return false;
-            if (other.item4_id != item4_id)
+            if (other.Item4Id != Item4Id)
                 return false;
-            if (other.item4_qty != item4_qty)
+            if (other.Item4Quantity != Item4Quantity)
                 return false;
 
             return true;

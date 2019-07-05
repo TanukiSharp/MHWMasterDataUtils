@@ -27,7 +27,7 @@ namespace MHWMasterDataUtils.Crafting
         }
 
         public CraftPackageProcessor(IEnumerable<string> matchingChunkFullFilenames)
-            : base(0x0051, CraftEntryPrimitive.Read, x => x.equip_id)
+            : base(0x0051, CraftEntryPrimitive.Read, x => x.EquipId)
         {
             this.matchingChunkFullFilenames = matchingChunkFullFilenames;
         }
