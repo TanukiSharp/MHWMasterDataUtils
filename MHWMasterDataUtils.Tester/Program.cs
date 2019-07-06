@@ -63,7 +63,7 @@ namespace MHWMasterDataUtils.Tester
 
             ILogger logger = new ConsoleLogger(null, LogLevel.Debug);
 
-            var greatSwordLanguages = new LanguagePackageProcessor(x => x == "/common/text/vfont/l_sword_eng.gmd");
+            var greatSwordLanguages = new LanguagePackageProcessor("vfont/l_sword_eng", x => x == "/common/text/vfont/l_sword_eng.gmd");
 
             var fileProcessors = new IPackageProcessor[]
             {
@@ -81,8 +81,17 @@ namespace MHWMasterDataUtils.Tester
                 new PrintFilenamePackageProcessor(logger),
                 new SharpnessPackageProcessor(),
                 //new LanguagePackageProcessor(IsWeaponLanguageFile),
-                new LanguagePackageProcessor(x => x == "/common/text/steam/wep_series_eng.gmd"),
+                new LanguagePackageProcessor("wep_series_eng", x => x == "/common/text/steam/wep_series_eng.gmd"),
                 greatSwordLanguages,
+                new LanguagePackageProcessor("steam/item_eng", x => x == "/common/text/steam/item_eng.gmd"),
+                new LanguagePackageProcessor("cm_item_eng", x => x == "/common/text/cm_item_eng.gmd"),
+                new LanguagePackageProcessor("item_eng", x => x == "/common/text/item_eng.gmd"),
+                new LanguagePackageProcessor("vfont/item_eng", x => x == "/common/text/vfont/item_eng.gmd"),
+                new LanguagePackageProcessor("a_skill_eng", x => x == "/common/text/a_skill_eng.gmd"),
+
+                new LanguagePackageProcessor("vfont/skill_eng", x => x == "/common/text/vfont/skill_eng.gmd"),
+                new LanguagePackageProcessor("vfont/skill_pt_eng", x => x == "/common/text/vfont/skill_pt_eng.gmd"),
+
                 new BottleTablePackageProcessor(),
                 new WeaponsPackageProcessor(),
             };

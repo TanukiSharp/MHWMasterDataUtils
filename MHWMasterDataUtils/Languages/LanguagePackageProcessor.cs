@@ -11,12 +11,15 @@ namespace MHWMasterDataUtils.Languages
     {
         public delegate bool FileMatchHandler(string packageFilename);
 
+        public string Hint { get; }
         private readonly FileMatchHandler fileMatcher;
 
-        public LanguagePackageProcessor(FileMatchHandler fileMatcher)
+        public LanguagePackageProcessor(string hint, FileMatchHandler fileMatcher)
         {
             if (fileMatcher == null)
                 throw new ArgumentNullException(nameof(fileMatcher));
+
+            Hint = hint;
 
             this.fileMatcher = fileMatcher;
         }
@@ -86,7 +89,6 @@ namespace MHWMasterDataUtils.Languages
             return Task.CompletedTask;
         }
 
-
         private static List<string> ParseStringBlock(byte[] stringBlock)
         {
             int index = 0;
@@ -104,6 +106,11 @@ namespace MHWMasterDataUtils.Languages
             for (uint i = 0; i < header.KeyCount; i++)
                 infoEntries[i] = LanguageInfoEntryPrimitive.Read(reader);
             return infoEntries;
+        }
+
+        public override string ToString()
+        {
+            return $"[GMD] {Hint}";
         }
     }
 }
