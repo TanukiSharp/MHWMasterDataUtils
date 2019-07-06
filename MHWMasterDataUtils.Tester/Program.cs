@@ -67,6 +67,8 @@ namespace MHWMasterDataUtils.Tester
 
             var fileProcessors = new IPackageProcessor[]
             {
+                new AmmoPackageProcessor(),
+
                 new JewelPackageProcessor(),
 
                 new CraftPackageProcessor("/common/equip/armor.eq_crt"),
