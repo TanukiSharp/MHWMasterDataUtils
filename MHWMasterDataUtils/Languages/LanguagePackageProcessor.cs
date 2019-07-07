@@ -39,9 +39,6 @@ namespace MHWMasterDataUtils.Languages
 
         private void TryAddEntry(LanguageIdPrimitive languageId, uint index, string key, string value)
         {
-            if (value == "Invalid Message")
-                return;
-
             Dictionary<uint, LanguageItem> entries = GetOrAddLanguageEntries(languageId);
 
             if (entries.ContainsKey(index) == false)
