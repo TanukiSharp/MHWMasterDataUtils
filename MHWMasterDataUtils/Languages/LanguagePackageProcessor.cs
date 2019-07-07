@@ -11,17 +11,17 @@ namespace MHWMasterDataUtils.Languages
     {
         public delegate bool FileMatchHandler(string packageFilename);
 
-        public string Hint { get; }
-        private readonly FileMatchHandler fileMatcher;
+        public string RegexPattern { get; }
+        private readonly Regex fileMatcher;
 
-        public LanguagePackageProcessor(string hint, FileMatchHandler fileMatcher)
+        public LanguagePackageProcessor(string regexPattern)
         {
-            if (fileMatcher == null)
-                throw new ArgumentNullException(nameof(fileMatcher));
+            if (regexPattern == null)
+                throw new ArgumentNullException(nameof(regexPattern));
 
-            Hint = hint;
+            RegexPattern = regexPattern;
 
-            this.fileMatcher = fileMatcher;
+            fileMatcher = new Regex(regexPattern);
         }
 
         public override Task PreProcess()
@@ -32,7 +32,7 @@ namespace MHWMasterDataUtils.Languages
 
         public override bool IsChunkFileMatching(string chunkFullFilename)
         {
-            return fileMatcher(chunkFullFilename);
+            return fileMatcher.IsMatch(chunkFullFilename);
         }
 
         public Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> Table { get; } = new Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>>();
@@ -110,7 +110,7 @@ namespace MHWMasterDataUtils.Languages
 
         public override string ToString()
         {
-            return $"[GMD] {Hint}";
+            return $"[GMD] {RegexPattern}";
         }
     }
 }
