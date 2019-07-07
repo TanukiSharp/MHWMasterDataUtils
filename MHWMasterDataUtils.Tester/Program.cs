@@ -1,3 +1,4 @@
+using MHWMasterDataUtils.Builders;
 using MHWMasterDataUtils.Crafting;
 using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Items;
@@ -6,6 +7,7 @@ using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Sharpness;
 using MHWMasterDataUtils.Weapons;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System;
 using System.IO;
 using System.Text.RegularExpressions;
@@ -42,6 +44,7 @@ namespace MHWMasterDataUtils.Tester
             var weaponCraft = new CraftPackageProcessor("/common/equip/weapon.eq_crt");
 
             var greatSwordLanguages = new LanguagePackageProcessor("/common/text/vfont/l_sword_\\w{3}.gmd");
+
             var weaponSeriesLanguages = new LanguagePackageProcessor("/common/text/steam/wep_series_\\w{3}.gmd");
             var steamItemsLanguages = new LanguagePackageProcessor("/common/text/steam/item_\\w{3}.gmd");
             var cmItemsLanguages = new LanguagePackageProcessor("/common/text/cm_item_\\w{3}.gmd");
@@ -83,7 +86,10 @@ namespace MHWMasterDataUtils.Tester
             var packageReader = new PackageReader(logger, fileProcessors);
             await packageReader.Run(packagesFullPath);
 
-            Weapons.LoadSharpnessWeapon(
+            WeaponTreeName[] weaponTrees = new WeaponTreesBuilder(weaponSeriesLanguages, weapons).Build();
+            SerializeJson(nameof(weaponTrees), weaponTrees);
+
+            new SharpnessWeaponsBuilder(
                 WeaponClass.GreatSword,
                 equipmentUpgrades,
                 weaponCraft,
@@ -91,8 +97,30 @@ namespace MHWMasterDataUtils.Tester
                 items,
                 sharpness,
                 greatSwordLanguages,
+                weaponSeriesLanguages,
                 weapons
-            );
+            ).Build();
+        }
+
+        private static void SerializeJson(string filename, object instance)
+        {
+            using (var sw = new StringWriter())
+            {
+                using (var jw = new JsonTextWriter(sw))
+                {
+                    jw.Formatting = Formatting.Indented;
+                    jw.IndentChar = ' ';
+                    jw.Indentation = 4;
+
+                    var serializer = new JsonSerializer
+                    {
+                        NullValueHandling = NullValueHandling.Ignore
+                    };
+                    serializer.Serialize(jw, instance);
+
+                    File.WriteAllText(Path.Combine(AppContext.BaseDirectory, $"{filename}.json"), sw.ToString());
+                }
+            }
         }
     }
 }
