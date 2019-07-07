@@ -11,7 +11,7 @@ namespace MHWMasterDataUtils.Weapons
 {
     public class WeaponsPackageProcessor : PackageProcessorBase
     {
-        private List<WeaponPrimitiveBase> weapons = new List<WeaponPrimitiveBase>();
+        public readonly Dictionary<WeaponClass, Dictionary<uint, WeaponPrimitiveBase>> Table = new Dictionary<WeaponClass, Dictionary<uint, WeaponPrimitiveBase>>();
 
         public const ushort MeleeWeaponHeaderValue = 0x0186;
         public const ushort RangeWeaponHeaderValue = 0x01B1;
@@ -29,7 +29,7 @@ namespace MHWMasterDataUtils.Weapons
 
         public static WeaponClass GetWeaponClassByFilename(string chunkFilename)
         {
-            if (WeaponsFilenameUtils.WeaponFilenameToClass.TryGetValue(chunkFilename, out WeaponClass weaponClass))
+            if (WeaponsUtils.WeaponFilenameToClass.TryGetValue(chunkFilename, out WeaponClass weaponClass))
                 return weaponClass;
 
             return WeaponClass.None;
@@ -72,23 +72,23 @@ namespace MHWMasterDataUtils.Weapons
             return Task.CompletedTask;
         }
 
-        public WeaponPrimitiveBase FindWeapon(WeaponClass weaponClass, uint id)
+        private Dictionary<uint, WeaponPrimitiveBase> GetOrAddWeaponMap(WeaponClass weaponClass)
         {
-            foreach (WeaponPrimitiveBase weapon in weapons)
+            if (Table.TryGetValue(weaponClass, out Dictionary<uint, WeaponPrimitiveBase> weapons) == false)
             {
-                if (weapon.WeaponClass == weaponClass && weapon.Id == id)
-                    return weapon;
+                weapons = new Dictionary<uint, WeaponPrimitiveBase>();
+                Table.Add(weaponClass, weapons);
             }
 
-            return null;
+            return weapons;
         }
 
         private void TryAddWeapon(WeaponPrimitiveBase weaponToAdd)
         {
-            if (FindWeapon(weaponToAdd.WeaponClass, weaponToAdd.Id) != null)
-                return;
+            Dictionary<uint, WeaponPrimitiveBase> weapons = GetOrAddWeaponMap(weaponToAdd.WeaponClass);
 
-            weapons.Add(weaponToAdd);
+            if (weapons.ContainsKey(weaponToAdd.Id) == false)
+                weapons.Add(weaponToAdd.Id, weaponToAdd);
         }
 
         private void ProcessMeleeWeapons(Reader reader, uint numEntries, WeaponClass weaponClass)
@@ -107,16 +107,6 @@ namespace MHWMasterDataUtils.Weapons
                 WeaponPrimitiveBase weapon = RangeWeaponPrimitiveBase.Read(weaponClass, reader);
                 TryAddWeapon(weapon);
             }
-        }
-
-        public override Task PostProcess()
-        {
-            weapons = weapons
-                .OrderBy(x => x.WeaponClass)
-                .ThenBy(x => x.Id)
-                .ToList();
-
-            return base.PostProcess();
         }
     }
 }
