@@ -1,4 +1,5 @@
 using MHWMasterDataUtils.Crafting;
+using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Items;
 using MHWMasterDataUtils.Jewels;
 using MHWMasterDataUtils.Languages;
@@ -25,46 +26,73 @@ namespace MHWMasterDataUtils.Tester
 
             ILogger logger = new ConsoleLogger(null, LogLevel.Debug);
 
-            var greatSwordLanguages = new LanguagePackageProcessor("vfont/l_sword_eng", x => x == "/common/text/vfont/l_sword_eng.gmd");
+            var DEBUG = new PrintFilenamePackageProcessor(logger);
+
+            var equipmentUpgrades = new WeaponUpgradePackageProcessor("/common/equip/equip_custom.eq_cus");
+            var insectUpgrades = new WeaponUpgradePackageProcessor("/common/equip/insect.eq_cus");
+            var insectElemntUpgrades = new WeaponUpgradePackageProcessor("/common/equip/insect_element.eq_cus");
+            var weaponUpgrades = new WeaponUpgradePackageProcessor("/common/equip/weapon.eq_cus");
+
+            var armors = new AmmoPackageProcessor();
+            var jewels = new JewelPackageProcessor();
+            var items = new ItemsPackageProcessor();
+            var sharpness = new SharpnessPackageProcessor();
+
+            var armorCraft = new CraftPackageProcessor("/common/equip/armor.eq_crt");
+            var weaponCraft = new CraftPackageProcessor("/common/equip/weapon.eq_crt");
+
+            var greatSwordLanguages = new LanguagePackageProcessor("/common/text/vfont/l_sword_\\w{3}.gmd");
+            var weaponSeriesLanguages = new LanguagePackageProcessor("/common/text/steam/wep_series_\\w{3}.gmd");
+            var steamItemsLanguages = new LanguagePackageProcessor("/common/text/steam/item_\\w{3}.gmd");
+            var cmItemsLanguages = new LanguagePackageProcessor("/common/text/cm_item_\\w{3}.gmd");
+            var itemsLanguages = new LanguagePackageProcessor("/common/text/item_\\w{3}.gmd");
+            var vfontItemsLanguaegs = new LanguagePackageProcessor("/common/text/vfont/item_\\w{3}.gmd");
+            var skillsLanguages = new LanguagePackageProcessor("/common/text/a_skill_\\{3}.gmd");
+            var vfontSkillsLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_\\w{3}.gmd");
+            var vfontSkillsPtLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_pt_\\{3}.gmd");
+
+            var bowBootles = new BottleTablePackageProcessor();
+            var weapons = new WeaponsPackageProcessor();
 
             var fileProcessors = new IPackageProcessor[]
             {
-                new WeaponUpgradePackageProcessor("/common/equip/equip_custom.eq_cus"),
-                new WeaponUpgradePackageProcessor("/common/equip/insect.eq_cus"),
-                new WeaponUpgradePackageProcessor("/common/equip/insect_element.eq_cus"),
-                new WeaponUpgradePackageProcessor("/common/equip/weapon.eq_cus"),
-
-                new AmmoPackageProcessor(),
-
-                new JewelPackageProcessor(),
-
-                new CraftPackageProcessor("/common/equip/armor.eq_crt"),
-                new CraftPackageProcessor("/common/equip/weapon.eq_crt"),
-                new CraftPackageProcessor("/common/equip/ot_equip.eq_crt"),
-                new CraftPackageProcessor("/common/equip/equip_custom.eq_cus"),
-                new CraftPackageProcessor("/common/equip/weapon.eq_cus"),
-
-                new ItemsPackageProcessor(),
-                new PrintFilenamePackageProcessor(logger),
-                new SharpnessPackageProcessor(),
-                //new LanguagePackageProcessor(IsWeaponLanguageFile),
-                new LanguagePackageProcessor("wep_series_eng", x => x == "/common/text/steam/wep_series_eng.gmd"),
+                DEBUG,
+                equipmentUpgrades,
+                insectUpgrades,
+                insectElemntUpgrades,
+                weaponUpgrades,
+                armors,
+                jewels,
+                items,
+                sharpness,
+                armorCraft,
+                weaponCraft,
                 greatSwordLanguages,
-                new LanguagePackageProcessor("steam/item_eng", x => x == "/common/text/steam/item_eng.gmd"),
-                new LanguagePackageProcessor("cm_item_eng", x => x == "/common/text/cm_item_eng.gmd"),
-                new LanguagePackageProcessor("item_eng", x => x == "/common/text/item_eng.gmd"),
-                new LanguagePackageProcessor("vfont/item_eng", x => x == "/common/text/vfont/item_eng.gmd"),
-                new LanguagePackageProcessor("a_skill_eng", x => x == "/common/text/a_skill_eng.gmd"),
-
-                new LanguagePackageProcessor("vfont/skill_eng", x => x == "/common/text/vfont/skill_eng.gmd"),
-                new LanguagePackageProcessor("vfont/skill_pt_eng", x => x == "/common/text/vfont/skill_pt_eng.gmd"),
-
-                new BottleTablePackageProcessor(),
-                new WeaponsPackageProcessor(),
+                weaponSeriesLanguages,
+                steamItemsLanguages,
+                cmItemsLanguages,
+                itemsLanguages,
+                vfontItemsLanguaegs,
+                skillsLanguages,
+                vfontSkillsLanguages,
+                vfontSkillsPtLanguages,
+                bowBootles,
+                weapons,
             };
 
             var packageReader = new PackageReader(logger, fileProcessors);
             await packageReader.Run(packagesFullPath);
+
+            Weapons.LoadSharpnessWeapon(
+                WeaponClass.GreatSword,
+                equipmentUpgrades,
+                weaponCraft,
+                weaponUpgrades,
+                items,
+                sharpness,
+                greatSwordLanguages,
+                weapons
+            );
         }
     }
 }
