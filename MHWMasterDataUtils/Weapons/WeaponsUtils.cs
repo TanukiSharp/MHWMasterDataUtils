@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 using MHWMasterDataUtils.Equipments;
+using MHWMasterDataUtils.Weapons.HighLevel;
 
 namespace MHWMasterDataUtils.Weapons
 {
-    public static class WeaponsFilenameUtils
+    public static class WeaponsUtils
     {
         public static Dictionary<string, WeaponClass> WeaponFilenameToClass { get; } = new Dictionary<string, WeaponClass>
         {
@@ -42,5 +43,28 @@ namespace MHWMasterDataUtils.Weapons
             [WeaponClass.HeavyBowgun] = "hbg",
             [WeaponClass.Bow] = "bow"
         };
+
+        public static WeaponType FromWeaponClass(WeaponClass weaponClass)
+        {
+            switch (weaponClass)
+            {
+                case WeaponClass.GreatSword: return WeaponType.GreatSword;
+                case WeaponClass.SwordAndShield: return WeaponType.SwordAndShield;
+                case WeaponClass.DualBlades: return WeaponType.DualBlades;
+                case WeaponClass.LongSword: return WeaponType.LongSword;
+                case WeaponClass.Hammer: return WeaponType.Hammer;
+                case WeaponClass.HuntingHorn: return WeaponType.HuntingHorn;
+                case WeaponClass.Lance: return WeaponType.Lance;
+                case WeaponClass.Gunlance: return WeaponType.Gunlance;
+                case WeaponClass.SwitchAxe: return WeaponType.SwitchAxe;
+                case WeaponClass.ChargeBlade: return WeaponType.ChargeBlade;
+                case WeaponClass.InsectGlaive: return WeaponType.InsectGlaive;
+                case WeaponClass.Bow: return WeaponType.Bow;
+                case WeaponClass.HeavyBowgun: return WeaponType.HeavyBowgun;
+                case WeaponClass.LightBowgun: return WeaponType.LightBowgun;
+            }
+
+            throw new ArgumentException($"Invalid '{nameof(weaponClass)}' argument. Unknown value '{weaponClass}'.");
+        }
     }
 }
