@@ -25,6 +25,19 @@ namespace MHWMasterDataUtils.Sharpness
             Purple = purple;
         }
 
+        public static SharpnessInfo FromAbsoluteValues(ushort red, ushort orange, ushort yellow, ushort green, ushort blue, ushort white, ushort purple)
+        {
+            return new SharpnessInfo(
+                red,
+                (ushort)(orange - red),
+                (ushort)(yellow - orange),
+                (ushort)(green - yellow),
+                (ushort)(blue - green),
+                (ushort)(white - blue),
+                purple > 0 ? (ushort)(purple - white) : (ushort)0
+            );
+        }
+
         public ushort[] ToArray()
         {
             return new ushort[]
@@ -51,6 +64,11 @@ namespace MHWMasterDataUtils.Sharpness
             output[4] = Blue;
             output[5] = White;
             output[6] = Purple;
+        }
+
+        public override string ToString()
+        {
+            return $"{Red}, {Orange}, {Yellow}, {Green}, {Blue}, {White}, {Purple}";
         }
     }
 }

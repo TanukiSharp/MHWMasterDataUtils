@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Weapons.HighLevel
 {
-    public enum EldersealPrimitive : byte
+    public enum Elderseal
     {
         None,
         Low,

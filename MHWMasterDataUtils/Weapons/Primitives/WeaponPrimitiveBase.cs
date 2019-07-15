@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using MHWMasterDataUtils.Equipments;
+using MHWMasterDataUtils.Weapons.HighLevel;
 
 namespace MHWMasterDataUtils.Weapons.Primitives
 {
@@ -24,7 +25,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public readonly ushort ElementDamage; // appears multiplied by 10 in game
         public readonly ElementStatus HiddenElementId; // 0: none, 1: fire, 2: water, 3: ice, 4: thunder, 5: dragon, 6: poison, 7: paralysis, 8: sleep, 9: blast
         public readonly ushort HiddenElementDamage; // appears multiplied by 10 in game
-        public readonly EldersealPrimitive Elderseal; // 0: none, 1: low, 2: average, 3: high
+        public readonly Elderseal Elderseal; // 0: none, 1: low, 2: average, 3: high
         public readonly byte GemSlots;
         public readonly byte GemSlot1;
         public readonly byte GemSlot2;
@@ -53,7 +54,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             ushort elementDamage,
             ElementStatus hiddenElementId,
             ushort hiddenElementDamage,
-            EldersealPrimitive elderseal,
+            Elderseal elderseal,
             byte gemSlots,
             byte gemSlot1,
             byte gemSlot2,

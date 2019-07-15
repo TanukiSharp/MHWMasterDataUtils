@@ -64,7 +64,7 @@ namespace MHWMasterDataUtils.Builders
                             break;
                         }
 
-                        name.Add(LanguageUtils.LanguageToStringCode(language), treeName);
+                        name.Add(LanguageUtils.LanguageIdToLanguageCode(language), treeName);
                     }
 
                     if (isDisabledTree)

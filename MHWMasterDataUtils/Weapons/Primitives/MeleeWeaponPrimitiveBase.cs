@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using MHWMasterDataUtils.Equipments;
+using MHWMasterDataUtils.Weapons.HighLevel;
 
 namespace MHWMasterDataUtils.Weapons.Primitives
 {
@@ -33,7 +34,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             ushort elementDamage,
             ElementStatus hiddenElementId,
             ushort hiddenElementDamage,
-            EldersealPrimitive elderseal,
+            Elderseal elderseal,
             byte gemSlots,
             byte gemSlot1,
             byte gemSlot2,
@@ -103,7 +104,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             ushort elementDamage = reader.ReadUInt16();
             var hiddenElementId = (ElementStatus)reader.ReadByte();
             ushort hiddenElementDamage = reader.ReadUInt16();
-            var elderseal = (EldersealPrimitive)reader.ReadByte();
+            var elderseal = (Elderseal)reader.ReadByte();
             byte gemSlots = reader.ReadByte();
             byte gemSlot1 = reader.ReadByte();
             byte gemSlot2 = reader.ReadByte();

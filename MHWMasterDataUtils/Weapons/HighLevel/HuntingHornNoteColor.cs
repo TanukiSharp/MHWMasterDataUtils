@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Weapons.HighLevel
 {
-    public enum HuntingHornNoteColorPrimitive : int
+    public enum HuntingHornNoteColor
     {
         Disabled = -1,
         Purple,

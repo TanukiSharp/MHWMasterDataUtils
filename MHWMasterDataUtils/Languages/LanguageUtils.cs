@@ -7,9 +7,48 @@ namespace MHWMasterDataUtils.Languages
 {
     public static class LanguageUtils
     {
+        public const string DefaultLanguageCode = "eng";
+
         public static LanguageIdPrimitive[] Languages { get; } = Enum.GetValues(typeof(LanguageIdPrimitive)).Cast<LanguageIdPrimitive>().ToArray();
 
-        public static string LanguageToStringCode(LanguageIdPrimitive language)
+        public static bool IsValidText(string message)
+        {
+            if (string.IsNullOrWhiteSpace(message))
+                return false;
+
+            if (message == "Invalid Message")
+                return false;
+
+            return true;
+        }
+
+        public static bool IsValidText(Dictionary<string, string> message)
+        {
+            if (message == null)
+                return false;
+
+            if (message["jpn"].Contains("dummy"))
+                return false;
+
+            return IsValidText(message[DefaultLanguageCode]);
+        }
+
+        public static Dictionary<string, string> CreateLocalizations(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> source, uint entryId)
+        {
+            var result = new Dictionary<string, string>();
+
+            foreach (LanguageIdPrimitive languageId in Languages)
+            {
+                if (source.TryGetValue(languageId, out Dictionary<uint, LanguageItem> language) == false)
+                    continue;
+
+                result.Add(LanguageIdToLanguageCode(languageId), language[entryId].Value);
+            }
+
+            return result;
+        }
+
+        public static string LanguageIdToLanguageCode(LanguageIdPrimitive language)
         {
             switch (language)
             {

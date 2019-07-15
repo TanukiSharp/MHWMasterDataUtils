@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Weapons.HighLevel;
+using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Weapons
 {
@@ -65,6 +66,47 @@ namespace MHWMasterDataUtils.Weapons
             }
 
             throw new ArgumentException($"Invalid '{nameof(weaponClass)}' argument. Unknown value '{weaponClass}'.");
+        }
+
+        public static ushort ComputeWeaponDamage(WeaponClass weaponClass, ushort rawDamage)
+        {
+            switch (weaponClass)
+            {
+                case WeaponClass.GreatSword: return (ushort)(rawDamage * RawDamageMultipliers.GreatSword);
+                case WeaponClass.SwordAndShield: return (ushort)(rawDamage * RawDamageMultipliers.SwordAndShield);
+                case WeaponClass.DualBlades: return (ushort)(rawDamage * RawDamageMultipliers.DualBlades);
+                case WeaponClass.LongSword: return (ushort)(rawDamage * RawDamageMultipliers.LongSword);
+                case WeaponClass.Hammer: return (ushort)(rawDamage * RawDamageMultipliers.Hammer);
+                case WeaponClass.HuntingHorn: return (ushort)(rawDamage * RawDamageMultipliers.HuntingHorn);
+                case WeaponClass.Lance: return (ushort)(rawDamage * RawDamageMultipliers.Lance);
+                case WeaponClass.Gunlance: return (ushort)(rawDamage * RawDamageMultipliers.Gunlance);
+                case WeaponClass.SwitchAxe: return (ushort)(rawDamage * RawDamageMultipliers.SwitchAxe);
+                case WeaponClass.ChargeBlade: return (ushort)(rawDamage * RawDamageMultipliers.ChargeBlade);
+                case WeaponClass.InsectGlaive: return (ushort)(rawDamage * RawDamageMultipliers.InsectGlaive);
+                case WeaponClass.Bow: return (ushort)(rawDamage * RawDamageMultipliers.Bow);
+                case WeaponClass.HeavyBowgun: return (ushort)(rawDamage * RawDamageMultipliers.HeavyBowgun);
+                case WeaponClass.LightBowgun: return (ushort)(rawDamage * RawDamageMultipliers.LightBowgun);
+            }
+
+            throw new ArgumentException($"Invalid '{nameof(weaponClass)}' argument. Unknown value '{weaponClass}'.");
+        }
+
+        public static ushort[] CreateSlotsArray(WeaponPrimitiveBase weapon)
+        {
+            ushort[] slots = new ushort[weapon.GemSlots];
+
+            if (slots.Length > 0)
+            {
+                slots[0] = weapon.GemSlot1;
+                if (slots.Length > 1)
+                {
+                    slots[1] = weapon.GemSlot2;
+                    if (slots.Length > 2)
+                        slots[2] = weapon.GemSlot3;
+                }
+            }
+
+            return slots;
         }
     }
 }

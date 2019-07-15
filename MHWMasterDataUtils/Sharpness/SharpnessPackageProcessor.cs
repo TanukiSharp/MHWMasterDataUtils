@@ -11,14 +11,13 @@ namespace MHWMasterDataUtils.Sharpness
         public const ushort HeaderValue = 0x0177;
         public Dictionary<uint, SharpnessInfo> Table { get; } = new Dictionary<uint, SharpnessInfo>();
 
-        private const int Id = 0;
-        private const int Red = 1;
-        private const int Orange = 2;
-        private const int Yellow = 3;
-        private const int Green = 1;
-        private const int Blue = 1;
-        private const int White = 1;
-        private const int Purple = 1;
+        private const int Red = 0;
+        private const int Orange = 1;
+        private const int Yellow = 2;
+        private const int Green = 3;
+        private const int Blue = 4;
+        private const int White = 5;
+        private const int Purple = 6;
 
         public override Task PreProcess()
         {
@@ -41,18 +40,22 @@ namespace MHWMasterDataUtils.Sharpness
             return reader.ReadUInt32();
         }
 
-        private static void ReadValues(Reader reader, ushort[] elements)
+        private static uint ReadValues(Reader reader, ushort[] elements)
         {
+            uint id = reader.ReadUInt32();
+
             for (int i = 0; i < elements.Length; i++)
                 elements[i] = reader.ReadUInt16();
+
+            return id;
         }
 
-        public void TryAddSharpnessValues(ushort[] sharpnessValues)
+        public void TryAddSharpnessValues(uint id, ushort[] sharpnessValues)
         {
-            if (Table.ContainsKey(sharpnessValues[Id]))
+            if (Table.ContainsKey(id))
                 return;
 
-            var sharpnessInfo = new SharpnessInfo(
+            var sharpnessInfo = SharpnessInfo.FromAbsoluteValues(
                 sharpnessValues[Red],
                 sharpnessValues[Orange],
                 sharpnessValues[Yellow],
@@ -62,12 +65,12 @@ namespace MHWMasterDataUtils.Sharpness
                 sharpnessValues[Purple]
             );
 
-            Table.Add(sharpnessValues[0], sharpnessInfo);
+            Table.Add(id, sharpnessInfo);
         }
 
         public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
-            ushort[] sharpnessValues = new ushort[8];
+            ushort[] sharpnessValues = new ushort[7];
 
             using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
             {
@@ -75,8 +78,8 @@ namespace MHWMasterDataUtils.Sharpness
 
                 for (uint i = 0; i < numEntries; i++)
                 {
-                    ReadValues(reader, sharpnessValues);
-                    TryAddSharpnessValues(sharpnessValues);
+                    uint id = ReadValues(reader, sharpnessValues);
+                    TryAddSharpnessValues(id, sharpnessValues);
                 }
             }
 

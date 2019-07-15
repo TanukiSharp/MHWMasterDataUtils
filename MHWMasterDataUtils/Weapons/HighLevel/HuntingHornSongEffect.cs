@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Weapons.HighLevel
 {
-    public enum HuntingHornSongIdPrimitive
+    public enum HuntingHornSongEffect
     {
         SelfImprovement,
         AttackUpS,
