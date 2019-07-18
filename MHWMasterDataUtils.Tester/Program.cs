@@ -1,4 +1,5 @@
 using MHWMasterDataUtils.Builders;
+using MHWMasterDataUtils.Core;
 using MHWMasterDataUtils.Crafting;
 using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Items;

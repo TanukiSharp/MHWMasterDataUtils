@@ -8,6 +8,8 @@ using MHWMasterDataUtils.Weapons;
 using MHWMasterDataUtils.Weapons.HighLevel;
 using MHWMasterDataUtils.Weapons.Primitives;
 
+using core = MHWMasterDataUtils.Core;
+
 namespace MHWMasterDataUtils.Builders
 {
     public class SharpnessWeaponBuilder
@@ -62,9 +64,9 @@ namespace MHWMasterDataUtils.Builders
             return result.ToArray();
         }
 
-        public SharpnessWeapon[] Build()
+        public core.SharpnessWeapon[] Build()
         {
-            var result = new List<SharpnessWeapon>();
+            var result = new List<core.SharpnessWeapon>();
 
             foreach (KeyValuePair<uint, WeaponPrimitiveBase> keyValue in weaponsPackageProcessor.Table[WeaponClass])
             {
@@ -77,13 +79,13 @@ namespace MHWMasterDataUtils.Builders
                 if (weaponName == null || weaponDescription == null || LanguageUtils.IsValidText(weaponName) == false)
                     continue;
 
-                if (sharpnessPackageProcessor.Table.TryGetValue(weapon.SharpnessId, out SharpnessInfo sharpnessInfo) == false)
+                if (sharpnessPackageProcessor.Table.TryGetValue(weapon.SharpnessId, out core.SharpnessInfo sharpnessInfo) == false)
                     continue;
 
-                SharpnessInfo maxSharpness = sharpnessPackageProcessor.Table[weapon.SharpnessId];
+                core.SharpnessInfo maxSharpness = sharpnessPackageProcessor.Table[weapon.SharpnessId];
 
                 ushort sharpnessModifier = SharpnessUtils.ToSharpnessModifier(weapon.Handicraft);
-                SharpnessInfo currentSharpness = SharpnessUtils.ApplySharpnessModifier(sharpnessModifier, maxSharpness);
+                core.SharpnessInfo currentSharpness = SharpnessUtils.ApplySharpnessModifier(sharpnessModifier, maxSharpness);
 
                 object weaponSpecific = null;
 
@@ -99,7 +101,7 @@ namespace MHWMasterDataUtils.Builders
                     }
                 }
 
-                var resultWeapon = new SharpnessWeapon(
+                var resultWeapon = new core.SharpnessWeapon(
                     WeaponsUtils.FromWeaponClass(WeaponClass),
                     weaponId,
                     weaponName,

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Sharpness
+namespace MHWMasterDataUtils.Core
 {
     public struct SharpnessInfo
     {

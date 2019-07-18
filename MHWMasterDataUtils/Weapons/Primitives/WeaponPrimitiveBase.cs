@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using MHWMasterDataUtils.Core;
 using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Weapons.HighLevel;
 

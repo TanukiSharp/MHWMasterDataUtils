@@ -9,16 +9,10 @@ using MHWMasterDataUtils.Weapons.HighLevel;
 using MHWMasterDataUtils.Weapons.Primitives;
 using Newtonsoft.Json;
 
+using core = MHWMasterDataUtils.Core;
+
 namespace MHWMasterDataUtils.Builders
 {
-    public class WeaponTreeName
-    {
-        [JsonProperty("treeId")]
-        public int TreeId { get; set; }
-        [JsonProperty("name")]
-        public Dictionary<string, string> Name { get; set; }
-    }
-
     public class WeaponTreesBuilder
     {
         private readonly LanguagePackageProcessor weaponSeriesLanguages;
@@ -33,9 +27,9 @@ namespace MHWMasterDataUtils.Builders
             this.weapons = weapons;
         }
 
-        public WeaponTreeName[] Build()
+        public core.WeaponTreeName[] Build()
         {
-            var treeNames = new Dictionary<byte, WeaponTreeName>();
+            var treeNames = new Dictionary<byte, core.WeaponTreeName>();
 
             foreach (WeaponClass weaponClass in Enum.GetValues(typeof(WeaponClass)))
             {
@@ -70,7 +64,7 @@ namespace MHWMasterDataUtils.Builders
                     if (isDisabledTree)
                         continue;
 
-                    treeNames.Add(treeId, new WeaponTreeName { TreeId = treeId, Name = name });
+                    treeNames.Add(treeId, new core.WeaponTreeName { TreeId = treeId, Name = name });
                 }
             }
 

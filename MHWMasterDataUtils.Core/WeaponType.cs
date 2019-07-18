@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Weapons.HighLevel
+namespace MHWMasterDataUtils.Core
 {
     public enum WeaponType
     {

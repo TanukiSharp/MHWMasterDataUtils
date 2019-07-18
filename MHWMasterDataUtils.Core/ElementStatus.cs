@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Equipments
+namespace MHWMasterDataUtils.Core
 {
     public enum ElementStatus
     {

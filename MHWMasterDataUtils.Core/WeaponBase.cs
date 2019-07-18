@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MHWMasterDataUtils.Equipments;
 using Newtonsoft.Json;
 
-namespace MHWMasterDataUtils.Weapons.HighLevel
+namespace MHWMasterDataUtils.Core
 {
     public abstract class WeaponBase
     {

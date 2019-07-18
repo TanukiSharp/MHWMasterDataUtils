@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
+using MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Sharpness
 {

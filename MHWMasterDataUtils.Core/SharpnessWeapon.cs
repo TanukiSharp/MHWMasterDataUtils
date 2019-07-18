@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MHWMasterDataUtils.Equipments;
-using MHWMasterDataUtils.Languages;
-using MHWMasterDataUtils.Sharpness;
 
-namespace MHWMasterDataUtils.Weapons.HighLevel
+namespace MHWMasterDataUtils.Core
 {
     public class SharpnessWeapon : WeaponBase
     {
