@@ -18,6 +18,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         private MeleeWeaponPrimitiveBase(
             WeaponType weaponType,
             uint id,
+            ushort treeOrder,
             ushort baseModelId,
             ushort part1Id,
             ushort part2Id,
@@ -51,6 +52,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             : base(
                 weaponType,
                 id,
+                treeOrder,
                 baseModelId,
                 part1Id,
                 part2Id,
@@ -87,7 +89,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public static MeleeWeaponPrimitiveBase Read(WeaponType weaponType, Reader reader)
         {
             uint id = reader.ReadUInt32();
-            reader.Offset(2); // Skip unknown1 and unknown2.
+            ushort treeOrder = reader.ReadUInt16();
             ushort baseModelId = reader.ReadUInt16();
             ushort part1Id = reader.ReadUInt16();
             ushort part2Id = reader.ReadUInt16();
@@ -123,6 +125,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             return new MeleeWeaponPrimitiveBase(
                 weaponType,
                 id,
+                treeOrder,
                 baseModelId,
                 part1Id,
                 part2Id,

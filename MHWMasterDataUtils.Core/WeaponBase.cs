@@ -11,6 +11,8 @@ namespace MHWMasterDataUtils.Core
         public WeaponType WeaponType { get; }
         [JsonProperty("id")]
         public uint Id { get; }
+        [JsonIgnore]
+        public ushort TreeOrder { get; }
         [JsonProperty("parentId")]
         public int ParentId { get; }
         [JsonProperty("name")]
@@ -47,6 +49,7 @@ namespace MHWMasterDataUtils.Core
         protected WeaponBase(
             WeaponType weaponType,
             uint id,
+            ushort treeOrder,
             int parentId,
             Dictionary<string, string> name,
             Dictionary<string, string> description,
@@ -67,6 +70,7 @@ namespace MHWMasterDataUtils.Core
         {
             WeaponType = weaponType;
             Id = id;
+            TreeOrder = treeOrder;
             ParentId = parentId;
             Name = name;
             Description = description;

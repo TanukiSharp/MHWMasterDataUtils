@@ -103,7 +103,7 @@ namespace MHWMasterDataUtils.Builders
             {
                 Dictionary<uint, WeaponPrimitiveBase> weapons = allWeapons[weaponType];
 
-                foreach (WeaponPrimitiveBase weapon in weapons.Values.OrderBy(x => x.Id))
+                foreach (WeaponPrimitiveBase weapon in weapons.Values.OrderBy(x => x.TreeOrder))
                 {
                     if (weapon.TreeId == 0)
                         continue;
@@ -209,6 +209,8 @@ namespace MHWMasterDataUtils.Builders
                 result.Add(resultWeapon);
             }
 
+            result.Sort((a, b) => a.TreeOrder.CompareTo(b.TreeOrder));
+
             return result.ToArray();
         }
 
@@ -233,6 +235,7 @@ namespace MHWMasterDataUtils.Builders
             var resultWeapon = new core.SharpnessWeapon(
                 WeaponType,
                 weapon.Id,
+                weapon.TreeOrder,
                 parentId,
                 weaponName,
                 weaponDescription,

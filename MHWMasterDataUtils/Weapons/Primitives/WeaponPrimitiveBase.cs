@@ -11,6 +11,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
     {
         public readonly WeaponType WeaponType;
         public readonly uint Id;
+        public readonly ushort TreeOrder;
         public readonly ushort BaseModelId;
         public readonly ushort Part1Id;
         public readonly ushort Part2Id;
@@ -40,6 +41,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         protected WeaponPrimitiveBase(
             WeaponType weaponType,
             uint id,
+            ushort treeOrder,
             ushort baseModelId,
             ushort part1Id,
             ushort part2Id,
@@ -69,6 +71,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         {
             WeaponType = weaponType;
             Id = id;
+            TreeOrder = treeOrder;
             BaseModelId = baseModelId;
             Part1Id = part1Id;
             Part2Id = part2Id;
@@ -103,6 +106,8 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             if (other.WeaponType != WeaponType)
                 diff++;
             if (other.Id != Id)
+                diff++;
+            if (other.TreeOrder != TreeOrder)
                 diff++;
             if (other.BaseModelId != BaseModelId)
                 diff++;

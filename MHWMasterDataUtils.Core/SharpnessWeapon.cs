@@ -10,6 +10,7 @@ namespace MHWMasterDataUtils.Core
         public SharpnessWeapon(
             WeaponType weaponType,
             uint id,
+            ushort treeOrder,
             int parentId,
             Dictionary<string, string> name,
             Dictionary<string, string> description,
@@ -33,6 +34,7 @@ namespace MHWMasterDataUtils.Core
             : base(
                   weaponType,
                   id,
+                  treeOrder,
                   parentId,
                   name,
                   description,
