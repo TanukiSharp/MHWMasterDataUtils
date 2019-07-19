@@ -8,9 +8,9 @@ namespace MHWMasterDataUtils.Core
     {
         None = -1,
         GreatSword,
-        LongSword,
         SwordAndShield,
         DualBlades,
+        LongSword,
         Hammer,
         HuntingHorn,
         Lance,
@@ -19,7 +19,7 @@ namespace MHWMasterDataUtils.Core
         ChargeBlade,
         InsectGlaive,
         Bow,
+        HeavyBowgun,
         LightBowgun,
-        HeavyBowgun
     }
 }
