@@ -69,6 +69,11 @@ namespace MHWMasterDataUtils.Weapons
             throw new ArgumentException($"Invalid '{nameof(weaponType)}' argument. Unknown value '{weaponType}'.");
         }
 
+        public static string WeaponToLanguageFile(WeaponType weaponType)
+        {
+            return $"/common/text/steam/{WeaponTypeToFilename[weaponType]}_\\w{{3}}.gmd";
+        }
+
         public static ushort[] CreateSlotsArray(WeaponPrimitiveBase weapon)
         {
             ushort[] slots = new ushort[weapon.GemSlots];
