@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -20,12 +21,12 @@ namespace MHWMasterDataUtils.Tester
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static async Task Main()
         {
-            await new Program().Run(args);
+            await new Program().Run().ConfigureAwait(false);
         }
 
-        private async Task Run(string[] args)
+        private async Task Run()
         {
             string packagesFullPath = PackageUtility.GetPackagesFullPath();
 
@@ -110,8 +111,8 @@ namespace MHWMasterDataUtils.Tester
                 huntingHornSongs
             };
 
-            var packageReader = new PackageReader(logger, fileProcessors);
-            await packageReader.Run(packagesFullPath);
+            using (var packageReader = new PackageReader(logger, fileProcessors))
+                await packageReader.Run(packagesFullPath).ConfigureAwait(false);
 
             WeaponTreeName[] weaponTrees = new WeaponTreesBuilder(weaponSeriesLanguages, weapons).Build();
             SerializeJson(nameof(weaponTrees), weaponTrees);
@@ -288,6 +289,11 @@ namespace MHWMasterDataUtils.Tester
 
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
+            if (writer == null)
+                throw new ArgumentNullException(nameof(writer));
+            if (value == null)
+                throw new ArgumentNullException(nameof(value));
+
             var v = (Weapons.Primitives.HuntingHornSongPrimitive)value;
 
             writer.WriteStartObject();

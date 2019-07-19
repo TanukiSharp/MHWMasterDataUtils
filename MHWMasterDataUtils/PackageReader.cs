@@ -72,7 +72,7 @@ namespace MHWMasterDataUtils
         }
     }
 
-    public class PackageReader
+    public class PackageReader : IDisposable
     {
         private readonly ILogger logger;
         private readonly IEnumerable<IPackageProcessor> packageProcessors;
@@ -86,10 +86,10 @@ namespace MHWMasterDataUtils
             this.packageProcessors = packageProcessors;
         }
 
-        private async Task PreChunkFileProcess(IEnumerable<IPackageProcessor> packageProcessors, string chunkFullFilename)
+        private static async Task PreChunkFileProcess(IEnumerable<IPackageProcessor> packageProcessors, string chunkFullFilename)
         {
             foreach (IPackageProcessor fileProcessor in packageProcessors)
-                await fileProcessor.PreChunkFileProcess(chunkFullFilename);
+                await fileProcessor.PreChunkFileProcess(chunkFullFilename).ConfigureAwait(false);
         }
 
         private async Task ProcessChunkFile(PackageChildEntry childEntry, IEnumerable<IPackageProcessor> matchingPackageProcessors)
@@ -97,14 +97,14 @@ namespace MHWMasterDataUtils
             foreach (IPackageProcessor packageFileProcessor in matchingPackageProcessors)
             {
                 cachedSubStream.Initialize(reader.BaseStream, childEntry.FileOffset, childEntry.FileSize);
-                await packageFileProcessor.ProcessChunkFile(cachedSubStream, childEntry.ChunkFullFilename);
+                await packageFileProcessor.ProcessChunkFile(cachedSubStream, childEntry.ChunkFullFilename).ConfigureAwait(false);
             }
         }
 
-        private async Task PostChunkFileProcess(IEnumerable<IPackageProcessor> packageProcessors, string chunkFullFilename)
+        private static async Task PostChunkFileProcess(IEnumerable<IPackageProcessor> packageProcessors, string chunkFullFilename)
         {
             foreach (IPackageProcessor fileProcessor in packageProcessors.Reverse())
-                await fileProcessor.PostChunkFileProcess(chunkFullFilename);
+                await fileProcessor.PostChunkFileProcess(chunkFullFilename).ConfigureAwait(false);
         }
 
         private int ReadHeader()
@@ -118,19 +118,19 @@ namespace MHWMasterDataUtils
 
         private async Task RunMatchingPackageProcessors(PackageChildEntry childEntry, IEnumerable<IPackageProcessor>  matchingPackageProcessors)
         {
-            await PreChunkFileProcess(matchingPackageProcessors, childEntry.ChunkFullFilename);
+            await PreChunkFileProcess(matchingPackageProcessors, childEntry.ChunkFullFilename).ConfigureAwait(false);
 
             long savedPosition = reader.BaseStream.Position;
             try
             {
-                await ProcessChunkFile(childEntry, matchingPackageProcessors);
+                await ProcessChunkFile(childEntry, matchingPackageProcessors).ConfigureAwait(false);
             }
             finally
             {
                 reader.BaseStream.Seek(savedPosition, SeekOrigin.Begin);
             }
 
-            await PostChunkFileProcess(matchingPackageProcessors, childEntry.ChunkFullFilename);
+            await PostChunkFileProcess(matchingPackageProcessors, childEntry.ChunkFullFilename).ConfigureAwait(false);
         }
 
         private async Task ProcessChildEntry()
@@ -149,7 +149,7 @@ namespace MHWMasterDataUtils
             IEnumerable<IPackageProcessor> matchingPackageProcessors = packageProcessors
                 .Where(x => x.IsChunkFileMatching(childEntry.ChunkFullFilename));
 
-            await RunMatchingPackageProcessors(childEntry, matchingPackageProcessors);
+            await RunMatchingPackageProcessors(childEntry, matchingPackageProcessors).ConfigureAwait(false);
         }
 
         private async Task ProcessParentEntry()
@@ -157,13 +157,13 @@ namespace MHWMasterDataUtils
             PackageParentEntry parentEntry = PackageParentEntry.Read(reader);
 
             for (int j = 0; j < parentEntry.ChildCount; j++)
-                await ProcessChildEntry();
+                await ProcessChildEntry().ConfigureAwait(false);
         }
 
         private async Task PreProcess()
         {
             foreach (IPackageProcessor fileProcessor in packageProcessors)
-                await fileProcessor.PreProcess();
+                await fileProcessor.PreProcess().ConfigureAwait(false);
         }
 
         private async Task ProcessPackageFile(string packageFullFilename)
@@ -173,14 +173,14 @@ namespace MHWMasterDataUtils
                 int totalParentCount = ReadHeader();
 
                 for (int i = 0; i < totalParentCount; i++)
-                    await ProcessParentEntry();
+                    await ProcessParentEntry().ConfigureAwait(false);
             }
         }
 
         private async Task PostProcess()
         {
             foreach (IPackageProcessor fileProcessor in packageProcessors.Reverse())
-                await fileProcessor.PostProcess();
+                await fileProcessor.PostProcess().ConfigureAwait(false);
         }
 
         public async Task Run(string packagesFullPath)
@@ -191,12 +191,32 @@ namespace MHWMasterDataUtils
                 .OrderByDescending(x => x.Index)
                 .Select(x => x.OriginalFilename);
 
-            await PreProcess();
+            await PreProcess().ConfigureAwait(false);
 
             foreach (string packageFilename in packageFilenames)
-                await ProcessPackageFile(packageFilename);
+                await ProcessPackageFile(packageFilename).ConfigureAwait(false);
 
-            await PostProcess();
+            await PostProcess().ConfigureAwait(false);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                try
+                {
+                    cachedSubStream.Dispose();
+                }
+                catch
+                {
+                }
+            }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
     }
 }
