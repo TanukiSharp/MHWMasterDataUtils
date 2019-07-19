@@ -72,7 +72,7 @@ namespace MHWMasterDataUtils.Builders
             LightBowgun,
         }
 
-        private static WeaponOrder ToWeaponOrder(core.WeaponType weaponType)
+        private static WeaponOrder ToWeaponTypeOrder(core.WeaponType weaponType)
         {
             switch (weaponType)
             {
@@ -99,7 +99,7 @@ namespace MHWMasterDataUtils.Builders
         {
             uint index = 0;
 
-            foreach (core.WeaponType weaponType in allWeapons.Keys.OrderBy(x => ToWeaponOrder(x)))
+            foreach (core.WeaponType weaponType in allWeapons.Keys.OrderBy(x => ToWeaponTypeOrder(x)))
             {
                 Dictionary<uint, WeaponPrimitiveBase> weapons = allWeapons[weaponType];
 
