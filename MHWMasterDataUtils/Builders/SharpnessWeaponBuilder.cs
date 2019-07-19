@@ -226,14 +226,8 @@ namespace MHWMasterDataUtils.Builders
 
             if (WeaponType == core.WeaponType.HuntingHorn)
             {
-                if (weapon.Weapon1Id > 0)
-                {
-                    HuntingHornNotesPrimitive notes = huntingHornNotes.Table[weapon.Weapon1Id];
-                    weaponSpecific = FindSongs(notes);
-                }
-                else if (weapon.Weapon2Id != 0)
-                {
-                }
+                HuntingHornNotesPrimitive notes = huntingHornNotes.Table[weapon.Weapon1Id];
+                weaponSpecific = FindSongs(notes);
             }
 
             var resultWeapon = new core.SharpnessWeapon(
