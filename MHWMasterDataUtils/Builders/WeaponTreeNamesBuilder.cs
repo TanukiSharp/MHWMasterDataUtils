@@ -31,9 +31,9 @@ namespace MHWMasterDataUtils.Builders
         {
             var treeNames = new Dictionary<byte, core.WeaponTreeName>();
 
-            foreach (WeaponClass weaponClass in Enum.GetValues(typeof(WeaponClass)))
+            foreach (core.WeaponType weaponClass in Enum.GetValues(typeof(core.WeaponType)))
             {
-                if (weaponClass == WeaponClass.None)
+                if (weaponClass == core.WeaponType.None)
                     continue;
 
                 foreach (KeyValuePair<uint, WeaponPrimitiveBase> weapon in weapons.Table[weaponClass])

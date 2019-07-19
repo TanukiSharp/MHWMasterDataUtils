@@ -10,86 +10,63 @@ namespace MHWMasterDataUtils.Weapons
 {
     public static class WeaponsUtils
     {
-        public static Dictionary<string, WeaponClass> WeaponFilenameToClass { get; } = new Dictionary<string, WeaponClass>
+        public static Dictionary<string, WeaponType> WeaponFilenameToType { get; } = new Dictionary<string, WeaponType>
         {
-            ["l_sword"] = WeaponClass.GreatSword,
-            ["tachi"] = WeaponClass.LongSword,
-            ["sword"] = WeaponClass.SwordAndShield,
-            ["w_sword"] = WeaponClass.DualBlades,
-            ["hammer"] = WeaponClass.Hammer,
-            ["whistle"] = WeaponClass.HuntingHorn,
-            ["lance"] = WeaponClass.Lance,
-            ["g_lance"] = WeaponClass.Gunlance,
-            ["s_axe"] = WeaponClass.SwitchAxe,
-            ["c_axe"] = WeaponClass.ChargeBlade,
-            ["rod"] = WeaponClass.InsectGlaive,
-            ["lbg"] = WeaponClass.LightBowgun,
-            ["hbg"] = WeaponClass.HeavyBowgun,
-            ["bow"] = WeaponClass.Bow
+            ["l_sword"] = WeaponType.GreatSword,
+            ["tachi"] = WeaponType.LongSword,
+            ["sword"] = WeaponType.SwordAndShield,
+            ["w_sword"] = WeaponType.DualBlades,
+            ["hammer"] = WeaponType.Hammer,
+            ["whistle"] = WeaponType.HuntingHorn,
+            ["lance"] = WeaponType.Lance,
+            ["g_lance"] = WeaponType.Gunlance,
+            ["s_axe"] = WeaponType.SwitchAxe,
+            ["c_axe"] = WeaponType.ChargeBlade,
+            ["rod"] = WeaponType.InsectGlaive,
+            ["lbg"] = WeaponType.LightBowgun,
+            ["hbg"] = WeaponType.HeavyBowgun,
+            ["bow"] = WeaponType.Bow
         };
 
-        public static Dictionary<WeaponClass, string> WeaponClassToFilename { get; } = new Dictionary<WeaponClass, string>
+        public static Dictionary<WeaponType, string> WeaponTypeToFilename { get; } = new Dictionary<WeaponType, string>
         {
-            [WeaponClass.GreatSword] = "l_sword",
-            [WeaponClass.LongSword] = "tachi",
-            [WeaponClass.SwordAndShield] = "sword",
-            [WeaponClass.DualBlades] = "w_sword",
-            [WeaponClass.Hammer] = "hammer",
-            [WeaponClass.HuntingHorn] = "whistle",
-            [WeaponClass.Lance] = "lance",
-            [WeaponClass.Gunlance] = "g_lance",
-            [WeaponClass.SwitchAxe] = "s_axe",
-            [WeaponClass.ChargeBlade] = "c_axe",
-            [WeaponClass.InsectGlaive] = "rod",
-            [WeaponClass.LightBowgun] = "lbg",
-            [WeaponClass.HeavyBowgun] = "hbg",
-            [WeaponClass.Bow] = "bow"
+            [WeaponType.GreatSword] = "l_sword",
+            [WeaponType.LongSword] = "tachi",
+            [WeaponType.SwordAndShield] = "sword",
+            [WeaponType.DualBlades] = "w_sword",
+            [WeaponType.Hammer] = "hammer",
+            [WeaponType.HuntingHorn] = "whistle",
+            [WeaponType.Lance] = "lance",
+            [WeaponType.Gunlance] = "g_lance",
+            [WeaponType.SwitchAxe] = "s_axe",
+            [WeaponType.ChargeBlade] = "c_axe",
+            [WeaponType.InsectGlaive] = "rod",
+            [WeaponType.LightBowgun] = "lbg",
+            [WeaponType.HeavyBowgun] = "hbg",
+            [WeaponType.Bow] = "bow"
         };
 
-        public static WeaponType FromWeaponClass(WeaponClass weaponClass)
+        public static ushort ComputeWeaponDamage(WeaponType weaponType, ushort rawDamage)
         {
-            switch (weaponClass)
+            switch (weaponType)
             {
-                case WeaponClass.GreatSword: return WeaponType.GreatSword;
-                case WeaponClass.SwordAndShield: return WeaponType.SwordAndShield;
-                case WeaponClass.DualBlades: return WeaponType.DualBlades;
-                case WeaponClass.LongSword: return WeaponType.LongSword;
-                case WeaponClass.Hammer: return WeaponType.Hammer;
-                case WeaponClass.HuntingHorn: return WeaponType.HuntingHorn;
-                case WeaponClass.Lance: return WeaponType.Lance;
-                case WeaponClass.Gunlance: return WeaponType.Gunlance;
-                case WeaponClass.SwitchAxe: return WeaponType.SwitchAxe;
-                case WeaponClass.ChargeBlade: return WeaponType.ChargeBlade;
-                case WeaponClass.InsectGlaive: return WeaponType.InsectGlaive;
-                case WeaponClass.Bow: return WeaponType.Bow;
-                case WeaponClass.HeavyBowgun: return WeaponType.HeavyBowgun;
-                case WeaponClass.LightBowgun: return WeaponType.LightBowgun;
+                case WeaponType.GreatSword: return (ushort)(rawDamage * RawDamageMultipliers.GreatSword);
+                case WeaponType.SwordAndShield: return (ushort)(rawDamage * RawDamageMultipliers.SwordAndShield);
+                case WeaponType.DualBlades: return (ushort)(rawDamage * RawDamageMultipliers.DualBlades);
+                case WeaponType.LongSword: return (ushort)(rawDamage * RawDamageMultipliers.LongSword);
+                case WeaponType.Hammer: return (ushort)(rawDamage * RawDamageMultipliers.Hammer);
+                case WeaponType.HuntingHorn: return (ushort)(rawDamage * RawDamageMultipliers.HuntingHorn);
+                case WeaponType.Lance: return (ushort)(rawDamage * RawDamageMultipliers.Lance);
+                case WeaponType.Gunlance: return (ushort)(rawDamage * RawDamageMultipliers.Gunlance);
+                case WeaponType.SwitchAxe: return (ushort)(rawDamage * RawDamageMultipliers.SwitchAxe);
+                case WeaponType.ChargeBlade: return (ushort)(rawDamage * RawDamageMultipliers.ChargeBlade);
+                case WeaponType.InsectGlaive: return (ushort)(rawDamage * RawDamageMultipliers.InsectGlaive);
+                case WeaponType.Bow: return (ushort)(rawDamage * RawDamageMultipliers.Bow);
+                case WeaponType.HeavyBowgun: return (ushort)(rawDamage * RawDamageMultipliers.HeavyBowgun);
+                case WeaponType.LightBowgun: return (ushort)(rawDamage * RawDamageMultipliers.LightBowgun);
             }
 
-            throw new ArgumentException($"Invalid '{nameof(weaponClass)}' argument. Unknown value '{weaponClass}'.");
-        }
-
-        public static ushort ComputeWeaponDamage(WeaponClass weaponClass, ushort rawDamage)
-        {
-            switch (weaponClass)
-            {
-                case WeaponClass.GreatSword: return (ushort)(rawDamage * RawDamageMultipliers.GreatSword);
-                case WeaponClass.SwordAndShield: return (ushort)(rawDamage * RawDamageMultipliers.SwordAndShield);
-                case WeaponClass.DualBlades: return (ushort)(rawDamage * RawDamageMultipliers.DualBlades);
-                case WeaponClass.LongSword: return (ushort)(rawDamage * RawDamageMultipliers.LongSword);
-                case WeaponClass.Hammer: return (ushort)(rawDamage * RawDamageMultipliers.Hammer);
-                case WeaponClass.HuntingHorn: return (ushort)(rawDamage * RawDamageMultipliers.HuntingHorn);
-                case WeaponClass.Lance: return (ushort)(rawDamage * RawDamageMultipliers.Lance);
-                case WeaponClass.Gunlance: return (ushort)(rawDamage * RawDamageMultipliers.Gunlance);
-                case WeaponClass.SwitchAxe: return (ushort)(rawDamage * RawDamageMultipliers.SwitchAxe);
-                case WeaponClass.ChargeBlade: return (ushort)(rawDamage * RawDamageMultipliers.ChargeBlade);
-                case WeaponClass.InsectGlaive: return (ushort)(rawDamage * RawDamageMultipliers.InsectGlaive);
-                case WeaponClass.Bow: return (ushort)(rawDamage * RawDamageMultipliers.Bow);
-                case WeaponClass.HeavyBowgun: return (ushort)(rawDamage * RawDamageMultipliers.HeavyBowgun);
-                case WeaponClass.LightBowgun: return (ushort)(rawDamage * RawDamageMultipliers.LightBowgun);
-            }
-
-            throw new ArgumentException($"Invalid '{nameof(weaponClass)}' argument. Unknown value '{weaponClass}'.");
+            throw new ArgumentException($"Invalid '{nameof(weaponType)}' argument. Unknown value '{weaponType}'.");
         }
 
         public static ushort[] CreateSlotsArray(WeaponPrimitiveBase weapon)

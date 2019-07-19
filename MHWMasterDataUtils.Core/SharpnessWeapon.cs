@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace MHWMasterDataUtils.Core
 {
@@ -9,12 +10,13 @@ namespace MHWMasterDataUtils.Core
         public SharpnessWeapon(
             WeaponType weaponType,
             uint id,
+            int parentId,
             Dictionary<string, string> name,
             Dictionary<string, string> description,
             ushort damage,
             byte rarity,
             byte treeId,
-            SharpnessInfo currentSharpness,
+            SharpnessInfo sharpness,
             SharpnessInfo maxSharpness,
             sbyte affinity,
             uint craftingCost,
@@ -31,6 +33,7 @@ namespace MHWMasterDataUtils.Core
             : base(
                   weaponType,
                   id,
+                  parentId,
                   name,
                   description,
                   damage,
@@ -48,18 +51,21 @@ namespace MHWMasterDataUtils.Core
                   canDowngrade
             )
         {
-            CurrentSharpness = currentSharpness;
+            Sharpness = sharpness;
             MaxSharpness = maxSharpness;
             WeaponSpecific = weaponSpecific;
         }
 
-        public SharpnessInfo CurrentSharpness { get; }
+        [JsonProperty("sharpness")]
+        public SharpnessInfo Sharpness { get; }
+        [JsonProperty("maxSharpness")]
         public SharpnessInfo MaxSharpness { get; }
+        [JsonProperty("weaponSpecific")]
         public object WeaponSpecific { get; }
 
         public override string ToString()
         {
-            return Name[LanguageUtils.DefaultLanguageCode];
+            return $"[{Id}] {Name[LanguageUtils.DefaultLanguageCode]} (parent: {ParentId})";
         }
     }
 }

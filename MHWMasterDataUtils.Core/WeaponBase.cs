@@ -9,26 +9,45 @@ namespace MHWMasterDataUtils.Core
     {
         [JsonIgnore]
         public WeaponType WeaponType { get; }
+        [JsonProperty("id")]
         public uint Id { get; }
+        [JsonProperty("parentId")]
+        public int ParentId { get; }
+        [JsonProperty("name")]
         public Dictionary<string, string> Name { get; }
+        [JsonProperty("description")]
         public Dictionary<string, string> Description { get; }
+        [JsonProperty("damage")]
         public ushort Damage { get; }
+        [JsonProperty("rarity")]
         public byte Rarity { get; }
+        [JsonProperty("treeId")]
         public byte TreeId { get; }
+        [JsonProperty("affinity")]
         public sbyte Affinity { get; }
+        [JsonProperty("craftingCost")]
         public uint CraftingCost { get; }
+        [JsonProperty("defense")]
         public ushort Defense { get; }
+        [JsonProperty("elderseal")]
         public Elderseal Elderseal { get; }
+        [JsonProperty("elementStatus")]
         public ElementStatus ElementStatus { get; }
+        [JsonProperty("elementStatusDamage")]
         public ushort ElementStatusDamage { get; }
+        [JsonProperty("hiddenElementStatus")]
         public ElementStatus HiddenElementStatus { get; }
+        [JsonProperty("hiddenElementStatusDamage")]
         public ushort HiddenElementStatusDamage { get; }
+        [JsonProperty("slots")]
         public ushort[] Slots { get; }
+        [JsonProperty("canDowngrade")]
         public bool CanDowngrade { get; }
 
         protected WeaponBase(
             WeaponType weaponType,
             uint id,
+            int parentId,
             Dictionary<string, string> name,
             Dictionary<string, string> description,
             ushort damage,
@@ -48,6 +67,7 @@ namespace MHWMasterDataUtils.Core
         {
             WeaponType = weaponType;
             Id = id;
+            ParentId = parentId;
             Name = name;
             Description = description;
             Damage = damage;

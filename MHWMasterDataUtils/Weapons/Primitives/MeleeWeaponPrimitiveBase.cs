@@ -16,7 +16,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public readonly ushort Weapon2Id;
 
         private MeleeWeaponPrimitiveBase(
-            WeaponClass weaponClass,
+            WeaponType weaponType,
             uint id,
             ushort baseModelId,
             ushort part1Id,
@@ -49,7 +49,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             ushort skillId
         )
             : base(
-                weaponClass,
+                weaponType,
                 id,
                 baseModelId,
                 part1Id,
@@ -84,7 +84,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             Weapon2Id = weapon2Id;
         }
 
-        public static MeleeWeaponPrimitiveBase Read(WeaponClass weaponClass, Reader reader)
+        public static MeleeWeaponPrimitiveBase Read(WeaponType weaponType, Reader reader)
         {
             uint id = reader.ReadUInt32();
             reader.Offset(2); // Skip unknown1 and unknown2.
@@ -121,7 +121,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             reader.Offset(2); // Skip unknown6.
 
             return new MeleeWeaponPrimitiveBase(
-                weaponClass,
+                weaponType,
                 id,
                 baseModelId,
                 part1Id,

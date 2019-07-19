@@ -9,7 +9,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
 {
     public class WeaponPrimitiveBase : IComparable<WeaponPrimitiveBase>
     {
-        public readonly WeaponClass WeaponClass;
+        public readonly WeaponType WeaponType;
         public readonly uint Id;
         public readonly ushort BaseModelId;
         public readonly ushort Part1Id;
@@ -38,7 +38,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public readonly ushort SkillId;
 
         protected WeaponPrimitiveBase(
-            WeaponClass weaponClass,
+            WeaponType weaponType,
             uint id,
             ushort baseModelId,
             ushort part1Id,
@@ -67,7 +67,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             ushort skillId
         )
         {
-            WeaponClass = weaponClass;
+            WeaponType = weaponType;
             Id = id;
             BaseModelId = baseModelId;
             Part1Id = part1Id;
@@ -100,7 +100,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         {
             int diff = 0;
 
-            if (other.WeaponClass != WeaponClass)
+            if (other.WeaponType != WeaponType)
                 diff++;
             if (other.Id != Id)
                 diff++;

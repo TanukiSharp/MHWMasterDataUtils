@@ -17,6 +17,9 @@ namespace MHWMasterDataUtils.Languages
             if (message == "Invalid Message")
                 return false;
 
+            if (message.Contains("dummy"))
+                return false;
+
             return true;
         }
 
@@ -25,10 +28,13 @@ namespace MHWMasterDataUtils.Languages
             if (message == null)
                 return false;
 
-            if (message["jpn"].Contains("dummy"))
+            if (IsValidText(message[LanguageUtils.LanguageIdToLanguageCode(LanguageIdPrimitive.English)]) == false)
                 return false;
 
-            return IsValidText(message[Core.LanguageUtils.DefaultLanguageCode]);
+            if (IsValidText(message[LanguageUtils.LanguageIdToLanguageCode(LanguageIdPrimitive.Japanese)]) == false)
+                return false;
+
+            return true;
         }
 
         public static Dictionary<string, string> CreateLocalizations(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> source, uint entryId)

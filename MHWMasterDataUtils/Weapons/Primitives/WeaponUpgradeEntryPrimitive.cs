@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MHWMasterDataUtils.Core;
+using MHWMasterDataUtils.Equipments;
 
 namespace MHWMasterDataUtils.Weapons.Primitives
 {
     public class WeaponUpgradeEntryPrimitive
     {
-        public readonly byte EquipType;
+        public readonly WeaponType EquipType;
         public readonly ushort EquipId;
         public readonly ushort KeyItemId;
         public readonly ushort Item1Id; // see ITM
@@ -24,7 +26,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public readonly byte Group;
 
         private WeaponUpgradeEntryPrimitive(
-            byte equipType,
+            WeaponType equipType,
             ushort equipId,
             ushort keyItemId,
             ushort item1Id,
@@ -62,7 +64,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
 
         public static WeaponUpgradeEntryPrimitive Read(Reader reader)
         {
-            byte equipType = reader.ReadByte();
+            var equipType = (WeaponType)reader.ReadByte();
             ushort equipId = reader.ReadUInt16();
             ushort keyItemId = reader.ReadUInt16();
             reader.Offset(12); // Skip unk1, unk2 and unk3.

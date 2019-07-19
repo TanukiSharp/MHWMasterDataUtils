@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,6 +6,7 @@ namespace MHWMasterDataUtils.Core
 {
     public enum WeaponType
     {
+        None = -1,
         GreatSword,
         LongSword,
         SwordAndShield,

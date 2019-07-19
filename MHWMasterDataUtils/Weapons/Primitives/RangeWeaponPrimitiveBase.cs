@@ -18,7 +18,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public readonly sbyte SpecialAmmoId; // LBG and HBG: 0: Wyvernblast, 1: Wyvernfire, 2: Wyvernsnipe. Bow: reference to common/equip/bottle_table.bbtbl
 
         private RangeWeaponPrimitiveBase(
-            WeaponClass weaponClass,
+            WeaponType weaponType,
             uint id,
             ushort baseModelId,
             ushort part1Id,
@@ -54,7 +54,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             ushort skillId
         )
             : base(
-                weaponClass,
+                weaponType,
                 id,
                 baseModelId,
                 part1Id,
@@ -92,7 +92,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             SpecialAmmoId = specialAmmoId;
         }
 
-        public static RangeWeaponPrimitiveBase Read(WeaponClass weaponClass, Reader reader)
+        public static RangeWeaponPrimitiveBase Read(WeaponType weaponType, Reader reader)
         {
             uint id = reader.ReadUInt32();
             reader.Offset(2); // Skip unknown1 and unknown2.
@@ -132,7 +132,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             reader.Offset(2); // Skip unknown51 and unknown52.
 
             return new RangeWeaponPrimitiveBase(
-                weaponClass,
+                weaponType,
                 id,
                 baseModelId,
                 part1Id,

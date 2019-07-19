@@ -99,20 +99,24 @@ namespace MHWMasterDataUtils.Tester
             SerializeJson(nameof(weaponTrees), weaponTrees);
 
             SharpnessWeapon[] greatSwords = new SharpnessWeaponBuilder(
-                WeaponClass.GreatSword,
+                WeaponType.GreatSword,
                 greatSwordLanguages,
                 sharpness,
                 weapons,
+                weaponCraft,
+                weaponUpgrades,
                 null,
                 null
             ).Build();
             SerializeJson("great-swords", greatSwords);
 
             SharpnessWeapon[] huntingHorns = new SharpnessWeaponBuilder(
-                WeaponClass.HuntingHorn,
+                WeaponType.HuntingHorn,
                 huntingHornLanguages,
                 sharpness,
                 weapons,
+                weaponCraft,
+                weaponUpgrades,
                 huntingHornNotes,
                 huntingHornSongs
             ).Build();
