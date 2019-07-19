@@ -46,8 +46,17 @@ namespace MHWMasterDataUtils.Tester
             var armorCraft = new CraftPackageProcessor("/common/equip/armor.eq_crt");
             var weaponCraft = new CraftPackageProcessor("/common/equip/weapon.eq_crt");
 
-            var greatSwordLanguages = new LanguagePackageProcessor("/common/text/steam/l_sword_\\w{3}.gmd");
-            var huntingHornLanguages = new LanguagePackageProcessor("/common/text/steam/whistle_\\w{3}.gmd");
+            var greatSwordLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.GreatSword));
+            var hammerLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.Hammer));
+            var dualBladeLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.DualBlades));
+            var longSwordLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.LongSword));
+            var huntingHornLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.HuntingHorn));
+            var swordAndShieldLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.SwordAndShield));
+            var lanceLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.Lance));
+            var gunlanceLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.Gunlance));
+            var switchAxeLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.SwitchAxe));
+            var chargeBladeLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.ChargeBlade));
+            var insectGlaiveLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.InsectGlaive));
 
             var weaponSeriesLanguages = new LanguagePackageProcessor("/common/text/steam/wep_series_\\w{3}.gmd");
             var steamItemsLanguages = new LanguagePackageProcessor("/common/text/steam/item_\\w{3}.gmd");
@@ -77,7 +86,16 @@ namespace MHWMasterDataUtils.Tester
                 armorCraft,
                 weaponCraft,
                 greatSwordLanguages,
+                hammerLanguages,
+                dualBladeLanguages,
+                longSwordLanguages,
                 huntingHornLanguages,
+                swordAndShieldLanguages,
+                lanceLanguages,
+                gunlanceLanguages,
+                switchAxeLanguages,
+                chargeBladeLanguages,
+                insectGlaiveLanguages,
                 weaponSeriesLanguages,
                 steamItemsLanguages,
                 cmItemsLanguages,
@@ -98,6 +116,42 @@ namespace MHWMasterDataUtils.Tester
             WeaponTreeName[] weaponTrees = new WeaponTreesBuilder(weaponSeriesLanguages, weapons).Build();
             SerializeJson(nameof(weaponTrees), weaponTrees);
 
+            SharpnessWeapon[] dualBlades = new SharpnessWeaponBuilder(
+                WeaponType.DualBlades,
+                dualBladeLanguages,
+                sharpness,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                null,
+                null
+            ).Build();
+            SerializeJson("dual-blades", dualBlades);
+
+            SharpnessWeapon[] longSwords = new SharpnessWeaponBuilder(
+                WeaponType.LongSword,
+                longSwordLanguages,
+                sharpness,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                null,
+                null
+            ).Build();
+            SerializeJson("long-swords", longSwords);
+
+            SharpnessWeapon[] swordAndShields = new SharpnessWeaponBuilder(
+                WeaponType.SwordAndShield,
+                swordAndShieldLanguages,
+                sharpness,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                null,
+                null
+            ).Build();
+            SerializeJson("sword-and-shields", swordAndShields);
+
             SharpnessWeapon[] greatSwords = new SharpnessWeaponBuilder(
                 WeaponType.GreatSword,
                 greatSwordLanguages,
@@ -110,6 +164,18 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("great-swords", greatSwords);
 
+            SharpnessWeapon[] hammers = new SharpnessWeaponBuilder(
+                WeaponType.Hammer,
+                hammerLanguages,
+                sharpness,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                null,
+                null
+            ).Build();
+            SerializeJson("hammers", hammers);
+
             SharpnessWeapon[] huntingHorns = new SharpnessWeaponBuilder(
                 WeaponType.HuntingHorn,
                 huntingHornLanguages,
@@ -121,6 +187,66 @@ namespace MHWMasterDataUtils.Tester
                 huntingHornSongs
             ).Build();
             SerializeJson("hunting-horns", huntingHorns);
+
+            SharpnessWeapon[] lances = new SharpnessWeaponBuilder(
+                WeaponType.Lance,
+                lanceLanguages,
+                sharpness,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                null,
+                null
+            ).Build();
+            SerializeJson("lances", lances);
+
+            SharpnessWeapon[] gunlances = new SharpnessWeaponBuilder(
+                WeaponType.Gunlance,
+                gunlanceLanguages,
+                sharpness,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                null,
+                null
+            ).Build();
+            SerializeJson("gunlances", gunlances);
+
+            SharpnessWeapon[] switchAxes = new SharpnessWeaponBuilder(
+                WeaponType.SwitchAxe,
+                switchAxeLanguages,
+                sharpness,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                null,
+                null
+            ).Build();
+            SerializeJson("switch-axes", switchAxes);
+
+            SharpnessWeapon[] chargeBlades = new SharpnessWeaponBuilder(
+                WeaponType.ChargeBlade,
+                chargeBladeLanguages,
+                sharpness,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                null,
+                null
+            ).Build();
+            SerializeJson("charge-blades", chargeBlades);
+
+            SharpnessWeapon[] insectGlaives = new SharpnessWeaponBuilder(
+                WeaponType.InsectGlaive,
+                insectGlaiveLanguages,
+                sharpness,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                null,
+                null
+            ).Build();
+            SerializeJson("insect-glaives", insectGlaives);
         }
 
         private static void SerializeJson(string filename, object instance)
