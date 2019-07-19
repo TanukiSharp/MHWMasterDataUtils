@@ -54,7 +54,7 @@ namespace MHWMasterDataUtils.Builders
             CreateAllWeaponIndices(weaponsPackageProcessor.Table);
         }
 
-        public enum WeaponOrder
+        public enum WeaponTypeOrder
         {
             GreatSword,
             LongSword,
@@ -72,24 +72,24 @@ namespace MHWMasterDataUtils.Builders
             LightBowgun,
         }
 
-        private static WeaponOrder ToWeaponTypeOrder(core.WeaponType weaponType)
+        private static WeaponTypeOrder ToWeaponTypeOrder(core.WeaponType weaponType)
         {
             switch (weaponType)
             {
-                case core.WeaponType.GreatSword: return WeaponOrder.GreatSword;
-                case core.WeaponType.LongSword: return WeaponOrder.LongSword;
-                case core.WeaponType.SwordAndShield: return WeaponOrder.SwordAndShield;
-                case core.WeaponType.DualBlades: return WeaponOrder.DualBlades;
-                case core.WeaponType.Hammer: return WeaponOrder.Hammer;
-                case core.WeaponType.HuntingHorn: return WeaponOrder.HuntingHorn;
-                case core.WeaponType.Lance: return WeaponOrder.Lance;
-                case core.WeaponType.Gunlance: return WeaponOrder.Gunlance;
-                case core.WeaponType.SwitchAxe: return WeaponOrder.SwitchAxe;
-                case core.WeaponType.ChargeBlade: return WeaponOrder.ChargeBlade;
-                case core.WeaponType.InsectGlaive: return WeaponOrder.InsectGlaive;
-                case core.WeaponType.Bow: return WeaponOrder.Bow;
-                case core.WeaponType.LightBowgun: return WeaponOrder.LightBowgun;
-                case core.WeaponType.HeavyBowgun: return WeaponOrder.HeavyBowgun;
+                case core.WeaponType.GreatSword: return WeaponTypeOrder.GreatSword;
+                case core.WeaponType.LongSword: return WeaponTypeOrder.LongSword;
+                case core.WeaponType.SwordAndShield: return WeaponTypeOrder.SwordAndShield;
+                case core.WeaponType.DualBlades: return WeaponTypeOrder.DualBlades;
+                case core.WeaponType.Hammer: return WeaponTypeOrder.Hammer;
+                case core.WeaponType.HuntingHorn: return WeaponTypeOrder.HuntingHorn;
+                case core.WeaponType.Lance: return WeaponTypeOrder.Lance;
+                case core.WeaponType.Gunlance: return WeaponTypeOrder.Gunlance;
+                case core.WeaponType.SwitchAxe: return WeaponTypeOrder.SwitchAxe;
+                case core.WeaponType.ChargeBlade: return WeaponTypeOrder.ChargeBlade;
+                case core.WeaponType.InsectGlaive: return WeaponTypeOrder.InsectGlaive;
+                case core.WeaponType.Bow: return WeaponTypeOrder.Bow;
+                case core.WeaponType.LightBowgun: return WeaponTypeOrder.LightBowgun;
+                case core.WeaponType.HeavyBowgun: return WeaponTypeOrder.HeavyBowgun;
             }
 
             throw new ArgumentException($"Unknown weapon type '{weaponType}'.");
@@ -222,7 +222,7 @@ namespace MHWMasterDataUtils.Builders
             core.SharpnessInfo maxSharpness = sharpnessPackageProcessor.Table[weapon.SharpnessId];
 
             ushort sharpnessModifier = SharpnessUtils.ToSharpnessModifier(weapon.Handicraft);
-            core.SharpnessInfo currentSharpness = SharpnessUtils.ApplySharpnessModifier(sharpnessModifier, maxSharpness);
+            core.SharpnessInfo sharpness = SharpnessUtils.ApplySharpnessModifier(sharpnessModifier, maxSharpness);
 
             object weaponSpecific = null;
 
@@ -242,7 +242,7 @@ namespace MHWMasterDataUtils.Builders
                 WeaponsUtils.ComputeWeaponDamage(WeaponType, weapon.RawDamage),
                 weapon.Rarity,
                 weapon.TreeId,
-                currentSharpness,
+                sharpness,
                 maxSharpness,
                 weapon.Affinity,
                 weapon.CraftingCost,
