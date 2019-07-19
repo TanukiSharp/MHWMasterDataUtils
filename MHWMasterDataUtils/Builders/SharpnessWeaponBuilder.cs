@@ -25,6 +25,8 @@ namespace MHWMasterDataUtils.Builders
         private readonly Dictionary<uint, WeaponPrimitiveBase> weapons;
         private readonly Dictionary<ushort, WeaponUpgradeEntryPrimitive> weaponUpgrades;
 
+        private readonly Dictionary<(core.WeaponType, uint), uint> weaponIndices = new Dictionary<(core.WeaponType, uint), uint>();
+
         public core.WeaponType WeaponType { get; }
 
         public SharpnessWeaponBuilder(
@@ -47,18 +49,68 @@ namespace MHWMasterDataUtils.Builders
             this.huntingHornSongs = huntingHornSongs;
 
             weapons = weaponsPackageProcessor.Table[weaponType];
-
             weaponUpgrades = weaponUpgradePackageProcessor.Table[weaponType];
+
+            CreateAllWeaponIndices(weaponsPackageProcessor.Table);
         }
 
-        private static List<WeaponPrimitiveBase> FlattenWeapons(Dictionary<core.WeaponType, Dictionary<uint, WeaponPrimitiveBase>> allWeapons)
+        public enum WeaponOrder
         {
-            var result = new List<WeaponPrimitiveBase>();
+            GreatSword,
+            LongSword,
+            SwordAndShield,
+            DualBlades,
+            Hammer,
+            HuntingHorn,
+            Lance,
+            Gunlance,
+            SwitchAxe,
+            ChargeBlade,
+            InsectGlaive,
+            Bow,
+            HeavyBowgun,
+            LightBowgun,
+        }
 
-            foreach (Dictionary<uint, WeaponPrimitiveBase> weapons in allWeapons.Values)
-                result.AddRange(weapons.Values);
+        private static WeaponOrder ToWeaponOrder(core.WeaponType weaponType)
+        {
+            switch (weaponType)
+            {
+                case core.WeaponType.GreatSword: return WeaponOrder.GreatSword;
+                case core.WeaponType.LongSword: return WeaponOrder.LongSword;
+                case core.WeaponType.SwordAndShield: return WeaponOrder.SwordAndShield;
+                case core.WeaponType.DualBlades: return WeaponOrder.DualBlades;
+                case core.WeaponType.Hammer: return WeaponOrder.Hammer;
+                case core.WeaponType.HuntingHorn: return WeaponOrder.HuntingHorn;
+                case core.WeaponType.Lance: return WeaponOrder.Lance;
+                case core.WeaponType.Gunlance: return WeaponOrder.Gunlance;
+                case core.WeaponType.SwitchAxe: return WeaponOrder.SwitchAxe;
+                case core.WeaponType.ChargeBlade: return WeaponOrder.ChargeBlade;
+                case core.WeaponType.InsectGlaive: return WeaponOrder.InsectGlaive;
+                case core.WeaponType.Bow: return WeaponOrder.Bow;
+                case core.WeaponType.LightBowgun: return WeaponOrder.LightBowgun;
+                case core.WeaponType.HeavyBowgun: return WeaponOrder.HeavyBowgun;
+            }
 
-            return result;
+            throw new ArgumentException($"Unknown weapon type '{weaponType}'.");
+        }
+
+        private void CreateAllWeaponIndices(Dictionary<core.WeaponType, Dictionary<uint, WeaponPrimitiveBase>> allWeapons)
+        {
+            uint index = 0;
+
+            foreach (core.WeaponType weaponType in allWeapons.Keys.OrderBy(x => ToWeaponOrder(x)))
+            {
+                Dictionary<uint, WeaponPrimitiveBase> weapons = allWeapons[weaponType];
+
+                foreach (WeaponPrimitiveBase weapon in weapons.Values.OrderBy(x => x.Id))
+                {
+                    if (weapon.TreeId == 0)
+                        continue;
+
+                    weaponIndices.Add((weapon.WeaponType, weapon.Id), ++index);
+                }
+            }
         }
 
         private bool IsSongNoteAvailable(HuntingHornNoteColor note, HuntingHornNotesPrimitive notes)
@@ -141,12 +193,9 @@ namespace MHWMasterDataUtils.Builders
             List<MeleeWeaponPrimitiveBase> nonUpgradableWeapons = CreateValidWeaponsList(false);
             List<MeleeWeaponPrimitiveBase> upgradableWeapons = CreateValidWeaponsList(true);
 
-            uint oneBasedWeaponIndex = 0;
-
             foreach (MeleeWeaponPrimitiveBase weapon in upgradableWeapons)
             {
-                oneBasedWeaponIndex++;
-
+                uint oneBasedWeaponIndex = weaponIndices[(weapon.WeaponType, weapon.Id)];
                 int parentId = FindWeaponParentId(oneBasedWeaponIndex, upgradableWeapons);
 
                 core.SharpnessWeapon resultWeapon = CreateHighLevelWeapon(parentId, weapon);
