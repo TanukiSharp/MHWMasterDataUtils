@@ -31,6 +31,5 @@ namespace MHWMasterDataUtils.Crafting
         {
             this.matchingChunkFullFilenames = matchingChunkFullFilenames;
         }
-
     }
 }

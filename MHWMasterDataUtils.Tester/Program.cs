@@ -117,6 +117,13 @@ namespace MHWMasterDataUtils.Tester
             WeaponTreeName[] weaponTrees = new WeaponTreesBuilder(weaponSeriesLanguages, weapons).Build();
             SerializeJson(nameof(weaponTrees), weaponTrees);
 
+            Item[] highLevelItems = new ItemsBuilder(
+                i => i.Type == ItemTypePrimitive.MonsterMaterial,
+                items,
+                steamItemsLanguages
+            ).Build();
+            SerializeJson("items", highLevelItems);
+
             SharpnessWeapon[] dualBlades = new SharpnessWeaponBuilder(
                 WeaponType.DualBlades,
                 dualBladeLanguages,

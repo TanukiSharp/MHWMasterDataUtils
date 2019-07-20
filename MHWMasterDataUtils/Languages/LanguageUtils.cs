@@ -9,29 +9,39 @@ namespace MHWMasterDataUtils.Languages
     {
         public static LanguageIdPrimitive[] Languages { get; } = Enum.GetValues(typeof(LanguageIdPrimitive)).Cast<LanguageIdPrimitive>().ToArray();
 
-        public static bool IsValidText(string message)
+        public static bool IsValidText(string text)
         {
-            if (string.IsNullOrWhiteSpace(message))
+            if (string.IsNullOrWhiteSpace(text))
                 return false;
 
-            if (message == "Invalid Message")
+            if (text == "Invalid Message")
                 return false;
 
-            if (message.Contains("dummy"))
+            if (text.Contains("dummy"))
                 return false;
 
             return true;
         }
 
-        public static bool IsValidText(Dictionary<string, string> message)
+        public static bool IsValidText(Dictionary<string, string> text)
         {
-            if (message == null)
+            if (text == null)
                 return false;
 
-            if (IsValidText(message[LanguageUtils.LanguageIdToLanguageCode(LanguageIdPrimitive.English)]) == false)
+            if (IsValidText(text[LanguageUtils.LanguageIdToLanguageCode(LanguageIdPrimitive.English)]) == false)
                 return false;
 
-            if (IsValidText(message[LanguageUtils.LanguageIdToLanguageCode(LanguageIdPrimitive.Japanese)]) == false)
+            if (IsValidText(text[LanguageUtils.LanguageIdToLanguageCode(LanguageIdPrimitive.Japanese)]) == false)
+                return false;
+
+            return true;
+        }
+
+        public static bool IsValidText(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> text, uint index)
+        {
+            if (IsValidText(text[LanguageIdPrimitive.English][index].Value) == false)
+                return false;
+            if (IsValidText(text[LanguageIdPrimitive.Japanese][index].Value) == false)
                 return false;
 
             return true;
