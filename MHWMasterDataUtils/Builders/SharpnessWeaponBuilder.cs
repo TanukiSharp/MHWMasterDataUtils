@@ -190,7 +190,16 @@ namespace MHWMasterDataUtils.Builders
         {
             var result = new List<core.SharpnessWeapon>();
 
-            List<MeleeWeaponPrimitiveBase> nonUpgradableWeapons = CreateValidWeaponsList(false);
+            CreateUpgradableWeapons(result);
+            CreateNonUpgradableWeapons(result);
+
+            result.Sort((a, b) => a.TreeOrder.CompareTo(b.TreeOrder));
+
+            return result.ToArray();
+        }
+
+        private void CreateUpgradableWeapons(List<core.SharpnessWeapon> result)
+        {
             List<MeleeWeaponPrimitiveBase> upgradableWeapons = CreateValidWeaponsList(true);
 
             foreach (MeleeWeaponPrimitiveBase weapon in upgradableWeapons)
@@ -202,16 +211,17 @@ namespace MHWMasterDataUtils.Builders
 
                 result.Add(resultWeapon);
             }
+        }
+
+        private void CreateNonUpgradableWeapons(List<core.SharpnessWeapon> result)
+        {
+            List<MeleeWeaponPrimitiveBase> nonUpgradableWeapons = CreateValidWeaponsList(false);
 
             foreach (MeleeWeaponPrimitiveBase weapon in nonUpgradableWeapons)
             {
                 core.SharpnessWeapon resultWeapon = CreateHighLevelWeapon(-1, weapon);
                 result.Add(resultWeapon);
             }
-
-            result.Sort((a, b) => a.TreeOrder.CompareTo(b.TreeOrder));
-
-            return result.ToArray();
         }
 
         private core.SharpnessWeapon CreateHighLevelWeapon(int parentId, MeleeWeaponPrimitiveBase weapon)
