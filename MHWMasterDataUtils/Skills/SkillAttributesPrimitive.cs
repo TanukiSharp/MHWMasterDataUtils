@@ -6,6 +6,7 @@ namespace MHWMasterDataUtils.Skills
 {
     public class SkillAbilityPrimitive
     {
+        public readonly uint Index;
         public readonly ushort SkillId;
         public readonly byte Level;
         public readonly ushort Param1;
@@ -14,6 +15,7 @@ namespace MHWMasterDataUtils.Skills
         public readonly ushort Param4;
 
         private SkillAbilityPrimitive(
+            uint index,
             ushort skillId,
             byte level,
             ushort param1,
@@ -22,6 +24,7 @@ namespace MHWMasterDataUtils.Skills
             ushort param4
         )
         {
+            Index = index;
             SkillId = skillId;
             Level = level;
             Param1 = param1;
@@ -30,7 +33,7 @@ namespace MHWMasterDataUtils.Skills
             Param4 = param4;
         }
 
-        public static SkillAbilityPrimitive Read(Reader reader)
+        public static SkillAbilityPrimitive Read(uint index, Reader reader)
         {
             ushort skillId = reader.ReadUInt16();
             byte level = reader.ReadByte();
@@ -40,6 +43,7 @@ namespace MHWMasterDataUtils.Skills
             ushort param4 = reader.ReadUInt16();
 
             return new SkillAbilityPrimitive(
+                index,
                 skillId,
                 level,
                 param1,

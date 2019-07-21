@@ -41,7 +41,8 @@ namespace MHWMasterDataUtils.Core
 
         public override string ToString()
         {
-            return $"{Id} {Name[LanguageUtils.DefaultLanguageCode]} ({Description[LanguageUtils.DefaultLanguageCode]})";
+            string description = Description?[LanguageUtils.DefaultLanguageCode];
+            return $"{Id} {Name[LanguageUtils.DefaultLanguageCode]}{(description != null ? $" ({description})": string.Empty)}";
         }
     }
 }

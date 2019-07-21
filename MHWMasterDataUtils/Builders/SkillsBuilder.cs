@@ -31,17 +31,12 @@ namespace MHWMasterDataUtils.Builders
 
         public core.Skill[] Build()
         {
-            uint skillAttributeIndex = 0;
-
             var result = new List<core.Skill>();
 
             foreach (KeyValuePair<ushort, Dictionary<byte, SkillAbilityPrimitive>> skillGroup in skillAbilities.Table)
             {
                 if (skillGroup.Key == 0)
-                {
-                    skillAttributeIndex++;
                     continue;
-                }
 
                 SkillPrimitive skill = skills.List[skillGroup.Key];
 
@@ -50,15 +45,9 @@ namespace MHWMasterDataUtils.Builders
                 uint skillDescriptionIndex = skillNameIndex + 2;
 
                 if (LanguageUtils.IsValidText(skillsLanguages.Table, skillNameIndex) == false)
-                {
-                    skillAttributeIndex += (uint)skillGroup.Value.Count;
                     continue;
-                }
 
                 bool isSetBonus = skill.IsSetBonus != 0;
-
-                if (isSetBonus)
-                    throw new NotImplementedException();
 
                 Dictionary<string, string> skillName = LanguageUtils.CreateLocalizations(skillsLanguages.Table, skillNameIndex);
                 Dictionary<string, string> skillReading = LanguageUtils.CreateLocalizations(skillsLanguages.Table, skillReadingIndex);
@@ -66,9 +55,9 @@ namespace MHWMasterDataUtils.Builders
 
                 var abilities = new List<core.Ability>();
 
-                foreach (KeyValuePair<byte, SkillAbilityPrimitive> skillAbility in skillGroup.Value)
+                foreach (SkillAbilityPrimitive skillAbility in skillGroup.Value.Values)
                 {
-                    uint skillAbilityNameIndex = (uint)(skillAttributeIndex * 2);
+                    uint skillAbilityNameIndex = skillAbility.Index * 2;
                     uint skillAbilityDescriptionIndex = skillAbilityNameIndex + 1;
 
                     Dictionary<string, string> skillAbilityName = LanguageUtils.CreateLocalizations(skillAttributesLanguages.Table, skillAbilityNameIndex);
@@ -78,17 +67,15 @@ namespace MHWMasterDataUtils.Builders
                     {
                         Name = isSetBonus ? skillAbilityName : null,
                         Description = skillAbilityDescription,
-                        Level = skillAbility.Value.Level,
+                        Level = skillAbility.Level,
                         Parameters = new int[]
                         {
-                            skillAbility.Value.Param1,
-                            skillAbility.Value.Param2,
-                            skillAbility.Value.Param3,
-                            skillAbility.Value.Param4
+                            skillAbility.Param1,
+                            skillAbility.Param2,
+                            skillAbility.Param3,
+                            skillAbility.Param4
                         }
                     });
-
-                    skillAttributeIndex++;
                 }
 
                 result.Add(new core.Skill
@@ -98,7 +85,7 @@ namespace MHWMasterDataUtils.Builders
                     IsSetBonus = isSetBonus,
                     Name = skillName,
                     Reading = LanguageUtils.IsValidText(skillReading) ? skillReading : null,
-                    Description = skillDescription,
+                    Description = isSetBonus ? null : skillDescription,
                     Abilities = abilities.ToArray()
                 });
             }

@@ -57,7 +57,7 @@ namespace MHWMasterDataUtils.Skills
 
                 for (uint i = 0; i < numEntries; i++)
                 {
-                    var entry = SkillAbilityPrimitive.Read(reader);
+                    var entry = SkillAbilityPrimitive.Read(i, reader);
 
                     Dictionary<byte, SkillAbilityPrimitive> storage = GetOrAddAbilitiesStorage(entry.SkillId);
 
