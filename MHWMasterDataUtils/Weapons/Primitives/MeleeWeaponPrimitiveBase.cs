@@ -133,7 +133,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
                 treeId,
                 isFixedUpgrade,
                 craftingCost,
-                rarity,
+                (byte)(rarity + 1),
                 sharpnessId,
                 handicraft,
                 rawDamage,

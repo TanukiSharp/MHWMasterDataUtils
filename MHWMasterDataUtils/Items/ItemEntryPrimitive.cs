@@ -67,7 +67,7 @@ namespace MHWMasterDataUtils.Items
                 id,
                 subType,
                 type,
-                rarity,
+                (byte)(rarity + 1),
                 carryLimit,
                 unknownLimit,
                 sortOrder,
