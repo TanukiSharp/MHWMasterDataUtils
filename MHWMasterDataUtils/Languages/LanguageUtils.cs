@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
+using MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Languages
 {
@@ -49,7 +50,7 @@ namespace MHWMasterDataUtils.Languages
 
         public static Dictionary<string, string> CreateLocalizations(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> source, uint entryId)
         {
-            var result = new Dictionary<string, string>();
+            var result = new LocalizedText();
 
             foreach (LanguageIdPrimitive languageId in Languages)
             {
