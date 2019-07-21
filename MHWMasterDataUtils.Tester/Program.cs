@@ -28,6 +28,8 @@ namespace MHWMasterDataUtils.Tester
 
         private async Task Run()
         {
+            Console.WriteLine("-=-=-=-=-=- START -=-=-=-=-=-");
+
             string packagesFullPath = PackageUtility.GetPackagesFullPath();
 
             ILogger logger = new ConsoleLogger(null, LogLevel.Debug);
@@ -63,10 +65,6 @@ namespace MHWMasterDataUtils.Tester
             var steamItemsLanguages = new LanguagePackageProcessor("/common/text/steam/item_\\w{3}.gmd");
             var cmItemsLanguages = new LanguagePackageProcessor("/common/text/cm_item_\\w{3}.gmd");
             var itemsLanguages = new LanguagePackageProcessor("/common/text/item_\\w{3}.gmd");
-            var vfontItemsLanguaegs = new LanguagePackageProcessor("/common/text/vfont/item_\\w{3}.gmd");
-            var skillsLanguages = new LanguagePackageProcessor("/common/text/a_skill_\\{3}.gmd");
-            var vfontSkillsLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_\\w{3}.gmd");
-            var vfontSkillsPtLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_pt_\\{3}.gmd");
 
             var bowBootles = new BottleTablePackageProcessor();
             var weapons = new WeaponsPackageProcessor();
@@ -101,10 +99,6 @@ namespace MHWMasterDataUtils.Tester
                 steamItemsLanguages,
                 cmItemsLanguages,
                 itemsLanguages,
-                vfontItemsLanguaegs,
-                skillsLanguages,
-                vfontSkillsLanguages,
-                vfontSkillsPtLanguages,
                 bowBootles,
                 weapons,
                 huntingHornNotes,
