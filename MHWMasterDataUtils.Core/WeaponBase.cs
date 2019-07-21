@@ -41,6 +41,8 @@ namespace MHWMasterDataUtils.Core
         public ElementStatus HiddenElementStatus { get; }
         [JsonProperty("hiddenElementStatusDamage")]
         public ushort HiddenElementStatusDamage { get; }
+        [JsonProperty("skillId")]
+        public ushort SkillId { get; }
         [JsonProperty("slots")]
         public ushort[] Slots { get; }
         [JsonProperty("canDowngrade")]
@@ -66,6 +68,7 @@ namespace MHWMasterDataUtils.Core
             ushort elementStatusDamage,
             ElementStatus hiddenElementStatus,
             ushort hiddenElementStatusDamage,
+            ushort skillId,
             ushort[] slots,
             bool canDowngrade,
             Craft craft
@@ -88,6 +91,7 @@ namespace MHWMasterDataUtils.Core
             ElementStatusDamage = elementStatusDamage;
             HiddenElementStatus = hiddenElementStatus;
             HiddenElementStatusDamage = hiddenElementStatusDamage;
+            SkillId = skillId;
             Slots = slots;
             CanDowngrade = canDowngrade;
             Craft = craft;

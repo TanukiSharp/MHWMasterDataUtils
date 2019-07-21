@@ -27,6 +27,7 @@ namespace MHWMasterDataUtils.Core
             ushort elementStatusDamange,
             ElementStatus hiddenElementStatus,
             ushort hiddenElementStatusDamange,
+            ushort skillId,
             ushort[] slots,
             bool canDowngrade,
             object weaponSpecific,
@@ -50,6 +51,7 @@ namespace MHWMasterDataUtils.Core
                   elementStatusDamange,
                   hiddenElementStatus,
                   hiddenElementStatusDamange,
+                  skillId,
                   slots,
                   canDowngrade,
                   craft

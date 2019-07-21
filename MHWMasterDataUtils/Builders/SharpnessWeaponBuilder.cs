@@ -299,6 +299,7 @@ namespace MHWMasterDataUtils.Builders
                 (ushort)(weapon.ElementDamage * 10),
                 weapon.HiddenElementId,
                 (ushort)(weapon.HiddenElementDamage * 10),
+                weapon.SkillId,
                 WeaponsUtils.CreateSlotsArray(weapon),
                 weapon.IsFixedUpgrade == FixedUpgradePrimitive.CanDowngrade,
                 weaponSpecific,
