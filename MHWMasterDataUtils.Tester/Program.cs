@@ -6,6 +6,7 @@ using MHWMasterDataUtils.Items;
 using MHWMasterDataUtils.Jewels;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Sharpness;
+using MHWMasterDataUtils.Skills;
 using MHWMasterDataUtils.Weapons;
 using MHWMasterDataUtils.Weapons.HighLevel;
 using Microsoft.Extensions.Logging;
@@ -66,10 +67,16 @@ namespace MHWMasterDataUtils.Tester
             var cmItemsLanguages = new LanguagePackageProcessor("/common/text/cm_item_\\w{3}.gmd");
             var itemsLanguages = new LanguagePackageProcessor("/common/text/item_\\w{3}.gmd");
 
+            var skillLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_pt_\\w{3}.gmd");
+            var skillAbilitiesLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_\\w{3}.gmd");
+
             var bowBootles = new BottleTablePackageProcessor();
             var weapons = new WeaponsPackageProcessor();
             var huntingHornNotes = new HuntingHornNotesPackageProcessor();
             var huntingHornSongs = new HuntingHornSongsPackageProcessor();
+
+            var skills = new SkillsPackageProcessor();
+            var skillAbilities = new SkillAbilitiesPackageProcessor();
 
             var fileProcessors = new IPackageProcessor[]
             {
@@ -102,7 +109,11 @@ namespace MHWMasterDataUtils.Tester
                 bowBootles,
                 weapons,
                 huntingHornNotes,
-                huntingHornSongs
+                huntingHornSongs,
+                skills,
+                skillAbilities,
+                skillLanguages,
+                skillAbilitiesLanguages
             };
 
             using (var packageReader = new PackageReader(logger, fileProcessors))
@@ -110,6 +121,14 @@ namespace MHWMasterDataUtils.Tester
 
             WeaponTreeName[] weaponTrees = new WeaponTreesBuilder(weaponSeriesLanguages, weapons).Build();
             SerializeJson(nameof(weaponTrees), weaponTrees);
+
+            Skill[] skillEntries = new SkillsBuilder(
+                skills,
+                skillAbilities,
+                skillLanguages,
+                skillAbilitiesLanguages
+            ).Build();
+            SerializeJson("skills", skillEntries);
 
             Item[] highLevelItems = new ItemsBuilder(
                 i => i.Type == ItemTypePrimitive.MonsterMaterial,
