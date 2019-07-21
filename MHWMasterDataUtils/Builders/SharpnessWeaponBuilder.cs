@@ -18,7 +18,7 @@ namespace MHWMasterDataUtils.Builders
     {
         private readonly LanguagePackageProcessor weaponsLanguages;
         private readonly SharpnessPackageProcessor sharpnessPackageProcessor;
-        private readonly CraftPackageProcessor craftPackageProcessor;
+        private readonly CraftPackageProcessor<core.WeaponType> craftPackageProcessor;
         private readonly HuntingHornNotesPackageProcessor huntingHornNotes;
         private readonly HuntingHornSongsPackageProcessor huntingHornSongs;
 
@@ -34,7 +34,7 @@ namespace MHWMasterDataUtils.Builders
             LanguagePackageProcessor weaponsLanguages,
             SharpnessPackageProcessor sharpnessPackageProcessor,
             WeaponsPackageProcessor weaponsPackageProcessor,
-            CraftPackageProcessor craftPackageProcessor,
+            CraftPackageProcessor<core.WeaponType> craftPackageProcessor,
             WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
             HuntingHornNotesPackageProcessor huntingHornNotes,
             HuntingHornSongsPackageProcessor huntingHornSongs
@@ -207,7 +207,7 @@ namespace MHWMasterDataUtils.Builders
                 uint oneBasedWeaponIndex = weaponIndices[(weapon.WeaponType, weapon.Id)];
                 int parentId = FindWeaponParentId(oneBasedWeaponIndex, upgradableWeapons);
 
-                core.SharpnessWeapon resultWeapon = CreateHighLevelWeapon(parentId, weapon);
+                core.SharpnessWeapon resultWeapon = CreateHighLevelWeapon(parentId, CreateCraft(weapon), weapon);
 
                 result.Add(resultWeapon);
             }
@@ -219,12 +219,49 @@ namespace MHWMasterDataUtils.Builders
 
             foreach (MeleeWeaponPrimitiveBase weapon in nonUpgradableWeapons)
             {
-                core.SharpnessWeapon resultWeapon = CreateHighLevelWeapon(-1, weapon);
+                core.SharpnessWeapon resultWeapon = CreateHighLevelWeapon(-1, null, weapon);
                 result.Add(resultWeapon);
             }
         }
 
-        private core.SharpnessWeapon CreateHighLevelWeapon(int parentId, MeleeWeaponPrimitiveBase weapon)
+        private static void TryAddCraft(List<core.CraftItem> crafts, ushort id, byte quantity)
+        {
+            if (quantity > 0)
+                crafts.Add(new core.CraftItem { Id = id, Quantity = quantity });
+        }
+
+        private core.Craft CreateCraft(MeleeWeaponPrimitiveBase weapon)
+        {
+            bool isCraftable;
+            var result = new List<core.CraftItem>();
+
+            if (craftPackageProcessor.TryGetEntry(weapon.WeaponType, weapon.Id, out CraftEntryPrimitive craftEntry))
+            {
+                isCraftable = true;
+                TryAddCraft(result, craftEntry.Item1Id, craftEntry.Item1Quantity);
+                TryAddCraft(result, craftEntry.Item2Id, craftEntry.Item2Quantity);
+                TryAddCraft(result, craftEntry.Item3Id, craftEntry.Item3Quantity);
+                TryAddCraft(result, craftEntry.Item4Id, craftEntry.Item4Quantity);
+            }
+            else if (weaponUpgrades.TryGetValue((ushort)weapon.Id, out WeaponUpgradeEntryPrimitive upgradeEntry))
+            {
+                isCraftable = false;
+                TryAddCraft(result, upgradeEntry.Item1Id, upgradeEntry.Item1Quantity);
+                TryAddCraft(result, upgradeEntry.Item2Id, upgradeEntry.Item2Quantity);
+                TryAddCraft(result, upgradeEntry.Item3Id, upgradeEntry.Item3Quantity);
+                TryAddCraft(result, upgradeEntry.Item4Id, upgradeEntry.Item4Quantity);
+            }
+            else
+                throw new FormatException($"Unknown weapon for craft of upgrade (type: {weapon.WeaponType}, id: {weapon.Id})");
+
+            return new core.Craft
+            {
+                IsCraftable = isCraftable,
+                Items = result.OrderBy(x => x.Id).ToArray()
+            };
+        }
+
+        private core.SharpnessWeapon CreateHighLevelWeapon(int parentId, core.Craft craft, MeleeWeaponPrimitiveBase weapon)
         {
             Dictionary<string, string> weaponName = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdNameIndex);
             Dictionary<string, string> weaponDescription = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdDescriptionIndex);
@@ -264,7 +301,8 @@ namespace MHWMasterDataUtils.Builders
                 (ushort)(weapon.HiddenElementDamage * 10),
                 WeaponsUtils.CreateSlotsArray(weapon),
                 weapon.IsFixedUpgrade == FixedUpgradePrimitive.CanDowngrade,
-                weaponSpecific
+                weaponSpecific,
+                craft
             );
 
             return resultWeapon;

@@ -46,8 +46,8 @@ namespace MHWMasterDataUtils.Tester
             var items = new ItemsPackageProcessor();
             var sharpness = new SharpnessPackageProcessor();
 
-            var armorCraft = new CraftPackageProcessor("/common/equip/armor.eq_crt");
-            var weaponCraft = new CraftPackageProcessor("/common/equip/weapon.eq_crt");
+            var armorCraft = new CraftPackageProcessor<ArmorClass>("/common/equip/armor.eq_crt");
+            var weaponCraft = new CraftPackageProcessor<WeaponType>("/common/equip/weapon.eq_crt");
 
             var greatSwordLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.GreatSword));
             var hammerLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.Hammer));
@@ -117,6 +117,13 @@ namespace MHWMasterDataUtils.Tester
                 steamItemsLanguages
             ).Build();
             SerializeJson("items", highLevelItems);
+
+            Item[] jewelItems = new ItemsBuilder(
+                i => i.Type == ItemTypePrimitive.Jewel,
+                items,
+                steamItemsLanguages
+            ).Build();
+            SerializeJson("jewels", jewelItems);
 
             SharpnessWeapon[] dualBlades = new SharpnessWeaponBuilder(
                 WeaponType.DualBlades,

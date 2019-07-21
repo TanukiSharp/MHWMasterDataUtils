@@ -29,7 +29,8 @@ namespace MHWMasterDataUtils.Core
             ushort hiddenElementStatusDamange,
             ushort[] slots,
             bool canDowngrade,
-            object weaponSpecific
+            object weaponSpecific,
+            Craft craft
         )
             : base(
                   weaponType,
@@ -50,7 +51,8 @@ namespace MHWMasterDataUtils.Core
                   hiddenElementStatus,
                   hiddenElementStatusDamange,
                   slots,
-                  canDowngrade
+                  canDowngrade,
+                  craft
             )
         {
             Sharpness = sharpness;

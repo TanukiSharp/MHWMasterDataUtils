@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MHWMasterDataUtils.Core;
+using MHWMasterDataUtils.Equipments;
 
 namespace MHWMasterDataUtils.Crafting
 {
@@ -109,6 +111,11 @@ namespace MHWMasterDataUtils.Crafting
                 return false;
 
             return true;
+        }
+
+        public override string ToString()
+        {
+            return $"[{KeyItem}] type: {(WeaponType)EquipType} / {(ArmorClass)EquipType}, equipId: {EquipId}";
         }
     }
 }

@@ -45,6 +45,8 @@ namespace MHWMasterDataUtils.Core
         public ushort[] Slots { get; }
         [JsonProperty("canDowngrade")]
         public bool CanDowngrade { get; }
+        [JsonProperty("craft")]
+        public Craft Craft { get; }
 
         protected WeaponBase(
             WeaponType weaponType,
@@ -65,7 +67,8 @@ namespace MHWMasterDataUtils.Core
             ElementStatus hiddenElementStatus,
             ushort hiddenElementStatusDamage,
             ushort[] slots,
-            bool canDowngrade
+            bool canDowngrade,
+            Craft craft
         )
         {
             WeaponType = weaponType;
@@ -87,6 +90,7 @@ namespace MHWMasterDataUtils.Core
             HiddenElementStatusDamage = hiddenElementStatusDamage;
             Slots = slots;
             CanDowngrade = canDowngrade;
+            Craft = craft;
         }
     }
 }
