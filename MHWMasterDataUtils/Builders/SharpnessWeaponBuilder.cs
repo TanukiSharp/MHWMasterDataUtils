@@ -279,6 +279,10 @@ namespace MHWMasterDataUtils.Builders
                 weaponSpecific = FindSongs(notes);
             }
 
+            bool canDowngrade = false;
+            if (parentId > -1)
+                canDowngrade = weapon.IsFixedUpgrade == FixedUpgradePrimitive.CanDowngrade;
+
             var resultWeapon = new core.SharpnessWeapon(
                 WeaponType,
                 weapon.Id,
@@ -301,7 +305,7 @@ namespace MHWMasterDataUtils.Builders
                 (ushort)(weapon.HiddenElementDamage * 10),
                 weapon.SkillId,
                 WeaponsUtils.CreateSlotsArray(weapon),
-                weapon.IsFixedUpgrade == FixedUpgradePrimitive.CanDowngrade,
+                canDowngrade,
                 weaponSpecific,
                 craft
             );
