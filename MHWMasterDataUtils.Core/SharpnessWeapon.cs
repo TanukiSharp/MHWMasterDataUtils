@@ -71,7 +71,14 @@ namespace MHWMasterDataUtils.Core
 
         public override string ToString()
         {
-            return $"[{Id}] {Name[LanguageUtils.DefaultLanguageCode]} (parent: {ParentId})";
+            var text = new StringBuilder($"[{Id}] {Name[LanguageUtils.DefaultLanguageCode]}");
+
+            if (WeaponSpecific is GunlanceShell shell)
+                text.Append($" {(GunlanceShellType)shell.ShellType}-{shell.ShellLevel}");
+
+            text.Append($" (parent: {ParentId})");
+
+            return text.ToString();
         }
     }
 }

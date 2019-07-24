@@ -22,6 +22,7 @@ namespace MHWMasterDataUtils.Builders
         private readonly HuntingHornSongsPackageProcessor huntingHornSongs;
         private readonly DualBladesSpecialPackageProcessor dualBladesSpecial;
         private readonly AxePhialPackageProcessor axePhials;
+        private readonly GunlanceShellPackageProcessor gunlanceShells;
 
         private readonly Dictionary<uint, WeaponPrimitiveBase> weapons;
         private readonly Dictionary<ushort, WeaponUpgradeEntryPrimitive> weaponUpgrades;
@@ -40,7 +41,8 @@ namespace MHWMasterDataUtils.Builders
             HuntingHornNotesPackageProcessor huntingHornNotes,
             HuntingHornSongsPackageProcessor huntingHornSongs,
             DualBladesSpecialPackageProcessor dualBladesSpecial,
-            AxePhialPackageProcessor axePhials
+            AxePhialPackageProcessor axePhials,
+            GunlanceShellPackageProcessor gunlanceShells
         )
         {
             WeaponType = weaponType;
@@ -52,6 +54,7 @@ namespace MHWMasterDataUtils.Builders
             this.huntingHornSongs = huntingHornSongs;
             this.dualBladesSpecial = dualBladesSpecial;
             this.axePhials = axePhials;
+            this.gunlanceShells = gunlanceShells;
             weapons = weaponsPackageProcessor.Table[weaponType];
             weaponUpgrades = weaponUpgradePackageProcessor.Table[weaponType];
 
@@ -319,9 +322,13 @@ namespace MHWMasterDataUtils.Builders
             }
             else if (WeaponType == core.WeaponType.Gunlance)
             {
-                if (weapon.Weapon1Id > 0)
+                GunlanceShellPrimitive gunlanceShell = gunlanceShells.Table[weapon.Weapon1Id];
+
+                weaponSpecific = new core.GunlanceShell
                 {
-                }
+                    ShellType = (int)gunlanceShell.ShellType,
+                    ShellLevel = gunlanceShell.ShellLevel + 1
+                };
             }
             else if (WeaponType == core.WeaponType.SwitchAxe || WeaponType == core.WeaponType.ChargeBlade)
             {
