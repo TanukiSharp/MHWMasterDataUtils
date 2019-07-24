@@ -73,6 +73,7 @@ namespace MHWMasterDataUtils.Tester
             var weapons = new WeaponsPackageProcessor();
             var huntingHornNotes = new HuntingHornNotesPackageProcessor();
             var huntingHornSongs = new HuntingHornSongsPackageProcessor();
+            var dualBladesSpecial = new DualBladesSpecialPackageProcessor();
 
             var skills = new SkillsPackageProcessor();
             var skillAbilities = new SkillAbilitiesPackageProcessor();
@@ -109,6 +110,7 @@ namespace MHWMasterDataUtils.Tester
                 weapons,
                 huntingHornNotes,
                 huntingHornSongs,
+                dualBladesSpecial,
                 skills,
                 skillAbilities,
                 skillLanguages,
@@ -152,7 +154,8 @@ namespace MHWMasterDataUtils.Tester
                 weaponCraft,
                 weaponUpgrades,
                 null,
-                null
+                null,
+                dualBladesSpecial
             ).Build();
             SerializeJson("dual-blades", dualBlades);
 
@@ -163,6 +166,7 @@ namespace MHWMasterDataUtils.Tester
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
+                null,
                 null,
                 null
             ).Build();
@@ -176,6 +180,7 @@ namespace MHWMasterDataUtils.Tester
                 weaponCraft,
                 weaponUpgrades,
                 null,
+                null,
                 null
             ).Build();
             SerializeJson("sword-and-shields", swordAndShields);
@@ -187,6 +192,7 @@ namespace MHWMasterDataUtils.Tester
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
+                null,
                 null,
                 null
             ).Build();
@@ -200,6 +206,7 @@ namespace MHWMasterDataUtils.Tester
                 weaponCraft,
                 weaponUpgrades,
                 null,
+                null,
                 null
             ).Build();
             SerializeJson("hammers", hammers);
@@ -212,7 +219,8 @@ namespace MHWMasterDataUtils.Tester
                 weaponCraft,
                 weaponUpgrades,
                 huntingHornNotes,
-                huntingHornSongs
+                huntingHornSongs,
+                null
             ).Build();
             SerializeJson("hunting-horns", huntingHorns);
 
@@ -223,6 +231,7 @@ namespace MHWMasterDataUtils.Tester
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
+                null,
                 null,
                 null
             ).Build();
@@ -236,6 +245,7 @@ namespace MHWMasterDataUtils.Tester
                 weaponCraft,
                 weaponUpgrades,
                 null,
+                null,
                 null
             ).Build();
             SerializeJson("gunlances", gunlances);
@@ -247,6 +257,7 @@ namespace MHWMasterDataUtils.Tester
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
+                null,
                 null,
                 null
             ).Build();
@@ -260,6 +271,7 @@ namespace MHWMasterDataUtils.Tester
                 weaponCraft,
                 weaponUpgrades,
                 null,
+                null,
                 null
             ).Build();
             SerializeJson("charge-blades", chargeBlades);
@@ -271,6 +283,7 @@ namespace MHWMasterDataUtils.Tester
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
+                null,
                 null,
                 null
             ).Build();

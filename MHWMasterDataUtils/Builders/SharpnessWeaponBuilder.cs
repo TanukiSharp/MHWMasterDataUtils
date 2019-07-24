@@ -20,6 +20,7 @@ namespace MHWMasterDataUtils.Builders
         private readonly CraftPackageProcessor<core.WeaponType> craftPackageProcessor;
         private readonly HuntingHornNotesPackageProcessor huntingHornNotes;
         private readonly HuntingHornSongsPackageProcessor huntingHornSongs;
+        private readonly DualBladesSpecialPackageProcessor dualBladesSpecial;
 
         private readonly Dictionary<uint, WeaponPrimitiveBase> weapons;
         private readonly Dictionary<ushort, WeaponUpgradeEntryPrimitive> weaponUpgrades;
@@ -36,7 +37,8 @@ namespace MHWMasterDataUtils.Builders
             CraftPackageProcessor<core.WeaponType> craftPackageProcessor,
             WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
             HuntingHornNotesPackageProcessor huntingHornNotes,
-            HuntingHornSongsPackageProcessor huntingHornSongs
+            HuntingHornSongsPackageProcessor huntingHornSongs,
+            DualBladesSpecialPackageProcessor dualBladesSpecial
         )
         {
             WeaponType = weaponType;
@@ -46,6 +48,7 @@ namespace MHWMasterDataUtils.Builders
             this.craftPackageProcessor = craftPackageProcessor;
             this.huntingHornNotes = huntingHornNotes;
             this.huntingHornSongs = huntingHornSongs;
+            this.dualBladesSpecial = dualBladesSpecial;
 
             weapons = weaponsPackageProcessor.Table[weaponType];
             weaponUpgrades = weaponUpgradePackageProcessor.Table[weaponType];
@@ -296,6 +299,21 @@ namespace MHWMasterDataUtils.Builders
             {
                 HuntingHornNotesPrimitive notes = huntingHornNotes.Table[weapon.Weapon1Id];
                 weaponSpecific = FindSongs(notes);
+            }
+            else if (WeaponType == core.WeaponType.DualBlades)
+            {
+                if (weapon.Weapon1Id > 0)
+                {
+                    DualBladesSpecialPrimitive dualBladesElementInfo = dualBladesSpecial.Table[weapon.Weapon1Id];
+
+                    weaponSpecific = new
+                    {
+                        elementStatus1 = (int)dualBladesElementInfo.Element1,
+                        elementStatus1Damage = dualBladesElementInfo.Element1Damage * 10,
+                        elementStatus2 = (int)dualBladesElementInfo.Element2,
+                        elementStatus2Damage = dualBladesElementInfo.Element2Damage * 10,
+                    };
+                }
             }
 
             bool canDowngrade = false;
