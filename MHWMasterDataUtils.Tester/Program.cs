@@ -8,7 +8,6 @@ using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Sharpness;
 using MHWMasterDataUtils.Skills;
 using MHWMasterDataUtils.Weapons;
-using MHWMasterDataUtils.Weapons.HighLevel;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System;

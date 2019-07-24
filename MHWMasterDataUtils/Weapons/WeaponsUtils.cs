@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using MHWMasterDataUtils.Core;
-using MHWMasterDataUtils.Equipments;
-using MHWMasterDataUtils.Weapons.HighLevel;
 using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Weapons

@@ -5,7 +5,6 @@ using System.Text;
 using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Weapons;
-using MHWMasterDataUtils.Weapons.HighLevel;
 using MHWMasterDataUtils.Weapons.Primitives;
 using Newtonsoft.Json;
 

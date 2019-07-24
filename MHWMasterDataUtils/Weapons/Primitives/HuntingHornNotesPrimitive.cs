@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MHWMasterDataUtils.Weapons.HighLevel;
+using MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Weapons.Primitives
 {

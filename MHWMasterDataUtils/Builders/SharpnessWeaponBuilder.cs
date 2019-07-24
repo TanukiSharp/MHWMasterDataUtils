@@ -7,7 +7,6 @@ using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Sharpness;
 using MHWMasterDataUtils.Weapons;
-using MHWMasterDataUtils.Weapons.HighLevel;
 using MHWMasterDataUtils.Weapons.Primitives;
 
 using core = MHWMasterDataUtils.Core;
@@ -113,17 +112,37 @@ namespace MHWMasterDataUtils.Builders
             }
         }
 
-        private bool IsSongNoteAvailable(HuntingHornNoteColor note, HuntingHornNotesPrimitive notes)
+        private bool IsSongNoteAvailable(core.HuntingHornNoteColor note, HuntingHornNotesPrimitive notes)
         {
-            if (note == HuntingHornNoteColor.Disabled)
+            if (note == core.HuntingHornNoteColor.Disabled)
                 return true;
 
             return note == notes.Note1 || note == notes.Note2 || note == notes.Note3;
         }
 
-        private HuntingHornSongPrimitive[] FindSongs(HuntingHornNotesPrimitive notes)
+        private static string ConvertHuntingHornNote(core.HuntingHornNoteColor note)
         {
-            var result = new List<HuntingHornSongPrimitive>();
+            if (note == core.HuntingHornNoteColor.Disabled)
+                return null;
+
+            return note.ToString();
+        }
+
+        private static core.HuntingHornSong ConvertHuntingHornSong(HuntingHornSongPrimitive song)
+        {
+            return new core.HuntingHornSong
+            {
+                Effect = song.Effect.ToString(),
+                Note1 = ConvertHuntingHornNote(song.Note1),
+                Note2 = ConvertHuntingHornNote(song.Note2),
+                Note3 = ConvertHuntingHornNote(song.Note3),
+                Note4 = ConvertHuntingHornNote(song.Note4),
+            };
+        }
+
+        private core.HuntingHornSong[] FindSongs(HuntingHornNotesPrimitive notes)
+        {
+            var result = new List<core.HuntingHornSong>();
 
             foreach (HuntingHornSongPrimitive song in huntingHornSongs.List)
             {
@@ -131,7 +150,7 @@ namespace MHWMasterDataUtils.Builders
                     IsSongNoteAvailable(song.Note2, notes) &&
                     IsSongNoteAvailable(song.Note3, notes) &&
                     IsSongNoteAvailable(song.Note4, notes))
-                    result.Add(song);
+                    result.Add(ConvertHuntingHornSong(song));
             }
 
             return result.ToArray();
