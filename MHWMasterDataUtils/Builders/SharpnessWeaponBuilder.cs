@@ -21,6 +21,7 @@ namespace MHWMasterDataUtils.Builders
         private readonly HuntingHornNotesPackageProcessor huntingHornNotes;
         private readonly HuntingHornSongsPackageProcessor huntingHornSongs;
         private readonly DualBladesSpecialPackageProcessor dualBladesSpecial;
+        private readonly AxePhialPackageProcessor axePhials;
 
         private readonly Dictionary<uint, WeaponPrimitiveBase> weapons;
         private readonly Dictionary<ushort, WeaponUpgradeEntryPrimitive> weaponUpgrades;
@@ -38,7 +39,8 @@ namespace MHWMasterDataUtils.Builders
             WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
             HuntingHornNotesPackageProcessor huntingHornNotes,
             HuntingHornSongsPackageProcessor huntingHornSongs,
-            DualBladesSpecialPackageProcessor dualBladesSpecial
+            DualBladesSpecialPackageProcessor dualBladesSpecial,
+            AxePhialPackageProcessor axePhials
         )
         {
             WeaponType = weaponType;
@@ -49,7 +51,7 @@ namespace MHWMasterDataUtils.Builders
             this.huntingHornNotes = huntingHornNotes;
             this.huntingHornSongs = huntingHornSongs;
             this.dualBladesSpecial = dualBladesSpecial;
-
+            this.axePhials = axePhials;
             weapons = weaponsPackageProcessor.Table[weaponType];
             weaponUpgrades = weaponUpgradePackageProcessor.Table[weaponType];
 
@@ -323,12 +325,12 @@ namespace MHWMasterDataUtils.Builders
             }
             else if (WeaponType == core.WeaponType.SwitchAxe)
             {
-                if (weapon.Weapon1Id > 0)
+                AxePhialPrimitive axePhial = axePhials.Table[weapon.Weapon1Id];
+                weaponSpecific = new core.AxePhial
                 {
-                }
-                if (weapon.Weapon2Id > 0)
-                {
-                }
+                    ElementStatus = (int)axePhial.ElementStatus,
+                    Damage = axePhial.Damage * 10
+                };
             }
             else if (WeaponType == core.WeaponType.ChargeBlade)
             {
