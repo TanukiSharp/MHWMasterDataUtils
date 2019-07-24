@@ -315,6 +315,33 @@ namespace MHWMasterDataUtils.Builders
                     };
                 }
             }
+            else if (WeaponType == core.WeaponType.Gunlance)
+            {
+                if (weapon.Weapon1Id > 0)
+                {
+                }
+            }
+            else if (WeaponType == core.WeaponType.SwitchAxe)
+            {
+                if (weapon.Weapon1Id > 0)
+                {
+                }
+                if (weapon.Weapon2Id > 0)
+                {
+                }
+            }
+            else if (WeaponType == core.WeaponType.ChargeBlade)
+            {
+                if (weapon.Weapon1Id > 0)
+                {
+                }
+            }
+            else if (WeaponType == core.WeaponType.InsectGlaive)
+            {
+                if (weapon.Weapon1Id > 0)
+                {
+                }
+            }
 
             bool canDowngrade = false;
             if (parentId > -1)
