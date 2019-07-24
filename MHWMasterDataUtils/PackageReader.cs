@@ -116,7 +116,7 @@ namespace MHWMasterDataUtils
             return totalParentCount;
         }
 
-        private async Task RunMatchingPackageProcessors(PackageChildEntry childEntry, IEnumerable<IPackageProcessor>  matchingPackageProcessors)
+        private async Task RunMatchingPackageProcessors(PackageChildEntry childEntry, IEnumerable<IPackageProcessor> matchingPackageProcessors)
         {
             await PreChunkFileProcess(matchingPackageProcessors, childEntry.ChunkFullFilename).ConfigureAwait(false);
 
@@ -147,7 +147,8 @@ namespace MHWMasterDataUtils
             }
 
             IEnumerable<IPackageProcessor> matchingPackageProcessors = packageProcessors
-                .Where(x => x.IsChunkFileMatching(childEntry.ChunkFullFilename));
+                .Where(x => x.IsChunkFileMatching(childEntry.ChunkFullFilename))
+                .ToList(); // <-- Need to freeze the state here, since iterated many times.
 
             await RunMatchingPackageProcessors(childEntry, matchingPackageProcessors).ConfigureAwait(false);
         }

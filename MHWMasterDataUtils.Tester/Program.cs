@@ -112,7 +112,8 @@ namespace MHWMasterDataUtils.Tester
                 skills,
                 skillAbilities,
                 skillLanguages,
-                skillAbilitiesLanguages
+                skillAbilitiesLanguages,
+                new DumpPackageProcessor("/common/equip/wep_wsword.wep_wsd"),
             };
 
             using (var packageReader = new PackageReader(logger, fileProcessors))
