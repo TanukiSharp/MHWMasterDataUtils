@@ -6,7 +6,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
 {
     public enum AxeElementStatus
     {
-        Power = 0,
+        PowerImpact = 0,
         PowerElement = 1,
         Dragon = 2,
         Exhaust = 3,

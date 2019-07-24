@@ -323,7 +323,7 @@ namespace MHWMasterDataUtils.Builders
                 {
                 }
             }
-            else if (WeaponType == core.WeaponType.SwitchAxe)
+            else if (WeaponType == core.WeaponType.SwitchAxe || WeaponType == core.WeaponType.ChargeBlade)
             {
                 AxePhialPrimitive axePhial = axePhials.Table[weapon.Weapon1Id];
                 weaponSpecific = new core.AxePhial
@@ -331,12 +331,6 @@ namespace MHWMasterDataUtils.Builders
                     ElementStatus = (int)axePhial.ElementStatus,
                     Damage = axePhial.Damage * 10
                 };
-            }
-            else if (WeaponType == core.WeaponType.ChargeBlade)
-            {
-                if (weapon.Weapon1Id > 0)
-                {
-                }
             }
             else if (WeaponType == core.WeaponType.InsectGlaive)
             {
