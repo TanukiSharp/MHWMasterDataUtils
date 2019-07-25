@@ -341,9 +341,7 @@ namespace MHWMasterDataUtils.Builders
             }
             else if (WeaponType == core.WeaponType.InsectGlaive)
             {
-                if (weapon.Weapon1Id > 0)
-                {
-                }
+                weaponSpecific = (int)weapon.Weapon1Id; // Matches type core.KinsectBonus.
             }
 
             bool canDowngrade = false;
