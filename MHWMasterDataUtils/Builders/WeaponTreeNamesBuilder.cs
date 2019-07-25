@@ -46,7 +46,15 @@ namespace MHWMasterDataUtils.Builders
 
                     foreach (LanguageIdPrimitive language in LanguageUtils.Languages)
                     {
-                        if (weaponSeriesLanguages.Table[language].TryGetValue(treeId, out LanguageItem treeSeriesLanguageItem) == false)
+                        Dictionary<uint, LanguageItem> languageEntries;
+#if DEBUG
+                        // Allow to work with degraded data in debug mode.
+                        if (weaponSeriesLanguages.Table.TryGetValue(language, out languageEntries) == false)
+                            continue;
+#else
+                        languageEntries = weaponSeriesLanguages.Table[language];
+#endif
+                        if (languageEntries.TryGetValue(treeId, out LanguageItem treeSeriesLanguageItem) == false)
                             continue;
 
                         string treeName = treeSeriesLanguageItem.Value;
