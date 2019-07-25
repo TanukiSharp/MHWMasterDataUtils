@@ -313,9 +313,9 @@ namespace MHWMasterDataUtils.Builders
 
                     weaponSpecific = new
                     {
-                        elementStatus1 = (int)dualBladesElementInfo.Element1,
+                        elementStatus1 = (int)dualBladesElementInfo.Element1, // Matches type core.ElementStatus.
                         elementStatus1Damage = dualBladesElementInfo.Element1Damage * 10,
-                        elementStatus2 = (int)dualBladesElementInfo.Element2,
+                        elementStatus2 = (int)dualBladesElementInfo.Element2, // Matches type core.ElementStatus.
                         elementStatus2Damage = dualBladesElementInfo.Element2Damage * 10,
                     };
                 }
@@ -326,7 +326,7 @@ namespace MHWMasterDataUtils.Builders
 
                 weaponSpecific = new core.GunlanceShell
                 {
-                    ShellType = (int)gunlanceShell.ShellType,
+                    ShellType = (int)gunlanceShell.ShellType, // Matches type core.GunlanceShellType.
                     ShellLevel = gunlanceShell.ShellLevel + 1
                 };
             }
