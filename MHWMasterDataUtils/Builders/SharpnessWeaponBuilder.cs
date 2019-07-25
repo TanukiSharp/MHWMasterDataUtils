@@ -128,19 +128,19 @@ namespace MHWMasterDataUtils.Builders
             return note == notes.Note1 || note == notes.Note2 || note == notes.Note3;
         }
 
-        private static string ConvertHuntingHornNote(core.HuntingHornNoteColor note)
+        private static int? ConvertHuntingHornNote(core.HuntingHornNoteColor note)
         {
             if (note == core.HuntingHornNoteColor.Disabled)
                 return null;
 
-            return note.ToString();
+            return (int)note;
         }
 
         private static core.HuntingHornSong ConvertHuntingHornSong(HuntingHornSongPrimitive song)
         {
             return new core.HuntingHornSong
             {
-                Effect = song.Effect.ToString(),
+                Effect = (int)song.Effect,
                 Note1 = ConvertHuntingHornNote(song.Note1),
                 Note2 = ConvertHuntingHornNote(song.Note2),
                 Note3 = ConvertHuntingHornNote(song.Note3),

@@ -8,14 +8,14 @@ namespace MHWMasterDataUtils.Core
     public class HuntingHornSong
     {
         [JsonProperty("effect")]
-        public string Effect { get; set; }
+        public int Effect { get; set; }
         [JsonProperty("note1")]
-        public string Note1 { get; set; }
+        public int? Note1 { get; set; }
         [JsonProperty("note2")]
-        public string Note2 { get; set; }
+        public int? Note2 { get; set; }
         [JsonProperty("note3")]
-        public string Note3 { get; set; }
+        public int? Note3 { get; set; }
         [JsonProperty("note4")]
-        public string Note4 { get; set; }
+        public int? Note4 { get; set; }
     }
 }
