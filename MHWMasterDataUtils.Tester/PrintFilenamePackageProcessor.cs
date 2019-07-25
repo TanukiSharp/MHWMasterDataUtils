@@ -42,12 +42,6 @@ namespace MHWMasterDataUtils.Tester
             return Task.CompletedTask;
         }
 
-        //public override Task PostPackageFileProcess(string packageFullFilename)
-        //{
-        //    logger?.LogInformation("");
-        //    return base.PostChunkFileProcess(packageFullFilename);
-        //}
-
         public override Task PostProcess()
         {
             foreach (string file in files)
