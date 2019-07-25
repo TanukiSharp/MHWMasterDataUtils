@@ -9,27 +9,28 @@ namespace MHWMasterDataUtils.Tester
     public class DumpPackageProcessor : PackageProcessorBase
     {
         private readonly string matchingFile;
-        private bool isDumped;
 
         public DumpPackageProcessor(string matchingFile)
         {
             this.matchingFile = matchingFile;
         }
 
+        private int counter = 0;
+
         public override bool IsChunkFileMatching(string chunkFullFilename)
         {
-            if (isDumped == false && chunkFullFilename == matchingFile)
-            {
-                isDumped = true;
-                return true;
-            }
-
-            return false;
+            return chunkFullFilename == matchingFile;
         }
 
         public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
-            using (Stream fs = File.OpenWrite(Path.Combine(AppContext.BaseDirectory, Path.GetFileName(chunkFullFilename))))
+            string name = Path.GetFileNameWithoutExtension(chunkFullFilename);
+            string ext = Path.GetExtension(chunkFullFilename);
+            string filename = Path.Combine(AppContext.BaseDirectory, $"{name}_{counter:d02}{ext}");
+
+            counter++;
+
+            using (Stream fs = File.OpenWrite(filename))
                 stream.CopyTo(fs);
 
             return Task.CompletedTask;

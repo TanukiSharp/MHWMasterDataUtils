@@ -119,7 +119,7 @@ namespace MHWMasterDataUtils.Tester
                 skillAbilities,
                 skillLanguages,
                 skillAbilitiesLanguages,
-                new DumpPackageProcessor("/common/equip/wep_glan.wep_glan"),
+                new DumpPackageProcessor("/common/equip/rod_insect.rod_inse"),
             };
 
             using (var packageReader = new PackageReader(logger, fileProcessors))
