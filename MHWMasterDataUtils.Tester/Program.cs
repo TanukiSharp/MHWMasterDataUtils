@@ -150,7 +150,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("jewels", jewelItems);
 
-            SharpnessWeapon[] dualBlades = new SharpnessWeaponBuilder(
+            WeaponBase[] dualBlades = new SharpnessWeaponBuilder(
                 WeaponType.DualBlades,
                 dualBladeLanguages,
                 sharpness,
@@ -165,7 +165,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("dual-blades", dualBlades);
 
-            SharpnessWeapon[] longSwords = new SharpnessWeaponBuilder(
+            WeaponBase[] longSwords = new SharpnessWeaponBuilder(
                 WeaponType.LongSword,
                 longSwordLanguages,
                 sharpness,
@@ -180,7 +180,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("long-swords", longSwords);
 
-            SharpnessWeapon[] swordAndShields = new SharpnessWeaponBuilder(
+            WeaponBase[] swordAndShields = new SharpnessWeaponBuilder(
                 WeaponType.SwordAndShield,
                 swordAndShieldLanguages,
                 sharpness,
@@ -195,7 +195,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("sword-and-shields", swordAndShields);
 
-            SharpnessWeapon[] greatSwords = new SharpnessWeaponBuilder(
+            WeaponBase[] greatSwords = new SharpnessWeaponBuilder(
                 WeaponType.GreatSword,
                 greatSwordLanguages,
                 sharpness,
@@ -210,7 +210,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("great-swords", greatSwords);
 
-            SharpnessWeapon[] hammers = new SharpnessWeaponBuilder(
+            WeaponBase[] hammers = new SharpnessWeaponBuilder(
                 WeaponType.Hammer,
                 hammerLanguages,
                 sharpness,
@@ -225,7 +225,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("hammers", hammers);
 
-            SharpnessWeapon[] huntingHorns = new SharpnessWeaponBuilder(
+            WeaponBase[] huntingHorns = new SharpnessWeaponBuilder(
                 WeaponType.HuntingHorn,
                 huntingHornLanguages,
                 sharpness,
@@ -240,7 +240,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("hunting-horns", huntingHorns);
 
-            SharpnessWeapon[] lances = new SharpnessWeaponBuilder(
+            WeaponBase[] lances = new SharpnessWeaponBuilder(
                 WeaponType.Lance,
                 lanceLanguages,
                 sharpness,
@@ -255,7 +255,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("lances", lances);
 
-            SharpnessWeapon[] gunlances = new SharpnessWeaponBuilder(
+            WeaponBase[] gunlances = new SharpnessWeaponBuilder(
                 WeaponType.Gunlance,
                 gunlanceLanguages,
                 sharpness,
@@ -270,7 +270,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("gunlances", gunlances);
 
-            SharpnessWeapon[] switchAxes = new SharpnessWeaponBuilder(
+            WeaponBase[] switchAxes = new SharpnessWeaponBuilder(
                 WeaponType.SwitchAxe,
                 switchAxeLanguages,
                 sharpness,
@@ -285,7 +285,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("switch-axes", switchAxes);
 
-            SharpnessWeapon[] chargeBlades = new SharpnessWeaponBuilder(
+            WeaponBase[] chargeBlades = new SharpnessWeaponBuilder(
                 WeaponType.ChargeBlade,
                 chargeBladeLanguages,
                 sharpness,
@@ -300,7 +300,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("charge-blades", chargeBlades);
 
-            SharpnessWeapon[] insectGlaives = new SharpnessWeaponBuilder(
+            WeaponBase[] insectGlaives = new SharpnessWeaponBuilder(
                 WeaponType.InsectGlaive,
                 insectGlaiveLanguages,
                 sharpness,

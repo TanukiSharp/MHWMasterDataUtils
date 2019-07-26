@@ -213,9 +213,9 @@ namespace MHWMasterDataUtils.Builders
             return -1;
         }
 
-        public core.SharpnessWeapon[] Build()
+        public core.WeaponBase[] Build()
         {
-            var result = new List<core.SharpnessWeapon>();
+            var result = new List<core.WeaponBase>();
 
             CreateUpgradableWeapons(result);
             CreateNonUpgradableWeapons(result);
@@ -225,28 +225,28 @@ namespace MHWMasterDataUtils.Builders
             return result.ToArray();
         }
 
-        private void CreateUpgradableWeapons(List<core.SharpnessWeapon> result)
+        private void CreateUpgradableWeapons(List<core.WeaponBase> result)
         {
             List<MeleeWeaponPrimitiveBase> upgradableWeapons = CreateValidWeaponsList(true);
 
-            foreach (MeleeWeaponPrimitiveBase weapon in upgradableWeapons)
+            foreach (WeaponPrimitiveBase weapon in upgradableWeapons)
             {
                 uint oneBasedWeaponIndex = weaponIndices[(weapon.WeaponType, weapon.Id)];
                 int parentId = FindWeaponParentId(oneBasedWeaponIndex, upgradableWeapons);
 
-                core.SharpnessWeapon resultWeapon = CreateHighLevelWeapon(parentId, CreateCraft(weapon), weapon);
+                core.WeaponBase resultWeapon = CreateHighLevelWeapon(parentId, true, weapon);
 
                 result.Add(resultWeapon);
             }
         }
 
-        private void CreateNonUpgradableWeapons(List<core.SharpnessWeapon> result)
+        private void CreateNonUpgradableWeapons(List<core.WeaponBase> result)
         {
             List<MeleeWeaponPrimitiveBase> nonUpgradableWeapons = CreateValidWeaponsList(false);
 
-            foreach (MeleeWeaponPrimitiveBase weapon in nonUpgradableWeapons)
+            foreach (WeaponPrimitiveBase weapon in nonUpgradableWeapons)
             {
-                core.SharpnessWeapon resultWeapon = CreateHighLevelWeapon(-1, null, weapon);
+                core.WeaponBase resultWeapon = CreateHighLevelWeapon(-1, false, weapon);
                 result.Add(resultWeapon);
             }
         }
@@ -257,7 +257,7 @@ namespace MHWMasterDataUtils.Builders
                 crafts.Add(new core.CraftItem { Id = id, Quantity = quantity });
         }
 
-        private core.Craft CreateCraft(MeleeWeaponPrimitiveBase weapon)
+        private core.Craft CreateCraft(WeaponPrimitiveBase weapon)
         {
             bool isCraftable;
             var result = new List<core.CraftItem>();
@@ -288,11 +288,8 @@ namespace MHWMasterDataUtils.Builders
             };
         }
 
-        private core.SharpnessWeapon CreateHighLevelWeapon(int parentId, core.Craft craft, MeleeWeaponPrimitiveBase weapon)
+        private core.SharpnessWeapon CreateSharpnessWeapon(ref ComputedArguments computedArguments, MeleeWeaponPrimitiveBase weapon)
         {
-            Dictionary<string, string> weaponName = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdNameIndex);
-            Dictionary<string, string> weaponDescription = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdDescriptionIndex);
-
             core.SharpnessInfo maxSharpness = sharpnessPackageProcessor.Table[weapon.SharpnessId];
 
             ushort sharpnessModifier = SharpnessUtils.ToSharpnessModifier(weapon.Handicraft);
@@ -344,17 +341,13 @@ namespace MHWMasterDataUtils.Builders
                 weaponSpecific = (int)weapon.Weapon1Id; // Matches type core.KinsectBonus.
             }
 
-            bool canDowngrade = false;
-            if (parentId > -1)
-                canDowngrade = weapon.IsFixedUpgrade == FixedUpgradePrimitive.CanDowngrade;
-
             var resultWeapon = new core.SharpnessWeapon(
                 WeaponType,
                 weapon.Id,
                 weapon.TreeOrder,
-                parentId,
-                weaponName,
-                weaponDescription,
+                computedArguments.ParentId,
+                computedArguments.Name,
+                computedArguments.Description,
                 WeaponsUtils.ComputeWeaponDamage(WeaponType, weapon.RawDamage),
                 weapon.Rarity,
                 weapon.TreeId,
@@ -370,10 +363,55 @@ namespace MHWMasterDataUtils.Builders
                 (ushort)(weapon.HiddenElementDamage * 10),
                 weapon.SkillId,
                 WeaponsUtils.CreateSlotsArray(weapon),
-                canDowngrade,
+                computedArguments.CanDowngrade,
                 weaponSpecific,
-                craft
+                computedArguments.Craft
             );
+
+            return resultWeapon;
+        }
+
+        private struct ComputedArguments
+        {
+            public readonly int ParentId;
+            public readonly Dictionary<string, string> Name;
+            public readonly Dictionary<string, string> Description;
+            public readonly bool CanDowngrade;
+            public readonly core.Craft Craft;
+
+            public ComputedArguments(
+                int parentId,
+                Dictionary<string, string> name,
+                Dictionary<string, string> description,
+                bool canDowngrade,
+                core.Craft craft
+            )
+            {
+                ParentId = parentId;
+                Name = name;
+                Description = description;
+                CanDowngrade = canDowngrade;
+                Craft = craft;
+            }
+        }
+
+        private core.WeaponBase CreateHighLevelWeapon(int parentId, bool isUpgradable, WeaponPrimitiveBase weapon)
+        {
+            Dictionary<string, string> weaponName = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdNameIndex);
+            Dictionary<string, string> weaponDescription = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdDescriptionIndex);
+
+            core.Craft craft = null;
+
+            if (isUpgradable)
+                craft = CreateCraft(weapon);
+
+            bool canDowngrade = false;
+            if (parentId > -1)
+                canDowngrade = weapon.IsFixedUpgrade == FixedUpgradePrimitive.CanDowngrade;
+
+            var computedArguments = new ComputedArguments(parentId, weaponName, weaponDescription, canDowngrade, craft);
+
+            core.SharpnessWeapon resultWeapon = CreateSharpnessWeapon(ref computedArguments, (MeleeWeaponPrimitiveBase)weapon);
 
             return resultWeapon;
         }
