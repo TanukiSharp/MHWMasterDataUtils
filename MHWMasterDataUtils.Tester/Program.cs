@@ -123,7 +123,7 @@ namespace MHWMasterDataUtils.Tester
             };
 
             using (var packageReader = new PackageReader(logger, fileProcessors))
-                await packageReader.Run(packagesFullPath).ConfigureAwait(false);
+                packageReader.Run(packagesFullPath);
 
             WeaponTreeName[] weaponTrees = new WeaponTreesBuilder(weaponSeriesLanguages, weapons).Build();
             SerializeJson(nameof(weaponTrees), weaponTrees);

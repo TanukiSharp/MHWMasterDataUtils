@@ -16,20 +16,20 @@ namespace MHWMasterDataUtils.Tester
             this.logger = logger;
         }
 
-        public override Task PrePackageFileProcess(string packageFullFilename)
+        public override void PrePackageFileProcess(string packageFullFilename)
         {
             logger?.LogInformation($"package file: {packageFullFilename}");
-            return base.PrePackageFileProcess(packageFullFilename);
+            base.PrePackageFileProcess(packageFullFilename);
         }
 
         private readonly HashSet<string> files = new HashSet<string>();
 
-        public override Task PreChunkFileProcess(string fileFullFilename)
+        public override void PreChunkFileProcess(string fileFullFilename)
         {
             if (fileFullFilename.Contains("rod", StringComparison.OrdinalIgnoreCase))
                 files.Add(fileFullFilename);
 
-            return base.PreChunkFileProcess(fileFullFilename);
+            base.PreChunkFileProcess(fileFullFilename);
         }
 
         public override bool IsChunkFileMatching(string chunkFullFilename)
@@ -37,17 +37,16 @@ namespace MHWMasterDataUtils.Tester
             return true;
         }
 
-        public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
+        public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
-            return Task.CompletedTask;
         }
 
-        public override Task PostProcess()
+        public override void PostProcess()
         {
             foreach (string file in files)
                 logger?.LogInformation($"  - chunk file: {file}");
 
-            return base.PostProcess();
+            base.PostProcess();
         }
     }
 }

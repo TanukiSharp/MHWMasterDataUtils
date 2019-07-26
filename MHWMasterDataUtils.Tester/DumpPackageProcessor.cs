@@ -22,7 +22,7 @@ namespace MHWMasterDataUtils.Tester
             return chunkFullFilename == matchingFile;
         }
 
-        public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
+        public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
             string name = Path.GetFileNameWithoutExtension(chunkFullFilename);
             string ext = Path.GetExtension(chunkFullFilename);
@@ -32,8 +32,6 @@ namespace MHWMasterDataUtils.Tester
 
             using (Stream fs = File.OpenWrite(filename))
                 stream.CopyTo(fs);
-
-            return Task.CompletedTask;
         }
     }
 }

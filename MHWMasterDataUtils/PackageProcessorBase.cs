@@ -8,37 +8,31 @@ namespace MHWMasterDataUtils
 {
     public abstract class PackageProcessorBase : IPackageProcessor
     {
-        public virtual Task PreProcess()
+        public virtual void PreProcess()
         {
-            return Task.CompletedTask;
         }
 
-        public virtual Task PrePackageFileProcess(string packageFullFilename)
+        public virtual void PrePackageFileProcess(string packageFullFilename)
         {
-            return Task.CompletedTask;
         }
 
-        public virtual Task PreChunkFileProcess(string chunkFullFilename)
+        public virtual void PreChunkFileProcess(string chunkFullFilename)
         {
-            return Task.CompletedTask;
         }
 
         public abstract bool IsChunkFileMatching(string chunkFullFilename);
-        public abstract Task ProcessChunkFile(Stream stream, string chunkFullFilename);
+        public abstract void ProcessChunkFile(Stream stream, string chunkFullFilename);
 
-        public virtual Task PostChunkFileProcess(string chunkFullFilename)
+        public virtual void PostChunkFileProcess(string chunkFullFilename)
         {
-            return Task.CompletedTask;
         }
 
-        public virtual Task PostPackageFileProcess(string packageFullFilename)
+        public virtual void PostPackageFileProcess(string packageFullFilename)
         {
-            return Task.CompletedTask;
         }
 
-        public virtual Task PostProcess()
+        public virtual void PostProcess()
         {
-            return Task.CompletedTask;
         }
     }
 }

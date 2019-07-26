@@ -26,10 +26,10 @@ namespace MHWMasterDataUtils.Weapons
             return chunkFullFilename == MatchingChunkFullFilename;
         }
 
-        public override Task PreProcess()
+        public override void PreProcess()
         {
             Table.Clear();
-            return base.PreProcess();
+            base.PreProcess();
         }
 
         private uint ReadHeader(Reader reader)
@@ -47,7 +47,7 @@ namespace MHWMasterDataUtils.Weapons
             return entry.Descendant1Id > 0 || entry.Descendant2Id > 0 || entry.Descendant3Id > 0 || entry.Descendant4Id > 0;
         }
 
-        public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
+        public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
             using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
             {
@@ -67,8 +67,6 @@ namespace MHWMasterDataUtils.Weapons
                         perWeaponEntries[entry.EquipId] = entry;
                 }
             }
-
-            return Task.CompletedTask;
         }
     }
 }

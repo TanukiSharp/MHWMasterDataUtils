@@ -53,7 +53,7 @@ namespace MHWMasterDataUtils.Weapons
             return weaponType != WeaponType.None;
         }
 
-        public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
+        public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
             WeaponType weaponType = DetermineWeaponType(chunkFullFilename);
 
@@ -69,8 +69,6 @@ namespace MHWMasterDataUtils.Weapons
                 else
                     throw new FormatException($"Invalid header in file '{reader.Filename ?? "<unknown>"}'. Expected {MeleeWeaponHeaderValue:x4} (melee) or {RangeWeaponHeaderValue:x4} (range), read {headerValue:x4}.");
             }
-
-            return Task.CompletedTask;
         }
 
         private Dictionary<uint, WeaponPrimitiveBase> GetOrAddWeaponMap(WeaponType weaponType)

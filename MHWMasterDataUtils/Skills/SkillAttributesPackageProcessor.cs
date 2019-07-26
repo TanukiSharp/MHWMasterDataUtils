@@ -17,10 +17,10 @@ namespace MHWMasterDataUtils.Skills
             return chunkFullFilename == "/common/equip/skill_data.skl_dat";
         }
 
-        public override Task PreProcess()
+        public override void PreProcess()
         {
             Table.Clear();
-            return base.PreProcess();
+            base.PreProcess();
         }
 
         private uint ReadHeader(Reader reader)
@@ -49,7 +49,7 @@ namespace MHWMasterDataUtils.Skills
             return storage;
         }
 
-        public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
+        public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
             using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
             {
@@ -65,8 +65,6 @@ namespace MHWMasterDataUtils.Skills
                         storage.Add(entry.Level, entry);
                 }
             }
-
-            return Task.CompletedTask;
         }
     }
 }

@@ -20,10 +20,10 @@ namespace MHWMasterDataUtils.Sharpness
         private const int White = 5;
         private const int Purple = 6;
 
-        public override Task PreProcess()
+        public override void PreProcess()
         {
             Table.Clear();
-            return base.PreProcess();
+            base.PreProcess();
         }
 
         public override bool IsChunkFileMatching(string chunkFullFilename)
@@ -69,7 +69,7 @@ namespace MHWMasterDataUtils.Sharpness
             Table.Add(id, sharpnessInfo);
         }
 
-        public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
+        public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
             ushort[] sharpnessValues = new ushort[7];
 
@@ -83,8 +83,6 @@ namespace MHWMasterDataUtils.Sharpness
                     TryAddSharpnessValues(id, sharpnessValues);
                 }
             }
-
-            return Task.CompletedTask;
         }
     }
 }

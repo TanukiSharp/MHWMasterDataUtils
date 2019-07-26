@@ -86,25 +86,25 @@ namespace MHWMasterDataUtils
             this.packageProcessors = packageProcessors;
         }
 
-        private static async Task PreChunkFileProcess(IEnumerable<IPackageProcessor> packageProcessors, string chunkFullFilename)
+        private static void PreChunkFileProcess(IEnumerable<IPackageProcessor> packageProcessors, string chunkFullFilename)
         {
             foreach (IPackageProcessor fileProcessor in packageProcessors)
-                await fileProcessor.PreChunkFileProcess(chunkFullFilename).ConfigureAwait(false);
+                fileProcessor.PreChunkFileProcess(chunkFullFilename);
         }
 
-        private async Task ProcessChunkFile(PackageChildEntry childEntry, IEnumerable<IPackageProcessor> matchingPackageProcessors)
+        private void ProcessChunkFile(PackageChildEntry childEntry, IEnumerable<IPackageProcessor> matchingPackageProcessors)
         {
             foreach (IPackageProcessor packageFileProcessor in matchingPackageProcessors)
             {
                 cachedSubStream.Initialize(reader.BaseStream, childEntry.FileOffset, childEntry.FileSize);
-                await packageFileProcessor.ProcessChunkFile(cachedSubStream, childEntry.ChunkFullFilename).ConfigureAwait(false);
+                packageFileProcessor.ProcessChunkFile(cachedSubStream, childEntry.ChunkFullFilename);
             }
         }
 
-        private static async Task PostChunkFileProcess(IEnumerable<IPackageProcessor> packageProcessors, string chunkFullFilename)
+        private static void PostChunkFileProcess(IEnumerable<IPackageProcessor> packageProcessors, string chunkFullFilename)
         {
             foreach (IPackageProcessor fileProcessor in packageProcessors.Reverse())
-                await fileProcessor.PostChunkFileProcess(chunkFullFilename).ConfigureAwait(false);
+                fileProcessor.PostChunkFileProcess(chunkFullFilename);
         }
 
         private int ReadHeader()
@@ -116,24 +116,24 @@ namespace MHWMasterDataUtils
             return totalParentCount;
         }
 
-        private async Task RunMatchingPackageProcessors(PackageChildEntry childEntry, IEnumerable<IPackageProcessor> matchingPackageProcessors)
+        private void RunMatchingPackageProcessors(PackageChildEntry childEntry, IEnumerable<IPackageProcessor> matchingPackageProcessors)
         {
-            await PreChunkFileProcess(matchingPackageProcessors, childEntry.ChunkFullFilename).ConfigureAwait(false);
+            PreChunkFileProcess(matchingPackageProcessors, childEntry.ChunkFullFilename);
 
             long savedPosition = reader.BaseStream.Position;
             try
             {
-                await ProcessChunkFile(childEntry, matchingPackageProcessors).ConfigureAwait(false);
+                ProcessChunkFile(childEntry, matchingPackageProcessors);
             }
             finally
             {
                 reader.BaseStream.Seek(savedPosition, SeekOrigin.Begin);
             }
 
-            await PostChunkFileProcess(matchingPackageProcessors, childEntry.ChunkFullFilename).ConfigureAwait(false);
+            PostChunkFileProcess(matchingPackageProcessors, childEntry.ChunkFullFilename);
         }
 
-        private async Task ProcessChildEntry()
+        private void ProcessChildEntry()
         {
             PackageChildEntry childEntry = PackageChildEntry.Read(reader);
 
@@ -150,41 +150,41 @@ namespace MHWMasterDataUtils
                 .Where(x => x.IsChunkFileMatching(childEntry.ChunkFullFilename))
                 .ToList(); // <-- Need to freeze the state here, since iterated many times.
 
-            await RunMatchingPackageProcessors(childEntry, matchingPackageProcessors).ConfigureAwait(false);
+            RunMatchingPackageProcessors(childEntry, matchingPackageProcessors);
         }
 
-        private async Task ProcessParentEntry()
+        private void ProcessParentEntry()
         {
             PackageParentEntry parentEntry = PackageParentEntry.Read(reader);
 
             for (int j = 0; j < parentEntry.ChildCount; j++)
-                await ProcessChildEntry().ConfigureAwait(false);
+                ProcessChildEntry();
         }
 
-        private async Task PreProcess()
+        private void PreProcess()
         {
             foreach (IPackageProcessor fileProcessor in packageProcessors)
-                await fileProcessor.PreProcess().ConfigureAwait(false);
+                fileProcessor.PreProcess();
         }
 
-        private async Task ProcessPackageFile(string packageFullFilename)
+        private void ProcessPackageFile(string packageFullFilename)
         {
             using (reader = new BinaryReader(File.OpenRead(packageFullFilename), Encoding.UTF8, false))
             {
                 int totalParentCount = ReadHeader();
 
                 for (int i = 0; i < totalParentCount; i++)
-                    await ProcessParentEntry().ConfigureAwait(false);
+                    ProcessParentEntry();
             }
         }
 
-        private async Task PostProcess()
+        private void PostProcess()
         {
             foreach (IPackageProcessor fileProcessor in packageProcessors.Reverse())
-                await fileProcessor.PostProcess().ConfigureAwait(false);
+                fileProcessor.PostProcess();
         }
 
-        public async Task Run(string packagesFullPath)
+        public void Run(string packagesFullPath)
         {
             IEnumerable<string> packageFilenames = Directory.GetFiles(packagesFullPath, "chunk*.pkg", SearchOption.TopDirectoryOnly)
                 .Select(x => new { OriginalFilename = x, Index = PackageUtility.GetChunkFileIndex(x) })
@@ -192,12 +192,12 @@ namespace MHWMasterDataUtils
                 .OrderByDescending(x => x.Index)
                 .Select(x => x.OriginalFilename);
 
-            await PreProcess().ConfigureAwait(false);
+            PreProcess();
 
             foreach (string packageFilename in packageFilenames)
-                await ProcessPackageFile(packageFilename).ConfigureAwait(false);
+                ProcessPackageFile(packageFilename);
 
-            await PostProcess().ConfigureAwait(false);
+            PostProcess();
         }
 
         protected virtual void Dispose(bool disposing)

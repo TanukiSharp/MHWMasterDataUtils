@@ -8,11 +8,11 @@ namespace MHWMasterDataUtils
 {
     public interface IPackageProcessor
     {
-        Task PreProcess();
-        Task PreChunkFileProcess(string chunkFullFilename);
+        void PreProcess();
+        void PreChunkFileProcess(string chunkFullFilename);
         bool IsChunkFileMatching(string chunkFullFilename);
-        Task ProcessChunkFile(Stream stream, string chunkFullFilename);
-        Task PostChunkFileProcess(string chunkFullFilename);
-        Task PostProcess();
+        void ProcessChunkFile(Stream stream, string chunkFullFilename);
+        void PostChunkFileProcess(string chunkFullFilename);
+        void PostProcess();
     }
 }

@@ -57,10 +57,9 @@ namespace MHWMasterDataUtils.Crafting
             this.matchingChunkFullFilenames = matchingChunkFullFilenames;
         }
 
-        public override Task PreProcess()
+        public override void PreProcess()
         {
-            Table.Clear();
-            return base.PreProcess();
+            base.PreProcess();
         }
 
         private uint ReadHeader(Reader reader)
@@ -84,7 +83,7 @@ namespace MHWMasterDataUtils.Crafting
             return storage;
         }
 
-        public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
+        public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
             using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
             {
@@ -100,8 +99,6 @@ namespace MHWMasterDataUtils.Crafting
                         storage.Add(entry.EquipId, entry);
                 }
             }
-
-            return Task.CompletedTask;
         }
     }
 }

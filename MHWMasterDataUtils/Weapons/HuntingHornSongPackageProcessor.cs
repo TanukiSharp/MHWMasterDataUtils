@@ -31,10 +31,10 @@ namespace MHWMasterDataUtils.Weapons
             return chunkFullFilename == "/hm/wp/wp05/music_skill.msk";
         }
 
-        public override Task PostProcess()
+        public override void PostProcess()
         {
             List.Sort((x, y) => x.Effect.CompareTo(y.Effect));
-            return base.PostProcess();
+            base.PostProcess();
         }
     }
 }

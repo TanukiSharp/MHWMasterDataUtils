@@ -24,10 +24,10 @@ namespace MHWMasterDataUtils.Languages
             fileMatcher = new Regex(regexPattern);
         }
 
-        public override Task PreProcess()
+        public override void PreProcess()
         {
             Table.Clear();
-            return base.PreProcess();
+            base.PreProcess();
         }
 
         public override bool IsChunkFileMatching(string chunkFullFilename)
@@ -56,7 +56,7 @@ namespace MHWMasterDataUtils.Languages
             return entries;
         }
 
-        public override Task ProcessChunkFile(Stream stream, string chunkFullFilename)
+        public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
             using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
             {
@@ -82,8 +82,6 @@ namespace MHWMasterDataUtils.Languages
                     TryAddEntry(header.LanguageId, infoEntry.StringIndex, key, value);
                 }
             }
-
-            return Task.CompletedTask;
         }
 
         private static List<string> ParseStringBlock(byte[] stringBlock)
