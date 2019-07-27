@@ -8,7 +8,7 @@ using MHWMasterDataUtils.Weapons;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class LanceWeaponBuilder : SharpnessWeaponBuilderBase
+    public class LanceWeaponBuilder : MeleeWeaponBuilderBase
     {
         public LanceWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,

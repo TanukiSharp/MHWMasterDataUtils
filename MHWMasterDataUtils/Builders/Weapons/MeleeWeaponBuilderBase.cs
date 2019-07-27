@@ -10,11 +10,11 @@ using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public abstract class SharpnessWeaponBuilderBase : WeaponBuilderBase
+    public abstract class MeleeWeaponBuilderBase : WeaponBuilderBase
     {
         private readonly SharpnessPackageProcessor sharpnessPackageProcessor;
 
-        protected SharpnessWeaponBuilderBase(
+        protected MeleeWeaponBuilderBase(
             core.WeaponType weaponType,
             LanguagePackageProcessor weaponsLanguages,
             WeaponsPackageProcessor weaponsPackageProcessor,
@@ -62,7 +62,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
 
             object weaponSpecific = CreateWeaponSpecificValue(typedWeapon);
 
-            var resultWeapon = new core.SharpnessWeapon(
+            var resultWeapon = new core.MeleeWeapon(
                 WeaponType,
                 weapon.Id,
                 weapon.TreeOrder,

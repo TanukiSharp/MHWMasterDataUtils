@@ -8,7 +8,7 @@ using MHWMasterDataUtils.Weapons;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class HammerWeaponBuilder : SharpnessWeaponBuilderBase
+    public class HammerWeaponBuilder : MeleeWeaponBuilderBase
     {
         public HammerWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,

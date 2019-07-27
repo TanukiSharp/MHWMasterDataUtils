@@ -9,7 +9,7 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class HuntingHornWeaponBuilder : SharpnessWeaponBuilderBase
+    public class HuntingHornWeaponBuilder : MeleeWeaponBuilderBase
     {
         private readonly HuntingHornNotesPackageProcessor huntingHornNotes;
         private readonly HuntingHornSongsPackageProcessor huntingHornSongs;

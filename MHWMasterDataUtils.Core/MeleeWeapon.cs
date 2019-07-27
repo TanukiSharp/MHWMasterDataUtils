@@ -5,9 +5,9 @@ using Newtonsoft.Json;
 
 namespace MHWMasterDataUtils.Core
 {
-    public class SharpnessWeapon : WeaponBase
+    public class MeleeWeapon : WeaponBase
     {
-        public SharpnessWeapon(
+        public MeleeWeapon(
             WeaponType weaponType,
             uint id,
             ushort treeOrder,

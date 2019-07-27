@@ -8,7 +8,7 @@ using MHWMasterDataUtils.Weapons;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class GreatSwordWeaponBuilder : SharpnessWeaponBuilderBase
+    public class GreatSwordWeaponBuilder : MeleeWeaponBuilderBase
     {
         public GreatSwordWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,

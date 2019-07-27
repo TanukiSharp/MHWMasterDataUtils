@@ -9,7 +9,7 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class AxeWeaponBuilder : SharpnessWeaponBuilderBase
+    public class AxeWeaponBuilder : MeleeWeaponBuilderBase
     {
         private readonly AxePhialPackageProcessor axePhials;
 

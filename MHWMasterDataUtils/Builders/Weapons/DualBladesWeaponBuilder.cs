@@ -9,7 +9,7 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class DualBladesWeaponBuilder : SharpnessWeaponBuilderBase
+    public class DualBladesWeaponBuilder : MeleeWeaponBuilderBase
     {
         private readonly DualBladesSpecialPackageProcessor dualBladesSpecial;
 

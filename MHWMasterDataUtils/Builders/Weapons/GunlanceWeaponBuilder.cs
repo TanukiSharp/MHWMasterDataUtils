@@ -9,7 +9,7 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class GunlanceWeaponBuilder : SharpnessWeaponBuilderBase
+    public class GunlanceWeaponBuilder : MeleeWeaponBuilderBase
     {
         private readonly GunlanceShellPackageProcessor gunlanceShells;
 

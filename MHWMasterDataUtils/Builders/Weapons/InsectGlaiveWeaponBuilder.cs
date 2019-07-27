@@ -9,7 +9,7 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class InsectGlaiveWeaponBuilder : SharpnessWeaponBuilderBase
+    public class InsectGlaiveWeaponBuilder : MeleeWeaponBuilderBase
     {
         public InsectGlaiveWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,
