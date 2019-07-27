@@ -1,4 +1,5 @@
 using MHWMasterDataUtils.Builders;
+using MHWMasterDataUtils.Builders.Weapons;
 using MHWMasterDataUtils.Core;
 using MHWMasterDataUtils.Crafting;
 using MHWMasterDataUtils.Equipments;
@@ -150,168 +151,110 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("jewels", jewelItems);
 
-            WeaponBase[] dualBlades = new SharpnessWeaponBuilder(
-                WeaponType.DualBlades,
+            WeaponBase[] dualBlades = new DualBladesWeaponBuilder(
                 dualBladeLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                null,
-                null,
-                dualBladesSpecial,
-                null,
-                null
+                sharpness,
+                dualBladesSpecial
             ).Build();
             SerializeJson("dual-blades", dualBlades);
 
-            WeaponBase[] longSwords = new SharpnessWeaponBuilder(
-                WeaponType.LongSword,
+            WeaponBase[] longSwords = new LongSwordWeaponBuilder(
                 longSwordLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                null,
-                null,
-                null,
-                null,
-                null
+                sharpness
             ).Build();
             SerializeJson("long-swords", longSwords);
 
-            WeaponBase[] swordAndShields = new SharpnessWeaponBuilder(
-                WeaponType.SwordAndShield,
+            WeaponBase[] swordAndShields = new SwordAndShieldWeaponBuilder(
                 swordAndShieldLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                null,
-                null,
-                null,
-                null,
-                null
+                sharpness
             ).Build();
             SerializeJson("sword-and-shields", swordAndShields);
 
-            WeaponBase[] greatSwords = new SharpnessWeaponBuilder(
-                WeaponType.GreatSword,
+            WeaponBase[] greatSwords = new GreatSwordWeaponBuilder(
                 greatSwordLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                null,
-                null,
-                null,
-                null,
-                null
+                sharpness
             ).Build();
             SerializeJson("great-swords", greatSwords);
 
-            WeaponBase[] hammers = new SharpnessWeaponBuilder(
-                WeaponType.Hammer,
+            WeaponBase[] hammers = new HammerWeaponBuilder(
                 hammerLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                null,
-                null,
-                null,
-                null,
-                null
+                sharpness
             ).Build();
             SerializeJson("hammers", hammers);
 
-            WeaponBase[] huntingHorns = new SharpnessWeaponBuilder(
-                WeaponType.HuntingHorn,
+            WeaponBase[] huntingHorns = new HuntingHornWeaponBuilder(
                 huntingHornLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
+                sharpness,
                 huntingHornNotes,
-                huntingHornSongs,
-                null,
-                null,
-                null
+                huntingHornSongs
             ).Build();
             SerializeJson("hunting-horns", huntingHorns);
 
-            WeaponBase[] lances = new SharpnessWeaponBuilder(
-                WeaponType.Lance,
+            WeaponBase[] lances = new LanceWeaponBuilder(
                 lanceLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                null,
-                null,
-                null,
-                null,
-                null
+                sharpness
             ).Build();
             SerializeJson("lances", lances);
 
-            WeaponBase[] gunlances = new SharpnessWeaponBuilder(
-                WeaponType.Gunlance,
+            WeaponBase[] gunlances = new GunlanceWeaponBuilder(
                 gunlanceLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                null,
-                null,
-                null,
-                null,
+                sharpness,
                 gunlanceShells
             ).Build();
             SerializeJson("gunlances", gunlances);
 
-            WeaponBase[] switchAxes = new SharpnessWeaponBuilder(
+            WeaponBase[] switchAxes = new AxeWeaponBuilder(
                 WeaponType.SwitchAxe,
                 switchAxeLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                null,
-                null,
-                null,
-                axePhials,
-                null
+                sharpness,
+                axePhials
             ).Build();
             SerializeJson("switch-axes", switchAxes);
 
-            WeaponBase[] chargeBlades = new SharpnessWeaponBuilder(
+            WeaponBase[] chargeBlades = new AxeWeaponBuilder(
                 WeaponType.ChargeBlade,
                 chargeBladeLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                null,
-                null,
-                null,
-                axePhials,
-                null
+                sharpness,
+                axePhials
             ).Build();
             SerializeJson("charge-blades", chargeBlades);
 
-            WeaponBase[] insectGlaives = new SharpnessWeaponBuilder(
-                WeaponType.InsectGlaive,
+            WeaponBase[] insectGlaives = new InsectGlaiveWeaponBuilder(
                 insectGlaiveLanguages,
-                sharpness,
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                null,
-                null,
-                null,
-                null,
-                null
+                sharpness
             ).Build();
             SerializeJson("insect-glaives", insectGlaives);
         }
@@ -331,7 +274,7 @@ namespace MHWMasterDataUtils.Tester
                         NullValueHandling = NullValueHandling.Ignore
                     };
 
-                    serializer.Converters.Add(new HuntingHornSongPrimitiveConverter());
+                    //serializer.Converters.Add(new HuntingHornSongPrimitiveConverter());
 
                     serializer.Serialize(jw, instance);
 
@@ -341,48 +284,48 @@ namespace MHWMasterDataUtils.Tester
         }
     }
 
-    public class HuntingHornSongPrimitiveConverter : JsonConverter
-    {
-        public override bool CanConvert(Type objectType)
-        {
-            return objectType == typeof(Weapons.Primitives.HuntingHornSongPrimitive);
-        }
+    //public class HuntingHornSongPrimitiveConverter : JsonConverter
+    //{
+    //    public override bool CanConvert(Type objectType)
+    //    {
+    //        return objectType == typeof(Weapons.Primitives.HuntingHornSongPrimitive);
+    //    }
 
-        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
-        {
-            throw new NotImplementedException();
-        }
+    //    public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+    //    {
+    //        throw new NotImplementedException();
+    //    }
 
-        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-        {
-            if (writer == null)
-                throw new ArgumentNullException(nameof(writer));
-            if (value == null)
-                throw new ArgumentNullException(nameof(value));
+    //    public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+    //    {
+    //        if (writer == null)
+    //            throw new ArgumentNullException(nameof(writer));
+    //        if (value == null)
+    //            throw new ArgumentNullException(nameof(value));
 
-            var v = (Weapons.Primitives.HuntingHornSongPrimitive)value;
+    //        var v = (Weapons.Primitives.HuntingHornSongPrimitive)value;
 
-            writer.WriteStartObject();
+    //        writer.WriteStartObject();
 
-            writer.WritePropertyName("effect");
-            writer.WriteValue(v.Effect.ToString());
+    //        writer.WritePropertyName("effect");
+    //        writer.WriteValue(v.Effect.ToString());
 
-            writer.WritePropertyName("notes");
+    //        writer.WritePropertyName("notes");
 
-            writer.WriteStartArray();
+    //        writer.WriteStartArray();
 
-            if (v.Note1 != HuntingHornNoteColor.Disabled)
-                writer.WriteValue(v.Note1.ToString().ToLower());
-            if (v.Note2 != HuntingHornNoteColor.Disabled)
-                writer.WriteValue(v.Note2.ToString().ToLower());
-            if (v.Note3 != HuntingHornNoteColor.Disabled)
-                writer.WriteValue(v.Note3.ToString().ToLower());
-            if (v.Note4 != HuntingHornNoteColor.Disabled)
-                writer.WriteValue(v.Note4.ToString().ToLower());
+    //        if (v.Note1 != HuntingHornNoteColor.Disabled)
+    //            writer.WriteValue(v.Note1.ToString().ToLower());
+    //        if (v.Note2 != HuntingHornNoteColor.Disabled)
+    //            writer.WriteValue(v.Note2.ToString().ToLower());
+    //        if (v.Note3 != HuntingHornNoteColor.Disabled)
+    //            writer.WriteValue(v.Note3.ToString().ToLower());
+    //        if (v.Note4 != HuntingHornNoteColor.Disabled)
+    //            writer.WriteValue(v.Note4.ToString().ToLower());
             
-            writer.WriteEndArray();
+    //        writer.WriteEndArray();
 
-            writer.WriteEndObject();
-        }
-    }
+    //        writer.WriteEndObject();
+    //    }
+    //}
 }

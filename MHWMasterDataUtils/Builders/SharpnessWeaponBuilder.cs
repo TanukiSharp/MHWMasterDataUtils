@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using MHWMasterDataUtils.Builders.Weapons;
 using MHWMasterDataUtils.Crafting;
 using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Languages;
@@ -13,48 +14,30 @@ using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders
 {
-    public class SharpnessWeaponBuilder
+    public abstract class WeaponBuilderBase
     {
-        private readonly LanguagePackageProcessor weaponsLanguages;
-        private readonly SharpnessPackageProcessor sharpnessPackageProcessor;
-        private readonly CraftPackageProcessor<core.WeaponType> craftPackageProcessor;
-        private readonly HuntingHornNotesPackageProcessor huntingHornNotes;
-        private readonly HuntingHornSongsPackageProcessor huntingHornSongs;
-        private readonly DualBladesSpecialPackageProcessor dualBladesSpecial;
-        private readonly AxePhialPackageProcessor axePhials;
-        private readonly GunlanceShellPackageProcessor gunlanceShells;
-
-        private readonly Dictionary<uint, WeaponPrimitiveBase> weapons;
-        private readonly Dictionary<ushort, WeaponUpgradeEntryPrimitive> weaponUpgrades;
-
-        private readonly Dictionary<(core.WeaponType, uint), uint> weaponIndices = new Dictionary<(core.WeaponType, uint), uint>();
-
         public core.WeaponType WeaponType { get; }
 
-        public SharpnessWeaponBuilder(
+        protected readonly LanguagePackageProcessor weaponsLanguages;
+        protected readonly CraftPackageProcessor<core.WeaponType> craftPackageProcessor;
+
+        protected readonly Dictionary<uint, WeaponPrimitiveBase> weapons;
+        protected readonly Dictionary<ushort, WeaponUpgradeEntryPrimitive> weaponUpgrades;
+        protected readonly Dictionary<(core.WeaponType, uint), uint> weaponIndices = new Dictionary<(core.WeaponType, uint), uint>();
+
+        protected WeaponBuilderBase(
             core.WeaponType weaponType,
             LanguagePackageProcessor weaponsLanguages,
-            SharpnessPackageProcessor sharpnessPackageProcessor,
             WeaponsPackageProcessor weaponsPackageProcessor,
             CraftPackageProcessor<core.WeaponType> craftPackageProcessor,
-            WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
-            HuntingHornNotesPackageProcessor huntingHornNotes,
-            HuntingHornSongsPackageProcessor huntingHornSongs,
-            DualBladesSpecialPackageProcessor dualBladesSpecial,
-            AxePhialPackageProcessor axePhials,
-            GunlanceShellPackageProcessor gunlanceShells
+            WeaponUpgradePackageProcessor weaponUpgradePackageProcessor
         )
         {
             WeaponType = weaponType;
 
             this.weaponsLanguages = weaponsLanguages;
-            this.sharpnessPackageProcessor = sharpnessPackageProcessor;
             this.craftPackageProcessor = craftPackageProcessor;
-            this.huntingHornNotes = huntingHornNotes;
-            this.huntingHornSongs = huntingHornSongs;
-            this.dualBladesSpecial = dualBladesSpecial;
-            this.axePhials = axePhials;
-            this.gunlanceShells = gunlanceShells;
+
             weapons = weaponsPackageProcessor.Table[weaponType];
             weaponUpgrades = weaponUpgradePackageProcessor.Table[weaponType];
 
@@ -120,82 +103,6 @@ namespace MHWMasterDataUtils.Builders
             }
         }
 
-        private bool IsSongNoteAvailable(core.HuntingHornNoteColor note, HuntingHornNotesPrimitive notes)
-        {
-            if (note == core.HuntingHornNoteColor.Disabled)
-                return true;
-
-            return note == notes.Note1 || note == notes.Note2 || note == notes.Note3;
-        }
-
-        private static int? ConvertHuntingHornNote(core.HuntingHornNoteColor note)
-        {
-            if (note == core.HuntingHornNoteColor.Disabled)
-                return null;
-
-            return (int)note;
-        }
-
-        private static core.HuntingHornSong ConvertHuntingHornSong(HuntingHornSongPrimitive song)
-        {
-            return new core.HuntingHornSong
-            {
-                Effect = (int)song.Effect,
-                Note1 = ConvertHuntingHornNote(song.Note1),
-                Note2 = ConvertHuntingHornNote(song.Note2),
-                Note3 = ConvertHuntingHornNote(song.Note3),
-                Note4 = ConvertHuntingHornNote(song.Note4),
-            };
-        }
-
-        private core.HuntingHornSong[] FindSongs(HuntingHornNotesPrimitive notes)
-        {
-            var result = new List<core.HuntingHornSong>();
-
-            foreach (HuntingHornSongPrimitive song in huntingHornSongs.List)
-            {
-                if (IsSongNoteAvailable(song.Note1, notes) &&
-                    IsSongNoteAvailable(song.Note2, notes) &&
-                    IsSongNoteAvailable(song.Note3, notes) &&
-                    IsSongNoteAvailable(song.Note4, notes))
-                    result.Add(ConvertHuntingHornSong(song));
-            }
-
-            return result.ToArray();
-        }
-
-        private bool IsValidWeapon(bool upgradable, MeleeWeaponPrimitiveBase weapon)
-        {
-            if (upgradable ^ weapon.TreeId > 0)
-                return false;
-
-            string englishWeaponName = weaponsLanguages.Table[LanguageIdPrimitive.English][weapon.GmdNameIndex].Value;
-            if (LanguageUtils.IsValidText(englishWeaponName) == false)
-                return false;
-
-            string japaneseWeaponName = weaponsLanguages.Table[LanguageIdPrimitive.Japanese][weapon.GmdNameIndex].Value;
-            if (LanguageUtils.IsValidText(japaneseWeaponName) == false)
-                return false;
-
-            if (sharpnessPackageProcessor.Table.ContainsKey(weapon.SharpnessId) == false)
-                return false;
-
-            return true;
-        }
-
-        private List<MeleeWeaponPrimitiveBase> CreateValidWeaponsList(bool upgradable)
-        {
-            var result = new List<MeleeWeaponPrimitiveBase>();
-
-            foreach (MeleeWeaponPrimitiveBase weapon in weapons.Values)
-            {
-                if (IsValidWeapon(upgradable, weapon))
-                    result.Add(weapon);
-            }
-
-            return result;
-        }
-
         private int FindWeaponParentId(uint oneBasedWeaponIndex, List<MeleeWeaponPrimitiveBase> weapons)
         {
             foreach (MeleeWeaponPrimitiveBase weapon in weapons)
@@ -213,16 +120,39 @@ namespace MHWMasterDataUtils.Builders
             return -1;
         }
 
-        public core.WeaponBase[] Build()
+        protected abstract bool IsValidSpecificWeapon(WeaponPrimitiveBase weapon);
+        protected abstract core.WeaponBase BuildSpecificWeapon(ref WeaponComputedArguments computedArguments, WeaponPrimitiveBase weapon);
+
+        private bool IsValidWeapon(bool upgradable, WeaponPrimitiveBase weapon)
         {
-            var result = new List<core.WeaponBase>();
+            if (upgradable ^ weapon.TreeId > 0)
+                return false;
 
-            CreateUpgradableWeapons(result);
-            CreateNonUpgradableWeapons(result);
+            string englishWeaponName = weaponsLanguages.Table[LanguageIdPrimitive.English][weapon.GmdNameIndex].Value;
+            if (LanguageUtils.IsValidText(englishWeaponName) == false)
+                return false;
 
-            result.Sort((a, b) => a.TreeOrder.CompareTo(b.TreeOrder));
+            string japaneseWeaponName = weaponsLanguages.Table[LanguageIdPrimitive.Japanese][weapon.GmdNameIndex].Value;
+            if (LanguageUtils.IsValidText(japaneseWeaponName) == false)
+                return false;
 
-            return result.ToArray();
+            if (IsValidSpecificWeapon(weapon) == false)
+                return false;
+
+            return true;
+        }
+
+        private List<MeleeWeaponPrimitiveBase> CreateValidWeaponsList(bool upgradable)
+        {
+            var result = new List<MeleeWeaponPrimitiveBase>();
+
+            foreach (MeleeWeaponPrimitiveBase weapon in weapons.Values)
+            {
+                if (IsValidWeapon(upgradable, weapon))
+                    result.Add(weapon);
+            }
+
+            return result;
         }
 
         private void CreateUpgradableWeapons(List<core.WeaponBase> result)
@@ -288,113 +218,6 @@ namespace MHWMasterDataUtils.Builders
             };
         }
 
-        private core.SharpnessWeapon CreateSharpnessWeapon(ref ComputedArguments computedArguments, MeleeWeaponPrimitiveBase weapon)
-        {
-            core.SharpnessInfo maxSharpness = sharpnessPackageProcessor.Table[weapon.SharpnessId];
-
-            ushort sharpnessModifier = SharpnessUtils.ToSharpnessModifier(weapon.Handicraft);
-            core.SharpnessInfo sharpness = SharpnessUtils.ApplySharpnessModifier(sharpnessModifier, maxSharpness);
-
-            object weaponSpecific = null;
-
-            if (WeaponType == core.WeaponType.HuntingHorn)
-            {
-                HuntingHornNotesPrimitive notes = huntingHornNotes.Table[weapon.Weapon1Id];
-                weaponSpecific = FindSongs(notes);
-            }
-            else if (WeaponType == core.WeaponType.DualBlades)
-            {
-                if (weapon.Weapon1Id > 0)
-                {
-                    DualBladesSpecialPrimitive dualBladesElementInfo = dualBladesSpecial.Table[weapon.Weapon1Id];
-
-                    weaponSpecific = new
-                    {
-                        elementStatus1 = (int)dualBladesElementInfo.Element1, // Matches type core.ElementStatus.
-                        elementStatus1Damage = dualBladesElementInfo.Element1Damage * 10,
-                        elementStatus2 = (int)dualBladesElementInfo.Element2, // Matches type core.ElementStatus.
-                        elementStatus2Damage = dualBladesElementInfo.Element2Damage * 10,
-                    };
-                }
-            }
-            else if (WeaponType == core.WeaponType.Gunlance)
-            {
-                GunlanceShellPrimitive gunlanceShell = gunlanceShells.Table[weapon.Weapon1Id];
-
-                weaponSpecific = new core.GunlanceShell
-                {
-                    ShellType = (int)gunlanceShell.ShellType, // Matches type core.GunlanceShellType.
-                    ShellLevel = gunlanceShell.ShellLevel + 1
-                };
-            }
-            else if (WeaponType == core.WeaponType.SwitchAxe || WeaponType == core.WeaponType.ChargeBlade)
-            {
-                AxePhialPrimitive axePhial = axePhials.Table[weapon.Weapon1Id];
-                weaponSpecific = new core.AxePhial
-                {
-                    ElementStatus = (int)axePhial.ElementStatus,
-                    Damage = axePhial.Damage * 10
-                };
-            }
-            else if (WeaponType == core.WeaponType.InsectGlaive)
-            {
-                weaponSpecific = (int)weapon.Weapon1Id; // Matches type core.KinsectBonus.
-            }
-
-            var resultWeapon = new core.SharpnessWeapon(
-                WeaponType,
-                weapon.Id,
-                weapon.TreeOrder,
-                computedArguments.ParentId,
-                computedArguments.Name,
-                computedArguments.Description,
-                WeaponsUtils.ComputeWeaponDamage(WeaponType, weapon.RawDamage),
-                weapon.Rarity,
-                weapon.TreeId,
-                sharpness,
-                maxSharpness,
-                weapon.Affinity,
-                weapon.CraftingCost,
-                weapon.Defense,
-                weapon.Elderseal,
-                weapon.ElementId,
-                (ushort)(weapon.ElementDamage * 10),
-                weapon.HiddenElementId,
-                (ushort)(weapon.HiddenElementDamage * 10),
-                weapon.SkillId,
-                WeaponsUtils.CreateSlotsArray(weapon),
-                computedArguments.CanDowngrade,
-                weaponSpecific,
-                computedArguments.Craft
-            );
-
-            return resultWeapon;
-        }
-
-        private struct ComputedArguments
-        {
-            public readonly int ParentId;
-            public readonly Dictionary<string, string> Name;
-            public readonly Dictionary<string, string> Description;
-            public readonly bool CanDowngrade;
-            public readonly core.Craft Craft;
-
-            public ComputedArguments(
-                int parentId,
-                Dictionary<string, string> name,
-                Dictionary<string, string> description,
-                bool canDowngrade,
-                core.Craft craft
-            )
-            {
-                ParentId = parentId;
-                Name = name;
-                Description = description;
-                CanDowngrade = canDowngrade;
-                Craft = craft;
-            }
-        }
-
         private core.WeaponBase CreateHighLevelWeapon(int parentId, bool isUpgradable, WeaponPrimitiveBase weapon)
         {
             Dictionary<string, string> weaponName = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdNameIndex);
@@ -409,11 +232,21 @@ namespace MHWMasterDataUtils.Builders
             if (parentId > -1)
                 canDowngrade = weapon.IsFixedUpgrade == FixedUpgradePrimitive.CanDowngrade;
 
-            var computedArguments = new ComputedArguments(parentId, weaponName, weaponDescription, canDowngrade, craft);
+            var computedArguments = new WeaponComputedArguments(parentId, weaponName, weaponDescription, canDowngrade, craft);
 
-            core.SharpnessWeapon resultWeapon = CreateSharpnessWeapon(ref computedArguments, (MeleeWeaponPrimitiveBase)weapon);
+            return BuildSpecificWeapon(ref computedArguments, weapon);
+        }
 
-            return resultWeapon;
+        public core.WeaponBase[] Build()
+        {
+            var result = new List<core.WeaponBase>();
+
+            CreateUpgradableWeapons(result);
+            CreateNonUpgradableWeapons(result);
+
+            result.Sort((a, b) => a.TreeOrder.CompareTo(b.TreeOrder));
+
+            return result.ToArray();
         }
     }
 }
