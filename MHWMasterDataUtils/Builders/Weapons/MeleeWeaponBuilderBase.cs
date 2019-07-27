@@ -10,7 +10,8 @@ using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public abstract class MeleeWeaponBuilderBase : WeaponBuilderBase
+    public abstract class MeleeWeaponBuilderBase<TResultWeapon> : WeaponBuilderBase<MeleeWeaponPrimitiveBase, TResultWeapon>
+        where TResultWeapon : core.MeleeWeapon, new()
     {
         private readonly SharpnessPackageProcessor sharpnessPackageProcessor;
 
@@ -33,63 +34,28 @@ namespace MHWMasterDataUtils.Builders.Weapons
             this.sharpnessPackageProcessor = sharpnessPackageProcessor;
         }
 
-        protected override bool IsValidSpecificWeapon(WeaponPrimitiveBase weapon)
+        protected override bool IsValidWeapon(MeleeWeaponPrimitiveBase weapon)
         {
-            var typedWeapon = weapon as MeleeWeaponPrimitiveBase;
-
-            if (typedWeapon == null)
-                return false;
-
-            if (sharpnessPackageProcessor.Table.ContainsKey(typedWeapon.SharpnessId) == false)
+            if (sharpnessPackageProcessor.Table.ContainsKey(weapon.SharpnessId) == false)
                 return false;
 
             return true;
         }
 
-        protected virtual object CreateWeaponSpecificValue(MeleeWeaponPrimitiveBase weapon)
+        protected override TResultWeapon CreateResultWeaponInstance()
         {
-            return null;
+            return new TResultWeapon();
         }
 
-        protected override core.WeaponBase BuildSpecificWeapon(ref WeaponComputedArguments computedArguments, WeaponPrimitiveBase weapon)
+        protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, TResultWeapon resultWeapon)
         {
-            var typedWeapon = (MeleeWeaponPrimitiveBase)weapon;
+            core.SharpnessInfo maxSharpness = sharpnessPackageProcessor.Table[weapon.SharpnessId];
 
-            core.SharpnessInfo maxSharpness = sharpnessPackageProcessor.Table[typedWeapon.SharpnessId];
-
-            ushort sharpnessModifier = SharpnessUtils.ToSharpnessModifier(typedWeapon.Handicraft);
+            ushort sharpnessModifier = SharpnessUtils.ToSharpnessModifier(weapon.Handicraft);
             core.SharpnessInfo sharpness = SharpnessUtils.ApplySharpnessModifier(sharpnessModifier, maxSharpness);
 
-            object weaponSpecific = CreateWeaponSpecificValue(typedWeapon);
-
-            var resultWeapon = new core.MeleeWeapon(
-                WeaponType,
-                weapon.Id,
-                weapon.TreeOrder,
-                computedArguments.ParentId,
-                computedArguments.Name,
-                computedArguments.Description,
-                WeaponsUtils.ComputeWeaponDamage(WeaponType, weapon.RawDamage),
-                weapon.Rarity,
-                weapon.TreeId,
-                sharpness,
-                maxSharpness,
-                weapon.Affinity,
-                weapon.CraftingCost,
-                weapon.Defense,
-                weapon.Elderseal,
-                weapon.ElementId,
-                (ushort)(weapon.ElementDamage * 10),
-                weapon.HiddenElementId,
-                (ushort)(weapon.HiddenElementDamage * 10),
-                weapon.SkillId,
-                WeaponsUtils.CreateSlotsArray(weapon),
-                computedArguments.CanDowngrade,
-                weaponSpecific,
-                computedArguments.Craft
-            );
-
-            return resultWeapon;
+            resultWeapon.Sharpness = sharpness;
+            resultWeapon.MaxSharpness = maxSharpness;
         }
     }
 }

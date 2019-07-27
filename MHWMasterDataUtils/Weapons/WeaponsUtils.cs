@@ -72,9 +72,9 @@ namespace MHWMasterDataUtils.Weapons
             return $"/common/text/steam/{WeaponTypeToFilename[weaponType]}_\\w{{3}}.gmd";
         }
 
-        public static ushort[] CreateSlotsArray(WeaponPrimitiveBase weapon)
+        public static int[] CreateSlotsArray(WeaponPrimitiveBase weapon)
         {
-            ushort[] slots = new ushort[weapon.GemSlots];
+            int[] slots = new int[weapon.GemSlots];
 
             if (slots.Length > 0)
             {

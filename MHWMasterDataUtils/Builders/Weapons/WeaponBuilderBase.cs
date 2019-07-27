@@ -10,7 +10,9 @@ using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public abstract class WeaponBuilderBase
+    public abstract class WeaponBuilderBase<TIntermediateWeapon, TResultWeapon>
+        where TIntermediateWeapon: WeaponPrimitiveBase
+        where TResultWeapon : core.WeaponBase
     {
         public core.WeaponType WeaponType { get; }
 
@@ -99,9 +101,9 @@ namespace MHWMasterDataUtils.Builders.Weapons
             }
         }
 
-        private int FindWeaponParentId(uint oneBasedWeaponIndex, List<MeleeWeaponPrimitiveBase> weapons)
+        private int FindWeaponParentId(uint oneBasedWeaponIndex, List<TIntermediateWeapon> weapons)
         {
-            foreach (MeleeWeaponPrimitiveBase weapon in weapons)
+            foreach (TIntermediateWeapon weapon in weapons)
             {
                 if (weaponUpgrades.TryGetValue((ushort)weapon.Id, out WeaponUpgradeEntryPrimitive weaponUpgradeEntry) == false)
                     continue;
@@ -116,10 +118,11 @@ namespace MHWMasterDataUtils.Builders.Weapons
             return -1;
         }
 
-        protected abstract bool IsValidSpecificWeapon(WeaponPrimitiveBase weapon);
-        protected abstract core.WeaponBase BuildSpecificWeapon(ref WeaponComputedArguments computedArguments, WeaponPrimitiveBase weapon);
+        protected abstract TResultWeapon CreateResultWeaponInstance();
+        protected abstract bool IsValidWeapon(TIntermediateWeapon weapon);
+        protected abstract void UpdateWeapon(TIntermediateWeapon weapon, TResultWeapon resultWeapon);
 
-        private bool IsValidWeapon(bool upgradable, WeaponPrimitiveBase weapon)
+        private bool IsValidWeaponInternal(bool upgradable, TIntermediateWeapon weapon)
         {
             if (upgradable ^ weapon.TreeId > 0)
                 return false;
@@ -132,47 +135,48 @@ namespace MHWMasterDataUtils.Builders.Weapons
             if (LanguageUtils.IsValidText(japaneseWeaponName) == false)
                 return false;
 
-            if (IsValidSpecificWeapon(weapon) == false)
+            if (IsValidWeapon(weapon) == false)
                 return false;
 
             return true;
         }
 
-        private List<MeleeWeaponPrimitiveBase> CreateValidWeaponsList(bool upgradable)
+        private List<TIntermediateWeapon> CreateValidWeaponsList(bool upgradable)
         {
-            var result = new List<MeleeWeaponPrimitiveBase>();
+            var result = new List<TIntermediateWeapon>();
 
-            foreach (MeleeWeaponPrimitiveBase weapon in weapons.Values)
+            foreach (TIntermediateWeapon weapon in weapons.Values)
             {
-                if (IsValidWeapon(upgradable, weapon))
+                if (IsValidWeaponInternal(upgradable, weapon))
                     result.Add(weapon);
             }
 
             return result;
         }
 
-        private void CreateUpgradableWeapons(List<core.WeaponBase> result)
+        private void CreateUpgradableWeapons(List<TResultWeapon> result)
         {
-            List<MeleeWeaponPrimitiveBase> upgradableWeapons = CreateValidWeaponsList(true);
+            List<TIntermediateWeapon> upgradableWeapons = CreateValidWeaponsList(true);
 
-            foreach (WeaponPrimitiveBase weapon in upgradableWeapons)
+            foreach (TIntermediateWeapon weapon in upgradableWeapons)
             {
                 uint oneBasedWeaponIndex = weaponIndices[(weapon.WeaponType, weapon.Id)];
                 int parentId = FindWeaponParentId(oneBasedWeaponIndex, upgradableWeapons);
 
-                core.WeaponBase resultWeapon = CreateHighLevelWeapon(parentId, true, weapon);
+                TResultWeapon resultWeapon = CreateHighLevelWeapon(parentId, true, weapon);
 
                 result.Add(resultWeapon);
             }
         }
 
-        private void CreateNonUpgradableWeapons(List<core.WeaponBase> result)
+        private void CreateNonUpgradableWeapons(List<TResultWeapon> result)
         {
-            List<MeleeWeaponPrimitiveBase> nonUpgradableWeapons = CreateValidWeaponsList(false);
+            List<TIntermediateWeapon> nonUpgradableWeapons = CreateValidWeaponsList(false);
 
-            foreach (WeaponPrimitiveBase weapon in nonUpgradableWeapons)
+            foreach (TIntermediateWeapon weapon in nonUpgradableWeapons)
             {
-                core.WeaponBase resultWeapon = CreateHighLevelWeapon(-1, false, weapon);
+                TResultWeapon resultWeapon = CreateHighLevelWeapon(-1, false, weapon);
+
                 result.Add(resultWeapon);
             }
         }
@@ -183,7 +187,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
                 crafts.Add(new core.CraftItem { Id = id, Quantity = quantity });
         }
 
-        private core.Craft CreateCraft(WeaponPrimitiveBase weapon)
+        private core.Craft CreateCraft(TIntermediateWeapon weapon)
         {
             bool isCraftable;
             var result = new List<core.CraftItem>();
@@ -214,8 +218,10 @@ namespace MHWMasterDataUtils.Builders.Weapons
             };
         }
 
-        private core.WeaponBase CreateHighLevelWeapon(int parentId, bool isUpgradable, WeaponPrimitiveBase weapon)
+        private TResultWeapon CreateHighLevelWeapon(int parentId, bool isUpgradable, TIntermediateWeapon weapon)
         {
+            TResultWeapon resultWeapon = CreateResultWeaponInstance();
+
             Dictionary<string, string> weaponName = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdNameIndex);
             Dictionary<string, string> weaponDescription = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdDescriptionIndex);
 
@@ -228,14 +234,35 @@ namespace MHWMasterDataUtils.Builders.Weapons
             if (parentId > -1)
                 canDowngrade = weapon.IsFixedUpgrade == FixedUpgradePrimitive.CanDowngrade;
 
-            var computedArguments = new WeaponComputedArguments(parentId, weaponName, weaponDescription, canDowngrade, craft);
+            resultWeapon.Id = weapon.Id;
+            resultWeapon.TreeOrder = weapon.TreeOrder;
+            resultWeapon.ParentId = parentId;
+            resultWeapon.Name = weaponName;
+            resultWeapon.Description = weaponDescription;
+            resultWeapon.Damage = WeaponsUtils.ComputeWeaponDamage(WeaponType, weapon.RawDamage);
+            resultWeapon.Rarity = weapon.Rarity;
+            resultWeapon.TreeId = weapon.TreeId;
+            resultWeapon.Affinity = weapon.Affinity;
+            resultWeapon.CraftingCost = weapon.CraftingCost;
+            resultWeapon.Defense = weapon.Defense;
+            resultWeapon.Elderseal = weapon.Elderseal;
+            resultWeapon.ElementStatus = weapon.ElementId;
+            resultWeapon.ElementStatusDamage = (ushort)(weapon.ElementDamage * 10);
+            resultWeapon.HiddenElementStatus = weapon.HiddenElementId;
+            resultWeapon.HiddenElementStatusDamage = (ushort)(weapon.HiddenElementDamage * 10);
+            resultWeapon.SkillId = weapon.SkillId;
+            resultWeapon.Slots = WeaponsUtils.CreateSlotsArray(weapon);
+            resultWeapon.CanDowngrade = canDowngrade;
+            resultWeapon.Craft = craft;
 
-            return BuildSpecificWeapon(ref computedArguments, weapon);
+            UpdateWeapon(weapon, resultWeapon);
+
+            return resultWeapon;
         }
 
-        public core.WeaponBase[] Build()
+        public TResultWeapon[] Build()
         {
-            var result = new List<core.WeaponBase>();
+            var result = new List<TResultWeapon>();
 
             CreateUpgradableWeapons(result);
             CreateNonUpgradableWeapons(result);

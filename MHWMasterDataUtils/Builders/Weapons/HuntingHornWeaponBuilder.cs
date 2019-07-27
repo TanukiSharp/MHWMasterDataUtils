@@ -9,7 +9,7 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class HuntingHornWeaponBuilder : MeleeWeaponBuilderBase
+    public class HuntingHornWeaponBuilder : MeleeWeaponBuilderBase<HuntingHorn>
     {
         private readonly HuntingHornNotesPackageProcessor huntingHornNotes;
         private readonly HuntingHornSongsPackageProcessor huntingHornSongs;
@@ -80,10 +80,17 @@ namespace MHWMasterDataUtils.Builders.Weapons
             return result.ToArray();
         }
 
-        protected override object CreateWeaponSpecificValue(MeleeWeaponPrimitiveBase weapon)
+        protected override HuntingHorn CreateResultWeaponInstance()
         {
+            return new HuntingHorn();
+        }
+
+        protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, HuntingHorn resultWeapon)
+        {
+            base.UpdateWeapon(weapon, resultWeapon);
+
             HuntingHornNotesPrimitive notes = huntingHornNotes.Table[weapon.Weapon1Id];
-            return FindSongs(notes);
+            resultWeapon.Songs = FindSongs(notes);
         }
     }
 }

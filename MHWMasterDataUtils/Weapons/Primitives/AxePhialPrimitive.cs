@@ -7,13 +7,13 @@ namespace MHWMasterDataUtils.Weapons.Primitives
     public class AxePhialPrimitive
     {
         public readonly ushort Id;
-        public readonly AxeElementStatus ElementStatus;
+        public readonly byte PhialType;
         public readonly ushort Damage;
 
-        private AxePhialPrimitive(ushort id, AxeElementStatus elementStatus, ushort damage)
+        private AxePhialPrimitive(ushort id, byte phialType, ushort damage)
         {
             Id = id;
-            ElementStatus = elementStatus;
+            PhialType = phialType;
             Damage = damage;
         }
 
@@ -21,10 +21,10 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         {
             ushort id = reader.ReadUInt16();
             reader.Offset(2);
-            var elementStatus = (AxeElementStatus)reader.ReadByte();
+            byte phialType = reader.ReadByte();
             ushort damage = reader.ReadUInt16();
 
-            return new AxePhialPrimitive(id, elementStatus, damage);
+            return new AxePhialPrimitive(id, phialType, damage);
         }
     }
 }

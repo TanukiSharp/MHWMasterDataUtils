@@ -7,67 +7,12 @@ namespace MHWMasterDataUtils.Core
 {
     public class MeleeWeapon : WeaponBase
     {
-        public MeleeWeapon(
-            WeaponType weaponType,
-            uint id,
-            ushort treeOrder,
-            int parentId,
-            Dictionary<string, string> name,
-            Dictionary<string, string> description,
-            ushort damage,
-            byte rarity,
-            byte treeId,
-            SharpnessInfo sharpness,
-            SharpnessInfo maxSharpness,
-            sbyte affinity,
-            uint craftingCost,
-            ushort defense,
-            Elderseal elderseal,
-            ElementStatus elementStatus,
-            ushort elementStatusDamange,
-            ElementStatus hiddenElementStatus,
-            ushort hiddenElementStatusDamange,
-            ushort skillId,
-            ushort[] slots,
-            bool canDowngrade,
-            object weaponSpecific,
-            Craft craft
-        )
-            : base(
-                  weaponType,
-                  id,
-                  treeOrder,
-                  parentId,
-                  name,
-                  description,
-                  damage,
-                  rarity,
-                  treeId,
-                  affinity,
-                  craftingCost,
-                  defense,
-                  elderseal,
-                  elementStatus,
-                  elementStatusDamange,
-                  hiddenElementStatus,
-                  hiddenElementStatusDamange,
-                  skillId,
-                  slots,
-                  canDowngrade,
-                  craft
-            )
-        {
-            Sharpness = sharpness;
-            MaxSharpness = maxSharpness;
-            WeaponSpecific = weaponSpecific;
-        }
-
         [JsonProperty("sharpness")]
-        public SharpnessInfo Sharpness { get; }
+        public SharpnessInfo Sharpness { get; set; }
         [JsonProperty("maxSharpness")]
-        public SharpnessInfo MaxSharpness { get; }
+        public SharpnessInfo MaxSharpness { get; set; }
         [JsonProperty("weaponSpecific")]
-        public object WeaponSpecific { get; }
+        public object WeaponSpecific { get; set; }
 
         public override string ToString()
         {

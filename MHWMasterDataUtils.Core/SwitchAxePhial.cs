@@ -5,11 +5,11 @@ using Newtonsoft.Json;
 
 namespace MHWMasterDataUtils.Core
 {
-    public class AxePhial
+    public class SwitchAxePhial
     {
-        [JsonProperty("elementStatus")]
-        public int ElementStatus { get; set; }
+        [JsonProperty("type")]
+        public SwitchAxePhialType Type { get; set; }
         [JsonProperty("damage")]
-        public int Damage { get; set; }
+        public int? Damage { get; set; }
     }
 }

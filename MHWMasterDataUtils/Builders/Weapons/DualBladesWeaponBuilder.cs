@@ -9,7 +9,7 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class DualBladesWeaponBuilder : MeleeWeaponBuilderBase
+    public class DualBladesWeaponBuilder : MeleeWeaponBuilderBase<DualBlades>
     {
         private readonly DualBladesSpecialPackageProcessor dualBladesSpecial;
 
@@ -33,20 +33,24 @@ namespace MHWMasterDataUtils.Builders.Weapons
             this.dualBladesSpecial = dualBladesSpecial;
         }
 
-        protected override object CreateWeaponSpecificValue(MeleeWeaponPrimitiveBase weapon)
+        protected override DualBlades CreateResultWeaponInstance()
         {
+            return new DualBlades();
+        }
+
+        protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, DualBlades resultWeapon)
+        {
+            base.UpdateWeapon(weapon, resultWeapon);
+
             if (weapon.Weapon1Id == 0)
-                return null;
+                return;
 
             DualBladesSpecialPrimitive dualBladesElementInfo = dualBladesSpecial.Table[weapon.Weapon1Id];
 
-            return new
-            {
-                elementStatus1 = (int)dualBladesElementInfo.Element1, // Matches type core.ElementStatus.
-                elementStatus1Damage = dualBladesElementInfo.Element1Damage * 10,
-                elementStatus2 = (int)dualBladesElementInfo.Element2, // Matches type core.ElementStatus.
-                elementStatus2Damage = dualBladesElementInfo.Element2Damage * 10,
-            };
+            resultWeapon.ElementStatus = dualBladesElementInfo.Element1;
+            resultWeapon.ElementStatusDamage = dualBladesElementInfo.Element1Damage * 10;
+            resultWeapon.SecondaryElementStatus = dualBladesElementInfo.Element2;
+            resultWeapon.SecondaryElementStatusDamage = dualBladesElementInfo.Element2Damage * 10;
         }
     }
 }

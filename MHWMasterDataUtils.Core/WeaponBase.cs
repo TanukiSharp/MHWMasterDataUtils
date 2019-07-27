@@ -8,93 +8,45 @@ namespace MHWMasterDataUtils.Core
     public abstract class WeaponBase
     {
         [JsonIgnore]
-        public WeaponType WeaponType { get; }
-        [JsonProperty("id")]
-        public uint Id { get; }
-        [JsonIgnore]
-        public ushort TreeOrder { get; }
-        [JsonProperty("parentId")]
-        public int ParentId { get; }
-        [JsonProperty("name")]
-        public Dictionary<string, string> Name { get; }
-        [JsonProperty("description")]
-        public Dictionary<string, string> Description { get; }
-        [JsonProperty("damage")]
-        public ushort Damage { get; }
-        [JsonProperty("rarity")]
-        public byte Rarity { get; }
-        [JsonProperty("treeId")]
-        public byte TreeId { get; }
-        [JsonProperty("affinity")]
-        public sbyte Affinity { get; }
-        [JsonProperty("craftingCost")]
-        public uint CraftingCost { get; }
-        [JsonProperty("defense")]
-        public ushort Defense { get; }
-        [JsonProperty("elderseal")]
-        public Elderseal Elderseal { get; }
-        [JsonProperty("elementStatus")]
-        public ElementStatus ElementStatus { get; }
-        [JsonProperty("elementStatusDamage")]
-        public ushort ElementStatusDamage { get; }
-        [JsonProperty("hiddenElementStatus")]
-        public ElementStatus HiddenElementStatus { get; }
-        [JsonProperty("hiddenElementStatusDamage")]
-        public ushort HiddenElementStatusDamage { get; }
-        [JsonProperty("skillId")]
-        public ushort SkillId { get; }
-        [JsonProperty("slots")]
-        public ushort[] Slots { get; }
-        [JsonProperty("canDowngrade")]
-        public bool CanDowngrade { get; }
-        [JsonProperty("craft")]
-        public Craft Craft { get; }
+        public int TreeOrder { get; set; }
 
-        protected WeaponBase(
-            WeaponType weaponType,
-            uint id,
-            ushort treeOrder,
-            int parentId,
-            Dictionary<string, string> name,
-            Dictionary<string, string> description,
-            ushort damage,
-            byte rarity,
-            byte treeId,
-            sbyte affinity,
-            uint craftingCost,
-            ushort defense,
-            Elderseal elderseal,
-            ElementStatus elementStatus,
-            ushort elementStatusDamage,
-            ElementStatus hiddenElementStatus,
-            ushort hiddenElementStatusDamage,
-            ushort skillId,
-            ushort[] slots,
-            bool canDowngrade,
-            Craft craft
-        )
-        {
-            WeaponType = weaponType;
-            Id = id;
-            TreeOrder = treeOrder;
-            ParentId = parentId;
-            Name = name;
-            Description = description;
-            Damage = damage;
-            Rarity = rarity;
-            TreeId = treeId;
-            Affinity = affinity;
-            CraftingCost = craftingCost;
-            Defense = defense;
-            Elderseal = elderseal;
-            ElementStatus = elementStatus;
-            ElementStatusDamage = elementStatusDamage;
-            HiddenElementStatus = hiddenElementStatus;
-            HiddenElementStatusDamage = hiddenElementStatusDamage;
-            SkillId = skillId;
-            Slots = slots;
-            CanDowngrade = canDowngrade;
-            Craft = craft;
-        }
+        [JsonProperty("id")]
+        public uint Id { get; set; }
+        [JsonProperty("parentId")]
+        public int ParentId { get; set; }
+        [JsonProperty("name")]
+        public Dictionary<string, string> Name { get; set; }
+        [JsonProperty("description")]
+        public Dictionary<string, string> Description { get; set; }
+        [JsonProperty("damage")]
+        public int Damage { get; set; }
+        [JsonProperty("rarity")]
+        public int Rarity { get; set; }
+        [JsonProperty("treeId")]
+        public int TreeId { get; set; }
+        [JsonProperty("affinity")]
+        public int Affinity { get; set; }
+        [JsonProperty("craftingCost")]
+        public uint CraftingCost { get; set; }
+        [JsonProperty("defense")]
+        public int Defense { get; set; }
+        [JsonProperty("elderseal")]
+        public Elderseal Elderseal { get; set; }
+        [JsonProperty("elementStatus")]
+        public ElementStatus ElementStatus { get; set; }
+        [JsonProperty("elementStatusDamage")]
+        public int ElementStatusDamage { get; set; }
+        [JsonProperty("hiddenElementStatus")]
+        public ElementStatus HiddenElementStatus { get; set; }
+        [JsonProperty("hiddenElementStatusDamage")]
+        public int HiddenElementStatusDamage { get; set; }
+        [JsonProperty("skillId")]
+        public int SkillId { get; set; }
+        [JsonProperty("slots")]
+        public int[] Slots { get; set; }
+        [JsonProperty("canDowngrade")]
+        public bool CanDowngrade { get; set; }
+        [JsonProperty("craft")]
+        public Craft Craft { get; set; }
     }
 }

@@ -152,7 +152,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("jewels", jewelItems);
 
-            WeaponBase[] dualBlades = new DualBladesWeaponBuilder(
+            DualBlades[] dualBlades = new DualBladesWeaponBuilder(
                 dualBladeLanguages,
                 weapons,
                 weaponCraft,
@@ -198,7 +198,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("hammers", hammers);
 
-            WeaponBase[] huntingHorns = new HuntingHornWeaponBuilder(
+            HuntingHorn[] huntingHorns = new HuntingHornWeaponBuilder(
                 huntingHornLanguages,
                 weapons,
                 weaponCraft,
@@ -218,7 +218,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("lances", lances);
 
-            WeaponBase[] gunlances = new GunlanceWeaponBuilder(
+            Gunlance[] gunlances = new GunlanceWeaponBuilder(
                 gunlanceLanguages,
                 weapons,
                 weaponCraft,
@@ -228,8 +228,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("gunlances", gunlances);
 
-            WeaponBase[] switchAxes = new AxeWeaponBuilder(
-                WeaponType.SwitchAxe,
+            SwitchAxe[] switchAxes = new SwitchAxeWeaponBuilder(
                 switchAxeLanguages,
                 weapons,
                 weaponCraft,
@@ -239,8 +238,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("switch-axes", switchAxes);
 
-            WeaponBase[] chargeBlades = new AxeWeaponBuilder(
-                WeaponType.ChargeBlade,
+            ChargeBlade[] chargeBlades = new ChargeBladeWeaponBuilder(
                 chargeBladeLanguages,
                 weapons,
                 weaponCraft,
@@ -250,7 +248,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("charge-blades", chargeBlades);
 
-            WeaponBase[] insectGlaives = new InsectGlaiveWeaponBuilder(
+            InsectGlaive[] insectGlaives = new InsectGlaiveWeaponBuilder(
                 insectGlaiveLanguages,
                 weapons,
                 weaponCraft,

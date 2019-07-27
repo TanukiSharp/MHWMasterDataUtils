@@ -9,20 +9,20 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class GunlanceWeaponBuilder : MeleeWeaponBuilderBase<Gunlance>
+    public class ChargeBladeWeaponBuilder : MeleeWeaponBuilderBase<ChargeBlade>
     {
-        private readonly GunlanceShellPackageProcessor gunlanceShells;
+        private readonly AxePhialPackageProcessor axePhials;
 
-        public GunlanceWeaponBuilder(
+        public ChargeBladeWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,
             WeaponsPackageProcessor weaponsPackageProcessor,
             CraftPackageProcessor<WeaponType> craftPackageProcessor,
             WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
             SharpnessPackageProcessor sharpnessPackageProcessor,
-            GunlanceShellPackageProcessor gunlanceShells
+            AxePhialPackageProcessor axePhials
         )
             : base(
-                  WeaponType.Gunlance,
+                  WeaponType.ChargeBlade,
                   weaponsLanguages,
                   weaponsPackageProcessor,
                   craftPackageProcessor,
@@ -30,20 +30,21 @@ namespace MHWMasterDataUtils.Builders.Weapons
                   sharpnessPackageProcessor
             )
         {
-            this.gunlanceShells = gunlanceShells;
+            this.axePhials = axePhials;
         }
 
-        protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, Gunlance resultWeapon)
+        protected override ChargeBlade CreateResultWeaponInstance()
+        {
+            return new ChargeBlade();
+        }
+
+        protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, ChargeBlade resultWeapon)
         {
             base.UpdateWeapon(weapon, resultWeapon);
 
-            GunlanceShellPrimitive gunlanceShell = gunlanceShells.Table[weapon.Weapon1Id];
+            AxePhialPrimitive axePhial = axePhials.Table[weapon.Weapon1Id];
 
-            resultWeapon.Shelling = new GunlanceShell
-            {
-                ShellType = (int)gunlanceShell.ShellType, // Matches type core.GunlanceShellType.
-                ShellLevel = gunlanceShell.ShellLevel + 1
-            };
+            resultWeapon.PhialType = (ChargeBladePhialType)axePhial.PhialType;
         }
     }
 }

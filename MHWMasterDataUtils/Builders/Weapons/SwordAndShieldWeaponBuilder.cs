@@ -8,7 +8,7 @@ using MHWMasterDataUtils.Weapons;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class SwordAndShieldWeaponBuilder : MeleeWeaponBuilderBase
+    public class SwordAndShieldWeaponBuilder : MeleeWeaponBuilderBase<MeleeWeapon>
     {
         public SwordAndShieldWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,

@@ -9,7 +9,7 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class InsectGlaiveWeaponBuilder : MeleeWeaponBuilderBase
+    public class InsectGlaiveWeaponBuilder : MeleeWeaponBuilderBase<InsectGlaive>
     {
         public InsectGlaiveWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,
@@ -29,9 +29,11 @@ namespace MHWMasterDataUtils.Builders.Weapons
         {
         }
 
-        protected override object CreateWeaponSpecificValue(MeleeWeaponPrimitiveBase weapon)
+        protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, InsectGlaive resultWeapon)
         {
-            return (int)weapon.Weapon1Id; // Matches type core.KinsectBonus.
+            base.UpdateWeapon(weapon, resultWeapon);
+
+            resultWeapon.InsectBonus = weapon.Weapon1Id; // Matches type core.KinsectBonus.
         }
     }
 }

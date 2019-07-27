@@ -9,12 +9,11 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class AxeWeaponBuilder : MeleeWeaponBuilderBase
+    public class SwitchAxeWeaponBuilder : MeleeWeaponBuilderBase<SwitchAxe>
     {
         private readonly AxePhialPackageProcessor axePhials;
 
-        public AxeWeaponBuilder(
-            WeaponType weaponType,
+        public SwitchAxeWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,
             WeaponsPackageProcessor weaponsPackageProcessor,
             CraftPackageProcessor<WeaponType> craftPackageProcessor,
@@ -23,7 +22,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
             AxePhialPackageProcessor axePhials
         )
             : base(
-                  weaponType,
+                  WeaponType.SwitchAxe,
                   weaponsLanguages,
                   weaponsPackageProcessor,
                   craftPackageProcessor,
@@ -31,19 +30,28 @@ namespace MHWMasterDataUtils.Builders.Weapons
                   sharpnessPackageProcessor
             )
         {
-            if (weaponType != WeaponType.SwitchAxe && weaponType != WeaponType.ChargeBlade)
-                throw new ArgumentException($"Invalide '{nameof(weaponType)} argument. Expected '{WeaponType.SwitchAxe}' or '{WeaponType.ChargeBlade}' but got '{weaponType}'.");
             this.axePhials = axePhials;
         }
 
-        protected override object CreateWeaponSpecificValue(MeleeWeaponPrimitiveBase weapon)
+        protected override SwitchAxe CreateResultWeaponInstance()
         {
+            return new SwitchAxe();
+        }
+
+        protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, SwitchAxe resultWeapon)
+        {
+            base.UpdateWeapon(weapon, resultWeapon);
+
             AxePhialPrimitive axePhial = axePhials.Table[weapon.Weapon1Id];
 
-            return new AxePhial
+            int? damage = null;
+            if (axePhial.Damage > 0)
+                damage = axePhial.Damage * 10;
+
+            resultWeapon.Phial = new SwitchAxePhial
             {
-                ElementStatus = (int)axePhial.ElementStatus,
-                Damage = axePhial.Damage * 10
+                Type = (SwitchAxePhialType)axePhial.PhialType,
+                Damage = damage
             };
         }
     }

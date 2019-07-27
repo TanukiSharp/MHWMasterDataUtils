@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Core
 {
-    public enum AxeElementStatus
+    public enum SwitchAxePhialType
     {
-        PowerImpact = 0,
+        Power = 0,
         PowerElement = 1,
         Dragon = 2,
         Exhaust = 3,
