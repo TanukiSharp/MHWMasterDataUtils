@@ -274,8 +274,6 @@ namespace MHWMasterDataUtils.Tester
                         NullValueHandling = NullValueHandling.Ignore
                     };
 
-                    //serializer.Converters.Add(new HuntingHornSongPrimitiveConverter());
-
                     serializer.Serialize(jw, instance);
 
                     File.WriteAllText(Path.Combine(AppContext.BaseDirectory, $"{filename}.json"), sw.ToString());
@@ -283,49 +281,4 @@ namespace MHWMasterDataUtils.Tester
             }
         }
     }
-
-    //public class HuntingHornSongPrimitiveConverter : JsonConverter
-    //{
-    //    public override bool CanConvert(Type objectType)
-    //    {
-    //        return objectType == typeof(Weapons.Primitives.HuntingHornSongPrimitive);
-    //    }
-
-    //    public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
-    //    {
-    //        throw new NotImplementedException();
-    //    }
-
-    //    public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-    //    {
-    //        if (writer == null)
-    //            throw new ArgumentNullException(nameof(writer));
-    //        if (value == null)
-    //            throw new ArgumentNullException(nameof(value));
-
-    //        var v = (Weapons.Primitives.HuntingHornSongPrimitive)value;
-
-    //        writer.WriteStartObject();
-
-    //        writer.WritePropertyName("effect");
-    //        writer.WriteValue(v.Effect.ToString());
-
-    //        writer.WritePropertyName("notes");
-
-    //        writer.WriteStartArray();
-
-    //        if (v.Note1 != HuntingHornNoteColor.Disabled)
-    //            writer.WriteValue(v.Note1.ToString().ToLower());
-    //        if (v.Note2 != HuntingHornNoteColor.Disabled)
-    //            writer.WriteValue(v.Note2.ToString().ToLower());
-    //        if (v.Note3 != HuntingHornNoteColor.Disabled)
-    //            writer.WriteValue(v.Note3.ToString().ToLower());
-    //        if (v.Note4 != HuntingHornNoteColor.Disabled)
-    //            writer.WriteValue(v.Note4.ToString().ToLower());
-            
-    //        writer.WriteEndArray();
-
-    //        writer.WriteEndObject();
-    //    }
-    //}
 }
