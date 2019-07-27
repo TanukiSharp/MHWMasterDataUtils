@@ -70,7 +70,7 @@ namespace MHWMasterDataUtils.Tester
             var skillLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_pt_\\w{3}.gmd");
             var skillAbilitiesLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_\\w{3}.gmd");
 
-            var bowBootles = new BottleTablePackageProcessor();
+            var bowBottles = new BottleTablePackageProcessor();
             var weapons = new WeaponsPackageProcessor();
             var huntingHornNotes = new HuntingHornNotesPackageProcessor();
             var huntingHornSongs = new HuntingHornSongsPackageProcessor();
@@ -109,7 +109,7 @@ namespace MHWMasterDataUtils.Tester
                 steamItemsLanguages,
                 cmItemsLanguages,
                 itemsLanguages,
-                bowBootles,
+                bowBottles,
                 weapons,
                 huntingHornNotes,
                 huntingHornSongs,
