@@ -1,18 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using MHWMasterDataUtils.Builders.Weapons;
 using MHWMasterDataUtils.Crafting;
-using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Languages;
-using MHWMasterDataUtils.Sharpness;
 using MHWMasterDataUtils.Weapons;
 using MHWMasterDataUtils.Weapons.Primitives;
 
 using core = MHWMasterDataUtils.Core;
 
-namespace MHWMasterDataUtils.Builders
+namespace MHWMasterDataUtils.Builders.Weapons
 {
     public abstract class WeaponBuilderBase
     {
