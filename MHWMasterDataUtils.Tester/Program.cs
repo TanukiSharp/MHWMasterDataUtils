@@ -21,12 +21,12 @@ namespace MHWMasterDataUtils.Tester
 {
     class Program
     {
-        static async Task Main()
+        static void Main()
         {
-            await new Program().Run().ConfigureAwait(false);
+            new Program().Run();
         }
 
-        private async Task Run()
+        private void Run()
         {
             Console.WriteLine("-=-=-=-=-=- START -=-=-=-=-=-");
 
