@@ -11,15 +11,12 @@ namespace MHWMasterDataUtils.Builders.Weapons
 {
     public class ChargeBladeWeaponBuilder : MeleeWeaponBuilderBase<ChargeBlade>
     {
-        private readonly AxePhialPackageProcessor axePhials;
-
         public ChargeBladeWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,
             WeaponsPackageProcessor weaponsPackageProcessor,
             CraftPackageProcessor<WeaponType> craftPackageProcessor,
             WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
-            SharpnessPackageProcessor sharpnessPackageProcessor,
-            AxePhialPackageProcessor axePhials
+            SharpnessPackageProcessor sharpnessPackageProcessor
         )
             : base(
                   WeaponType.ChargeBlade,
@@ -30,7 +27,6 @@ namespace MHWMasterDataUtils.Builders.Weapons
                   sharpnessPackageProcessor
             )
         {
-            this.axePhials = axePhials;
         }
 
         protected override ChargeBlade CreateResultWeaponInstance()
@@ -42,9 +38,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
         {
             base.UpdateWeapon(weapon, resultWeapon);
 
-            AxePhialPrimitive axePhial = axePhials.Table[weapon.Weapon1Id];
-
-            resultWeapon.PhialType = (ChargeBladePhialType)axePhial.PhialType;
+            resultWeapon.PhialType = (ChargeBladePhialType)weapon.Weapon1Id;
         }
     }
 }

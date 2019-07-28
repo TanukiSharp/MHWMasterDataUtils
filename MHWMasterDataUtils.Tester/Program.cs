@@ -265,8 +265,7 @@ namespace MHWMasterDataUtils.Tester
                 weapons,
                 weaponCraft,
                 weaponUpgrades,
-                sharpness,
-                axePhials
+                sharpness
             ).Build();
             SerializeJson("charge-blades", chargeBlades);
 
