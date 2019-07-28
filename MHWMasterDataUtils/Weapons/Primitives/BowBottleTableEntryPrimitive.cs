@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Weapons.Primitives
 {
-    public class BottleTableEntryPrimitive
+    public class BowBottleTableEntryPrimitive
     {
         public readonly byte CloseRange;
         public readonly byte Power;
@@ -13,7 +13,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public readonly byte Sleep;
         public readonly byte Blast;
 
-        private BottleTableEntryPrimitive(
+        private BowBottleTableEntryPrimitive(
             byte closeRange,
             byte power,
             byte paralysis,
@@ -30,7 +30,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             Blast = blast;
         }
 
-        public static BottleTableEntryPrimitive Read(Reader reader)
+        public static BowBottleTableEntryPrimitive Read(Reader reader)
         {
             byte closeRange = reader.ReadByte();
             byte power = reader.ReadByte();
@@ -39,7 +39,7 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             byte sleep = reader.ReadByte();
             byte blast = reader.ReadByte();
 
-            return new BottleTableEntryPrimitive(closeRange, power, paralysis, poison, sleep, blast);
+            return new BowBottleTableEntryPrimitive(closeRange, power, paralysis, poison, sleep, blast);
         }
     }
 }

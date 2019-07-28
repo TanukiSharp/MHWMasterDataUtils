@@ -7,10 +7,10 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Weapons
 {
-    public class BottleTablePackageProcessor : SimpleListPackageProcessorBase<BottleTableEntryPrimitive>
+    public class BowBottleTablePackageProcessor : SimpleListPackageProcessorBase<BowBottleTableEntryPrimitive>
     {
-        public BottleTablePackageProcessor()
-            : base(0x01A6, BottleTableEntryPrimitive.Read)
+        public BowBottleTablePackageProcessor()
+            : base(0x01A6, BowBottleTableEntryPrimitive.Read)
         {
         }
 

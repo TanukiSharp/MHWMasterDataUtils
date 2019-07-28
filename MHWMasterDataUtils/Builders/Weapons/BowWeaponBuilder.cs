@@ -12,14 +12,14 @@ namespace MHWMasterDataUtils.Builders.Weapons
 {
     public class BowWeaponBuilder : WeaponBuilderBase<RangeWeaponPrimitiveBase, core.Bow>
     {
-        private readonly BottleTablePackageProcessor bowBottles;
+        private readonly BowBottleTablePackageProcessor bowBottles;
 
         public BowWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,
             WeaponsPackageProcessor weaponsPackageProcessor,
             CraftPackageProcessor<core.WeaponType> craftPackageProcessor,
             WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
-            BottleTablePackageProcessor bowBottles
+            BowBottleTablePackageProcessor bowBottles
         )
             : base(
                   core.WeaponType.Bow,
@@ -44,7 +44,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
 
         protected override void UpdateWeapon(RangeWeaponPrimitiveBase weapon, core.Bow resultWeapon)
         {
-            BottleTableEntryPrimitive bowBottlesEntry = bowBottles.List[weapon.SpecialAmmoId];
+            BowBottleTableEntryPrimitive bowBottlesEntry = bowBottles.List[weapon.SpecialAmmoId];
 
             var coatings = new List<core.BowCoating>();
 
