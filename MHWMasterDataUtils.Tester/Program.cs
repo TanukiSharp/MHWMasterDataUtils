@@ -329,6 +329,8 @@ namespace MHWMasterDataUtils.Tester
         {
             using (var sw = new StringWriter())
             {
+                sw.NewLine = "\n";
+
                 using (var jw = new JsonTextWriter(sw))
                 {
                     jw.Formatting = Formatting.Indented;
