@@ -42,7 +42,6 @@ namespace MHWMasterDataUtils.Tester
             var insectElemntUpgrades = new WeaponUpgradePackageProcessor("/common/equip/insect_element.eq_cus");
             var weaponUpgrades = new WeaponUpgradePackageProcessor("/common/equip/weapon.eq_cus");
 
-            var armors = new AmmoPackageProcessor();
             var jewels = new JewelPackageProcessor();
             var items = new ItemsPackageProcessor();
             var sharpness = new SharpnessPackageProcessor();
@@ -62,6 +61,8 @@ namespace MHWMasterDataUtils.Tester
             var chargeBladeLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.ChargeBlade));
             var insectGlaiveLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.InsectGlaive));
             var bowLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.Bow));
+            var lightBowgunLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.LightBowgun));
+            var heavyBowgunLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.HeavyBowgun));
 
             var weaponSeriesLanguages = new LanguagePackageProcessor("/common/text/steam/wep_series_\\w{3}.gmd");
             var steamItemsLanguages = new LanguagePackageProcessor("/common/text/steam/item_\\w{3}.gmd");
@@ -78,6 +79,7 @@ namespace MHWMasterDataUtils.Tester
             var dualBladesSpecial = new DualBladesSpecialPackageProcessor();
             var axePhials = new AxePhialPackageProcessor();
             var gunlanceShells = new GunlanceShellPackageProcessor();
+            var ammos = new AmmoPackageProcessor();
 
             var skills = new SkillsPackageProcessor();
             var skillAbilities = new SkillAbilitiesPackageProcessor();
@@ -89,7 +91,6 @@ namespace MHWMasterDataUtils.Tester
                 insectUpgrades,
                 insectElemntUpgrades,
                 weaponUpgrades,
-                armors,
                 jewels,
                 items,
                 sharpness,
@@ -107,6 +108,8 @@ namespace MHWMasterDataUtils.Tester
                 chargeBladeLanguages,
                 insectGlaiveLanguages,
                 bowLanguages,
+                lightBowgunLanguages,
+                heavyBowgunLanguages,
                 weaponSeriesLanguages,
                 steamItemsLanguages,
                 cmItemsLanguages,
@@ -118,6 +121,7 @@ namespace MHWMasterDataUtils.Tester
                 dualBladesSpecial,
                 axePhials,
                 gunlanceShells,
+                ammos,
                 skills,
                 skillAbilities,
                 skillLanguages,
@@ -129,7 +133,7 @@ namespace MHWMasterDataUtils.Tester
                 packageReader.Run(packagesFullPath);
 
             WeaponTreeName[] weaponTrees = new WeaponTreesBuilder(weaponSeriesLanguages, weapons).Build();
-            SerializeJson(nameof(weaponTrees), weaponTrees);
+            SerializeJson("weapon-trees", weaponTrees);
 
             Skill[] skillEntries = new SkillsBuilder(
                 skills,
@@ -266,6 +270,26 @@ namespace MHWMasterDataUtils.Tester
                 bowBottles
             ).Build();
             SerializeJson("bows", bows);
+
+            Bowgun[] lightBowguns = new BowgunWeaponBuilder(
+                WeaponType.LightBowgun,
+                lightBowgunLanguages,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                ammos
+            ).Build();
+            SerializeJson("light-bowguns", lightBowguns);
+
+            Bowgun[] heavyBowguns = new BowgunWeaponBuilder(
+                WeaponType.HeavyBowgun,
+                heavyBowgunLanguages,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                ammos
+            ).Build();
+            SerializeJson("heavy-bowguns", heavyBowguns);
         }
 
         private static void SerializeJson(string filename, object instance)

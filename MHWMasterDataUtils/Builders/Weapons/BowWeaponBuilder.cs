@@ -10,7 +10,7 @@ using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders.Weapons
 {
-    public class BowWeaponBuilder : RangeWeaponBuilderBase<core.Bow>
+    public class BowWeaponBuilder : WeaponBuilderBase<RangeWeaponPrimitiveBase, core.Bow>
     {
         private readonly BottleTablePackageProcessor bowBottles;
 
@@ -30,6 +30,16 @@ namespace MHWMasterDataUtils.Builders.Weapons
             )
         {
             this.bowBottles = bowBottles;
+        }
+
+        protected override bool IsValidWeapon(RangeWeaponPrimitiveBase weapon)
+        {
+            return true;
+        }
+
+        protected override core.Bow CreateResultWeaponInstance()
+        {
+            return new core.Bow();
         }
 
         protected override void UpdateWeapon(RangeWeaponPrimitiveBase weapon, core.Bow resultWeapon)

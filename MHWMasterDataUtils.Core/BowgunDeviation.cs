@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Core
 {
-    public enum DeviationPrimitive : byte
+    public enum BowgunDeviation
     {
         None,
         Low,

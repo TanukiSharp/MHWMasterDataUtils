@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Core
 {
-    public enum AmmoReloadPrimitive
+    public enum AmmoReload
     {
         Fast,
         Normal,

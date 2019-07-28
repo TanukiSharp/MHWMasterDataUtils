@@ -12,8 +12,8 @@ namespace MHWMasterDataUtils.Weapons.Primitives
         public readonly MagazineTypePrimitive MagazineType; // 0: none, 1: extended, 2: drum
         public readonly ScopeTypePrimitive ScopeType; // 0: none, 1: scope
         public readonly ushort ShellTableId;
-        public readonly DeviationPrimitive Deviation; // applies to LBG, HBG. 0: none, 1: low, 2: average, 3: high
-        public readonly sbyte SpecialAmmoId; // LBG and HBG: 0: Wyvernblast, 1: Wyvernfire, 2: Wyvernsnipe. Bow: reference to common/equip/bottle_table.bbtbl
+        public readonly BowgunDeviation Deviation; // applies to LBG, HBG. 0: none, 1: low, 2: average, 3: high
+        public readonly byte SpecialAmmoId; // LBG and HBG: 0: Wyvernblast, 1: Wyvernfire, 2: Wyvernsnipe. Bow: reference to common/equip/bottle_table.bbtbl
 
         private RangeWeaponPrimitiveBase(
             WeaponType weaponType,
@@ -40,12 +40,12 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             ushort hiddenElementDamage,
             Elderseal elderseal,
             ushort shellTableId,
-            DeviationPrimitive deviation,
+            BowgunDeviation deviation,
             byte gemSlots,
             byte gemSlot1,
             byte gemSlot2,
             byte gemSlot3,
-            sbyte specialAmmoId,
+            byte specialAmmoId,
             byte treePosition,
             ushort order,
             ushort gmdNameIndex,
@@ -117,13 +117,13 @@ namespace MHWMasterDataUtils.Weapons.Primitives
             ushort hiddenElementDamage = reader.ReadUInt16();
             var elderseal = (Elderseal)reader.ReadByte();
             ushort shellTableId = reader.ReadUInt16();
-            var deviation = (DeviationPrimitive)reader.ReadByte();
+            var deviation = (BowgunDeviation)reader.ReadByte();
             byte gemSlots = reader.ReadByte();
             byte gemSlot1 = reader.ReadByte();
             byte gemSlot2 = reader.ReadByte();
             byte gemSlot3 = reader.ReadByte();
             reader.Offset(13); // Skip unknown31 to unknown43.
-            sbyte specialAmmoId = reader.ReadSByte();
+            byte specialAmmoId = reader.ReadByte();
             byte treePosition = reader.ReadByte();
             ushort order = reader.ReadUInt16();
             ushort gmdNameIndex = reader.ReadUInt16();

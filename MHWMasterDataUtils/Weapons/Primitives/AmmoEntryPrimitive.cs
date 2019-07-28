@@ -1,128 +1,146 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Weapons.Primitives
 {
     public struct AmmoEntryPrimitive
     {
-        public readonly byte MagazineCount; // max: 10
-        public readonly AmmoRecoilPrimitive RecoilAmount; // rapid: 1c, 1d, 1e, 1f, 21
-        public readonly AmmoReloadPrimitive ReloadSpeed; // normal: 00/01/0e/12
+        public readonly byte Capacity; // max: 10
+        public readonly AmmoShotType ShotType; // rapid: 1c, 1d, 1e, 1f, 21
+        public readonly AmmoReload Reload; // normal: 00/01/0e/12
 
-        private AmmoEntryPrimitive(byte magazineCount, AmmoRecoilPrimitive recoilAmount, AmmoReloadPrimitive reloadSpeed)
+        //public readonly string ShotTypeBinary;
+        //public readonly string ReloadBinary;
+
+        private AmmoEntryPrimitive(byte capacity, AmmoShotType shotType, AmmoReload reload/*, string shotTypeBinary, string reloadBinary*/)
         {
-            MagazineCount = magazineCount;
-            RecoilAmount = recoilAmount;
-            ReloadSpeed = reloadSpeed;
+            Capacity = capacity;
+            ShotType = shotType;
+            Reload = reload;
+
+            //ShotTypeBinary = shotTypeBinary;
+            //ReloadBinary = reloadBinary;
         }
 
         public static AmmoEntryPrimitive Read(Reader reader)
         {
-            byte magazineCount = reader.ReadByte();
-            AmmoRecoilPrimitive recoilAmount = FromRecoilValue(reader.ReadByte());
-            AmmoReloadPrimitive reloadSpeed = FromReloadValue(reader.ReadByte());
+            byte capacity = reader.ReadByte();
+            byte shotTypeNum = reader.ReadByte();
+            byte reloadNum = reader.ReadByte();
 
-            return new AmmoEntryPrimitive(magazineCount, recoilAmount, reloadSpeed);
+            AmmoShotType shotType = FromShotTypeValue(shotTypeNum);
+            AmmoReload reload = FromReloadValue(reloadNum);
+
+            //string shotTypeBinary = Convert.ToString(shotTypeNum, 2).PadLeft(8, '0').Insert(4, "_");
+            //string reloadBinary = Convert.ToString(reloadNum, 2).PadLeft(8, '0').Insert(4, "_");
+
+            return new AmmoEntryPrimitive(capacity, shotType, reload/*, shotTypeBinary, reloadBinary*/);
         }
 
-        private static AmmoRecoilPrimitive FromRecoilValue(byte recoilAmount)
+        private static AmmoShotType FromShotTypeValue(byte shotType)
         {
-            switch (recoilAmount)
+            switch (shotType)
             {
-                case 0x0:
-                    return AmmoRecoilPrimitive.NormalRecoil1;
+                case 0b_0000_0000:
+                    return AmmoShotType.NormalRecoil1;
 
-                case 0x1:
-                case 0x2:
-                case 0x3:
-                    return AmmoRecoilPrimitive.NormalRecoil2;
+                case 0b_0000_0001:
+                case 0b_0000_0010:
+                case 0b_0000_0011:
+                    return AmmoShotType.NormalRecoil2;
 
-                case 0x4:
-                case 0x5:
-                case 0x7:
-                case 0xB:
-                case 0x14:
-                case 0x15:
-                case 0x18:
-                case 0x20:
-                    return AmmoRecoilPrimitive.NormalRecoil3;
+                case 0b_0000_0100:
+                case 0b_0000_0101:
+                case 0b_0000_0111:
+                case 0b_0000_1011:
+                case 0b_0001_0100:
+                case 0b_0001_0101:
+                case 0b_0001_1000:
+                case 0b_0010_0000:
+                    return AmmoShotType.NormalRecoil3;
 
-                case 0x6:
-                case 0x8:
-                case 0x9:
-                case 0xC:
-                case 0xD:
-                case 0x13:
-                case 0x19:
-                    return AmmoRecoilPrimitive.NormalRecoil4;
+                case 0b_0000_0110:
+                case 0b_0000_1000:
+                case 0b_0000_1001:
+                case 0b_0000_1100:
+                case 0b_0000_1101:
+                case 0b_0001_0011:
+                case 0b_0001_1001:
+                    return AmmoShotType.NormalRecoil4;
 
-                case 0x1C:
-                case 0x1D:
-                case 0x1E:
-                    return AmmoRecoilPrimitive.RapidFireRecoil2;
+                case 0b_0001_1100:
+                case 0b_0001_1101:
+                case 0b_0001_1110:
+                    return AmmoShotType.RapidFireRecoil2;
 
-                case 0x1F:
-                case 0x21:
-                    return AmmoRecoilPrimitive.RapidFireRecoil3;
+                case 0b_0001_1111:
+                case 0b_0010_0001:
+                    return AmmoShotType.RapidFireRecoil3;
 
-                case 0x12:
-                    return AmmoRecoilPrimitive.FollowUpMortarRecoil1;
+                case 0b_0001_0010:
+                    return AmmoShotType.FollowUpRecoil1;
 
-                case 0xE:
-                case 0x1B:
-                    return AmmoRecoilPrimitive.FollowUpMortarRecoil2;
+                case 0b_0000_1110:
+                case 0b_0001_1011:
+                    return AmmoShotType.FollowUpRecoil2;
 
-                case 0xF:
-                case 0x10:
-                case 0x16:
-                case 0x17:
-                case 0x1A:
-                    return AmmoRecoilPrimitive.FollowUpMortarRecoil3;
+                case 0b_0000_1111:
+                case 0b_0001_0000:
+                case 0b_0001_0110:
+                case 0b_0001_0111:
+                case 0b_0001_1010:
+                    return AmmoShotType.FollowUpRecoil3;
 
-                case 0xA:
-                    return AmmoRecoilPrimitive.BlotActionSingleShotAutoReload;
+                case 0b_0000_1010:
+                    return AmmoShotType.NormalAutoReload;
 
-                case 0x11:
-                    return AmmoRecoilPrimitive.WyvernShotCharge;
+                case 0b_0001_0001:
+                    return AmmoShotType.Wyvern;
             }
 
-            throw new FormatException($"Unknown ammo recoil value '{recoilAmount}'");
+            throw new FormatException($"Unknown ammo shot type value '{shotType}'");
         }
 
-        private static AmmoReloadPrimitive FromReloadValue(byte reloadAmount)
+        private static AmmoReload FromReloadValue(byte reloadAmount)
         {
             switch (reloadAmount)
             {
-                case 0x11:
-                    return AmmoReloadPrimitive.Fast;
+                case 0b_0001_0001:
+                    return AmmoReload.Fast;
 
-                case 0x00:
-                case 0x01:
-                case 0x0E:
-                case 0x12:
-                    return AmmoReloadPrimitive.Normal;
+                case 0b_0000_0000:
+                case 0b_0000_0001:
+                case 0b_0000_1110:
+                case 0b_0001_0010:
+                    return AmmoReload.Normal;
 
-                case 0x02:
-                case 0x03:
-                case 0x04:
-                case 0x05:
-                case 0x0B:
-                case 0x0F:
-                case 0x10:
-                    return AmmoReloadPrimitive.Slow;
+                case 0b_0000_0010:
+                case 0b_0000_0011:
+                case 0b_0000_0100:
+                case 0b_0000_0101:
+                case 0b_0000_1011:
+                case 0b_0000_1111:
+                case 0b_0001_0000:
+                    return AmmoReload.Slow;
 
-                case 0x06:
-                case 0x07:
-                case 0x08:
-                case 0x09:
-                case 0x0A:
-                case 0x0C:
-                case 0x0D:
-                    return AmmoReloadPrimitive.VerySlow;
+                case 0b_0000_0110:
+                case 0b_0000_0111:
+                case 0b_0000_1000:
+                case 0b_0000_1001:
+                case 0b_0000_1010:
+                case 0b_0000_1100:
+                case 0b_0000_1101:
+                    return AmmoReload.VerySlow;
             }
 
             throw new FormatException($"Unknown ammo reload value '{reloadAmount}'");
+        }
+
+        public override string ToString()
+        {
+            return $"{Capacity}, shotType: {ShotType}, reload: {Reload}";
         }
     }
 }
