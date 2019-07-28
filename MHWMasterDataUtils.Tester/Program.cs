@@ -94,7 +94,7 @@ namespace MHWMasterDataUtils.Tester
             var huntingHornNotes = new HuntingHornNotesPackageProcessor();
             var huntingHornSongs = new HuntingHornSongsPackageProcessor();
             var dualBladesSpecial = new DualBladesSpecialPackageProcessor();
-            var axePhials = new AxePhialPackageProcessor();
+            var switchAxePhials = new SwitchAxePhialPackageProcessor();
             var gunlanceShells = new GunlanceShellPackageProcessor();
             var ammos = new AmmoPackageProcessor();
 
@@ -136,7 +136,7 @@ namespace MHWMasterDataUtils.Tester
                 huntingHornNotes,
                 huntingHornSongs,
                 dualBladesSpecial,
-                axePhials,
+                switchAxePhials,
                 gunlanceShells,
                 ammos,
                 skills,
@@ -256,7 +256,7 @@ namespace MHWMasterDataUtils.Tester
                 weaponCraft,
                 weaponUpgrades,
                 sharpness,
-                axePhials
+                switchAxePhials
             ).Build();
             SerializeJson("switch-axes", switchAxes);
 

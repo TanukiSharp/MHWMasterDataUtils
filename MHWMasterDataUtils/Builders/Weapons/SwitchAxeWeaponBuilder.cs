@@ -11,7 +11,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
 {
     public class SwitchAxeWeaponBuilder : MeleeWeaponBuilderBase<SwitchAxe>
     {
-        private readonly AxePhialPackageProcessor axePhials;
+        private readonly SwitchAxePhialPackageProcessor axePhials;
 
         public SwitchAxeWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,
@@ -19,7 +19,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
             CraftPackageProcessor<WeaponType> craftPackageProcessor,
             WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
             SharpnessPackageProcessor sharpnessPackageProcessor,
-            AxePhialPackageProcessor axePhials
+            SwitchAxePhialPackageProcessor axePhials
         )
             : base(
                   WeaponType.SwitchAxe,
@@ -42,7 +42,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
         {
             base.UpdateWeapon(weapon, resultWeapon);
 
-            AxePhialPrimitive axePhial = axePhials.Table[weapon.Weapon1Id];
+            SwitchAxePhialPrimitive axePhial = axePhials.Table[weapon.Weapon1Id];
 
             int? damage = null;
             if (axePhial.Damage > 0)

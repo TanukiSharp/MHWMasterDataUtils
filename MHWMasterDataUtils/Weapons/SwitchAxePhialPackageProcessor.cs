@@ -5,10 +5,10 @@ using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Weapons
 {
-    public class AxePhialPackageProcessor : SimpleMapPackageProcessorBase<ushort, AxePhialPrimitive>
+    public class SwitchAxePhialPackageProcessor : SimpleMapPackageProcessorBase<ushort, SwitchAxePhialPrimitive>
     {
-        public AxePhialPackageProcessor()
-            : base(0x0177, AxePhialPrimitive.Read, x => x.Id)
+        public SwitchAxePhialPackageProcessor()
+            : base(0x0177, SwitchAxePhialPrimitive.Read, x => x.Id)
         {
         }
 
