@@ -43,7 +43,7 @@ namespace MHWMasterDataUtils.Builders
                     continue;
 
                 Dictionary<string, string> name = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, nameIndex);
-                Dictionary<string, string> description = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, descriptionIndex);
+                Dictionary<string, string> description = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, descriptionIndex, true);
 
                 result.Add(new core.Item
                 {

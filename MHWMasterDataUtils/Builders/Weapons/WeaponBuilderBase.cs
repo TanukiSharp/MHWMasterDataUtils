@@ -223,7 +223,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
             TResultWeapon resultWeapon = CreateResultWeaponInstance();
 
             Dictionary<string, string> weaponName = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdNameIndex);
-            Dictionary<string, string> weaponDescription = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdDescriptionIndex);
+            Dictionary<string, string> weaponDescription = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdDescriptionIndex, true);
 
             core.Craft craft = null;
 

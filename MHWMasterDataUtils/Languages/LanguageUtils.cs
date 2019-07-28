@@ -48,7 +48,7 @@ namespace MHWMasterDataUtils.Languages
             return true;
         }
 
-        public static Dictionary<string, string> CreateLocalizations(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> source, uint entryId)
+        public static Dictionary<string, string> CreateLocalizations(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> source, uint entryId, bool convertLineFeeds = false)
         {
             var result = new LocalizedText();
 
@@ -57,7 +57,12 @@ namespace MHWMasterDataUtils.Languages
                 if (source.TryGetValue(languageId, out Dictionary<uint, LanguageItem> language) == false)
                     continue;
 
-                result.Add(LanguageIdToLanguageCode(languageId), language[entryId].Value);
+                string value = language[entryId].Value;
+
+                if (convertLineFeeds)
+                    value = value.Replace("\r\n", " ");
+
+                result.Add(LanguageIdToLanguageCode(languageId), value);
             }
 
             return result;

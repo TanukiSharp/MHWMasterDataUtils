@@ -51,7 +51,7 @@ namespace MHWMasterDataUtils.Builders
 
                 Dictionary<string, string> skillName = LanguageUtils.CreateLocalizations(skillsLanguages.Table, skillNameIndex);
                 Dictionary<string, string> skillReading = LanguageUtils.CreateLocalizations(skillsLanguages.Table, skillReadingIndex);
-                Dictionary<string, string> skillDescription = LanguageUtils.CreateLocalizations(skillsLanguages.Table, skillDescriptionIndex);
+                Dictionary<string, string> skillDescription = LanguageUtils.CreateLocalizations(skillsLanguages.Table, skillDescriptionIndex, true);
 
                 var abilities = new List<core.Ability>();
 
@@ -61,7 +61,7 @@ namespace MHWMasterDataUtils.Builders
                     uint skillAbilityDescriptionIndex = skillAbilityNameIndex + 1;
 
                     Dictionary<string, string> skillAbilityName = LanguageUtils.CreateLocalizations(skillAttributesLanguages.Table, skillAbilityNameIndex);
-                    Dictionary<string, string> skillAbilityDescription = LanguageUtils.CreateLocalizations(skillAttributesLanguages.Table, skillAbilityDescriptionIndex);
+                    Dictionary<string, string> skillAbilityDescription = LanguageUtils.CreateLocalizations(skillAttributesLanguages.Table, skillAbilityDescriptionIndex, true);
 
                     abilities.Add(new core.Ability
                     {
