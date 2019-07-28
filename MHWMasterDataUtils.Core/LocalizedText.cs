@@ -13,5 +13,10 @@ namespace MHWMasterDataUtils.Core
                 return this[LanguageUtils.DefaultLanguageCode];
             }
         }
+
+        public override string ToString()
+        {
+            return DebuggerDisplay;
+        }
     }
 }
