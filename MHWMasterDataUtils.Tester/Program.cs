@@ -106,6 +106,7 @@ namespace MHWMasterDataUtils.Tester
                 switchAxeLanguages,
                 chargeBladeLanguages,
                 insectGlaiveLanguages,
+                bowLanguages,
                 weaponSeriesLanguages,
                 steamItemsLanguages,
                 cmItemsLanguages,
@@ -256,6 +257,15 @@ namespace MHWMasterDataUtils.Tester
                 sharpness
             ).Build();
             SerializeJson("insect-glaives", insectGlaives);
+
+            Bow[] bows = new BowWeaponBuilder(
+                bowLanguages,
+                weapons,
+                weaponCraft,
+                weaponUpgrades,
+                bowBottles
+            ).Build();
+            SerializeJson("bows", bows);
         }
 
         private static void SerializeJson(string filename, object instance)
