@@ -27,11 +27,28 @@ namespace MHWMasterDataUtils.Tester
             new Program().Run();
         }
 
+        private static string dataOutputFullPath;
+
+        private void SetupDataOutputPath()
+        {
+            dataOutputFullPath = Lookup("MHWMasterDataUtils.sln");
+
+            if (dataOutputFullPath == null)
+                dataOutputFullPath = AppContext.BaseDirectory;
+
+            dataOutputFullPath = Path.Join(dataOutputFullPath, "data");
+
+            if (Directory.Exists(dataOutputFullPath) == false)
+                Directory.CreateDirectory(dataOutputFullPath);
+        }
+
         private void Run()
         {
             Console.WriteLine("-=-=-=-=-=- START -=-=-=-=-=-");
 
             string packagesFullPath = PackageUtility.GetPackagesFullPath();
+
+            SetupDataOutputPath();
 
             ILogger logger = new ConsoleLogger(null, LogLevel.Debug);
 
@@ -86,7 +103,7 @@ namespace MHWMasterDataUtils.Tester
 
             var fileProcessors = new IPackageProcessor[]
             {
-                DEBUG,
+                //DEBUG,
                 equipmentUpgrades,
                 insectUpgrades,
                 insectElemntUpgrades,
@@ -126,7 +143,7 @@ namespace MHWMasterDataUtils.Tester
                 skillAbilities,
                 skillLanguages,
                 skillAbilitiesLanguages,
-                new DumpPackageProcessor("/common/equip/rod_insect.rod_inse"),
+                //new DumpPackageProcessor("/common/equip/rod_insect.rod_inse"),
             };
 
             using (var packageReader = new PackageReader(logger, fileProcessors))
@@ -292,6 +309,22 @@ namespace MHWMasterDataUtils.Tester
             SerializeJson("heavy-bowguns", heavyBowguns);
         }
 
+        private static string Lookup(string filename)
+        {
+            string currentPath = AppContext.BaseDirectory.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
+
+            while (true)
+            {
+                if (File.Exists(Path.Join(currentPath, filename)))
+                    return currentPath;
+
+                currentPath = Path.GetDirectoryName(currentPath);
+
+                if (currentPath == null)
+                    return null;
+            }
+        }
+
         private static void SerializeJson(string filename, object instance)
         {
             using (var sw = new StringWriter())
@@ -309,7 +342,7 @@ namespace MHWMasterDataUtils.Tester
 
                     serializer.Serialize(jw, instance);
 
-                    File.WriteAllText(Path.Combine(AppContext.BaseDirectory, $"{filename}.json"), sw.ToString());
+                    File.WriteAllText(Path.Combine(dataOutputFullPath, $"{filename}.json"), sw.ToString());
                 }
             }
         }
