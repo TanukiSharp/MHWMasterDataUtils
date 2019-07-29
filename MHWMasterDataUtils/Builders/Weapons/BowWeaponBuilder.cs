@@ -32,16 +32,6 @@ namespace MHWMasterDataUtils.Builders.Weapons
             this.bowBottles = bowBottles;
         }
 
-        protected override bool IsValidWeapon(RangeWeaponPrimitiveBase weapon)
-        {
-            return true;
-        }
-
-        protected override core.Bow CreateResultWeaponInstance()
-        {
-            return new core.Bow();
-        }
-
         protected override void UpdateWeapon(RangeWeaponPrimitiveBase weapon, core.Bow resultWeapon)
         {
             BowBottleTableEntryPrimitive bowBottlesEntry = bowBottles.List[weapon.SpecialAmmoId];

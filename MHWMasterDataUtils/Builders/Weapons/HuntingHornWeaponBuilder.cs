@@ -80,11 +80,6 @@ namespace MHWMasterDataUtils.Builders.Weapons
             return result.ToArray();
         }
 
-        protected override HuntingHorn CreateResultWeaponInstance()
-        {
-            return new HuntingHorn();
-        }
-
         protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, HuntingHorn resultWeapon)
         {
             base.UpdateWeapon(weapon, resultWeapon);

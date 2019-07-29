@@ -12,7 +12,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
 {
     public abstract class WeaponBuilderBase<TIntermediateWeapon, TResultWeapon>
         where TIntermediateWeapon: WeaponPrimitiveBase
-        where TResultWeapon : core.WeaponBase
+        where TResultWeapon : core.WeaponBase, new()
     {
         public core.WeaponType WeaponType { get; }
 
@@ -118,8 +118,16 @@ namespace MHWMasterDataUtils.Builders.Weapons
             return -1;
         }
 
-        protected abstract TResultWeapon CreateResultWeaponInstance();
-        protected abstract bool IsValidWeapon(TIntermediateWeapon weapon);
+        protected virtual TResultWeapon CreateResultWeaponInstance()
+        {
+            return new TResultWeapon();
+        }
+
+        protected virtual bool IsValidWeapon(TIntermediateWeapon weapon)
+        {
+            return true;
+        }
+
         protected abstract void UpdateWeapon(TIntermediateWeapon weapon, TResultWeapon resultWeapon);
 
         private bool IsValidWeaponInternal(bool upgradable, TIntermediateWeapon weapon)

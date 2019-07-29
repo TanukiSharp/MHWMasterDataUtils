@@ -29,11 +29,6 @@ namespace MHWMasterDataUtils.Builders.Weapons
         {
         }
 
-        protected override ChargeBlade CreateResultWeaponInstance()
-        {
-            return new ChargeBlade();
-        }
-
         protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, ChargeBlade resultWeapon)
         {
             base.UpdateWeapon(weapon, resultWeapon);

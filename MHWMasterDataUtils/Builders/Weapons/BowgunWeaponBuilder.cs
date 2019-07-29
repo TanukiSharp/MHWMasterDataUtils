@@ -34,16 +34,6 @@ namespace MHWMasterDataUtils.Builders.Weapons
             this.ammos = ammos;
         }
 
-        protected override bool IsValidWeapon(RangeWeaponPrimitiveBase weapon)
-        {
-            return true;
-        }
-
-        protected override core.Bowgun CreateResultWeaponInstance()
-        {
-            return new core.Bowgun();
-        }
-
         private void AddAvailableAmmo(List<core.Ammo> availableAmmos, core.AmmoType ammoType, AmmoEntryPrimitive ammoEntry)
         {
             if (ammoEntry.Capacity == 0)

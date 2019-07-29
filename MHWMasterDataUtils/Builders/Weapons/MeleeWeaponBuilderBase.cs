@@ -42,11 +42,6 @@ namespace MHWMasterDataUtils.Builders.Weapons
             return true;
         }
 
-        protected override TResultWeapon CreateResultWeaponInstance()
-        {
-            return new TResultWeapon();
-        }
-
         protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, TResultWeapon resultWeapon)
         {
             core.SharpnessInfo maxSharpness = sharpnessPackageProcessor.Table[weapon.SharpnessId];

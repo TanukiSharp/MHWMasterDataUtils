@@ -33,11 +33,6 @@ namespace MHWMasterDataUtils.Builders.Weapons
             this.dualBladesSpecial = dualBladesSpecial;
         }
 
-        protected override DualBlades CreateResultWeaponInstance()
-        {
-            return new DualBlades();
-        }
-
         protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, DualBlades resultWeapon)
         {
             base.UpdateWeapon(weapon, resultWeapon);

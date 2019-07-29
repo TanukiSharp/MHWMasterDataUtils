@@ -33,11 +33,6 @@ namespace MHWMasterDataUtils.Builders.Weapons
             this.axePhials = axePhials;
         }
 
-        protected override SwitchAxe CreateResultWeaponInstance()
-        {
-            return new SwitchAxe();
-        }
-
         protected override void UpdateWeapon(MeleeWeaponPrimitiveBase weapon, SwitchAxe resultWeapon)
         {
             base.UpdateWeapon(weapon, resultWeapon);
