@@ -12,12 +12,12 @@ using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders
 {
-    public class WeaponTreesBuilder
+    public class WeaponTreeNameBuilder
     {
         private readonly LanguagePackageProcessor weaponSeriesLanguages;
         private readonly WeaponsPackageProcessor weapons;
 
-        public WeaponTreesBuilder(
+        public WeaponTreeNameBuilder(
             LanguagePackageProcessor weaponSeriesLanguages,
             WeaponsPackageProcessor weapons
         )

@@ -149,7 +149,7 @@ namespace MHWMasterDataUtils.Tester
             using (var packageReader = new PackageReader(logger, fileProcessors))
                 packageReader.Run(packagesFullPath);
 
-            WeaponTreeName[] weaponTrees = new WeaponTreesBuilder(weaponSeriesLanguages, weapons).Build();
+            WeaponTreeName[] weaponTrees = new WeaponTreeNameBuilder(weaponSeriesLanguages, weapons).Build();
             SerializeJson("weapon-trees", weaponTrees);
 
             Skill[] skillEntries = new SkillBuilder(
