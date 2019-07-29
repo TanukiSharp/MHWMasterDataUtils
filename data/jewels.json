@@ -1,5 +1,6 @@
 [
     {
+        "equipmentId": 0,
         "id": 727,
         "name": {
             "jpn": "耐毒珠【１】",
@@ -37,6 +38,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 1,
         "id": 728,
         "name": {
             "jpn": "耐麻珠【１】",
@@ -74,6 +76,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 2,
         "id": 729,
         "name": {
             "jpn": "耐眠珠【１】",
@@ -111,6 +114,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 4,
         "id": 731,
         "name": {
             "jpn": "耐爆珠【１】",
@@ -148,6 +152,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 5,
         "id": 732,
         "name": {
             "jpn": "耐裂珠【１】",
@@ -185,6 +190,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 6,
         "id": 733,
         "name": {
             "jpn": "耐防珠【１】",
@@ -222,6 +228,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 14,
         "id": 743,
         "name": {
             "jpn": "耐火珠【１】",
@@ -259,6 +266,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 15,
         "id": 744,
         "name": {
             "jpn": "耐水珠【１】",
@@ -296,6 +304,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 16,
         "id": 745,
         "name": {
             "jpn": "耐氷珠【１】",
@@ -333,6 +342,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 17,
         "id": 746,
         "name": {
             "jpn": "耐雷珠【１】",
@@ -370,6 +380,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 18,
         "id": 747,
         "name": {
             "jpn": "耐龍珠【１】",
@@ -407,6 +418,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 43,
         "id": 774,
         "name": {
             "jpn": "飛燕珠【２】",
@@ -444,6 +456,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 48,
         "id": 779,
         "name": {
             "jpn": "逆境珠【１】",
@@ -481,6 +494,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 54,
         "id": 785,
         "name": {
             "jpn": "砲手珠【１】",
@@ -518,6 +532,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 58,
         "id": 790,
         "name": {
             "jpn": "無食珠【１】",
@@ -555,6 +570,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 65,
         "id": 797,
         "name": {
             "jpn": "節食珠【１】",
@@ -592,6 +608,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 70,
         "id": 808,
         "name": {
             "jpn": "加護珠【１】",
@@ -629,6 +646,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 71,
         "id": 809,
         "name": {
             "jpn": "采配珠【１】",
@@ -666,6 +684,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 72,
         "id": 810,
         "name": {
             "jpn": "植学珠【１】",
@@ -703,6 +722,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 73,
         "id": 811,
         "name": {
             "jpn": "地学珠【１】",
@@ -740,6 +760,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 76,
         "id": 814,
         "name": {
             "jpn": "潜伏珠【１】",
@@ -777,6 +798,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 78,
         "id": 819,
         "name": {
             "jpn": "煙復珠【１】",
@@ -814,6 +836,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 79,
         "id": 820,
         "name": {
             "jpn": "沼渡珠【１】",
@@ -851,6 +874,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 80,
         "id": 824,
         "name": {
             "jpn": "標本珠【１】",
@@ -888,6 +912,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 97,
         "id": 825,
         "name": {
             "jpn": "耐瘴珠【１】",
@@ -925,6 +950,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 81,
         "id": 826,
         "name": {
             "jpn": "嗅覚珠【１】",
@@ -962,6 +988,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 82,
         "id": 828,
         "name": {
             "jpn": "威嚇珠【１】",
@@ -999,6 +1026,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 89,
         "id": 838,
         "name": {
             "jpn": "窮地珠【１】",
@@ -1036,6 +1064,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 91,
         "id": 842,
         "name": {
             "jpn": "整備珠【１】",
@@ -1073,6 +1102,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 3,
         "id": 730,
         "name": {
             "jpn": "耐絶珠【１】",
@@ -1110,6 +1140,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 11,
         "id": 740,
         "name": {
             "jpn": "防御珠【１】",
@@ -1147,6 +1178,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 12,
         "id": 741,
         "name": {
             "jpn": "体力珠【１】",
@@ -1184,6 +1216,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 13,
         "id": 742,
         "name": {
             "jpn": "早復珠【１】",
@@ -1221,6 +1254,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 19,
         "id": 748,
         "name": {
             "jpn": "耐属珠【１】",
@@ -1258,6 +1292,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 20,
         "id": 749,
         "name": {
             "jpn": "火炎珠【１】",
@@ -1295,6 +1330,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 21,
         "id": 750,
         "name": {
             "jpn": "流水珠【１】",
@@ -1332,6 +1368,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 22,
         "id": 751,
         "name": {
             "jpn": "氷結珠【１】",
@@ -1369,6 +1406,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 23,
         "id": 752,
         "name": {
             "jpn": "雷光珠【１】",
@@ -1406,6 +1444,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 24,
         "id": 753,
         "name": {
             "jpn": "破龍珠【１】",
@@ -1443,6 +1482,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 25,
         "id": 754,
         "name": {
             "jpn": "毒珠【１】",
@@ -1480,6 +1520,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 34,
         "id": 764,
         "name": {
             "jpn": "達人珠【１】",
@@ -1517,6 +1558,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 42,
         "id": 772,
         "name": {
             "jpn": "奪気珠【１】",
@@ -1554,6 +1596,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 50,
         "id": 781,
         "name": {
             "jpn": "鼓笛珠【１】",
@@ -1591,6 +1634,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 62,
         "id": 794,
         "name": {
             "jpn": "速納珠【１】",
@@ -1628,6 +1672,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 63,
         "id": 795,
         "name": {
             "jpn": "友愛珠【１】",
@@ -1665,6 +1710,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 64,
         "id": 796,
         "name": {
             "jpn": "持続珠【１】",
@@ -1702,6 +1748,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 66,
         "id": 798,
         "name": {
             "jpn": "早食珠【１】",
@@ -1739,6 +1786,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 67,
         "id": 799,
         "name": {
             "jpn": "研磨珠【１】",
@@ -1776,6 +1824,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 68,
         "id": 800,
         "name": {
             "jpn": "爆師珠【１】",
@@ -1813,6 +1862,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 75,
         "id": 813,
         "name": {
             "jpn": "投石珠【１】",
@@ -1850,6 +1900,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 84,
         "id": 833,
         "name": {
             "jpn": "治癒珠【１】",
@@ -1887,6 +1938,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 8,
         "id": 735,
         "name": {
             "jpn": "防風珠【２】",
@@ -1924,6 +1976,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 9,
         "id": 736,
         "name": {
             "jpn": "耐震珠【２】",
@@ -1961,6 +2014,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 36,
         "id": 766,
         "name": {
             "jpn": "痛撃珠【２】",
@@ -1998,6 +2052,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 40,
         "id": 770,
         "name": {
             "jpn": "重撃珠【２】",
@@ -2035,6 +2090,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 41,
         "id": 771,
         "name": {
             "jpn": "ＫＯ珠【２】",
@@ -2072,6 +2128,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 56,
         "id": 787,
         "name": {
             "jpn": "体術珠【２】",
@@ -2109,6 +2166,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 59,
         "id": 791,
         "name": {
             "jpn": "回避珠【２】",
@@ -2146,6 +2204,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 60,
         "id": 792,
         "name": {
             "jpn": "跳躍珠【２】",
@@ -2183,6 +2242,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 83,
         "id": 832,
         "name": {
             "jpn": "滑走珠【２】",
@@ -2220,6 +2280,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 96,
         "id": 878,
         "name": {
             "jpn": "無撃珠【２】",
@@ -2257,6 +2318,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 7,
         "id": 734,
         "name": {
             "jpn": "防音珠【３】",
@@ -2294,6 +2356,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 29,
         "id": 758,
         "name": {
             "jpn": "毒瓶珠【３】",
@@ -2331,6 +2394,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 77,
         "id": 815,
         "name": {
             "jpn": "耐衝珠【３】",
@@ -2368,6 +2432,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 10,
         "id": 739,
         "name": {
             "jpn": "攻撃珠【１】",
@@ -2405,6 +2470,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 26,
         "id": 755,
         "name": {
             "jpn": "麻痺珠【１】",
@@ -2442,6 +2508,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 27,
         "id": 756,
         "name": {
             "jpn": "睡眠珠【１】",
@@ -2479,6 +2546,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 28,
         "id": 757,
         "name": {
             "jpn": "爆破珠【１】",
@@ -2516,6 +2584,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 52,
         "id": 783,
         "name": {
             "jpn": "特射珠【１】",
@@ -2553,6 +2622,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 61,
         "id": 793,
         "name": {
             "jpn": "鉄壁珠【１】",
@@ -2590,6 +2660,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 44,
         "id": 775,
         "name": {
             "jpn": "全開珠【２】",
@@ -2627,6 +2698,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 45,
         "id": 776,
         "name": {
             "jpn": "挑戦珠【２】",
@@ -2664,6 +2736,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 46,
         "id": 777,
         "name": {
             "jpn": "無傷珠【２】",
@@ -2701,6 +2774,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 47,
         "id": 778,
         "name": {
             "jpn": "底力珠【２】",
@@ -2738,6 +2812,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 49,
         "id": 780,
         "name": {
             "jpn": "逆上珠【２】",
@@ -2775,6 +2850,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 51,
         "id": 782,
         "name": {
             "jpn": "増弾珠【２】",
@@ -2812,6 +2888,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 57,
         "id": 789,
         "name": {
             "jpn": "早気珠【２】",
@@ -2849,6 +2926,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 74,
         "id": 812,
         "name": {
             "jpn": "渾身珠【２】",
@@ -2886,6 +2964,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 88,
         "id": 837,
         "name": {
             "jpn": "昂揚珠【２】",
@@ -2923,6 +3002,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 94,
         "id": 876,
         "name": {
             "jpn": "強壁珠【２】",
@@ -2960,6 +3040,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 95,
         "id": 877,
         "name": {
             "jpn": "剛刃珠【２】",
@@ -2997,6 +3078,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 30,
         "id": 759,
         "name": {
             "jpn": "痺瓶珠【３】",
@@ -3034,6 +3116,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 31,
         "id": 760,
         "name": {
             "jpn": "眠瓶珠【３】",
@@ -3071,6 +3154,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 32,
         "id": 761,
         "name": {
             "jpn": "爆瓶珠【３】",
@@ -3108,6 +3192,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 85,
         "id": 834,
         "name": {
             "jpn": "強弾珠【３】",
@@ -3145,6 +3230,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 90,
         "id": 839,
         "name": {
             "jpn": "龍封珠【３】",
@@ -3182,6 +3268,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 53,
         "id": 784,
         "name": {
             "jpn": "砲術珠【１】",
@@ -3219,6 +3306,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 69,
         "id": 801,
         "name": {
             "jpn": "茸好珠【１】",
@@ -3256,6 +3344,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 35,
         "id": 765,
         "name": {
             "jpn": "超心珠【２】",
@@ -3293,6 +3382,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 37,
         "id": 767,
         "name": {
             "jpn": "短縮珠【２】",
@@ -3330,6 +3420,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 39,
         "id": 769,
         "name": {
             "jpn": "抜刀珠【２】",
@@ -3367,6 +3458,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 55,
         "id": 786,
         "name": {
             "jpn": "強走珠【２】",
@@ -3404,6 +3496,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 92,
         "id": 874,
         "name": {
             "jpn": "強弓珠【２】",
@@ -3441,6 +3534,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 93,
         "id": 875,
         "name": {
             "jpn": "心眼珠【２】",
@@ -3478,6 +3572,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 33,
         "id": 763,
         "name": {
             "jpn": "解放珠【３】",
@@ -3515,6 +3610,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 38,
         "id": 768,
         "name": {
             "jpn": "匠珠【３】",
@@ -3552,6 +3648,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 86,
         "id": 835,
         "name": {
             "jpn": "貫通珠【３】",
@@ -3589,6 +3686,7 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 87,
         "id": 836,
         "name": {
             "jpn": "散弾珠【３】",
