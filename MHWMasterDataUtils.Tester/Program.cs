@@ -160,7 +160,7 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("skills", skillEntries);
 
-            Item[] highLevelItems = new ItemsBuilder(
+            Item[] highLevelItems = new ItemBuilder<Item>(
                 i => i.Type == ItemTypePrimitive.MonsterMaterial,
                 items,
                 steamItemsLanguages

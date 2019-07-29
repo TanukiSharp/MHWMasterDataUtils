@@ -9,13 +9,13 @@ using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders
 {
-    public class ItemsBuilder
+    public class ItemBuilder<T> where T : core.Item, new()
     {
         private readonly Predicate<ItemEntryPrimitive> filter;
         private readonly ItemsPackageProcessor items;
         private readonly LanguagePackageProcessor steamItemsLanguages;
 
-        public ItemsBuilder(
+        public ItemBuilder(
             Predicate<ItemEntryPrimitive> filter,
             ItemsPackageProcessor items,
             LanguagePackageProcessor steamItemsLanguages
@@ -26,9 +26,18 @@ namespace MHWMasterDataUtils.Builders
             this.steamItemsLanguages = steamItemsLanguages;
         }
 
-        public core.Item[] Build()
+        protected virtual T CreateItemInstance()
         {
-            var result = new List<core.Item>();
+            return new T();
+        }
+
+        protected virtual void UpdateItem(T item)
+        {
+        }
+
+        public T[] Build()
+        {
+            var result = new List<T>();
 
             foreach (ItemEntryPrimitive itemEntry in items.Table.Values.OrderBy(x => x.SortOrder))
             {
@@ -45,16 +54,19 @@ namespace MHWMasterDataUtils.Builders
                 Dictionary<string, string> name = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, nameIndex);
                 Dictionary<string, string> description = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, descriptionIndex, true);
 
-                result.Add(new core.Item
-                {
-                    Id = itemEntry.Id,
-                    Name = name,
-                    Description = description,
-                    Rarity = itemEntry.Rarity,
-                    CarryLimit = itemEntry.CarryLimit,
-                    BuyPrice = itemEntry.BuyPrice,
-                    SellPrice = itemEntry.SellPrice,
-                });
+                T item = CreateItemInstance();
+
+                item.Id = itemEntry.Id;
+                item.Name = name;
+                item.Description = description;
+                item.Rarity = itemEntry.Rarity;
+                item.CarryLimit = itemEntry.CarryLimit;
+                item.BuyPrice = itemEntry.BuyPrice;
+                item.SellPrice = itemEntry.SellPrice;
+
+                UpdateItem(item);
+
+                result.Add(item);
             }
 
             return result.ToArray();
