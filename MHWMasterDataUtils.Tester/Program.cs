@@ -152,7 +152,7 @@ namespace MHWMasterDataUtils.Tester
             WeaponTreeName[] weaponTrees = new WeaponTreesBuilder(weaponSeriesLanguages, weapons).Build();
             SerializeJson("weapon-trees", weaponTrees);
 
-            Skill[] skillEntries = new SkillsBuilder(
+            Skill[] skillEntries = new SkillBuilder(
                 skills,
                 skillAbilities,
                 skillLanguages,

@@ -9,14 +9,14 @@ using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders
 {
-    public class SkillsBuilder
+    public class SkillBuilder
     {
         private readonly SkillsPackageProcessor skills;
         private readonly SkillAbilitiesPackageProcessor skillAbilities;
         private readonly LanguagePackageProcessor skillsLanguages;
         private readonly LanguagePackageProcessor skillAttributesLanguages;
 
-        public SkillsBuilder(
+        public SkillBuilder(
             SkillsPackageProcessor skills,
             SkillAbilitiesPackageProcessor skillAbilities,
             LanguagePackageProcessor skillsLanguages,
