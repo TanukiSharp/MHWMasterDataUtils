@@ -98,7 +98,7 @@ Inheritance chain of weapon builders is as follow:
 \--+ BowgunWeaponBuilder (LightBowgun, HeavyBowgun)
 ```
 
-### Core type
+### Core types
 
 The project contains a project named `MHWMasterDataUtils.Core`, which holds the high level types required to load exported data. The reason this library is lose-coupled with the rest is because it is allows to load this assembly in tools without loading all the rest, package processors, builders and other "offline" stuffs.
 
