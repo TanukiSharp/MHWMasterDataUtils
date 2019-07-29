@@ -167,10 +167,10 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("items", highLevelItems);
 
-            Item[] jewelItems = new ItemsBuilder(
-                i => i.Type == ItemTypePrimitive.Jewel,
+            Jewel[] jewelItems = new JewelBuilder(
                 items,
-                steamItemsLanguages
+                steamItemsLanguages,
+                jewels
             ).Build();
             SerializeJson("jewels", jewelItems);
 

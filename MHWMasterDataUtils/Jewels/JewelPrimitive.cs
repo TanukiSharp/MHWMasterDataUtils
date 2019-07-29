@@ -7,7 +7,7 @@ namespace MHWMasterDataUtils.Jewels
     public class JewelPrimitive
     {
         public readonly uint Id;
-        public readonly uint Order;
+        public readonly uint EquipmentId;
         public readonly uint Size;
         public readonly uint Skill1Id;
         public readonly uint Skill1Level;
@@ -16,7 +16,7 @@ namespace MHWMasterDataUtils.Jewels
 
         private JewelPrimitive(
             uint id,
-            uint order,
+            uint equipmentId,
             uint size,
             uint skill1Id,
             uint skill1Level,
@@ -25,7 +25,7 @@ namespace MHWMasterDataUtils.Jewels
         )
         {
             Id = id;
-            Order = order;
+            EquipmentId = equipmentId;
             Size = size;
             Skill1Id = skill1Id;
             Skill1Level = skill1Level;
@@ -36,7 +36,7 @@ namespace MHWMasterDataUtils.Jewels
         public static JewelPrimitive Read(Reader reader)
         {
             uint id = reader.ReadUInt32();
-            uint order = reader.ReadUInt32();
+            uint equipmentId = reader.ReadUInt32();
             uint size = reader.ReadUInt32();
             uint skill1Id = reader.ReadUInt32();
             uint skill1Level = reader.ReadUInt32();
@@ -45,7 +45,7 @@ namespace MHWMasterDataUtils.Jewels
 
             return new JewelPrimitive(
                 id,
-                order,
+                equipmentId,
                 size,
                 skill1Id,
                 skill1Level,
