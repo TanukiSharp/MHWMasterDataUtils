@@ -115,7 +115,7 @@ namespace MHWMasterDataUtils.Crafting
 
         public override string ToString()
         {
-            return $"[{KeyItem}] type: {(WeaponType)EquipType} / {(ArmorClass)EquipType}, equipId: {EquipId}";
+            return $"[{KeyItem}] type: {(WeaponType)EquipType} / {(EquipmentType)EquipType}, equipId: {EquipId}";
         }
     }
 }

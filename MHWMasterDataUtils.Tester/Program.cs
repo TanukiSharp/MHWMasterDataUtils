@@ -63,7 +63,7 @@ namespace MHWMasterDataUtils.Tester
             var items = new ItemsPackageProcessor();
             var sharpness = new SharpnessPackageProcessor();
 
-            var armorCraft = new CraftPackageProcessor<ArmorClass>("/common/equip/armor.eq_crt");
+            var armorCraft = new CraftPackageProcessor<EquipmentType>("/common/equip/armor.eq_crt");
             var weaponCraft = new CraftPackageProcessor<WeaponType>("/common/equip/weapon.eq_crt");
 
             var greatSwordLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.GreatSword));
