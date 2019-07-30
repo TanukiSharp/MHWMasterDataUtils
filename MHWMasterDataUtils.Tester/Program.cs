@@ -77,6 +77,8 @@ namespace MHWMasterDataUtils.Tester
             var bowLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.Bow));
             var lightBowgunLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.LightBowgun));
             var heavyBowgunLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.HeavyBowgun));
+            var armorLanguages = new LanguagePackageProcessor("/common/text/steam/armor_\\w{3}.gmd");
+            var armorSeriesLanguages = new LanguagePackageProcessor("/common/text/steam/armor_series_\\w{3}.gmd");
 
             var weaponSeriesLanguages = new LanguagePackageProcessor("/common/text/steam/wep_series_\\w{3}.gmd");
             var steamItemsLanguages = new LanguagePackageProcessor("/common/text/steam/item_\\w{3}.gmd");
@@ -97,6 +99,8 @@ namespace MHWMasterDataUtils.Tester
 
             var skills = new SkillsPackageProcessor();
             var skillAbilities = new SkillAbilitiesPackageProcessor();
+
+            var armors = new ArmorPackageProcessor();
 
             var fileProcessors = new IPackageProcessor[]
             {
@@ -128,6 +132,8 @@ namespace MHWMasterDataUtils.Tester
                 steamItemsLanguages,
                 cmItemsLanguages,
                 itemsLanguages,
+                armorLanguages,
+                armorSeriesLanguages,
                 bowBottles,
                 weapons,
                 huntingHornNotes,
@@ -140,6 +146,7 @@ namespace MHWMasterDataUtils.Tester
                 skillAbilities,
                 skillLanguages,
                 skillAbilitiesLanguages,
+                armors
                 //new DumpPackageProcessor("/common/equip/rod_insect.rod_inse"),
             };
 
@@ -303,6 +310,20 @@ namespace MHWMasterDataUtils.Tester
                 ammos
             ).Build();
             SerializeJson("heavy-bowguns", heavyBowguns);
+
+            ArmorPiece[] heads = new HeadEquipmentBuilder(
+                armors,
+                armorLanguages,
+                armorSeriesLanguages
+            ).Build();
+            SerializeJson("heads", heads);
+
+            Charm[] charms = new CharmEquipmentBuilder(
+                armors,
+                armorLanguages,
+                armorSeriesLanguages
+            ).Build();
+            SerializeJson("charms", charms);
         }
 
         private static string Lookup(string filename)
