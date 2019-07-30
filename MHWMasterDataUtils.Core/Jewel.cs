@@ -8,6 +8,6 @@ namespace MHWMasterDataUtils.Core
     public class Jewel : Item
     {
         [JsonProperty("equipmentId")]
-        public uint EquipementId { get; set; }
+        public uint EquipmentId { get; set; }
     }
 }

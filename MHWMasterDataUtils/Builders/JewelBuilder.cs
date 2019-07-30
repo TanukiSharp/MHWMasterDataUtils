@@ -30,7 +30,7 @@ namespace MHWMasterDataUtils.Builders
         {
             base.UpdateItem(item);
 
-            item.EquipementId = jewels.Table[item.Id].EquipmentId;
+            item.EquipmentId = jewels.Table[item.Id].EquipmentId;
         }
     }
 }
