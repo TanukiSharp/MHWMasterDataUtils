@@ -1,8 +1,11 @@
+using System;
+using System.IO;
+using MHWMasterDataUtils.Armors;
 using MHWMasterDataUtils.Builders;
+using MHWMasterDataUtils.Builders.Equipment;
 using MHWMasterDataUtils.Builders.Weapons;
 using MHWMasterDataUtils.Core;
 using MHWMasterDataUtils.Crafting;
-using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Items;
 using MHWMasterDataUtils.Jewels;
 using MHWMasterDataUtils.Languages;
@@ -11,12 +14,6 @@ using MHWMasterDataUtils.Skills;
 using MHWMasterDataUtils.Weapons;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace MHWMasterDataUtils.Tester
 {
