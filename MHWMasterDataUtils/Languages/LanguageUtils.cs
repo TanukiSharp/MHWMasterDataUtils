@@ -48,7 +48,12 @@ namespace MHWMasterDataUtils.Languages
             return true;
         }
 
-        public static Dictionary<string, string> CreateLocalizations(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> source, uint entryId, bool convertLineFeeds = false)
+        public static readonly Func<string, string> ReplaceLineFeedWithSpace = x => x.Replace("\r\n", " ");
+        public static readonly Func<string, string> ReplaceAlphaSymbol = x => x.Replace("<ICON ALPHA>", "α");
+        public static readonly Func<string, string> ReplaceBetaSymbol = x => x.Replace("<ICON BETA>", "β");
+        public static readonly Func<string, string> ReplaceGammaSymbol = x => x.Replace("<ICON GAMMA>", "γ");
+
+        public static Dictionary<string, string> CreateLocalizations(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> source, uint entryId, Func<string, string>[] valueProcessors = null)
         {
             var result = new LocalizedText();
 
@@ -59,8 +64,11 @@ namespace MHWMasterDataUtils.Languages
 
                 string value = language[entryId].Value;
 
-                if (convertLineFeeds)
-                    value = value.Replace("\r\n", " ");
+                if (valueProcessors != null)
+                {
+                    foreach (Func<string, string> valueProcessor in valueProcessors)
+                        value = valueProcessor?.Invoke(value);
+                }
 
                 result.Add(LanguageIdToLanguageCode(languageId), value);
             }

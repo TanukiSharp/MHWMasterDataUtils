@@ -35,6 +35,11 @@ namespace MHWMasterDataUtils.Builders
         {
         }
 
+        private static readonly Func<string, string>[] languageValueProcessors = new Func<string, string>[]
+        {
+            LanguageUtils.ReplaceLineFeedWithSpace
+        };
+
         public T[] Build()
         {
             var result = new List<T>();
@@ -52,7 +57,7 @@ namespace MHWMasterDataUtils.Builders
                     continue;
 
                 Dictionary<string, string> name = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, nameIndex);
-                Dictionary<string, string> description = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, descriptionIndex, true);
+                Dictionary<string, string> description = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, descriptionIndex, languageValueProcessors);
 
                 T item = CreateItemInstance();
 

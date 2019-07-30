@@ -226,12 +226,17 @@ namespace MHWMasterDataUtils.Builders.Weapons
             };
         }
 
+        private static readonly Func<string, string>[] languageValueProcessors = new Func<string, string>[]
+        {
+            LanguageUtils.ReplaceLineFeedWithSpace
+        };
+
         private TResultWeapon CreateHighLevelWeapon(int parentId, bool isUpgradable, TIntermediateWeapon weapon)
         {
             TResultWeapon resultWeapon = CreateResultWeaponInstance();
 
             Dictionary<string, string> weaponName = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdNameIndex);
-            Dictionary<string, string> weaponDescription = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdDescriptionIndex, true);
+            Dictionary<string, string> weaponDescription = LanguageUtils.CreateLocalizations(weaponsLanguages.Table, weapon.GmdDescriptionIndex, languageValueProcessors);
 
             core.Craft craft = null;
 
