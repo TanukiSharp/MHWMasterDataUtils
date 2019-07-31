@@ -85,6 +85,10 @@ namespace MHWMasterDataUtils.Builders.Equipment
                 resultEquipment.Order = equipment.Order;
                 resultEquipment.Name = name;
                 resultEquipment.Description = description;
+                resultEquipment.Cost = equipment.CraftingCost;
+                resultEquipment.Gender = equipment.Gender;
+                resultEquipment.Rarity = equipment.Rarity;
+                resultEquipment.SetGroup = equipment.SetGroup;
 
                 UpdateEquipment(equipment, resultEquipment);
 

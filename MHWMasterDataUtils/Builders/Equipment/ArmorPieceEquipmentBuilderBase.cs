@@ -33,6 +33,13 @@ namespace MHWMasterDataUtils.Builders.Equipment
             base.UpdateEquipment(equipment, resultEquipment);
 
             resultEquipment.SeriesId = equipment.SetId;
+            resultEquipment.Defense = equipment.Defense;
+            resultEquipment.FireResistance = equipment.FireRes;
+            resultEquipment.WaterResistance = equipment.WaterRes;
+            resultEquipment.ThunderResistance = equipment.ThunderRes;
+            resultEquipment.IceResistance = equipment.IceRes;
+            resultEquipment.DragonResistance = equipment.DragonRes;
+            resultEquipment.Slots = EquipmentUtils.CreateSlotsArray(equipment);
         }
     }
 }

@@ -15,5 +15,18 @@ namespace MHWMasterDataUtils.Core
         public Dictionary<string, string> Name { get; set; }
         [JsonProperty("description")]
         public Dictionary<string, string> Description { get; set; }
+        [JsonProperty("cost")]
+        public uint Cost { get; set; }
+        [JsonProperty("gender")]
+        public Gender Gender { get; set; }
+        [JsonProperty("rarity")]
+        public int Rarity { get; set; }
+        [JsonProperty("setGroup")]
+        public int SetGroup { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Id} {Name} (order: {Order})";
+        }
     }
 }
