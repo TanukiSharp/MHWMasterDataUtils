@@ -14,19 +14,16 @@ namespace MHWMasterDataUtils.Builders.Equipment
         private readonly Predicate<ArmorPrimitive> filter;
         private readonly ArmorPackageProcessor equipments;
         private readonly LanguagePackageProcessor equipmentLanguages;
-        private readonly LanguagePackageProcessor equipmentSeriesLanguages;
 
         public EquipmentBuilderBase(
             Predicate<ArmorPrimitive> filter,
             ArmorPackageProcessor equipments,
-            LanguagePackageProcessor equipmentLanguages,
-            LanguagePackageProcessor equipmentSeriesLanguages
+            LanguagePackageProcessor equipmentLanguages
         )
         {
             this.filter = filter;
             this.equipments = equipments;
             this.equipmentLanguages = equipmentLanguages;
-            this.equipmentSeriesLanguages = equipmentSeriesLanguages;
         }
 
         protected virtual bool IsValidEquipment(ArmorPrimitive equipment)

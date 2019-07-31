@@ -320,8 +320,7 @@ namespace MHWMasterDataUtils.Tester
 
             Charm[] charms = new CharmEquipmentBuilder(
                 armors,
-                armorLanguages,
-                armorSeriesLanguages
+                armorLanguages
             ).Build();
             SerializeJson("charms", charms);
         }

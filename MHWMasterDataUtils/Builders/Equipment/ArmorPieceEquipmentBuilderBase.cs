@@ -10,6 +10,8 @@ namespace MHWMasterDataUtils.Builders.Equipment
 {
     public abstract class ArmorPieceEquipmentBuilderBase<TArmorPiece> : EquipmentBuilderBase<TArmorPiece> where TArmorPiece : ArmorPiece, new()
     {
+        private readonly LanguagePackageProcessor equipmentSeriesLanguages;
+
         public ArmorPieceEquipmentBuilderBase(
             Predicate<ArmorPrimitive> filter,
             ArmorPackageProcessor equipments,
@@ -20,10 +22,10 @@ namespace MHWMasterDataUtils.Builders.Equipment
             : base(
                   filter,
                   equipments,
-                  equipmentLanguages,
-                  equipmentSeriesLanguages
+                  equipmentLanguages
             )
         {
+            this.equipmentSeriesLanguages = equipmentSeriesLanguages;
         }
 
         protected override void UpdateEquipment(ArmorPrimitive equipment, TArmorPiece resultEquipment)
