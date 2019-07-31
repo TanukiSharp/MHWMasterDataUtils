@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Armors
+namespace MHWMasterDataUtils.Equipment
 {
     public enum ArmorTypePrimitive : byte
     {

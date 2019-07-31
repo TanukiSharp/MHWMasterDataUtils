@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MHWMasterDataUtils.Armors;
 using MHWMasterDataUtils.Core;
-using MHWMasterDataUtils.Equipments;
+using MHWMasterDataUtils.Equipment;
 using MHWMasterDataUtils.Languages;
 
 namespace MHWMasterDataUtils.Builders.Equipment
@@ -11,7 +10,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
     public class CharmEquipmentBuilder : EquipmentBuilderBase<Charm>
     {
         public CharmEquipmentBuilder(
-            ArmorPackageProcessor equipments,
+            EquipmentPackageProcessor equipments,
             LanguagePackageProcessor equipmentLanguages
         )
             : base(

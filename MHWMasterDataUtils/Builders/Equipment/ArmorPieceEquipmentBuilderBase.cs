@@ -1,22 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MHWMasterDataUtils.Armors;
-using MHWMasterDataUtils.Core;
-using MHWMasterDataUtils.Equipments;
+using MHWMasterDataUtils.Equipment;
 using MHWMasterDataUtils.Languages;
+
+using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders.Equipment
 {
-    public abstract class ArmorPieceEquipmentBuilderBase<TArmorPiece> : EquipmentBuilderBase<TArmorPiece> where TArmorPiece : ArmorPiece, new()
+    public abstract class ArmorPieceEquipmentBuilderBase<TArmorPiece> : EquipmentBuilderBase<TArmorPiece> where TArmorPiece : core.ArmorPiece, new()
     {
-        private readonly LanguagePackageProcessor equipmentSeriesLanguages;
-
         public ArmorPieceEquipmentBuilderBase(
-            Predicate<ArmorPrimitive> filter,
-            ArmorPackageProcessor equipments,
-            LanguagePackageProcessor equipmentLanguages,
-            LanguagePackageProcessor equipmentSeriesLanguages
+            Predicate<EquipmentPrimitive> filter,
+            EquipmentPackageProcessor equipments,
+            LanguagePackageProcessor equipmentLanguages
 
         )
             : base(
@@ -25,10 +22,9 @@ namespace MHWMasterDataUtils.Builders.Equipment
                   equipmentLanguages
             )
         {
-            this.equipmentSeriesLanguages = equipmentSeriesLanguages;
         }
 
-        protected override void UpdateEquipment(ArmorPrimitive equipment, TArmorPiece resultEquipment)
+        protected override void UpdateEquipment(EquipmentPrimitive equipment, TArmorPiece resultEquipment)
         {
             base.UpdateEquipment(equipment, resultEquipment);
 

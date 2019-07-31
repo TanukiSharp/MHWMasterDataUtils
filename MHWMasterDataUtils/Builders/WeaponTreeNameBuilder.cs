@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MHWMasterDataUtils.Equipments;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Weapons;
 using MHWMasterDataUtils.Weapons.Primitives;
-using Newtonsoft.Json;
 
 using core = MHWMasterDataUtils.Core;
 

@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Armors
+namespace MHWMasterDataUtils.Equipment
 {
-    public class ArmorPackageProcessor : SimpleMapPackageProcessorBase<ushort, ArmorPrimitive>
+    public class EquipmentPackageProcessor : SimpleMapPackageProcessorBase<ushort, EquipmentPrimitive>
     {
-        public ArmorPackageProcessor()
-            : base(0x005d, ArmorPrimitive.Read, x => x.Id)
+        public EquipmentPackageProcessor()
+            : base(0x005d, EquipmentPrimitive.Read, x => x.Id)
         {
         }
 

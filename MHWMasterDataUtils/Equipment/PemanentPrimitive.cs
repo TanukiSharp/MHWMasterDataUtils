@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Armors
+namespace MHWMasterDataUtils.Equipment
 {
-    public enum PemanentPrimitive : byte
+    public enum PermanentPrimitive : byte
     {
         CanBeSold,
         CannotBeSold

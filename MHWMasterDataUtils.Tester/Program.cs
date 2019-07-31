@@ -1,11 +1,11 @@
 using System;
 using System.IO;
-using MHWMasterDataUtils.Armors;
 using MHWMasterDataUtils.Builders;
 using MHWMasterDataUtils.Builders.Equipment;
 using MHWMasterDataUtils.Builders.Weapons;
 using MHWMasterDataUtils.Core;
 using MHWMasterDataUtils.Crafting;
+using MHWMasterDataUtils.Equipment;
 using MHWMasterDataUtils.Items;
 using MHWMasterDataUtils.Jewels;
 using MHWMasterDataUtils.Languages;
@@ -77,7 +77,7 @@ namespace MHWMasterDataUtils.Tester
             var bowLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.Bow));
             var lightBowgunLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.LightBowgun));
             var heavyBowgunLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.HeavyBowgun));
-            var armorLanguages = new LanguagePackageProcessor("/common/text/steam/armor_\\w{3}.gmd");
+            var equipmentLanguages = new LanguagePackageProcessor("/common/text/steam/armor_\\w{3}.gmd");
             var armorSeriesLanguages = new LanguagePackageProcessor("/common/text/steam/armor_series_\\w{3}.gmd");
 
             var weaponSeriesLanguages = new LanguagePackageProcessor("/common/text/steam/wep_series_\\w{3}.gmd");
@@ -100,7 +100,7 @@ namespace MHWMasterDataUtils.Tester
             var skills = new SkillsPackageProcessor();
             var skillAbilities = new SkillAbilitiesPackageProcessor();
 
-            var armors = new ArmorPackageProcessor();
+            var equipment = new EquipmentPackageProcessor();
 
             var fileProcessors = new IPackageProcessor[]
             {
@@ -132,7 +132,7 @@ namespace MHWMasterDataUtils.Tester
                 steamItemsLanguages,
                 cmItemsLanguages,
                 itemsLanguages,
-                armorLanguages,
+                equipmentLanguages,
                 armorSeriesLanguages,
                 bowBottles,
                 weapons,
@@ -146,7 +146,7 @@ namespace MHWMasterDataUtils.Tester
                 skillAbilities,
                 skillLanguages,
                 skillAbilitiesLanguages,
-                armors
+                equipment
                 //new DumpPackageProcessor("/common/equip/rod_insect.rod_inse"),
             };
 
@@ -312,15 +312,14 @@ namespace MHWMasterDataUtils.Tester
             SerializeJson("heavy-bowguns", heavyBowguns);
 
             ArmorPiece[] heads = new HeadEquipmentBuilder(
-                armors,
-                armorLanguages,
-                armorSeriesLanguages
+                equipment,
+                equipmentLanguages
             ).Build();
             SerializeJson("heads", heads);
 
             Charm[] charms = new CharmEquipmentBuilder(
-                armors,
-                armorLanguages
+                equipment,
+                equipmentLanguages
             ).Build();
             SerializeJson("charms", charms);
         }

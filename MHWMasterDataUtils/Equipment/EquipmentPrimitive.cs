@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using MHWMasterDataUtils.Core;
-using MHWMasterDataUtils.Equipments;
 
-namespace MHWMasterDataUtils.Armors
+namespace MHWMasterDataUtils.Equipment
 {
-    public class ArmorPrimitive : IComparable<ArmorPrimitive>
+    public class EquipmentPrimitive : IComparable<EquipmentPrimitive>
     {
         public readonly ushort Id;
         public readonly ushort Order;
@@ -44,9 +43,9 @@ namespace MHWMasterDataUtils.Armors
         public readonly ushort SetGroup;
         public readonly ushort GmdNameIndex;
         public readonly ushort GmdDescriptionIndex;
-        public readonly PemanentPrimitive IsPermanent;
+        public readonly PermanentPrimitive IsPermanent;
 
-        private ArmorPrimitive(
+        private EquipmentPrimitive(
             ushort id,
             ushort order,
             ArmorVariantPrimitive variant,
@@ -83,7 +82,7 @@ namespace MHWMasterDataUtils.Armors
             ushort setGroup,
             ushort gmdNameIndex,
             ushort gmdDescriptionIndex,
-            PemanentPrimitive isPermanent
+            PermanentPrimitive isPermanent
         )
         {
             Id = id;
@@ -125,7 +124,7 @@ namespace MHWMasterDataUtils.Armors
             IsPermanent = isPermanent;
         }
 
-        public static ArmorPrimitive Read(Reader reader)
+        public static EquipmentPrimitive Read(Reader reader)
         {
             ushort id = reader.ReadUInt16();
             reader.Offset(2); // Skip unk1 and unk2.
@@ -166,9 +165,9 @@ namespace MHWMasterDataUtils.Armors
             ushort setGroup = reader.ReadUInt16();
             ushort gmdNameIndex = reader.ReadUInt16();
             ushort gmdDescriptionIndex = reader.ReadUInt16();
-            var isPermanent = (PemanentPrimitive)reader.ReadByte();
+            var isPermanent = (PermanentPrimitive)reader.ReadByte();
 
-            return new ArmorPrimitive(
+            return new EquipmentPrimitive(
                 id,
                 order,
                 variant,
@@ -209,7 +208,7 @@ namespace MHWMasterDataUtils.Armors
             );
         }
 
-        public int CompareTo(ArmorPrimitive other)
+        public int CompareTo(EquipmentPrimitive other)
         {
             int diff = 0;
 

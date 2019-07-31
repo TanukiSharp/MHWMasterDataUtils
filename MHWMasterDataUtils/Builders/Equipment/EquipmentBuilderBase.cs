@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MHWMasterDataUtils.Armors;
-using MHWMasterDataUtils.Equipments;
+using MHWMasterDataUtils.Equipment;
 using MHWMasterDataUtils.Languages;
 
 using core = MHWMasterDataUtils.Core;
@@ -11,13 +10,13 @@ namespace MHWMasterDataUtils.Builders.Equipment
 {
     public abstract class EquipmentBuilderBase<TEquiment> where TEquiment : core.EquipmentBase, new()
     {
-        private readonly Predicate<ArmorPrimitive> filter;
-        private readonly ArmorPackageProcessor equipments;
+        private readonly Predicate<EquipmentPrimitive> filter;
+        private readonly EquipmentPackageProcessor equipments;
         private readonly LanguagePackageProcessor equipmentLanguages;
 
         public EquipmentBuilderBase(
-            Predicate<ArmorPrimitive> filter,
-            ArmorPackageProcessor equipments,
+            Predicate<EquipmentPrimitive> filter,
+            EquipmentPackageProcessor equipments,
             LanguagePackageProcessor equipmentLanguages
         )
         {
@@ -26,7 +25,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
             this.equipmentLanguages = equipmentLanguages;
         }
 
-        protected virtual bool IsValidEquipment(ArmorPrimitive equipment)
+        protected virtual bool IsValidEquipment(EquipmentPrimitive equipment)
         {
             if (equipment.Gender == core.Gender.None)
                 return false;
@@ -55,20 +54,20 @@ namespace MHWMasterDataUtils.Builders.Equipment
             return new TEquiment();
         }
 
-        protected virtual void UpdateEquipment(ArmorPrimitive equipment, TEquiment resultEquipment)
+        protected virtual void UpdateEquipment(EquipmentPrimitive equipment, TEquiment resultEquipment)
         {
         }
+
+        private static readonly Func<string, string>[] languageValueProcessors = new Func<string, string>[]
+        {   
+            LanguageUtils.ReplaceLineFeedWithSpace
+        };
 
         public TEquiment[] Build()
         {
             var result = new List<TEquiment>();
 
-            var languageValueProcessors = new Func<string, string>[]
-            {
-                LanguageUtils.ReplaceLineFeedWithSpace
-            };
-
-            foreach (ArmorPrimitive equipment in equipments.Table.Values)
+            foreach (EquipmentPrimitive equipment in equipments.Table.Values)
             {
                 if (filter(equipment) == false)
                     continue;

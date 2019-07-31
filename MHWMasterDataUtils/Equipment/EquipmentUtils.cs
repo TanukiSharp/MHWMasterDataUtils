@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MHWMasterDataUtils.Armors;
 
-namespace MHWMasterDataUtils.Armors
+namespace MHWMasterDataUtils.Equipment
 {
     public class EquipmentUtils
     {
-        public static int[] CreateSlotsArray(ArmorPrimitive equipment)
+        public static int[] CreateSlotsArray(EquipmentPrimitive equipment)
         {
             int[] slots = new int[equipment.GemSlots];
 
