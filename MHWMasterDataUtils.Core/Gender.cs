@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Armors
+namespace MHWMasterDataUtils.Core
 {
-    public enum GenderPrimitive : byte
+    public enum Gender
     {
         None,
         Male,

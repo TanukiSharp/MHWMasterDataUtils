@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MHWMasterDataUtils.Core;
 using MHWMasterDataUtils.Equipments;
 
 namespace MHWMasterDataUtils.Armors
@@ -39,7 +40,7 @@ namespace MHWMasterDataUtils.Armors
         public readonly byte Skill2Level;
         public readonly ushort Skill3Id;
         public readonly byte Skill3Level;
-        public readonly GenderPrimitive Gender;
+        public readonly Gender Gender;
         public readonly ushort SetGroup;
         public readonly ushort GmdNameIndex;
         public readonly ushort GmdDescriptionIndex;
@@ -78,7 +79,7 @@ namespace MHWMasterDataUtils.Armors
             byte skill2Level,
             ushort skill3Id,
             byte skill3Level,
-            GenderPrimitive gender,
+            Gender gender,
             ushort setGroup,
             ushort gmdNameIndex,
             ushort gmdDescriptionIndex,
@@ -160,7 +161,7 @@ namespace MHWMasterDataUtils.Armors
             byte skill2Level = reader.ReadByte();
             ushort skill3Id = reader.ReadUInt16();
             byte skill3Level = reader.ReadByte();
-            var gender = (GenderPrimitive)reader.ReadByte();
+            var gender = (Gender)reader.ReadByte();
             reader.Offset(3); // Skip unk4, unk5 and unk6.
             ushort setGroup = reader.ReadUInt16();
             ushort gmdNameIndex = reader.ReadUInt16();

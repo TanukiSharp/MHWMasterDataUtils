@@ -31,7 +31,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
 
         protected virtual bool IsValidEquipment(ArmorPrimitive equipment)
         {
-            if (equipment.Gender == GenderPrimitive.None)
+            if (equipment.Gender == core.Gender.None)
                 return false;
 
             string englishWeaponName = equipmentLanguages.Table[LanguageIdPrimitive.English][equipment.GmdNameIndex].Value;
