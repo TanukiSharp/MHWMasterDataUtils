@@ -301,6 +301,9 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("light-bowguns", lightBowguns);
 
+            ArmorSeries[] armorSeries = new ArmorSeriesBuilder(armorSeriesLanguages).Build();
+            SerializeJson("armor-series", armorSeries);
+
             Bowgun[] heavyBowguns = new BowgunWeaponBuilder(
                 WeaponType.HeavyBowgun,
                 heavyBowgunLanguages,
