@@ -311,16 +311,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 205,
-                    "quantity": 5
+                    "id": 210,
+                    "quantity": 2
                 },
                 {
                     "id": 206,
                     "quantity": 2
                 },
                 {
-                    "id": 210,
-                    "quantity": 2
+                    "id": 205,
+                    "quantity": 5
                 }
             ]
         }
@@ -425,12 +425,12 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 206,
-                    "quantity": 5
-                },
-                {
                     "id": 207,
                     "quantity": 2
+                },
+                {
+                    "id": 206,
+                    "quantity": 5
                 },
                 {
                     "id": 237,
@@ -539,8 +539,8 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 206,
-                    "quantity": 10
+                    "id": 239,
+                    "quantity": 2
                 },
                 {
                     "id": 207,
@@ -551,8 +551,8 @@
                     "quantity": 2
                 },
                 {
-                    "id": 239,
-                    "quantity": 2
+                    "id": 206,
+                    "quantity": 10
                 }
             ]
         }
@@ -659,12 +659,12 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 207,
-                    "quantity": 5
-                },
-                {
                     "id": 208,
                     "quantity": 8
+                },
+                {
+                    "id": 207,
+                    "quantity": 5
                 },
                 {
                     "id": 212,
@@ -778,16 +778,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 207,
-                    "quantity": 10
+                    "id": 209,
+                    "quantity": 8
                 },
                 {
                     "id": 208,
                     "quantity": 5
                 },
                 {
-                    "id": 209,
-                    "quantity": 8
+                    "id": 207,
+                    "quantity": 10
                 },
                 {
                     "id": 212,
@@ -902,20 +902,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 208,
-                    "quantity": 20
+                    "id": 263,
+                    "quantity": 2
                 },
                 {
                     "id": 209,
                     "quantity": 13
                 },
                 {
-                    "id": 215,
-                    "quantity": 1
+                    "id": 208,
+                    "quantity": 20
                 },
                 {
-                    "id": 263,
-                    "quantity": 2
+                    "id": 215,
+                    "quantity": 1
                 }
             ]
         }
@@ -1018,20 +1018,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 498,
-                    "quantity": 2
-                },
-                {
-                    "id": 500,
-                    "quantity": 2
-                },
-                {
                     "id": 502,
                     "quantity": 3
                 },
                 {
                     "id": 503,
                     "quantity": 4
+                },
+                {
+                    "id": 500,
+                    "quantity": 2
+                },
+                {
+                    "id": 498,
+                    "quantity": 2
                 }
             ]
         }
@@ -1134,6 +1134,10 @@
             "isCraftable": false,
             "items": [
                 {
+                    "id": 534,
+                    "quantity": 2
+                },
+                {
                     "id": 501,
                     "quantity": 5
                 },
@@ -1144,10 +1148,6 @@
                 {
                     "id": 504,
                     "quantity": 1
-                },
-                {
-                    "id": 534,
-                    "quantity": 2
                 }
             ]
         }
@@ -1258,7 +1258,7 @@
                     "quantity": 5
                 },
                 {
-                    "id": 259,
+                    "id": 347,
                     "quantity": 1
                 },
                 {
@@ -1266,7 +1266,7 @@
                     "quantity": 2
                 },
                 {
-                    "id": 347,
+                    "id": 259,
                     "quantity": 1
                 }
             ]
@@ -1374,11 +1374,11 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 211,
-                    "quantity": 3
+                    "id": 239,
+                    "quantity": 2
                 },
                 {
-                    "id": 239,
+                    "id": 347,
                     "quantity": 2
                 },
                 {
@@ -1386,8 +1386,8 @@
                     "quantity": 2
                 },
                 {
-                    "id": 347,
-                    "quantity": 2
+                    "id": 211,
+                    "quantity": 3
                 }
             ]
         }
@@ -1500,15 +1500,15 @@
                     "quantity": 5
                 },
                 {
-                    "id": 270,
-                    "quantity": 3
-                },
-                {
                     "id": 348,
                     "quantity": 4
                 },
                 {
                     "id": 349,
+                    "quantity": 3
+                },
+                {
+                    "id": 270,
                     "quantity": 3
                 }
             ]
@@ -1622,16 +1622,16 @@
                     "quantity": 5
                 },
                 {
-                    "id": 260,
-                    "quantity": 3
+                    "id": 351,
+                    "quantity": 2
                 },
                 {
                     "id": 345,
                     "quantity": 4
                 },
                 {
-                    "id": 351,
-                    "quantity": 2
+                    "id": 260,
+                    "quantity": 3
                 }
             ]
         }
@@ -1740,20 +1740,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 262,
-                    "quantity": 1
-                },
-                {
                     "id": 263,
                     "quantity": 3
+                },
+                {
+                    "id": 351,
+                    "quantity": 4
                 },
                 {
                     "id": 350,
                     "quantity": 6
                 },
                 {
-                    "id": 351,
-                    "quantity": 4
+                    "id": 262,
+                    "quantity": 1
                 }
             ]
         }
@@ -1864,16 +1864,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 309,
-                    "quantity": 3
+                    "id": 312,
+                    "quantity": 1
                 },
                 {
                     "id": 310,
                     "quantity": 2
                 },
                 {
-                    "id": 312,
-                    "quantity": 1
+                    "id": 309,
+                    "quantity": 3
                 }
             ]
         }
@@ -1984,19 +1984,19 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 228,
+                    "id": 399,
                     "quantity": 3
-                },
-                {
-                    "id": 311,
-                    "quantity": 2
                 },
                 {
                     "id": 312,
                     "quantity": 2
                 },
                 {
-                    "id": 399,
+                    "id": 311,
+                    "quantity": 2
+                },
+                {
+                    "id": 228,
                     "quantity": 3
                 }
             ]
@@ -2108,20 +2108,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 230,
-                    "quantity": 3
-                },
-                {
-                    "id": 311,
-                    "quantity": 4
+                    "id": 421,
+                    "quantity": 2
                 },
                 {
                     "id": 312,
                     "quantity": 2
                 },
                 {
-                    "id": 421,
-                    "quantity": 2
+                    "id": 311,
+                    "quantity": 4
+                },
+                {
+                    "id": 230,
+                    "quantity": 3
                 }
             ]
         }
@@ -2240,16 +2240,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 313,
-                    "quantity": 6
+                    "id": 316,
+                    "quantity": 3
                 },
                 {
                     "id": 314,
                     "quantity": 4
                 },
                 {
-                    "id": 316,
-                    "quantity": 3
+                    "id": 313,
+                    "quantity": 6
                 }
             ]
         }
@@ -2368,20 +2368,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 231,
-                    "quantity": 3
-                },
-                {
-                    "id": 315,
-                    "quantity": 3
+                    "id": 427,
+                    "quantity": 2
                 },
                 {
                     "id": 316,
                     "quantity": 4
                 },
                 {
-                    "id": 427,
-                    "quantity": 2
+                    "id": 315,
+                    "quantity": 3
+                },
+                {
+                    "id": 231,
+                    "quantity": 3
                 }
             ]
         }
@@ -2500,20 +2500,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 261,
-                    "quantity": 1
-                },
-                {
-                    "id": 315,
-                    "quantity": 4
+                    "id": 502,
+                    "quantity": 2
                 },
                 {
                     "id": 316,
                     "quantity": 5
                 },
                 {
-                    "id": 502,
-                    "quantity": 2
+                    "id": 315,
+                    "quantity": 4
+                },
+                {
+                    "id": 261,
+                    "quantity": 1
                 }
             ]
         }
@@ -2618,16 +2618,16 @@
             "isCraftable": true,
             "items": [
                 {
+                    "id": 364,
+                    "quantity": 5
+                },
+                {
                     "id": 206,
                     "quantity": 10
                 },
                 {
                     "id": 247,
                     "quantity": 3
-                },
-                {
-                    "id": 364,
-                    "quantity": 5
                 },
                 {
                     "id": 367,
@@ -2746,8 +2746,8 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 367,
-                    "quantity": 1
+                    "id": 370,
+                    "quantity": 3
                 },
                 {
                     "id": 368,
@@ -2758,8 +2758,8 @@
                     "quantity": 4
                 },
                 {
-                    "id": 370,
-                    "quantity": 3
+                    "id": 367,
+                    "quantity": 1
                 }
             ]
         }
@@ -2874,10 +2874,6 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 262,
-                    "quantity": 1
-                },
-                {
                     "id": 370,
                     "quantity": 4
                 },
@@ -2888,6 +2884,10 @@
                 {
                     "id": 373,
                     "quantity": 4
+                },
+                {
+                    "id": 262,
+                    "quantity": 1
                 }
             ]
         }
@@ -3010,12 +3010,12 @@
                     "quantity": 5
                 },
                 {
-                    "id": 371,
-                    "quantity": 1
-                },
-                {
                     "id": 372,
                     "quantity": 6
+                },
+                {
+                    "id": 371,
+                    "quantity": 1
                 }
             ]
         }
@@ -3131,7 +3131,7 @@
                     "quantity": 3
                 },
                 {
-                    "id": 255,
+                    "id": 336,
                     "quantity": 1
                 },
                 {
@@ -3139,7 +3139,7 @@
                     "quantity": 3
                 },
                 {
-                    "id": 336,
+                    "id": 255,
                     "quantity": 1
                 }
             ]
@@ -3256,7 +3256,7 @@
                     "quantity": 5
                 },
                 {
-                    "id": 276,
+                    "id": 338,
                     "quantity": 3
                 },
                 {
@@ -3264,7 +3264,7 @@
                     "quantity": 2
                 },
                 {
-                    "id": 338,
+                    "id": 276,
                     "quantity": 3
                 }
             ]
@@ -3377,20 +3377,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 211,
-                    "quantity": 3
-                },
-                {
                     "id": 239,
                     "quantity": 2
                 },
                 {
-                    "id": 277,
+                    "id": 337,
+                    "quantity": 4
+                },
+                {
+                    "id": 211,
                     "quantity": 3
                 },
                 {
-                    "id": 337,
-                    "quantity": 4
+                    "id": 277,
+                    "quantity": 3
                 }
             ]
         }
@@ -3509,16 +3509,16 @@
                     "quantity": 5
                 },
                 {
-                    "id": 278,
-                    "quantity": 5
+                    "id": 340,
+                    "quantity": 2
                 },
                 {
                     "id": 339,
                     "quantity": 3
                 },
                 {
-                    "id": 340,
-                    "quantity": 2
+                    "id": 278,
+                    "quantity": 5
                 }
             ]
         }
@@ -3637,16 +3637,16 @@
                     "quantity": 5
                 },
                 {
+                    "id": 342,
+                    "quantity": 4
+                },
+                {
                     "id": 256,
                     "quantity": 3
                 },
                 {
                     "id": 279,
                     "quantity": 3
-                },
-                {
-                    "id": 342,
-                    "quantity": 4
                 }
             ]
         }
@@ -3761,20 +3761,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 262,
-                    "quantity": 1
-                },
-                {
                     "id": 263,
                     "quantity": 3
+                },
+                {
+                    "id": 342,
+                    "quantity": 6
                 },
                 {
                     "id": 341,
                     "quantity": 5
                 },
                 {
-                    "id": 342,
-                    "quantity": 6
+                    "id": 262,
+                    "quantity": 1
                 }
             ]
         }
@@ -3886,16 +3886,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 257,
-                    "quantity": 2
+                    "id": 410,
+                    "quantity": 3
                 },
                 {
                     "id": 408,
                     "quantity": 4
                 },
                 {
-                    "id": 410,
-                    "quantity": 3
+                    "id": 257,
+                    "quantity": 2
                 }
             ]
         }
@@ -4134,20 +4134,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 258,
-                    "quantity": 2
+                    "id": 416,
+                    "quantity": 3
                 },
                 {
                     "id": 414,
                     "quantity": 5
                 },
                 {
-                    "id": 416,
+                    "id": 417,
                     "quantity": 3
                 },
                 {
-                    "id": 417,
-                    "quantity": 3
+                    "id": 258,
+                    "quantity": 2
                 }
             ]
         }
@@ -4261,20 +4261,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 415,
-                    "quantity": 3
+                    "id": 528,
+                    "quantity": 2
                 },
                 {
                     "id": 416,
                     "quantity": 5
                 },
                 {
-                    "id": 418,
-                    "quantity": 1
+                    "id": 415,
+                    "quantity": 3
                 },
                 {
-                    "id": 528,
-                    "quantity": 2
+                    "id": 418,
+                    "quantity": 1
                 }
             ]
         }
@@ -4612,12 +4612,12 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 227,
-                    "quantity": 1
-                },
-                {
                     "id": 237,
                     "quantity": 2
+                },
+                {
+                    "id": 227,
+                    "quantity": 1
                 }
             ]
         }
@@ -4729,16 +4729,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 228,
-                    "quantity": 2
+                    "id": 238,
+                    "quantity": 1
                 },
                 {
                     "id": 237,
                     "quantity": 5
                 },
                 {
-                    "id": 238,
-                    "quantity": 1
+                    "id": 228,
+                    "quantity": 2
                 }
             ]
         }
@@ -4850,16 +4850,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 225,
-                    "quantity": 4
+                    "id": 239,
+                    "quantity": 2
                 },
                 {
                     "id": 238,
                     "quantity": 1
                 },
                 {
-                    "id": 239,
-                    "quantity": 2
+                    "id": 225,
+                    "quantity": 4
                 }
             ]
         }
@@ -4973,7 +4973,7 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 226,
+                    "id": 240,
                     "quantity": 2
                 },
                 {
@@ -4981,7 +4981,7 @@
                     "quantity": 2
                 },
                 {
-                    "id": 240,
+                    "id": 226,
                     "quantity": 2
                 }
             ]
@@ -5097,16 +5097,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 226,
-                    "quantity": 10
+                    "id": 241,
+                    "quantity": 4
                 },
                 {
                     "id": 240,
                     "quantity": 6
                 },
                 {
-                    "id": 241,
-                    "quantity": 4
+                    "id": 226,
+                    "quantity": 10
                 }
             ]
         }
@@ -5221,20 +5221,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 226,
-                    "quantity": 20
-                },
-                {
-                    "id": 232,
-                    "quantity": 1
+                    "id": 242,
+                    "quantity": 4
                 },
                 {
                     "id": 241,
                     "quantity": 6
                 },
                 {
-                    "id": 242,
-                    "quantity": 4
+                    "id": 226,
+                    "quantity": 20
+                },
+                {
+                    "id": 232,
+                    "quantity": 1
                 }
             ]
         }
@@ -5345,15 +5345,15 @@
             "isCraftable": false,
             "items": [
                 {
+                    "id": 477,
+                    "quantity": 4
+                },
+                {
                     "id": 474,
                     "quantity": 6
                 },
                 {
                     "id": 475,
-                    "quantity": 4
-                },
-                {
-                    "id": 477,
                     "quantity": 4
                 }
             ]
@@ -5465,8 +5465,8 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 262,
-                    "quantity": 1
+                    "id": 518,
+                    "quantity": 4
                 },
                 {
                     "id": 476,
@@ -5477,8 +5477,8 @@
                     "quantity": 3
                 },
                 {
-                    "id": 518,
-                    "quantity": 4
+                    "id": 262,
+                    "quantity": 1
                 }
             ]
         }
@@ -5590,16 +5590,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 253,
-                    "quantity": 1
+                    "id": 354,
+                    "quantity": 2
                 },
                 {
                     "id": 352,
                     "quantity": 3
                 },
                 {
-                    "id": 354,
-                    "quantity": 2
+                    "id": 253,
+                    "quantity": 1
                 }
             ]
         }
@@ -5711,6 +5711,10 @@
             "isCraftable": false,
             "items": [
                 {
+                    "id": 435,
+                    "quantity": 1
+                },
+                {
                     "id": 354,
                     "quantity": 4
                 },
@@ -5720,10 +5724,6 @@
                 },
                 {
                     "id": 356,
-                    "quantity": 1
-                },
-                {
-                    "id": 435,
                     "quantity": 1
                 }
             ]
@@ -5838,20 +5838,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 254,
-                    "quantity": 3
-                },
-                {
-                    "id": 357,
-                    "quantity": 1
+                    "id": 360,
+                    "quantity": 4
                 },
                 {
                     "id": 358,
                     "quantity": 5
                 },
                 {
-                    "id": 360,
-                    "quantity": 4
+                    "id": 254,
+                    "quantity": 3
+                },
+                {
+                    "id": 357,
+                    "quantity": 1
                 }
             ]
         }
@@ -5965,20 +5965,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 215,
-                    "quantity": 1
-                },
-                {
-                    "id": 359,
-                    "quantity": 4
+                    "id": 440,
+                    "quantity": 2
                 },
                 {
                     "id": 360,
                     "quantity": 5
                 },
                 {
-                    "id": 440,
-                    "quantity": 2
+                    "id": 359,
+                    "quantity": 4
+                },
+                {
+                    "id": 215,
+                    "quantity": 1
                 }
             ]
         }
@@ -6092,6 +6092,10 @@
             "isCraftable": false,
             "items": [
                 {
+                    "id": 515,
+                    "quantity": 2
+                },
+                {
                     "id": 360,
                     "quantity": 6
                 },
@@ -6102,10 +6106,6 @@
                 {
                     "id": 362,
                     "quantity": 1
-                },
-                {
-                    "id": 515,
-                    "quantity": 2
                 }
             ]
         }
@@ -6212,16 +6212,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 247,
-                    "quantity": 1
+                    "id": 319,
+                    "quantity": 2
                 },
                 {
                     "id": 317,
                     "quantity": 3
                 },
                 {
-                    "id": 319,
-                    "quantity": 2
+                    "id": 247,
+                    "quantity": 1
                 }
             ]
         }
@@ -6332,12 +6332,12 @@
                     "quantity": 3
                 },
                 {
-                    "id": 318,
-                    "quantity": 3
-                },
-                {
                     "id": 320,
                     "quantity": 2
+                },
+                {
+                    "id": 318,
+                    "quantity": 3
                 },
                 {
                     "id": 321,
@@ -6452,15 +6452,15 @@
                     "quantity": 2
                 },
                 {
-                    "id": 247,
-                    "quantity": 2
-                },
-                {
                     "id": 319,
                     "quantity": 4
                 },
                 {
                     "id": 320,
+                    "quantity": 2
+                },
+                {
+                    "id": 247,
                     "quantity": 2
                 }
             ]
@@ -6571,20 +6571,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 226,
-                    "quantity": 3
-                },
-                {
-                    "id": 248,
-                    "quantity": 2
-                },
-                {
                     "id": 322,
                     "quantity": 3
                 },
                 {
                     "id": 324,
                     "quantity": 2
+                },
+                {
+                    "id": 248,
+                    "quantity": 2
+                },
+                {
+                    "id": 226,
+                    "quantity": 3
                 }
             ]
         }
@@ -6698,16 +6698,16 @@
                     "quantity": 3
                 },
                 {
-                    "id": 248,
-                    "quantity": 2
+                    "id": 324,
+                    "quantity": 3
                 },
                 {
                     "id": 323,
                     "quantity": 5
                 },
                 {
-                    "id": 324,
-                    "quantity": 3
+                    "id": 248,
+                    "quantity": 2
                 }
             ]
         }
@@ -6817,20 +6817,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 261,
-                    "quantity": 1
-                },
-                {
-                    "id": 324,
-                    "quantity": 6
+                    "id": 511,
+                    "quantity": 2
                 },
                 {
                     "id": 325,
                     "quantity": 4
                 },
                 {
-                    "id": 511,
-                    "quantity": 2
+                    "id": 324,
+                    "quantity": 6
+                },
+                {
+                    "id": 261,
+                    "quantity": 1
                 }
             ]
         }
@@ -6941,16 +6941,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 382,
-                    "quantity": 2
+                    "id": 384,
+                    "quantity": 1
                 },
                 {
                     "id": 383,
                     "quantity": 3
                 },
                 {
-                    "id": 384,
-                    "quantity": 1
+                    "id": 382,
+                    "quantity": 2
                 }
             ]
         }
@@ -7061,8 +7061,8 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 293,
-                    "quantity": 5
+                    "id": 446,
+                    "quantity": 3
                 },
                 {
                     "id": 384,
@@ -7073,8 +7073,8 @@
                     "quantity": 2
                 },
                 {
-                    "id": 446,
-                    "quantity": 3
+                    "id": 293,
+                    "quantity": 5
                 }
             ]
         }
@@ -7196,20 +7196,20 @@
             "isCraftable": true,
             "items": [
                 {
-                    "id": 262,
-                    "quantity": 1
+                    "id": 386,
+                    "quantity": 6
                 },
                 {
                     "id": 385,
                     "quantity": 6
                 },
                 {
-                    "id": 386,
-                    "quantity": 6
-                },
-                {
                     "id": 388,
                     "quantity": 4
+                },
+                {
+                    "id": 262,
+                    "quantity": 1
                 }
             ]
         }
@@ -7331,8 +7331,8 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 214,
-                    "quantity": 1
+                    "id": 455,
+                    "quantity": 2
                 },
                 {
                     "id": 388,
@@ -7343,8 +7343,8 @@
                     "quantity": 3
                 },
                 {
-                    "id": 455,
-                    "quantity": 2
+                    "id": 214,
+                    "quantity": 1
                 }
             ]
         }
@@ -7470,16 +7470,16 @@
                     "quantity": 3
                 },
                 {
-                    "id": 262,
-                    "quantity": 1
+                    "id": 388,
+                    "quantity": 5
                 },
                 {
                     "id": 387,
                     "quantity": 7
                 },
                 {
-                    "id": 388,
-                    "quantity": 5
+                    "id": 262,
+                    "quantity": 1
                 }
             ]
         }
@@ -7583,8 +7583,8 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 215,
-                    "quantity": 1
+                    "id": 494,
+                    "quantity": 3
                 },
                 {
                     "id": 490,
@@ -7595,8 +7595,8 @@
                     "quantity": 4
                 },
                 {
-                    "id": 494,
-                    "quantity": 3
+                    "id": 215,
+                    "quantity": 1
                 }
             ]
         }
@@ -7700,20 +7700,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 494,
-                    "quantity": 4
+                    "id": 536,
+                    "quantity": 3
                 },
                 {
                     "id": 495,
                     "quantity": 4
                 },
                 {
-                    "id": 496,
-                    "quantity": 1
+                    "id": 494,
+                    "quantity": 4
                 },
                 {
-                    "id": 536,
-                    "quantity": 3
+                    "id": 496,
+                    "quantity": 1
                 }
             ]
         }
@@ -7818,15 +7818,15 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 227,
-                    "quantity": 1
-                },
-                {
                     "id": 267,
                     "quantity": 2
                 },
                 {
                     "id": 269,
+                    "quantity": 1
+                },
+                {
+                    "id": 227,
                     "quantity": 1
                 }
             ]
@@ -7932,20 +7932,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 245,
-                    "quantity": 2
-                },
-                {
-                    "id": 249,
-                    "quantity": 1
-                },
-                {
                     "id": 267,
                     "quantity": 2
                 },
                 {
                     "id": 269,
                     "quantity": 2
+                },
+                {
+                    "id": 245,
+                    "quantity": 2
+                },
+                {
+                    "id": 249,
+                    "quantity": 1
                 }
             ]
         }
@@ -8050,10 +8050,6 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 249,
-                    "quantity": 2
-                },
-                {
                     "id": 269,
                     "quantity": 3
                 },
@@ -8064,6 +8060,10 @@
                 {
                     "id": 299,
                     "quantity": 6
+                },
+                {
+                    "id": 249,
+                    "quantity": 2
                 }
             ]
         }
@@ -8179,20 +8179,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 246,
-                    "quantity": 5
-                },
-                {
-                    "id": 250,
-                    "quantity": 2
-                },
-                {
                     "id": 268,
                     "quantity": 6
                 },
                 {
                     "id": 270,
                     "quantity": 3
+                },
+                {
+                    "id": 246,
+                    "quantity": 5
+                },
+                {
+                    "id": 250,
+                    "quantity": 2
                 }
             ]
         }
@@ -8308,10 +8308,6 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 231,
-                    "quantity": 2
-                },
-                {
                     "id": 270,
                     "quantity": 6
                 },
@@ -8322,6 +8318,10 @@
                 {
                     "id": 398,
                     "quantity": 5
+                },
+                {
+                    "id": 231,
+                    "quantity": 2
                 }
             ]
         }
@@ -8437,8 +8437,8 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 214,
-                    "quantity": 2
+                    "id": 525,
+                    "quantity": 3
                 },
                 {
                     "id": 270,
@@ -8449,8 +8449,8 @@
                     "quantity": 1
                 },
                 {
-                    "id": 525,
-                    "quantity": 3
+                    "id": 214,
+                    "quantity": 2
                 }
             ]
         }
@@ -8549,7 +8549,7 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 251,
+                    "id": 402,
                     "quantity": 2
                 },
                 {
@@ -8557,7 +8557,7 @@
                     "quantity": 4
                 },
                 {
-                    "id": 402,
+                    "id": 251,
                     "quantity": 2
                 }
             ]
@@ -8661,12 +8661,12 @@
                     "quantity": 3
                 },
                 {
-                    "id": 401,
-                    "quantity": 2
-                },
-                {
                     "id": 402,
                     "quantity": 3
+                },
+                {
+                    "id": 401,
+                    "quantity": 2
                 },
                 {
                     "id": 404,
@@ -8781,7 +8781,11 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 240,
+                    "id": 406,
+                    "quantity": 4
+                },
+                {
+                    "id": 401,
                     "quantity": 3
                 },
                 {
@@ -8789,12 +8793,8 @@
                     "quantity": 2
                 },
                 {
-                    "id": 401,
+                    "id": 240,
                     "quantity": 3
-                },
-                {
-                    "id": 406,
-                    "quantity": 4
                 }
             ]
         }
@@ -8909,12 +8909,12 @@
                     "quantity": 5
                 },
                 {
-                    "id": 252,
-                    "quantity": 3
-                },
-                {
                     "id": 405,
                     "quantity": 8
+                },
+                {
+                    "id": 252,
+                    "quantity": 3
                 },
                 {
                     "id": 407,
@@ -9033,16 +9033,16 @@
                     "quantity": 5
                 },
                 {
+                    "id": 406,
+                    "quantity": 6
+                },
+                {
                     "id": 252,
                     "quantity": 4
                 },
                 {
                     "id": 262,
                     "quantity": 1
-                },
-                {
-                    "id": 406,
-                    "quantity": 6
                 }
             ]
         }
@@ -9166,11 +9166,7 @@
             "isCraftable": true,
             "items": [
                 {
-                    "id": 227,
-                    "quantity": 5
-                },
-                {
-                    "id": 228,
+                    "id": 230,
                     "quantity": 5
                 },
                 {
@@ -9178,7 +9174,11 @@
                     "quantity": 5
                 },
                 {
-                    "id": 230,
+                    "id": 228,
+                    "quantity": 5
+                },
+                {
+                    "id": 227,
                     "quantity": 5
                 }
             ]
@@ -9303,16 +9303,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 225,
-                    "quantity": 8
+                    "id": 239,
+                    "quantity": 6
                 },
                 {
                     "id": 238,
                     "quantity": 8
                 },
                 {
-                    "id": 239,
-                    "quantity": 6
+                    "id": 225,
+                    "quantity": 8
                 }
             ]
         }
@@ -9439,16 +9439,16 @@
             "isCraftable": false,
             "items": [
                 {
+                    "id": 242,
+                    "quantity": 10
+                },
+                {
                     "id": 231,
                     "quantity": 4
                 },
                 {
                     "id": 232,
                     "quantity": 2
-                },
-                {
-                    "id": 242,
-                    "quantity": 10
                 },
                 {
                     "id": 262,
@@ -9557,8 +9557,8 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 213,
-                    "quantity": 1
+                    "id": 462,
+                    "quantity": 3
                 },
                 {
                     "id": 459,
@@ -9569,8 +9569,8 @@
                     "quantity": 1
                 },
                 {
-                    "id": 462,
-                    "quantity": 3
+                    "id": 213,
+                    "quantity": 1
                 }
             ]
         }
@@ -9689,11 +9689,7 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 212,
-                    "quantity": 5
-                },
-                {
-                    "id": 461,
+                    "id": 465,
                     "quantity": 4
                 },
                 {
@@ -9701,8 +9697,12 @@
                     "quantity": 5
                 },
                 {
-                    "id": 465,
+                    "id": 461,
                     "quantity": 4
+                },
+                {
+                    "id": 212,
+                    "quantity": 5
                 }
             ]
         }
@@ -9821,20 +9821,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 214,
-                    "quantity": 2
-                },
-                {
-                    "id": 464,
-                    "quantity": 3
+                    "id": 531,
+                    "quantity": 4
                 },
                 {
                     "id": 465,
                     "quantity": 6
                 },
                 {
-                    "id": 531,
-                    "quantity": 4
+                    "id": 464,
+                    "quantity": 3
+                },
+                {
+                    "id": 214,
+                    "quantity": 2
                 }
             ]
         }
@@ -9958,15 +9958,15 @@
             "isCraftable": true,
             "items": [
                 {
+                    "id": 212,
+                    "quantity": 10
+                },
+                {
                     "id": 210,
                     "quantity": 10
                 },
                 {
                     "id": 211,
-                    "quantity": 10
-                },
-                {
-                    "id": 212,
                     "quantity": 10
                 },
                 {
@@ -10095,16 +10095,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 208,
-                    "quantity": 10
+                    "id": 215,
+                    "quantity": 1
                 },
                 {
                     "id": 209,
                     "quantity": 5
                 },
                 {
-                    "id": 215,
-                    "quantity": 1
+                    "id": 208,
+                    "quantity": 10
                 },
                 {
                     "id": 262,
@@ -10216,16 +10216,16 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 514,
-                    "quantity": 5
+                    "id": 519,
+                    "quantity": 2
                 },
                 {
                     "id": 515,
                     "quantity": 2
                 },
                 {
-                    "id": 519,
-                    "quantity": 2
+                    "id": 514,
+                    "quantity": 5
                 },
                 {
                     "id": 521,
@@ -10337,6 +10337,10 @@
             "isCraftable": false,
             "items": [
                 {
+                    "id": 530,
+                    "quantity": 5
+                },
+                {
                     "id": 517,
                     "quantity": 5
                 },
@@ -10347,10 +10351,6 @@
                 {
                     "id": 522,
                     "quantity": 1
-                },
-                {
-                    "id": 530,
-                    "quantity": 5
                 }
             ]
         }
@@ -10468,16 +10468,16 @@
             "isCraftable": false,
             "items": [
                 {
+                    "id": 535,
+                    "quantity": 4
+                },
+                {
                     "id": 531,
                     "quantity": 6
                 },
                 {
                     "id": 533,
                     "quantity": 2
-                },
-                {
-                    "id": 535,
-                    "quantity": 4
                 },
                 {
                     "id": 538,
@@ -10593,12 +10593,12 @@
                     "quantity": 6
                 },
                 {
-                    "id": 881,
-                    "quantity": 3
-                },
-                {
                     "id": 882,
                     "quantity": 2
+                },
+                {
+                    "id": 881,
+                    "quantity": 3
                 },
                 {
                     "id": 885,
@@ -10714,12 +10714,12 @@
                     "quantity": 5
                 },
                 {
-                    "id": 881,
-                    "quantity": 5
-                },
-                {
                     "id": 883,
                     "quantity": 2
+                },
+                {
+                    "id": 881,
+                    "quantity": 5
                 },
                 {
                     "id": 886,
@@ -10830,16 +10830,16 @@
                     "quantity": 4
                 },
                 {
-                    "id": 897,
-                    "quantity": 1
+                    "id": 901,
+                    "quantity": 3
                 },
                 {
                     "id": 899,
                     "quantity": 3
                 },
                 {
-                    "id": 901,
-                    "quantity": 3
+                    "id": 897,
+                    "quantity": 1
                 }
             ]
         }
@@ -10942,20 +10942,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 496,
-                    "quantity": 1
-                },
-                {
-                    "id": 517,
-                    "quantity": 3
-                },
-                {
                     "id": 579,
                     "quantity": 1
                 },
                 {
                     "id": 901,
                     "quantity": 2
+                },
+                {
+                    "id": 517,
+                    "quantity": 3
+                },
+                {
+                    "id": 496,
+                    "quantity": 1
                 }
             ]
         }
@@ -11058,20 +11058,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 501,
-                    "quantity": 3
-                },
-                {
-                    "id": 504,
-                    "quantity": 1
-                },
-                {
                     "id": 579,
                     "quantity": 1
                 },
                 {
                     "id": 896,
                     "quantity": 3
+                },
+                {
+                    "id": 501,
+                    "quantity": 3
+                },
+                {
+                    "id": 504,
+                    "quantity": 1
                 }
             ]
         }
@@ -11189,20 +11189,20 @@
             "isCraftable": false,
             "items": [
                 {
-                    "id": 534,
-                    "quantity": 3
-                },
-                {
-                    "id": 538,
-                    "quantity": 1
-                },
-                {
                     "id": 579,
                     "quantity": 1
                 },
                 {
                     "id": 900,
                     "quantity": 2
+                },
+                {
+                    "id": 534,
+                    "quantity": 3
+                },
+                {
+                    "id": 538,
+                    "quantity": 1
                 }
             ]
         }
