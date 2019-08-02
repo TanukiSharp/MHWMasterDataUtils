@@ -11,12 +11,17 @@ namespace MHWMasterDataUtils.Builders.Equipment
     {
         public CharmEquipmentBuilder(
             EquipmentPackageProcessor equipments,
-            LanguagePackageProcessor equipmentLanguages
+            LanguagePackageProcessor equipmentLanguages,
+            EquipmentCraftPackageProcessor<EquipmentType> equipmentCraft,
+            EquipmentUpgradePackageProcessor equipmentUpgrades
         )
             : base(
+                  EquipmentType.Charm,
                   x => x.EquipSlot == EquipmentTypePrimitive.Charm,
                   equipments,
-                  equipmentLanguages
+                  equipmentLanguages,
+                  equipmentCraft,
+                  equipmentUpgrades
             )
         {
         }

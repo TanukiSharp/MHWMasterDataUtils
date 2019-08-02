@@ -11,15 +11,21 @@ namespace MHWMasterDataUtils.Builders.Equipment
     public abstract class ArmorPieceEquipmentBuilderBase<TArmorPiece> : EquipmentBuilderBase<TArmorPiece> where TArmorPiece : core.ArmorPiece, new()
     {
         public ArmorPieceEquipmentBuilderBase(
+            core.EquipmentType equipmentType,
             Predicate<EquipmentPrimitive> filter,
             EquipmentPackageProcessor equipments,
-            LanguagePackageProcessor equipmentLanguages
+            LanguagePackageProcessor equipmentLanguages,
+            EquipmentCraftPackageProcessor<core.EquipmentType> equipmentCraft,
+            EquipmentUpgradePackageProcessor equipmentUpgrade
 
         )
             : base(
+                  equipmentType,
                   filter,
                   equipments,
-                  equipmentLanguages
+                  equipmentLanguages,
+                  equipmentCraft,
+                  equipmentUpgrade
             )
         {
         }
