@@ -4348,7 +4348,7 @@
         "description": {
             "jpn": "プケプケの上位素材。 主に剥ぎ取りで入手できる。汎用性 が高く、幅広い用途に使われる。",
             "eng": "Rare Pukei-Pukei material. Mostly obtained by carving. Broadly used for many purposes.",
-            "fre": "Matériau Pukei-Pukei. Sert à de nombreux usages. <STYL MOJI_YELLOW_DEFAULT>(Récompense de quête)</STYL>",
+            "fre": "Matériau Pukei-Pukei. Sert à de nombreux usages. <STYL MOJI_YELLOW_DEFAULT>(Dépeçage)</STYL>",
             "spa": "Raro material de Pukei-Pukei. Obtenido cortando al monstruo tras abatirlo, de usos muy diversos.",
             "ger": "Seltenes Pukei-Pukei-Material, meist durch Zerlegen erhalten; für eine Vielzahl von Dingen verwendet.",
             "ita": "Materiale raro di Pukei-Pukei. Spesso ottenuto tramite il ricavo. Dall'ampio utilizzo.",
@@ -4385,7 +4385,7 @@
         "description": {
             "jpn": "プケプケの上位素材。 主に報酬で入手できる。 硬い材質で、防具によく使われる。",
             "eng": "Rare Pukei-Pukei material. Mostly obtained as a reward. Solid, used to craft gear.",
-            "fre": "Matériau Pukei-Pukei. Solide, utilisé pour les armures. <STYL MOJI_YELLOW_DEFAULT>(Dépeçage)</STYL>",
+            "fre": "Matériau Pukei-Pukei. Solide, utilisé pour les armures. <STYL MOJI_YELLOW_DEFAULT>(Récompense de quête)</STYL>",
             "spa": "Raro material de Pukei-Pukei, obtenido sobre todo como recompensa, útil para crear equipo.",
             "ger": "Seltenes Pukei-Pukei-Material, meist als Belohnung erhalten. Stabil, für die Herstellung von Ausrüstung.",
             "ita": "Materiale raro di Pukei-Pukei. Spesso ottenuto tramite le ricompense. Solido, usato nelle armature.",
@@ -4459,7 +4459,7 @@
         "description": {
             "jpn": "プケプケの上位素材。 頭部の部位破壊で入手しやすい。 毒属性を付与する性質がある。",
             "eng": "Rare Pukei-Pukei material. Obtained by breaking its head. Grants poisonous properties.",
-            "fre": "Matériau Pukei-Pukei. Secrète un venin puissant. (Destruction de la tête)",
+            "fre": "Matériau Pukei-Pukei. Secrète un venin puissant. <STYL MOJI_YELLOW_DEFAULT>(Destruction de la tête)</STYL>",
             "spa": "Raro material de Pukei-Pukei, obtenido sobre todo al romperle el cráneo. Añade propiedades venenosas.",
             "ger": "Seltenes Pukei-Pukei-Material, erhalten durch das Brechen seines Kopfs. Verleiht Gift-Eigenschaften.",
             "ita": "Materiale raro di Pukei-Pukei. Ottenuto rompendone la testa. Dona proprietà venefiche.",
@@ -17187,7 +17187,7 @@
         "description": {
             "jpn": "追い剥ぎの装衣で手に入る素材。 欠けているがコレクターには 売れる。<STYL MOJI_YELLOW_DEFAULT>（換金アイテム）</STYL>",
             "eng": "Acquired by using the Bandit Mantle. Chipped, but still prized by collectors. <STYL MOJI_YELLOW_DEFAULT>(Trade-in Item)</STYL>",
-            "fre": "Acquise avec le manteau du bandit. Appréciée des collectionneurs. <STYL MOJI_YELLOW_DEFAULT>(Objet à vendre)</STYL>",
+            "fre": "Acquise avec la cape du voleur. Appréciée des collectionneurs. <STYL MOJI_YELLOW_DEFAULT>(Objet à vendre)</STYL>",
             "spa": "Se consigue con el manto de bandido. Muy cotizada entre coleccionistas, pese a sus grietas. <STYL MOJI_YELLOW_DEFAULT>(Objeto vendible)</STYL>",
             "ger": "Durch den Einsatz des Banditen-Mantels erhalten. Beschädigt, aber immer noch ein Sammlerstück. <STYL MOJI_YELLOW_DEFAULT>(Wertobjekt)</STYL>",
             "ita": "Ottenuta usando il mantello furfante. Nonostante sia danneggiata, è di valore tra i collezionisti. <STYL MOJI_YELLOW_DEFAULT>(Oggetto scambio)</STYL>",
@@ -17224,7 +17224,7 @@
         "description": {
             "jpn": "追い剥ぎの装衣で手に入る素材。 規格外の大きさ。コレクターに オススメ。<STYL MOJI_YELLOW_DEFAULT>（換金アイテム）</STYL>",
             "eng": "Acquired by using the Bandit Mantle. Consistently popular among collectors. <STYL MOJI_YELLOW_DEFAULT>(Trade-in Item)</STYL>",
-            "fre": "Acquise avec le manteau du bandit. Très prisée des collectionneurs. <STYL MOJI_YELLOW_DEFAULT>(Objet à vendre)</STYL>",
+            "fre": "Acquise avec la cape du voleur. Très prisée des collectionneurs. <STYL MOJI_YELLOW_DEFAULT>(Objet à vendre)</STYL>",
             "spa": "Se consigue con el manto de bandido. Muy popular entre coleccionistas. <STYL MOJI_YELLOW_DEFAULT>(Objeto vendible)</STYL>",
             "ger": "Durch den Einsatz des Banditen-Mantels erhalten. Unter Sammlern ungebrochen beliebt. <STYL MOJI_YELLOW_DEFAULT>(Wertobjekt)</STYL>",
             "ita": "Ottenuta usando il mantello furfante. Popolare tra i collezionisti. <STYL MOJI_YELLOW_DEFAULT>(Oggetto scambio)</STYL>",
@@ -17261,7 +17261,7 @@
         "description": {
             "jpn": "追い剥ぎの装衣で手に入る素材。 コレクターに人気が高い一品。 <STYL MOJI_YELLOW_DEFAULT>（換金アイテム）</STYL>",
             "eng": "Acquired by using the Bandit Mantle. In perpetual demand among collectors. <STYL MOJI_YELLOW_DEFAULT>(Trade-in Item)</STYL>",
-            "fre": "Acquise avec le manteau du bandit. Très recherchée par les collectionneurs. <STYL MOJI_YELLOW_DEFAULT>(Objet à vendre)</STYL>",
+            "fre": "Acquise avec la cape du voleur. Très recherchée par les collectionneurs. <STYL MOJI_YELLOW_DEFAULT>(Objet à vendre)</STYL>",
             "spa": "Se consigue con el manto de bandido. Muy demandada entre coleccionistas. <STYL MOJI_YELLOW_DEFAULT>(Objeto vendible)</STYL>",
             "ger": "Durch den Einsatz des Banditen-Mantels erhalten. Unter Sammlern stets begehrt. <STYL MOJI_YELLOW_DEFAULT>(Wertobjekt)</STYL>",
             "ita": "Ottenuta usando il mantello furfante. Molto richiesta tra i collezionisti. <STYL MOJI_YELLOW_DEFAULT>(Oggetto scambio)</STYL>",
@@ -17298,7 +17298,7 @@
         "description": {
             "jpn": "追い剥ぎの装衣で手に入る素材。 コレクターにも自慢できる品物。 <STYL MOJI_YELLOW_DEFAULT>（換金アイテム）</STYL>",
             "eng": "Acquired by using the Bandit Mantle. A source of pride for any collector. <STYL MOJI_YELLOW_DEFAULT>(Trade-in Item)</STYL>",
-            "fre": "Acquise avec le manteau du bandit. La fierté de tout collectionneur. <STYL MOJI_YELLOW_DEFAULT>(Objet à vendre)</STYL>",
+            "fre": "Acquise avec la cape du voleur. La fierté de tout collectionneur. <STYL MOJI_YELLOW_DEFAULT>(Objet à vendre)</STYL>",
             "spa": "Se consigue con el manto de bandido. Una fuente de orgullo para cualquier coleccionista. <STYL MOJI_YELLOW_DEFAULT>(Objeto vendible)</STYL>",
             "ger": "Durch den Einsatz des Banditen-Mantels erhalten. Der Stolz eines jeden Sammlers. <STYL MOJI_YELLOW_DEFAULT>(Wertobjekt)</STYL>",
             "ita": "Ottenuta usando il mantello furfante. Fonte di orgoglio di molti collezionisti. <STYL MOJI_YELLOW_DEFAULT>(Oggetto scambio)</STYL>",
@@ -17335,7 +17335,7 @@
         "description": {
             "jpn": "追い剥ぎの装衣で手に入る素材。 コレクターが求めてやまない逸品。 <STYL MOJI_YELLOW_DEFAULT>（換金アイテム）</STYL>",
             "eng": "Acquired by using the Bandit Mantle. A must-have for any collector. <STYL MOJI_YELLOW_DEFAULT>(Trade-in Item)</STYL>",
-            "fre": "Acquise avec le manteau du bandit. Le véritable joyau d'une collection. <STYL MOJI_YELLOW_DEFAULT>(Objet à vendre)</STYL>",
+            "fre": "Acquise avec la cape du voleur. Le véritable joyau d'une collection. <STYL MOJI_YELLOW_DEFAULT>(Objet à vendre)</STYL>",
             "spa": "Se consigue con el manto de bandido. Objeto obligado para coleccionistas. <STYL MOJI_YELLOW_DEFAULT>(Objeto vendible)</STYL>",
             "ger": "Durch den Einsatz des Banditen-Mantels erhalten. Ein Muss für absolut jeden Sammler. <STYL MOJI_YELLOW_DEFAULT>(Wertobjekt)</STYL>",
             "ita": "Ottenuta usando il mantello furfante. Molto richiesto tra i collezionisti. <STYL MOJI_YELLOW_DEFAULT>(Oggetto scambio)</STYL>",
