@@ -316,8 +316,7 @@ namespace MHWMasterDataUtils.Tester
             ArmorPiece[] heads = new HeadEquipmentBuilder(
                 equipment,
                 equipmentLanguages,
-                equipmentCraft,
-                equipmentUpgrades
+                equipmentCraft
             ).Build();
             SerializeJson("heads", heads);
 

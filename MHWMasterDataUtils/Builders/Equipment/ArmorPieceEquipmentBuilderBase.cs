@@ -15,8 +15,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
             Predicate<EquipmentPrimitive> filter,
             EquipmentPackageProcessor equipments,
             LanguagePackageProcessor equipmentLanguages,
-            EquipmentCraftPackageProcessor<core.EquipmentType> equipmentCraft,
-            EquipmentUpgradePackageProcessor equipmentUpgrade
+            EquipmentCraftPackageProcessor<core.EquipmentType> equipmentCraft
 
         )
             : base(
@@ -24,8 +23,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
                   filter,
                   equipments,
                   equipmentLanguages,
-                  equipmentCraft,
-                  equipmentUpgrade
+                  equipmentCraft
             )
         {
         }

@@ -12,16 +12,14 @@ namespace MHWMasterDataUtils.Builders.Equipment
         public HeadEquipmentBuilder(
             EquipmentPackageProcessor equipments,
             LanguagePackageProcessor equipmentLanguages,
-            EquipmentCraftPackageProcessor<EquipmentType> equipmentCraft,
-            EquipmentUpgradePackageProcessor equipmentUpgrade
+            EquipmentCraftPackageProcessor<EquipmentType> equipmentCraft
         )
             : base(
                   EquipmentType.Head,
                   x => x.EquipSlot == EquipmentTypePrimitive.Head && x.Type == ArmorTypePrimitive.Regular || x.Type == ArmorTypePrimitive.FullSet,
                   equipments,
                   equipmentLanguages,
-                  equipmentCraft,
-                  equipmentUpgrade
+                  equipmentCraft
             )
         {
         }

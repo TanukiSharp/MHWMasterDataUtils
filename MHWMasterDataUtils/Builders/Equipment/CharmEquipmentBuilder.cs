@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using MHWMasterDataUtils.Core;
 using MHWMasterDataUtils.Equipment;
@@ -9,6 +10,8 @@ namespace MHWMasterDataUtils.Builders.Equipment
 {
     public class CharmEquipmentBuilder : EquipmentBuilderBase<Charm>
     {
+        private readonly Dictionary<ushort, EquipmentUpgradeEntryPrimitive> equipmentUpgrades;
+
         public CharmEquipmentBuilder(
             EquipmentPackageProcessor equipments,
             LanguagePackageProcessor equipmentLanguages,
@@ -20,10 +23,34 @@ namespace MHWMasterDataUtils.Builders.Equipment
                   x => x.EquipSlot == EquipmentTypePrimitive.Charm,
                   equipments,
                   equipmentLanguages,
-                  equipmentCraft,
-                  equipmentUpgrades
+                  equipmentCraft
             )
         {
+            this.equipmentUpgrades = equipmentUpgrades.Table[(byte)EquipmentType.Charm];
+        }
+
+        protected override Craft CreateCraft(EquipmentPrimitive equipment)
+        {
+            Craft craft = base.CreateCraft(equipment);
+
+            if (craft != null)
+                return craft;
+
+            if (equipmentUpgrades.TryGetValue(equipment.Id, out EquipmentUpgradeEntryPrimitive upgradeEntry) == false)
+                return null;
+
+            var result = new List<CraftItem>();
+
+            TryAddCraft(result, upgradeEntry.Item1Id, upgradeEntry.Item1Quantity);
+            TryAddCraft(result, upgradeEntry.Item2Id, upgradeEntry.Item2Quantity);
+            TryAddCraft(result, upgradeEntry.Item3Id, upgradeEntry.Item3Quantity);
+            TryAddCraft(result, upgradeEntry.Item4Id, upgradeEntry.Item4Quantity);
+
+            return new Craft
+            {
+                IsCraftable = false,
+                Items = result.ToArray()
+            };
         }
     }
 }

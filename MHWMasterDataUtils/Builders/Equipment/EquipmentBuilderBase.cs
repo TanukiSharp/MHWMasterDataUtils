@@ -11,27 +11,24 @@ namespace MHWMasterDataUtils.Builders.Equipment
 {
     public abstract class EquipmentBuilderBase<TEquiment> where TEquiment : core.EquipmentBase, new()
     {
-        private readonly core.EquipmentType equipmentType;
-        private readonly Predicate<EquipmentPrimitive> filter;
-        private readonly EquipmentPackageProcessor equipments;
-        private readonly LanguagePackageProcessor equipmentLanguages;
-        private readonly Dictionary<ushort, EquipmentUpgradeEntryPrimitive> equipmentUpgrades;
-        private readonly Dictionary<uint, EquipmentCraftEntryPrimitive> equipmentCraft;
+        protected readonly core.EquipmentType equipmentType;
+        protected readonly Predicate<EquipmentPrimitive> filter;
+        protected readonly EquipmentPackageProcessor equipments;
+        protected readonly LanguagePackageProcessor equipmentLanguages;
+        protected readonly Dictionary<uint, EquipmentCraftEntryPrimitive> equipmentCraft;
 
         public EquipmentBuilderBase(
             core.EquipmentType equipmentType,
             Predicate<EquipmentPrimitive> filter,
             EquipmentPackageProcessor equipments,
             LanguagePackageProcessor equipmentLanguages,
-            EquipmentCraftPackageProcessor<core.EquipmentType> equipmentCraft,
-            EquipmentUpgradePackageProcessor equipmentUpgrades
+            EquipmentCraftPackageProcessor<core.EquipmentType> equipmentCraft
         )
         {
             this.equipmentType = equipmentType;
             this.filter = filter;
             this.equipments = equipments;
             this.equipmentLanguages = equipmentLanguages;
-            this.equipmentUpgrades = equipmentUpgrades.Table[(byte)equipmentType];
             this.equipmentCraft = equipmentCraft.Table[equipmentType];
         }
 
@@ -68,43 +65,30 @@ namespace MHWMasterDataUtils.Builders.Equipment
         {
         }
 
-        private static void TryAddCraft(List<core.CraftItem> crafts, ushort id, byte quantity)
+        protected static void TryAddCraft(List<core.CraftItem> crafts, ushort id, byte quantity)
         {
             if (quantity > 0)
                 crafts.Add(new core.CraftItem { Id = id, Quantity = quantity });
         }
 
-        private core.Craft CreateCraft(EquipmentPrimitive equipment)
+        protected virtual core.Craft CreateCraft(EquipmentPrimitive equipment)
         {
-            bool isCraftable;
+            if (equipmentCraft.TryGetValue(equipment.Id, out EquipmentCraftEntryPrimitive craftEntry) == false)
+                return null;
+
             var result = new List<core.CraftItem>();
 
-            if (equipmentCraft.TryGetValue(equipment.Id, out EquipmentCraftEntryPrimitive craftEntry))
-            {
-                isCraftable = true;
-                TryAddCraft(result, craftEntry.Item1Id, craftEntry.Item1Quantity);
-                TryAddCraft(result, craftEntry.Item2Id, craftEntry.Item2Quantity);
-                TryAddCraft(result, craftEntry.Item3Id, craftEntry.Item3Quantity);
-                TryAddCraft(result, craftEntry.Item4Id, craftEntry.Item4Quantity);
-            }
-            else if (equipmentUpgrades.TryGetValue(equipment.Id, out EquipmentUpgradeEntryPrimitive upgradeEntry))
-            {
-                isCraftable = false;
-                TryAddCraft(result, upgradeEntry.Item1Id, upgradeEntry.Item1Quantity);
-                TryAddCraft(result, upgradeEntry.Item2Id, upgradeEntry.Item2Quantity);
-                TryAddCraft(result, upgradeEntry.Item3Id, upgradeEntry.Item3Quantity);
-                TryAddCraft(result, upgradeEntry.Item4Id, upgradeEntry.Item4Quantity);
-            }
-            else
-                return null;
+            TryAddCraft(result, craftEntry.Item1Id, craftEntry.Item1Quantity);
+            TryAddCraft(result, craftEntry.Item2Id, craftEntry.Item2Quantity);
+            TryAddCraft(result, craftEntry.Item3Id, craftEntry.Item3Quantity);
+            TryAddCraft(result, craftEntry.Item4Id, craftEntry.Item4Quantity);
 
             return new core.Craft
             {
-                IsCraftable = isCraftable,
-                Items = result.OrderBy(x => x.Id).ToArray()
+                IsCraftable = true,
+                Items = result.ToArray()
             };
         }
-
 
         private static readonly Func<string, string>[] languageValueProcessors = new Func<string, string>[]
         {   

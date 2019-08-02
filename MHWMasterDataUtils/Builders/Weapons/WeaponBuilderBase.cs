@@ -221,7 +221,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
             return new core.Craft
             {
                 IsCraftable = isCraftable,
-                Items = result.OrderBy(x => x.Id).ToArray()
+                Items = result.ToArray()
             };
         }
 
