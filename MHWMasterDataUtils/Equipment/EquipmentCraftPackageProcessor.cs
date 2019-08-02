@@ -4,28 +4,28 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MHWMasterDataUtils.Crafting
+namespace MHWMasterDataUtils.Equipment
 {
-    public class CraftPackageProcessor<TEquipmentType> : PackageProcessorBase
+    public class EquipmentCraftPackageProcessor<TEquipmentType> : PackageProcessorBase
     {
-        public Dictionary<TEquipmentType, Dictionary<uint, CraftEntryPrimitive>> Table { get; } = new Dictionary<TEquipmentType, Dictionary<uint, CraftEntryPrimitive>>();
+        public Dictionary<TEquipmentType, Dictionary<uint, EquipmentCraftEntryPrimitive>> Table { get; } = new Dictionary<TEquipmentType, Dictionary<uint, EquipmentCraftEntryPrimitive>>();
 
         private readonly ushort headerValue = 0x51;
 
-        static CraftPackageProcessor()
+        static EquipmentCraftPackageProcessor()
         {
             if (typeof(TEquipmentType).IsEnum == false)
                 throw new InvalidOperationException($"Type argument '{nameof(TEquipmentType)}' must be of type enum.");
         }
 
-        public CraftEntryPrimitive GetEntry(TEquipmentType equipmentType, uint equipmentId)
+        public EquipmentCraftEntryPrimitive GetEntry(TEquipmentType equipmentType, uint equipmentId)
         {
             return Table[equipmentType][equipmentId];
         }
 
-        public bool TryGetEntry(TEquipmentType equipmentType, uint equipmentId, out CraftEntryPrimitive entry)
+        public bool TryGetEntry(TEquipmentType equipmentType, uint equipmentId, out EquipmentCraftEntryPrimitive entry)
         {
-            if (Table.TryGetValue(equipmentType, out Dictionary<uint, CraftEntryPrimitive> entries) == false)
+            if (Table.TryGetValue(equipmentType, out Dictionary<uint, EquipmentCraftEntryPrimitive> entries) == false)
             {
                 entry = default;
                 return false;
@@ -47,12 +47,12 @@ namespace MHWMasterDataUtils.Crafting
             return false;
         }
 
-        public CraftPackageProcessor(string matchingChunkFullFilename)
+        public EquipmentCraftPackageProcessor(string matchingChunkFullFilename)
             : this(new[] { matchingChunkFullFilename })
         {
         }
 
-        public CraftPackageProcessor(IEnumerable<string> matchingChunkFullFilenames)
+        public EquipmentCraftPackageProcessor(IEnumerable<string> matchingChunkFullFilenames)
         {
             this.matchingChunkFullFilenames = matchingChunkFullFilenames;
         }
@@ -72,11 +72,11 @@ namespace MHWMasterDataUtils.Crafting
             return reader.ReadUInt32();
         }
 
-        private Dictionary<uint, CraftEntryPrimitive> GetOrAddCraftEntriesStorage(TEquipmentType equipmentType)
+        private Dictionary<uint, EquipmentCraftEntryPrimitive> GetOrAddCraftEntriesStorage(TEquipmentType equipmentType)
         {
-            if (Table.TryGetValue(equipmentType, out Dictionary<uint, CraftEntryPrimitive> storage) == false)
+            if (Table.TryGetValue(equipmentType, out Dictionary<uint, EquipmentCraftEntryPrimitive> storage) == false)
             {
-                storage = new Dictionary<uint, CraftEntryPrimitive>();
+                storage = new Dictionary<uint, EquipmentCraftEntryPrimitive>();
                 Table.Add(equipmentType, storage);
             }
 
@@ -91,9 +91,9 @@ namespace MHWMasterDataUtils.Crafting
 
                 for (uint i = 0; i < numEntries; i++)
                 {
-                    var entry = CraftEntryPrimitive.Read(reader);
+                    var entry = EquipmentCraftEntryPrimitive.Read(reader);
 
-                    Dictionary<uint, CraftEntryPrimitive> storage = GetOrAddCraftEntriesStorage((TEquipmentType)Enum.ToObject(typeof(TEquipmentType), entry.EquipType));
+                    Dictionary<uint, EquipmentCraftEntryPrimitive> storage = GetOrAddCraftEntriesStorage((TEquipmentType)Enum.ToObject(typeof(TEquipmentType), entry.EquipType));
 
                     if (storage.ContainsKey(entry.EquipId) == false)
                         storage.Add(entry.EquipId, entry);

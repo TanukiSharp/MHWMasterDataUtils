@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Weapons
 {
     public class SwitchAxePhialPrimitive
     {

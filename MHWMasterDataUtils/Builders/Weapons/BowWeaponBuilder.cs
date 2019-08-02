@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using MHWMasterDataUtils.Crafting;
+using MHWMasterDataUtils.Equipment;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Weapons;
-using MHWMasterDataUtils.Weapons.Primitives;
 
 using core = MHWMasterDataUtils.Core;
 
@@ -17,8 +16,8 @@ namespace MHWMasterDataUtils.Builders.Weapons
         public BowWeaponBuilder(
             LanguagePackageProcessor weaponsLanguages,
             WeaponsPackageProcessor weaponsPackageProcessor,
-            CraftPackageProcessor<core.WeaponType> craftPackageProcessor,
-            WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
+            EquipmentCraftPackageProcessor<core.WeaponType> craftPackageProcessor,
+            EquipmentUpgradePackageProcessor equipmentUpgradePackageProcessor,
             BowBottleTablePackageProcessor bowBottles
         )
             : base(
@@ -26,7 +25,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
                   weaponsLanguages,
                   weaponsPackageProcessor,
                   craftPackageProcessor,
-                  weaponUpgradePackageProcessor
+                  equipmentUpgradePackageProcessor
             )
         {
             this.bowBottles = bowBottles;

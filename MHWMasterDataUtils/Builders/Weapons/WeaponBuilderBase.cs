@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using MHWMasterDataUtils.Crafting;
+using MHWMasterDataUtils.Equipment;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Weapons;
-using MHWMasterDataUtils.Weapons.Primitives;
 
 using core = MHWMasterDataUtils.Core;
 
@@ -17,18 +16,18 @@ namespace MHWMasterDataUtils.Builders.Weapons
         public core.WeaponType WeaponType { get; }
 
         protected readonly LanguagePackageProcessor weaponsLanguages;
-        protected readonly CraftPackageProcessor<core.WeaponType> craftPackageProcessor;
+        protected readonly EquipmentCraftPackageProcessor<core.WeaponType> craftPackageProcessor;
 
         protected readonly Dictionary<uint, WeaponPrimitiveBase> weapons;
-        protected readonly Dictionary<ushort, WeaponUpgradeEntryPrimitive> weaponUpgrades;
+        protected readonly Dictionary<ushort, EquipmentUpgradeEntryPrimitive> equipmentUpgrades;
         protected readonly Dictionary<(core.WeaponType, uint), uint> weaponIndices = new Dictionary<(core.WeaponType, uint), uint>();
 
         protected WeaponBuilderBase(
             core.WeaponType weaponType,
             LanguagePackageProcessor weaponsLanguages,
             WeaponsPackageProcessor weaponsPackageProcessor,
-            CraftPackageProcessor<core.WeaponType> craftPackageProcessor,
-            WeaponUpgradePackageProcessor weaponUpgradePackageProcessor
+            EquipmentCraftPackageProcessor<core.WeaponType> craftPackageProcessor,
+            EquipmentUpgradePackageProcessor equipmentUpgradePackageProcessor
         )
         {
             WeaponType = weaponType;
@@ -37,7 +36,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
             this.craftPackageProcessor = craftPackageProcessor;
 
             weapons = weaponsPackageProcessor.Table[weaponType];
-            weaponUpgrades = weaponUpgradePackageProcessor.Table[weaponType];
+            equipmentUpgrades = equipmentUpgradePackageProcessor.Table[(byte)weaponType];
 
             CreateAllWeaponIndices(weaponsPackageProcessor.Table);
         }
@@ -105,13 +104,13 @@ namespace MHWMasterDataUtils.Builders.Weapons
         {
             foreach (TIntermediateWeapon weapon in weapons)
             {
-                if (weaponUpgrades.TryGetValue((ushort)weapon.Id, out WeaponUpgradeEntryPrimitive weaponUpgradeEntry) == false)
+                if (equipmentUpgrades.TryGetValue((ushort)weapon.Id, out EquipmentUpgradeEntryPrimitive equipmentUpgradeEntry) == false)
                     continue;
 
-                if (weaponUpgradeEntry.Descendant1Id == oneBasedWeaponIndex ||
-                    weaponUpgradeEntry.Descendant2Id == oneBasedWeaponIndex ||
-                    weaponUpgradeEntry.Descendant3Id == oneBasedWeaponIndex ||
-                    weaponUpgradeEntry.Descendant4Id == oneBasedWeaponIndex)
+                if (equipmentUpgradeEntry.Descendant1Id == oneBasedWeaponIndex ||
+                    equipmentUpgradeEntry.Descendant2Id == oneBasedWeaponIndex ||
+                    equipmentUpgradeEntry.Descendant3Id == oneBasedWeaponIndex ||
+                    equipmentUpgradeEntry.Descendant4Id == oneBasedWeaponIndex)
                     return (int)weapon.Id;
             }
 
@@ -200,7 +199,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
             bool isCraftable;
             var result = new List<core.CraftItem>();
 
-            if (craftPackageProcessor.TryGetEntry(weapon.WeaponType, weapon.Id, out CraftEntryPrimitive craftEntry))
+            if (craftPackageProcessor.TryGetEntry(weapon.WeaponType, weapon.Id, out EquipmentCraftEntryPrimitive craftEntry))
             {
                 isCraftable = true;
                 TryAddCraft(result, craftEntry.Item1Id, craftEntry.Item1Quantity);
@@ -208,7 +207,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
                 TryAddCraft(result, craftEntry.Item3Id, craftEntry.Item3Quantity);
                 TryAddCraft(result, craftEntry.Item4Id, craftEntry.Item4Quantity);
             }
-            else if (weaponUpgrades.TryGetValue((ushort)weapon.Id, out WeaponUpgradeEntryPrimitive upgradeEntry))
+            else if (equipmentUpgrades.TryGetValue((ushort)weapon.Id, out EquipmentUpgradeEntryPrimitive upgradeEntry))
             {
                 isCraftable = false;
                 TryAddCraft(result, upgradeEntry.Item1Id, upgradeEntry.Item1Quantity);

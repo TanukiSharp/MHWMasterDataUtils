@@ -4,7 +4,6 @@ using MHWMasterDataUtils.Builders;
 using MHWMasterDataUtils.Builders.Equipment;
 using MHWMasterDataUtils.Builders.Weapons;
 using MHWMasterDataUtils.Core;
-using MHWMasterDataUtils.Crafting;
 using MHWMasterDataUtils.Equipment;
 using MHWMasterDataUtils.Items;
 using MHWMasterDataUtils.Jewels;
@@ -51,17 +50,17 @@ namespace MHWMasterDataUtils.Tester
 
             var DEBUG = new PrintFilenamePackageProcessor(logger);
 
-            var equipmentUpgrades = new WeaponUpgradePackageProcessor("/common/equip/equip_custom.eq_cus");
-            var insectUpgrades = new WeaponUpgradePackageProcessor("/common/equip/insect.eq_cus");
-            var insectElemntUpgrades = new WeaponUpgradePackageProcessor("/common/equip/insect_element.eq_cus");
-            var weaponUpgrades = new WeaponUpgradePackageProcessor("/common/equip/weapon.eq_cus");
+            var equipmentUpgrades = new EquipmentUpgradePackageProcessor("/common/equip/equip_custom.eq_cus");
+            var insectUpgrades = new EquipmentUpgradePackageProcessor("/common/equip/insect.eq_cus");
+            var insectElemntUpgrades = new EquipmentUpgradePackageProcessor("/common/equip/insect_element.eq_cus");
+            var weaponUpgrades = new EquipmentUpgradePackageProcessor("/common/equip/weapon.eq_cus");
 
             var jewels = new JewelPackageProcessor();
             var items = new ItemsPackageProcessor();
             var sharpness = new SharpnessPackageProcessor();
 
-            var armorCraft = new CraftPackageProcessor<EquipmentType>("/common/equip/armor.eq_crt");
-            var weaponCraft = new CraftPackageProcessor<WeaponType>("/common/equip/weapon.eq_crt");
+            var equipmentCraft = new EquipmentCraftPackageProcessor<EquipmentType>("/common/equip/armor.eq_crt");
+            var weaponCraft = new EquipmentCraftPackageProcessor<WeaponType>("/common/equip/weapon.eq_crt");
 
             var greatSwordLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.GreatSword));
             var hammerLanguages = new LanguagePackageProcessor(WeaponsUtils.WeaponToLanguageFile(WeaponType.Hammer));
@@ -112,7 +111,7 @@ namespace MHWMasterDataUtils.Tester
                 jewels,
                 items,
                 sharpness,
-                armorCraft,
+                equipmentCraft,
                 weaponCraft,
                 greatSwordLanguages,
                 hammerLanguages,
@@ -301,9 +300,6 @@ namespace MHWMasterDataUtils.Tester
             ).Build();
             SerializeJson("light-bowguns", lightBowguns);
 
-            ArmorSeries[] armorSeries = new ArmorSeriesBuilder(armorSeriesLanguages).Build();
-            SerializeJson("armor-series", armorSeries);
-
             Bowgun[] heavyBowguns = new BowgunWeaponBuilder(
                 WeaponType.HeavyBowgun,
                 heavyBowgunLanguages,
@@ -313,6 +309,9 @@ namespace MHWMasterDataUtils.Tester
                 ammos
             ).Build();
             SerializeJson("heavy-bowguns", heavyBowguns);
+
+            ArmorSeries[] armorSeries = new ArmorSeriesBuilder(armorSeriesLanguages).Build();
+            SerializeJson("armor-series", armorSeries);
 
             ArmorPiece[] heads = new HeadEquipmentBuilder(
                 equipment,

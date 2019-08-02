@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using MHWMasterDataUtils.Core;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Weapons
 {
     public class MeleeWeaponPrimitiveBase : WeaponPrimitiveBase
     {

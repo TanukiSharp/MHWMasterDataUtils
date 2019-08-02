@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 using MHWMasterDataUtils.Core;
 
-namespace MHWMasterDataUtils.Crafting
+namespace MHWMasterDataUtils.Equipment
 {
-    public class CraftEntryPrimitive : IEquatable<CraftEntryPrimitive>
+    public class EquipmentUpgradeEntryPrimitive
     {
         public readonly byte EquipType;
         public readonly ushort EquipId;
-        public readonly ushort KeyItem;
-        public readonly uint Rank;
+        public readonly ushort KeyItemId;
         public readonly ushort Item1Id; // see ITM
         public readonly byte Item1Quantity;
         public readonly ushort Item2Id; // see ITM
@@ -19,12 +18,16 @@ namespace MHWMasterDataUtils.Crafting
         public readonly byte Item3Quantity;
         public readonly ushort Item4Id; // see ITM
         public readonly byte Item4Quantity;
+        public readonly ushort Descendant1Id;
+        public readonly ushort Descendant2Id;
+        public readonly ushort Descendant3Id;
+        public readonly ushort Descendant4Id;
+        public readonly byte Group;
 
-        private CraftEntryPrimitive(
+        private EquipmentUpgradeEntryPrimitive(
             byte equipType,
             ushort equipId,
-            ushort keyItem,
-            uint rank,
+            ushort keyItemId,
             ushort item1Id,
             byte item1Quantity,
             ushort item2Id,
@@ -32,13 +35,17 @@ namespace MHWMasterDataUtils.Crafting
             ushort item3Id,
             byte item3Quantity,
             ushort item4Id,
-            byte item4Quantity
+            byte item4Quantity,
+            ushort descendant1Id,
+            ushort descendant2Id,
+            ushort descendant3Id,
+            ushort descendant4Id,
+            byte group
         )
         {
             EquipType = equipType;
             EquipId = equipId;
-            KeyItem = keyItem;
-            Rank = rank;
+            KeyItemId = keyItemId;
             Item1Id = item1Id;
             Item1Quantity = item1Quantity;
             Item2Id = item2Id;
@@ -47,15 +54,19 @@ namespace MHWMasterDataUtils.Crafting
             Item3Quantity = item3Quantity;
             Item4Id = item4Id;
             Item4Quantity = item4Quantity;
+            Descendant1Id = descendant1Id;
+            Descendant2Id = descendant2Id;
+            Descendant3Id = descendant3Id;
+            Descendant4Id = descendant4Id;
+            Group = group;
         }
 
-        public static CraftEntryPrimitive Read(Reader reader)
+        public static EquipmentUpgradeEntryPrimitive Read(Reader reader)
         {
             byte equipType = reader.ReadByte();
             ushort equipId = reader.ReadUInt16();
-            ushort keyItem = reader.ReadUInt16();
-            reader.Offset(8); // Skipp unknown1 and unknown2.
-            uint rank = reader.ReadUInt32();
+            ushort keyItemId = reader.ReadUInt16();
+            reader.Offset(12); // Skip unk1, unk2 and unk3.
             ushort item1Id = reader.ReadUInt16();
             byte item1Quantity = reader.ReadByte();
             ushort item2Id = reader.ReadUInt16();
@@ -64,13 +75,18 @@ namespace MHWMasterDataUtils.Crafting
             byte item3Quantity = reader.ReadByte();
             ushort item4Id = reader.ReadUInt16();
             byte item4Quantity = reader.ReadByte();
-            reader.Offset(4); // Skip unknown3, unknown4, unknown5 and unknown6.
+            ushort descendant1Id = reader.ReadUInt16();
+            ushort descendant2Id = reader.ReadUInt16();
+            ushort descendant3Id = reader.ReadUInt16();
+            ushort descendant4Id = reader.ReadUInt16();
+            reader.Offset(1); // Skip unk4.
+            byte group = reader.ReadByte();
+            reader.Offset(2); // Skip unk5.
 
-            return new CraftEntryPrimitive(
+            return new EquipmentUpgradeEntryPrimitive(
                 equipType,
                 equipId,
-                keyItem,
-                rank,
+                keyItemId,
                 item1Id,
                 item1Quantity,
                 item2Id,
@@ -78,43 +94,13 @@ namespace MHWMasterDataUtils.Crafting
                 item3Id,
                 item3Quantity,
                 item4Id,
-                item4Quantity
+                item4Quantity,
+                descendant1Id,
+                descendant2Id,
+                descendant3Id,
+                descendant4Id,
+                group
             );
-        }
-
-        public bool Equals(CraftEntryPrimitive other)
-        {
-            if (other.EquipType != EquipType)
-                return false;
-            if (other.EquipId != EquipId)
-                return false;
-            if (other.KeyItem != KeyItem)
-                return false;
-            if (other.Rank != Rank)
-                return false;
-            if (other.Item1Id != Item1Id)
-                return false;
-            if (other.Item1Quantity != Item1Quantity)
-                return false;
-            if (other.Item2Id != Item2Id)
-                return false;
-            if (other.Item2Quantity != Item2Quantity)
-                return false;
-            if (other.Item3Id != Item3Id)
-                return false;
-            if (other.Item3Quantity != Item3Quantity)
-                return false;
-            if (other.Item4Id != Item4Id)
-                return false;
-            if (other.Item4Quantity != Item4Quantity)
-                return false;
-
-            return true;
-        }
-
-        public override string ToString()
-        {
-            return $"[{KeyItem}] type: {(WeaponType)EquipType} / {(EquipmentType)EquipType}, equipId: {EquipId}";
         }
     }
 }

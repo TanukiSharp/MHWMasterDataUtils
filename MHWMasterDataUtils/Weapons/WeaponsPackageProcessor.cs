@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MHWMasterDataUtils.Core;
-using MHWMasterDataUtils.Weapons.Primitives;
 
 namespace MHWMasterDataUtils.Weapons
 {

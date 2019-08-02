@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Weapons;
-using MHWMasterDataUtils.Weapons.Primitives;
 
 using core = MHWMasterDataUtils.Core;
 

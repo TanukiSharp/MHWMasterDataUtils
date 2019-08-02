@@ -4,7 +4,7 @@ using System.Text;
 using MHWMasterDataUtils.Core;
 using Newtonsoft.Json;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Weapons
 {
     public class HuntingHornSongPrimitive
     {

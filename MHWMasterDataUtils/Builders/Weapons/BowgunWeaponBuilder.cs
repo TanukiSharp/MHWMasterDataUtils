@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using MHWMasterDataUtils.Crafting;
+using MHWMasterDataUtils.Equipment;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Weapons;
-using MHWMasterDataUtils.Weapons.Primitives;
 
 using core = MHWMasterDataUtils.Core;
 
@@ -17,8 +16,8 @@ namespace MHWMasterDataUtils.Builders.Weapons
             core.WeaponType weaponType,
             LanguagePackageProcessor weaponsLanguages,
             WeaponsPackageProcessor weaponsPackageProcessor,
-            CraftPackageProcessor<core.WeaponType> craftPackageProcessor,
-            WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
+            EquipmentCraftPackageProcessor<core.WeaponType> craftPackageProcessor,
+            EquipmentUpgradePackageProcessor equipmentUpgradePackageProcessor,
             AmmoPackageProcessor ammos
         )
             : base(
@@ -26,7 +25,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
                   weaponsLanguages,
                   weaponsPackageProcessor,
                   craftPackageProcessor,
-                  weaponUpgradePackageProcessor
+                  equipmentUpgradePackageProcessor
             )
         {
             if (weaponType != core.WeaponType.LightBowgun && weaponType != core.WeaponType.HeavyBowgun)

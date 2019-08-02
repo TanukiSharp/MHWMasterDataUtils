@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using MHWMasterDataUtils.Crafting;
+using MHWMasterDataUtils.Equipment;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Sharpness;
 using MHWMasterDataUtils.Weapons;
-using MHWMasterDataUtils.Weapons.Primitives;
 
 using core = MHWMasterDataUtils.Core;
 
@@ -19,8 +18,8 @@ namespace MHWMasterDataUtils.Builders.Weapons
             core.WeaponType weaponType,
             LanguagePackageProcessor weaponsLanguages,
             WeaponsPackageProcessor weaponsPackageProcessor,
-            CraftPackageProcessor<core.WeaponType> craftPackageProcessor,
-            WeaponUpgradePackageProcessor weaponUpgradePackageProcessor,
+            EquipmentCraftPackageProcessor<core.WeaponType> craftPackageProcessor,
+            EquipmentUpgradePackageProcessor equipmentUpgradePackageProcessor,
             SharpnessPackageProcessor sharpnessPackageProcessor
         )
             : base(
@@ -28,7 +27,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
                   weaponsLanguages,
                   weaponsPackageProcessor,
                   craftPackageProcessor,
-                  weaponUpgradePackageProcessor
+                  equipmentUpgradePackageProcessor
             )
         {
             this.sharpnessPackageProcessor = sharpnessPackageProcessor;

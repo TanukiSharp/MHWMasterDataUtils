@@ -3,20 +3,19 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using MHWMasterDataUtils.Weapons.Primitives;
 
 using core = MHWMasterDataUtils.Core;
 
-namespace MHWMasterDataUtils.Weapons
+namespace MHWMasterDataUtils.Equipment
 {
-    public class WeaponUpgradePackageProcessor : PackageProcessorBase
+    public class EquipmentUpgradePackageProcessor : PackageProcessorBase
     {
         public string MatchingChunkFullFilename { get; }
-        public Dictionary<core.WeaponType, Dictionary<ushort, WeaponUpgradeEntryPrimitive>> Table { get; } = new Dictionary<core.WeaponType, Dictionary<ushort, WeaponUpgradeEntryPrimitive>>();
+        public Dictionary<byte, Dictionary<ushort, EquipmentUpgradeEntryPrimitive>> Table { get; } = new Dictionary<byte, Dictionary<ushort, EquipmentUpgradeEntryPrimitive>>();
 
         private const ushort headerValue = 0x0051;
 
-        public WeaponUpgradePackageProcessor(string matchingChunkFullFilename)
+        public EquipmentUpgradePackageProcessor(string matchingChunkFullFilename)
         {
             MatchingChunkFullFilename = matchingChunkFullFilename;
         }
@@ -36,13 +35,13 @@ namespace MHWMasterDataUtils.Weapons
         {
             ushort headerValue = reader.ReadUInt16();
 
-            if (headerValue != WeaponUpgradePackageProcessor.headerValue)
-                throw new FormatException($"Invalid header in file '{reader.Filename ?? "<unknown>"}'. Expected {WeaponUpgradePackageProcessor.headerValue:x4}, read {headerValue:x4}.");
+            if (headerValue != EquipmentUpgradePackageProcessor.headerValue)
+                throw new FormatException($"Invalid header in file '{reader.Filename ?? "<unknown>"}'. Expected {EquipmentUpgradePackageProcessor.headerValue:x4}, read {headerValue:x4}.");
 
             return reader.ReadUInt32();
         }
 
-        public static bool HasDescendants(WeaponUpgradeEntryPrimitive entry)
+        public static bool HasDescendants(EquipmentUpgradeEntryPrimitive entry)
         {
             return entry.Descendant1Id > 0 || entry.Descendant2Id > 0 || entry.Descendant3Id > 0 || entry.Descendant4Id > 0;
         }
@@ -55,15 +54,15 @@ namespace MHWMasterDataUtils.Weapons
 
                 for (uint i = 0; i < numEntries; i++)
                 {
-                    var entry = WeaponUpgradeEntryPrimitive.Read(reader);
+                    var entry = EquipmentUpgradeEntryPrimitive.Read(reader);
 
-                    if (Table.TryGetValue(entry.EquipType, out Dictionary<ushort, WeaponUpgradeEntryPrimitive> perWeaponEntries) == false)
+                    if (Table.TryGetValue(entry.EquipType, out Dictionary<ushort, EquipmentUpgradeEntryPrimitive> perWeaponEntries) == false)
                     {
-                        perWeaponEntries = new Dictionary<ushort, WeaponUpgradeEntryPrimitive>();
+                        perWeaponEntries = new Dictionary<ushort, EquipmentUpgradeEntryPrimitive>();
                         Table.Add(entry.EquipType, perWeaponEntries);
                     }
 
-                    if (perWeaponEntries.TryGetValue(entry.EquipId, out WeaponUpgradeEntryPrimitive existingEntry) == false || HasDescendants(existingEntry) == false)
+                    if (perWeaponEntries.TryGetValue(entry.EquipId, out EquipmentUpgradeEntryPrimitive existingEntry) == false || HasDescendants(existingEntry) == false)
                         perWeaponEntries[entry.EquipId] = entry;
                 }
             }

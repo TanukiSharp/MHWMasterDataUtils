@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using MHWMasterDataUtils.Core;
 
-namespace MHWMasterDataUtils.Weapons.Primitives
+namespace MHWMasterDataUtils.Weapons
 {
     public class InsectEntryPrimitive
     {
