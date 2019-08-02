@@ -1,0 +1,3854 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "jpn": "レザー",
+            "eng": "Leather",
+            "fre": "Cuir",
+            "spa": "Cuero",
+            "ger": "Leder-Set",
+            "ita": "Cuoio",
+            "kor": "레더",
+            "cnt": "皮製",
+            "cns": "皮制",
+            "rus": "Кожаный",
+            "pol": "Skórzany",
+            "ptb": "Couro",
+            "ara": "جلدي"
+        }
+    },
+    {
+        "id": 2,
+        "name": {
+            "jpn": "ハンター",
+            "eng": "Hunter's",
+            "fre": "Chasseur",
+            "spa": "Cazador",
+            "ger": "Jäger-Set",
+            "ita": "Cacciatore",
+            "kor": "헌터",
+            "cnt": "獵人",
+            "cns": "猎人",
+            "rus": "Охотничий",
+            "pol": "Łowcy",
+            "ptb": "do Caçador",
+            "ara": "خاص بالصيّاد"
+        }
+    },
+    {
+        "id": 3,
+        "name": {
+            "jpn": "ジャナフ",
+            "eng": "Anja",
+            "fre": "Anjanath",
+            "spa": "Anja",
+            "ger": "Anjanath-Set",
+            "ita": "Anja",
+            "kor": "쟈나프",
+            "cnt": "蠻顎龍",
+            "cns": "蛮颚龙",
+            "rus": "Анджи",
+            "pol": "Anja",
+            "ptb": "Anja",
+            "ara": "أنجا"
+        }
+    },
+    {
+        "id": 4,
+        "name": {
+            "jpn": "ジャグラス",
+            "eng": "Jagras",
+            "fre": "Jagras",
+            "spa": "Jagras",
+            "ger": "Jagras-Set",
+            "ita": "Jagras",
+            "kor": "쟈그라스",
+            "cnt": "凶豺龍",
+            "cns": "贼龙",
+            "rus": "Яграс",
+            "pol": "Jagrasa",
+            "ptb": "Jagras",
+            "ara": "جاغراس"
+        }
+    },
+    {
+        "id": 5,
+        "name": {
+            "jpn": "ボーン",
+            "eng": "Bone",
+            "fre": "Os",
+            "spa": "Hueso",
+            "ger": "Knochen-Set",
+            "ita": "Osso",
+            "kor": "본",
+            "cnt": "骨製",
+            "cns": "骨制",
+            "rus": "Кость",
+            "pol": "Kościany",
+            "ptb": "Osso",
+            "ara": "عظمي"
+        }
+    },
+    {
+        "id": 6,
+        "name": {
+            "jpn": "アロイ",
+            "eng": "Alloy",
+            "fre": "Alliage",
+            "spa": "Aleación",
+            "ger": "Legierungs-Set",
+            "ita": "Lega",
+            "kor": "얼로이",
+            "cnt": "合金",
+            "cns": "合金",
+            "rus": "Литье",
+            "pol": "Stopu",
+            "ptb": "Liga Leve",
+            "ara": "خليط معدني"
+        }
+    },
+    {
+        "id": 7,
+        "name": {
+            "jpn": "ケスト",
+            "eng": "Kestodon",
+            "fre": "Kestodon",
+            "spa": "Kestodon",
+            "ger": "Kestodon-Set",
+            "ita": "Kestodon",
+            "kor": "케스토",
+            "cnt": "冠突龍",
+            "cns": "冠突龙",
+            "rus": "Кестодон",
+            "pol": "Kestodona",
+            "ptb": "Kestodonte",
+            "ara": "كيستودون"
+        }
+    },
+    {
+        "id": 8,
+        "name": {
+            "jpn": "ガライー",
+            "eng": "Gajau",
+            "fre": "Gajau",
+            "spa": "Gajau",
+            "ger": "Gajau-Set",
+            "ita": "Gajau",
+            "kor": "가쟈우",
+            "cnt": "咬魚",
+            "cns": "咬鱼",
+            "rus": "Гаджау",
+            "pol": "Gajau",
+            "ptb": "Gajau",
+            "ara": "غاجاو"
+        }
+    },
+    {
+        "id": 9,
+        "name": {
+            "jpn": "ランゴ",
+            "eng": "Vespoid",
+            "fre": "Vespoid",
+            "spa": "Vespoid",
+            "ger": "Vespoid-Set",
+            "ita": "Vespoid",
+            "kor": "랑고",
+            "cnt": "巨蜂",
+            "cns": "巨蜂",
+            "rus": "Осоид",
+            "pol": "Vespoida",
+            "ptb": "Vespoidea",
+            "ara": "فيسبويد"
+        }
+    },
+    {
+        "id": 10,
+        "name": {
+            "jpn": "クルル",
+            "eng": "Kulu",
+            "fre": "Kulu-Ya-Ku",
+            "spa": "Kulu",
+            "ger": "Kulu-Set",
+            "ita": "Kulu",
+            "kor": "쿠루루",
+            "cnt": "搔鳥",
+            "cns": "搔鸟",
+            "rus": "Кулу",
+            "pol": "Kulu",
+            "ptb": "Kulu",
+            "ara": "كولو"
+        }
+    },
+    {
+        "id": 11,
+        "name": {
+            "jpn": "プケプケ",
+            "eng": "Pukei",
+            "fre": "Pukei-Pukei",
+            "spa": "Pukei",
+            "ger": "Pukei-Set",
+            "ita": "Pukei",
+            "kor": "푸케푸케",
+            "cnt": "毒妖鳥",
+            "cns": "毒妖鸟",
+            "rus": "Поки",
+            "pol": "Pukei",
+            "ptb": "Pukei",
+            "ara": "بوكي"
+        }
+    },
+    {
+        "id": 12,
+        "name": {
+            "jpn": "ジュラ",
+            "eng": "Jyura",
+            "fre": "Jyuratodus",
+            "spa": "Jyura",
+            "ger": "Jyuratodus-Set",
+            "ita": "Jyura",
+            "kor": "쥬라",
+            "cnt": "泥魚龍",
+            "cns": "泥鱼龙",
+            "rus": "Юратод",
+            "pol": "Jyura",
+            "ptb": "Jyura",
+            "ara": "جيورا"
+        }
+    },
+    {
+        "id": 13,
+        "name": {
+            "jpn": "ボロス",
+            "eng": "Barroth",
+            "fre": "Barroth",
+            "spa": "Barroth",
+            "ger": "Barroth-Set",
+            "ita": "Barroth",
+            "kor": "보로스",
+            "cnt": "土砂龍",
+            "cns": "土砂龙",
+            "rus": "Баррот",
+            "pol": "Barrotha",
+            "ptb": "Barroth",
+            "ara": "باروث"
+        }
+    },
+    {
+        "id": 14,
+        "name": {
+            "jpn": "カガチ",
+            "eng": "Kadachi",
+            "fre": "Tobi-Kadachi",
+            "spa": "Kadachi",
+            "ger": "Kadachi-Set",
+            "ita": "Kadachi",
+            "kor": "카가치",
+            "cnt": "飛雷龍",
+            "cns": "飞雷龙",
+            "rus": "Кадачи",
+            "pol": "Kadachi",
+            "ptb": "Kadachi",
+            "ara": "كاداتشي"
+        }
+    },
+    {
+        "id": 15,
+        "name": {
+            "jpn": "チェーン",
+            "eng": "Chainmail",
+            "fre": "Mailles",
+            "spa": "Malla",
+            "ger": "Ketten-Set",
+            "ita": "Maglia",
+            "kor": "체인",
+            "cnt": "鎖甲",
+            "cns": "锁甲",
+            "rus": "Кольчужный",
+            "pol": "Kolczy",
+            "ptb": "Cota de Malha",
+            "ara": "فولاذي"
+        }
+    },
+    {
+        "id": 17,
+        "name": {
+            "jpn": "タロス",
+            "eng": "Hornetaur",
+            "fre": "Hornetaur",
+            "spa": "Hornetaur",
+            "ger": "Hornetaur-Set",
+            "ita": "Hornetaur",
+            "kor": "타로스",
+            "cnt": "巨甲蟲",
+            "cns": "巨甲虫",
+            "rus": "Роготавр",
+            "pol": "Hornetaura",
+            "ptb": "Chifrotauro",
+            "ara": "هورنتور"
+        }
+    },
+    {
+        "id": 19,
+        "name": {
+            "jpn": "オウビート",
+            "eng": "King Beetle",
+            "fre": "Scarabée",
+            "spa": "Rey escarabajo",
+            "ger": "Königskäfer-Set",
+            "ita": "Scarabeo",
+            "kor": "킹비트",
+            "cnt": "獨角仙",
+            "cns": "独角仙",
+            "rus": "Королевский жук",
+            "pol": "Żuka królewskiego",
+            "ptb": "Besouro-rei",
+            "ara": "الخنفساء الملك"
+        }
+    },
+    {
+        "id": 20,
+        "name": {
+            "jpn": "レイア",
+            "eng": "Rathian",
+            "fre": "Rathian",
+            "spa": "Rathian",
+            "ger": "Rathian-Set",
+            "ita": "Rathian",
+            "kor": "레이아",
+            "cnt": "雌火龍",
+            "cns": "雌火龙",
+            "rus": "Ратиана",
+            "pol": "Rathiany",
+            "ptb": "Rathian",
+            "ara": "راثيان"
+        }
+    },
+    {
+        "id": 21,
+        "name": {
+            "jpn": "ギルオス",
+            "eng": "Girros",
+            "fre": "Girros",
+            "spa": "Girros",
+            "ger": "Girros-Set",
+            "ita": "Girros",
+            "kor": "기르오스",
+            "cnt": "凶顎龍",
+            "cns": "痹贼龙",
+            "rus": "Гиррос",
+            "pol": "Girrosa",
+            "ptb": "Girros",
+            "ara": "غيروس"
+        }
+    },
+    {
+        "id": 22,
+        "name": {
+            "jpn": "ツィツィ",
+            "eng": "Tzitzi",
+            "fre": "Tzitzi-Ya-Ku",
+            "spa": "Tzitzi",
+            "ger": "Tzitzi-Set",
+            "ita": "Tzitzi",
+            "kor": "치치",
+            "cnt": "眩鳥",
+            "cns": "眩鸟",
+            "rus": "Цици",
+            "pol": "Tzitzi",
+            "ptb": "Tzitzi",
+            "ara": "تسيتسي"
+        }
+    },
+    {
+        "id": 23,
+        "name": {
+            "jpn": "ウルムー",
+            "eng": "Lumu",
+            "fre": "Paolumu",
+            "spa": "Lumu",
+            "ger": "Paolumu-Set",
+            "ita": "Lumu",
+            "kor": "우르무",
+            "cnt": "浮空龍",
+            "cns": "浮空龙",
+            "rus": "Луму",
+            "pol": "Lumu",
+            "ptb": "Lumu",
+            "ara": "لومو"
+        }
+    },
+    {
+        "id": 24,
+        "name": {
+            "jpn": "ハイメタ",
+            "eng": "High Metal",
+            "fre": "Haut-métal",
+            "spa": "Megametal",
+            "ger": "Hochmetall-Set",
+            "ita": "Ipermetallo",
+            "kor": "하이메탈",
+            "cnt": "礦石",
+            "cns": "矿石",
+            "rus": "Высший металл",
+            "pol": "Metalu",
+            "ptb": "Metal Denso",
+            "ara": "معدن قوي"
+        }
+    },
+    {
+        "id": 25,
+        "name": {
+            "jpn": "デスギア",
+            "eng": "Death Stench",
+            "fre": "Putride",
+            "spa": "Pestilente",
+            "ger": "Todesgestank-Set",
+            "ita": "Putrefatto",
+            "kor": "데스기어",
+            "cnt": "死神",
+            "cns": "死神",
+            "rus": "Зловоние смерти",
+            "pol": "Rozkładu",
+            "ptb": "Putrefato",
+            "ara": "رائحة الموت"
+        }
+    },
+    {
+        "id": 26,
+        "name": {
+            "jpn": "ギエナ",
+            "eng": "Legiana",
+            "fre": "Legiana",
+            "spa": "Legiana",
+            "ger": "Legiana-Set",
+            "ita": "Legiana",
+            "kor": "기에나",
+            "cnt": "風漂龍",
+            "cns": "风漂龙",
+            "rus": "Легиана",
+            "pol": "Legiany",
+            "ptb": "Legiana",
+            "ara": "ليغيانا"
+        }
+    },
+    {
+        "id": 27,
+        "name": {
+            "jpn": "バルキン",
+            "eng": "Baan",
+            "fre": "Radobaan",
+            "spa": "Baan",
+            "ger": "Baan-Set",
+            "ita": "Baan",
+            "kor": "발킨",
+            "cnt": "骨鎚龍",
+            "cns": "骨锤龙",
+            "rus": "Баан",
+            "pol": "Baana",
+            "ptb": "Baan",
+            "ara": "بان"
+        }
+    },
+    {
+        "id": 28,
+        "name": {
+            "jpn": "ガロン",
+            "eng": "Odogaron",
+            "fre": "Odogaron",
+            "spa": "Odogaron",
+            "ger": "Odogaron-Set",
+            "ita": "Odogaron",
+            "kor": "가론",
+            "cnt": "慘爪龍",
+            "cns": "惨爪龙",
+            "rus": "Одогарон",
+            "pol": "Odogarona",
+            "ptb": "Odogaron",
+            "ara": "أودوغارون"
+        }
+    },
+    {
+        "id": 30,
+        "name": {
+            "jpn": "インゴット",
+            "eng": "Ingot",
+            "fre": "Lingot",
+            "spa": "Lingotes",
+            "ger": "Guss-Set",
+            "ita": "Lingotto",
+            "kor": "잉곳",
+            "cnt": "鑄鐵",
+            "cns": "铸铁",
+            "rus": "Драгоценный",
+            "pol": "Sztabek",
+            "ptb": "Lingote",
+            "ara": "إنغوت"
+        }
+    },
+    {
+        "id": 32,
+        "name": {
+            "jpn": "レウス",
+            "eng": "Rathalos",
+            "fre": "Rathalos",
+            "spa": "Rathalos",
+            "ger": "Rathalos-Set",
+            "ita": "Rathalos",
+            "kor": "레우스",
+            "cnt": "火龍",
+            "cns": "火龙",
+            "rus": "Раталос",
+            "pol": "Rathalosa",
+            "ptb": "Rathalos",
+            "ara": "راذالوس"
+        }
+    },
+    {
+        "id": 33,
+        "name": {
+            "jpn": "ディアブロ",
+            "eng": "Diablos",
+            "fre": "Diablos",
+            "spa": "Diablos",
+            "ger": "Diablos-Set",
+            "ita": "Diablos",
+            "kor": "디아블로",
+            "cnt": "角龍",
+            "cns": "角龙",
+            "rus": "Диаблос",
+            "pol": "Diablosa",
+            "ptb": "Diablos",
+            "ara": "ديابلوس"
+        }
+    },
+    {
+        "id": 34,
+        "name": {
+            "jpn": "キリン",
+            "eng": "Kirin",
+            "fre": "Kirin",
+            "spa": "Kirin",
+            "ger": "Kirin-Set",
+            "ita": "Kirin",
+            "kor": "키린",
+            "cnt": "麒麟",
+            "cns": "麒麟",
+            "rus": "Кирин",
+            "pol": "Kirina",
+            "ptb": "Kirin",
+            "ara": "كيرين"
+        }
+    },
+    {
+        "id": 35,
+        "name": {
+            "jpn": "ブリゲイド",
+            "eng": "Brigade",
+            "fre": "Brigade",
+            "spa": "Brigada",
+            "ger": "Brigade-Set",
+            "ita": "Brigata",
+            "kor": "브리게이드",
+            "cnt": "旅團",
+            "cns": "旅团",
+            "rus": "Почетный",
+            "pol": "Brygady",
+            "ptb": "Brigada",
+            "ara": "السرية"
+        }
+    },
+    {
+        "id": 37,
+        "name": {
+            "jpn": "レザーα",
+            "eng": "Leatherα",
+            "fre": "Cuir α",
+            "spa": "Cuero α",
+            "ger": "Leder-Set α",
+            "ita": "Cuoio α",
+            "kor": "레더α",
+            "cnt": "皮製α",
+            "cns": "皮制阿尔法",
+            "rus": "Кожаныйα",
+            "pol": "Skórzanyα",
+            "ptb": "Couroα",
+            "ara": "جلديα"
+        }
+    },
+    {
+        "id": 38,
+        "name": {
+            "jpn": "レザーβ",
+            "eng": "Leatherβ",
+            "fre": "Cuir β",
+            "spa": "Cuero β",
+            "ger": "Leder-Set β",
+            "ita": "Cuoio β",
+            "kor": "레더β",
+            "cnt": "皮製β",
+            "cns": "皮制贝塔",
+            "rus": "Кожаныйβ",
+            "pol": "Skórzanyβ",
+            "ptb": "Couroβ",
+            "ara": "جلديβ"
+        }
+    },
+    {
+        "id": 39,
+        "name": {
+            "jpn": "チェーンα",
+            "eng": "Chainmailα",
+            "fre": "Mailles α",
+            "spa": "Malla α",
+            "ger": "Ketten-Set α",
+            "ita": "Maglia α",
+            "kor": "체인α",
+            "cnt": "鎖甲α",
+            "cns": "锁甲阿尔法",
+            "rus": "Кольчужныйα",
+            "pol": "Kolczyα",
+            "ptb": "Cota de Malhaα",
+            "ara": "فولاذيα"
+        }
+    },
+    {
+        "id": 40,
+        "name": {
+            "jpn": "チェーンβ",
+            "eng": "Chainmailβ",
+            "fre": "Mailles β",
+            "spa": "Malla β",
+            "ger": "Ketten-Set β",
+            "ita": "Maglia β",
+            "kor": "체인β",
+            "cnt": "鎖甲β",
+            "cns": "锁甲贝塔",
+            "rus": "Кольчужныйβ",
+            "pol": "Kolczyβ",
+            "ptb": "Cota de Malhaβ",
+            "ara": "فولاذيβ"
+        }
+    },
+    {
+        "id": 41,
+        "name": {
+            "jpn": "ハンターα",
+            "eng": "Hunter'sα",
+            "fre": "Chasseur α",
+            "spa": "Cazador α",
+            "ger": "Jäger-Set α",
+            "ita": "Cacciatore α",
+            "kor": "헌터α",
+            "cnt": "獵人α",
+            "cns": "猎人阿尔法",
+            "rus": "Охотничийα",
+            "pol": "Łowcyα",
+            "ptb": "do Caçadorα",
+            "ara": "خاص بالصيّادα"
+        }
+    },
+    {
+        "id": 42,
+        "name": {
+            "jpn": "ハンターβ",
+            "eng": "Hunter'sβ",
+            "fre": "Chasseur β",
+            "spa": "Cazador β",
+            "ger": "Jäger-Set β",
+            "ita": "Cacciatore β",
+            "kor": "헌터β",
+            "cnt": "獵人β",
+            "cns": "猎人贝塔",
+            "rus": "Охотничийβ",
+            "pol": "Łowcyβ",
+            "ptb": "do Caçadorβ",
+            "ara": "خاص بالصيّادβ"
+        }
+    },
+    {
+        "id": 43,
+        "name": {
+            "jpn": "ボーンα",
+            "eng": "Boneα",
+            "fre": "Os α",
+            "spa": "Hueso α",
+            "ger": "Knochen-Set α",
+            "ita": "Osso α",
+            "kor": "본α",
+            "cnt": "骨製α",
+            "cns": "骨制阿尔法",
+            "rus": "Костянойα",
+            "pol": "Kościanyα",
+            "ptb": "Ossoα",
+            "ara": "عظميα"
+        }
+    },
+    {
+        "id": 44,
+        "name": {
+            "jpn": "ボーンβ",
+            "eng": "Boneβ",
+            "fre": "Os β",
+            "spa": "Hueso β",
+            "ger": "Knochen-Set β",
+            "ita": "Osso β",
+            "kor": "본β",
+            "cnt": "骨製β",
+            "cns": "骨制贝塔",
+            "rus": "Костянойβ",
+            "pol": "Kościanyβ",
+            "ptb": "Ossoβ",
+            "ara": "عظميβ"
+        }
+    },
+    {
+        "id": 45,
+        "name": {
+            "jpn": "アロイα",
+            "eng": "Alloyα",
+            "fre": "Alliage α",
+            "spa": "Aleación α",
+            "ger": "Legierungs-Set α",
+            "ita": "Lega α",
+            "kor": "얼로이α",
+            "cnt": "合金α",
+            "cns": "合金阿尔法",
+            "rus": "Литойα",
+            "pol": "Stopuα",
+            "ptb": "Liga Leveα",
+            "ara": "خليط معدنيα"
+        }
+    },
+    {
+        "id": 46,
+        "name": {
+            "jpn": "アロイβ",
+            "eng": "Alloyβ",
+            "fre": "Alliage β",
+            "spa": "Aleación β",
+            "ger": "Legierungs-Set β",
+            "ita": "Lega β",
+            "kor": "얼로이β",
+            "cnt": "合金β",
+            "cns": "合金贝塔",
+            "rus": "Литойβ",
+            "pol": "Stopuβ",
+            "ptb": "Liga Leveβ",
+            "ara": "خليط معدنيβ"
+        }
+    },
+    {
+        "id": 47,
+        "name": {
+            "jpn": "ガライーα",
+            "eng": "Gajauα",
+            "fre": "Gajau α",
+            "spa": "Gajau α",
+            "ger": "Gajau-Set α",
+            "ita": "Gajau α",
+            "kor": "가쟈우α",
+            "cnt": "咬魚α",
+            "cns": "咬鱼阿尔法",
+            "rus": "Гаджауα",
+            "pol": "Gajauα",
+            "ptb": "Gajauα",
+            "ara": "غاجاوα"
+        }
+    },
+    {
+        "id": 48,
+        "name": {
+            "jpn": "ガライーβ",
+            "eng": "Gajauβ",
+            "fre": "Gajau β",
+            "spa": "Gajau β",
+            "ger": "Gajau-Set β",
+            "ita": "Gajau β",
+            "kor": "가쟈우β",
+            "cnt": "咬魚β",
+            "cns": "咬鱼贝塔",
+            "rus": "Гаджауβ",
+            "pol": "Gajauβ",
+            "ptb": "Gajauβ",
+            "ara": "غاجاوβ"
+        }
+    },
+    {
+        "id": 49,
+        "name": {
+            "jpn": "ケストα",
+            "eng": "Kestodonα",
+            "fre": "Kestodon α",
+            "spa": "Kestodon α",
+            "ger": "Kestodon-Set α",
+            "ita": "Kestodon α",
+            "kor": "케스토α",
+            "cnt": "冠突龍α",
+            "cns": "冠突龙阿尔法",
+            "rus": "Кестодонα",
+            "pol": "Kestodonaα",
+            "ptb": "Kestodonteα",
+            "ara": "كيستودونα"
+        }
+    },
+    {
+        "id": 50,
+        "name": {
+            "jpn": "ケストβ",
+            "eng": "Kestodonβ",
+            "fre": "Kestodon β",
+            "spa": "Kestodon β",
+            "ger": "Kestodon-Set β",
+            "ita": "Kestodon β",
+            "kor": "케스토β",
+            "cnt": "冠突龍β",
+            "cns": "冠突龙贝塔",
+            "rus": "Кестодонβ",
+            "pol": "Kestodonaβ",
+            "ptb": "Kestodonteβ",
+            "ara": "كيستودونβ"
+        }
+    },
+    {
+        "id": 51,
+        "name": {
+            "jpn": "ランゴα",
+            "eng": "Vespoidα",
+            "fre": "Vespoid α",
+            "spa": "Vespoid α",
+            "ger": "Vespoid-Set α",
+            "ita": "Vespoid α",
+            "kor": "랑고α",
+            "cnt": "巨蜂α",
+            "cns": "巨蜂阿尔法",
+            "rus": "Осоидα",
+            "pol": "Vespoidaα",
+            "ptb": "Vespoideaα",
+            "ara": "فيسبويدα"
+        }
+    },
+    {
+        "id": 52,
+        "name": {
+            "jpn": "ランゴβ",
+            "eng": "Vespoidβ",
+            "fre": "Vespoid β",
+            "spa": "Vespoid β",
+            "ger": "Vespoid-Set β",
+            "ita": "Vespoid β",
+            "kor": "랑고β",
+            "cnt": "巨蜂β",
+            "cns": "巨蜂贝塔",
+            "rus": "Осоидβ",
+            "pol": "Vespoidaβ",
+            "ptb": "Vespoideaβ",
+            "ara": "فيسبويدβ"
+        }
+    },
+    {
+        "id": 53,
+        "name": {
+            "jpn": "ガストα",
+            "eng": "Gastodonα",
+            "fre": "Gastodon α",
+            "spa": "Gastodon α",
+            "ger": "Gastodon-Set α",
+            "ita": "Gastodon α",
+            "kor": "가스토α",
+            "cnt": "突擊龍α",
+            "cns": "突击龙阿尔法",
+            "rus": "Гастодонα",
+            "pol": "Gastodonaα",
+            "ptb": "Gastodonteα",
+            "ara": "غاستودونα"
+        }
+    },
+    {
+        "id": 54,
+        "name": {
+            "jpn": "ガストβ",
+            "eng": "Gastodonβ",
+            "fre": "Gastodon β",
+            "spa": "Gastodon β",
+            "ger": "Gastodon-Set β",
+            "ita": "Gastodon β",
+            "kor": "가스토β",
+            "cnt": "突擊龍β",
+            "cns": "突击龙贝塔",
+            "rus": "Гастодонβ",
+            "pol": "Gastodonaβ",
+            "ptb": "Gastodonteβ",
+            "ara": "غاستودونβ"
+        }
+    },
+    {
+        "id": 55,
+        "name": {
+            "jpn": "バルノスα",
+            "eng": "Barnosα",
+            "fre": "Barnos α",
+            "spa": "Barnos α",
+            "ger": "Barnos-Set α",
+            "ita": "Barnos α",
+            "kor": "바르노스α",
+            "cnt": "酸翼龍α",
+            "cns": "酸翼龙阿尔法",
+            "rus": "Барносα",
+            "pol": "Barnosaα",
+            "ptb": "Barnosα",
+            "ara": "بارنوسα"
+        }
+    },
+    {
+        "id": 56,
+        "name": {
+            "jpn": "バルノスβ",
+            "eng": "Barnosβ",
+            "fre": "Barnos β",
+            "spa": "Barnos β",
+            "ger": "Barnos-Set β",
+            "ita": "Barnos β",
+            "kor": "바르노스β",
+            "cnt": "酸翼龍β",
+            "cns": "酸翼龙贝塔",
+            "rus": "Барносβ",
+            "pol": "Barnosaβ",
+            "ptb": "Barnosβ",
+            "ara": "بارنوسβ"
+        }
+    },
+    {
+        "id": 57,
+        "name": {
+            "jpn": "タロスα",
+            "eng": "Hornetaurα",
+            "fre": "Hornetaur α",
+            "spa": "Hornetaur α",
+            "ger": "Hornetaur-Set α",
+            "ita": "Hornetaur α",
+            "kor": "타로스α",
+            "cnt": "巨甲蟲α",
+            "cns": "巨甲虫阿尔法",
+            "rus": "Роготаврα",
+            "pol": "Hornetauraα",
+            "ptb": "Chifrotauroα",
+            "ara": "هورنتورα"
+        }
+    },
+    {
+        "id": 58,
+        "name": {
+            "jpn": "タロスβ",
+            "eng": "Hornetaurβ",
+            "fre": "Hornetaur β",
+            "spa": "Hornetaur β",
+            "ger": "Hornetaur-Set β",
+            "ita": "Hornetaur β",
+            "kor": "타로스β",
+            "cnt": "巨甲蟲β",
+            "cns": "巨甲虫贝塔",
+            "rus": "Роготаврβ",
+            "pol": "Hornetauraβ",
+            "ptb": "Chifrotauroβ",
+            "ara": "هورنتورβ"
+        }
+    },
+    {
+        "id": 61,
+        "name": {
+            "jpn": "ジャグラスα",
+            "eng": "Jagrasα",
+            "fre": "Jagras α",
+            "spa": "Jagras α",
+            "ger": "Jagras-Set α",
+            "ita": "Jagras α",
+            "kor": "쟈그라스α",
+            "cnt": "凶豺龍α",
+            "cns": "贼龙阿尔法",
+            "rus": "Яграсα",
+            "pol": "Jagrasaα",
+            "ptb": "Jagrasα",
+            "ara": "جاغراسα"
+        }
+    },
+    {
+        "id": 62,
+        "name": {
+            "jpn": "ジャグラスβ",
+            "eng": "Jagrasβ",
+            "fre": "Jagras β",
+            "spa": "Jagras β",
+            "ger": "Jagras-Set β",
+            "ita": "Jagras β",
+            "kor": "쟈그라스β",
+            "cnt": "凶豺龍β",
+            "cns": "贼龙贝塔",
+            "rus": "Яграсβ",
+            "pol": "Jagrasaβ",
+            "ptb": "Jagrasβ",
+            "ara": "جاغراسβ"
+        }
+    },
+    {
+        "id": 63,
+        "name": {
+            "jpn": "クルルα",
+            "eng": "Kuluα",
+            "fre": "Kulu-Ya-Ku α",
+            "spa": "Kulu α",
+            "ger": "Kulu-Set α",
+            "ita": "Kulu α",
+            "kor": "쿠루루α",
+            "cnt": "搔鳥α",
+            "cns": "搔鸟阿尔法",
+            "rus": "Кулуα",
+            "pol": "Kuluα",
+            "ptb": "Kuluα",
+            "ara": "كولوα"
+        }
+    },
+    {
+        "id": 64,
+        "name": {
+            "jpn": "クルルβ",
+            "eng": "Kuluβ",
+            "fre": "Kulu-Ya-Ku β",
+            "spa": "Kulu β",
+            "ger": "Kulu-Set β",
+            "ita": "Kulu β",
+            "kor": "쿠루루β",
+            "cnt": "搔鳥β",
+            "cns": "搔鸟贝塔",
+            "rus": "Кулуβ",
+            "pol": "Kuluβ",
+            "ptb": "Kuluβ",
+            "ara": "كولوβ"
+        }
+    },
+    {
+        "id": 65,
+        "name": {
+            "jpn": "プケプケα",
+            "eng": "Pukeiα",
+            "fre": "Pukei-Pukei α",
+            "spa": "Pukei α",
+            "ger": "Pukei-Set α",
+            "ita": "Pukei α",
+            "kor": "푸케푸케α",
+            "cnt": "毒妖鳥α",
+            "cns": "毒妖鸟阿尔法",
+            "rus": "Покиα",
+            "pol": "Pukeiα",
+            "ptb": "Pukeiα",
+            "ara": "بوكيα"
+        }
+    },
+    {
+        "id": 66,
+        "name": {
+            "jpn": "プケプケβ",
+            "eng": "Pukeiβ",
+            "fre": "Pukei-Pukei β",
+            "spa": "Pukei β",
+            "ger": "Pukei-Set β",
+            "ita": "Pukei β",
+            "kor": "푸케푸케β",
+            "cnt": "毒妖鳥β",
+            "cns": "毒妖鸟贝塔",
+            "rus": "Покиβ",
+            "pol": "Pukeiβ",
+            "ptb": "Pukeiβ",
+            "ara": "بوكيβ"
+        }
+    },
+    {
+        "id": 67,
+        "name": {
+            "jpn": "ジュラα",
+            "eng": "Jyuraα",
+            "fre": "Jyuratodus α",
+            "spa": "Jyura α",
+            "ger": "Jyuratodus-Set α",
+            "ita": "Jyura α",
+            "kor": "쥬라α",
+            "cnt": "泥魚龍α",
+            "cns": "泥鱼龙阿尔法",
+            "rus": "Юратодα",
+            "pol": "Jyuraα",
+            "ptb": "Jyuraα",
+            "ara": "جيوراα"
+        }
+    },
+    {
+        "id": 68,
+        "name": {
+            "jpn": "ジュラβ",
+            "eng": "Jyuraβ",
+            "fre": "Jyuratodus β",
+            "spa": "Jyura β",
+            "ger": "Jyuratodus-Set β",
+            "ita": "Jyura β",
+            "kor": "쥬라β",
+            "cnt": "泥魚龍β",
+            "cns": "泥鱼龙贝塔",
+            "rus": "Юратодβ",
+            "pol": "Jyuraβ",
+            "ptb": "Jyuraβ",
+            "ara": "جيوراβ"
+        }
+    },
+    {
+        "id": 69,
+        "name": {
+            "jpn": "ボロスα",
+            "eng": "Barrothα",
+            "fre": "Barroth α",
+            "spa": "Barroth α",
+            "ger": "Barroth-Set α",
+            "ita": "Barroth α",
+            "kor": "보로스α",
+            "cnt": "土砂龍α",
+            "cns": "土砂龙阿尔法",
+            "rus": "Барротα",
+            "pol": "Barrothaα",
+            "ptb": "Barrothα",
+            "ara": "باروثα"
+        }
+    },
+    {
+        "id": 70,
+        "name": {
+            "jpn": "ボロスβ",
+            "eng": "Barrothβ",
+            "fre": "Barroth β",
+            "spa": "Barroth β",
+            "ger": "Barroth-Set β",
+            "ita": "Barroth β",
+            "kor": "보로스β",
+            "cnt": "土砂龍β",
+            "cns": "土砂龙贝塔",
+            "rus": "Барротβ",
+            "pol": "Barrothaβ",
+            "ptb": "Barrothβ",
+            "ara": "باروثβ"
+        }
+    },
+    {
+        "id": 71,
+        "name": {
+            "jpn": "カガチα",
+            "eng": "Kadachiα",
+            "fre": "Tobi-Kadachi α",
+            "spa": "Kadachi α",
+            "ger": "Kadachi-Set α",
+            "ita": "Kadachi α",
+            "kor": "카가치α",
+            "cnt": "飛雷龍α",
+            "cns": "飞雷龙阿尔法",
+            "rus": "Кадачиα",
+            "pol": "Kadachiα",
+            "ptb": "Kadachiα",
+            "ara": "كاداتشيα"
+        }
+    },
+    {
+        "id": 72,
+        "name": {
+            "jpn": "カガチβ",
+            "eng": "Kadachiβ",
+            "fre": "Tobi-Kadachi β",
+            "spa": "Kadachi β",
+            "ger": "Kadachi-Set β",
+            "ita": "Kadachi β",
+            "kor": "카가치β",
+            "cnt": "飛雷龍β",
+            "cns": "飞雷龙贝塔",
+            "rus": "Кадачиβ",
+            "pol": "Kadachiβ",
+            "ptb": "Kadachiβ",
+            "ara": "كاداتشيβ"
+        }
+    },
+    {
+        "id": 73,
+        "name": {
+            "jpn": "レイアα",
+            "eng": "Rathianα",
+            "fre": "Rathian α",
+            "spa": "Rathian α",
+            "ger": "Rathian-Set α",
+            "ita": "Rathian α",
+            "kor": "레이아α",
+            "cnt": "雌火龍α",
+            "cns": "雌火龙阿尔法",
+            "rus": "Ратианаα",
+            "pol": "Rathianyα",
+            "ptb": "Rathianα",
+            "ara": "راثيانα"
+        }
+    },
+    {
+        "id": 74,
+        "name": {
+            "jpn": "レイアβ",
+            "eng": "Rathianβ",
+            "fre": "Rathian β",
+            "spa": "Rathian β",
+            "ger": "Rathian-Set β",
+            "ita": "Rathian β",
+            "kor": "레이아β",
+            "cnt": "雌火龍β",
+            "cns": "雌火龙贝塔",
+            "rus": "Ратианаβ",
+            "pol": "Rathianyβ",
+            "ptb": "Rathianβ",
+            "ara": "راثيانβ"
+        }
+    },
+    {
+        "id": 75,
+        "name": {
+            "jpn": "ギルオスα",
+            "eng": "Girrosα",
+            "fre": "Girros α",
+            "spa": "Girros α",
+            "ger": "Girros-Set α",
+            "ita": "Girros α",
+            "kor": "기르오스α",
+            "cnt": "凶顎龍α",
+            "cns": "痹贼龙阿尔法",
+            "rus": "Гирросα",
+            "pol": "Girrosaα",
+            "ptb": "Girrosα",
+            "ara": "غيروسα"
+        }
+    },
+    {
+        "id": 76,
+        "name": {
+            "jpn": "ギルオスβ",
+            "eng": "Girrosβ",
+            "fre": "Girros β",
+            "spa": "Girros β",
+            "ger": "Girros-Set β",
+            "ita": "Girros β",
+            "kor": "기르오스β",
+            "cnt": "凶顎龍β",
+            "cns": "痹贼龙贝塔",
+            "rus": "Гирросβ",
+            "pol": "Girrosaβ",
+            "ptb": "Girrosβ",
+            "ara": "غيروسβ"
+        }
+    },
+    {
+        "id": 77,
+        "name": {
+            "jpn": "ツィツィα",
+            "eng": "Tzitziα",
+            "fre": "Tzitzi-Ya-Ku α",
+            "spa": "Tzitzi α",
+            "ger": "Tzitzi-Set α",
+            "ita": "Tzitzi α",
+            "kor": "치치α",
+            "cnt": "眩鳥α",
+            "cns": "眩鸟阿尔法",
+            "rus": "Цициα",
+            "pol": "Tzitziα",
+            "ptb": "Tzitziα",
+            "ara": "تسيتسيα"
+        }
+    },
+    {
+        "id": 78,
+        "name": {
+            "jpn": "ツィツィβ",
+            "eng": "Tzitziβ",
+            "fre": "Tzitzi-Ya-Ku β",
+            "spa": "Tzitzi β",
+            "ger": "Tzitzi-Set β",
+            "ita": "Tzitzi β",
+            "kor": "치치β",
+            "cnt": "眩鳥β",
+            "cns": "眩鸟贝塔",
+            "rus": "Цициβ",
+            "pol": "Tzitziβ",
+            "ptb": "Tzitziβ",
+            "ara": "تسيتسيβ"
+        }
+    },
+    {
+        "id": 79,
+        "name": {
+            "jpn": "ウルムーα",
+            "eng": "Lumuα",
+            "fre": "Paolumu α",
+            "spa": "Lumu α",
+            "ger": "Paolumu-Set α",
+            "ita": "Lumu α",
+            "kor": "우르무α",
+            "cnt": "浮空龍α",
+            "cns": "浮空龙阿尔法",
+            "rus": "Лумуα",
+            "pol": "Lumuα",
+            "ptb": "Lumuα",
+            "ara": "لوموα"
+        }
+    },
+    {
+        "id": 80,
+        "name": {
+            "jpn": "ウルムーβ",
+            "eng": "Lumuβ",
+            "fre": "Paolumu β",
+            "spa": "Lumu β",
+            "ger": "Paolumu-Set β",
+            "ita": "Lumu β",
+            "kor": "우르무β",
+            "cnt": "浮空龍β",
+            "cns": "浮空龙贝塔",
+            "rus": "Лумуβ",
+            "pol": "Lumuβ",
+            "ptb": "Lumuβ",
+            "ara": "لوموβ"
+        }
+    },
+    {
+        "id": 81,
+        "name": {
+            "jpn": "ガロンα",
+            "eng": "Odogaronα",
+            "fre": "Odogaron α",
+            "spa": "Odogaron α",
+            "ger": "Odogaron-Set α",
+            "ita": "Odogaron α",
+            "kor": "가론α",
+            "cnt": "慘爪龍α",
+            "cns": "惨爪龙阿尔法",
+            "rus": "Одогаронα",
+            "pol": "Odogaronaα",
+            "ptb": "Odogaronα",
+            "ara": "أودوغارونα"
+        }
+    },
+    {
+        "id": 82,
+        "name": {
+            "jpn": "ガロンβ",
+            "eng": "Odogaronβ",
+            "fre": "Odogaron β",
+            "spa": "Odogaron β",
+            "ger": "Odogaron-Set β",
+            "ita": "Odogaron β",
+            "kor": "가론β",
+            "cnt": "慘爪龍β",
+            "cns": "惨爪龙贝塔",
+            "rus": "Одогаронβ",
+            "pol": "Odogaronaβ",
+            "ptb": "Odogaronβ",
+            "ara": "أودوغارونβ"
+        }
+    },
+    {
+        "id": 83,
+        "name": {
+            "jpn": "ガマルα",
+            "eng": "Dodogamaα",
+            "fre": "Dodogama α",
+            "spa": "Dodogama α",
+            "ger": "Dodogama-Set α",
+            "ita": "Dodogama α",
+            "kor": "가마루α",
+            "cnt": "岩賊龍α",
+            "cns": "岩贼龙阿尔法",
+            "rus": "Додогамаα",
+            "pol": "Dodogamyα",
+            "ptb": "Dodogamaα",
+            "ara": "دودوغماα"
+        }
+    },
+    {
+        "id": 84,
+        "name": {
+            "jpn": "ガマルβ",
+            "eng": "Dodogamaβ",
+            "fre": "Dodogama β",
+            "spa": "Dodogama β",
+            "ger": "Dodogama-Set β",
+            "ita": "Dodogama β",
+            "kor": "가마루β",
+            "cnt": "岩賊龍β",
+            "cns": "岩贼龙贝塔",
+            "rus": "Додогамаβ",
+            "pol": "Dodogamyβ",
+            "ptb": "Dodogamaβ",
+            "ara": "دودوغماβ"
+        }
+    },
+    {
+        "id": 85,
+        "name": {
+            "jpn": "ラヴァα",
+            "eng": "Lavasiothα",
+            "fre": "Lavasioth α",
+            "spa": "Lavasioth α",
+            "ger": "Lavasioth-Set α",
+            "ita": "Lavasioth α",
+            "kor": "라바α",
+            "cnt": "熔岩龍α",
+            "cns": "熔岩龙阿尔法",
+            "rus": "Лавасиотα",
+            "pol": "Lavasiothaα",
+            "ptb": "Lavasiothα",
+            "ara": "لافاسيوثα"
+        }
+    },
+    {
+        "id": 86,
+        "name": {
+            "jpn": "ラヴァβ",
+            "eng": "Lavasiothβ",
+            "fre": "Lavasioth β",
+            "spa": "Lavasioth β",
+            "ger": "Lavasioth-Set β",
+            "ita": "Lavasioth β",
+            "kor": "라바β",
+            "cnt": "熔岩龍β",
+            "cns": "熔岩龙贝塔",
+            "rus": "Лавасиотβ",
+            "pol": "Lavasiothaβ",
+            "ptb": "Lavasiothβ",
+            "ara": "لافاسيوثβ"
+        }
+    },
+    {
+        "id": 87,
+        "name": {
+            "jpn": "リオハートα",
+            "eng": "Rath Heartα",
+            "fre": "Cœur Rathian α",
+            "spa": "Corazón Rath α",
+            "ger": "Rathianherz-Set α",
+            "ita": "Cuore di Rath α",
+            "kor": "리오하트α",
+            "cnt": "火龍心α",
+            "cns": "火龙心阿尔法",
+            "rus": "Сердце ратыα",
+            "pol": "Serca Rathaα",
+            "ptb": "Coração Rathα",
+            "ara": "قلب راثα"
+        }
+    },
+    {
+        "id": 88,
+        "name": {
+            "jpn": "リオハートβ",
+            "eng": "Rath Heartβ",
+            "fre": "Cœur Rathian β",
+            "spa": "Corazón Rath β",
+            "ger": "Rathianherz-Set β",
+            "ita": "Cuore di Rath β",
+            "kor": "리오하트β",
+            "cnt": "火龍心β",
+            "cns": "火龙心贝塔",
+            "rus": "Сердце ратыβ",
+            "pol": "Serca Rathaβ",
+            "ptb": "Coração Rathβ",
+            "ara": "قلب راثβ"
+        }
+    },
+    {
+        "id": 89,
+        "name": {
+            "jpn": "ハイメタα",
+            "eng": "High Metalα",
+            "fre": "Haut-métal α",
+            "spa": "Megametal α",
+            "ger": "Hochmetall-Set α",
+            "ita": "Ipermetallo α",
+            "kor": "하이메탈α",
+            "cnt": "礦石α",
+            "cns": "矿石阿尔法",
+            "rus": "Высший металлα",
+            "pol": "Metaluα",
+            "ptb": "Metal Densoα",
+            "ara": "معدن قويα"
+        }
+    },
+    {
+        "id": 90,
+        "name": {
+            "jpn": "ハイメタβ",
+            "eng": "High Metalβ",
+            "fre": "Haut-métal β",
+            "spa": "Megametal β",
+            "ger": "Hochmetall-Set β",
+            "ita": "Ipermetallo β",
+            "kor": "하이메탈β",
+            "cnt": "礦石β",
+            "cns": "矿石贝塔",
+            "rus": "Высший металлβ",
+            "pol": "Metaluβ",
+            "ptb": "Metal Densoβ",
+            "ara": "معدن قويβ"
+        }
+    },
+    {
+        "id": 91,
+        "name": {
+            "jpn": "インゴットα",
+            "eng": "Ingotα",
+            "fre": "Lingot α",
+            "spa": "Lingote α",
+            "ger": "Guss-Set α",
+            "ita": "Lingotto α",
+            "kor": "잉곳α",
+            "cnt": "鑄鐵α",
+            "cns": "铸铁阿尔法",
+            "rus": "Драгоценныйα",
+            "pol": "Sztabekα",
+            "ptb": "Lingoteα",
+            "ara": "إنغوتα"
+        }
+    },
+    {
+        "id": 92,
+        "name": {
+            "jpn": "インゴットβ",
+            "eng": "Ingotβ",
+            "fre": "Lingot β",
+            "spa": "Lingote β",
+            "ger": "Guss-Set β",
+            "ita": "Lingotto β",
+            "kor": "잉곳β",
+            "cnt": "鑄鐵β",
+            "cns": "铸铁贝塔",
+            "rus": "Драгоценныйβ",
+            "pol": "Sztabekβ",
+            "ptb": "Lingoteβ",
+            "ara": "إنغوتβ"
+        }
+    },
+    {
+        "id": 93,
+        "name": {
+            "jpn": "ジャナフα",
+            "eng": "Anjaα",
+            "fre": "Anjanath α",
+            "spa": "Anja α",
+            "ger": "Anjanath-Set α",
+            "ita": "Anja α",
+            "kor": "쟈나프α",
+            "cnt": "蠻顎龍α",
+            "cns": "蛮颚龙阿尔法",
+            "rus": "Анджиα",
+            "pol": "Anjaα",
+            "ptb": "Anjaα",
+            "ara": "أنجاα"
+        }
+    },
+    {
+        "id": 94,
+        "name": {
+            "jpn": "ジャナフβ",
+            "eng": "Anjaβ",
+            "fre": "Anjanath β",
+            "spa": "Anja β",
+            "ger": "Anjanath-Set β",
+            "ita": "Anja β",
+            "kor": "쟈나프β",
+            "cnt": "蠻顎龍β",
+            "cns": "蛮颚龙贝塔",
+            "rus": "Анджиβ",
+            "pol": "Anjaβ",
+            "ptb": "Anjaβ",
+            "ara": "أنجاβ"
+        }
+    },
+    {
+        "id": 95,
+        "name": {
+            "jpn": "ギエナα",
+            "eng": "Legianaα",
+            "fre": "Legiana α",
+            "spa": "Legiana α",
+            "ger": "Legiana-Set α",
+            "ita": "Legiana α",
+            "kor": "기에나α",
+            "cnt": "風漂龍α",
+            "cns": "风漂龙阿尔法",
+            "rus": "Легианаα",
+            "pol": "Legianyα",
+            "ptb": "Legianaα",
+            "ara": "ليغياناα"
+        }
+    },
+    {
+        "id": 96,
+        "name": {
+            "jpn": "ギエナβ",
+            "eng": "Legianaβ",
+            "fre": "Legiana β",
+            "spa": "Legiana β",
+            "ger": "Legiana-Set β",
+            "ita": "Legiana β",
+            "kor": "기에나β",
+            "cnt": "風漂龍β",
+            "cns": "风漂龙贝塔",
+            "rus": "Легианаβ",
+            "pol": "Legianyβ",
+            "ptb": "Legianaβ",
+            "ara": "ليغياناβ"
+        }
+    },
+    {
+        "id": 97,
+        "name": {
+            "jpn": "バルキンα",
+            "eng": "Baanα",
+            "fre": "Radobaan α",
+            "spa": "Baan α",
+            "ger": "Baan-Set α",
+            "ita": "Baan α",
+            "kor": "발킨α",
+            "cnt": "骨鎚龍α",
+            "cns": "骨锤龙阿尔法",
+            "rus": "Баанα",
+            "pol": "Baanaα",
+            "ptb": "Baanα",
+            "ara": "بانα"
+        }
+    },
+    {
+        "id": 98,
+        "name": {
+            "jpn": "バルキンβ",
+            "eng": "Baanβ",
+            "fre": "Radobaan β",
+            "spa": "Baan β",
+            "ger": "Baan-Set β",
+            "ita": "Baan β",
+            "kor": "발킨β",
+            "cnt": "骨鎚龍β",
+            "cns": "骨锤龙贝塔",
+            "rus": "Баанβ",
+            "pol": "Baanaβ",
+            "ptb": "Baanβ",
+            "ara": "بانβ"
+        }
+    },
+    {
+        "id": 99,
+        "name": {
+            "jpn": "ウルズα",
+            "eng": "Vaal Hazakα",
+            "fre": "Vaal Hazak α",
+            "spa": "Vaal Hazak α",
+            "ger": "Vaal-Hazak-Set α",
+            "ita": "Vaal Hazak α",
+            "kor": "우르즈α",
+            "cnt": "烏爾德α",
+            "cns": "乌尔德阿尔法",
+            "rus": "Ваал-хазакα",
+            "pol": "Vaal Hazakaα",
+            "ptb": "Vaal Hazakα",
+            "ara": "فال هازاكα"
+        }
+    },
+    {
+        "id": 100,
+        "name": {
+            "jpn": "ウルズβ",
+            "eng": "Vaal Hazakβ",
+            "fre": "Vaal Hazak β",
+            "spa": "Vaal Hazak β",
+            "ger": "Vaal-Hazak-Set β",
+            "ita": "Vaal Hazak β",
+            "kor": "우르즈β",
+            "cnt": "烏爾德β",
+            "cns": "乌尔德贝塔",
+            "rus": "Ваал-хазакβ",
+            "pol": "Vaal Hazakaβ",
+            "ptb": "Vaal Hazakβ",
+            "ara": "فال هازاكβ"
+        }
+    },
+    {
+        "id": 101,
+        "name": {
+            "jpn": "レウスα",
+            "eng": "Rathalosα",
+            "fre": "Rathalos α",
+            "spa": "Rathalos α",
+            "ger": "Rathalos-Set α",
+            "ita": "Rathalos α",
+            "kor": "레우스α",
+            "cnt": "火龍α",
+            "cns": "火龙阿尔法",
+            "rus": "Раталосα",
+            "pol": "Rathalosaα",
+            "ptb": "Rathalosα",
+            "ara": "راذالوسα"
+        }
+    },
+    {
+        "id": 102,
+        "name": {
+            "jpn": "レウスβ",
+            "eng": "Rathalosβ",
+            "fre": "Rathalos β",
+            "spa": "Rathalos β",
+            "ger": "Rathalos-Set β",
+            "ita": "Rathalos β",
+            "kor": "레우스β",
+            "cnt": "火龍β",
+            "cns": "火龙贝塔",
+            "rus": "Раталосβ",
+            "pol": "Rathalosaβ",
+            "ptb": "Rathalosβ",
+            "ara": "راذالوسβ"
+        }
+    },
+    {
+        "id": 103,
+        "name": {
+            "jpn": "ディアブロα",
+            "eng": "Diablosα",
+            "fre": "Diablos α",
+            "spa": "Diablos α",
+            "ger": "Diablos-Set α",
+            "ita": "Diablos α",
+            "kor": "디아블로α",
+            "cnt": "角龍α",
+            "cns": "角龙阿尔法",
+            "rus": "Диаблосα",
+            "pol": "Diablosaα",
+            "ptb": "Diablosα",
+            "ara": "ديابلوسα"
+        }
+    },
+    {
+        "id": 104,
+        "name": {
+            "jpn": "ディアブロβ",
+            "eng": "Diablosβ",
+            "fre": "Diablos β",
+            "spa": "Diablos β",
+            "ger": "Diablos-Set β",
+            "ita": "Diablos β",
+            "kor": "디아블로β",
+            "cnt": "角龍β",
+            "cns": "角龙贝塔",
+            "rus": "Диаблосβ",
+            "pol": "Diablosaβ",
+            "ptb": "Diablosβ",
+            "ara": "ديابلوسβ"
+        }
+    },
+    {
+        "id": 105,
+        "name": {
+            "jpn": "キリンα",
+            "eng": "Kirinα",
+            "fre": "Kirin α",
+            "spa": "Kirin α",
+            "ger": "Kirin-Set α",
+            "ita": "Kirin α",
+            "kor": "키린α",
+            "cnt": "麒麟α",
+            "cns": "麒麟阿尔法",
+            "rus": "Киринα",
+            "pol": "Kirinaα",
+            "ptb": "Kirinα",
+            "ara": "كيرينα"
+        }
+    },
+    {
+        "id": 106,
+        "name": {
+            "jpn": "キリンβ",
+            "eng": "Kirinβ",
+            "fre": "Kirin β",
+            "spa": "Kirin β",
+            "ger": "Kirin-Set β",
+            "ita": "Kirin β",
+            "kor": "키린β",
+            "cnt": "麒麟β",
+            "cns": "麒麟贝塔",
+            "rus": "Киринβ",
+            "pol": "Kirinaβ",
+            "ptb": "Kirinβ",
+            "ara": "كيرينβ"
+        }
+    },
+    {
+        "id": 107,
+        "name": {
+            "jpn": "オーグα",
+            "eng": "Nergiganteα",
+            "fre": "Nergigante α",
+            "spa": "Nergigante α",
+            "ger": "Nergigante-Set α",
+            "ita": "Nergigante α",
+            "kor": "오그α",
+            "cnt": "戰紋α",
+            "cns": "战纹阿尔法",
+            "rus": "Нергигантα",
+            "pol": "Nergigantaα",
+            "ptb": "Nergiganteα",
+            "ara": "نيرغيα"
+        }
+    },
+    {
+        "id": 108,
+        "name": {
+            "jpn": "オーグβ",
+            "eng": "Nergiganteβ",
+            "fre": "Nergigante β",
+            "spa": "Nergigante β",
+            "ger": "Nergigante-Set β",
+            "ita": "Nergigante β",
+            "kor": "오그β",
+            "cnt": "戰紋β",
+            "cns": "战纹贝塔",
+            "rus": "Нергигантβ",
+            "pol": "Nergigantaβ",
+            "ptb": "Nergiganteβ",
+            "ara": "نيرغيβ"
+        }
+    },
+    {
+        "id": 109,
+        "name": {
+            "jpn": "ガンキンα",
+            "eng": "Uragaanα",
+            "fre": "Uragaan α",
+            "spa": "Uragaan α",
+            "ger": "Uragaan-Set α",
+            "ita": "Uragaan α",
+            "kor": "간킨α",
+            "cnt": "爆鎚龍α",
+            "cns": "爆锤龙阿尔法",
+            "rus": "Урагаанα",
+            "pol": "Uragaanaα",
+            "ptb": "Uragaanα",
+            "ara": "أوراغانα"
+        }
+    },
+    {
+        "id": 110,
+        "name": {
+            "jpn": "ガンキンβ",
+            "eng": "Uragaanβ",
+            "fre": "Uragaan β",
+            "spa": "Uragaan β",
+            "ger": "Uragaan-Set β",
+            "ita": "Uragaan β",
+            "kor": "간킨β",
+            "cnt": "爆鎚龍β",
+            "cns": "爆锤龙贝塔",
+            "rus": "Урагаанβ",
+            "pol": "Uragaanaβ",
+            "ptb": "Uragaanβ",
+            "ara": "أوراغانβ"
+        }
+    },
+    {
+        "id": 111,
+        "name": {
+            "jpn": "リオソウルα",
+            "eng": "Rath Soulα",
+            "fre": "Âme Rathalos α",
+            "spa": "Alma Rath α",
+            "ger": "Rathalosseelen-Set α",
+            "ita": "Anima di Rath α",
+            "kor": "리오소울α",
+            "cnt": "火龍魂α",
+            "cns": "火龙魂阿尔法",
+            "rus": "Душа ратыα",
+            "pol": "Duszy Rathaα",
+            "ptb": "Alma de Rathα",
+            "ara": "روح راثα"
+        }
+    },
+    {
+        "id": 112,
+        "name": {
+            "jpn": "リオソウルβ",
+            "eng": "Rath Soulβ",
+            "fre": "Âme Rathalos β",
+            "spa": "Alma Rath β",
+            "ger": "Rathalosseelen-Set β",
+            "ita": "Anima di Rath β",
+            "kor": "리오소울β",
+            "cnt": "火龍魂β",
+            "cns": "火龙魂贝塔",
+            "rus": "Душа ратыβ",
+            "pol": "Duszy Rathaβ",
+            "ptb": "Alma de Rathβ",
+            "ara": "روح راثβ"
+        }
+    },
+    {
+        "id": 113,
+        "name": {
+            "jpn": "ディアネロα",
+            "eng": "Diablos Neroα",
+            "fre": "Diablos noire α",
+            "spa": "Diablos Negra α",
+            "ger": "Diablos-Nero-Set α",
+            "ita": "Diablos nera α",
+            "kor": "디아네로α",
+            "cnt": "暴君角龍α",
+            "cns": "暴君角龙阿尔法",
+            "rus": "Жуткая диаблосα",
+            "pol": "Czarnej Diabliα",
+            "ptb": "Diablos Negraα",
+            "ara": "نيرو ديابلوسα"
+        }
+    },
+    {
+        "id": 114,
+        "name": {
+            "jpn": "ディアネロβ",
+            "eng": "Diablos Neroβ",
+            "fre": "Diablos noire β",
+            "spa": "Diablos Negra β",
+            "ger": "Diablos-Nero-Set β",
+            "ita": "Diablos nera β",
+            "kor": "디아네로β",
+            "cnt": "暴君角龍β",
+            "cns": "暴君角龙贝塔",
+            "rus": "Жуткая диаблосβ",
+            "pol": "Czarnej Diabliβ",
+            "ptb": "Diablos Negraβ",
+            "ara": "نيرو ديابلوسβ"
+        }
+    },
+    {
+        "id": 115,
+        "name": {
+            "jpn": "バゼルα",
+            "eng": "Bazelα",
+            "fre": "Bazelgeuse α",
+            "spa": "Bazel α",
+            "ger": "Bazel-Set α",
+            "ita": "Bazel α",
+            "kor": "바젤α",
+            "cnt": "爆鱗龍α",
+            "cns": "爆鳞龙阿尔法",
+            "rus": "Базельα",
+            "pol": "Bazelaα",
+            "ptb": "Bazelα",
+            "ara": "بازيلα"
+        }
+    },
+    {
+        "id": 116,
+        "name": {
+            "jpn": "バゼルβ",
+            "eng": "Bazelβ",
+            "fre": "Bazelgeuse β",
+            "spa": "Bazel β",
+            "ger": "Bazel-Set β",
+            "ita": "Bazel β",
+            "kor": "바젤β",
+            "cnt": "爆鱗龍β",
+            "cns": "爆鳞龙贝塔",
+            "rus": "Базельβ",
+            "pol": "Bazelaβ",
+            "ptb": "Bazelβ",
+            "ara": "بازيلβ"
+        }
+    },
+    {
+        "id": 117,
+        "name": {
+            "jpn": "オウビートα",
+            "eng": "King Beetleα",
+            "fre": "Scarabée α",
+            "spa": "Rey escarabajo α",
+            "ger": "Königskäfer-Set α",
+            "ita": "Scarabeo α",
+            "kor": "킹비트α",
+            "cnt": "獨角仙α",
+            "cns": "独角仙阿尔法",
+            "rus": "Королевский жукα",
+            "pol": "Żuka królewskiegoα",
+            "ptb": "Besouro-reiα",
+            "ara": "الخنفساء الملكα"
+        }
+    },
+    {
+        "id": 118,
+        "name": {
+            "jpn": "オウビートβ",
+            "eng": "King Beetleβ",
+            "fre": "Scarabée β",
+            "spa": "Rey escarabajo β",
+            "ger": "Königskäfer-Set β",
+            "ita": "Scarabeo β",
+            "kor": "킹비트β",
+            "cnt": "獨角仙β",
+            "cns": "独角仙贝塔",
+            "rus": "Королевский жукβ",
+            "pol": "Żuka królewskiegoβ",
+            "ptb": "Besouro-reiβ",
+            "ara": "الخنفساء الملكβ"
+        }
+    },
+    {
+        "id": 119,
+        "name": {
+            "jpn": "ブリゲイドα",
+            "eng": "Brigadeα",
+            "fre": "Brigade α",
+            "spa": "Brigada α",
+            "ger": "Brigade-Set α",
+            "ita": "Brigata α",
+            "kor": "브리게이드α",
+            "cnt": "旅團α",
+            "cns": "旅团阿尔法",
+            "rus": "Почетныйα",
+            "pol": "Brygadyα",
+            "ptb": "Brigadaα",
+            "ara": "السريةα"
+        }
+    },
+    {
+        "id": 120,
+        "name": {
+            "jpn": "ブリゲイドβ",
+            "eng": "Brigadeβ",
+            "fre": "Brigade β",
+            "spa": "Brigada β",
+            "ger": "Brigade-Set β",
+            "ita": "Brigata β",
+            "kor": "브리게이드β",
+            "cnt": "旅團β",
+            "cns": "旅团贝塔",
+            "rus": "Почетныйβ",
+            "pol": "Brygadyβ",
+            "ptb": "Brigadaβ",
+            "ara": "السريةβ"
+        }
+    },
+    {
+        "id": 121,
+        "name": {
+            "jpn": "ダマスクα",
+            "eng": "Damascusα",
+            "fre": "Damascus α",
+            "spa": "Damasco α",
+            "ger": "Damaskus-Set α",
+            "ita": "Damasco α",
+            "kor": "다마스크α",
+            "cnt": "大馬士革α",
+            "cns": "大马士革阿尔法",
+            "rus": "Дамасскα",
+            "pol": "Damasceńskiα",
+            "ptb": "Damascusα",
+            "ara": "دمشقα"
+        }
+    },
+    {
+        "id": 122,
+        "name": {
+            "jpn": "ダマスクβ",
+            "eng": "Damascusβ",
+            "fre": "Damascus β",
+            "spa": "Damasco β",
+            "ger": "Damaskus-Set β",
+            "ita": "Damasco β",
+            "kor": "다마스크β",
+            "cnt": "大馬士革β",
+            "cns": "大马士革贝塔",
+            "rus": "Дамасскβ",
+            "pol": "Damasceńskiβ",
+            "ptb": "Damascusβ",
+            "ara": "دمشقβ"
+        }
+    },
+    {
+        "id": 123,
+        "name": {
+            "jpn": "ドーベルα",
+            "eng": "Doberα",
+            "fre": "Dober α",
+            "spa": "Dober α",
+            "ger": "Dober-Set α",
+            "ita": "Dober α",
+            "kor": "도베르α",
+            "cnt": "杜賓α",
+            "cns": "杜宾阿尔法",
+            "rus": "Доберα",
+            "pol": "Doberaα",
+            "ptb": "Doberα",
+            "ara": "دوبرα"
+        }
+    },
+    {
+        "id": 124,
+        "name": {
+            "jpn": "ドーベルβ",
+            "eng": "Doberβ",
+            "fre": "Dober β",
+            "spa": "Dober β",
+            "ger": "Dober-Set β",
+            "ita": "Dober β",
+            "kor": "도베르β",
+            "cnt": "杜賓β",
+            "cns": "杜宾贝塔",
+            "rus": "Доберβ",
+            "pol": "Doberaβ",
+            "ptb": "Doberβ",
+            "ara": "دوبرβ"
+        }
+    },
+    {
+        "id": 125,
+        "name": {
+            "jpn": "ゼノラージα",
+            "eng": "Xeno'jiivaα",
+            "fre": "Xeno'jiiva α",
+            "spa": "Xeno'jiiva α",
+            "ger": "Xeno'jiiva-Set α",
+            "ita": "Xeno'jiiva α",
+            "kor": "제노라지α",
+            "cnt": "冥燈幽火α",
+            "cns": "冥灯幽火阿尔法",
+            "rus": "Ксено'джииваα",
+            "pol": "Xeno'jiivaα",
+            "ptb": "Xeno'jiivaα",
+            "ara": "زينوجيفاα"
+        }
+    },
+    {
+        "id": 126,
+        "name": {
+            "jpn": "ゼノラージβ",
+            "eng": "Xeno'jiivaβ",
+            "fre": "Xeno'jiiva β",
+            "spa": "Xeno'jiiva β",
+            "ger": "Xeno'jiiva-Set β",
+            "ita": "Xeno'jiiva β",
+            "kor": "제노라지β",
+            "cnt": "冥燈幽火β",
+            "cns": "冥灯幽火贝塔",
+            "rus": "Ксено'джииваβ",
+            "pol": "Xeno'jiivaβ",
+            "ptb": "Xeno'jiivaβ",
+            "ara": "زينوجيفاβ"
+        }
+    },
+    {
+        "id": 127,
+        "name": {
+            "jpn": "カイザーα",
+            "eng": "Teostraα",
+            "fre": "Kaiser α",
+            "spa": "Káiser α",
+            "ger": "Kaiser-Set α",
+            "ita": "Kaiser α",
+            "kor": "카이저α",
+            "cnt": "帝王α",
+            "cns": "帝王阿尔法",
+            "rus": "Теостраα",
+            "pol": "Teostryα",
+            "ptb": "Teostraα",
+            "ara": "تيوستراα"
+        }
+    },
+    {
+        "id": 128,
+        "name": {
+            "jpn": "カイザーβ",
+            "eng": "Teostraβ",
+            "fre": "Kaiser β",
+            "spa": "Káiser β",
+            "ger": "Kaiser-Set β",
+            "ita": "Kaiser β",
+            "kor": "카이저β",
+            "cnt": "帝王β",
+            "cns": "帝王贝塔",
+            "rus": "Теостраβ",
+            "pol": "Teostryβ",
+            "ptb": "Teostraβ",
+            "ara": "تيوستراβ"
+        }
+    },
+    {
+        "id": 129,
+        "name": {
+            "jpn": "クシャナα",
+            "eng": "Kushalaα",
+            "fre": "Kushala Daora α",
+            "spa": "Kushala α",
+            "ger": "Kushala-Set α",
+            "ita": "Kushala α",
+            "kor": "크샤나α",
+            "cnt": "鋼龍α",
+            "cns": "钢龙阿尔法",
+            "rus": "Кушалаα",
+            "pol": "Kushaliα",
+            "ptb": "Kushalaα",
+            "ara": "كوشالاα"
+        }
+    },
+    {
+        "id": 130,
+        "name": {
+            "jpn": "クシャナβ",
+            "eng": "Kushalaβ",
+            "fre": "Kushala Daora β",
+            "spa": "Kushala β",
+            "ger": "Kushala-Set β",
+            "ita": "Kushala β",
+            "kor": "크샤나β",
+            "cnt": "鋼龍β",
+            "cns": "钢龙贝塔",
+            "rus": "Кушалаβ",
+            "pol": "Kushaliβ",
+            "ptb": "Kushalaβ",
+            "ara": "كوشالاβ"
+        }
+    },
+    {
+        "id": 131,
+        "name": {
+            "jpn": "スカルα",
+            "eng": "Skullα",
+            "fre": "Crâne α",
+            "spa": "Calavera α",
+            "ger": "Schädel-Set α",
+            "ita": "Scheletrico α",
+            "kor": "스컬α",
+            "cnt": "骷髏α",
+            "cns": "骷髅阿尔法",
+            "rus": "Черепα",
+            "pol": "Czaszkiα",
+            "ptb": "Caveiraα",
+            "ara": "الجمجمةα"
+        }
+    },
+    {
+        "id": 132,
+        "name": {
+            "jpn": "スカルβ",
+            "eng": "Skullβ",
+            "fre": "Crâne β",
+            "spa": "Calavera β",
+            "ger": "Schädel-Set β",
+            "ita": "Scheletrico β",
+            "kor": "스컬β",
+            "cnt": "骷髏β",
+            "cns": "骷髅贝塔",
+            "rus": "Черепβ",
+            "pol": "Czaszkiβ",
+            "ptb": "Caveiraβ",
+            "ara": "الجمجمةβ"
+        }
+    },
+    {
+        "id": 133,
+        "name": {
+            "jpn": "デスギアα",
+            "eng": "Death Stenchα",
+            "fre": "Putride α",
+            "spa": "Pestilente α",
+            "ger": "Todesgestank-Set α",
+            "ita": "Putrefatto α",
+            "kor": "데스기어α",
+            "cnt": "死神α",
+            "cns": "死神阿尔法",
+            "rus": "Зловоние смертиα",
+            "pol": "Rozkładuα",
+            "ptb": "Putrefatoα",
+            "ara": "رائحة الموتα"
+        }
+    },
+    {
+        "id": 134,
+        "name": {
+            "jpn": "デスギアβ",
+            "eng": "Death Stenchβ",
+            "fre": "Putride β",
+            "spa": "Pestilente β",
+            "ger": "Todesgestank-Set β",
+            "ita": "Putrefatto β",
+            "kor": "데스기어β",
+            "cnt": "死神β",
+            "cns": "死神贝塔",
+            "rus": "Зловоние смертиβ",
+            "pol": "Rozkładuβ",
+            "ptb": "Putrefatoβ",
+            "ara": "رائحة الموتβ"
+        }
+    },
+    {
+        "id": 135,
+        "name": {
+            "jpn": "ギルドクロスα",
+            "eng": "Guild Crossα",
+            "fre": "Croix de Guilde α",
+            "spa": "Cruz gremial α",
+            "ger": "Gildenkreuz-Set α",
+            "ita": "Gilda α",
+            "kor": "길드크로스α",
+            "cnt": "公會十字α",
+            "cns": "公会十字阿尔法",
+            "rus": "Крест гильдииα",
+            "pol": "Krzyża Gildiiα",
+            "ptb": "Cruz de Guildaα",
+            "ara": "شكل للنقابةα"
+        }
+    },
+    {
+        "id": 136,
+        "name": {
+            "jpn": "ギルドクロスβ",
+            "eng": "Guild Crossβ",
+            "fre": "Croix de Guilde β",
+            "spa": "Cruz gremial β",
+            "ger": "Gildenkreuz-Set β",
+            "ita": "Gilda β",
+            "kor": "길드크로스β",
+            "cnt": "公會十字β",
+            "cns": "公会十字贝塔",
+            "rus": "Крест гильдииβ",
+            "pol": "Krzyża Gildiiβ",
+            "ptb": "Cruz de Guildaβ",
+            "ara": "شكل للنقابةβ"
+        }
+    },
+    {
+        "id": 139,
+        "name": {
+            "jpn": "ゾラマグナα",
+            "eng": "Zorahα",
+            "fre": "Zorah Magdaros α",
+            "spa": "Zorah α",
+            "ger": "Zorah-Set α",
+            "ita": "Zorah α",
+            "kor": "조라마그나α",
+            "cnt": "鑄島熔岩α",
+            "cns": "铸岛熔岩阿尔法",
+            "rus": "Дзораα",
+            "pol": "Zorahaα",
+            "ptb": "Zorahα",
+            "ara": "زوراهα"
+        }
+    },
+    {
+        "id": 140,
+        "name": {
+            "jpn": "ゾラマグナβ",
+            "eng": "Zorahβ",
+            "fre": "Zorah Magdaros β",
+            "spa": "Zorah β",
+            "ger": "Zorah-Set β",
+            "ita": "Zorah β",
+            "kor": "조라마그나β",
+            "cnt": "鑄島熔岩β",
+            "cns": "铸岛熔岩贝塔",
+            "rus": "Дзораβ",
+            "pol": "Zorahaβ",
+            "ptb": "Zorahβ",
+            "ara": "زوراهβ"
+        }
+    },
+    {
+        "id": 141,
+        "name": {
+            "jpn": "シーカーα",
+            "eng": "Commissionα",
+            "fre": "Commission α",
+            "spa": "Comisión α",
+            "ger": "Kommissionsset α",
+            "ita": "Commissione α",
+            "kor": "시커α",
+            "cnt": "追蹤者α",
+            "cns": "追踪者阿尔法",
+            "rus": "Экспедицияα",
+            "pol": "Komisjiα",
+            "ptb": "Comissãoα",
+            "ara": "اللجنةα"
+        }
+    },
+    {
+        "id": 142,
+        "name": {
+            "jpn": "シーカーβ",
+            "eng": "Commissionβ",
+            "fre": "Commission β",
+            "spa": "Comisión β",
+            "ger": "Kommissionsset β",
+            "ita": "Commissione β",
+            "kor": "시커β",
+            "cnt": "追蹤者β",
+            "cns": "追踪者贝塔",
+            "rus": "Экспедицияβ",
+            "pol": "Komisjiβ",
+            "ptb": "Comissãoβ",
+            "ara": "اللجنةβ"
+        }
+    },
+    {
+        "id": 143,
+        "name": {
+            "jpn": "Unavailable",
+            "eng": "Unavailable",
+            "fre": "Unavailable",
+            "spa": "Unavailable",
+            "ger": "Unavailable",
+            "ita": "Unavailable",
+            "kor": "Unavailable",
+            "cnt": "Unavailable",
+            "cns": "Unavailable",
+            "rus": "Unavailable",
+            "pol": "Unavailable",
+            "ptb": "Unavailable",
+            "ara": "Unavailable"
+        }
+    },
+    {
+        "id": 144,
+        "name": {
+            "jpn": "Unavailable",
+            "eng": "Unavailable",
+            "fre": "Unavailable",
+            "spa": "Unavailable",
+            "ger": "Unavailable",
+            "ita": "Unavailable",
+            "kor": "Unavailable",
+            "cnt": "Unavailable",
+            "cns": "Unavailable",
+            "rus": "Unavailable",
+            "pol": "Unavailable",
+            "ptb": "Unavailable",
+            "ara": "Unavailable"
+        }
+    },
+    {
+        "id": 145,
+        "name": {
+            "jpn": "【ブリゲイド】衣装",
+            "eng": "Brigade",
+            "fre": "Brigade",
+            "spa": "Brigada",
+            "ger": "Brigade",
+            "ita": "Brigata",
+            "kor": "【브리게이드】 의상",
+            "cnt": "【旅團】服裝",
+            "cns": "【旅团】服装",
+            "rus": "Почетный",
+            "pol": "Brygady",
+            "ptb": "Brigada",
+            "ara": "السرية"
+        }
+    },
+    {
+        "id": 146,
+        "name": {
+            "jpn": "【ギルドクロス】衣装",
+            "eng": "Guild Cross",
+            "fre": "Croix de Guilde",
+            "spa": "Cruz gremial",
+            "ger": "Gildenkreuz",
+            "ita": "Gilda",
+            "kor": "【길드크로스】 의상",
+            "cnt": "【公會十字】服裝",
+            "cns": "【公会十字】服装",
+            "rus": "Крест гильдии",
+            "pol": "Krzyża Gildii",
+            "ptb": "Cruz de Guilda",
+            "ara": "شكل النقابة"
+        }
+    },
+    {
+        "id": 147,
+        "name": {
+            "jpn": "【ブロッサム】衣装",
+            "eng": "Blossom",
+            "fre": "Printemps",
+            "spa": "Flores",
+            "ger": "Blüten",
+            "ita": "Floreale",
+            "kor": "【블로섬】 의상",
+            "cnt": "【巴魯特】服裝",
+            "cns": "【盛开】服装",
+            "rus": "Цветок",
+            "pol": "Kwiecia",
+            "ptb": "Florescer",
+            "ara": "الربيع"
+        }
+    },
+    {
+        "id": 148,
+        "name": {
+            "jpn": "【ダイバー】衣装",
+            "eng": "Diver",
+            "fre": "Plongée",
+            "spa": "Buceo",
+            "ger": "Taucher",
+            "ita": "Sommozzatore",
+            "kor": "【다이버】 의상",
+            "cnt": "【潛水夫】服裝",
+            "cns": "【潜水员】服装",
+            "rus": "Ныряльщик",
+            "pol": "Nurka",
+            "ptb": "Mergulhador",
+            "ara": "الغواص"
+        }
+    },
+    {
+        "id": 149,
+        "name": {
+            "jpn": "【ハーベスト】衣装",
+            "eng": "Harvest",
+            "fre": "Récolte",
+            "spa": "Cosecha",
+            "ger": "Ernte",
+            "ita": "Raccolto",
+            "kor": "【하베스트】 의상",
+            "cnt": "【收穫】服裝",
+            "cns": "【收获】服装",
+            "rus": "Урожай",
+            "pol": "Zbiorów",
+            "ptb": "Safra",
+            "ara": "الحصاد"
+        }
+    },
+    {
+        "id": 150,
+        "name": {
+            "jpn": "【オリオン】衣装",
+            "eng": "Orion",
+            "fre": "Orion",
+            "spa": "Orión",
+            "ger": "Orion",
+            "ita": "Orione",
+            "kor": "【오리온】 의상",
+            "cnt": "【獵戶星】服裝",
+            "cns": "【猎户星】服装",
+            "rus": "Орион",
+            "pol": "Oriona",
+            "ptb": "Órion",
+            "ara": "أوريون"
+        }
+    },
+    {
+        "id": 151,
+        "name": {
+            "jpn": "アイルーフェイクα",
+            "eng": "Faux Felyneα",
+            "fre": "Faux Felyne α",
+            "spa": "Falso Felyne α",
+            "ger": "Falscher-Felyne-Set α",
+            "ita": "Felyne fasullo α",
+            "kor": "아이루페이크α",
+            "cnt": "艾路頭套α",
+            "cns": "艾露猫头套阿尔法",
+            "rus": "Фальшивый коттα",
+            "pol": "Pseudofelinaα",
+            "ptb": "Felyno Falsoα",
+            "ara": "فيلاين مزيفα"
+        }
+    },
+    {
+        "id": 152,
+        "name": {
+            "jpn": "モスフェイクα",
+            "eng": "Mosswine Maskα",
+            "fre": "Mosswine α",
+            "spa": "Careta Musgorrino α",
+            "ger": "Mosswine-Set α",
+            "ita": "Mosswine α",
+            "kor": "모스페이크α",
+            "cnt": "菌豬頭套α",
+            "cns": "蘑菇猪头套阿尔法",
+            "rus": "Маска мохосвинаα",
+            "pol": "Mchoświniα",
+            "ptb": "Máscara Musgoínoα",
+            "ara": "قناع موسواينα"
+        }
+    },
+    {
+        "id": 153,
+        "name": {
+            "jpn": "【フルドレス】衣装",
+            "eng": "Gala Suit",
+            "fre": "Gala",
+            "spa": "Traje de gala",
+            "ger": "Galaanzug",
+            "ita": "Gran galà",
+            "kor": "【풀드레스】 의상",
+            "cnt": "【盛裝】服裝",
+            "cns": "【盛装】服装",
+            "rus": "Костюм гала-концерта",
+            "pol": "Strój galowy",
+            "ptb": "Traje de Gala",
+            "ara": "بذلة المهرجان"
+        }
+    },
+    {
+        "id": 159,
+        "name": {
+            "jpn": "【バエク】衣装",
+            "eng": "Bayek",
+            "fre": "Bayek",
+            "spa": "Bayek",
+            "ger": "Bayek",
+            "ita": "Bayek",
+            "kor": "【바예크】의상",
+            "cnt": "【巴耶克】服裝",
+            "cns": "【巴耶克】服装",
+            "rus": "Байек",
+            "pol": "Bayeka",
+            "ptb": "Bayek",
+            "ara": "بايك"
+        }
+    },
+    {
+        "id": 161,
+        "name": {
+            "jpn": "シャム",
+            "eng": "Shamos",
+            "fre": "Shamos",
+            "spa": "Shamos",
+            "ger": "Shamos-Set",
+            "ita": "Shamos",
+            "kor": "샤무",
+            "cnt": "貓蜥龍",
+            "cns": "猫蜥龙",
+            "rus": "Шамос",
+            "pol": "Shamosa",
+            "ptb": "Shamos",
+            "ara": "شاموس"
+        }
+    },
+    {
+        "id": 162,
+        "name": {
+            "jpn": "シャムα",
+            "eng": "Shamosα",
+            "fre": "Shamos α",
+            "spa": "Shamos α",
+            "ger": "Shamos-Set α",
+            "ita": "Shamos α",
+            "kor": "샤무α",
+            "cnt": "貓蜥龍α",
+            "cns": "猫蜥龙阿尔法",
+            "rus": "Шамосα",
+            "pol": "Shamosaα",
+            "ptb": "Shamosα",
+            "ara": "شاموسα"
+        }
+    },
+    {
+        "id": 163,
+        "name": {
+            "jpn": "シャムβ",
+            "eng": "Shamosβ",
+            "fre": "Shamos β",
+            "spa": "Shamos β",
+            "ger": "Shamos-Set β",
+            "ita": "Shamos β",
+            "kor": "샤무β",
+            "cnt": "貓蜥龍β",
+            "cns": "猫蜥龙贝塔",
+            "rus": "Шамосβ",
+            "pol": "Shamosaβ",
+            "ptb": "Shamosβ",
+            "ara": "شاموسβ"
+        }
+    },
+    {
+        "id": 164,
+        "name": {
+            "jpn": "パピメル",
+            "eng": "Butterfly",
+            "fre": "Papillon",
+            "spa": "Mariposa",
+            "ger": "Schmetterling-Set",
+            "ita": "Farfalla",
+            "kor": "파피메르",
+            "cnt": "燕尾蝶",
+            "cns": "燕尾蝶",
+            "rus": "Бабочка",
+            "pol": "Motyla",
+            "ptb": "Borboleta",
+            "ara": "فراشة"
+        }
+    },
+    {
+        "id": 165,
+        "name": {
+            "jpn": "パピメルα",
+            "eng": "Butterflyα",
+            "fre": "Papillon α",
+            "spa": "Mariposa α",
+            "ger": "Schmetterling-Set α",
+            "ita": "Farfalla α",
+            "kor": "파피메르α",
+            "cnt": "燕尾蝶α",
+            "cns": "燕尾蝶阿尔法",
+            "rus": "Бабочкаα",
+            "pol": "Motylaα",
+            "ptb": "Borboletaα",
+            "ara": "فراشةα"
+        }
+    },
+    {
+        "id": 166,
+        "name": {
+            "jpn": "パピメルβ",
+            "eng": "Butterflyβ",
+            "fre": "Papillon β",
+            "spa": "Mariposa β",
+            "ger": "Schmetterling-Set β",
+            "ita": "Farfalla β",
+            "kor": "파피메르β",
+            "cnt": "燕尾蝶β",
+            "cns": "燕尾蝶贝塔",
+            "rus": "Бабочкаβ",
+            "pol": "Motylaβ",
+            "ptb": "Borboletaβ",
+            "ara": "فراشةβ"
+        }
+    },
+    {
+        "id": 169,
+        "name": {
+            "jpn": "オリジン",
+            "eng": "Origin",
+            "fre": "Héritage",
+            "spa": "Origen",
+            "ger": "Ursprung",
+            "ita": "Origini",
+            "kor": "오리진",
+            "cnt": "原型",
+            "cns": "原型",
+            "rus": "Исток",
+            "pol": "Źródło",
+            "ptb": "Origem",
+            "ara": "أساسي"
+        }
+    },
+    {
+        "id": 176,
+        "name": {
+            "jpn": "知略の眼鏡α",
+            "eng": "Strategistα",
+            "fre": "Stratège α",
+            "spa": "Estratega α",
+            "ger": "Strategiker-Set α",
+            "ita": "Stratega α",
+            "kor": "지략의안경α",
+            "cnt": "知性眼鏡α",
+            "cns": "知性眼镜阿尔法",
+            "rus": "Стратегα",
+            "pol": "Strategaα",
+            "ptb": "Estrategistaα",
+            "ara": "استراتيجيα"
+        }
+    },
+    {
+        "id": 178,
+        "name": {
+            "jpn": "竜王の隻眼α",
+            "eng": "Dragonkingα",
+            "fre": "Roi-Dragon α",
+            "spa": "Rey dragón α",
+            "ger": "Drachenkönig-Set α",
+            "ita": "Re drago α",
+            "kor": "용왕의 척안α",
+            "cnt": "龍王的獨眼α",
+            "cns": "龙王的独眼阿尔法",
+            "rus": "Драконий корольα",
+            "pol": "Smoczego królaα",
+            "ptb": "Dragão-reiα",
+            "ara": "الملك التنينα"
+        }
+    },
+    {
+        "id": 183,
+        "name": {
+            "jpn": "マムガイラα",
+            "eng": "Kulve Tarothα",
+            "fre": "Kulve Taroth α",
+            "spa": "Kulve Taroth α",
+            "ger": "Kulve-Taroth-Set α",
+            "ita": "Kulve Taroth α",
+            "kor": "맘가이라α",
+            "cnt": "絢輝龍鎧羅α",
+            "cns": "绚辉龙铠罗阿尔法",
+            "rus": "Кулве таротα",
+            "pol": "Kulve Tarothα",
+            "ptb": "Kulve Tarothα",
+            "ara": "كولف تاروثα"
+        }
+    },
+    {
+        "id": 184,
+        "name": {
+            "jpn": "マムガイラβ",
+            "eng": "Kulve Tarothβ",
+            "fre": "Kulve Taroth β",
+            "spa": "Kulve Taroth β",
+            "ger": "Kulve-Taroth-Set β",
+            "ita": "Kulve Taroth β",
+            "kor": "맘가이라β",
+            "cnt": "絢輝龍鎧羅β",
+            "cns": "绚辉龙铠罗贝塔",
+            "rus": "Кулве таротβ",
+            "pol": "Kulve Tarothβ",
+            "ptb": "Kulve Tarothβ",
+            "ara": "كولف تاروثβ"
+        }
+    },
+    {
+        "id": 185,
+        "name": {
+            "jpn": "ブロッサム",
+            "eng": "Blossom",
+            "fre": "Printemps",
+            "spa": "Flores",
+            "ger": "Blüten-Set",
+            "ita": "Floreale",
+            "kor": "블로섬",
+            "cnt": "巴魯特",
+            "cns": "盛开",
+            "rus": "Цветок",
+            "pol": "Kwiecia",
+            "ptb": "Florescer",
+            "ara": "الربيع"
+        }
+    },
+    {
+        "id": 186,
+        "name": {
+            "jpn": "ダイバー",
+            "eng": "Diver",
+            "fre": "Plongée",
+            "spa": "Buceo",
+            "ger": "Taucher-Set",
+            "ita": "Sommozzatore",
+            "kor": "다이버",
+            "cnt": "潛水夫",
+            "cns": "潜水员",
+            "rus": "Ныряльщик",
+            "pol": "Nurka",
+            "ptb": "Mergulhador",
+            "ara": "الغواص"
+        }
+    },
+    {
+        "id": 187,
+        "name": {
+            "jpn": "ハーベスト",
+            "eng": "Harvest",
+            "fre": "Récolte",
+            "spa": "Cosecha",
+            "ger": "Ernte-Set",
+            "ita": "Raccolto",
+            "kor": "하베스트",
+            "cnt": "收穫",
+            "cns": "收获",
+            "rus": "Урожай",
+            "pol": "Zbiorów",
+            "ptb": "Safra",
+            "ara": "الحصاد"
+        }
+    },
+    {
+        "id": 188,
+        "name": {
+            "jpn": "オリオン",
+            "eng": "Orion",
+            "fre": "Orion",
+            "spa": "Orión",
+            "ger": "Orion-Set",
+            "ita": "Orione",
+            "kor": "오리온",
+            "cnt": "獵戶星",
+            "cns": "猎户星",
+            "rus": "Орион",
+            "pol": "Oriona",
+            "ptb": "Órion",
+            "ara": "أوريون"
+        }
+    },
+    {
+        "id": 189,
+        "name": {
+            "jpn": "フルドレス",
+            "eng": "Gala Suit",
+            "fre": "Gala",
+            "spa": "Traje de gala",
+            "ger": "Galaanzug-Set",
+            "ita": "Gran galà",
+            "kor": "풀드레스",
+            "cnt": "盛裝",
+            "cns": "盛装",
+            "rus": "Костюм гала-концерта",
+            "pol": "Strój galowy",
+            "ptb": "Traje de Gala",
+            "ara": "بذلة المهرجان"
+        }
+    },
+    {
+        "id": 190,
+        "name": {
+            "jpn": "鎧武者",
+            "eng": "Samurai",
+            "fre": "Samouraï",
+            "spa": "Samurái",
+            "ger": "Samurai",
+            "ita": "Samurai",
+            "kor": "갑옷무사",
+            "cnt": "鎧武者",
+            "cns": "铠武者",
+            "rus": "Самурай",
+            "pol": "Samuraj",
+            "ptb": "Samurai",
+            "ara": "الساموراي"
+        }
+    },
+    {
+        "id": 191,
+        "name": {
+            "jpn": "バンギスα",
+            "eng": "Deviljhoα",
+            "fre": "Deviljho α",
+            "spa": "Deviljho α",
+            "ger": "Dämonjho-Set α",
+            "ita": "Deviljho α",
+            "kor": "반기스α",
+            "cnt": "殘虐α",
+            "cns": "残虐阿尔法",
+            "rus": "Девильоα",
+            "pol": "Deviljhoα",
+            "ptb": "Deviljhoα",
+            "ara": "ديفيلجوα"
+        }
+    },
+    {
+        "id": 192,
+        "name": {
+            "jpn": "バンギスβ",
+            "eng": "Deviljhoβ",
+            "fre": "Deviljho β",
+            "spa": "Deviljho β",
+            "ger": "Dämonjho-Set β",
+            "ita": "Deviljho β",
+            "kor": "반기스β",
+            "cnt": "殘虐β",
+            "cns": "残虐贝塔",
+            "rus": "Девильоβ",
+            "pol": "Deviljhoβ",
+            "ptb": "Deviljhoβ",
+            "ara": "ديفيلجوβ"
+        }
+    },
+    {
+        "id": 193,
+        "name": {
+            "jpn": "欠番",
+            "eng": "Kulve Taroth",
+            "fre": "Invalid Message",
+            "spa": "Kulve Taroth",
+            "ger": "Invalid Message",
+            "ita": "Invalid Message",
+            "kor": "Invalid Message",
+            "cnt": "Invalid Message",
+            "cns": "Invalid Message",
+            "rus": "Invalid Message",
+            "pol": "Invalid Message",
+            "ptb": "Invalid Message",
+            "ara": "Invalid Message"
+        }
+    },
+    {
+        "id": 194,
+        "name": {
+            "jpn": "暁ノ武士【寂】",
+            "eng": "Bushi \"Sabi\"",
+            "fre": "Bravoure du bushi",
+            "spa": "Bushi \"Sabi\"",
+            "ger": "Bushi \"Sabi\"",
+            "ita": "Bushi \"Sabi\"",
+            "kor": "새벽무사【적】",
+            "cnt": "黎明武士【寂】",
+            "cns": "黎明武士【寂】",
+            "rus": "Буси Саби",
+            "pol": "Bushi „Sabi”",
+            "ptb": "Bushi Sabi",
+            "ara": "بوشي \"سابي\""
+        }
+    },
+    {
+        "id": 195,
+        "name": {
+            "jpn": "暁ノ武士【誉】",
+            "eng": "Bushi \"Homare\"",
+            "fre": "Honneur du shogun",
+            "spa": "Bushi \"Homare\"",
+            "ger": "Bushi \"Homare\"",
+            "ita": "Bushi \"Homare\"",
+            "kor": "새벽무사【예】",
+            "cnt": "黎明武士【譽】",
+            "cns": "黎明武士【誉】",
+            "rus": "Буси Хомарэ",
+            "pol": "Bushi „Homare”",
+            "ptb": "Bushi Homare",
+            "ara": "بوشي \"هوماري\""
+        }
+    },
+    {
+        "id": 196,
+        "name": {
+            "jpn": "ドラケンα",
+            "eng": "Drachenα",
+            "fre": "Drachen α",
+            "spa": "Drachen α",
+            "ger": "Drachenreiter-Set α",
+            "ita": "Drachen α",
+            "kor": "용기사α",
+            "cnt": "騰龍α",
+            "cns": "腾龙阿尔法",
+            "rus": "Дракенα",
+            "pol": "Dragońskiα",
+            "ptb": "Drachenα",
+            "ara": "دراكينα"
+        }
+    },
+    {
+        "id": 197,
+        "name": {
+            "jpn": "ブロッサムα",
+            "eng": "Blossomα",
+            "fre": "Printemps α",
+            "spa": "Flores α",
+            "ger": "Blüten-Set α",
+            "ita": "Floreale α",
+            "kor": "블로섬α",
+            "cnt": "巴魯特α",
+            "cns": "盛开阿尔法",
+            "rus": "Цветокα",
+            "pol": "Kwieciaα",
+            "ptb": "Florescerα",
+            "ara": "الربيعα"
+        }
+    },
+    {
+        "id": 198,
+        "name": {
+            "jpn": "ダイバーα",
+            "eng": "Diverα",
+            "fre": "Plongée α",
+            "spa": "Buceo α",
+            "ger": "Taucher-Set α",
+            "ita": "Sommozzatore α",
+            "kor": "다이버α",
+            "cnt": "潛水夫α",
+            "cns": "潜水员阿尔法",
+            "rus": "Ныряльщикα",
+            "pol": "Nurkaα",
+            "ptb": "Mergulhadorα",
+            "ara": "الغواصα"
+        }
+    },
+    {
+        "id": 199,
+        "name": {
+            "jpn": "ハーベストα",
+            "eng": "Harvestα",
+            "fre": "Récolte α",
+            "spa": "Cosecha α",
+            "ger": "Ernte-Set α",
+            "ita": "Raccolto α",
+            "kor": "하베스트α",
+            "cnt": "收穫α",
+            "cns": "收获阿尔法",
+            "rus": "Урожайα",
+            "pol": "Zbiorówα",
+            "ptb": "Safraα",
+            "ara": "الحصادα"
+        }
+    },
+    {
+        "id": 200,
+        "name": {
+            "jpn": "オリオンα",
+            "eng": "Orionα",
+            "fre": "Orion α",
+            "spa": "Orión α",
+            "ger": "Orion-Set α",
+            "ita": "Orione α",
+            "kor": "오리온α",
+            "cnt": "獵戶星α",
+            "cns": "猎户星阿尔法",
+            "rus": "Орионα",
+            "pol": "Orionaα",
+            "ptb": "Órionα",
+            "ara": "أوريونα"
+        }
+    },
+    {
+        "id": 201,
+        "name": {
+            "jpn": "フルドレスα",
+            "eng": "Gala Suitα",
+            "fre": "Gala α",
+            "spa": "Traje de gala α",
+            "ger": "Galaanzug-Set α",
+            "ita": "Gran galà α",
+            "kor": "풀드레스α",
+            "cnt": "盛裝α",
+            "cns": "盛装阿尔法",
+            "rus": "Костюм гала-концертаα",
+            "pol": "Strój galowyα",
+            "ptb": "Traje de Galaα",
+            "ara": "بذلة المهرجانα"
+        }
+    },
+    {
+        "id": 202,
+        "name": {
+            "jpn": "パピオム",
+            "eng": "Butterfly",
+            "fre": "Papillon",
+            "spa": "Mariposa",
+            "ger": "Schmetterling-Set",
+            "ita": "Farfalla",
+            "kor": "파피옴",
+            "cnt": "燕尾蝶男",
+            "cns": "燕尾蝶男",
+            "rus": "Бабочка",
+            "pol": "Motyla",
+            "ptb": "Borboleta",
+            "ara": "فراشة"
+        }
+    },
+    {
+        "id": 203,
+        "name": {
+            "jpn": "パピオムα",
+            "eng": "Butterflyα",
+            "fre": "Papillon α",
+            "spa": "Mariposa α",
+            "ger": "Schmetterling-Set α",
+            "ita": "Farfalla α",
+            "kor": "파피옴α",
+            "cnt": "燕尾蝶男α",
+            "cns": "燕尾蝶男阿尔法",
+            "rus": "Бабочкаα",
+            "pol": "Motylaα",
+            "ptb": "Borboletaα",
+            "ara": "الفراشةα"
+        }
+    },
+    {
+        "id": 204,
+        "name": {
+            "jpn": "パピオムβ",
+            "eng": "Butterflyβ",
+            "fre": "Papillon β",
+            "spa": "Mariposa β",
+            "ger": "Schmetterling-Set β",
+            "ita": "Farfalla β",
+            "kor": "파피옴β",
+            "cnt": "燕尾蝶男β",
+            "cns": "燕尾蝶男贝塔",
+            "rus": "Бабочкаβ",
+            "pol": "Motylaβ",
+            "ptb": "Borboletaβ",
+            "ara": "الفراشةβ"
+        }
+    },
+    {
+        "id": 205,
+        "name": {
+            "jpn": "クインビート",
+            "eng": "Queen Beetle",
+            "fre": "Scarabée",
+            "spa": "Reina escarabajo",
+            "ger": "Königinnenkäfer-Set",
+            "ita": "Scarabeo",
+            "kor": "퀸비트",
+            "cnt": "獨角仙后",
+            "cns": "独角仙后",
+            "rus": "Жук-королева",
+            "pol": "Żuka królowej",
+            "ptb": "Besouro-rainha",
+            "ara": "الخنفساء الملكة"
+        }
+    },
+    {
+        "id": 206,
+        "name": {
+            "jpn": "クインビートα",
+            "eng": "Queen Beetleα",
+            "fre": "Scarabée α",
+            "spa": "Reina escarabajo α",
+            "ger": "Königinnenkäfer-Set α",
+            "ita": "Scarabeo α",
+            "kor": "퀸비트α",
+            "cnt": "獨角仙后α",
+            "cns": "独角仙后阿尔法",
+            "rus": "Жук-королеваα",
+            "pol": "Żuka królowejα",
+            "ptb": "Besouro-rainhaα",
+            "ara": "الخنفساء الملكةα"
+        }
+    },
+    {
+        "id": 207,
+        "name": {
+            "jpn": "クインビートβ",
+            "eng": "Queen Beetleβ",
+            "fre": "Scarabée β",
+            "spa": "Reina escarabajo β",
+            "ger": "Königinnenkäfer-Set β",
+            "ita": "Scarabeo β",
+            "kor": "퀸비트β",
+            "cnt": "獨角仙后β",
+            "cns": "独角仙后贝塔",
+            "rus": "Жук-королеваβ",
+            "pol": "Żuka królowejβ",
+            "ptb": "Besouro-rainhaβ",
+            "ara": "الخنفساء الملكةβ"
+        }
+    },
+    {
+        "id": 208,
+        "name": {
+            "jpn": "ウルズγ",
+            "eng": "Vaal Hazakγ",
+            "fre": "Vaal Hazak γ",
+            "spa": "Vaal Hazak γ",
+            "ger": "Vaal-Hazak-Set γ",
+            "ita": "Vaal Hazak γ",
+            "kor": "우르즈γ",
+            "cnt": "烏爾德γ",
+            "cns": "乌尔德伽马",
+            "rus": "Ваал-хазакγ",
+            "pol": "Vaal Hazakaγ",
+            "ptb": "Vaal Hazakγ",
+            "ara": "فال هازاكγ"
+        }
+    },
+    {
+        "id": 209,
+        "name": {
+            "jpn": "キリンγ",
+            "eng": "Kirinγ",
+            "fre": "Kirin γ",
+            "spa": "Kirin γ",
+            "ger": "Kirin-Set γ",
+            "ita": "Kirin γ",
+            "kor": "키린γ",
+            "cnt": "麒麟γ",
+            "cns": "麒麟伽马",
+            "rus": "Киринγ",
+            "pol": "Kirinaγ",
+            "ptb": "Kirinγ",
+            "ara": "كيرينγ"
+        }
+    },
+    {
+        "id": 210,
+        "name": {
+            "jpn": "カイザーγ",
+            "eng": "Teostraγ",
+            "fre": "Kaiser γ",
+            "spa": "Káiser γ",
+            "ger": "Kaiser-Set γ",
+            "ita": "Kaiser γ",
+            "kor": "카이저γ",
+            "cnt": "帝王γ",
+            "cns": "帝王伽马",
+            "rus": "Теостраγ",
+            "pol": "Teostryγ",
+            "ptb": "Teostraγ",
+            "ara": "تيوستراγ"
+        }
+    },
+    {
+        "id": 211,
+        "name": {
+            "jpn": "クシャナγ",
+            "eng": "Kushalaγ",
+            "fre": "Kushala Daora γ",
+            "spa": "Kushala γ",
+            "ger": "Kushala-Set γ",
+            "ita": "Kushala γ",
+            "kor": "크샤나γ",
+            "cnt": "鋼龍γ",
+            "cns": "钢龙伽马",
+            "rus": "Кушалаγ",
+            "pol": "Kushaliγ",
+            "ptb": "Kushalaγ",
+            "ara": "كوشالاγ"
+        }
+    },
+    {
+        "id": 212,
+        "name": {
+            "jpn": "オーグγ",
+            "eng": "Nergiganteγ",
+            "fre": "Nergigante γ",
+            "spa": "Nergigante γ",
+            "ger": "Nergigante-Set γ",
+            "ita": "Nergigante γ",
+            "kor": "오그γ",
+            "cnt": "戰紋γ",
+            "cns": "战纹伽马",
+            "rus": "Нергигантγ",
+            "pol": "Nergigantaγ",
+            "ptb": "Nergiganteγ",
+            "ara": "نيرغيγ"
+        }
+    },
+    {
+        "id": 213,
+        "name": {
+            "jpn": "ゾラマグナγ",
+            "eng": "Zorahγ",
+            "fre": "Zorah Magdaros γ",
+            "spa": "Zorah γ",
+            "ger": "Zorah-Set γ",
+            "ita": "Zorah γ",
+            "kor": "조라마그나γ",
+            "cnt": "鑄島熔岩γ",
+            "cns": "铸岛熔岩伽马",
+            "rus": "Дзораγ",
+            "pol": "Zorahaγ",
+            "ptb": "Zorahγ",
+            "ara": "زوراهγ"
+        }
+    },
+    {
+        "id": 214,
+        "name": {
+            "jpn": "ゼノラージγ",
+            "eng": "Xeno'jiivaγ",
+            "fre": "Xeno'jiiva γ",
+            "spa": "Xeno'jiiva γ",
+            "ger": "Xeno'jiiva-Set γ",
+            "ita": "Xeno'jiiva γ",
+            "kor": "제노라지γ",
+            "cnt": "冥燈幽火γ",
+            "cns": "冥灯幽火伽马",
+            "rus": "Ксено'джииваγ",
+            "pol": "Xeno'jiivaγ",
+            "ptb": "Xeno'jiivaγ",
+            "ara": "زينوجيفاγ"
+        }
+    },
+    {
+        "id": 219,
+        "name": {
+            "jpn": "蒼星ノ将α",
+            "eng": "Azure Starlordα",
+            "fre": "Paladin des étoiles α",
+            "spa": "Rey celestial α",
+            "ger": "Azurstern-Gebieter-Set α",
+            "ita": "Sommo celeste α",
+            "kor": "파란별 장군α",
+            "cnt": "蒼星之將α",
+            "cns": "苍星之将阿尔法",
+            "rus": "Звездный лордα",
+            "pol": "Pan Lazurowej Gwiazdyα",
+            "ptb": "Senhor Estelar Lazúliα",
+            "ara": "سيد نجوم لازورديα"
+        }
+    },
+    {
+        "id": 220,
+        "name": {
+            "jpn": "ダンテα",
+            "eng": "Danteα",
+            "fre": "Dante α",
+            "spa": "Dante α",
+            "ger": "Dante-Set α",
+            "ita": "Dante α",
+            "kor": "단테α",
+            "cnt": "但丁α",
+            "cns": "但丁阿尔法",
+            "rus": "Дантеα",
+            "pol": "Dantegoα",
+            "ptb": "Danteα",
+            "ara": "دانتيα"
+        }
+    },
+    {
+        "id": 221,
+        "name": {
+            "jpn": "エンプレスα",
+            "eng": "Lunastraα",
+            "fre": "Imperatrix α",
+            "spa": "Lunastra α",
+            "ger": "Kaiserin-Set α",
+            "ita": "Imperatrice α",
+            "kor": "엠프리스α",
+            "cnt": "皇后α",
+            "cns": "皇后阿尔法",
+            "rus": "Лунастраα",
+            "pol": "Lunastryα",
+            "ptb": "Lunastraα",
+            "ara": "لوناستراα"
+        }
+    },
+    {
+        "id": 222,
+        "name": {
+            "jpn": "エンプレスβ",
+            "eng": "Lunastraβ",
+            "fre": "Imperatrix β",
+            "spa": "Lunastra β",
+            "ger": "Kaiserin-Set β",
+            "ita": "Imperatrice β",
+            "kor": "엠프리스β",
+            "cnt": "皇后β",
+            "cns": "皇后贝塔",
+            "rus": "Лунастраβ",
+            "pol": "Lunastryβ",
+            "ptb": "Lunastraβ",
+            "ara": "لوناستراβ"
+        }
+    },
+    {
+        "id": 223,
+        "name": {
+            "jpn": "封印の眼帯α",
+            "eng": "Sealed Eyepatchα",
+            "fre": "Cache-œil interdit α",
+            "spa": "Parche de ojo α",
+            "ger": "Dichte Augenklappe α",
+            "ita": "Benda nera α",
+            "kor": "봉인의 안대α",
+            "cnt": "封印的眼罩α",
+            "cns": "封印的眼罩阿尔法",
+            "rus": "Повязка с печатьюα",
+            "pol": "Zapieczętowana opaskaα",
+            "ptb": "Tapa-olho Seladoα",
+            "ara": "رقعة عين مذهلةα"
+        }
+    },
+    {
+        "id": 224,
+        "name": {
+            "jpn": "シャドウアイα",
+            "eng": "Shadow Shadesα",
+            "fre": "Lunettes teintées α",
+            "spa": "Gafas oscuras α",
+            "ger": "Schatten-Sonnenbrille α",
+            "ita": "Occhiali del buio α",
+            "kor": "섀도우아이α",
+            "cnt": "墨鏡α",
+            "cns": "墨镜阿尔法",
+            "rus": "Теневые очкиα",
+            "pol": "Okulary cieniaα",
+            "ptb": "Ócul. Esc. Sombriosα",
+            "ara": "ألوان ظلالα"
+        }
+    },
+    {
+        "id": 225,
+        "name": {
+            "jpn": "クルルフェイクα",
+            "eng": "Kulu-Ya-Ku Headα",
+            "fre": "Tête Kulu-Ya-Ku α",
+            "spa": "Cabeza Kulu-Ya-Ku α",
+            "ger": "Kulu-Ya-Ku-Kopf α",
+            "ita": "Testa di Kulu-Ya-Ku α",
+            "kor": "쿠루루페이크α",
+            "cnt": "扒手龍頭套α",
+            "cns": "扒手龙头套阿尔法",
+            "rus": "Голова кулу-йа-куα",
+            "pol": "Głowa Kulu-Ya-Kuα",
+            "ptb": "Elmo Kulu-Ya-Kuα",
+            "ara": "رأس كولو-يا-كوα"
+        }
+    },
+    {
+        "id": 226,
+        "name": {
+            "jpn": "ユラユラフェイクα",
+            "eng": "Wiggler Headα",
+            "fre": "Tête de tortilleur α",
+            "spa": "Cabeza de gorgasia α",
+            "ger": "Wackelwurm-Kopf α",
+            "ita": "Testa di tremogliola α",
+            "kor": "흔들흔들 페이크α",
+            "cnt": "搖曳鰻頭套α",
+            "cns": "摇曳鳗头套阿尔法",
+            "rus": "Голова ползунаα",
+            "pol": "Głowa pełzaczaα",
+            "ptb": "Cabeça Treme-tremeα",
+            "ara": "عتاد رأس دودة ضخمةα"
+        }
+    },
+    {
+        "id": 227,
+        "name": {
+            "jpn": "【パピヨン】衣装",
+            "eng": "Butterfly",
+            "fre": "Papillon",
+            "spa": "Mariposa",
+            "ger": "Schmetterling",
+            "ita": "Farfalla",
+            "kor": "【파피용】 의상",
+            "cnt": "【蝴蝶】服裝",
+            "cns": "【蝴蝶】服装",
+            "rus": "Бабочка",
+            "pol": "Motyla",
+            "ptb": "Borboleta",
+            "ara": "الفراشة"
+        }
+    },
+    {
+        "id": 228,
+        "name": {
+            "jpn": "【デスギア】衣装",
+            "eng": "Death Stench",
+            "fre": "Putride",
+            "spa": "Pestilente",
+            "ger": "Todesgestank",
+            "ita": "Putrefatto",
+            "kor": "【데스기어】 의상",
+            "cnt": "【死神】服裝",
+            "cns": "【死神】服装",
+            "rus": "Зловоние смерти",
+            "pol": "Rozkładu",
+            "ptb": "Putrefato",
+            "ara": "رائحة الموت"
+        }
+    },
+    {
+        "id": 229,
+        "name": {
+            "jpn": "【シャドウアイ】衣装",
+            "eng": "Shadow Shades",
+            "fre": "Lunettes teintées",
+            "spa": "Gafas oscuras",
+            "ger": "Schatten-Sonnenbrille",
+            "ita": "Occhiali del buio",
+            "kor": "【섀도우아이】 의상",
+            "cnt": "【墨鏡】服裝",
+            "cns": "【墨镜】服装",
+            "rus": "Теневые очки",
+            "pol": "Okulary cienia",
+            "ptb": "Óculos Escuros Sombrios",
+            "ara": "ألوان ظلال"
+        }
+    },
+    {
+        "id": 230,
+        "name": {
+            "jpn": "【ダンテ】衣装",
+            "eng": "Dante",
+            "fre": "Dante",
+            "spa": "Dante",
+            "ger": "Dante",
+            "ita": "Dante",
+            "kor": "【단테】 의상",
+            "cnt": "【但丁】服裝",
+            "cns": "【但丁】服装",
+            "rus": "Данте",
+            "pol": "Dantego",
+            "ptb": "Dante",
+            "ara": "دانتي"
+        }
+    },
+    {
+        "id": 231,
+        "name": {
+            "jpn": "【ドラケン】衣装",
+            "eng": "Drachen",
+            "fre": "Drachen",
+            "spa": "Drachen",
+            "ger": "Drachenreiter",
+            "ita": "Drachen",
+            "kor": "【용기사】 의상",
+            "cnt": "【騰龍】服裝",
+            "cns": "【腾龙】服装",
+            "rus": "Дракен",
+            "pol": "Dragoński",
+            "ptb": "Drachen",
+            "ara": "دراكين"
+        }
+    },
+    {
+        "id": 232,
+        "name": {
+            "jpn": "【モスフェイク】衣装",
+            "eng": "Mosswine Mask",
+            "fre": "Mosswine",
+            "spa": "Careta musgorrino",
+            "ger": "Mosswine-Maske",
+            "ita": "Mosswine",
+            "kor": "【모스페이크】의상",
+            "cnt": "【菌豬頭套】服裝",
+            "cns": "【蘑菇猪头套】服装",
+            "rus": "Маска мохосвина",
+            "pol": "Mchoświni",
+            "ptb": "Máscara Musgoíno",
+            "ara": "قناع موسواين"
+        }
+    },
+    {
+        "id": 233,
+        "name": {
+            "jpn": "【アイルーフェイク】衣装",
+            "eng": "Faux Felyne",
+            "fre": "Faux Felyne",
+            "spa": "Falso Felyne",
+            "ger": "Falscher Felyne",
+            "ita": "Felyne fasullo",
+            "kor": "【아이루페이크】의상",
+            "cnt": "【艾路頭套】服裝",
+            "cns": "【艾露猫头套】服装",
+            "rus": "Фальшивый котт",
+            "pol": "Pseudofelina",
+            "ptb": "Felyno Falso",
+            "ara": "فيلاين مزيف"
+        }
+    },
+    {
+        "id": 234,
+        "name": {
+            "jpn": "【シーカー】衣装",
+            "eng": "Commission",
+            "fre": "Commission",
+            "spa": "Comisión",
+            "ger": "Kommission",
+            "ita": "Commissione",
+            "kor": "【시커】 의상",
+            "cnt": "【追蹤者】服裝",
+            "cns": "【追踪者】服装",
+            "rus": "Экспедиция",
+            "pol": "Komisji",
+            "ptb": "Comissão",
+            "ara": "اللجنة"
+        }
+    },
+    {
+        "id": 235,
+        "name": {
+            "jpn": "【封印の眼帯】衣装",
+            "eng": "Sealed Eyepatch",
+            "fre": "Cache-œil interdit",
+            "spa": "Parche en el ojo",
+            "ger": "Dichte Augenklappe",
+            "ita": "Benda nera",
+            "kor": "【봉인의 안대】 의상",
+            "cnt": "【封印的眼罩】服裝",
+            "cns": "【封印的眼罩】服装",
+            "rus": "Повязка с печатью",
+            "pol": "Zapieczętowana opaska",
+            "ptb": "Tapa-olho Selado",
+            "ara": "رقعة عين مذهلة"
+        }
+    },
+    {
+        "id": 236,
+        "name": {
+            "jpn": "【ユラユラフェイク】衣装",
+            "eng": "Wiggler Head",
+            "fre": "Tête de tortilleur",
+            "spa": "Cabeza de gorgasia",
+            "ger": "Wackelwurm-Kopf",
+            "ita": "Testa di tremogliola",
+            "kor": "【흔들흔들페이크】의상",
+            "cnt": "【搖曳鰻頭套】服裝",
+            "cns": "【摇曳鳗头套】服装",
+            "rus": "Голова ползуна",
+            "pol": "Głowa pełzacza",
+            "ptb": "Cabeça Treme-treme",
+            "ara": "عتاد رأس دودة ضخمة"
+        }
+    },
+    {
+        "id": 237,
+        "name": {
+            "jpn": "【オリジン】衣装",
+            "eng": "Origin",
+            "fre": "Héritage",
+            "spa": "Origen",
+            "ger": "Ursprung",
+            "ita": "Origini",
+            "kor": "【오리진】 의상",
+            "cnt": "【原型】服裝",
+            "cns": "【原型】服装",
+            "rus": "Исток",
+            "pol": "Źródła",
+            "ptb": "Origem",
+            "ara": "الأصلي"
+        }
+    },
+    {
+        "id": 238,
+        "name": {
+            "jpn": "【ビートル】衣装",
+            "eng": "Beetle",
+            "fre": "Scarabée",
+            "spa": "Escarabajo",
+            "ger": "Käfer",
+            "ita": "Scarabeo",
+            "kor": "【비틀】의상",
+            "cnt": "【甲蟲】服裝",
+            "cns": "【甲虫】服装",
+            "rus": "Жук",
+            "pol": "Żuka",
+            "ptb": "Besouro",
+            "ara": "الخنفساء"
+        }
+    },
+    {
+        "id": 240,
+        "name": {
+            "jpn": "【スカルフェイス】衣装",
+            "eng": "Skull Mask",
+            "fre": "Visage de mort",
+            "spa": "Máscara calavérica",
+            "ger": "Totenkopf",
+            "ita": "Maschera scheletrica",
+            "kor": "【스컬페이스】의상",
+            "cnt": "【骷髏面罩】服裝",
+            "cns": "【骷髅面罩】服装",
+            "rus": "Маска черепа",
+            "pol": "Maska czaszki",
+            "ptb": "Máscara Craniana",
+            "ara": "قناع الجمجمة"
+        }
+    },
+    {
+        "id": 241,
+        "name": {
+            "jpn": "【クルルフェイク】衣装",
+            "eng": "Kulu-Ya-Ku Head",
+            "fre": "Tête Kulu-Ya-Ku",
+            "spa": "Cabeza de Kulu-Ya-Ku",
+            "ger": "Kulu-Ya-Ku-Kopf",
+            "ita": "Testa di Kulu-Ya-Ku",
+            "kor": "【쿠루루페이크】의상",
+            "cnt": "【扒手龍頭套】服裝",
+            "cns": "【扒手龙头套】服装",
+            "rus": "Голова кулу-йа-ку",
+            "pol": "Głowa Kulu-Ya-Ku",
+            "ptb": "Cabeça Kulu-Ya-Ku",
+            "ara": "رأس كولو-يا-كو"
+        }
+    },
+    {
+        "id": 243,
+        "name": {
+            "jpn": "エンプレスγ",
+            "eng": "Lunastraγ",
+            "fre": "Imperatrix γ",
+            "spa": "Lunastra γ",
+            "ger": "Kaiserin-Set γ",
+            "ita": "Imperatrice γ",
+            "kor": "엠프리스γ",
+            "cnt": "皇后γ",
+            "cns": "皇后伽马",
+            "rus": "Лунастраγ",
+            "pol": "Lunastryγ",
+            "ptb": "Lunastraγ",
+            "ara": "لوناستراγ"
+        }
+    },
+    {
+        "id": 244,
+        "name": {
+            "jpn": "ゲラルトα",
+            "eng": "Geraltα",
+            "fre": "Geralt α",
+            "spa": "Geralt α",
+            "ger": "Geralt α",
+            "ita": "Geralt α",
+            "kor": "게롤트α",
+            "cnt": "傑洛特α",
+            "cns": "杰洛特阿尔法",
+            "rus": "Геральтα",
+            "pol": "Geraltaα",
+            "ptb": "Geraltα",
+            "ara": "‮جيرالتα"
+        }
+    },
+    {
+        "id": 245,
+        "name": {
+            "jpn": "シリα",
+            "eng": "Ciriα",
+            "fre": "Ciri α",
+            "spa": "Ciri α",
+            "ger": "Ciri α",
+            "ita": "Ciri α",
+            "kor": "시리α",
+            "cnt": "希里α",
+            "cns": "希里阿尔法",
+            "rus": "Цириα",
+            "pol": "Ciriα",
+            "ptb": "Ciriα",
+            "ara": "‮سيريα"
+        }
+    },
+    {
+        "id": 246,
+        "name": {
+            "jpn": "【ゲラルト】衣装",
+            "eng": "Geralt of Rivia",
+            "fre": "Geralt de Riv",
+            "spa": "Geralt de Rivia",
+            "ger": "Geralt von Riva",
+            "ita": "Geralt di Rivia",
+            "kor": "【게롤트】의상",
+            "cnt": "【傑洛特】服裝",
+            "cns": "【杰洛特】服装",
+            "rus": "Геральт из Ривии",
+            "pol": "Geralt z Rivii",
+            "ptb": "Geralt de Rívia",
+            "ara": "جيرالت من ريڤيا"
+        }
+    },
+    {
+        "id": 247,
+        "name": {
+            "jpn": "【シリ】衣装",
+            "eng": "Ciri",
+            "fre": "Ciri",
+            "spa": "Ciri",
+            "ger": "Ciri",
+            "ita": "Ciri",
+            "kor": "【시리】의상",
+            "cnt": "【希里】服裝",
+            "cns": "【希里】服装",
+            "rus": "Цири",
+            "pol": "Ciri",
+            "ptb": "Ciri",
+            "ara": "سيري"
+        }
+    },
+    {
+        "id": 248,
+        "name": {
+            "jpn": "マムガイラγ",
+            "eng": "Kulve Tarothγ",
+            "fre": "Kulve Taroth γ",
+            "spa": "Kulve Taroth γ",
+            "ger": "Kulve-Taroth-Set γ",
+            "ita": "Kulve Taroth γ",
+            "kor": "맘가이라γ",
+            "cnt": "絢輝龍鎧羅γ",
+            "cns": "绚辉龙铠罗伽马",
+            "rus": "Кулве таротγ",
+            "pol": "Kulve Tarothγ",
+            "ptb": "Kulve Tarothγ",
+            "ara": "كولف تاروثγ"
+        }
+    }
+]
