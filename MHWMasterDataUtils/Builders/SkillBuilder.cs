@@ -62,25 +62,40 @@ namespace MHWMasterDataUtils.Builders
 
                 foreach (SkillAbilityPrimitive skillAbility in skillGroup.Value.Values)
                 {
+                    if (skillAbility.SkillId == 0)
+                        continue;
+
                     uint skillAbilityNameIndex = skillAbility.Index * 2;
                     uint skillAbilityDescriptionIndex = skillAbilityNameIndex + 1;
 
                     Dictionary<string, string> skillAbilityName = LanguageUtils.CreateLocalizations(skillAttributesLanguages.Table, skillAbilityNameIndex);
                     Dictionary<string, string> skillAbilityDescription = LanguageUtils.CreateLocalizations(skillAttributesLanguages.Table, skillAbilityDescriptionIndex, languageValueProcessors);
 
-                    abilities.Add(new core.Ability
+                    int[] parameters = new int[]
                     {
-                        Name = isSetBonus ? skillAbilityName : null,
-                        Description = skillAbilityDescription,
-                        Level = skillAbility.Level,
-                        Parameters = new int[]
-                        {
-                            skillAbility.Param1,
-                            skillAbility.Param2,
-                            skillAbility.Param3,
-                            skillAbility.Param4
-                        }
-                    });
+                        skillAbility.Param1,
+                        skillAbility.Param2,
+                        skillAbility.Param3,
+                        skillAbility.Param4
+                    };
+
+                    if (isSetBonus)
+                    {
+                        abilities.Add(core.Ability.CreateSetSkill(
+                            skillAbility.Level,
+                            skillAbilityName,
+                            skillAbilityDescription,
+                            parameters
+                        ));
+                    }
+                    else
+                    {
+                        abilities.Add(core.Ability.CreateRegularSkill(
+                            skillAbility.Level,
+                            skillAbilityDescription,
+                            parameters
+                        ));
+                    }
                 }
 
                 result.Add(new core.Skill

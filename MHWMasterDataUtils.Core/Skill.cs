@@ -8,13 +8,39 @@ namespace MHWMasterDataUtils.Core
     public class Ability
     {
         [JsonProperty("level")]
-        public int Level { get; set; }
+        public int? Level { get; set; }
+        [JsonProperty("requiredParts")]
+        public int? RequiredParts { get; set; }
         [JsonProperty("name")]
         public Dictionary<string, string> Name { get; set; }
         [JsonProperty("description")]
         public Dictionary<string, string> Description { get; set; }
         [JsonProperty("params")]
         public int[] Parameters { get; set; }
+
+        public static Ability CreateRegularSkill(int level, Dictionary<string, string> description, int[] parameters)
+        {
+            return new Ability
+            {
+                Level = level,
+                RequiredParts = null,
+                Name = null,
+                Description = description,
+                Parameters = parameters
+            };
+        }
+
+        public static Ability CreateSetSkill(int requiredParts, Dictionary<string, string> name, Dictionary<string, string> description, int[] parameters)
+        {
+            return new Ability
+            {
+                Level = null,
+                RequiredParts = requiredParts,
+                Name = name,
+                Description = description,
+                Parameters = parameters
+            };
+        }
 
         public override string ToString()
         {
