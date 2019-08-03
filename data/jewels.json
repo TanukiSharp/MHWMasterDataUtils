@@ -1,6 +1,12 @@
 [
     {
         "equipmentId": 0,
+        "skills": [
+            {
+                "skillId": 1,
+                "level": 1
+            }
+        ],
         "id": 727,
         "name": {
             "jpn": "耐毒珠【１】",
@@ -39,6 +45,12 @@
     },
     {
         "equipmentId": 1,
+        "skills": [
+            {
+                "skillId": 2,
+                "level": 1
+            }
+        ],
         "id": 728,
         "name": {
             "jpn": "耐麻珠【１】",
@@ -77,6 +89,12 @@
     },
     {
         "equipmentId": 2,
+        "skills": [
+            {
+                "skillId": 3,
+                "level": 1
+            }
+        ],
         "id": 729,
         "name": {
             "jpn": "耐眠珠【１】",
@@ -115,6 +133,12 @@
     },
     {
         "equipmentId": 4,
+        "skills": [
+            {
+                "skillId": 6,
+                "level": 1
+            }
+        ],
         "id": 731,
         "name": {
             "jpn": "耐爆珠【１】",
@@ -153,6 +177,12 @@
     },
     {
         "equipmentId": 5,
+        "skills": [
+            {
+                "skillId": 7,
+                "level": 1
+            }
+        ],
         "id": 732,
         "name": {
             "jpn": "耐裂珠【１】",
@@ -191,6 +221,12 @@
     },
     {
         "equipmentId": 6,
+        "skills": [
+            {
+                "skillId": 8,
+                "level": 1
+            }
+        ],
         "id": 733,
         "name": {
             "jpn": "耐防珠【１】",
@@ -229,6 +265,12 @@
     },
     {
         "equipmentId": 14,
+        "skills": [
+            {
+                "skillId": 24,
+                "level": 1
+            }
+        ],
         "id": 743,
         "name": {
             "jpn": "耐火珠【１】",
@@ -267,6 +309,12 @@
     },
     {
         "equipmentId": 15,
+        "skills": [
+            {
+                "skillId": 25,
+                "level": 1
+            }
+        ],
         "id": 744,
         "name": {
             "jpn": "耐水珠【１】",
@@ -305,6 +353,12 @@
     },
     {
         "equipmentId": 16,
+        "skills": [
+            {
+                "skillId": 26,
+                "level": 1
+            }
+        ],
         "id": 745,
         "name": {
             "jpn": "耐氷珠【１】",
@@ -343,6 +397,12 @@
     },
     {
         "equipmentId": 17,
+        "skills": [
+            {
+                "skillId": 27,
+                "level": 1
+            }
+        ],
         "id": 746,
         "name": {
             "jpn": "耐雷珠【１】",
@@ -381,6 +441,12 @@
     },
     {
         "equipmentId": 18,
+        "skills": [
+            {
+                "skillId": 28,
+                "level": 1
+            }
+        ],
         "id": 747,
         "name": {
             "jpn": "耐龍珠【１】",
@@ -419,6 +485,12 @@
     },
     {
         "equipmentId": 43,
+        "skills": [
+            {
+                "skillId": 60,
+                "level": 1
+            }
+        ],
         "id": 774,
         "name": {
             "jpn": "飛燕珠【２】",
@@ -457,6 +529,12 @@
     },
     {
         "equipmentId": 48,
+        "skills": [
+            {
+                "skillId": 65,
+                "level": 1
+            }
+        ],
         "id": 779,
         "name": {
             "jpn": "逆境珠【１】",
@@ -495,6 +573,12 @@
     },
     {
         "equipmentId": 54,
+        "skills": [
+            {
+                "skillId": 72,
+                "level": 1
+            }
+        ],
         "id": 785,
         "name": {
             "jpn": "砲手珠【１】",
@@ -533,6 +617,12 @@
     },
     {
         "equipmentId": 58,
+        "skills": [
+            {
+                "skillId": 77,
+                "level": 1
+            }
+        ],
         "id": 790,
         "name": {
             "jpn": "無食珠【１】",
@@ -571,6 +661,12 @@
     },
     {
         "equipmentId": 65,
+        "skills": [
+            {
+                "skillId": 84,
+                "level": 1
+            }
+        ],
         "id": 797,
         "name": {
             "jpn": "節食珠【１】",
@@ -609,6 +705,12 @@
     },
     {
         "equipmentId": 70,
+        "skills": [
+            {
+                "skillId": 97,
+                "level": 1
+            }
+        ],
         "id": 808,
         "name": {
             "jpn": "加護珠【１】",
@@ -647,6 +749,12 @@
     },
     {
         "equipmentId": 71,
+        "skills": [
+            {
+                "skillId": 98,
+                "level": 1
+            }
+        ],
         "id": 809,
         "name": {
             "jpn": "采配珠【１】",
@@ -685,6 +793,12 @@
     },
     {
         "equipmentId": 72,
+        "skills": [
+            {
+                "skillId": 99,
+                "level": 1
+            }
+        ],
         "id": 810,
         "name": {
             "jpn": "植学珠【１】",
@@ -723,6 +837,12 @@
     },
     {
         "equipmentId": 73,
+        "skills": [
+            {
+                "skillId": 100,
+                "level": 1
+            }
+        ],
         "id": 811,
         "name": {
             "jpn": "地学珠【１】",
@@ -761,6 +881,12 @@
     },
     {
         "equipmentId": 76,
+        "skills": [
+            {
+                "skillId": 103,
+                "level": 1
+            }
+        ],
         "id": 814,
         "name": {
             "jpn": "潜伏珠【１】",
@@ -799,6 +925,12 @@
     },
     {
         "equipmentId": 78,
+        "skills": [
+            {
+                "skillId": 108,
+                "level": 1
+            }
+        ],
         "id": 819,
         "name": {
             "jpn": "煙復珠【１】",
@@ -837,6 +969,12 @@
     },
     {
         "equipmentId": 79,
+        "skills": [
+            {
+                "skillId": 109,
+                "level": 1
+            }
+        ],
         "id": 820,
         "name": {
             "jpn": "沼渡珠【１】",
@@ -875,6 +1013,12 @@
     },
     {
         "equipmentId": 80,
+        "skills": [
+            {
+                "skillId": 115,
+                "level": 1
+            }
+        ],
         "id": 824,
         "name": {
             "jpn": "標本珠【１】",
@@ -913,6 +1057,12 @@
     },
     {
         "equipmentId": 97,
+        "skills": [
+            {
+                "skillId": 116,
+                "level": 1
+            }
+        ],
         "id": 825,
         "name": {
             "jpn": "耐瘴珠【１】",
@@ -951,6 +1101,12 @@
     },
     {
         "equipmentId": 81,
+        "skills": [
+            {
+                "skillId": 117,
+                "level": 1
+            }
+        ],
         "id": 826,
         "name": {
             "jpn": "嗅覚珠【１】",
@@ -989,6 +1145,12 @@
     },
     {
         "equipmentId": 82,
+        "skills": [
+            {
+                "skillId": 124,
+                "level": 1
+            }
+        ],
         "id": 828,
         "name": {
             "jpn": "威嚇珠【１】",
@@ -1027,6 +1189,12 @@
     },
     {
         "equipmentId": 89,
+        "skills": [
+            {
+                "skillId": 67,
+                "level": 1
+            }
+        ],
         "id": 838,
         "name": {
             "jpn": "窮地珠【１】",
@@ -1065,6 +1233,12 @@
     },
     {
         "equipmentId": 91,
+        "skills": [
+            {
+                "skillId": 120,
+                "level": 1
+            }
+        ],
         "id": 842,
         "name": {
             "jpn": "整備珠【１】",
@@ -1103,6 +1277,12 @@
     },
     {
         "equipmentId": 3,
+        "skills": [
+            {
+                "skillId": 4,
+                "level": 1
+            }
+        ],
         "id": 730,
         "name": {
             "jpn": "耐絶珠【１】",
@@ -1141,6 +1321,12 @@
     },
     {
         "equipmentId": 11,
+        "skills": [
+            {
+                "skillId": 20,
+                "level": 1
+            }
+        ],
         "id": 740,
         "name": {
             "jpn": "防御珠【１】",
@@ -1179,6 +1365,12 @@
     },
     {
         "equipmentId": 12,
+        "skills": [
+            {
+                "skillId": 21,
+                "level": 1
+            }
+        ],
         "id": 741,
         "name": {
             "jpn": "体力珠【１】",
@@ -1217,6 +1409,12 @@
     },
     {
         "equipmentId": 13,
+        "skills": [
+            {
+                "skillId": 23,
+                "level": 1
+            }
+        ],
         "id": 742,
         "name": {
             "jpn": "早復珠【１】",
@@ -1255,6 +1453,12 @@
     },
     {
         "equipmentId": 19,
+        "skills": [
+            {
+                "skillId": 29,
+                "level": 1
+            }
+        ],
         "id": 748,
         "name": {
             "jpn": "耐属珠【１】",
@@ -1293,6 +1497,12 @@
     },
     {
         "equipmentId": 20,
+        "skills": [
+            {
+                "skillId": 30,
+                "level": 1
+            }
+        ],
         "id": 749,
         "name": {
             "jpn": "火炎珠【１】",
@@ -1331,6 +1541,12 @@
     },
     {
         "equipmentId": 21,
+        "skills": [
+            {
+                "skillId": 31,
+                "level": 1
+            }
+        ],
         "id": 750,
         "name": {
             "jpn": "流水珠【１】",
@@ -1369,6 +1585,12 @@
     },
     {
         "equipmentId": 22,
+        "skills": [
+            {
+                "skillId": 32,
+                "level": 1
+            }
+        ],
         "id": 751,
         "name": {
             "jpn": "氷結珠【１】",
@@ -1407,6 +1629,12 @@
     },
     {
         "equipmentId": 23,
+        "skills": [
+            {
+                "skillId": 33,
+                "level": 1
+            }
+        ],
         "id": 752,
         "name": {
             "jpn": "雷光珠【１】",
@@ -1445,6 +1673,12 @@
     },
     {
         "equipmentId": 24,
+        "skills": [
+            {
+                "skillId": 34,
+                "level": 1
+            }
+        ],
         "id": 753,
         "name": {
             "jpn": "破龍珠【１】",
@@ -1483,6 +1717,12 @@
     },
     {
         "equipmentId": 25,
+        "skills": [
+            {
+                "skillId": 35,
+                "level": 1
+            }
+        ],
         "id": 754,
         "name": {
             "jpn": "毒珠【１】",
@@ -1521,6 +1761,12 @@
     },
     {
         "equipmentId": 34,
+        "skills": [
+            {
+                "skillId": 48,
+                "level": 1
+            }
+        ],
         "id": 764,
         "name": {
             "jpn": "達人珠【１】",
@@ -1559,6 +1805,12 @@
     },
     {
         "equipmentId": 42,
+        "skills": [
+            {
+                "skillId": 58,
+                "level": 1
+            }
+        ],
         "id": 772,
         "name": {
             "jpn": "奪気珠【１】",
@@ -1597,6 +1849,12 @@
     },
     {
         "equipmentId": 50,
+        "skills": [
+            {
+                "skillId": 68,
+                "level": 1
+            }
+        ],
         "id": 781,
         "name": {
             "jpn": "鼓笛珠【１】",
@@ -1635,6 +1893,12 @@
     },
     {
         "equipmentId": 62,
+        "skills": [
+            {
+                "skillId": 81,
+                "level": 1
+            }
+        ],
         "id": 794,
         "name": {
             "jpn": "速納珠【１】",
@@ -1673,6 +1937,12 @@
     },
     {
         "equipmentId": 63,
+        "skills": [
+            {
+                "skillId": 82,
+                "level": 1
+            }
+        ],
         "id": 795,
         "name": {
             "jpn": "友愛珠【１】",
@@ -1711,6 +1981,12 @@
     },
     {
         "equipmentId": 64,
+        "skills": [
+            {
+                "skillId": 83,
+                "level": 1
+            }
+        ],
         "id": 796,
         "name": {
             "jpn": "持続珠【１】",
@@ -1749,6 +2025,12 @@
     },
     {
         "equipmentId": 66,
+        "skills": [
+            {
+                "skillId": 85,
+                "level": 1
+            }
+        ],
         "id": 798,
         "name": {
             "jpn": "早食珠【１】",
@@ -1787,6 +2069,12 @@
     },
     {
         "equipmentId": 67,
+        "skills": [
+            {
+                "skillId": 86,
+                "level": 1
+            }
+        ],
         "id": 799,
         "name": {
             "jpn": "研磨珠【１】",
@@ -1825,6 +2113,12 @@
     },
     {
         "equipmentId": 68,
+        "skills": [
+            {
+                "skillId": 88,
+                "level": 1
+            }
+        ],
         "id": 800,
         "name": {
             "jpn": "爆師珠【１】",
@@ -1863,6 +2157,12 @@
     },
     {
         "equipmentId": 75,
+        "skills": [
+            {
+                "skillId": 102,
+                "level": 1
+            }
+        ],
         "id": 813,
         "name": {
             "jpn": "投石珠【１】",
@@ -1901,6 +2201,12 @@
     },
     {
         "equipmentId": 84,
+        "skills": [
+            {
+                "skillId": 22,
+                "level": 1
+            }
+        ],
         "id": 833,
         "name": {
             "jpn": "治癒珠【１】",
@@ -1939,6 +2245,12 @@
     },
     {
         "equipmentId": 8,
+        "skills": [
+            {
+                "skillId": 12,
+                "level": 1
+            }
+        ],
         "id": 735,
         "name": {
             "jpn": "防風珠【２】",
@@ -1977,6 +2289,12 @@
     },
     {
         "equipmentId": 9,
+        "skills": [
+            {
+                "skillId": 13,
+                "level": 1
+            }
+        ],
         "id": 736,
         "name": {
             "jpn": "耐震珠【２】",
@@ -2015,6 +2333,12 @@
     },
     {
         "equipmentId": 36,
+        "skills": [
+            {
+                "skillId": 50,
+                "level": 1
+            }
+        ],
         "id": 766,
         "name": {
             "jpn": "痛撃珠【２】",
@@ -2053,6 +2377,12 @@
     },
     {
         "equipmentId": 40,
+        "skills": [
+            {
+                "skillId": 56,
+                "level": 1
+            }
+        ],
         "id": 770,
         "name": {
             "jpn": "重撃珠【２】",
@@ -2091,6 +2421,12 @@
     },
     {
         "equipmentId": 41,
+        "skills": [
+            {
+                "skillId": 57,
+                "level": 1
+            }
+        ],
         "id": 771,
         "name": {
             "jpn": "ＫＯ珠【２】",
@@ -2129,6 +2465,12 @@
     },
     {
         "equipmentId": 56,
+        "skills": [
+            {
+                "skillId": 74,
+                "level": 1
+            }
+        ],
         "id": 787,
         "name": {
             "jpn": "体術珠【２】",
@@ -2167,6 +2509,12 @@
     },
     {
         "equipmentId": 59,
+        "skills": [
+            {
+                "skillId": 78,
+                "level": 1
+            }
+        ],
         "id": 791,
         "name": {
             "jpn": "回避珠【２】",
@@ -2205,6 +2553,12 @@
     },
     {
         "equipmentId": 60,
+        "skills": [
+            {
+                "skillId": 79,
+                "level": 1
+            }
+        ],
         "id": 792,
         "name": {
             "jpn": "跳躍珠【２】",
@@ -2243,6 +2597,12 @@
     },
     {
         "equipmentId": 83,
+        "skills": [
+            {
+                "skillId": 122,
+                "level": 1
+            }
+        ],
         "id": 832,
         "name": {
             "jpn": "滑走珠【２】",
@@ -2281,6 +2641,12 @@
     },
     {
         "equipmentId": 96,
+        "skills": [
+            {
+                "skillId": 159,
+                "level": 1
+            }
+        ],
         "id": 878,
         "name": {
             "jpn": "無撃珠【２】",
@@ -2319,6 +2685,12 @@
     },
     {
         "equipmentId": 7,
+        "skills": [
+            {
+                "skillId": 11,
+                "level": 1
+            }
+        ],
         "id": 734,
         "name": {
             "jpn": "防音珠【３】",
@@ -2357,6 +2729,12 @@
     },
     {
         "equipmentId": 29,
+        "skills": [
+            {
+                "skillId": 42,
+                "level": 1
+            }
+        ],
         "id": 758,
         "name": {
             "jpn": "毒瓶珠【３】",
@@ -2395,6 +2773,12 @@
     },
     {
         "equipmentId": 77,
+        "skills": [
+            {
+                "skillId": 104,
+                "level": 1
+            }
+        ],
         "id": 815,
         "name": {
             "jpn": "耐衝珠【３】",
@@ -2433,6 +2817,12 @@
     },
     {
         "equipmentId": 10,
+        "skills": [
+            {
+                "skillId": 19,
+                "level": 1
+            }
+        ],
         "id": 739,
         "name": {
             "jpn": "攻撃珠【１】",
@@ -2471,6 +2861,12 @@
     },
     {
         "equipmentId": 26,
+        "skills": [
+            {
+                "skillId": 36,
+                "level": 1
+            }
+        ],
         "id": 755,
         "name": {
             "jpn": "麻痺珠【１】",
@@ -2509,6 +2905,12 @@
     },
     {
         "equipmentId": 27,
+        "skills": [
+            {
+                "skillId": 37,
+                "level": 1
+            }
+        ],
         "id": 756,
         "name": {
             "jpn": "睡眠珠【１】",
@@ -2547,6 +2949,12 @@
     },
     {
         "equipmentId": 28,
+        "skills": [
+            {
+                "skillId": 38,
+                "level": 1
+            }
+        ],
         "id": 757,
         "name": {
             "jpn": "爆破珠【１】",
@@ -2585,6 +2993,12 @@
     },
     {
         "equipmentId": 52,
+        "skills": [
+            {
+                "skillId": 70,
+                "level": 1
+            }
+        ],
         "id": 783,
         "name": {
             "jpn": "特射珠【１】",
@@ -2623,6 +3037,12 @@
     },
     {
         "equipmentId": 61,
+        "skills": [
+            {
+                "skillId": 80,
+                "level": 1
+            }
+        ],
         "id": 793,
         "name": {
             "jpn": "鉄壁珠【１】",
@@ -2661,6 +3081,12 @@
     },
     {
         "equipmentId": 44,
+        "skills": [
+            {
+                "skillId": 61,
+                "level": 1
+            }
+        ],
         "id": 775,
         "name": {
             "jpn": "全開珠【２】",
@@ -2699,6 +3125,12 @@
     },
     {
         "equipmentId": 45,
+        "skills": [
+            {
+                "skillId": 62,
+                "level": 1
+            }
+        ],
         "id": 776,
         "name": {
             "jpn": "挑戦珠【２】",
@@ -2737,6 +3169,12 @@
     },
     {
         "equipmentId": 46,
+        "skills": [
+            {
+                "skillId": 63,
+                "level": 1
+            }
+        ],
         "id": 777,
         "name": {
             "jpn": "無傷珠【２】",
@@ -2775,6 +3213,12 @@
     },
     {
         "equipmentId": 47,
+        "skills": [
+            {
+                "skillId": 64,
+                "level": 1
+            }
+        ],
         "id": 778,
         "name": {
             "jpn": "底力珠【２】",
@@ -2813,6 +3257,12 @@
     },
     {
         "equipmentId": 49,
+        "skills": [
+            {
+                "skillId": 66,
+                "level": 1
+            }
+        ],
         "id": 780,
         "name": {
             "jpn": "逆上珠【２】",
@@ -2851,6 +3301,12 @@
     },
     {
         "equipmentId": 51,
+        "skills": [
+            {
+                "skillId": 69,
+                "level": 1
+            }
+        ],
         "id": 782,
         "name": {
             "jpn": "増弾珠【２】",
@@ -2889,6 +3345,12 @@
     },
     {
         "equipmentId": 57,
+        "skills": [
+            {
+                "skillId": 76,
+                "level": 1
+            }
+        ],
         "id": 789,
         "name": {
             "jpn": "早気珠【２】",
@@ -2927,6 +3389,12 @@
     },
     {
         "equipmentId": 74,
+        "skills": [
+            {
+                "skillId": 101,
+                "level": 1
+            }
+        ],
         "id": 812,
         "name": {
             "jpn": "渾身珠【２】",
@@ -2965,6 +3433,12 @@
     },
     {
         "equipmentId": 88,
+        "skills": [
+            {
+                "skillId": 53,
+                "level": 1
+            }
+        ],
         "id": 837,
         "name": {
             "jpn": "昂揚珠【２】",
@@ -3003,6 +3477,12 @@
     },
     {
         "equipmentId": 94,
+        "skills": [
+            {
+                "skillId": 157,
+                "level": 1
+            }
+        ],
         "id": 876,
         "name": {
             "jpn": "強壁珠【２】",
@@ -3041,6 +3521,12 @@
     },
     {
         "equipmentId": 95,
+        "skills": [
+            {
+                "skillId": 158,
+                "level": 1
+            }
+        ],
         "id": 877,
         "name": {
             "jpn": "剛刃珠【２】",
@@ -3079,6 +3565,12 @@
     },
     {
         "equipmentId": 30,
+        "skills": [
+            {
+                "skillId": 43,
+                "level": 1
+            }
+        ],
         "id": 759,
         "name": {
             "jpn": "痺瓶珠【３】",
@@ -3117,6 +3609,12 @@
     },
     {
         "equipmentId": 31,
+        "skills": [
+            {
+                "skillId": 44,
+                "level": 1
+            }
+        ],
         "id": 760,
         "name": {
             "jpn": "眠瓶珠【３】",
@@ -3155,6 +3653,12 @@
     },
     {
         "equipmentId": 32,
+        "skills": [
+            {
+                "skillId": 46,
+                "level": 1
+            }
+        ],
         "id": 761,
         "name": {
             "jpn": "爆瓶珠【３】",
@@ -3193,6 +3697,12 @@
     },
     {
         "equipmentId": 85,
+        "skills": [
+            {
+                "skillId": 39,
+                "level": 1
+            }
+        ],
         "id": 834,
         "name": {
             "jpn": "強弾珠【３】",
@@ -3231,6 +3741,12 @@
     },
     {
         "equipmentId": 90,
+        "skills": [
+            {
+                "skillId": 123,
+                "level": 1
+            }
+        ],
         "id": 839,
         "name": {
             "jpn": "龍封珠【３】",
@@ -3269,6 +3785,12 @@
     },
     {
         "equipmentId": 53,
+        "skills": [
+            {
+                "skillId": 71,
+                "level": 1
+            }
+        ],
         "id": 784,
         "name": {
             "jpn": "砲術珠【１】",
@@ -3307,6 +3829,12 @@
     },
     {
         "equipmentId": 69,
+        "skills": [
+            {
+                "skillId": 90,
+                "level": 1
+            }
+        ],
         "id": 801,
         "name": {
             "jpn": "茸好珠【１】",
@@ -3345,6 +3873,12 @@
     },
     {
         "equipmentId": 35,
+        "skills": [
+            {
+                "skillId": 49,
+                "level": 1
+            }
+        ],
         "id": 765,
         "name": {
             "jpn": "超心珠【２】",
@@ -3383,6 +3917,12 @@
     },
     {
         "equipmentId": 37,
+        "skills": [
+            {
+                "skillId": 52,
+                "level": 1
+            }
+        ],
         "id": 767,
         "name": {
             "jpn": "短縮珠【２】",
@@ -3421,6 +3961,12 @@
     },
     {
         "equipmentId": 39,
+        "skills": [
+            {
+                "skillId": 55,
+                "level": 1
+            }
+        ],
         "id": 769,
         "name": {
             "jpn": "抜刀珠【２】",
@@ -3459,6 +4005,12 @@
     },
     {
         "equipmentId": 55,
+        "skills": [
+            {
+                "skillId": 73,
+                "level": 1
+            }
+        ],
         "id": 786,
         "name": {
             "jpn": "強走珠【２】",
@@ -3497,6 +4049,12 @@
     },
     {
         "equipmentId": 92,
+        "skills": [
+            {
+                "skillId": 155,
+                "level": 1
+            }
+        ],
         "id": 874,
         "name": {
             "jpn": "強弓珠【２】",
@@ -3535,6 +4093,12 @@
     },
     {
         "equipmentId": 93,
+        "skills": [
+            {
+                "skillId": 156,
+                "level": 1
+            }
+        ],
         "id": 875,
         "name": {
             "jpn": "心眼珠【２】",
@@ -3573,6 +4137,12 @@
     },
     {
         "equipmentId": 33,
+        "skills": [
+            {
+                "skillId": 47,
+                "level": 1
+            }
+        ],
         "id": 763,
         "name": {
             "jpn": "解放珠【３】",
@@ -3611,6 +4181,12 @@
     },
     {
         "equipmentId": 38,
+        "skills": [
+            {
+                "skillId": 54,
+                "level": 1
+            }
+        ],
         "id": 768,
         "name": {
             "jpn": "匠珠【３】",
@@ -3649,6 +4225,12 @@
     },
     {
         "equipmentId": 86,
+        "skills": [
+            {
+                "skillId": 40,
+                "level": 1
+            }
+        ],
         "id": 835,
         "name": {
             "jpn": "貫通珠【３】",
@@ -3687,6 +4269,12 @@
     },
     {
         "equipmentId": 87,
+        "skills": [
+            {
+                "skillId": 41,
+                "level": 1
+            }
+        ],
         "id": 836,
         "name": {
             "jpn": "散弾珠【３】",
