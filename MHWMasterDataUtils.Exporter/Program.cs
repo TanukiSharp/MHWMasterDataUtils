@@ -14,7 +14,7 @@ using MHWMasterDataUtils.Weapons;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace MHWMasterDataUtils.Tester
+namespace MHWMasterDataUtils.Exporter
 {
     class Program
     {

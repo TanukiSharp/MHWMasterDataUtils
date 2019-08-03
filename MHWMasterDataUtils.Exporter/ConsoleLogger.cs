@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MHWMasterDataUtils.Tester
+namespace MHWMasterDataUtils.Exporter
 {
     public class ConsoleLogger : ILogger
     {

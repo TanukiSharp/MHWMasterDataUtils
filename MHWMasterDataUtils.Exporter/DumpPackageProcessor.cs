@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MHWMasterDataUtils.Tester
+namespace MHWMasterDataUtils.Exporter
 {
     public class DumpPackageProcessor : PackageProcessorBase
     {
