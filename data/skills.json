@@ -11689,7 +11689,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "奮起",
                     "eng": "Adrenaline",
@@ -11750,7 +11750,7 @@
         },
         "abilities": [
             {
-                "level": 2,
+                "requiredParts": 2,
                 "name": {
                     "jpn": "奮起",
                     "eng": "Adrenaline",
@@ -11789,7 +11789,7 @@
                 ]
             },
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "スタミナ上限突破",
                     "eng": "Stamina Cap Up",
@@ -11850,7 +11850,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "根性",
                     "eng": "Guts",
@@ -11911,7 +11911,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "ガード強化",
                     "eng": "Guard Up",
@@ -11972,7 +11972,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "抜刀術【力】",
                     "eng": "Punishing Draw",
@@ -12033,7 +12033,7 @@
         },
         "abilities": [
             {
-                "level": 2,
+                "requiredParts": 2,
                 "name": {
                     "jpn": "抜刀術【力】",
                     "eng": "Punishing Draw",
@@ -12072,7 +12072,7 @@
                 ]
             },
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "剛刃研磨",
                     "eng": "Protective Polish",
@@ -12133,7 +12133,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "業物／弾丸節約",
                     "eng": "Razor Sharp/Spare Shot",
@@ -12194,7 +12194,7 @@
         },
         "abilities": [
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "心眼／弾導強化",
                     "eng": "Mind's Eye/Ballistics",
@@ -12233,7 +12233,7 @@
                 ]
             },
             {
-                "level": 2,
+                "requiredParts": 2,
                 "name": {
                     "jpn": "会心撃【属性】",
                     "eng": "Critical Element",
@@ -12294,7 +12294,7 @@
         },
         "abilities": [
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "捕獲名人",
                     "eng": "Capture Master",
@@ -12355,7 +12355,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "捕獲名人",
                     "eng": "Capture Master",
@@ -12416,7 +12416,7 @@
         },
         "abilities": [
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "強運",
                     "eng": "Great Luck",
@@ -12477,7 +12477,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "幸運",
                     "eng": "Good Luck",
@@ -12538,7 +12538,7 @@
         },
         "abilities": [
             {
-                "level": 2,
+                "requiredParts": 2,
                 "name": {
                     "jpn": "幸運",
                     "eng": "Good Luck",
@@ -12577,7 +12577,7 @@
                 ]
             },
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "弓溜め段階解放",
                     "eng": "Bow Charge Plus",
@@ -12638,7 +12638,7 @@
         },
         "abilities": [
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "剥ぎ取り名人",
                     "eng": "Carving Master",
@@ -12699,7 +12699,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "会心撃【特殊】",
                     "eng": "Critical Status",
@@ -12760,7 +12760,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "会心撃【属性】",
                     "eng": "Critical Element",
@@ -12821,7 +12821,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "鈍器使い",
                     "eng": "Bludgeoner",
@@ -12882,7 +12882,7 @@
         },
         "abilities": [
             {
-                "level": 2,
+                "requiredParts": 2,
                 "name": {
                     "jpn": "鈍器使い",
                     "eng": "Bludgeoner",
@@ -12921,7 +12921,7 @@
                 ]
             },
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "無属性強化",
                     "eng": "Non-elemental Boost",
@@ -12982,7 +12982,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "達人芸",
                     "eng": "Master's Touch",
@@ -13043,7 +13043,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "毒ダメージ強化",
                     "eng": "Poison Duration Up",
@@ -13104,7 +13104,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "風圧完全無効",
                     "eng": "Nullify Wind Pressure",
@@ -13165,7 +13165,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "超回復力",
                     "eng": "Super Recovery",
@@ -13226,7 +13226,7 @@
         },
         "abilities": [
             {
-                "level": 3,
+                "requiredParts": 3,
                 "name": {
                     "jpn": "加速再生",
                     "eng": "Hasten Recovery",
@@ -13850,7 +13850,7 @@
         },
         "abilities": [
             {
-                "level": 2,
+                "requiredParts": 2,
                 "name": {
                     "jpn": "スタミナ上限突破",
                     "eng": "Stamina Cap Up",
@@ -13889,7 +13889,7 @@
                 ]
             },
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "心眼／弾導強化",
                     "eng": "Mind's Eye/Ballistics",
@@ -13950,7 +13950,7 @@
         },
         "abilities": [
             {
-                "level": 2,
+                "requiredParts": 2,
                 "name": {
                     "jpn": "飛燕【属性】",
                     "eng": "Elemental Airborne",
@@ -13989,7 +13989,7 @@
                 ]
             },
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "達人芸",
                     "eng": "Master's Touch",
@@ -14172,7 +14172,7 @@
         },
         "abilities": [
             {
-                "level": 2,
+                "requiredParts": 2,
                 "name": {
                     "jpn": "イグニの印力",
                     "eng": "Igni Intensity",
@@ -14211,7 +14211,7 @@
                 ]
             },
             {
-                "level": 4,
+                "requiredParts": 4,
                 "name": {
                     "jpn": "超回復力",
                     "eng": "Super Recovery",
@@ -14272,7 +14272,7 @@
         },
         "abilities": [
             {
-                "level": 5,
+                "requiredParts": 5,
                 "name": {
                     "jpn": "強運",
                     "eng": "Great Luck",
