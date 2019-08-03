@@ -21,8 +21,10 @@ namespace MHWMasterDataUtils.Core
         public Gender Gender { get; set; }
         [JsonProperty("rarity")]
         public int Rarity { get; set; }
-        [JsonProperty("setGroup")]
-        public int SetGroup { get; set; }
+        [JsonProperty("craft")]
+        public Craft Craft { get; set; }
+        [JsonProperty("isPermanent")]
+        public bool IsPermanent { get; set; }
 
         public override string ToString()
         {

@@ -23,5 +23,7 @@ namespace MHWMasterDataUtils.Core
         public int DragonResistance { get; set; }
         [JsonProperty("slots")]
         public int[] Slots { get; set; }
+        [JsonProperty("setGroup")]
+        public int SetGroup { get; set; }
     }
 }

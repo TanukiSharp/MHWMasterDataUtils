@@ -119,9 +119,8 @@ namespace MHWMasterDataUtils.Builders.Equipment
                 resultEquipment.Cost = equipment.CraftingCost;
                 resultEquipment.Gender = equipment.Gender;
                 resultEquipment.Rarity = equipment.Rarity;
-                resultEquipment.SetGroup = equipment.SetGroup;
-
-                core.Craft craft = CreateCraft(equipment);
+                resultEquipment.Craft = CreateCraft(equipment);
+                resultEquipment.IsPermanent = equipment.IsPermanent == PermanentPrimitive.CannotBeSold;
 
                 UpdateEquipment(equipment, resultEquipment);
 

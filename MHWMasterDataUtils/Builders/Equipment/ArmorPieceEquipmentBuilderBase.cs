@@ -40,6 +40,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
             resultEquipment.IceResistance = equipment.IceRes;
             resultEquipment.DragonResistance = equipment.DragonRes;
             resultEquipment.Slots = EquipmentUtils.CreateSlotsArray(equipment);
+            resultEquipment.SetGroup = equipment.SetGroup;
         }
     }
 }
