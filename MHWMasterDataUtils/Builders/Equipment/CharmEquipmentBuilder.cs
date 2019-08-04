@@ -29,9 +29,9 @@ namespace MHWMasterDataUtils.Builders.Equipment
             this.equipmentUpgrades = equipmentUpgrades.Table[(byte)EquipmentType.Charm];
         }
 
-        protected override Craft CreateCraft(EquipmentPrimitive equipment)
+        protected override CraftItem[] CreateCraft(EquipmentPrimitive equipment)
         {
-            Craft craft = base.CreateCraft(equipment);
+            CraftItem[] craft = base.CreateCraft(equipment);
 
             if (craft != null)
                 return craft;
@@ -46,11 +46,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
             TryAddCraft(result, upgradeEntry.Item3Id, upgradeEntry.Item3Quantity);
             TryAddCraft(result, upgradeEntry.Item4Id, upgradeEntry.Item4Quantity);
 
-            return new Craft
-            {
-                IsCraftable = false,
-                Items = result.ToArray()
-            };
+            return result.ToArray();
         }
     }
 }

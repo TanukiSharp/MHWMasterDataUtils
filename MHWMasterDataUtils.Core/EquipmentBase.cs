@@ -22,7 +22,7 @@ namespace MHWMasterDataUtils.Core
         [JsonProperty("rarity")]
         public int Rarity { get; set; }
         [JsonProperty("craft")]
-        public Craft Craft { get; set; }
+        public CraftItem[] Craft { get; set; }
         [JsonProperty("isPermanent")]
         public bool IsPermanent { get; set; }
 

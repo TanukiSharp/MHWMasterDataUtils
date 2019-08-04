@@ -71,7 +71,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
                 crafts.Add(new core.CraftItem { Id = id, Quantity = quantity });
         }
 
-        protected virtual core.Craft CreateCraft(EquipmentPrimitive equipment)
+        protected virtual core.CraftItem[] CreateCraft(EquipmentPrimitive equipment)
         {
             if (equipmentCraft.TryGetValue(equipment.Id, out EquipmentCraftEntryPrimitive craftEntry) == false)
                 return null;
@@ -83,11 +83,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
             TryAddCraft(result, craftEntry.Item3Id, craftEntry.Item3Quantity);
             TryAddCraft(result, craftEntry.Item4Id, craftEntry.Item4Quantity);
 
-            return new core.Craft
-            {
-                IsCraftable = true,
-                Items = result.ToArray()
-            };
+            return result.ToArray();
         }
 
         private static readonly Func<string, string>[] languageValueProcessors = new Func<string, string>[]
