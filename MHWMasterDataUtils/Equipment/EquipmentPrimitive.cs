@@ -12,7 +12,7 @@ namespace MHWMasterDataUtils.Equipment
         public readonly ArmorVariantPrimitive Variant;
         public readonly ushort SetId;
         public readonly ArmorTypePrimitive Type;
-        public readonly EquipmentTypePrimitive EquipSlot;
+        public readonly EquipmentType EquipSlot;
         public readonly ushort Defense;
         public readonly ushort ModelMainId;
         public readonly ushort ModelSecondaryId;
@@ -51,7 +51,7 @@ namespace MHWMasterDataUtils.Equipment
             ArmorVariantPrimitive variant,
             ushort setId,
             ArmorTypePrimitive type,
-            EquipmentTypePrimitive equipSlot,
+            EquipmentType equipSlot,
             ushort defense,
             ushort modelMainId,
             ushort modelSecondaryId,
@@ -132,7 +132,7 @@ namespace MHWMasterDataUtils.Equipment
             var variant = (ArmorVariantPrimitive)reader.ReadByte();
             ushort setId = reader.ReadUInt16();
             var type = (ArmorTypePrimitive)reader.ReadByte();
-            var equipSlot = (EquipmentTypePrimitive)reader.ReadByte();
+            var equipSlot = (EquipmentType)reader.ReadByte();
             ushort defense = reader.ReadUInt16();
             ushort modelMainId = reader.ReadUInt16();
             ushort modelSecondaryId = reader.ReadUInt16();

@@ -313,7 +313,8 @@ namespace MHWMasterDataUtils.Exporter
             ArmorSeries[] armorSeries = new ArmorSeriesBuilder(armorSeriesLanguages).Build();
             SerializeJson("armor-series", armorSeries);
 
-            ArmorPiece[] heads = new HeadEquipmentBuilder(
+            ArmorPiece[] heads = new ArmorPieceEquipmentBuilder(
+                EquipmentType.Head,
                 equipment,
                 equipmentLanguages,
                 equipmentCraft

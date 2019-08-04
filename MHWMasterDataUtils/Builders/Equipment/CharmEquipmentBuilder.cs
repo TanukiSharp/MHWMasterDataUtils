@@ -20,7 +20,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
         )
             : base(
                   EquipmentType.Charm,
-                  x => x.EquipSlot == EquipmentTypePrimitive.Charm,
+                  x => x.EquipSlot == EquipmentType.Charm,
                   equipments,
                   equipmentLanguages,
                   equipmentCraft

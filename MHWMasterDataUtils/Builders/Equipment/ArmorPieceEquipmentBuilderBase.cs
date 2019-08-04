@@ -8,12 +8,10 @@ using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders.Equipment
 {
-    public abstract class ArmorPieceEquipmentBuilderBase<TArmorPiece> : EquipmentBuilderBase<TArmorPiece>
-        where TArmorPiece : core.ArmorPiece, new()
+    public class ArmorPieceEquipmentBuilder : EquipmentBuilderBase<core.ArmorPiece>
     {
-        public ArmorPieceEquipmentBuilderBase(
+        public ArmorPieceEquipmentBuilder(
             core.EquipmentType equipmentType,
-            Predicate<EquipmentPrimitive> filter,
             EquipmentPackageProcessor equipments,
             LanguagePackageProcessor equipmentLanguages,
             EquipmentCraftPackageProcessor<core.EquipmentType> equipmentCraft
@@ -21,7 +19,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
         )
             : base(
                   equipmentType,
-                  filter,
+                  x => x.EquipSlot == equipmentType && x.Type == ArmorTypePrimitive.Regular || x.Type == ArmorTypePrimitive.FullSet,
                   equipments,
                   equipmentLanguages,
                   equipmentCraft
@@ -35,7 +33,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
                 setSkills.Add(new core.EquipmentSkill { SkillId = id, Level = level, RequiredParts = null });
         }
 
-        protected override void UpdateEquipment(EquipmentPrimitive equipment, TArmorPiece resultEquipment)
+        protected override void UpdateEquipment(EquipmentPrimitive equipment, core.ArmorPiece resultEquipment)
         {
             base.UpdateEquipment(equipment, resultEquipment);
 
