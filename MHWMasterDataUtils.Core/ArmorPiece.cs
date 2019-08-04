@@ -18,7 +18,7 @@ namespace MHWMasterDataUtils.Core
         [JsonProperty("setGroup")]
         public int SetGroup { get; set; }
         [JsonProperty("setSkills")]
-        public EquipmentSkill[] SetSkills { get; set; }
+        public int[] SetSkills { get; set; }
         [JsonProperty("skills")]
         public EquipmentSkill[] Skills { get; set; }
     }

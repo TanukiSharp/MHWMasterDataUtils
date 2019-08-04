@@ -29,12 +29,6 @@ namespace MHWMasterDataUtils.Builders.Equipment
         {
         }
 
-        private static void TryAddSetSkill(List<core.EquipmentSkill> setSkills, int id, int requiredParts)
-        {
-            if (id > 0)
-                setSkills.Add(new core.EquipmentSkill { SkillId = id, Level = null, RequiredParts = requiredParts });
-        }
-
         private static void TryAddRegularSkill(List<core.EquipmentSkill> setSkills, int id, int level)
         {
             if (id > 0)
@@ -60,10 +54,12 @@ namespace MHWMasterDataUtils.Builders.Equipment
 
             if (equipment.SetSkill1Id > 0 || equipment.SetSkill2Id > 0)
             {
-                var setSkills = new List<core.EquipmentSkill>();
+                var setSkills = new List<int>();
 
-                TryAddSetSkill(setSkills, equipment.SetSkill1Id, equipment.SetSkill1Level);
-                TryAddSetSkill(setSkills, equipment.SetSkill2Id, equipment.SetSkill2Level);
+                if (equipment.SetSkill1Id > 0)
+                    setSkills.Add(equipment.SetSkill1Id);
+                if (equipment.SetSkill2Id > 0)
+                    setSkills.Add(equipment.SetSkill2Id);
 
                 resultEquipment.SetSkills = setSkills.ToArray();
             }
