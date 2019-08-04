@@ -34,16 +34,18 @@ namespace MHWMasterDataUtils.Builders
 
             item.EquipmentId = jewel.EquipmentId;
 
-            var skills = new List<JewelSkill>();
+            if (jewel.Skill1Id > 0 || jewel.Skill2Id > 0)
+            {
+                var skills = new List<EquipmentSkill>();
 
-            if (jewel.Skill1Id > 0)
-                skills.Add(new JewelSkill { SkillId = jewel.Skill1Id, Level = jewel.Skill1Level });
+                if (jewel.Skill1Id > 0)
+                    skills.Add(new EquipmentSkill { SkillId = (int)jewel.Skill1Id, Level = (int)jewel.Skill1Level });
 
-            if (jewel.Skill2Id > 0)
-                skills.Add(new JewelSkill { SkillId = jewel.Skill2Id, Level = jewel.Skill2Level });
+                if (jewel.Skill2Id > 0)
+                    skills.Add(new EquipmentSkill { SkillId = (int)jewel.Skill2Id, Level = (int)jewel.Skill2Level });
 
-            if (skills.Count > 0)
                 item.Skills = skills.ToArray();
+            }
         }
     }
 }
