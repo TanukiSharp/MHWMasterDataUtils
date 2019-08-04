@@ -19,9 +19,7 @@ namespace MHWMasterDataUtils.Builders
         private static readonly LanguageUtils.LanguageValueProcessor[] translationValueProcessors = new[]
         {
             LanguageUtils.ReplaceLineFeedWithSpace,
-            LanguageUtils.ReplaceAlphaSymbol,
-            LanguageUtils.ReplaceBetaSymbol,
-            LanguageUtils.ReplaceGammaSymbol,
+            LanguageUtils.ReplaceGreekLetterSymbol
         };
 
         public core.ArmorSeries[] Build()

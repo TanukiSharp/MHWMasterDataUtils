@@ -49,15 +49,39 @@ namespace MHWMasterDataUtils.Languages
             return true;
         }
 
-        public delegate string LanguageValueProcessor(LanguageItem originalItem, string text);
+        public delegate string LanguageValueProcessor(LanguageIdPrimitive language, string text);
 
         public static readonly LanguageValueProcessor ReplaceLineFeedWithSpace = (l, x) => x.Replace("\r\n", " ");
-        public static readonly LanguageValueProcessor ReplaceAlphaSymbol = (l, x) => x.Replace("<ICON ALPHA>", l.Key == "eng" ? " α" : "α");
-        public static readonly LanguageValueProcessor ReplaceBetaSymbol = (l, x) => x.Replace("<ICON BETA>", l.Key == "eng" ? " β" : "β");
-        public static readonly LanguageValueProcessor ReplaceGammaSymbol = (l, x) => x.Replace("<ICON GAMMA>", l.Key == "eng" ? " γ" : "γ");
+
+        private static readonly Regex GreekLetterIconRegex = new Regex(@"\<ICON\s+([A-Z]+)\>");
+        public static string ReplaceGreekLetterSymbol(LanguageIdPrimitive _, string text)
+        {
+            bool NeedSpace(Match m)
+            {
+                if (m.Groups[0].Index > 0 && char.IsWhiteSpace(text[m.Groups[0].Index - 1]) == false)
+                    return true;
+
+                return false;
+            }
+
+            return GreekLetterIconRegex.Replace(text, match =>
+            {
+                if (match.Groups.Count > 0)
+                {
+                    switch (match.Groups[1].Value)
+                    {
+                        case "ALPHA": return NeedSpace(match) ? " α" : "α";
+                        case "BETA": return NeedSpace(match) ? " β" : "β";
+                        case "GAMMA": return NeedSpace(match) ? " γ" : "γ";
+                    }
+                }
+
+                return match.Value;
+            });
+        }
 
         private static readonly Regex RemoveStyleRegex = new Regex(@"(\<STYL\s+[A-Z_]+\>)|(\</STYL\>)");
-        public static string StyleTextRemover(LanguageItem originalItem, string text)
+        public static string StyleTextRemover(LanguageIdPrimitive _, string text)
         {
             return RemoveStyleRegex.Replace(text, string.Empty);
         }
@@ -79,7 +103,7 @@ namespace MHWMasterDataUtils.Languages
                     foreach (LanguageValueProcessor valueProcessor in valueProcessors)
                     {
                         if (valueProcessor != null)
-                            resultValue = valueProcessor?.Invoke(item, resultValue);
+                            resultValue = valueProcessor?.Invoke(languageId, resultValue);
                     }
                 }
 

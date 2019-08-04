@@ -89,9 +89,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
         private static readonly LanguageUtils.LanguageValueProcessor[] languageValueProcessors = new[]
         {   
             LanguageUtils.ReplaceLineFeedWithSpace,
-            LanguageUtils.ReplaceAlphaSymbol,
-            LanguageUtils.ReplaceBetaSymbol,
-            LanguageUtils.ReplaceGammaSymbol,
+            LanguageUtils.ReplaceGreekLetterSymbol,
             LanguageUtils.StyleTextRemover
         };
 
