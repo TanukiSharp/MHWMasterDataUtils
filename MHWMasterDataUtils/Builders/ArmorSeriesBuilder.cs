@@ -16,7 +16,7 @@ namespace MHWMasterDataUtils.Builders
             this.armorSeriesLanguages = armorSeriesLanguages;
         }
 
-        private static readonly Func<string, string>[] translationValueProcessors = new[]
+        private static readonly LanguageUtils.LanguageValueProcessor[] translationValueProcessors = new[]
         {
             LanguageUtils.ReplaceLineFeedWithSpace,
             LanguageUtils.ReplaceAlphaSymbol,

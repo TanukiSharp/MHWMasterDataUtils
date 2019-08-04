@@ -48,12 +48,14 @@ namespace MHWMasterDataUtils.Languages
             return true;
         }
 
-        public static readonly Func<string, string> ReplaceLineFeedWithSpace = x => x.Replace("\r\n", " ");
-        public static readonly Func<string, string> ReplaceAlphaSymbol = x => x.Replace("<ICON ALPHA>", "α");
-        public static readonly Func<string, string> ReplaceBetaSymbol = x => x.Replace("<ICON BETA>", "β");
-        public static readonly Func<string, string> ReplaceGammaSymbol = x => x.Replace("<ICON GAMMA>", "γ");
+        public delegate string LanguageValueProcessor(LanguageItem originalItem, string text);
 
-        public static Dictionary<string, string> CreateLocalizations(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> source, uint entryId, Func<string, string>[] valueProcessors = null)
+        public static readonly LanguageValueProcessor ReplaceLineFeedWithSpace = (l, x) => x.Replace("\r\n", " ");
+        public static readonly LanguageValueProcessor ReplaceAlphaSymbol = (l, x) => x.Replace("<ICON ALPHA>", l.Key == "eng" ? " α" : "α");
+        public static readonly LanguageValueProcessor ReplaceBetaSymbol = (l, x) => x.Replace("<ICON BETA>", l.Key == "eng" ? " β" : "β");
+        public static readonly LanguageValueProcessor ReplaceGammaSymbol = (l, x) => x.Replace("<ICON GAMMA>", l.Key == "eng" ? " γ" : "γ");
+
+        public static Dictionary<string, string> CreateLocalizations(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> source, uint entryId, LanguageValueProcessor[] valueProcessors = null)
         {
             var result = new LocalizedText();
 
@@ -62,15 +64,19 @@ namespace MHWMasterDataUtils.Languages
                 if (source.TryGetValue(languageId, out Dictionary<uint, LanguageItem> language) == false)
                     continue;
 
-                string value = language[entryId].Value;
+                LanguageItem item = language[entryId];
+                string resultValue = item.Value;
 
                 if (valueProcessors != null)
                 {
-                    foreach (Func<string, string> valueProcessor in valueProcessors)
-                        value = valueProcessor?.Invoke(value);
+                    foreach (LanguageValueProcessor valueProcessor in valueProcessors)
+                    {
+                        if (valueProcessor != null)
+                            resultValue = valueProcessor?.Invoke(item, resultValue);
+                    }
                 }
 
-                result.Add(LanguageIdToLanguageCode(languageId), value);
+                result.Add(LanguageIdToLanguageCode(languageId), resultValue);
             }
 
             return result;

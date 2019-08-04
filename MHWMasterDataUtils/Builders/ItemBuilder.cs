@@ -35,7 +35,7 @@ namespace MHWMasterDataUtils.Builders
         {
         }
 
-        private static readonly Func<string, string>[] languageValueProcessors = new Func<string, string>[]
+        private static readonly LanguageUtils.LanguageValueProcessor[] languageValueProcessors = new[]
         {
             LanguageUtils.ReplaceLineFeedWithSpace
         };
