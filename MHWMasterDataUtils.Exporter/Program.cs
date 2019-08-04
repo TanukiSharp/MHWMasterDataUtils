@@ -321,6 +321,38 @@ namespace MHWMasterDataUtils.Exporter
             ).Build();
             SerializeJson("heads", heads);
 
+            ArmorPiece[] chests = new ArmorPieceEquipmentBuilder(
+                EquipmentType.Chest,
+                equipment,
+                equipmentLanguages,
+                equipmentCraft
+            ).Build();
+            SerializeJson("chests", chests);
+
+            ArmorPiece[] arms = new ArmorPieceEquipmentBuilder(
+                EquipmentType.Arms,
+                equipment,
+                equipmentLanguages,
+                equipmentCraft
+            ).Build();
+            SerializeJson("arms", arms);
+
+            ArmorPiece[] waists = new ArmorPieceEquipmentBuilder(
+                EquipmentType.Waist,
+                equipment,
+                equipmentLanguages,
+                equipmentCraft
+            ).Build();
+            SerializeJson("waists", waists);
+
+            ArmorPiece[] legs = new ArmorPieceEquipmentBuilder(
+                EquipmentType.Legs,
+                equipment,
+                equipmentLanguages,
+                equipmentCraft
+            ).Build();
+            SerializeJson("legs", legs);
+
             Charm[] charms = new CharmEquipmentBuilder(
                 equipment,
                 equipmentLanguages,
