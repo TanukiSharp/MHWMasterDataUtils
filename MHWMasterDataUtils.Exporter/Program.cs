@@ -42,8 +42,6 @@ namespace MHWMasterDataUtils.Exporter
         {
             Console.WriteLine("-=-=-=-=-=- START -=-=-=-=-=-");
 
-            string packagesFullPath = PackageUtility.GetPackagesFullPath();
-
             SetupDataOutputPath();
 
             ILogger logger = new ConsoleLogger(null, LogLevel.Debug);
@@ -81,8 +79,6 @@ namespace MHWMasterDataUtils.Exporter
 
             var weaponSeriesLanguages = new LanguagePackageProcessor("/common/text/steam/wep_series_\\w{3}.gmd");
             var steamItemsLanguages = new LanguagePackageProcessor("/common/text/steam/item_\\w{3}.gmd");
-            var cmItemsLanguages = new LanguagePackageProcessor("/common/text/cm_item_\\w{3}.gmd");
-            var itemsLanguages = new LanguagePackageProcessor("/common/text/item_\\w{3}.gmd");
 
             var skillLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_pt_\\w{3}.gmd");
             var skillAbilitiesLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_\\w{3}.gmd");
@@ -129,8 +125,6 @@ namespace MHWMasterDataUtils.Exporter
                 heavyBowgunLanguages,
                 weaponSeriesLanguages,
                 steamItemsLanguages,
-                cmItemsLanguages,
-                itemsLanguages,
                 equipmentLanguages,
                 armorSeriesLanguages,
                 bowBottles,
@@ -148,6 +142,8 @@ namespace MHWMasterDataUtils.Exporter
                 equipment
                 //new DumpPackageProcessor("/common/equip/rod_insect.rod_inse"),
             };
+
+            string packagesFullPath = PackageUtility.GetPackagesFullPath();
 
             using (var packageReader = new PackageReader(logger, fileProcessors))
                 packageReader.Run(packagesFullPath);
