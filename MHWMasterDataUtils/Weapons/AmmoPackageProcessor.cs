@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Weapons
 {
-    public class AmmoPackageProcessor : SimpleListPackageProcessorBase<AmmoTableEntryPrimitive>
+    public class AmmoPackageProcessor : ListPackageProcessorBase<AmmoTableEntryPrimitive>
     {
         public AmmoPackageProcessor()
             : base(0x01A6, AmmoTableEntryPrimitive.Read)

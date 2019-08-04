@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Weapons
 {
-    public class DualBladesSpecialPackageProcessor : SimpleMapPackageProcessorBase<ushort, DualBladesSpecialPrimitive>
+    public class DualBladesSpecialPackageProcessor : MapPackageProcessorBase<ushort, DualBladesSpecialPrimitive>
     {
         public DualBladesSpecialPackageProcessor()
             : base(0x0177, DualBladesSpecialPrimitive.Read, x => x.Id)

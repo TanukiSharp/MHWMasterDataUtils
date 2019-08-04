@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MHWMasterDataUtils.Weapons
 {
-    public class HuntingHornNotesPackageProcessor : SimpleMapPackageProcessorBase<uint, HuntingHornNotesPrimitive>
+    public class HuntingHornNotesPackageProcessor : MapPackageProcessorBase<uint, HuntingHornNotesPrimitive>
     {
         public HuntingHornNotesPackageProcessor()
             : base(0x0177, HuntingHornNotesPrimitive.Read, x => x.SongId)
@@ -18,7 +18,7 @@ namespace MHWMasterDataUtils.Weapons
         }
     }
 
-    public class HuntingHornSongsPackageProcessor : SimpleListPackageProcessorBase<HuntingHornSongPrimitive>
+    public class HuntingHornSongsPackageProcessor : ListPackageProcessorBase<HuntingHornSongPrimitive>
     {
         public HuntingHornSongsPackageProcessor()
             : base(0x0146, HuntingHornSongPrimitive.Read)

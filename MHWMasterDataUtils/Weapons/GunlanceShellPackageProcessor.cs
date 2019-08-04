@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Weapons
 {
-    public class GunlanceShellPackageProcessor : SimpleMapPackageProcessorBase<ushort, GunlanceShellPrimitive>
+    public class GunlanceShellPackageProcessor : MapPackageProcessorBase<ushort, GunlanceShellPrimitive>
     {
         public GunlanceShellPackageProcessor()
             : base(0x0177, GunlanceShellPrimitive.Read, x => x.Id)

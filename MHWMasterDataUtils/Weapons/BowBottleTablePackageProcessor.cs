@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MHWMasterDataUtils.Weapons
 {
-    public class BowBottleTablePackageProcessor : SimpleListPackageProcessorBase<BowBottleTableEntryPrimitive>
+    public class BowBottleTablePackageProcessor : ListPackageProcessorBase<BowBottleTableEntryPrimitive>
     {
         public BowBottleTablePackageProcessor()
             : base(0x01A6, BowBottleTableEntryPrimitive.Read)

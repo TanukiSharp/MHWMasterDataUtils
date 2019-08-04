@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Jewels
 {
-    public class JewelPackageProcessor : SimpleMapPackageProcessorBase<uint, JewelPrimitive>
+    public class JewelPackageProcessor : MapPackageProcessorBase<uint, JewelPrimitive>
     {
         public JewelPackageProcessor()
             : base(0x00AE, JewelPrimitive.Read, x => x.Id)

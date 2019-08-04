@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace MHWMasterDataUtils
 {
-    public abstract class SimpleListPackageProcessorBase<TValue> : PackageProcessorBase
+    public abstract class ListPackageProcessorBase<TValue> : PackageProcessorBase
     {
         public ushort HeaderValue { get; }
         public List<TValue> List { get; } = new List<TValue>();
 
         private readonly Func<Reader, TValue> entryReader;
 
-        protected SimpleListPackageProcessorBase(ushort headerValue, Func<Reader, TValue> entryReader)
+        protected ListPackageProcessorBase(ushort headerValue, Func<Reader, TValue> entryReader)
         {
             HeaderValue = headerValue;
 
@@ -51,7 +51,7 @@ namespace MHWMasterDataUtils
         }
     }
 
-    public abstract class SimpleMapPackageProcessorBase<TKey, TValue> : PackageProcessorBase
+    public abstract class MapPackageProcessorBase<TKey, TValue> : PackageProcessorBase
     {
         public ushort HeaderValue { get; }
         public Dictionary<TKey, TValue> Table { get; } = new Dictionary<TKey, TValue>();
@@ -59,7 +59,7 @@ namespace MHWMasterDataUtils
         private readonly Func<Reader, TValue> entryReader;
         private readonly Func<TValue, TKey> keySelector;
 
-        protected SimpleMapPackageProcessorBase(ushort headerValue, Func<Reader, TValue> entryReader, Func<TValue, TKey> keySelector)
+        protected MapPackageProcessorBase(ushort headerValue, Func<Reader, TValue> entryReader, Func<TValue, TKey> keySelector)
         {
             HeaderValue = headerValue;
 

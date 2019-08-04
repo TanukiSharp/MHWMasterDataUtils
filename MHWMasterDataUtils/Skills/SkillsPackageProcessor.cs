@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Skills
 {
-    public class SkillsPackageProcessor : SimpleListPackageProcessorBase<SkillPrimitive>
+    public class SkillsPackageProcessor : ListPackageProcessorBase<SkillPrimitive>
     {
         public SkillsPackageProcessor()
             : base(0x005e, SkillPrimitive.Read)

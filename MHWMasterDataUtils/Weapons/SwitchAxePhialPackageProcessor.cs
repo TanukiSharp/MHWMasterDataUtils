@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Weapons
 {
-    public class SwitchAxePhialPackageProcessor : SimpleMapPackageProcessorBase<ushort, SwitchAxePhialPrimitive>
+    public class SwitchAxePhialPackageProcessor : MapPackageProcessorBase<ushort, SwitchAxePhialPrimitive>
     {
         public SwitchAxePhialPackageProcessor()
             : base(0x0177, SwitchAxePhialPrimitive.Read, x => x.Id)

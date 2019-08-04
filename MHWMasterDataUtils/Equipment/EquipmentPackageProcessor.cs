@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MHWMasterDataUtils.Equipment
 {
-    public class EquipmentPackageProcessor : SimpleMapPackageProcessorBase<ushort, EquipmentPrimitive>
+    public class EquipmentPackageProcessor : MapPackageProcessorBase<ushort, EquipmentPrimitive>
     {
         public EquipmentPackageProcessor()
             : base(0x005d, EquipmentPrimitive.Read, x => x.Id)
