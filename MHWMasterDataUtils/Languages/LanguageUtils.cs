@@ -49,32 +49,27 @@ namespace MHWMasterDataUtils.Languages
             return true;
         }
 
+        public static Dictionary<string, string> GreekLetters = new Dictionary<string, string>
+        {
+            ["ALPHA"] = "α",
+            ["BETA"] = "β",
+            ["GAMMA"] = "γ",
+        };
+
         public delegate string LanguageValueProcessor(LanguageIdPrimitive language, string text);
 
         public static readonly LanguageValueProcessor ReplaceLineFeedWithSpace = (l, x) => x.Replace("\r\n", " ");
 
+        private static readonly Regex SpacingGreekLetterRegex = new Regex($@"(.*\S)({string.Join("|", GreekLetters.Values)})");
+        public static readonly LanguageValueProcessor SpacingGreekLetter = (l, x) => SpacingGreekLetterRegex.Replace(x, m => $"{m.Groups[1].Value} {m.Groups[2].Value}");
+
         private static readonly Regex GreekLetterIconRegex = new Regex(@"\<ICON\s+([A-Z]+)\>");
-        public static string ReplaceGreekLetterSymbol(LanguageIdPrimitive _, string text)
+        public static string ReplaceGreekLetterIcon(LanguageIdPrimitive _, string text)
         {
-            bool NeedSpace(Match m)
-            {
-                if (m.Groups[0].Index > 0 && char.IsWhiteSpace(text[m.Groups[0].Index - 1]) == false)
-                    return true;
-
-                return false;
-            }
-
             return GreekLetterIconRegex.Replace(text, match =>
             {
-                if (match.Groups.Count > 0)
-                {
-                    switch (match.Groups[1].Value)
-                    {
-                        case "ALPHA": return NeedSpace(match) ? " α" : "α";
-                        case "BETA": return NeedSpace(match) ? " β" : "β";
-                        case "GAMMA": return NeedSpace(match) ? " γ" : "γ";
-                    }
-                }
+                if (GreekLetters.TryGetValue(match.Groups[1].Value, out string result))
+                    return result;
 
                 return match.Value;
             });

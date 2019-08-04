@@ -561,7 +561,7 @@
         "id": 37,
         "name": {
             "jpn": "レザーα",
-            "eng": "Leatherα",
+            "eng": "Leather α",
             "fre": "Cuir α",
             "spa": "Cuero α",
             "ger": "Leder-Set α",
@@ -569,17 +569,17 @@
             "kor": "레더α",
             "cnt": "皮製α",
             "cns": "皮制阿尔法",
-            "rus": "Кожаныйα",
-            "pol": "Skórzanyα",
-            "ptb": "Couroα",
-            "ara": "جلديα"
+            "rus": "Кожаный α",
+            "pol": "Skórzany α",
+            "ptb": "Couro α",
+            "ara": "جلدي α"
         }
     },
     {
         "id": 38,
         "name": {
             "jpn": "レザーβ",
-            "eng": "Leatherβ",
+            "eng": "Leather β",
             "fre": "Cuir β",
             "spa": "Cuero β",
             "ger": "Leder-Set β",
@@ -587,17 +587,17 @@
             "kor": "레더β",
             "cnt": "皮製β",
             "cns": "皮制贝塔",
-            "rus": "Кожаныйβ",
-            "pol": "Skórzanyβ",
-            "ptb": "Couroβ",
-            "ara": "جلديβ"
+            "rus": "Кожаный β",
+            "pol": "Skórzany β",
+            "ptb": "Couro β",
+            "ara": "جلدي β"
         }
     },
     {
         "id": 39,
         "name": {
             "jpn": "チェーンα",
-            "eng": "Chainmailα",
+            "eng": "Chainmail α",
             "fre": "Mailles α",
             "spa": "Malla α",
             "ger": "Ketten-Set α",
@@ -605,17 +605,17 @@
             "kor": "체인α",
             "cnt": "鎖甲α",
             "cns": "锁甲阿尔法",
-            "rus": "Кольчужныйα",
-            "pol": "Kolczyα",
-            "ptb": "Cota de Malhaα",
-            "ara": "فولاذيα"
+            "rus": "Кольчужный α",
+            "pol": "Kolczy α",
+            "ptb": "Cota de Malha α",
+            "ara": "فولاذي α"
         }
     },
     {
         "id": 40,
         "name": {
             "jpn": "チェーンβ",
-            "eng": "Chainmailβ",
+            "eng": "Chainmail β",
             "fre": "Mailles β",
             "spa": "Malla β",
             "ger": "Ketten-Set β",
@@ -623,17 +623,17 @@
             "kor": "체인β",
             "cnt": "鎖甲β",
             "cns": "锁甲贝塔",
-            "rus": "Кольчужныйβ",
-            "pol": "Kolczyβ",
-            "ptb": "Cota de Malhaβ",
-            "ara": "فولاذيβ"
+            "rus": "Кольчужный β",
+            "pol": "Kolczy β",
+            "ptb": "Cota de Malha β",
+            "ara": "فولاذي β"
         }
     },
     {
         "id": 41,
         "name": {
             "jpn": "ハンターα",
-            "eng": "Hunter'sα",
+            "eng": "Hunter's α",
             "fre": "Chasseur α",
             "spa": "Cazador α",
             "ger": "Jäger-Set α",
@@ -641,17 +641,17 @@
             "kor": "헌터α",
             "cnt": "獵人α",
             "cns": "猎人阿尔法",
-            "rus": "Охотничийα",
-            "pol": "Łowcyα",
-            "ptb": "do Caçadorα",
-            "ara": "خاص بالصيّادα"
+            "rus": "Охотничий α",
+            "pol": "Łowcy α",
+            "ptb": "do Caçador α",
+            "ara": "خاص بالصيّاد α"
         }
     },
     {
         "id": 42,
         "name": {
             "jpn": "ハンターβ",
-            "eng": "Hunter'sβ",
+            "eng": "Hunter's β",
             "fre": "Chasseur β",
             "spa": "Cazador β",
             "ger": "Jäger-Set β",
@@ -659,17 +659,17 @@
             "kor": "헌터β",
             "cnt": "獵人β",
             "cns": "猎人贝塔",
-            "rus": "Охотничийβ",
-            "pol": "Łowcyβ",
-            "ptb": "do Caçadorβ",
-            "ara": "خاص بالصيّادβ"
+            "rus": "Охотничий β",
+            "pol": "Łowcy β",
+            "ptb": "do Caçador β",
+            "ara": "خاص بالصيّاد β"
         }
     },
     {
         "id": 43,
         "name": {
             "jpn": "ボーンα",
-            "eng": "Boneα",
+            "eng": "Bone α",
             "fre": "Os α",
             "spa": "Hueso α",
             "ger": "Knochen-Set α",
@@ -677,17 +677,17 @@
             "kor": "본α",
             "cnt": "骨製α",
             "cns": "骨制阿尔法",
-            "rus": "Костянойα",
-            "pol": "Kościanyα",
-            "ptb": "Ossoα",
-            "ara": "عظميα"
+            "rus": "Костяной α",
+            "pol": "Kościany α",
+            "ptb": "Osso α",
+            "ara": "عظمي α"
         }
     },
     {
         "id": 44,
         "name": {
             "jpn": "ボーンβ",
-            "eng": "Boneβ",
+            "eng": "Bone β",
             "fre": "Os β",
             "spa": "Hueso β",
             "ger": "Knochen-Set β",
@@ -695,17 +695,17 @@
             "kor": "본β",
             "cnt": "骨製β",
             "cns": "骨制贝塔",
-            "rus": "Костянойβ",
-            "pol": "Kościanyβ",
-            "ptb": "Ossoβ",
-            "ara": "عظميβ"
+            "rus": "Костяной β",
+            "pol": "Kościany β",
+            "ptb": "Osso β",
+            "ara": "عظمي β"
         }
     },
     {
         "id": 45,
         "name": {
             "jpn": "アロイα",
-            "eng": "Alloyα",
+            "eng": "Alloy α",
             "fre": "Alliage α",
             "spa": "Aleación α",
             "ger": "Legierungs-Set α",
@@ -713,17 +713,17 @@
             "kor": "얼로이α",
             "cnt": "合金α",
             "cns": "合金阿尔法",
-            "rus": "Литойα",
-            "pol": "Stopuα",
-            "ptb": "Liga Leveα",
-            "ara": "خليط معدنيα"
+            "rus": "Литой α",
+            "pol": "Stopu α",
+            "ptb": "Liga Leve α",
+            "ara": "خليط معدني α"
         }
     },
     {
         "id": 46,
         "name": {
             "jpn": "アロイβ",
-            "eng": "Alloyβ",
+            "eng": "Alloy β",
             "fre": "Alliage β",
             "spa": "Aleación β",
             "ger": "Legierungs-Set β",
@@ -731,17 +731,17 @@
             "kor": "얼로이β",
             "cnt": "合金β",
             "cns": "合金贝塔",
-            "rus": "Литойβ",
-            "pol": "Stopuβ",
-            "ptb": "Liga Leveβ",
-            "ara": "خليط معدنيβ"
+            "rus": "Литой β",
+            "pol": "Stopu β",
+            "ptb": "Liga Leve β",
+            "ara": "خليط معدني β"
         }
     },
     {
         "id": 47,
         "name": {
             "jpn": "ガライーα",
-            "eng": "Gajauα",
+            "eng": "Gajau α",
             "fre": "Gajau α",
             "spa": "Gajau α",
             "ger": "Gajau-Set α",
@@ -749,17 +749,17 @@
             "kor": "가쟈우α",
             "cnt": "咬魚α",
             "cns": "咬鱼阿尔法",
-            "rus": "Гаджауα",
-            "pol": "Gajauα",
-            "ptb": "Gajauα",
-            "ara": "غاجاوα"
+            "rus": "Гаджау α",
+            "pol": "Gajau α",
+            "ptb": "Gajau α",
+            "ara": "غاجاو α"
         }
     },
     {
         "id": 48,
         "name": {
             "jpn": "ガライーβ",
-            "eng": "Gajauβ",
+            "eng": "Gajau β",
             "fre": "Gajau β",
             "spa": "Gajau β",
             "ger": "Gajau-Set β",
@@ -767,17 +767,17 @@
             "kor": "가쟈우β",
             "cnt": "咬魚β",
             "cns": "咬鱼贝塔",
-            "rus": "Гаджауβ",
-            "pol": "Gajauβ",
-            "ptb": "Gajauβ",
-            "ara": "غاجاوβ"
+            "rus": "Гаджау β",
+            "pol": "Gajau β",
+            "ptb": "Gajau β",
+            "ara": "غاجاو β"
         }
     },
     {
         "id": 49,
         "name": {
             "jpn": "ケストα",
-            "eng": "Kestodonα",
+            "eng": "Kestodon α",
             "fre": "Kestodon α",
             "spa": "Kestodon α",
             "ger": "Kestodon-Set α",
@@ -785,17 +785,17 @@
             "kor": "케스토α",
             "cnt": "冠突龍α",
             "cns": "冠突龙阿尔法",
-            "rus": "Кестодонα",
-            "pol": "Kestodonaα",
-            "ptb": "Kestodonteα",
-            "ara": "كيستودونα"
+            "rus": "Кестодон α",
+            "pol": "Kestodona α",
+            "ptb": "Kestodonte α",
+            "ara": "كيستودون α"
         }
     },
     {
         "id": 50,
         "name": {
             "jpn": "ケストβ",
-            "eng": "Kestodonβ",
+            "eng": "Kestodon β",
             "fre": "Kestodon β",
             "spa": "Kestodon β",
             "ger": "Kestodon-Set β",
@@ -803,17 +803,17 @@
             "kor": "케스토β",
             "cnt": "冠突龍β",
             "cns": "冠突龙贝塔",
-            "rus": "Кестодонβ",
-            "pol": "Kestodonaβ",
-            "ptb": "Kestodonteβ",
-            "ara": "كيستودونβ"
+            "rus": "Кестодон β",
+            "pol": "Kestodona β",
+            "ptb": "Kestodonte β",
+            "ara": "كيستودون β"
         }
     },
     {
         "id": 51,
         "name": {
             "jpn": "ランゴα",
-            "eng": "Vespoidα",
+            "eng": "Vespoid α",
             "fre": "Vespoid α",
             "spa": "Vespoid α",
             "ger": "Vespoid-Set α",
@@ -821,17 +821,17 @@
             "kor": "랑고α",
             "cnt": "巨蜂α",
             "cns": "巨蜂阿尔法",
-            "rus": "Осоидα",
-            "pol": "Vespoidaα",
-            "ptb": "Vespoideaα",
-            "ara": "فيسبويدα"
+            "rus": "Осоид α",
+            "pol": "Vespoida α",
+            "ptb": "Vespoidea α",
+            "ara": "فيسبويد α"
         }
     },
     {
         "id": 52,
         "name": {
             "jpn": "ランゴβ",
-            "eng": "Vespoidβ",
+            "eng": "Vespoid β",
             "fre": "Vespoid β",
             "spa": "Vespoid β",
             "ger": "Vespoid-Set β",
@@ -839,17 +839,17 @@
             "kor": "랑고β",
             "cnt": "巨蜂β",
             "cns": "巨蜂贝塔",
-            "rus": "Осоидβ",
-            "pol": "Vespoidaβ",
-            "ptb": "Vespoideaβ",
-            "ara": "فيسبويدβ"
+            "rus": "Осоид β",
+            "pol": "Vespoida β",
+            "ptb": "Vespoidea β",
+            "ara": "فيسبويد β"
         }
     },
     {
         "id": 53,
         "name": {
             "jpn": "ガストα",
-            "eng": "Gastodonα",
+            "eng": "Gastodon α",
             "fre": "Gastodon α",
             "spa": "Gastodon α",
             "ger": "Gastodon-Set α",
@@ -857,17 +857,17 @@
             "kor": "가스토α",
             "cnt": "突擊龍α",
             "cns": "突击龙阿尔法",
-            "rus": "Гастодонα",
-            "pol": "Gastodonaα",
-            "ptb": "Gastodonteα",
-            "ara": "غاستودونα"
+            "rus": "Гастодон α",
+            "pol": "Gastodona α",
+            "ptb": "Gastodonte α",
+            "ara": "غاستودون α"
         }
     },
     {
         "id": 54,
         "name": {
             "jpn": "ガストβ",
-            "eng": "Gastodonβ",
+            "eng": "Gastodon β",
             "fre": "Gastodon β",
             "spa": "Gastodon β",
             "ger": "Gastodon-Set β",
@@ -875,17 +875,17 @@
             "kor": "가스토β",
             "cnt": "突擊龍β",
             "cns": "突击龙贝塔",
-            "rus": "Гастодонβ",
-            "pol": "Gastodonaβ",
-            "ptb": "Gastodonteβ",
-            "ara": "غاستودونβ"
+            "rus": "Гастодон β",
+            "pol": "Gastodona β",
+            "ptb": "Gastodonte β",
+            "ara": "غاستودون β"
         }
     },
     {
         "id": 55,
         "name": {
             "jpn": "バルノスα",
-            "eng": "Barnosα",
+            "eng": "Barnos α",
             "fre": "Barnos α",
             "spa": "Barnos α",
             "ger": "Barnos-Set α",
@@ -893,17 +893,17 @@
             "kor": "바르노스α",
             "cnt": "酸翼龍α",
             "cns": "酸翼龙阿尔法",
-            "rus": "Барносα",
-            "pol": "Barnosaα",
-            "ptb": "Barnosα",
-            "ara": "بارنوسα"
+            "rus": "Барнос α",
+            "pol": "Barnosa α",
+            "ptb": "Barnos α",
+            "ara": "بارنوس α"
         }
     },
     {
         "id": 56,
         "name": {
             "jpn": "バルノスβ",
-            "eng": "Barnosβ",
+            "eng": "Barnos β",
             "fre": "Barnos β",
             "spa": "Barnos β",
             "ger": "Barnos-Set β",
@@ -911,17 +911,17 @@
             "kor": "바르노스β",
             "cnt": "酸翼龍β",
             "cns": "酸翼龙贝塔",
-            "rus": "Барносβ",
-            "pol": "Barnosaβ",
-            "ptb": "Barnosβ",
-            "ara": "بارنوسβ"
+            "rus": "Барнос β",
+            "pol": "Barnosa β",
+            "ptb": "Barnos β",
+            "ara": "بارنوس β"
         }
     },
     {
         "id": 57,
         "name": {
             "jpn": "タロスα",
-            "eng": "Hornetaurα",
+            "eng": "Hornetaur α",
             "fre": "Hornetaur α",
             "spa": "Hornetaur α",
             "ger": "Hornetaur-Set α",
@@ -929,17 +929,17 @@
             "kor": "타로스α",
             "cnt": "巨甲蟲α",
             "cns": "巨甲虫阿尔法",
-            "rus": "Роготаврα",
-            "pol": "Hornetauraα",
-            "ptb": "Chifrotauroα",
-            "ara": "هورنتورα"
+            "rus": "Роготавр α",
+            "pol": "Hornetaura α",
+            "ptb": "Chifrotauro α",
+            "ara": "هورنتور α"
         }
     },
     {
         "id": 58,
         "name": {
             "jpn": "タロスβ",
-            "eng": "Hornetaurβ",
+            "eng": "Hornetaur β",
             "fre": "Hornetaur β",
             "spa": "Hornetaur β",
             "ger": "Hornetaur-Set β",
@@ -947,17 +947,17 @@
             "kor": "타로스β",
             "cnt": "巨甲蟲β",
             "cns": "巨甲虫贝塔",
-            "rus": "Роготаврβ",
-            "pol": "Hornetauraβ",
-            "ptb": "Chifrotauroβ",
-            "ara": "هورنتورβ"
+            "rus": "Роготавр β",
+            "pol": "Hornetaura β",
+            "ptb": "Chifrotauro β",
+            "ara": "هورنتور β"
         }
     },
     {
         "id": 61,
         "name": {
             "jpn": "ジャグラスα",
-            "eng": "Jagrasα",
+            "eng": "Jagras α",
             "fre": "Jagras α",
             "spa": "Jagras α",
             "ger": "Jagras-Set α",
@@ -965,17 +965,17 @@
             "kor": "쟈그라스α",
             "cnt": "凶豺龍α",
             "cns": "贼龙阿尔法",
-            "rus": "Яграсα",
-            "pol": "Jagrasaα",
-            "ptb": "Jagrasα",
-            "ara": "جاغراسα"
+            "rus": "Яграс α",
+            "pol": "Jagrasa α",
+            "ptb": "Jagras α",
+            "ara": "جاغراس α"
         }
     },
     {
         "id": 62,
         "name": {
             "jpn": "ジャグラスβ",
-            "eng": "Jagrasβ",
+            "eng": "Jagras β",
             "fre": "Jagras β",
             "spa": "Jagras β",
             "ger": "Jagras-Set β",
@@ -983,17 +983,17 @@
             "kor": "쟈그라스β",
             "cnt": "凶豺龍β",
             "cns": "贼龙贝塔",
-            "rus": "Яграсβ",
-            "pol": "Jagrasaβ",
-            "ptb": "Jagrasβ",
-            "ara": "جاغراسβ"
+            "rus": "Яграс β",
+            "pol": "Jagrasa β",
+            "ptb": "Jagras β",
+            "ara": "جاغراس β"
         }
     },
     {
         "id": 63,
         "name": {
             "jpn": "クルルα",
-            "eng": "Kuluα",
+            "eng": "Kulu α",
             "fre": "Kulu-Ya-Ku α",
             "spa": "Kulu α",
             "ger": "Kulu-Set α",
@@ -1001,17 +1001,17 @@
             "kor": "쿠루루α",
             "cnt": "搔鳥α",
             "cns": "搔鸟阿尔法",
-            "rus": "Кулуα",
-            "pol": "Kuluα",
-            "ptb": "Kuluα",
-            "ara": "كولوα"
+            "rus": "Кулу α",
+            "pol": "Kulu α",
+            "ptb": "Kulu α",
+            "ara": "كولو α"
         }
     },
     {
         "id": 64,
         "name": {
             "jpn": "クルルβ",
-            "eng": "Kuluβ",
+            "eng": "Kulu β",
             "fre": "Kulu-Ya-Ku β",
             "spa": "Kulu β",
             "ger": "Kulu-Set β",
@@ -1019,17 +1019,17 @@
             "kor": "쿠루루β",
             "cnt": "搔鳥β",
             "cns": "搔鸟贝塔",
-            "rus": "Кулуβ",
-            "pol": "Kuluβ",
-            "ptb": "Kuluβ",
-            "ara": "كولوβ"
+            "rus": "Кулу β",
+            "pol": "Kulu β",
+            "ptb": "Kulu β",
+            "ara": "كولو β"
         }
     },
     {
         "id": 65,
         "name": {
             "jpn": "プケプケα",
-            "eng": "Pukeiα",
+            "eng": "Pukei α",
             "fre": "Pukei-Pukei α",
             "spa": "Pukei α",
             "ger": "Pukei-Set α",
@@ -1037,17 +1037,17 @@
             "kor": "푸케푸케α",
             "cnt": "毒妖鳥α",
             "cns": "毒妖鸟阿尔法",
-            "rus": "Покиα",
-            "pol": "Pukeiα",
-            "ptb": "Pukeiα",
-            "ara": "بوكيα"
+            "rus": "Поки α",
+            "pol": "Pukei α",
+            "ptb": "Pukei α",
+            "ara": "بوكي α"
         }
     },
     {
         "id": 66,
         "name": {
             "jpn": "プケプケβ",
-            "eng": "Pukeiβ",
+            "eng": "Pukei β",
             "fre": "Pukei-Pukei β",
             "spa": "Pukei β",
             "ger": "Pukei-Set β",
@@ -1055,17 +1055,17 @@
             "kor": "푸케푸케β",
             "cnt": "毒妖鳥β",
             "cns": "毒妖鸟贝塔",
-            "rus": "Покиβ",
-            "pol": "Pukeiβ",
-            "ptb": "Pukeiβ",
-            "ara": "بوكيβ"
+            "rus": "Поки β",
+            "pol": "Pukei β",
+            "ptb": "Pukei β",
+            "ara": "بوكي β"
         }
     },
     {
         "id": 67,
         "name": {
             "jpn": "ジュラα",
-            "eng": "Jyuraα",
+            "eng": "Jyura α",
             "fre": "Jyuratodus α",
             "spa": "Jyura α",
             "ger": "Jyuratodus-Set α",
@@ -1073,17 +1073,17 @@
             "kor": "쥬라α",
             "cnt": "泥魚龍α",
             "cns": "泥鱼龙阿尔法",
-            "rus": "Юратодα",
-            "pol": "Jyuraα",
-            "ptb": "Jyuraα",
-            "ara": "جيوراα"
+            "rus": "Юратод α",
+            "pol": "Jyura α",
+            "ptb": "Jyura α",
+            "ara": "جيورا α"
         }
     },
     {
         "id": 68,
         "name": {
             "jpn": "ジュラβ",
-            "eng": "Jyuraβ",
+            "eng": "Jyura β",
             "fre": "Jyuratodus β",
             "spa": "Jyura β",
             "ger": "Jyuratodus-Set β",
@@ -1091,17 +1091,17 @@
             "kor": "쥬라β",
             "cnt": "泥魚龍β",
             "cns": "泥鱼龙贝塔",
-            "rus": "Юратодβ",
-            "pol": "Jyuraβ",
-            "ptb": "Jyuraβ",
-            "ara": "جيوراβ"
+            "rus": "Юратод β",
+            "pol": "Jyura β",
+            "ptb": "Jyura β",
+            "ara": "جيورا β"
         }
     },
     {
         "id": 69,
         "name": {
             "jpn": "ボロスα",
-            "eng": "Barrothα",
+            "eng": "Barroth α",
             "fre": "Barroth α",
             "spa": "Barroth α",
             "ger": "Barroth-Set α",
@@ -1109,17 +1109,17 @@
             "kor": "보로스α",
             "cnt": "土砂龍α",
             "cns": "土砂龙阿尔法",
-            "rus": "Барротα",
-            "pol": "Barrothaα",
-            "ptb": "Barrothα",
-            "ara": "باروثα"
+            "rus": "Баррот α",
+            "pol": "Barrotha α",
+            "ptb": "Barroth α",
+            "ara": "باروث α"
         }
     },
     {
         "id": 70,
         "name": {
             "jpn": "ボロスβ",
-            "eng": "Barrothβ",
+            "eng": "Barroth β",
             "fre": "Barroth β",
             "spa": "Barroth β",
             "ger": "Barroth-Set β",
@@ -1127,17 +1127,17 @@
             "kor": "보로스β",
             "cnt": "土砂龍β",
             "cns": "土砂龙贝塔",
-            "rus": "Барротβ",
-            "pol": "Barrothaβ",
-            "ptb": "Barrothβ",
-            "ara": "باروثβ"
+            "rus": "Баррот β",
+            "pol": "Barrotha β",
+            "ptb": "Barroth β",
+            "ara": "باروث β"
         }
     },
     {
         "id": 71,
         "name": {
             "jpn": "カガチα",
-            "eng": "Kadachiα",
+            "eng": "Kadachi α",
             "fre": "Tobi-Kadachi α",
             "spa": "Kadachi α",
             "ger": "Kadachi-Set α",
@@ -1145,17 +1145,17 @@
             "kor": "카가치α",
             "cnt": "飛雷龍α",
             "cns": "飞雷龙阿尔法",
-            "rus": "Кадачиα",
-            "pol": "Kadachiα",
-            "ptb": "Kadachiα",
-            "ara": "كاداتشيα"
+            "rus": "Кадачи α",
+            "pol": "Kadachi α",
+            "ptb": "Kadachi α",
+            "ara": "كاداتشي α"
         }
     },
     {
         "id": 72,
         "name": {
             "jpn": "カガチβ",
-            "eng": "Kadachiβ",
+            "eng": "Kadachi β",
             "fre": "Tobi-Kadachi β",
             "spa": "Kadachi β",
             "ger": "Kadachi-Set β",
@@ -1163,17 +1163,17 @@
             "kor": "카가치β",
             "cnt": "飛雷龍β",
             "cns": "飞雷龙贝塔",
-            "rus": "Кадачиβ",
-            "pol": "Kadachiβ",
-            "ptb": "Kadachiβ",
-            "ara": "كاداتشيβ"
+            "rus": "Кадачи β",
+            "pol": "Kadachi β",
+            "ptb": "Kadachi β",
+            "ara": "كاداتشي β"
         }
     },
     {
         "id": 73,
         "name": {
             "jpn": "レイアα",
-            "eng": "Rathianα",
+            "eng": "Rathian α",
             "fre": "Rathian α",
             "spa": "Rathian α",
             "ger": "Rathian-Set α",
@@ -1181,17 +1181,17 @@
             "kor": "레이아α",
             "cnt": "雌火龍α",
             "cns": "雌火龙阿尔法",
-            "rus": "Ратианаα",
-            "pol": "Rathianyα",
-            "ptb": "Rathianα",
-            "ara": "راثيانα"
+            "rus": "Ратиана α",
+            "pol": "Rathiany α",
+            "ptb": "Rathian α",
+            "ara": "راثيان α"
         }
     },
     {
         "id": 74,
         "name": {
             "jpn": "レイアβ",
-            "eng": "Rathianβ",
+            "eng": "Rathian β",
             "fre": "Rathian β",
             "spa": "Rathian β",
             "ger": "Rathian-Set β",
@@ -1199,17 +1199,17 @@
             "kor": "레이아β",
             "cnt": "雌火龍β",
             "cns": "雌火龙贝塔",
-            "rus": "Ратианаβ",
-            "pol": "Rathianyβ",
-            "ptb": "Rathianβ",
-            "ara": "راثيانβ"
+            "rus": "Ратиана β",
+            "pol": "Rathiany β",
+            "ptb": "Rathian β",
+            "ara": "راثيان β"
         }
     },
     {
         "id": 75,
         "name": {
             "jpn": "ギルオスα",
-            "eng": "Girrosα",
+            "eng": "Girros α",
             "fre": "Girros α",
             "spa": "Girros α",
             "ger": "Girros-Set α",
@@ -1217,17 +1217,17 @@
             "kor": "기르오스α",
             "cnt": "凶顎龍α",
             "cns": "痹贼龙阿尔法",
-            "rus": "Гирросα",
-            "pol": "Girrosaα",
-            "ptb": "Girrosα",
-            "ara": "غيروسα"
+            "rus": "Гиррос α",
+            "pol": "Girrosa α",
+            "ptb": "Girros α",
+            "ara": "غيروس α"
         }
     },
     {
         "id": 76,
         "name": {
             "jpn": "ギルオスβ",
-            "eng": "Girrosβ",
+            "eng": "Girros β",
             "fre": "Girros β",
             "spa": "Girros β",
             "ger": "Girros-Set β",
@@ -1235,17 +1235,17 @@
             "kor": "기르오스β",
             "cnt": "凶顎龍β",
             "cns": "痹贼龙贝塔",
-            "rus": "Гирросβ",
-            "pol": "Girrosaβ",
-            "ptb": "Girrosβ",
-            "ara": "غيروسβ"
+            "rus": "Гиррос β",
+            "pol": "Girrosa β",
+            "ptb": "Girros β",
+            "ara": "غيروس β"
         }
     },
     {
         "id": 77,
         "name": {
             "jpn": "ツィツィα",
-            "eng": "Tzitziα",
+            "eng": "Tzitzi α",
             "fre": "Tzitzi-Ya-Ku α",
             "spa": "Tzitzi α",
             "ger": "Tzitzi-Set α",
@@ -1253,17 +1253,17 @@
             "kor": "치치α",
             "cnt": "眩鳥α",
             "cns": "眩鸟阿尔法",
-            "rus": "Цициα",
-            "pol": "Tzitziα",
-            "ptb": "Tzitziα",
-            "ara": "تسيتسيα"
+            "rus": "Цици α",
+            "pol": "Tzitzi α",
+            "ptb": "Tzitzi α",
+            "ara": "تسيتسي α"
         }
     },
     {
         "id": 78,
         "name": {
             "jpn": "ツィツィβ",
-            "eng": "Tzitziβ",
+            "eng": "Tzitzi β",
             "fre": "Tzitzi-Ya-Ku β",
             "spa": "Tzitzi β",
             "ger": "Tzitzi-Set β",
@@ -1271,17 +1271,17 @@
             "kor": "치치β",
             "cnt": "眩鳥β",
             "cns": "眩鸟贝塔",
-            "rus": "Цициβ",
-            "pol": "Tzitziβ",
-            "ptb": "Tzitziβ",
-            "ara": "تسيتسيβ"
+            "rus": "Цици β",
+            "pol": "Tzitzi β",
+            "ptb": "Tzitzi β",
+            "ara": "تسيتسي β"
         }
     },
     {
         "id": 79,
         "name": {
             "jpn": "ウルムーα",
-            "eng": "Lumuα",
+            "eng": "Lumu α",
             "fre": "Paolumu α",
             "spa": "Lumu α",
             "ger": "Paolumu-Set α",
@@ -1289,17 +1289,17 @@
             "kor": "우르무α",
             "cnt": "浮空龍α",
             "cns": "浮空龙阿尔法",
-            "rus": "Лумуα",
-            "pol": "Lumuα",
-            "ptb": "Lumuα",
-            "ara": "لوموα"
+            "rus": "Луму α",
+            "pol": "Lumu α",
+            "ptb": "Lumu α",
+            "ara": "لومو α"
         }
     },
     {
         "id": 80,
         "name": {
             "jpn": "ウルムーβ",
-            "eng": "Lumuβ",
+            "eng": "Lumu β",
             "fre": "Paolumu β",
             "spa": "Lumu β",
             "ger": "Paolumu-Set β",
@@ -1307,17 +1307,17 @@
             "kor": "우르무β",
             "cnt": "浮空龍β",
             "cns": "浮空龙贝塔",
-            "rus": "Лумуβ",
-            "pol": "Lumuβ",
-            "ptb": "Lumuβ",
-            "ara": "لوموβ"
+            "rus": "Луму β",
+            "pol": "Lumu β",
+            "ptb": "Lumu β",
+            "ara": "لومو β"
         }
     },
     {
         "id": 81,
         "name": {
             "jpn": "ガロンα",
-            "eng": "Odogaronα",
+            "eng": "Odogaron α",
             "fre": "Odogaron α",
             "spa": "Odogaron α",
             "ger": "Odogaron-Set α",
@@ -1325,17 +1325,17 @@
             "kor": "가론α",
             "cnt": "慘爪龍α",
             "cns": "惨爪龙阿尔法",
-            "rus": "Одогаронα",
-            "pol": "Odogaronaα",
-            "ptb": "Odogaronα",
-            "ara": "أودوغارونα"
+            "rus": "Одогарон α",
+            "pol": "Odogarona α",
+            "ptb": "Odogaron α",
+            "ara": "أودوغارون α"
         }
     },
     {
         "id": 82,
         "name": {
             "jpn": "ガロンβ",
-            "eng": "Odogaronβ",
+            "eng": "Odogaron β",
             "fre": "Odogaron β",
             "spa": "Odogaron β",
             "ger": "Odogaron-Set β",
@@ -1343,17 +1343,17 @@
             "kor": "가론β",
             "cnt": "慘爪龍β",
             "cns": "惨爪龙贝塔",
-            "rus": "Одогаронβ",
-            "pol": "Odogaronaβ",
-            "ptb": "Odogaronβ",
-            "ara": "أودوغارونβ"
+            "rus": "Одогарон β",
+            "pol": "Odogarona β",
+            "ptb": "Odogaron β",
+            "ara": "أودوغارون β"
         }
     },
     {
         "id": 83,
         "name": {
             "jpn": "ガマルα",
-            "eng": "Dodogamaα",
+            "eng": "Dodogama α",
             "fre": "Dodogama α",
             "spa": "Dodogama α",
             "ger": "Dodogama-Set α",
@@ -1361,17 +1361,17 @@
             "kor": "가마루α",
             "cnt": "岩賊龍α",
             "cns": "岩贼龙阿尔法",
-            "rus": "Додогамаα",
-            "pol": "Dodogamyα",
-            "ptb": "Dodogamaα",
-            "ara": "دودوغماα"
+            "rus": "Додогама α",
+            "pol": "Dodogamy α",
+            "ptb": "Dodogama α",
+            "ara": "دودوغما α"
         }
     },
     {
         "id": 84,
         "name": {
             "jpn": "ガマルβ",
-            "eng": "Dodogamaβ",
+            "eng": "Dodogama β",
             "fre": "Dodogama β",
             "spa": "Dodogama β",
             "ger": "Dodogama-Set β",
@@ -1379,17 +1379,17 @@
             "kor": "가마루β",
             "cnt": "岩賊龍β",
             "cns": "岩贼龙贝塔",
-            "rus": "Додогамаβ",
-            "pol": "Dodogamyβ",
-            "ptb": "Dodogamaβ",
-            "ara": "دودوغماβ"
+            "rus": "Додогама β",
+            "pol": "Dodogamy β",
+            "ptb": "Dodogama β",
+            "ara": "دودوغما β"
         }
     },
     {
         "id": 85,
         "name": {
             "jpn": "ラヴァα",
-            "eng": "Lavasiothα",
+            "eng": "Lavasioth α",
             "fre": "Lavasioth α",
             "spa": "Lavasioth α",
             "ger": "Lavasioth-Set α",
@@ -1397,17 +1397,17 @@
             "kor": "라바α",
             "cnt": "熔岩龍α",
             "cns": "熔岩龙阿尔法",
-            "rus": "Лавасиотα",
-            "pol": "Lavasiothaα",
-            "ptb": "Lavasiothα",
-            "ara": "لافاسيوثα"
+            "rus": "Лавасиот α",
+            "pol": "Lavasiotha α",
+            "ptb": "Lavasioth α",
+            "ara": "لافاسيوث α"
         }
     },
     {
         "id": 86,
         "name": {
             "jpn": "ラヴァβ",
-            "eng": "Lavasiothβ",
+            "eng": "Lavasioth β",
             "fre": "Lavasioth β",
             "spa": "Lavasioth β",
             "ger": "Lavasioth-Set β",
@@ -1415,17 +1415,17 @@
             "kor": "라바β",
             "cnt": "熔岩龍β",
             "cns": "熔岩龙贝塔",
-            "rus": "Лавасиотβ",
-            "pol": "Lavasiothaβ",
-            "ptb": "Lavasiothβ",
-            "ara": "لافاسيوثβ"
+            "rus": "Лавасиот β",
+            "pol": "Lavasiotha β",
+            "ptb": "Lavasioth β",
+            "ara": "لافاسيوث β"
         }
     },
     {
         "id": 87,
         "name": {
             "jpn": "リオハートα",
-            "eng": "Rath Heartα",
+            "eng": "Rath Heart α",
             "fre": "Cœur Rathian α",
             "spa": "Corazón Rath α",
             "ger": "Rathianherz-Set α",
@@ -1433,17 +1433,17 @@
             "kor": "리오하트α",
             "cnt": "火龍心α",
             "cns": "火龙心阿尔法",
-            "rus": "Сердце ратыα",
-            "pol": "Serca Rathaα",
-            "ptb": "Coração Rathα",
-            "ara": "قلب راثα"
+            "rus": "Сердце раты α",
+            "pol": "Serca Ratha α",
+            "ptb": "Coração Rath α",
+            "ara": "قلب راث α"
         }
     },
     {
         "id": 88,
         "name": {
             "jpn": "リオハートβ",
-            "eng": "Rath Heartβ",
+            "eng": "Rath Heart β",
             "fre": "Cœur Rathian β",
             "spa": "Corazón Rath β",
             "ger": "Rathianherz-Set β",
@@ -1451,17 +1451,17 @@
             "kor": "리오하트β",
             "cnt": "火龍心β",
             "cns": "火龙心贝塔",
-            "rus": "Сердце ратыβ",
-            "pol": "Serca Rathaβ",
-            "ptb": "Coração Rathβ",
-            "ara": "قلب راثβ"
+            "rus": "Сердце раты β",
+            "pol": "Serca Ratha β",
+            "ptb": "Coração Rath β",
+            "ara": "قلب راث β"
         }
     },
     {
         "id": 89,
         "name": {
             "jpn": "ハイメタα",
-            "eng": "High Metalα",
+            "eng": "High Metal α",
             "fre": "Haut-métal α",
             "spa": "Megametal α",
             "ger": "Hochmetall-Set α",
@@ -1469,17 +1469,17 @@
             "kor": "하이메탈α",
             "cnt": "礦石α",
             "cns": "矿石阿尔法",
-            "rus": "Высший металлα",
-            "pol": "Metaluα",
-            "ptb": "Metal Densoα",
-            "ara": "معدن قويα"
+            "rus": "Высший металл α",
+            "pol": "Metalu α",
+            "ptb": "Metal Denso α",
+            "ara": "معدن قوي α"
         }
     },
     {
         "id": 90,
         "name": {
             "jpn": "ハイメタβ",
-            "eng": "High Metalβ",
+            "eng": "High Metal β",
             "fre": "Haut-métal β",
             "spa": "Megametal β",
             "ger": "Hochmetall-Set β",
@@ -1487,17 +1487,17 @@
             "kor": "하이메탈β",
             "cnt": "礦石β",
             "cns": "矿石贝塔",
-            "rus": "Высший металлβ",
-            "pol": "Metaluβ",
-            "ptb": "Metal Densoβ",
-            "ara": "معدن قويβ"
+            "rus": "Высший металл β",
+            "pol": "Metalu β",
+            "ptb": "Metal Denso β",
+            "ara": "معدن قوي β"
         }
     },
     {
         "id": 91,
         "name": {
             "jpn": "インゴットα",
-            "eng": "Ingotα",
+            "eng": "Ingot α",
             "fre": "Lingot α",
             "spa": "Lingote α",
             "ger": "Guss-Set α",
@@ -1505,17 +1505,17 @@
             "kor": "잉곳α",
             "cnt": "鑄鐵α",
             "cns": "铸铁阿尔法",
-            "rus": "Драгоценныйα",
-            "pol": "Sztabekα",
-            "ptb": "Lingoteα",
-            "ara": "إنغوتα"
+            "rus": "Драгоценный α",
+            "pol": "Sztabek α",
+            "ptb": "Lingote α",
+            "ara": "إنغوت α"
         }
     },
     {
         "id": 92,
         "name": {
             "jpn": "インゴットβ",
-            "eng": "Ingotβ",
+            "eng": "Ingot β",
             "fre": "Lingot β",
             "spa": "Lingote β",
             "ger": "Guss-Set β",
@@ -1523,17 +1523,17 @@
             "kor": "잉곳β",
             "cnt": "鑄鐵β",
             "cns": "铸铁贝塔",
-            "rus": "Драгоценныйβ",
-            "pol": "Sztabekβ",
-            "ptb": "Lingoteβ",
-            "ara": "إنغوتβ"
+            "rus": "Драгоценный β",
+            "pol": "Sztabek β",
+            "ptb": "Lingote β",
+            "ara": "إنغوت β"
         }
     },
     {
         "id": 93,
         "name": {
             "jpn": "ジャナフα",
-            "eng": "Anjaα",
+            "eng": "Anja α",
             "fre": "Anjanath α",
             "spa": "Anja α",
             "ger": "Anjanath-Set α",
@@ -1541,17 +1541,17 @@
             "kor": "쟈나프α",
             "cnt": "蠻顎龍α",
             "cns": "蛮颚龙阿尔法",
-            "rus": "Анджиα",
-            "pol": "Anjaα",
-            "ptb": "Anjaα",
-            "ara": "أنجاα"
+            "rus": "Анджи α",
+            "pol": "Anja α",
+            "ptb": "Anja α",
+            "ara": "أنجا α"
         }
     },
     {
         "id": 94,
         "name": {
             "jpn": "ジャナフβ",
-            "eng": "Anjaβ",
+            "eng": "Anja β",
             "fre": "Anjanath β",
             "spa": "Anja β",
             "ger": "Anjanath-Set β",
@@ -1559,17 +1559,17 @@
             "kor": "쟈나프β",
             "cnt": "蠻顎龍β",
             "cns": "蛮颚龙贝塔",
-            "rus": "Анджиβ",
-            "pol": "Anjaβ",
-            "ptb": "Anjaβ",
-            "ara": "أنجاβ"
+            "rus": "Анджи β",
+            "pol": "Anja β",
+            "ptb": "Anja β",
+            "ara": "أنجا β"
         }
     },
     {
         "id": 95,
         "name": {
             "jpn": "ギエナα",
-            "eng": "Legianaα",
+            "eng": "Legiana α",
             "fre": "Legiana α",
             "spa": "Legiana α",
             "ger": "Legiana-Set α",
@@ -1577,17 +1577,17 @@
             "kor": "기에나α",
             "cnt": "風漂龍α",
             "cns": "风漂龙阿尔法",
-            "rus": "Легианаα",
-            "pol": "Legianyα",
-            "ptb": "Legianaα",
-            "ara": "ليغياناα"
+            "rus": "Легиана α",
+            "pol": "Legiany α",
+            "ptb": "Legiana α",
+            "ara": "ليغيانا α"
         }
     },
     {
         "id": 96,
         "name": {
             "jpn": "ギエナβ",
-            "eng": "Legianaβ",
+            "eng": "Legiana β",
             "fre": "Legiana β",
             "spa": "Legiana β",
             "ger": "Legiana-Set β",
@@ -1595,17 +1595,17 @@
             "kor": "기에나β",
             "cnt": "風漂龍β",
             "cns": "风漂龙贝塔",
-            "rus": "Легианаβ",
-            "pol": "Legianyβ",
-            "ptb": "Legianaβ",
-            "ara": "ليغياناβ"
+            "rus": "Легиана β",
+            "pol": "Legiany β",
+            "ptb": "Legiana β",
+            "ara": "ليغيانا β"
         }
     },
     {
         "id": 97,
         "name": {
             "jpn": "バルキンα",
-            "eng": "Baanα",
+            "eng": "Baan α",
             "fre": "Radobaan α",
             "spa": "Baan α",
             "ger": "Baan-Set α",
@@ -1613,17 +1613,17 @@
             "kor": "발킨α",
             "cnt": "骨鎚龍α",
             "cns": "骨锤龙阿尔法",
-            "rus": "Баанα",
-            "pol": "Baanaα",
-            "ptb": "Baanα",
-            "ara": "بانα"
+            "rus": "Баан α",
+            "pol": "Baana α",
+            "ptb": "Baan α",
+            "ara": "بان α"
         }
     },
     {
         "id": 98,
         "name": {
             "jpn": "バルキンβ",
-            "eng": "Baanβ",
+            "eng": "Baan β",
             "fre": "Radobaan β",
             "spa": "Baan β",
             "ger": "Baan-Set β",
@@ -1631,17 +1631,17 @@
             "kor": "발킨β",
             "cnt": "骨鎚龍β",
             "cns": "骨锤龙贝塔",
-            "rus": "Баанβ",
-            "pol": "Baanaβ",
-            "ptb": "Baanβ",
-            "ara": "بانβ"
+            "rus": "Баан β",
+            "pol": "Baana β",
+            "ptb": "Baan β",
+            "ara": "بان β"
         }
     },
     {
         "id": 99,
         "name": {
             "jpn": "ウルズα",
-            "eng": "Vaal Hazakα",
+            "eng": "Vaal Hazak α",
             "fre": "Vaal Hazak α",
             "spa": "Vaal Hazak α",
             "ger": "Vaal-Hazak-Set α",
@@ -1649,17 +1649,17 @@
             "kor": "우르즈α",
             "cnt": "烏爾德α",
             "cns": "乌尔德阿尔法",
-            "rus": "Ваал-хазакα",
-            "pol": "Vaal Hazakaα",
-            "ptb": "Vaal Hazakα",
-            "ara": "فال هازاكα"
+            "rus": "Ваал-хазак α",
+            "pol": "Vaal Hazaka α",
+            "ptb": "Vaal Hazak α",
+            "ara": "فال هازاك α"
         }
     },
     {
         "id": 100,
         "name": {
             "jpn": "ウルズβ",
-            "eng": "Vaal Hazakβ",
+            "eng": "Vaal Hazak β",
             "fre": "Vaal Hazak β",
             "spa": "Vaal Hazak β",
             "ger": "Vaal-Hazak-Set β",
@@ -1667,17 +1667,17 @@
             "kor": "우르즈β",
             "cnt": "烏爾德β",
             "cns": "乌尔德贝塔",
-            "rus": "Ваал-хазакβ",
-            "pol": "Vaal Hazakaβ",
-            "ptb": "Vaal Hazakβ",
-            "ara": "فال هازاكβ"
+            "rus": "Ваал-хазак β",
+            "pol": "Vaal Hazaka β",
+            "ptb": "Vaal Hazak β",
+            "ara": "فال هازاك β"
         }
     },
     {
         "id": 101,
         "name": {
             "jpn": "レウスα",
-            "eng": "Rathalosα",
+            "eng": "Rathalos α",
             "fre": "Rathalos α",
             "spa": "Rathalos α",
             "ger": "Rathalos-Set α",
@@ -1685,17 +1685,17 @@
             "kor": "레우스α",
             "cnt": "火龍α",
             "cns": "火龙阿尔法",
-            "rus": "Раталосα",
-            "pol": "Rathalosaα",
-            "ptb": "Rathalosα",
-            "ara": "راذالوسα"
+            "rus": "Раталос α",
+            "pol": "Rathalosa α",
+            "ptb": "Rathalos α",
+            "ara": "راذالوس α"
         }
     },
     {
         "id": 102,
         "name": {
             "jpn": "レウスβ",
-            "eng": "Rathalosβ",
+            "eng": "Rathalos β",
             "fre": "Rathalos β",
             "spa": "Rathalos β",
             "ger": "Rathalos-Set β",
@@ -1703,17 +1703,17 @@
             "kor": "레우스β",
             "cnt": "火龍β",
             "cns": "火龙贝塔",
-            "rus": "Раталосβ",
-            "pol": "Rathalosaβ",
-            "ptb": "Rathalosβ",
-            "ara": "راذالوسβ"
+            "rus": "Раталос β",
+            "pol": "Rathalosa β",
+            "ptb": "Rathalos β",
+            "ara": "راذالوس β"
         }
     },
     {
         "id": 103,
         "name": {
             "jpn": "ディアブロα",
-            "eng": "Diablosα",
+            "eng": "Diablos α",
             "fre": "Diablos α",
             "spa": "Diablos α",
             "ger": "Diablos-Set α",
@@ -1721,17 +1721,17 @@
             "kor": "디아블로α",
             "cnt": "角龍α",
             "cns": "角龙阿尔法",
-            "rus": "Диаблосα",
-            "pol": "Diablosaα",
-            "ptb": "Diablosα",
-            "ara": "ديابلوسα"
+            "rus": "Диаблос α",
+            "pol": "Diablosa α",
+            "ptb": "Diablos α",
+            "ara": "ديابلوس α"
         }
     },
     {
         "id": 104,
         "name": {
             "jpn": "ディアブロβ",
-            "eng": "Diablosβ",
+            "eng": "Diablos β",
             "fre": "Diablos β",
             "spa": "Diablos β",
             "ger": "Diablos-Set β",
@@ -1739,17 +1739,17 @@
             "kor": "디아블로β",
             "cnt": "角龍β",
             "cns": "角龙贝塔",
-            "rus": "Диаблосβ",
-            "pol": "Diablosaβ",
-            "ptb": "Diablosβ",
-            "ara": "ديابلوسβ"
+            "rus": "Диаблос β",
+            "pol": "Diablosa β",
+            "ptb": "Diablos β",
+            "ara": "ديابلوس β"
         }
     },
     {
         "id": 105,
         "name": {
             "jpn": "キリンα",
-            "eng": "Kirinα",
+            "eng": "Kirin α",
             "fre": "Kirin α",
             "spa": "Kirin α",
             "ger": "Kirin-Set α",
@@ -1757,17 +1757,17 @@
             "kor": "키린α",
             "cnt": "麒麟α",
             "cns": "麒麟阿尔法",
-            "rus": "Киринα",
-            "pol": "Kirinaα",
-            "ptb": "Kirinα",
-            "ara": "كيرينα"
+            "rus": "Кирин α",
+            "pol": "Kirina α",
+            "ptb": "Kirin α",
+            "ara": "كيرين α"
         }
     },
     {
         "id": 106,
         "name": {
             "jpn": "キリンβ",
-            "eng": "Kirinβ",
+            "eng": "Kirin β",
             "fre": "Kirin β",
             "spa": "Kirin β",
             "ger": "Kirin-Set β",
@@ -1775,17 +1775,17 @@
             "kor": "키린β",
             "cnt": "麒麟β",
             "cns": "麒麟贝塔",
-            "rus": "Киринβ",
-            "pol": "Kirinaβ",
-            "ptb": "Kirinβ",
-            "ara": "كيرينβ"
+            "rus": "Кирин β",
+            "pol": "Kirina β",
+            "ptb": "Kirin β",
+            "ara": "كيرين β"
         }
     },
     {
         "id": 107,
         "name": {
             "jpn": "オーグα",
-            "eng": "Nergiganteα",
+            "eng": "Nergigante α",
             "fre": "Nergigante α",
             "spa": "Nergigante α",
             "ger": "Nergigante-Set α",
@@ -1793,17 +1793,17 @@
             "kor": "오그α",
             "cnt": "戰紋α",
             "cns": "战纹阿尔法",
-            "rus": "Нергигантα",
-            "pol": "Nergigantaα",
-            "ptb": "Nergiganteα",
-            "ara": "نيرغيα"
+            "rus": "Нергигант α",
+            "pol": "Nergiganta α",
+            "ptb": "Nergigante α",
+            "ara": "نيرغي α"
         }
     },
     {
         "id": 108,
         "name": {
             "jpn": "オーグβ",
-            "eng": "Nergiganteβ",
+            "eng": "Nergigante β",
             "fre": "Nergigante β",
             "spa": "Nergigante β",
             "ger": "Nergigante-Set β",
@@ -1811,17 +1811,17 @@
             "kor": "오그β",
             "cnt": "戰紋β",
             "cns": "战纹贝塔",
-            "rus": "Нергигантβ",
-            "pol": "Nergigantaβ",
-            "ptb": "Nergiganteβ",
-            "ara": "نيرغيβ"
+            "rus": "Нергигант β",
+            "pol": "Nergiganta β",
+            "ptb": "Nergigante β",
+            "ara": "نيرغي β"
         }
     },
     {
         "id": 109,
         "name": {
             "jpn": "ガンキンα",
-            "eng": "Uragaanα",
+            "eng": "Uragaan α",
             "fre": "Uragaan α",
             "spa": "Uragaan α",
             "ger": "Uragaan-Set α",
@@ -1829,17 +1829,17 @@
             "kor": "간킨α",
             "cnt": "爆鎚龍α",
             "cns": "爆锤龙阿尔法",
-            "rus": "Урагаанα",
-            "pol": "Uragaanaα",
-            "ptb": "Uragaanα",
-            "ara": "أوراغانα"
+            "rus": "Урагаан α",
+            "pol": "Uragaana α",
+            "ptb": "Uragaan α",
+            "ara": "أوراغان α"
         }
     },
     {
         "id": 110,
         "name": {
             "jpn": "ガンキンβ",
-            "eng": "Uragaanβ",
+            "eng": "Uragaan β",
             "fre": "Uragaan β",
             "spa": "Uragaan β",
             "ger": "Uragaan-Set β",
@@ -1847,17 +1847,17 @@
             "kor": "간킨β",
             "cnt": "爆鎚龍β",
             "cns": "爆锤龙贝塔",
-            "rus": "Урагаанβ",
-            "pol": "Uragaanaβ",
-            "ptb": "Uragaanβ",
-            "ara": "أوراغانβ"
+            "rus": "Урагаан β",
+            "pol": "Uragaana β",
+            "ptb": "Uragaan β",
+            "ara": "أوراغان β"
         }
     },
     {
         "id": 111,
         "name": {
             "jpn": "リオソウルα",
-            "eng": "Rath Soulα",
+            "eng": "Rath Soul α",
             "fre": "Âme Rathalos α",
             "spa": "Alma Rath α",
             "ger": "Rathalosseelen-Set α",
@@ -1865,17 +1865,17 @@
             "kor": "리오소울α",
             "cnt": "火龍魂α",
             "cns": "火龙魂阿尔法",
-            "rus": "Душа ратыα",
-            "pol": "Duszy Rathaα",
-            "ptb": "Alma de Rathα",
-            "ara": "روح راثα"
+            "rus": "Душа раты α",
+            "pol": "Duszy Ratha α",
+            "ptb": "Alma de Rath α",
+            "ara": "روح راث α"
         }
     },
     {
         "id": 112,
         "name": {
             "jpn": "リオソウルβ",
-            "eng": "Rath Soulβ",
+            "eng": "Rath Soul β",
             "fre": "Âme Rathalos β",
             "spa": "Alma Rath β",
             "ger": "Rathalosseelen-Set β",
@@ -1883,17 +1883,17 @@
             "kor": "리오소울β",
             "cnt": "火龍魂β",
             "cns": "火龙魂贝塔",
-            "rus": "Душа ратыβ",
-            "pol": "Duszy Rathaβ",
-            "ptb": "Alma de Rathβ",
-            "ara": "روح راثβ"
+            "rus": "Душа раты β",
+            "pol": "Duszy Ratha β",
+            "ptb": "Alma de Rath β",
+            "ara": "روح راث β"
         }
     },
     {
         "id": 113,
         "name": {
             "jpn": "ディアネロα",
-            "eng": "Diablos Neroα",
+            "eng": "Diablos Nero α",
             "fre": "Diablos noire α",
             "spa": "Diablos Negra α",
             "ger": "Diablos-Nero-Set α",
@@ -1901,17 +1901,17 @@
             "kor": "디아네로α",
             "cnt": "暴君角龍α",
             "cns": "暴君角龙阿尔法",
-            "rus": "Жуткая диаблосα",
-            "pol": "Czarnej Diabliα",
-            "ptb": "Diablos Negraα",
-            "ara": "نيرو ديابلوسα"
+            "rus": "Жуткая диаблос α",
+            "pol": "Czarnej Diabli α",
+            "ptb": "Diablos Negra α",
+            "ara": "نيرو ديابلوس α"
         }
     },
     {
         "id": 114,
         "name": {
             "jpn": "ディアネロβ",
-            "eng": "Diablos Neroβ",
+            "eng": "Diablos Nero β",
             "fre": "Diablos noire β",
             "spa": "Diablos Negra β",
             "ger": "Diablos-Nero-Set β",
@@ -1919,17 +1919,17 @@
             "kor": "디아네로β",
             "cnt": "暴君角龍β",
             "cns": "暴君角龙贝塔",
-            "rus": "Жуткая диаблосβ",
-            "pol": "Czarnej Diabliβ",
-            "ptb": "Diablos Negraβ",
-            "ara": "نيرو ديابلوسβ"
+            "rus": "Жуткая диаблос β",
+            "pol": "Czarnej Diabli β",
+            "ptb": "Diablos Negra β",
+            "ara": "نيرو ديابلوس β"
         }
     },
     {
         "id": 115,
         "name": {
             "jpn": "バゼルα",
-            "eng": "Bazelα",
+            "eng": "Bazel α",
             "fre": "Bazelgeuse α",
             "spa": "Bazel α",
             "ger": "Bazel-Set α",
@@ -1937,17 +1937,17 @@
             "kor": "바젤α",
             "cnt": "爆鱗龍α",
             "cns": "爆鳞龙阿尔法",
-            "rus": "Базельα",
-            "pol": "Bazelaα",
-            "ptb": "Bazelα",
-            "ara": "بازيلα"
+            "rus": "Базель α",
+            "pol": "Bazela α",
+            "ptb": "Bazel α",
+            "ara": "بازيل α"
         }
     },
     {
         "id": 116,
         "name": {
             "jpn": "バゼルβ",
-            "eng": "Bazelβ",
+            "eng": "Bazel β",
             "fre": "Bazelgeuse β",
             "spa": "Bazel β",
             "ger": "Bazel-Set β",
@@ -1955,17 +1955,17 @@
             "kor": "바젤β",
             "cnt": "爆鱗龍β",
             "cns": "爆鳞龙贝塔",
-            "rus": "Базельβ",
-            "pol": "Bazelaβ",
-            "ptb": "Bazelβ",
-            "ara": "بازيلβ"
+            "rus": "Базель β",
+            "pol": "Bazela β",
+            "ptb": "Bazel β",
+            "ara": "بازيل β"
         }
     },
     {
         "id": 117,
         "name": {
             "jpn": "オウビートα",
-            "eng": "King Beetleα",
+            "eng": "King Beetle α",
             "fre": "Scarabée α",
             "spa": "Rey escarabajo α",
             "ger": "Königskäfer-Set α",
@@ -1973,17 +1973,17 @@
             "kor": "킹비트α",
             "cnt": "獨角仙α",
             "cns": "独角仙阿尔法",
-            "rus": "Королевский жукα",
-            "pol": "Żuka królewskiegoα",
-            "ptb": "Besouro-reiα",
-            "ara": "الخنفساء الملكα"
+            "rus": "Королевский жук α",
+            "pol": "Żuka królewskiego α",
+            "ptb": "Besouro-rei α",
+            "ara": "الخنفساء الملك α"
         }
     },
     {
         "id": 118,
         "name": {
             "jpn": "オウビートβ",
-            "eng": "King Beetleβ",
+            "eng": "King Beetle β",
             "fre": "Scarabée β",
             "spa": "Rey escarabajo β",
             "ger": "Königskäfer-Set β",
@@ -1991,17 +1991,17 @@
             "kor": "킹비트β",
             "cnt": "獨角仙β",
             "cns": "独角仙贝塔",
-            "rus": "Королевский жукβ",
-            "pol": "Żuka królewskiegoβ",
-            "ptb": "Besouro-reiβ",
-            "ara": "الخنفساء الملكβ"
+            "rus": "Королевский жук β",
+            "pol": "Żuka królewskiego β",
+            "ptb": "Besouro-rei β",
+            "ara": "الخنفساء الملك β"
         }
     },
     {
         "id": 119,
         "name": {
             "jpn": "ブリゲイドα",
-            "eng": "Brigadeα",
+            "eng": "Brigade α",
             "fre": "Brigade α",
             "spa": "Brigada α",
             "ger": "Brigade-Set α",
@@ -2009,17 +2009,17 @@
             "kor": "브리게이드α",
             "cnt": "旅團α",
             "cns": "旅团阿尔法",
-            "rus": "Почетныйα",
-            "pol": "Brygadyα",
-            "ptb": "Brigadaα",
-            "ara": "السريةα"
+            "rus": "Почетный α",
+            "pol": "Brygady α",
+            "ptb": "Brigada α",
+            "ara": "السرية α"
         }
     },
     {
         "id": 120,
         "name": {
             "jpn": "ブリゲイドβ",
-            "eng": "Brigadeβ",
+            "eng": "Brigade β",
             "fre": "Brigade β",
             "spa": "Brigada β",
             "ger": "Brigade-Set β",
@@ -2027,17 +2027,17 @@
             "kor": "브리게이드β",
             "cnt": "旅團β",
             "cns": "旅团贝塔",
-            "rus": "Почетныйβ",
-            "pol": "Brygadyβ",
-            "ptb": "Brigadaβ",
-            "ara": "السريةβ"
+            "rus": "Почетный β",
+            "pol": "Brygady β",
+            "ptb": "Brigada β",
+            "ara": "السرية β"
         }
     },
     {
         "id": 121,
         "name": {
             "jpn": "ダマスクα",
-            "eng": "Damascusα",
+            "eng": "Damascus α",
             "fre": "Damascus α",
             "spa": "Damasco α",
             "ger": "Damaskus-Set α",
@@ -2045,17 +2045,17 @@
             "kor": "다마스크α",
             "cnt": "大馬士革α",
             "cns": "大马士革阿尔法",
-            "rus": "Дамасскα",
-            "pol": "Damasceńskiα",
-            "ptb": "Damascusα",
-            "ara": "دمشقα"
+            "rus": "Дамасск α",
+            "pol": "Damasceński α",
+            "ptb": "Damascus α",
+            "ara": "دمشق α"
         }
     },
     {
         "id": 122,
         "name": {
             "jpn": "ダマスクβ",
-            "eng": "Damascusβ",
+            "eng": "Damascus β",
             "fre": "Damascus β",
             "spa": "Damasco β",
             "ger": "Damaskus-Set β",
@@ -2063,17 +2063,17 @@
             "kor": "다마스크β",
             "cnt": "大馬士革β",
             "cns": "大马士革贝塔",
-            "rus": "Дамасскβ",
-            "pol": "Damasceńskiβ",
-            "ptb": "Damascusβ",
-            "ara": "دمشقβ"
+            "rus": "Дамасск β",
+            "pol": "Damasceński β",
+            "ptb": "Damascus β",
+            "ara": "دمشق β"
         }
     },
     {
         "id": 123,
         "name": {
             "jpn": "ドーベルα",
-            "eng": "Doberα",
+            "eng": "Dober α",
             "fre": "Dober α",
             "spa": "Dober α",
             "ger": "Dober-Set α",
@@ -2081,17 +2081,17 @@
             "kor": "도베르α",
             "cnt": "杜賓α",
             "cns": "杜宾阿尔法",
-            "rus": "Доберα",
-            "pol": "Doberaα",
-            "ptb": "Doberα",
-            "ara": "دوبرα"
+            "rus": "Добер α",
+            "pol": "Dobera α",
+            "ptb": "Dober α",
+            "ara": "دوبر α"
         }
     },
     {
         "id": 124,
         "name": {
             "jpn": "ドーベルβ",
-            "eng": "Doberβ",
+            "eng": "Dober β",
             "fre": "Dober β",
             "spa": "Dober β",
             "ger": "Dober-Set β",
@@ -2099,17 +2099,17 @@
             "kor": "도베르β",
             "cnt": "杜賓β",
             "cns": "杜宾贝塔",
-            "rus": "Доберβ",
-            "pol": "Doberaβ",
-            "ptb": "Doberβ",
-            "ara": "دوبرβ"
+            "rus": "Добер β",
+            "pol": "Dobera β",
+            "ptb": "Dober β",
+            "ara": "دوبر β"
         }
     },
     {
         "id": 125,
         "name": {
             "jpn": "ゼノラージα",
-            "eng": "Xeno'jiivaα",
+            "eng": "Xeno'jiiva α",
             "fre": "Xeno'jiiva α",
             "spa": "Xeno'jiiva α",
             "ger": "Xeno'jiiva-Set α",
@@ -2117,17 +2117,17 @@
             "kor": "제노라지α",
             "cnt": "冥燈幽火α",
             "cns": "冥灯幽火阿尔法",
-            "rus": "Ксено'джииваα",
-            "pol": "Xeno'jiivaα",
-            "ptb": "Xeno'jiivaα",
-            "ara": "زينوجيفاα"
+            "rus": "Ксено'джиива α",
+            "pol": "Xeno'jiiva α",
+            "ptb": "Xeno'jiiva α",
+            "ara": "زينوجيفا α"
         }
     },
     {
         "id": 126,
         "name": {
             "jpn": "ゼノラージβ",
-            "eng": "Xeno'jiivaβ",
+            "eng": "Xeno'jiiva β",
             "fre": "Xeno'jiiva β",
             "spa": "Xeno'jiiva β",
             "ger": "Xeno'jiiva-Set β",
@@ -2135,17 +2135,17 @@
             "kor": "제노라지β",
             "cnt": "冥燈幽火β",
             "cns": "冥灯幽火贝塔",
-            "rus": "Ксено'джииваβ",
-            "pol": "Xeno'jiivaβ",
-            "ptb": "Xeno'jiivaβ",
-            "ara": "زينوجيفاβ"
+            "rus": "Ксено'джиива β",
+            "pol": "Xeno'jiiva β",
+            "ptb": "Xeno'jiiva β",
+            "ara": "زينوجيفا β"
         }
     },
     {
         "id": 127,
         "name": {
             "jpn": "カイザーα",
-            "eng": "Teostraα",
+            "eng": "Teostra α",
             "fre": "Kaiser α",
             "spa": "Káiser α",
             "ger": "Kaiser-Set α",
@@ -2153,17 +2153,17 @@
             "kor": "카이저α",
             "cnt": "帝王α",
             "cns": "帝王阿尔法",
-            "rus": "Теостраα",
-            "pol": "Teostryα",
-            "ptb": "Teostraα",
-            "ara": "تيوستراα"
+            "rus": "Теостра α",
+            "pol": "Teostry α",
+            "ptb": "Teostra α",
+            "ara": "تيوسترا α"
         }
     },
     {
         "id": 128,
         "name": {
             "jpn": "カイザーβ",
-            "eng": "Teostraβ",
+            "eng": "Teostra β",
             "fre": "Kaiser β",
             "spa": "Káiser β",
             "ger": "Kaiser-Set β",
@@ -2171,17 +2171,17 @@
             "kor": "카이저β",
             "cnt": "帝王β",
             "cns": "帝王贝塔",
-            "rus": "Теостраβ",
-            "pol": "Teostryβ",
-            "ptb": "Teostraβ",
-            "ara": "تيوستراβ"
+            "rus": "Теостра β",
+            "pol": "Teostry β",
+            "ptb": "Teostra β",
+            "ara": "تيوسترا β"
         }
     },
     {
         "id": 129,
         "name": {
             "jpn": "クシャナα",
-            "eng": "Kushalaα",
+            "eng": "Kushala α",
             "fre": "Kushala Daora α",
             "spa": "Kushala α",
             "ger": "Kushala-Set α",
@@ -2189,17 +2189,17 @@
             "kor": "크샤나α",
             "cnt": "鋼龍α",
             "cns": "钢龙阿尔法",
-            "rus": "Кушалаα",
-            "pol": "Kushaliα",
-            "ptb": "Kushalaα",
-            "ara": "كوشالاα"
+            "rus": "Кушала α",
+            "pol": "Kushali α",
+            "ptb": "Kushala α",
+            "ara": "كوشالا α"
         }
     },
     {
         "id": 130,
         "name": {
             "jpn": "クシャナβ",
-            "eng": "Kushalaβ",
+            "eng": "Kushala β",
             "fre": "Kushala Daora β",
             "spa": "Kushala β",
             "ger": "Kushala-Set β",
@@ -2207,17 +2207,17 @@
             "kor": "크샤나β",
             "cnt": "鋼龍β",
             "cns": "钢龙贝塔",
-            "rus": "Кушалаβ",
-            "pol": "Kushaliβ",
-            "ptb": "Kushalaβ",
-            "ara": "كوشالاβ"
+            "rus": "Кушала β",
+            "pol": "Kushali β",
+            "ptb": "Kushala β",
+            "ara": "كوشالا β"
         }
     },
     {
         "id": 131,
         "name": {
             "jpn": "スカルα",
-            "eng": "Skullα",
+            "eng": "Skull α",
             "fre": "Crâne α",
             "spa": "Calavera α",
             "ger": "Schädel-Set α",
@@ -2225,17 +2225,17 @@
             "kor": "스컬α",
             "cnt": "骷髏α",
             "cns": "骷髅阿尔法",
-            "rus": "Черепα",
-            "pol": "Czaszkiα",
-            "ptb": "Caveiraα",
-            "ara": "الجمجمةα"
+            "rus": "Череп α",
+            "pol": "Czaszki α",
+            "ptb": "Caveira α",
+            "ara": "الجمجمة α"
         }
     },
     {
         "id": 132,
         "name": {
             "jpn": "スカルβ",
-            "eng": "Skullβ",
+            "eng": "Skull β",
             "fre": "Crâne β",
             "spa": "Calavera β",
             "ger": "Schädel-Set β",
@@ -2243,17 +2243,17 @@
             "kor": "스컬β",
             "cnt": "骷髏β",
             "cns": "骷髅贝塔",
-            "rus": "Черепβ",
-            "pol": "Czaszkiβ",
-            "ptb": "Caveiraβ",
-            "ara": "الجمجمةβ"
+            "rus": "Череп β",
+            "pol": "Czaszki β",
+            "ptb": "Caveira β",
+            "ara": "الجمجمة β"
         }
     },
     {
         "id": 133,
         "name": {
             "jpn": "デスギアα",
-            "eng": "Death Stenchα",
+            "eng": "Death Stench α",
             "fre": "Putride α",
             "spa": "Pestilente α",
             "ger": "Todesgestank-Set α",
@@ -2261,17 +2261,17 @@
             "kor": "데스기어α",
             "cnt": "死神α",
             "cns": "死神阿尔法",
-            "rus": "Зловоние смертиα",
-            "pol": "Rozkładuα",
-            "ptb": "Putrefatoα",
-            "ara": "رائحة الموتα"
+            "rus": "Зловоние смерти α",
+            "pol": "Rozkładu α",
+            "ptb": "Putrefato α",
+            "ara": "رائحة الموت α"
         }
     },
     {
         "id": 134,
         "name": {
             "jpn": "デスギアβ",
-            "eng": "Death Stenchβ",
+            "eng": "Death Stench β",
             "fre": "Putride β",
             "spa": "Pestilente β",
             "ger": "Todesgestank-Set β",
@@ -2279,17 +2279,17 @@
             "kor": "데스기어β",
             "cnt": "死神β",
             "cns": "死神贝塔",
-            "rus": "Зловоние смертиβ",
-            "pol": "Rozkładuβ",
-            "ptb": "Putrefatoβ",
-            "ara": "رائحة الموتβ"
+            "rus": "Зловоние смерти β",
+            "pol": "Rozkładu β",
+            "ptb": "Putrefato β",
+            "ara": "رائحة الموت β"
         }
     },
     {
         "id": 135,
         "name": {
             "jpn": "ギルドクロスα",
-            "eng": "Guild Crossα",
+            "eng": "Guild Cross α",
             "fre": "Croix de Guilde α",
             "spa": "Cruz gremial α",
             "ger": "Gildenkreuz-Set α",
@@ -2297,17 +2297,17 @@
             "kor": "길드크로스α",
             "cnt": "公會十字α",
             "cns": "公会十字阿尔法",
-            "rus": "Крест гильдииα",
-            "pol": "Krzyża Gildiiα",
-            "ptb": "Cruz de Guildaα",
-            "ara": "شكل للنقابةα"
+            "rus": "Крест гильдии α",
+            "pol": "Krzyża Gildii α",
+            "ptb": "Cruz de Guilda α",
+            "ara": "شكل للنقابة α"
         }
     },
     {
         "id": 136,
         "name": {
             "jpn": "ギルドクロスβ",
-            "eng": "Guild Crossβ",
+            "eng": "Guild Cross β",
             "fre": "Croix de Guilde β",
             "spa": "Cruz gremial β",
             "ger": "Gildenkreuz-Set β",
@@ -2315,17 +2315,17 @@
             "kor": "길드크로스β",
             "cnt": "公會十字β",
             "cns": "公会十字贝塔",
-            "rus": "Крест гильдииβ",
-            "pol": "Krzyża Gildiiβ",
-            "ptb": "Cruz de Guildaβ",
-            "ara": "شكل للنقابةβ"
+            "rus": "Крест гильдии β",
+            "pol": "Krzyża Gildii β",
+            "ptb": "Cruz de Guilda β",
+            "ara": "شكل للنقابة β"
         }
     },
     {
         "id": 139,
         "name": {
             "jpn": "ゾラマグナα",
-            "eng": "Zorahα",
+            "eng": "Zorah α",
             "fre": "Zorah Magdaros α",
             "spa": "Zorah α",
             "ger": "Zorah-Set α",
@@ -2333,17 +2333,17 @@
             "kor": "조라마그나α",
             "cnt": "鑄島熔岩α",
             "cns": "铸岛熔岩阿尔法",
-            "rus": "Дзораα",
-            "pol": "Zorahaα",
-            "ptb": "Zorahα",
-            "ara": "زوراهα"
+            "rus": "Дзора α",
+            "pol": "Zoraha α",
+            "ptb": "Zorah α",
+            "ara": "زوراه α"
         }
     },
     {
         "id": 140,
         "name": {
             "jpn": "ゾラマグナβ",
-            "eng": "Zorahβ",
+            "eng": "Zorah β",
             "fre": "Zorah Magdaros β",
             "spa": "Zorah β",
             "ger": "Zorah-Set β",
@@ -2351,17 +2351,17 @@
             "kor": "조라마그나β",
             "cnt": "鑄島熔岩β",
             "cns": "铸岛熔岩贝塔",
-            "rus": "Дзораβ",
-            "pol": "Zorahaβ",
-            "ptb": "Zorahβ",
-            "ara": "زوراهβ"
+            "rus": "Дзора β",
+            "pol": "Zoraha β",
+            "ptb": "Zorah β",
+            "ara": "زوراه β"
         }
     },
     {
         "id": 141,
         "name": {
             "jpn": "シーカーα",
-            "eng": "Commissionα",
+            "eng": "Commission α",
             "fre": "Commission α",
             "spa": "Comisión α",
             "ger": "Kommissionsset α",
@@ -2369,17 +2369,17 @@
             "kor": "시커α",
             "cnt": "追蹤者α",
             "cns": "追踪者阿尔法",
-            "rus": "Экспедицияα",
-            "pol": "Komisjiα",
-            "ptb": "Comissãoα",
-            "ara": "اللجنةα"
+            "rus": "Экспедиция α",
+            "pol": "Komisji α",
+            "ptb": "Comissão α",
+            "ara": "اللجنة α"
         }
     },
     {
         "id": 142,
         "name": {
             "jpn": "シーカーβ",
-            "eng": "Commissionβ",
+            "eng": "Commission β",
             "fre": "Commission β",
             "spa": "Comisión β",
             "ger": "Kommissionsset β",
@@ -2387,10 +2387,10 @@
             "kor": "시커β",
             "cnt": "追蹤者β",
             "cns": "追踪者贝塔",
-            "rus": "Экспедицияβ",
-            "pol": "Komisjiβ",
-            "ptb": "Comissãoβ",
-            "ara": "اللجنةβ"
+            "rus": "Экспедиция β",
+            "pol": "Komisji β",
+            "ptb": "Comissão β",
+            "ara": "اللجنة β"
         }
     },
     {
@@ -2541,7 +2541,7 @@
         "id": 151,
         "name": {
             "jpn": "アイルーフェイクα",
-            "eng": "Faux Felyneα",
+            "eng": "Faux Felyne α",
             "fre": "Faux Felyne α",
             "spa": "Falso Felyne α",
             "ger": "Falscher-Felyne-Set α",
@@ -2549,17 +2549,17 @@
             "kor": "아이루페이크α",
             "cnt": "艾路頭套α",
             "cns": "艾露猫头套阿尔法",
-            "rus": "Фальшивый коттα",
-            "pol": "Pseudofelinaα",
-            "ptb": "Felyno Falsoα",
-            "ara": "فيلاين مزيفα"
+            "rus": "Фальшивый котт α",
+            "pol": "Pseudofelina α",
+            "ptb": "Felyno Falso α",
+            "ara": "فيلاين مزيف α"
         }
     },
     {
         "id": 152,
         "name": {
             "jpn": "モスフェイクα",
-            "eng": "Mosswine Maskα",
+            "eng": "Mosswine Mask α",
             "fre": "Mosswine α",
             "spa": "Careta Musgorrino α",
             "ger": "Mosswine-Set α",
@@ -2567,10 +2567,10 @@
             "kor": "모스페이크α",
             "cnt": "菌豬頭套α",
             "cns": "蘑菇猪头套阿尔法",
-            "rus": "Маска мохосвинаα",
-            "pol": "Mchoświniα",
-            "ptb": "Máscara Musgoínoα",
-            "ara": "قناع موسواينα"
+            "rus": "Маска мохосвина α",
+            "pol": "Mchoświni α",
+            "ptb": "Máscara Musgoíno α",
+            "ara": "قناع موسواين α"
         }
     },
     {
@@ -2631,7 +2631,7 @@
         "id": 162,
         "name": {
             "jpn": "シャムα",
-            "eng": "Shamosα",
+            "eng": "Shamos α",
             "fre": "Shamos α",
             "spa": "Shamos α",
             "ger": "Shamos-Set α",
@@ -2639,17 +2639,17 @@
             "kor": "샤무α",
             "cnt": "貓蜥龍α",
             "cns": "猫蜥龙阿尔法",
-            "rus": "Шамосα",
-            "pol": "Shamosaα",
-            "ptb": "Shamosα",
-            "ara": "شاموسα"
+            "rus": "Шамос α",
+            "pol": "Shamosa α",
+            "ptb": "Shamos α",
+            "ara": "شاموس α"
         }
     },
     {
         "id": 163,
         "name": {
             "jpn": "シャムβ",
-            "eng": "Shamosβ",
+            "eng": "Shamos β",
             "fre": "Shamos β",
             "spa": "Shamos β",
             "ger": "Shamos-Set β",
@@ -2657,10 +2657,10 @@
             "kor": "샤무β",
             "cnt": "貓蜥龍β",
             "cns": "猫蜥龙贝塔",
-            "rus": "Шамосβ",
-            "pol": "Shamosaβ",
-            "ptb": "Shamosβ",
-            "ara": "شاموسβ"
+            "rus": "Шамос β",
+            "pol": "Shamosa β",
+            "ptb": "Shamos β",
+            "ara": "شاموس β"
         }
     },
     {
@@ -2685,7 +2685,7 @@
         "id": 165,
         "name": {
             "jpn": "パピメルα",
-            "eng": "Butterflyα",
+            "eng": "Butterfly α",
             "fre": "Papillon α",
             "spa": "Mariposa α",
             "ger": "Schmetterling-Set α",
@@ -2693,17 +2693,17 @@
             "kor": "파피메르α",
             "cnt": "燕尾蝶α",
             "cns": "燕尾蝶阿尔法",
-            "rus": "Бабочкаα",
-            "pol": "Motylaα",
-            "ptb": "Borboletaα",
-            "ara": "فراشةα"
+            "rus": "Бабочка α",
+            "pol": "Motyla α",
+            "ptb": "Borboleta α",
+            "ara": "فراشة α"
         }
     },
     {
         "id": 166,
         "name": {
             "jpn": "パピメルβ",
-            "eng": "Butterflyβ",
+            "eng": "Butterfly β",
             "fre": "Papillon β",
             "spa": "Mariposa β",
             "ger": "Schmetterling-Set β",
@@ -2711,10 +2711,10 @@
             "kor": "파피메르β",
             "cnt": "燕尾蝶β",
             "cns": "燕尾蝶贝塔",
-            "rus": "Бабочкаβ",
-            "pol": "Motylaβ",
-            "ptb": "Borboletaβ",
-            "ara": "فراشةβ"
+            "rus": "Бабочка β",
+            "pol": "Motyla β",
+            "ptb": "Borboleta β",
+            "ara": "فراشة β"
         }
     },
     {
@@ -2739,7 +2739,7 @@
         "id": 176,
         "name": {
             "jpn": "知略の眼鏡α",
-            "eng": "Strategistα",
+            "eng": "Strategist α",
             "fre": "Stratège α",
             "spa": "Estratega α",
             "ger": "Strategiker-Set α",
@@ -2747,17 +2747,17 @@
             "kor": "지략의안경α",
             "cnt": "知性眼鏡α",
             "cns": "知性眼镜阿尔法",
-            "rus": "Стратегα",
-            "pol": "Strategaα",
-            "ptb": "Estrategistaα",
-            "ara": "استراتيجيα"
+            "rus": "Стратег α",
+            "pol": "Stratega α",
+            "ptb": "Estrategista α",
+            "ara": "استراتيجي α"
         }
     },
     {
         "id": 178,
         "name": {
             "jpn": "竜王の隻眼α",
-            "eng": "Dragonkingα",
+            "eng": "Dragonking α",
             "fre": "Roi-Dragon α",
             "spa": "Rey dragón α",
             "ger": "Drachenkönig-Set α",
@@ -2765,17 +2765,17 @@
             "kor": "용왕의 척안α",
             "cnt": "龍王的獨眼α",
             "cns": "龙王的独眼阿尔法",
-            "rus": "Драконий корольα",
-            "pol": "Smoczego królaα",
-            "ptb": "Dragão-reiα",
-            "ara": "الملك التنينα"
+            "rus": "Драконий король α",
+            "pol": "Smoczego króla α",
+            "ptb": "Dragão-rei α",
+            "ara": "الملك التنين α"
         }
     },
     {
         "id": 183,
         "name": {
             "jpn": "マムガイラα",
-            "eng": "Kulve Tarothα",
+            "eng": "Kulve Taroth α",
             "fre": "Kulve Taroth α",
             "spa": "Kulve Taroth α",
             "ger": "Kulve-Taroth-Set α",
@@ -2783,17 +2783,17 @@
             "kor": "맘가이라α",
             "cnt": "絢輝龍鎧羅α",
             "cns": "绚辉龙铠罗阿尔法",
-            "rus": "Кулве таротα",
-            "pol": "Kulve Tarothα",
-            "ptb": "Kulve Tarothα",
-            "ara": "كولف تاروثα"
+            "rus": "Кулве тарот α",
+            "pol": "Kulve Taroth α",
+            "ptb": "Kulve Taroth α",
+            "ara": "كولف تاروث α"
         }
     },
     {
         "id": 184,
         "name": {
             "jpn": "マムガイラβ",
-            "eng": "Kulve Tarothβ",
+            "eng": "Kulve Taroth β",
             "fre": "Kulve Taroth β",
             "spa": "Kulve Taroth β",
             "ger": "Kulve-Taroth-Set β",
@@ -2801,10 +2801,10 @@
             "kor": "맘가이라β",
             "cnt": "絢輝龍鎧羅β",
             "cns": "绚辉龙铠罗贝塔",
-            "rus": "Кулве таротβ",
-            "pol": "Kulve Tarothβ",
-            "ptb": "Kulve Tarothβ",
-            "ara": "كولف تاروثβ"
+            "rus": "Кулве тарот β",
+            "pol": "Kulve Taroth β",
+            "ptb": "Kulve Taroth β",
+            "ara": "كولف تاروث β"
         }
     },
     {
@@ -2919,7 +2919,7 @@
         "id": 191,
         "name": {
             "jpn": "バンギスα",
-            "eng": "Deviljhoα",
+            "eng": "Deviljho α",
             "fre": "Deviljho α",
             "spa": "Deviljho α",
             "ger": "Dämonjho-Set α",
@@ -2927,17 +2927,17 @@
             "kor": "반기스α",
             "cnt": "殘虐α",
             "cns": "残虐阿尔法",
-            "rus": "Девильоα",
-            "pol": "Deviljhoα",
-            "ptb": "Deviljhoα",
-            "ara": "ديفيلجوα"
+            "rus": "Девильо α",
+            "pol": "Deviljho α",
+            "ptb": "Deviljho α",
+            "ara": "ديفيلجو α"
         }
     },
     {
         "id": 192,
         "name": {
             "jpn": "バンギスβ",
-            "eng": "Deviljhoβ",
+            "eng": "Deviljho β",
             "fre": "Deviljho β",
             "spa": "Deviljho β",
             "ger": "Dämonjho-Set β",
@@ -2945,10 +2945,10 @@
             "kor": "반기스β",
             "cnt": "殘虐β",
             "cns": "残虐贝塔",
-            "rus": "Девильоβ",
-            "pol": "Deviljhoβ",
-            "ptb": "Deviljhoβ",
-            "ara": "ديفيلجوβ"
+            "rus": "Девильо β",
+            "pol": "Deviljho β",
+            "ptb": "Deviljho β",
+            "ara": "ديفيلجو β"
         }
     },
     {
@@ -3009,7 +3009,7 @@
         "id": 196,
         "name": {
             "jpn": "ドラケンα",
-            "eng": "Drachenα",
+            "eng": "Drachen α",
             "fre": "Drachen α",
             "spa": "Drachen α",
             "ger": "Drachenreiter-Set α",
@@ -3017,17 +3017,17 @@
             "kor": "용기사α",
             "cnt": "騰龍α",
             "cns": "腾龙阿尔法",
-            "rus": "Дракенα",
-            "pol": "Dragońskiα",
-            "ptb": "Drachenα",
-            "ara": "دراكينα"
+            "rus": "Дракен α",
+            "pol": "Dragoński α",
+            "ptb": "Drachen α",
+            "ara": "دراكين α"
         }
     },
     {
         "id": 197,
         "name": {
             "jpn": "ブロッサムα",
-            "eng": "Blossomα",
+            "eng": "Blossom α",
             "fre": "Printemps α",
             "spa": "Flores α",
             "ger": "Blüten-Set α",
@@ -3035,17 +3035,17 @@
             "kor": "블로섬α",
             "cnt": "巴魯特α",
             "cns": "盛开阿尔法",
-            "rus": "Цветокα",
-            "pol": "Kwieciaα",
-            "ptb": "Florescerα",
-            "ara": "الربيعα"
+            "rus": "Цветок α",
+            "pol": "Kwiecia α",
+            "ptb": "Florescer α",
+            "ara": "الربيع α"
         }
     },
     {
         "id": 198,
         "name": {
             "jpn": "ダイバーα",
-            "eng": "Diverα",
+            "eng": "Diver α",
             "fre": "Plongée α",
             "spa": "Buceo α",
             "ger": "Taucher-Set α",
@@ -3053,17 +3053,17 @@
             "kor": "다이버α",
             "cnt": "潛水夫α",
             "cns": "潜水员阿尔法",
-            "rus": "Ныряльщикα",
-            "pol": "Nurkaα",
-            "ptb": "Mergulhadorα",
-            "ara": "الغواصα"
+            "rus": "Ныряльщик α",
+            "pol": "Nurka α",
+            "ptb": "Mergulhador α",
+            "ara": "الغواص α"
         }
     },
     {
         "id": 199,
         "name": {
             "jpn": "ハーベストα",
-            "eng": "Harvestα",
+            "eng": "Harvest α",
             "fre": "Récolte α",
             "spa": "Cosecha α",
             "ger": "Ernte-Set α",
@@ -3071,17 +3071,17 @@
             "kor": "하베스트α",
             "cnt": "收穫α",
             "cns": "收获阿尔法",
-            "rus": "Урожайα",
-            "pol": "Zbiorówα",
-            "ptb": "Safraα",
-            "ara": "الحصادα"
+            "rus": "Урожай α",
+            "pol": "Zbiorów α",
+            "ptb": "Safra α",
+            "ara": "الحصاد α"
         }
     },
     {
         "id": 200,
         "name": {
             "jpn": "オリオンα",
-            "eng": "Orionα",
+            "eng": "Orion α",
             "fre": "Orion α",
             "spa": "Orión α",
             "ger": "Orion-Set α",
@@ -3089,17 +3089,17 @@
             "kor": "오리온α",
             "cnt": "獵戶星α",
             "cns": "猎户星阿尔法",
-            "rus": "Орионα",
-            "pol": "Orionaα",
-            "ptb": "Órionα",
-            "ara": "أوريونα"
+            "rus": "Орион α",
+            "pol": "Oriona α",
+            "ptb": "Órion α",
+            "ara": "أوريون α"
         }
     },
     {
         "id": 201,
         "name": {
             "jpn": "フルドレスα",
-            "eng": "Gala Suitα",
+            "eng": "Gala Suit α",
             "fre": "Gala α",
             "spa": "Traje de gala α",
             "ger": "Galaanzug-Set α",
@@ -3107,10 +3107,10 @@
             "kor": "풀드레스α",
             "cnt": "盛裝α",
             "cns": "盛装阿尔法",
-            "rus": "Костюм гала-концертаα",
-            "pol": "Strój galowyα",
-            "ptb": "Traje de Galaα",
-            "ara": "بذلة المهرجانα"
+            "rus": "Костюм гала-концерта α",
+            "pol": "Strój galowy α",
+            "ptb": "Traje de Gala α",
+            "ara": "بذلة المهرجان α"
         }
     },
     {
@@ -3135,7 +3135,7 @@
         "id": 203,
         "name": {
             "jpn": "パピオムα",
-            "eng": "Butterflyα",
+            "eng": "Butterfly α",
             "fre": "Papillon α",
             "spa": "Mariposa α",
             "ger": "Schmetterling-Set α",
@@ -3143,17 +3143,17 @@
             "kor": "파피옴α",
             "cnt": "燕尾蝶男α",
             "cns": "燕尾蝶男阿尔法",
-            "rus": "Бабочкаα",
-            "pol": "Motylaα",
-            "ptb": "Borboletaα",
-            "ara": "الفراشةα"
+            "rus": "Бабочка α",
+            "pol": "Motyla α",
+            "ptb": "Borboleta α",
+            "ara": "الفراشة α"
         }
     },
     {
         "id": 204,
         "name": {
             "jpn": "パピオムβ",
-            "eng": "Butterflyβ",
+            "eng": "Butterfly β",
             "fre": "Papillon β",
             "spa": "Mariposa β",
             "ger": "Schmetterling-Set β",
@@ -3161,10 +3161,10 @@
             "kor": "파피옴β",
             "cnt": "燕尾蝶男β",
             "cns": "燕尾蝶男贝塔",
-            "rus": "Бабочкаβ",
-            "pol": "Motylaβ",
-            "ptb": "Borboletaβ",
-            "ara": "الفراشةβ"
+            "rus": "Бабочка β",
+            "pol": "Motyla β",
+            "ptb": "Borboleta β",
+            "ara": "الفراشة β"
         }
     },
     {
@@ -3189,7 +3189,7 @@
         "id": 206,
         "name": {
             "jpn": "クインビートα",
-            "eng": "Queen Beetleα",
+            "eng": "Queen Beetle α",
             "fre": "Scarabée α",
             "spa": "Reina escarabajo α",
             "ger": "Königinnenkäfer-Set α",
@@ -3197,17 +3197,17 @@
             "kor": "퀸비트α",
             "cnt": "獨角仙后α",
             "cns": "独角仙后阿尔法",
-            "rus": "Жук-королеваα",
-            "pol": "Żuka królowejα",
-            "ptb": "Besouro-rainhaα",
-            "ara": "الخنفساء الملكةα"
+            "rus": "Жук-королева α",
+            "pol": "Żuka królowej α",
+            "ptb": "Besouro-rainha α",
+            "ara": "الخنفساء الملكة α"
         }
     },
     {
         "id": 207,
         "name": {
             "jpn": "クインビートβ",
-            "eng": "Queen Beetleβ",
+            "eng": "Queen Beetle β",
             "fre": "Scarabée β",
             "spa": "Reina escarabajo β",
             "ger": "Königinnenkäfer-Set β",
@@ -3215,17 +3215,17 @@
             "kor": "퀸비트β",
             "cnt": "獨角仙后β",
             "cns": "独角仙后贝塔",
-            "rus": "Жук-королеваβ",
-            "pol": "Żuka królowejβ",
-            "ptb": "Besouro-rainhaβ",
-            "ara": "الخنفساء الملكةβ"
+            "rus": "Жук-королева β",
+            "pol": "Żuka królowej β",
+            "ptb": "Besouro-rainha β",
+            "ara": "الخنفساء الملكة β"
         }
     },
     {
         "id": 208,
         "name": {
             "jpn": "ウルズγ",
-            "eng": "Vaal Hazakγ",
+            "eng": "Vaal Hazak γ",
             "fre": "Vaal Hazak γ",
             "spa": "Vaal Hazak γ",
             "ger": "Vaal-Hazak-Set γ",
@@ -3233,17 +3233,17 @@
             "kor": "우르즈γ",
             "cnt": "烏爾德γ",
             "cns": "乌尔德伽马",
-            "rus": "Ваал-хазакγ",
-            "pol": "Vaal Hazakaγ",
-            "ptb": "Vaal Hazakγ",
-            "ara": "فال هازاكγ"
+            "rus": "Ваал-хазак γ",
+            "pol": "Vaal Hazaka γ",
+            "ptb": "Vaal Hazak γ",
+            "ara": "فال هازاك γ"
         }
     },
     {
         "id": 209,
         "name": {
             "jpn": "キリンγ",
-            "eng": "Kirinγ",
+            "eng": "Kirin γ",
             "fre": "Kirin γ",
             "spa": "Kirin γ",
             "ger": "Kirin-Set γ",
@@ -3251,17 +3251,17 @@
             "kor": "키린γ",
             "cnt": "麒麟γ",
             "cns": "麒麟伽马",
-            "rus": "Киринγ",
-            "pol": "Kirinaγ",
-            "ptb": "Kirinγ",
-            "ara": "كيرينγ"
+            "rus": "Кирин γ",
+            "pol": "Kirina γ",
+            "ptb": "Kirin γ",
+            "ara": "كيرين γ"
         }
     },
     {
         "id": 210,
         "name": {
             "jpn": "カイザーγ",
-            "eng": "Teostraγ",
+            "eng": "Teostra γ",
             "fre": "Kaiser γ",
             "spa": "Káiser γ",
             "ger": "Kaiser-Set γ",
@@ -3269,17 +3269,17 @@
             "kor": "카이저γ",
             "cnt": "帝王γ",
             "cns": "帝王伽马",
-            "rus": "Теостраγ",
-            "pol": "Teostryγ",
-            "ptb": "Teostraγ",
-            "ara": "تيوستراγ"
+            "rus": "Теостра γ",
+            "pol": "Teostry γ",
+            "ptb": "Teostra γ",
+            "ara": "تيوسترا γ"
         }
     },
     {
         "id": 211,
         "name": {
             "jpn": "クシャナγ",
-            "eng": "Kushalaγ",
+            "eng": "Kushala γ",
             "fre": "Kushala Daora γ",
             "spa": "Kushala γ",
             "ger": "Kushala-Set γ",
@@ -3287,17 +3287,17 @@
             "kor": "크샤나γ",
             "cnt": "鋼龍γ",
             "cns": "钢龙伽马",
-            "rus": "Кушалаγ",
-            "pol": "Kushaliγ",
-            "ptb": "Kushalaγ",
-            "ara": "كوشالاγ"
+            "rus": "Кушала γ",
+            "pol": "Kushali γ",
+            "ptb": "Kushala γ",
+            "ara": "كوشالا γ"
         }
     },
     {
         "id": 212,
         "name": {
             "jpn": "オーグγ",
-            "eng": "Nergiganteγ",
+            "eng": "Nergigante γ",
             "fre": "Nergigante γ",
             "spa": "Nergigante γ",
             "ger": "Nergigante-Set γ",
@@ -3305,17 +3305,17 @@
             "kor": "오그γ",
             "cnt": "戰紋γ",
             "cns": "战纹伽马",
-            "rus": "Нергигантγ",
-            "pol": "Nergigantaγ",
-            "ptb": "Nergiganteγ",
-            "ara": "نيرغيγ"
+            "rus": "Нергигант γ",
+            "pol": "Nergiganta γ",
+            "ptb": "Nergigante γ",
+            "ara": "نيرغي γ"
         }
     },
     {
         "id": 213,
         "name": {
             "jpn": "ゾラマグナγ",
-            "eng": "Zorahγ",
+            "eng": "Zorah γ",
             "fre": "Zorah Magdaros γ",
             "spa": "Zorah γ",
             "ger": "Zorah-Set γ",
@@ -3323,17 +3323,17 @@
             "kor": "조라마그나γ",
             "cnt": "鑄島熔岩γ",
             "cns": "铸岛熔岩伽马",
-            "rus": "Дзораγ",
-            "pol": "Zorahaγ",
-            "ptb": "Zorahγ",
-            "ara": "زوراهγ"
+            "rus": "Дзора γ",
+            "pol": "Zoraha γ",
+            "ptb": "Zorah γ",
+            "ara": "زوراه γ"
         }
     },
     {
         "id": 214,
         "name": {
             "jpn": "ゼノラージγ",
-            "eng": "Xeno'jiivaγ",
+            "eng": "Xeno'jiiva γ",
             "fre": "Xeno'jiiva γ",
             "spa": "Xeno'jiiva γ",
             "ger": "Xeno'jiiva-Set γ",
@@ -3341,17 +3341,17 @@
             "kor": "제노라지γ",
             "cnt": "冥燈幽火γ",
             "cns": "冥灯幽火伽马",
-            "rus": "Ксено'джииваγ",
-            "pol": "Xeno'jiivaγ",
-            "ptb": "Xeno'jiivaγ",
-            "ara": "زينوجيفاγ"
+            "rus": "Ксено'джиива γ",
+            "pol": "Xeno'jiiva γ",
+            "ptb": "Xeno'jiiva γ",
+            "ara": "زينوجيفا γ"
         }
     },
     {
         "id": 219,
         "name": {
             "jpn": "蒼星ノ将α",
-            "eng": "Azure Starlordα",
+            "eng": "Azure Starlord α",
             "fre": "Paladin des étoiles α",
             "spa": "Rey celestial α",
             "ger": "Azurstern-Gebieter-Set α",
@@ -3359,17 +3359,17 @@
             "kor": "파란별 장군α",
             "cnt": "蒼星之將α",
             "cns": "苍星之将阿尔法",
-            "rus": "Звездный лордα",
-            "pol": "Pan Lazurowej Gwiazdyα",
-            "ptb": "Senhor Estelar Lazúliα",
-            "ara": "سيد نجوم لازورديα"
+            "rus": "Звездный лорд α",
+            "pol": "Pan Lazurowej Gwiazdy α",
+            "ptb": "Senhor Estelar Lazúli α",
+            "ara": "سيد نجوم لازوردي α"
         }
     },
     {
         "id": 220,
         "name": {
             "jpn": "ダンテα",
-            "eng": "Danteα",
+            "eng": "Dante α",
             "fre": "Dante α",
             "spa": "Dante α",
             "ger": "Dante-Set α",
@@ -3377,17 +3377,17 @@
             "kor": "단테α",
             "cnt": "但丁α",
             "cns": "但丁阿尔法",
-            "rus": "Дантеα",
-            "pol": "Dantegoα",
-            "ptb": "Danteα",
-            "ara": "دانتيα"
+            "rus": "Данте α",
+            "pol": "Dantego α",
+            "ptb": "Dante α",
+            "ara": "دانتي α"
         }
     },
     {
         "id": 221,
         "name": {
             "jpn": "エンプレスα",
-            "eng": "Lunastraα",
+            "eng": "Lunastra α",
             "fre": "Imperatrix α",
             "spa": "Lunastra α",
             "ger": "Kaiserin-Set α",
@@ -3395,17 +3395,17 @@
             "kor": "엠프리스α",
             "cnt": "皇后α",
             "cns": "皇后阿尔法",
-            "rus": "Лунастраα",
-            "pol": "Lunastryα",
-            "ptb": "Lunastraα",
-            "ara": "لوناستراα"
+            "rus": "Лунастра α",
+            "pol": "Lunastry α",
+            "ptb": "Lunastra α",
+            "ara": "لوناسترا α"
         }
     },
     {
         "id": 222,
         "name": {
             "jpn": "エンプレスβ",
-            "eng": "Lunastraβ",
+            "eng": "Lunastra β",
             "fre": "Imperatrix β",
             "spa": "Lunastra β",
             "ger": "Kaiserin-Set β",
@@ -3413,17 +3413,17 @@
             "kor": "엠프리스β",
             "cnt": "皇后β",
             "cns": "皇后贝塔",
-            "rus": "Лунастраβ",
-            "pol": "Lunastryβ",
-            "ptb": "Lunastraβ",
-            "ara": "لوناستراβ"
+            "rus": "Лунастра β",
+            "pol": "Lunastry β",
+            "ptb": "Lunastra β",
+            "ara": "لوناسترا β"
         }
     },
     {
         "id": 223,
         "name": {
             "jpn": "封印の眼帯α",
-            "eng": "Sealed Eyepatchα",
+            "eng": "Sealed Eyepatch α",
             "fre": "Cache-œil interdit α",
             "spa": "Parche de ojo α",
             "ger": "Dichte Augenklappe α",
@@ -3431,17 +3431,17 @@
             "kor": "봉인의 안대α",
             "cnt": "封印的眼罩α",
             "cns": "封印的眼罩阿尔法",
-            "rus": "Повязка с печатьюα",
-            "pol": "Zapieczętowana opaskaα",
-            "ptb": "Tapa-olho Seladoα",
-            "ara": "رقعة عين مذهلةα"
+            "rus": "Повязка с печатью α",
+            "pol": "Zapieczętowana opaska α",
+            "ptb": "Tapa-olho Selado α",
+            "ara": "رقعة عين مذهلة α"
         }
     },
     {
         "id": 224,
         "name": {
             "jpn": "シャドウアイα",
-            "eng": "Shadow Shadesα",
+            "eng": "Shadow Shades α",
             "fre": "Lunettes teintées α",
             "spa": "Gafas oscuras α",
             "ger": "Schatten-Sonnenbrille α",
@@ -3449,17 +3449,17 @@
             "kor": "섀도우아이α",
             "cnt": "墨鏡α",
             "cns": "墨镜阿尔法",
-            "rus": "Теневые очкиα",
-            "pol": "Okulary cieniaα",
-            "ptb": "Ócul. Esc. Sombriosα",
-            "ara": "ألوان ظلالα"
+            "rus": "Теневые очки α",
+            "pol": "Okulary cienia α",
+            "ptb": "Ócul. Esc. Sombrios α",
+            "ara": "ألوان ظلال α"
         }
     },
     {
         "id": 225,
         "name": {
             "jpn": "クルルフェイクα",
-            "eng": "Kulu-Ya-Ku Headα",
+            "eng": "Kulu-Ya-Ku Head α",
             "fre": "Tête Kulu-Ya-Ku α",
             "spa": "Cabeza Kulu-Ya-Ku α",
             "ger": "Kulu-Ya-Ku-Kopf α",
@@ -3467,17 +3467,17 @@
             "kor": "쿠루루페이크α",
             "cnt": "扒手龍頭套α",
             "cns": "扒手龙头套阿尔法",
-            "rus": "Голова кулу-йа-куα",
-            "pol": "Głowa Kulu-Ya-Kuα",
-            "ptb": "Elmo Kulu-Ya-Kuα",
-            "ara": "رأس كولو-يا-كوα"
+            "rus": "Голова кулу-йа-ку α",
+            "pol": "Głowa Kulu-Ya-Ku α",
+            "ptb": "Elmo Kulu-Ya-Ku α",
+            "ara": "رأس كولو-يا-كو α"
         }
     },
     {
         "id": 226,
         "name": {
             "jpn": "ユラユラフェイクα",
-            "eng": "Wiggler Headα",
+            "eng": "Wiggler Head α",
             "fre": "Tête de tortilleur α",
             "spa": "Cabeza de gorgasia α",
             "ger": "Wackelwurm-Kopf α",
@@ -3485,10 +3485,10 @@
             "kor": "흔들흔들 페이크α",
             "cnt": "搖曳鰻頭套α",
             "cns": "摇曳鳗头套阿尔法",
-            "rus": "Голова ползунаα",
-            "pol": "Głowa pełzaczaα",
-            "ptb": "Cabeça Treme-tremeα",
-            "ara": "عتاد رأس دودة ضخمةα"
+            "rus": "Голова ползуна α",
+            "pol": "Głowa pełzacza α",
+            "ptb": "Cabeça Treme-treme α",
+            "ara": "عتاد رأس دودة ضخمة α"
         }
     },
     {
@@ -3747,7 +3747,7 @@
         "id": 243,
         "name": {
             "jpn": "エンプレスγ",
-            "eng": "Lunastraγ",
+            "eng": "Lunastra γ",
             "fre": "Imperatrix γ",
             "spa": "Lunastra γ",
             "ger": "Kaiserin-Set γ",
@@ -3755,17 +3755,17 @@
             "kor": "엠프리스γ",
             "cnt": "皇后γ",
             "cns": "皇后伽马",
-            "rus": "Лунастраγ",
-            "pol": "Lunastryγ",
-            "ptb": "Lunastraγ",
-            "ara": "لوناستراγ"
+            "rus": "Лунастра γ",
+            "pol": "Lunastry γ",
+            "ptb": "Lunastra γ",
+            "ara": "لوناسترا γ"
         }
     },
     {
         "id": 244,
         "name": {
             "jpn": "ゲラルトα",
-            "eng": "Geraltα",
+            "eng": "Geralt α",
             "fre": "Geralt α",
             "spa": "Geralt α",
             "ger": "Geralt α",
@@ -3773,17 +3773,17 @@
             "kor": "게롤트α",
             "cnt": "傑洛特α",
             "cns": "杰洛特阿尔法",
-            "rus": "Геральтα",
-            "pol": "Geraltaα",
-            "ptb": "Geraltα",
-            "ara": "‮جيرالتα"
+            "rus": "Геральт α",
+            "pol": "Geralta α",
+            "ptb": "Geralt α",
+            "ara": "‮جيرالت α"
         }
     },
     {
         "id": 245,
         "name": {
             "jpn": "シリα",
-            "eng": "Ciriα",
+            "eng": "Ciri α",
             "fre": "Ciri α",
             "spa": "Ciri α",
             "ger": "Ciri α",
@@ -3791,10 +3791,10 @@
             "kor": "시리α",
             "cnt": "希里α",
             "cns": "希里阿尔法",
-            "rus": "Цириα",
-            "pol": "Ciriα",
-            "ptb": "Ciriα",
-            "ara": "‮سيريα"
+            "rus": "Цири α",
+            "pol": "Ciri α",
+            "ptb": "Ciri α",
+            "ara": "‮سيري α"
         }
     },
     {
@@ -3837,7 +3837,7 @@
         "id": 248,
         "name": {
             "jpn": "マムガイラγ",
-            "eng": "Kulve Tarothγ",
+            "eng": "Kulve Taroth γ",
             "fre": "Kulve Taroth γ",
             "spa": "Kulve Taroth γ",
             "ger": "Kulve-Taroth-Set γ",
@@ -3845,10 +3845,10 @@
             "kor": "맘가이라γ",
             "cnt": "絢輝龍鎧羅γ",
             "cns": "绚辉龙铠罗伽马",
-            "rus": "Кулве таротγ",
-            "pol": "Kulve Tarothγ",
-            "ptb": "Kulve Tarothγ",
-            "ara": "كولف تاروثγ"
+            "rus": "Кулве тарот γ",
+            "pol": "Kulve Taroth γ",
+            "ptb": "Kulve Taroth γ",
+            "ara": "كولف تاروث γ"
         }
     }
 ]
