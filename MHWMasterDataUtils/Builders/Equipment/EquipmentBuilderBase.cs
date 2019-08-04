@@ -88,7 +88,11 @@ namespace MHWMasterDataUtils.Builders.Equipment
 
         private static readonly LanguageUtils.LanguageValueProcessor[] languageValueProcessors = new[]
         {   
-            LanguageUtils.ReplaceLineFeedWithSpace
+            LanguageUtils.ReplaceLineFeedWithSpace,
+            LanguageUtils.ReplaceAlphaSymbol,
+            LanguageUtils.ReplaceBetaSymbol,
+            LanguageUtils.ReplaceGammaSymbol,
+            LanguageUtils.StyleTextRemover
         };
 
         public TEquiment[] Build()
@@ -105,7 +109,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
 
                 TEquiment resultEquipment = CreateEquipmentInstance();
 
-                Dictionary<string, string> name = LanguageUtils.CreateLocalizations(equipmentLanguages.Table, equipment.GmdNameIndex);
+                Dictionary<string, string> name = LanguageUtils.CreateLocalizations(equipmentLanguages.Table, equipment.GmdNameIndex, languageValueProcessors);
                 Dictionary<string, string> description = LanguageUtils.CreateLocalizations(equipmentLanguages.Table, equipment.GmdDescriptionIndex, languageValueProcessors);
 
                 resultEquipment.Id = equipment.Id;

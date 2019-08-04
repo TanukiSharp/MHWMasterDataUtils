@@ -31,7 +31,8 @@ namespace MHWMasterDataUtils.Builders
 
         private static readonly LanguageUtils.LanguageValueProcessor[] languageValueProcessors = new[]
         {
-            LanguageUtils.ReplaceLineFeedWithSpace
+            LanguageUtils.ReplaceLineFeedWithSpace,
+            LanguageUtils.StyleTextRemover
         };
 
         public core.Skill[] Build()

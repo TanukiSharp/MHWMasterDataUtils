@@ -37,7 +37,8 @@ namespace MHWMasterDataUtils.Builders
 
         private static readonly LanguageUtils.LanguageValueProcessor[] languageValueProcessors = new[]
         {
-            LanguageUtils.ReplaceLineFeedWithSpace
+            LanguageUtils.ReplaceLineFeedWithSpace,
+            LanguageUtils.StyleTextRemover
         };
 
         public T[] Build()
@@ -56,7 +57,7 @@ namespace MHWMasterDataUtils.Builders
                 if (filter != null && filter(itemEntry) == false)
                     continue;
 
-                Dictionary<string, string> name = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, nameIndex);
+                Dictionary<string, string> name = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, nameIndex, languageValueProcessors);
                 Dictionary<string, string> description = LanguageUtils.CreateLocalizations(steamItemsLanguages.Table, descriptionIndex, languageValueProcessors);
 
                 T item = CreateItemInstance();

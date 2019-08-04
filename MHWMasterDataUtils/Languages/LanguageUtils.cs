@@ -3,6 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 using MHWMasterDataUtils.Core;
+using System.Text.RegularExpressions;
 
 namespace MHWMasterDataUtils.Languages
 {
@@ -54,6 +55,12 @@ namespace MHWMasterDataUtils.Languages
         public static readonly LanguageValueProcessor ReplaceAlphaSymbol = (l, x) => x.Replace("<ICON ALPHA>", l.Key == "eng" ? " α" : "α");
         public static readonly LanguageValueProcessor ReplaceBetaSymbol = (l, x) => x.Replace("<ICON BETA>", l.Key == "eng" ? " β" : "β");
         public static readonly LanguageValueProcessor ReplaceGammaSymbol = (l, x) => x.Replace("<ICON GAMMA>", l.Key == "eng" ? " γ" : "γ");
+
+        private static readonly Regex RemoveStyleRegex = new Regex(@"(\<STYL\s+[A-Z_]+\>)|(\</STYL\>)");
+        public static string StyleTextRemover(LanguageItem originalItem, string text)
+        {
+            return RemoveStyleRegex.Replace(text, string.Empty);
+        }
 
         public static Dictionary<string, string> CreateLocalizations(Dictionary<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> source, uint entryId, LanguageValueProcessor[] valueProcessors = null)
         {
