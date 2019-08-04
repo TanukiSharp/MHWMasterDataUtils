@@ -8,7 +8,8 @@ using core = MHWMasterDataUtils.Core;
 
 namespace MHWMasterDataUtils.Builders.Equipment
 {
-    public abstract class ArmorPieceEquipmentBuilderBase<TArmorPiece> : EquipmentBuilderBase<TArmorPiece> where TArmorPiece : core.ArmorPiece, new()
+    public abstract class ArmorPieceEquipmentBuilderBase<TArmorPiece> : EquipmentBuilderBase<TArmorPiece>
+        where TArmorPiece : core.ArmorPiece, new()
     {
         public ArmorPieceEquipmentBuilderBase(
             core.EquipmentType equipmentType,
