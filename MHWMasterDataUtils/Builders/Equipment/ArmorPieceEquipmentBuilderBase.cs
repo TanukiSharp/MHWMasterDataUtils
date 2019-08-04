@@ -34,11 +34,14 @@ namespace MHWMasterDataUtils.Builders.Equipment
 
             resultEquipment.SeriesId = equipment.SetId;
             resultEquipment.Defense = equipment.Defense;
-            resultEquipment.FireResistance = equipment.FireRes;
-            resultEquipment.WaterResistance = equipment.WaterRes;
-            resultEquipment.ThunderResistance = equipment.ThunderRes;
-            resultEquipment.IceResistance = equipment.IceRes;
-            resultEquipment.DragonResistance = equipment.DragonRes;
+            resultEquipment.ElementalResistances = new core.ElementalResistances
+            {
+                Fire = equipment.FireRes,
+                Water = equipment.WaterRes,
+                Thunder = equipment.ThunderRes,
+                Ice = equipment.IceRes,
+                Dragon = equipment.DragonRes
+            };
             resultEquipment.Slots = EquipmentUtils.CreateSlotsArray(equipment);
             resultEquipment.SetGroup = equipment.SetGroup;
         }
