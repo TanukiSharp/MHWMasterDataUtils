@@ -32,7 +32,7 @@ namespace MHWMasterDataUtils.Exporter
             if (dataOutputFullPath == null)
                 dataOutputFullPath = AppContext.BaseDirectory;
 
-            dataOutputFullPath = Path.Join(dataOutputFullPath, "data");
+            dataOutputFullPath = Path.Join(dataOutputFullPath, "MHWMasterDataUtils.Exporter", "data");
 
             if (Directory.Exists(dataOutputFullPath) == false)
                 Directory.CreateDirectory(dataOutputFullPath);
