@@ -149,7 +149,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -312,7 +311,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -475,7 +473,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -646,7 +643,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -817,7 +813,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -992,7 +987,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -1165,7 +1159,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -1342,7 +1335,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1,
             1
@@ -1538,7 +1530,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -1733,7 +1724,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -1910,7 +1900,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -2085,7 +2074,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -2260,7 +2248,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -2435,7 +2422,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -2612,7 +2598,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -2789,7 +2774,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -2960,7 +2944,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -3125,7 +3108,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -3294,7 +3276,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -3465,7 +3446,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -3636,7 +3616,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -3825,7 +3804,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -4012,7 +3990,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -4201,7 +4178,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -4366,7 +4342,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -4529,7 +4504,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -4692,7 +4666,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -4855,7 +4828,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -5020,7 +4992,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -5185,7 +5156,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -5380,7 +5350,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -5569,7 +5538,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -5762,7 +5730,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -5957,7 +5924,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -6128,7 +6094,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -6285,7 +6250,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -6442,7 +6406,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -6603,7 +6566,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -6768,7 +6730,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -6933,7 +6894,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -7100,7 +7060,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             2
         ],
@@ -7267,7 +7226,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             3
         ],
@@ -7432,7 +7390,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -7595,7 +7552,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -7760,7 +7716,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -7925,7 +7880,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -8090,7 +8044,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -8279,7 +8232,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -8462,7 +8414,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -8649,7 +8600,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -8836,7 +8786,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1,
             1
@@ -9026,7 +8975,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1,
             1
@@ -9216,7 +9164,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             2,
             1
@@ -9412,7 +9359,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -9601,7 +9547,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -9794,7 +9739,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -9987,7 +9931,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -10180,7 +10123,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -10361,7 +10303,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -10540,7 +10481,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -10717,7 +10657,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -10888,7 +10827,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -11063,7 +11001,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -11238,7 +11175,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -11415,7 +11351,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -11592,7 +11527,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -11745,7 +11679,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -11896,7 +11829,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -12043,7 +11975,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -12208,7 +12139,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -12371,7 +12301,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -12536,7 +12465,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -12731,7 +12659,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -12926,7 +12853,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             2
         ],
@@ -13073,7 +12999,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -13218,7 +13143,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": true,
         "craft": {
@@ -13411,7 +13335,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -13604,7 +13527,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -13791,7 +13713,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             3,
             3
@@ -13981,7 +13902,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -14168,7 +14088,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false,
         "craft": {
@@ -14385,7 +14304,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             1
         ],
@@ -15202,7 +15120,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -15350,7 +15267,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -15522,7 +15438,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -15652,7 +15567,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -15818,7 +15732,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -15972,7 +15885,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -16132,7 +16044,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -16280,7 +16191,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -16452,7 +16362,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -16570,7 +16479,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -16700,7 +16608,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -16860,7 +16767,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -16990,7 +16896,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -17156,7 +17061,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -17310,7 +17214,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -17470,7 +17373,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -17618,7 +17520,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -17790,7 +17691,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -17908,7 +17808,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -18038,7 +17937,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -18198,7 +18096,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [],
         "canDowngrade": false
     },
@@ -18370,7 +18267,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             3
         ],
@@ -18520,7 +18416,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             3
         ],
@@ -18694,7 +18589,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             3
         ],
@@ -18832,7 +18726,6 @@
         "elementStatusDamage": 0,
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
-        "skillId": 0,
         "slots": [
             3
         ],

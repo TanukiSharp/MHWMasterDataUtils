@@ -262,7 +262,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
             resultWeapon.ElementStatusDamage = (ushort)(weapon.ElementDamage * 10);
             resultWeapon.HiddenElementStatus = weapon.HiddenElementId;
             resultWeapon.HiddenElementStatusDamage = (ushort)(weapon.HiddenElementDamage * 10);
-            resultWeapon.SkillId = weapon.SkillId;
+            resultWeapon.SkillId = weapon.SkillId > 0 ? (int?)weapon.SkillId : null;
             resultWeapon.Slots = WeaponsUtils.CreateSlotsArray(weapon);
             resultWeapon.CanDowngrade = canDowngrade;
             resultWeapon.Craft = craft;

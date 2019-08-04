@@ -41,7 +41,7 @@ namespace MHWMasterDataUtils.Core
         [JsonProperty("hiddenElementStatusDamage")]
         public int HiddenElementStatusDamage { get; set; }
         [JsonProperty("skillId")]
-        public int SkillId { get; set; }
+        public int? SkillId { get; set; }
         [JsonProperty("slots")]
         public int[] Slots { get; set; }
         [JsonProperty("canDowngrade")]
