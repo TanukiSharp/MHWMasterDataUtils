@@ -35,6 +35,17 @@ namespace MHWMasterDataUtils.Builders
             LanguageUtils.StyleTextRemover
         };
 
+        private static int? FindSkillIdByName(Dictionary<string, string> name, List<core.Skill> skills)
+        {
+            foreach (core.Skill skill in skills)
+            {
+                if (name[core.LanguageUtils.DefaultLanguageCode] == skill.Name[core.LanguageUtils.DefaultLanguageCode])
+                    return skill.Id;
+            }
+
+            return null;
+        }
+
         public core.Skill[] Build()
         {
             var result = new List<core.Skill>();
@@ -109,6 +120,15 @@ namespace MHWMasterDataUtils.Builders
                     Description = isSetBonus ? null : skillDescription,
                     Abilities = abilities.ToArray()
                 });
+            }
+
+            foreach (core.Skill skill in result)
+            {
+                if (skill.IsSetBonus == false)
+                    continue;
+
+                foreach (core.Ability ability in skill.Abilities)
+                    ability.SkillId = FindSkillIdByName(ability.Name, result);
             }
 
             return result.ToArray();

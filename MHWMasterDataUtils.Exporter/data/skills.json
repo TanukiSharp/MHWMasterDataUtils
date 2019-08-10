@@ -11851,6 +11851,7 @@
         "abilities": [
             {
                 "requiredParts": 3,
+                "skillId": 160,
                 "name": {
                     "jpn": "根性",
                     "eng": "Guts",
@@ -11912,6 +11913,7 @@
         "abilities": [
             {
                 "requiredParts": 3,
+                "skillId": 157,
                 "name": {
                     "jpn": "ガード強化",
                     "eng": "Guard Up",
@@ -12073,6 +12075,7 @@
             },
             {
                 "requiredParts": 4,
+                "skillId": 158,
                 "name": {
                     "jpn": "剛刃研磨",
                     "eng": "Protective Polish",
@@ -12134,6 +12137,7 @@
         "abilities": [
             {
                 "requiredParts": 3,
+                "skillId": 162,
                 "name": {
                     "jpn": "業物／弾丸節約",
                     "eng": "Razor Sharp/Spare Shot",
@@ -12195,6 +12199,7 @@
         "abilities": [
             {
                 "requiredParts": 4,
+                "skillId": 156,
                 "name": {
                     "jpn": "心眼／弾導強化",
                     "eng": "Mind's Eye/Ballistics",
@@ -12234,6 +12239,7 @@
             },
             {
                 "requiredParts": 2,
+                "skillId": 165,
                 "name": {
                     "jpn": "会心撃【属性】",
                     "eng": "Critical Element",
@@ -12578,6 +12584,7 @@
             },
             {
                 "requiredParts": 4,
+                "skillId": 155,
                 "name": {
                     "jpn": "弓溜め段階解放",
                     "eng": "Bow Charge Plus",
@@ -12700,6 +12707,7 @@
         "abilities": [
             {
                 "requiredParts": 3,
+                "skillId": 166,
                 "name": {
                     "jpn": "会心撃【特殊】",
                     "eng": "Critical Status",
@@ -12761,6 +12769,7 @@
         "abilities": [
             {
                 "requiredParts": 3,
+                "skillId": 165,
                 "name": {
                     "jpn": "会心撃【属性】",
                     "eng": "Critical Element",
@@ -12922,6 +12931,7 @@
             },
             {
                 "requiredParts": 4,
+                "skillId": 159,
                 "name": {
                     "jpn": "無属性強化",
                     "eng": "Non-elemental Boost",
@@ -13227,6 +13237,7 @@
         "abilities": [
             {
                 "requiredParts": 3,
+                "skillId": 161,
                 "name": {
                     "jpn": "加速再生",
                     "eng": "Hasten Recovery",
@@ -13890,6 +13901,7 @@
             },
             {
                 "requiredParts": 4,
+                "skillId": 156,
                 "name": {
                     "jpn": "心眼／弾導強化",
                     "eng": "Mind's Eye/Ballistics",

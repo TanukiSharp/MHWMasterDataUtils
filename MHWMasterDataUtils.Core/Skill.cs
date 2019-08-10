@@ -11,6 +11,8 @@ namespace MHWMasterDataUtils.Core
         public int? Level { get; set; }
         [JsonProperty("requiredParts")]
         public int? RequiredParts { get; set; }
+        [JsonProperty("skillId")]
+        public int? SkillId { get; set; }
         [JsonProperty("name")]
         public Dictionary<string, string> Name { get; set; }
         [JsonProperty("description")]
