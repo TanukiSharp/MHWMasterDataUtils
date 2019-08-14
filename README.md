@@ -1,5 +1,9 @@
 THIS IS STILL WORK IN PROGRESS
 
+# Amendment of the license
+
+DO NOT use this code, in part or in totality, to cheat, or produce code that would eventually lead to cheat.
+
 # Overview
 
 This project is a library that provides functionalities to load [Monster Hunter: World][monster-hunter-world] master data.
@@ -84,6 +88,15 @@ The "builders" are types that use intermediate data extracted by `IPackageProces
 ### Core types
 
 The solution contains a project named `MHWMasterDataUtils.Core`, which holds the high level types required to load exported data. The reason for this library to be lose-coupled from the rest is because it is allows to load this assembly in tools without loading all package processors, builders and other "offline" stuffs.
+
+# Thanks
+
+Special thanks to Frederik Schumacher for his wonderful work on the Monster Hunter World data wiki
+- GitLab: https://gitlab.com/frederik-schumacher/mhw-equipment-docs/wikis/home (private)
+- GitHub: https://github.com/fre-sch
+
+Also thanks to the modding community
+- Discord: https://discord.gg/gJwMdhK
 
 # Terms of use
 
