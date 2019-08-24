@@ -2,3 +2,4 @@
 obj/
 **/bin/Debug/**
 **/bin/Release/**
+.vscode/
