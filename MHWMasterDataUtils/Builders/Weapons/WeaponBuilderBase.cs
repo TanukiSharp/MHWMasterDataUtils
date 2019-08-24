@@ -248,6 +248,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
 
             resultWeapon.Id = weapon.Id;
             resultWeapon.TreeOrder = weapon.TreeOrder;
+            resultWeapon.SortOrder = weapon.SortOrder;
             resultWeapon.ParentId = parentId;
             resultWeapon.Name = weaponName;
             resultWeapon.Description = weaponDescription;

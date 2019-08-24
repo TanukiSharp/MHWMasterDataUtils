@@ -14,6 +14,8 @@ namespace MHWMasterDataUtils.Core
         public uint Id { get; set; }
         [JsonProperty("parentId")]
         public int ParentId { get; set; }
+        [JsonProperty("sortOrder")]
+        public int SortOrder { get; set; }
         [JsonProperty("name")]
         public Dictionary<string, string> Name { get; set; }
         [JsonProperty("description")]

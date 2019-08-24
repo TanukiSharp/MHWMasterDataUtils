@@ -6,6 +6,7 @@
         ],
         "id": 8,
         "parentId": -1,
+        "sortOrder": 20,
         "name": {
             "jpn": "鉄弓Ⅰ",
             "eng": "Iron Bow I",
@@ -66,6 +67,7 @@
         ],
         "id": 9,
         "parentId": -1,
+        "sortOrder": 21,
         "name": {
             "jpn": "鉄弓Ⅱ",
             "eng": "Iron Bow II",
@@ -126,6 +128,7 @@
         ],
         "id": 10,
         "parentId": -1,
+        "sortOrder": 22,
         "name": {
             "jpn": "鉄弓Ⅲ",
             "eng": "Iron Bow III",
@@ -194,6 +197,7 @@
         ],
         "id": 11,
         "parentId": -1,
+        "sortOrder": 23,
         "name": {
             "jpn": "鋼鉄弓Ⅰ",
             "eng": "Steel Bow I",
@@ -262,6 +266,7 @@
         ],
         "id": 12,
         "parentId": -1,
+        "sortOrder": 24,
         "name": {
             "jpn": "鋼鉄弓Ⅱ",
             "eng": "Steel Bow II",
@@ -334,6 +339,7 @@
         ],
         "id": 13,
         "parentId": -1,
+        "sortOrder": 25,
         "name": {
             "jpn": "鋼鉄弓Ⅲ",
             "eng": "Steel Bow III",
@@ -404,6 +410,7 @@
         ],
         "id": 14,
         "parentId": -1,
+        "sortOrder": 26,
         "name": {
             "jpn": "合金弓Ⅰ",
             "eng": "Alloy Bow I",
@@ -478,6 +485,7 @@
         ],
         "id": 15,
         "parentId": -1,
+        "sortOrder": 27,
         "name": {
             "jpn": "合金弓Ⅱ",
             "eng": "Alloy Bow II",
@@ -553,6 +561,7 @@
         ],
         "id": 16,
         "parentId": -1,
+        "sortOrder": 28,
         "name": {
             "jpn": "ネルガルファウル",
             "eng": "Nergal Whisper",
@@ -627,6 +636,7 @@
         ],
         "id": 17,
         "parentId": -1,
+        "sortOrder": 29,
         "name": {
             "jpn": "必滅の一矢",
             "eng": "Doom's Shaft",
@@ -703,6 +713,7 @@
         ],
         "id": 18,
         "parentId": -1,
+        "sortOrder": 30,
         "name": {
             "jpn": "クルルアローⅠ",
             "eng": "Kulu Arrow I",
@@ -773,6 +784,7 @@
         ],
         "id": 19,
         "parentId": -1,
+        "sortOrder": 31,
         "name": {
             "jpn": "クルルアローⅡ",
             "eng": "Kulu Arrow II",
@@ -847,6 +859,7 @@
         ],
         "id": 20,
         "parentId": -1,
+        "sortOrder": 32,
         "name": {
             "jpn": "クルルアローⅢ",
             "eng": "Kulu Arrow III",
@@ -921,6 +934,7 @@
         ],
         "id": 21,
         "parentId": -1,
+        "sortOrder": 33,
         "name": {
             "jpn": "リーシャアルサクルⅠ",
             "eng": "Archer's Dance I",
@@ -995,6 +1009,7 @@
         ],
         "id": 22,
         "parentId": -1,
+        "sortOrder": 34,
         "name": {
             "jpn": "リーシャアルサクルⅡ",
             "eng": "Archer's Dance II",
@@ -1069,6 +1084,7 @@
         ],
         "id": 23,
         "parentId": -1,
+        "sortOrder": 35,
         "name": {
             "jpn": "リーシャアルサクルⅢ",
             "eng": "Archer's Dance III",
@@ -1142,6 +1158,7 @@
         ],
         "id": 24,
         "parentId": -1,
+        "sortOrder": 36,
         "name": {
             "jpn": "ブラスコルダ",
             "eng": "Brazencord",
@@ -1217,6 +1234,7 @@
         ],
         "id": 25,
         "parentId": -1,
+        "sortOrder": 37,
         "name": {
             "jpn": "重弓ヘラギガス",
             "eng": "Gigacles",
@@ -1292,6 +1310,7 @@
         ],
         "id": 26,
         "parentId": -1,
+        "sortOrder": 38,
         "name": {
             "jpn": "プリンセスアローⅠ",
             "eng": "Princess Arrow I",
@@ -1361,6 +1380,7 @@
         ],
         "id": 27,
         "parentId": -1,
+        "sortOrder": 40,
         "name": {
             "jpn": "プリンセスアローⅡ",
             "eng": "Princess Arrow II",
@@ -1437,6 +1457,7 @@
         ],
         "id": 28,
         "parentId": -1,
+        "sortOrder": 42,
         "name": {
             "jpn": "プリンセスアローⅢ",
             "eng": "Princess Arrow III",
@@ -1513,6 +1534,7 @@
         ],
         "id": 29,
         "parentId": -1,
+        "sortOrder": 43,
         "name": {
             "jpn": "火竜の強弓Ⅰ",
             "eng": "Rathslinger I",
@@ -1586,6 +1608,7 @@
         ],
         "id": 30,
         "parentId": -1,
+        "sortOrder": 45,
         "name": {
             "jpn": "火竜の強弓Ⅱ",
             "eng": "Rathslinger II",
@@ -1661,6 +1684,7 @@
         ],
         "id": 31,
         "parentId": -1,
+        "sortOrder": 46,
         "name": {
             "jpn": "火竜の強弓Ⅲ",
             "eng": "Rathslinger III",
@@ -1735,6 +1759,7 @@
         ],
         "id": 32,
         "parentId": -1,
+        "sortOrder": 48,
         "name": {
             "jpn": "アクアアローⅠ",
             "eng": "Aqua Arrow I",
@@ -1807,6 +1832,7 @@
         ],
         "id": 33,
         "parentId": -1,
+        "sortOrder": 49,
         "name": {
             "jpn": "アクアアローⅡ",
             "eng": "Aqua Arrow II",
@@ -1879,6 +1905,7 @@
         ],
         "id": 34,
         "parentId": -1,
+        "sortOrder": 50,
         "name": {
             "jpn": "アクアアローⅢ",
             "eng": "Aqua Arrow III",
@@ -1951,6 +1978,7 @@
         ],
         "id": 35,
         "parentId": -1,
+        "sortOrder": 51,
         "name": {
             "jpn": "ウォーターシュート Ⅰ",
             "eng": "Water Shot I",
@@ -2025,6 +2053,7 @@
         ],
         "id": 36,
         "parentId": -1,
+        "sortOrder": 52,
         "name": {
             "jpn": "ウォーターシュート Ⅱ",
             "eng": "Water Shot II",
@@ -2099,6 +2128,7 @@
         ],
         "id": 37,
         "parentId": -1,
+        "sortOrder": 53,
         "name": {
             "jpn": "ウォーターシュート Ⅲ",
             "eng": "Water Shot III",
@@ -2175,6 +2205,7 @@
         ],
         "id": 38,
         "parentId": -1,
+        "sortOrder": 54,
         "name": {
             "jpn": "グレイスアローⅠ",
             "eng": "Glacial Arrow I",
@@ -2245,6 +2276,7 @@
         ],
         "id": 39,
         "parentId": -1,
+        "sortOrder": 55,
         "name": {
             "jpn": "グレイスアローⅡ",
             "eng": "Glacial Arrow II",
@@ -2319,6 +2351,7 @@
         ],
         "id": 40,
         "parentId": -1,
+        "sortOrder": 56,
         "name": {
             "jpn": "ファーンライク",
             "eng": "Snowfletcher",
@@ -2393,6 +2426,7 @@
         ],
         "id": 41,
         "parentId": -1,
+        "sortOrder": 57,
         "name": {
             "jpn": "レイ＝ファーンライク",
             "eng": "Legia Snowfletcher",
@@ -2466,6 +2500,7 @@
         ],
         "id": 42,
         "parentId": -1,
+        "sortOrder": 58,
         "name": {
             "jpn": "ハンターボウⅠ",
             "eng": "Hunter's Bow I",
@@ -2527,6 +2562,7 @@
         ],
         "id": 43,
         "parentId": -1,
+        "sortOrder": 59,
         "name": {
             "jpn": "ハンターボウⅡ",
             "eng": "Hunter's Bow II",
@@ -2588,6 +2624,7 @@
         ],
         "id": 44,
         "parentId": -1,
+        "sortOrder": 60,
         "name": {
             "jpn": "ハンターボウⅢ",
             "eng": "Hunter's Bow III",
@@ -2653,6 +2690,7 @@
         ],
         "id": 45,
         "parentId": -1,
+        "sortOrder": 61,
         "name": {
             "jpn": "パワーハンターボウⅠ",
             "eng": "Hunter's Stoutbow I",
@@ -2722,6 +2760,7 @@
         ],
         "id": 46,
         "parentId": -1,
+        "sortOrder": 62,
         "name": {
             "jpn": "パワーハンターボウⅡ",
             "eng": "Hunter's Stoutbow II",
@@ -2791,6 +2830,7 @@
         ],
         "id": 47,
         "parentId": -1,
+        "sortOrder": 63,
         "name": {
             "jpn": "パワーハンターボウⅢ",
             "eng": "Hunter's Stoutbow III",
@@ -2862,6 +2902,7 @@
         ],
         "id": 48,
         "parentId": -1,
+        "sortOrder": 64,
         "name": {
             "jpn": "ブレイブハンターボウⅠ",
             "eng": "Hunter's Proudbow I",
@@ -2933,6 +2974,7 @@
         ],
         "id": 49,
         "parentId": -1,
+        "sortOrder": 65,
         "name": {
             "jpn": "ブレイブハンターボウⅡ",
             "eng": "Hunter's Proudbow II",
@@ -3008,6 +3050,7 @@
         ],
         "id": 50,
         "parentId": -1,
+        "sortOrder": 66,
         "name": {
             "jpn": "ハザクヴェロスⅠ",
             "eng": "Hazak Velos I",
@@ -3083,6 +3126,7 @@
         ],
         "id": 51,
         "parentId": -1,
+        "sortOrder": 67,
         "name": {
             "jpn": "ハザクヴェロスⅡ",
             "eng": "Hazak Velos II",
@@ -3158,6 +3202,7 @@
         ],
         "id": 52,
         "parentId": -1,
+        "sortOrder": 68,
         "name": {
             "jpn": "ブロスボウⅠ",
             "eng": "Diablos Bow I",
@@ -3231,6 +3276,7 @@
         ],
         "id": 53,
         "parentId": -1,
+        "sortOrder": 69,
         "name": {
             "jpn": "ブロスボウⅡ",
             "eng": "Diablos Bow II",
@@ -3307,6 +3353,7 @@
         ],
         "id": 54,
         "parentId": -1,
+        "sortOrder": 70,
         "name": {
             "jpn": "ブロスホーンボウ",
             "eng": "Diablos Coilbender",
@@ -3383,6 +3430,7 @@
         ],
         "id": 55,
         "parentId": -1,
+        "sortOrder": 71,
         "name": {
             "jpn": "ゲイルホーンボウ",
             "eng": "Galebender",
@@ -3459,6 +3507,7 @@
         ],
         "id": 56,
         "parentId": -1,
+        "sortOrder": 72,
         "name": {
             "jpn": "角王弓ゲイルホーン",
             "eng": "Cera Coilbender",
@@ -3535,6 +3584,7 @@
         ],
         "id": 57,
         "parentId": -1,
+        "sortOrder": 73,
         "name": {
             "jpn": "ブルームアーチⅠ",
             "eng": "Blooming Arch I",
@@ -3604,6 +3654,7 @@
         ],
         "id": 58,
         "parentId": -1,
+        "sortOrder": 74,
         "name": {
             "jpn": "ブルームアーチⅡ",
             "eng": "Blooming Arch II",
@@ -3677,6 +3728,7 @@
         ],
         "id": 59,
         "parentId": -1,
+        "sortOrder": 75,
         "name": {
             "jpn": "ブルームアーチⅢ",
             "eng": "Blooming Arch III",
@@ -3750,6 +3802,7 @@
         ],
         "id": 60,
         "parentId": -1,
+        "sortOrder": 76,
         "name": {
             "jpn": "ダチュラストリングⅠ",
             "eng": "Datura String I",
@@ -3826,6 +3879,7 @@
         ],
         "id": 61,
         "parentId": -1,
+        "sortOrder": 77,
         "name": {
             "jpn": "ダチュラストリングⅡ",
             "eng": "Datura String II",
@@ -3902,6 +3956,7 @@
         ],
         "id": 62,
         "parentId": -1,
+        "sortOrder": 78,
         "name": {
             "jpn": "ダチュラストリングⅢ",
             "eng": "Datura String III",
@@ -3978,6 +4033,7 @@
         ],
         "id": 63,
         "parentId": -1,
+        "sortOrder": 79,
         "name": {
             "jpn": "ブレイズボウⅠ",
             "eng": "Blazing Bow I",
@@ -4047,6 +4103,7 @@
         ],
         "id": 64,
         "parentId": -1,
+        "sortOrder": 80,
         "name": {
             "jpn": "ブレイズボウⅡ",
             "eng": "Blazing Bow II",
@@ -4120,6 +4177,7 @@
         ],
         "id": 65,
         "parentId": -1,
+        "sortOrder": 81,
         "name": {
             "jpn": "ジャナフアルカウスⅠ",
             "eng": "Anja Arch I",
@@ -4193,6 +4251,7 @@
         ],
         "id": 66,
         "parentId": -1,
+        "sortOrder": 82,
         "name": {
             "jpn": "ジャナフアルカウスⅡ",
             "eng": "Anja Arch II",
@@ -4266,6 +4325,7 @@
         ],
         "id": 67,
         "parentId": -1,
+        "sortOrder": 83,
         "name": {
             "jpn": "ジャナフアルカウスⅢ",
             "eng": "Anja Arch III",
@@ -4339,6 +4399,7 @@
         ],
         "id": 68,
         "parentId": -1,
+        "sortOrder": 84,
         "name": {
             "jpn": "パルサーボウⅠ",
             "eng": "Pulsar Bow I",
@@ -4408,6 +4469,7 @@
         ],
         "id": 69,
         "parentId": -1,
+        "sortOrder": 85,
         "name": {
             "jpn": "パルサーボウⅡ",
             "eng": "Pulsar Bow II",
@@ -4481,6 +4543,7 @@
         ],
         "id": 70,
         "parentId": -1,
+        "sortOrder": 86,
         "name": {
             "jpn": "パルサーボウⅢ",
             "eng": "Pulsar Bow III",
@@ -4554,6 +4617,7 @@
         ],
         "id": 71,
         "parentId": -1,
+        "sortOrder": 87,
         "name": {
             "jpn": "飛雷弓イテカガチ",
             "eng": "Kadachi Strikebow",
@@ -4629,6 +4693,7 @@
         ],
         "id": 72,
         "parentId": -1,
+        "sortOrder": 88,
         "name": {
             "jpn": "飛雷弓【羽々矢】",
             "eng": "Flying Kadachi Strikebow",
@@ -4704,6 +4769,7 @@
         ],
         "id": 73,
         "parentId": -1,
+        "sortOrder": 89,
         "name": {
             "jpn": "龍骨弓Ⅰ",
             "eng": "Dragonbone Bow I",
@@ -4777,6 +4843,7 @@
         ],
         "id": 74,
         "parentId": -1,
+        "sortOrder": 90,
         "name": {
             "jpn": "龍骨弓Ⅱ",
             "eng": "Dragonbone Bow II",
@@ -4846,6 +4913,7 @@
         ],
         "id": 75,
         "parentId": -1,
+        "sortOrder": 91,
         "name": {
             "jpn": "龍骨弓Ⅲ",
             "eng": "Dragonbone Bow III",
@@ -4922,6 +4990,7 @@
         ],
         "id": 76,
         "parentId": -1,
+        "sortOrder": 92,
         "name": {
             "jpn": "黒鋼の弓Ⅰ",
             "eng": "Blacksteel Bow I",
@@ -4995,6 +5064,7 @@
         ],
         "id": 77,
         "parentId": -1,
+        "sortOrder": 93,
         "name": {
             "jpn": "黒鋼の弓Ⅱ",
             "eng": "Blacksteel Bow II",
@@ -5067,6 +5137,7 @@
         ],
         "id": 78,
         "parentId": -1,
+        "sortOrder": 94,
         "name": {
             "jpn": "鋼氷馬弓",
             "eng": "Icesteel Bow",
@@ -5142,6 +5213,7 @@
         ],
         "id": 79,
         "parentId": -1,
+        "sortOrder": 95,
         "name": {
             "jpn": "アルナス＝ダオラ",
             "eng": "Daora's Sagittarii",
@@ -5219,6 +5291,7 @@
         ],
         "id": 80,
         "parentId": -1,
+        "sortOrder": 96,
         "name": {
             "jpn": "ゼノ＝メートラ",
             "eng": "Xeno Metora",
@@ -5297,6 +5370,7 @@
         ],
         "id": 81,
         "parentId": -1,
+        "sortOrder": 97,
         "name": {
             "jpn": "クロスハンターボウ",
             "eng": "Cross Hunter's Bow",
@@ -5374,6 +5448,7 @@
         ],
         "id": 82,
         "parentId": -1,
+        "sortOrder": 98,
         "name": {
             "jpn": "グレイトハンターボウ",
             "eng": "Great Hunter's Bow",
@@ -5449,6 +5524,7 @@
         ],
         "id": 83,
         "parentId": -1,
+        "sortOrder": 100,
         "name": {
             "jpn": "暴徒の凶弓",
             "eng": "Insurgent's Bow",
@@ -5522,6 +5598,7 @@
         ],
         "id": 84,
         "parentId": -1,
+        "sortOrder": 101,
         "name": {
             "jpn": "ヴィランブレイス",
             "eng": "Villainous Brace",
@@ -5594,6 +5671,7 @@
         ],
         "id": 111,
         "parentId": -1,
+        "sortOrder": 128,
         "name": {
             "jpn": "エンプレスアロー",
             "eng": "Empress Arrow",
@@ -5669,6 +5747,7 @@
         ],
         "id": 112,
         "parentId": -1,
+        "sortOrder": 129,
         "name": {
             "jpn": "エンプレスアロー・炎妃",
             "eng": "Empress Arrow \"Blaze\"",
@@ -5747,6 +5826,7 @@
         ],
         "id": 113,
         "parentId": -1,
+        "sortOrder": 130,
         "name": {
             "jpn": "エンプレスアロー・滅尽",
             "eng": "Empress Arrow \"Ruin\"",
@@ -5823,6 +5903,7 @@
         ],
         "id": 114,
         "parentId": -1,
+        "sortOrder": 131,
         "name": {
             "jpn": "エンプレスアロー・冥灯",
             "eng": "Empress Arrow \"Styx\"",
@@ -5900,6 +5981,7 @@
         ],
         "id": 87,
         "parentId": -1,
+        "sortOrder": 104,
         "name": {
             "jpn": "金色の弓・水",
             "eng": "Gold Water Piercer",
@@ -5951,6 +6033,7 @@
         ],
         "id": 88,
         "parentId": -1,
+        "sortOrder": 105,
         "name": {
             "jpn": "金色の弓・雷",
             "eng": "Gold Thunder Piercer",
@@ -6005,6 +6088,7 @@
         ],
         "id": 89,
         "parentId": -1,
+        "sortOrder": 106,
         "name": {
             "jpn": "金色の弓・爆破",
             "eng": "Gold Blast Piercer",
@@ -6058,6 +6142,7 @@
         ],
         "id": 90,
         "parentId": -1,
+        "sortOrder": 107,
         "name": {
             "jpn": "金色の弓・掻",
             "eng": "Thief Gold Piercer",
@@ -6110,6 +6195,7 @@
         ],
         "id": 91,
         "parentId": -1,
+        "sortOrder": 108,
         "name": {
             "jpn": "金色の弓・毒妖",
             "eng": "Spew Gold Piercer",
@@ -6162,6 +6248,7 @@
         ],
         "id": 92,
         "parentId": -1,
+        "sortOrder": 109,
         "name": {
             "jpn": "金色の弓・飛雷",
             "eng": "Spark Gold Piercer",
@@ -6212,6 +6299,7 @@
         ],
         "id": 93,
         "parentId": -1,
+        "sortOrder": 110,
         "name": {
             "jpn": "金色の弓・蛮顎",
             "eng": "Rage Gold Piercer",
@@ -6264,6 +6352,7 @@
         ],
         "id": 94,
         "parentId": -1,
+        "sortOrder": 111,
         "name": {
             "jpn": "金色の弓・女王",
             "eng": "Queen Gold Piercer",
@@ -6314,6 +6403,7 @@
         ],
         "id": 95,
         "parentId": -1,
+        "sortOrder": 112,
         "name": {
             "jpn": "金色の弓・風漂",
             "eng": "Stream Gold Piercer",
@@ -6366,6 +6456,7 @@
         ],
         "id": 96,
         "parentId": -1,
+        "sortOrder": 113,
         "name": {
             "jpn": "金色の弓・屍套",
             "eng": "Decay Gold Piercer",
@@ -6416,6 +6507,7 @@
         ],
         "id": 97,
         "parentId": -1,
+        "sortOrder": 114,
         "name": {
             "jpn": "金色の弓・王",
             "eng": "King Gold Piercer",
@@ -6466,6 +6558,7 @@
         ],
         "id": 98,
         "parentId": -1,
+        "sortOrder": 115,
         "name": {
             "jpn": "金色の弓・角",
             "eng": "Horn Gold Piercer",
@@ -6519,6 +6612,7 @@
         ],
         "id": 99,
         "parentId": -1,
+        "sortOrder": 116,
         "name": {
             "jpn": "ガイラアロー・掻",
             "eng": "Taroth Arrow \"Thief\"",
@@ -6571,6 +6665,7 @@
         ],
         "id": 100,
         "parentId": -1,
+        "sortOrder": 117,
         "name": {
             "jpn": "ガイラアロー・毒妖",
             "eng": "Taroth Arrow \"Spew\"",
@@ -6623,6 +6718,7 @@
         ],
         "id": 101,
         "parentId": -1,
+        "sortOrder": 118,
         "name": {
             "jpn": "ガイラアロー・飛雷",
             "eng": "Taroth Arrow \"Spark\"",
@@ -6673,6 +6769,7 @@
         ],
         "id": 102,
         "parentId": -1,
+        "sortOrder": 119,
         "name": {
             "jpn": "ガイラアロー・蛮顎",
             "eng": "Taroth Arrow \"Rage\"",
@@ -6725,6 +6822,7 @@
         ],
         "id": 103,
         "parentId": -1,
+        "sortOrder": 120,
         "name": {
             "jpn": "ガイラアロー・女王",
             "eng": "Taroth Arrow \"Queen\"",
@@ -6775,6 +6873,7 @@
         ],
         "id": 104,
         "parentId": -1,
+        "sortOrder": 121,
         "name": {
             "jpn": "ガイラアロー・風漂",
             "eng": "Taroth Arrow \"Stream\"",
@@ -6827,6 +6926,7 @@
         ],
         "id": 105,
         "parentId": -1,
+        "sortOrder": 122,
         "name": {
             "jpn": "ガイラアロー・屍套",
             "eng": "Taroth Arrow \"Decay\"",
@@ -6877,6 +6977,7 @@
         ],
         "id": 106,
         "parentId": -1,
+        "sortOrder": 123,
         "name": {
             "jpn": "ガイラアロー・王",
             "eng": "Taroth Arrow \"King\"",
@@ -6927,6 +7028,7 @@
         ],
         "id": 107,
         "parentId": -1,
+        "sortOrder": 124,
         "name": {
             "jpn": "ガイラアロー・角",
             "eng": "Taroth Arrow \"Horn\"",
@@ -6979,6 +7081,7 @@
         ],
         "id": 108,
         "parentId": -1,
+        "sortOrder": 125,
         "name": {
             "jpn": "ガイラアロー・水",
             "eng": "Taroth Arrow \"Water\"",
@@ -7032,6 +7135,7 @@
         ],
         "id": 109,
         "parentId": -1,
+        "sortOrder": 126,
         "name": {
             "jpn": "ガイラアロー・雷",
             "eng": "Taroth Arrow \"Thunder\"",
@@ -7088,6 +7192,7 @@
         ],
         "id": 110,
         "parentId": -1,
+        "sortOrder": 127,
         "name": {
             "jpn": "ガイラアロー・爆破",
             "eng": "Taroth Arrow \"Blast\"",
@@ -7141,6 +7246,7 @@
         ],
         "id": 115,
         "parentId": -1,
+        "sortOrder": 132,
         "name": {
             "jpn": "ガイラアロー・火",
             "eng": "Taroth Arrow \"Fire\"",
@@ -7195,6 +7301,7 @@
         ],
         "id": 116,
         "parentId": -1,
+        "sortOrder": 133,
         "name": {
             "jpn": "皇金の弓・飛雷",
             "eng": "Kjárr Bow \"Spark\"",
@@ -7251,6 +7358,7 @@
         ],
         "id": 117,
         "parentId": -1,
+        "sortOrder": 134,
         "name": {
             "jpn": "皇金の弓・風漂",
             "eng": "Kjárr Bow \"Stream\"",
@@ -7304,6 +7412,7 @@
         ],
         "id": 118,
         "parentId": -1,
+        "sortOrder": 135,
         "name": {
             "jpn": "皇金の弓・王",
             "eng": "Kjárr Bow \"King\"",
@@ -7359,6 +7468,7 @@
         ],
         "id": 119,
         "parentId": -1,
+        "sortOrder": 136,
         "name": {
             "jpn": "皇金の弓・屍套",
             "eng": "Kjárr Bow \"Decay\"",
@@ -7414,6 +7524,7 @@
         ],
         "id": 120,
         "parentId": -1,
+        "sortOrder": 137,
         "name": {
             "jpn": "皇金の弓・水",
             "eng": "Kjárr Bow \"Water\"",
@@ -7469,6 +7580,7 @@
         ],
         "id": 121,
         "parentId": -1,
+        "sortOrder": 138,
         "name": {
             "jpn": "皇金の弓・爆破",
             "eng": "Kjárr Bow \"Blast\"",

@@ -47,7 +47,7 @@ namespace MHWMasterDataUtils.Weapons
             byte gemSlot3,
             byte specialAmmoId,
             byte treePosition,
-            ushort order,
+            ushort sortOrder,
             ushort gmdNameIndex,
             ushort gmdDescriptionIndex,
             ushort skillId
@@ -77,7 +77,7 @@ namespace MHWMasterDataUtils.Weapons
                 gemSlot2,
                 gemSlot3,
                 treePosition,
-                order,
+                sortOrder,
                 gmdNameIndex,
                 gmdDescriptionIndex,
                 skillId
@@ -125,7 +125,7 @@ namespace MHWMasterDataUtils.Weapons
             reader.Offset(13); // Skip unknown31 to unknown43.
             byte specialAmmoId = reader.ReadByte();
             byte treePosition = reader.ReadByte();
-            ushort order = reader.ReadUInt16();
+            ushort sortOrder = reader.ReadUInt16();
             ushort gmdNameIndex = reader.ReadUInt16();
             ushort gmdDescriptionIndex = reader.ReadUInt16();
             ushort skillId = reader.ReadUInt16();
@@ -163,7 +163,7 @@ namespace MHWMasterDataUtils.Weapons
                 gemSlot3,
                 specialAmmoId,
                 treePosition,
-                order,
+                sortOrder,
                 gmdNameIndex,
                 gmdDescriptionIndex,
                 skillId

@@ -51,6 +51,7 @@
         },
         "id": 6,
         "parentId": -1,
+        "sortOrder": 10,
         "name": {
             "jpn": "メタルバグパイプⅠ",
             "eng": "Metal Bagpipe I",
@@ -156,6 +157,7 @@
         },
         "id": 7,
         "parentId": 6,
+        "sortOrder": 11,
         "name": {
             "jpn": "メタルバグパイプⅡ",
             "eng": "Metal Bagpipe II",
@@ -261,6 +263,7 @@
         },
         "id": 8,
         "parentId": 7,
+        "sortOrder": 12,
         "name": {
             "jpn": "メタルバグパイプⅢ",
             "eng": "Metal Bagpipe III",
@@ -374,6 +377,7 @@
         },
         "id": 9,
         "parentId": 8,
+        "sortOrder": 13,
         "name": {
             "jpn": "グレートバグパイプⅠ",
             "eng": "Great Bagpipe I",
@@ -487,6 +491,7 @@
         },
         "id": 10,
         "parentId": 9,
+        "sortOrder": 14,
         "name": {
             "jpn": "グレートバグパイプⅡ",
             "eng": "Great Bagpipe II",
@@ -604,6 +609,7 @@
         },
         "id": 11,
         "parentId": 10,
+        "sortOrder": 15,
         "name": {
             "jpn": "グレートバグパイプⅢ",
             "eng": "Great Bagpipe III",
@@ -722,6 +728,7 @@
         },
         "id": 12,
         "parentId": 11,
+        "sortOrder": 16,
         "name": {
             "jpn": "フォルティッシモⅠ",
             "eng": "Fortissimo I",
@@ -844,6 +851,7 @@
         },
         "id": 13,
         "parentId": 12,
+        "sortOrder": 17,
         "name": {
             "jpn": "フォルティッシモⅡ",
             "eng": "Fortissimo II",
@@ -960,6 +968,7 @@
         },
         "id": 14,
         "parentId": 12,
+        "sortOrder": 18,
         "name": {
             "jpn": "ネルガルグルーヴ",
             "eng": "Nergal Groove",
@@ -1075,6 +1084,7 @@
         },
         "id": 15,
         "parentId": 14,
+        "sortOrder": 19,
         "name": {
             "jpn": "寂滅の一節",
             "eng": "Desolation's Overture",
@@ -1196,6 +1206,7 @@
         },
         "id": 16,
         "parentId": 8,
+        "sortOrder": 20,
         "name": {
             "jpn": "サンダーガイダⅠ",
             "eng": "Thunder Gaida I",
@@ -1315,6 +1326,7 @@
         },
         "id": 17,
         "parentId": 16,
+        "sortOrder": 21,
         "name": {
             "jpn": "サンダーガイダⅡ",
             "eng": "Thunder Gaida II",
@@ -1434,6 +1446,7 @@
         },
         "id": 18,
         "parentId": 17,
+        "sortOrder": 22,
         "name": {
             "jpn": "ライトニングドラムⅠ",
             "eng": "Lightning Drum I",
@@ -1555,6 +1568,7 @@
         },
         "id": 19,
         "parentId": 18,
+        "sortOrder": 23,
         "name": {
             "jpn": "ライトニングドラムⅡ",
             "eng": "Lightning Drum II",
@@ -1676,6 +1690,7 @@
         },
         "id": 20,
         "parentId": 19,
+        "sortOrder": 24,
         "name": {
             "jpn": "ライトニングドラムⅢ",
             "eng": "Lightning Drum III",
@@ -1801,6 +1816,7 @@
         },
         "id": 21,
         "parentId": 7,
+        "sortOrder": 25,
         "name": {
             "jpn": "クルルドゥダⅠ",
             "eng": "Kulu Duda I",
@@ -1920,6 +1936,7 @@
         },
         "id": 22,
         "parentId": 21,
+        "sortOrder": 26,
         "name": {
             "jpn": "クルルドゥダⅡ",
             "eng": "Kulu Duda II",
@@ -2043,6 +2060,7 @@
         },
         "id": 23,
         "parentId": 22,
+        "sortOrder": 27,
         "name": {
             "jpn": "クルルドゥダⅢ",
             "eng": "Kulu Duda III",
@@ -2174,6 +2192,7 @@
         },
         "id": 24,
         "parentId": 23,
+        "sortOrder": 28,
         "name": {
             "jpn": "リーシャタブルⅠ",
             "eng": "Dancing Davul I",
@@ -2301,6 +2320,7 @@
         },
         "id": 25,
         "parentId": 24,
+        "sortOrder": 29,
         "name": {
             "jpn": "リーシャタブルⅡ",
             "eng": "Dancing Davul II",
@@ -2432,6 +2452,7 @@
         },
         "id": 26,
         "parentId": 25,
+        "sortOrder": 30,
         "name": {
             "jpn": "リーシャタブルⅢ",
             "eng": "Dancing Davul III",
@@ -2549,6 +2570,7 @@
         },
         "id": 27,
         "parentId": 21,
+        "sortOrder": 31,
         "name": {
             "jpn": "ヴァルキリコーダー",
             "eng": "Valkyrie Chordmaker",
@@ -2674,6 +2696,7 @@
         },
         "id": 28,
         "parentId": 27,
+        "sortOrder": 32,
         "name": {
             "jpn": "クイーンリコーダー",
             "eng": "Queen Chordmaker",
@@ -2801,6 +2824,7 @@
         },
         "id": 29,
         "parentId": 28,
+        "sortOrder": 33,
         "name": {
             "jpn": "サクラノリコーダー",
             "eng": "Coral Chordmaker",
@@ -2928,6 +2952,7 @@
         },
         "id": 30,
         "parentId": 29,
+        "sortOrder": 34,
         "name": {
             "jpn": "ロイヤルリコーダー",
             "eng": "Royal Chordmaker",
@@ -3054,6 +3079,7 @@
         },
         "id": 31,
         "parentId": 7,
+        "sortOrder": 35,
         "name": {
             "jpn": "アクアバグパイプⅠ",
             "eng": "Aqua Bagpipe I",
@@ -3178,6 +3204,7 @@
         },
         "id": 32,
         "parentId": 31,
+        "sortOrder": 36,
         "name": {
             "jpn": "アクアバグパイプⅡ",
             "eng": "Aqua Bagpipe II",
@@ -3302,6 +3329,7 @@
         },
         "id": 33,
         "parentId": 32,
+        "sortOrder": 37,
         "name": {
             "jpn": "アクアバグパイプⅢ",
             "eng": "Aqua Bagpipe III",
@@ -3427,6 +3455,7 @@
         },
         "id": 34,
         "parentId": 33,
+        "sortOrder": 38,
         "name": {
             "jpn": "ウォータータムタムⅠ",
             "eng": "Water Tamtam I",
@@ -3554,6 +3583,7 @@
         },
         "id": 35,
         "parentId": 34,
+        "sortOrder": 39,
         "name": {
             "jpn": "ウォータータムタムⅡ",
             "eng": "Water Tamtam II",
@@ -3681,6 +3711,7 @@
         },
         "id": 36,
         "parentId": 35,
+        "sortOrder": 40,
         "name": {
             "jpn": "ウォータータムタムⅢ",
             "eng": "Water Tamtam III",
@@ -3807,6 +3838,7 @@
         },
         "id": 37,
         "parentId": 32,
+        "sortOrder": 41,
         "name": {
             "jpn": "グレイスバグパイプⅠ",
             "eng": "Glacial Bagpipe I",
@@ -3927,6 +3959,7 @@
         },
         "id": 38,
         "parentId": 37,
+        "sortOrder": 42,
         "name": {
             "jpn": "グレイスバグパイプⅡ",
             "eng": "Glacial Bagpipe II",
@@ -4053,6 +4086,7 @@
         },
         "id": 39,
         "parentId": 38,
+        "sortOrder": 43,
         "name": {
             "jpn": "セクタード",
             "eng": "Sectored",
@@ -4179,6 +4213,7 @@
         },
         "id": 40,
         "parentId": 39,
+        "sortOrder": 44,
         "name": {
             "jpn": "レイ＝セクタード",
             "eng": "Legia Sectored",
@@ -4303,6 +4338,7 @@
         },
         "id": 41,
         "parentId": -1,
+        "sortOrder": 45,
         "name": {
             "jpn": "ボーンホルンⅠ",
             "eng": "Bone Horn I",
@@ -4415,6 +4451,7 @@
         },
         "id": 42,
         "parentId": 41,
+        "sortOrder": 46,
         "name": {
             "jpn": "ボーンホルンⅡ",
             "eng": "Bone Horn II",
@@ -4527,6 +4564,7 @@
         },
         "id": 43,
         "parentId": 42,
+        "sortOrder": 47,
         "name": {
             "jpn": "ボーンホルンⅢ",
             "eng": "Bone Horn III",
@@ -4643,6 +4681,7 @@
         },
         "id": 44,
         "parentId": 43,
+        "sortOrder": 48,
         "name": {
             "jpn": "ハードボーンホルンⅠ",
             "eng": "Hard Bone Horn I",
@@ -4763,6 +4802,7 @@
         },
         "id": 45,
         "parentId": 44,
+        "sortOrder": 49,
         "name": {
             "jpn": "ハードボーンホルンⅡ",
             "eng": "Hard Bone Horn II",
@@ -4883,6 +4923,7 @@
         },
         "id": 46,
         "parentId": 45,
+        "sortOrder": 50,
         "name": {
             "jpn": "ハードボーンホルンⅢ",
             "eng": "Hard Bone Horn III",
@@ -5006,6 +5047,7 @@
         },
         "id": 47,
         "parentId": 46,
+        "sortOrder": 51,
         "name": {
             "jpn": "ヘビィボーンホルンⅠ",
             "eng": "Heavy Bone Horn I",
@@ -5129,6 +5171,7 @@
         },
         "id": 48,
         "parentId": 47,
+        "sortOrder": 52,
         "name": {
             "jpn": "ヘビィボーンホルンⅡ",
             "eng": "Heavy Bone Horn II",
@@ -5251,6 +5294,7 @@
         },
         "id": 49,
         "parentId": 46,
+        "sortOrder": 53,
         "name": {
             "jpn": "ガマルホルンⅠ",
             "eng": "Gama Horn I",
@@ -5370,6 +5414,7 @@
         },
         "id": 50,
         "parentId": 49,
+        "sortOrder": 54,
         "name": {
             "jpn": "ガマルホルンⅡ",
             "eng": "Gama Horn II",
@@ -5497,6 +5542,7 @@
         },
         "id": 51,
         "parentId": 43,
+        "sortOrder": 55,
         "name": {
             "jpn": "ブレイズホルンⅠ",
             "eng": "Blazing Horn I",
@@ -5617,6 +5663,7 @@
         },
         "id": 52,
         "parentId": 51,
+        "sortOrder": 56,
         "name": {
             "jpn": "ブレイズホルンⅡ",
             "eng": "Blazing Horn II",
@@ -5743,6 +5790,7 @@
         },
         "id": 53,
         "parentId": 52,
+        "sortOrder": 57,
         "name": {
             "jpn": "ジャナフバローネⅠ",
             "eng": "Anja Barone I",
@@ -5869,6 +5917,7 @@
         },
         "id": 54,
         "parentId": 53,
+        "sortOrder": 58,
         "name": {
             "jpn": "ジャナフバローネⅡ",
             "eng": "Anja Barone II",
@@ -5995,6 +6044,7 @@
         },
         "id": 55,
         "parentId": 54,
+        "sortOrder": 59,
         "name": {
             "jpn": "ジャナフバローネⅢ",
             "eng": "Anja Barone III",
@@ -6114,6 +6164,7 @@
         },
         "id": 56,
         "parentId": 42,
+        "sortOrder": 60,
         "name": {
             "jpn": "ブルームホルンⅠ",
             "eng": "Blooming Horn I",
@@ -6229,6 +6280,7 @@
         },
         "id": 57,
         "parentId": 56,
+        "sortOrder": 61,
         "name": {
             "jpn": "ブルームホルンⅡ",
             "eng": "Blooming Horn II",
@@ -6348,6 +6400,7 @@
         },
         "id": 58,
         "parentId": 57,
+        "sortOrder": 62,
         "name": {
             "jpn": "ブルームホルンⅢ",
             "eng": "Blooming Horn III",
@@ -6467,6 +6520,7 @@
         },
         "id": 59,
         "parentId": 58,
+        "sortOrder": 63,
         "name": {
             "jpn": "ダチュラホルンⅠ",
             "eng": "Datura Horn I",
@@ -6589,6 +6643,7 @@
         },
         "id": 60,
         "parentId": 59,
+        "sortOrder": 64,
         "name": {
             "jpn": "ダチュラホルンⅡ",
             "eng": "Datura Horn II",
@@ -6711,6 +6766,7 @@
         },
         "id": 61,
         "parentId": 60,
+        "sortOrder": 65,
         "name": {
             "jpn": "ダチュラホルンⅢ",
             "eng": "Datura Horn III",
@@ -6837,6 +6893,7 @@
         },
         "id": 62,
         "parentId": 56,
+        "sortOrder": 66,
         "name": {
             "jpn": "ウルムーホルンⅠ",
             "eng": "Lumu Horn I",
@@ -6956,6 +7013,7 @@
         },
         "id": 63,
         "parentId": 62,
+        "sortOrder": 67,
         "name": {
             "jpn": "ウルムーホルンⅡ",
             "eng": "Lumu Horn II",
@@ -7087,6 +7145,7 @@
         },
         "id": 64,
         "parentId": 63,
+        "sortOrder": 68,
         "name": {
             "jpn": "ウルムーバローネⅠ",
             "eng": "Lumu Barone I",
@@ -7221,6 +7280,7 @@
         },
         "id": 65,
         "parentId": 64,
+        "sortOrder": 69,
         "name": {
             "jpn": "ウルムーバローネⅡ",
             "eng": "Lumu Barone II",
@@ -7355,6 +7415,7 @@
         },
         "id": 66,
         "parentId": 65,
+        "sortOrder": 70,
         "name": {
             "jpn": "ウルムーバローネⅢ",
             "eng": "Lumu Barone III",
@@ -7471,6 +7532,7 @@
         },
         "id": 67,
         "parentId": 64,
+        "sortOrder": 71,
         "name": {
             "jpn": "爆鱗の太鼓",
             "eng": "Rookslayer Drum",
@@ -7587,6 +7649,7 @@
         },
         "id": 68,
         "parentId": 67,
+        "sortOrder": 72,
         "name": {
             "jpn": "爆鱗鼓バゼルライド",
             "eng": "Bazelreid Rookslayer",
@@ -7707,6 +7770,7 @@
         },
         "id": 69,
         "parentId": 42,
+        "sortOrder": 73,
         "name": {
             "jpn": "ソニックホルンⅠ",
             "eng": "Sonic Horn I",
@@ -7820,6 +7884,7 @@
         },
         "id": 70,
         "parentId": 69,
+        "sortOrder": 74,
         "name": {
             "jpn": "ソニックホルンⅡ",
             "eng": "Sonic Horn II",
@@ -7937,6 +8002,7 @@
         },
         "id": 71,
         "parentId": 70,
+        "sortOrder": 75,
         "name": {
             "jpn": "ソニックホルンⅢ",
             "eng": "Sonic Horn III",
@@ -8062,6 +8128,7 @@
         },
         "id": 72,
         "parentId": 71,
+        "sortOrder": 76,
         "name": {
             "jpn": "ロイヤルビードロー",
             "eng": "Glass Royale",
@@ -8190,6 +8257,7 @@
         },
         "id": 73,
         "parentId": 72,
+        "sortOrder": 77,
         "name": {
             "jpn": "ロイヤルビードロー改",
             "eng": "Glass Royale+",
@@ -8318,6 +8386,7 @@
         },
         "id": 74,
         "parentId": 73,
+        "sortOrder": 78,
         "name": {
             "jpn": "女王笛ランゴスタ",
             "eng": "Queen Vespoid Horn",
@@ -8432,6 +8501,7 @@
         },
         "id": 75,
         "parentId": 69,
+        "sortOrder": 79,
         "name": {
             "jpn": "スパイクホルンⅠ",
             "eng": "Spiked Horn I",
@@ -8539,6 +8609,7 @@
         },
         "id": 76,
         "parentId": 75,
+        "sortOrder": 80,
         "name": {
             "jpn": "スパイクホルンⅡ",
             "eng": "Spiked Horn II",
@@ -8662,6 +8733,7 @@
         },
         "id": 77,
         "parentId": 76,
+        "sortOrder": 81,
         "name": {
             "jpn": "バルキンホルンⅠ",
             "eng": "Baan Horn I",
@@ -8785,6 +8857,7 @@
         },
         "id": 78,
         "parentId": 77,
+        "sortOrder": 82,
         "name": {
             "jpn": "バルキンホルンⅡ",
             "eng": "Baan Horn II",
@@ -8908,6 +8981,7 @@
         },
         "id": 79,
         "parentId": 78,
+        "sortOrder": 83,
         "name": {
             "jpn": "バルキンホルンⅢ",
             "eng": "Baan Horn III",
@@ -9044,6 +9118,7 @@
         },
         "id": 80,
         "parentId": -1,
+        "sortOrder": 84,
         "name": {
             "jpn": "龍骨古笛Ⅰ",
             "eng": "Dragonbone Auldhorn I",
@@ -9180,6 +9255,7 @@
         },
         "id": 81,
         "parentId": 80,
+        "sortOrder": 85,
         "name": {
             "jpn": "龍骨古笛Ⅱ",
             "eng": "Dragonbone Auldhorn II",
@@ -9312,6 +9388,7 @@
         },
         "id": 82,
         "parentId": 81,
+        "sortOrder": 86,
         "name": {
             "jpn": "龍骨古笛Ⅲ",
             "eng": "Dragonbone Auldhorn III",
@@ -9432,6 +9509,7 @@
         },
         "id": 83,
         "parentId": 80,
+        "sortOrder": 87,
         "name": {
             "jpn": "雷鳴ノ笛",
             "eng": "Thundercry Horn",
@@ -9563,6 +9641,7 @@
         },
         "id": 84,
         "parentId": 83,
+        "sortOrder": 88,
         "name": {
             "jpn": "雷光ノ笛Ⅰ",
             "eng": "Thunderbolt Horn I",
@@ -9694,6 +9773,7 @@
         },
         "id": 85,
         "parentId": 84,
+        "sortOrder": 89,
         "name": {
             "jpn": "雷光ノ笛Ⅱ",
             "eng": "Thunderbolt Horn II",
@@ -9830,6 +9910,7 @@
         },
         "id": 86,
         "parentId": -1,
+        "sortOrder": 90,
         "name": {
             "jpn": "黒鋼の龍笛Ⅰ",
             "eng": "Blacksteel Dragonhorn I",
@@ -9966,6 +10047,7 @@
         },
         "id": 87,
         "parentId": 86,
+        "sortOrder": 91,
         "name": {
             "jpn": "黒鋼の龍笛Ⅱ",
             "eng": "Blacksteel Dragonhorn II",
@@ -10086,6 +10168,7 @@
         },
         "id": 88,
         "parentId": 87,
+        "sortOrder": 92,
         "name": {
             "jpn": "テオ＝クエルダ",
             "eng": "Teostra's Tiple",
@@ -10206,6 +10289,7 @@
         },
         "id": 89,
         "parentId": 88,
+        "sortOrder": 93,
         "name": {
             "jpn": "テオ＝オルフェス",
             "eng": "Teostra's Orphée",
@@ -10333,6 +10417,7 @@
         },
         "id": 90,
         "parentId": 87,
+        "sortOrder": 94,
         "name": {
             "jpn": "ゼノ＝マナシーナ",
             "eng": "Xeno Manasheena",
@@ -10456,6 +10541,7 @@
         },
         "id": 91,
         "parentId": -1,
+        "sortOrder": 100,
         "name": {
             "jpn": "鎖縛の暴竜",
             "eng": "Devil's Maestro",
@@ -10576,6 +10662,7 @@
         },
         "id": 92,
         "parentId": 91,
+        "sortOrder": 101,
         "name": {
             "jpn": "ディープヴェロウ",
             "eng": "Deep Vero",
@@ -10689,6 +10776,7 @@
         },
         "id": 119,
         "parentId": -1,
+        "sortOrder": 128,
         "name": {
             "jpn": "エンプレスドラム",
             "eng": "Empress Roar",
@@ -10804,6 +10892,7 @@
         },
         "id": 120,
         "parentId": 119,
+        "sortOrder": 129,
         "name": {
             "jpn": "エンプレスドラム・炎妃",
             "eng": "Empress Roar \"Blaze\"",
@@ -10920,6 +11009,7 @@
         },
         "id": 121,
         "parentId": 119,
+        "sortOrder": 130,
         "name": {
             "jpn": "エンプレスドラム・滅尽",
             "eng": "Empress Roar \"Ruin\"",
@@ -11050,6 +11140,7 @@
         },
         "id": 122,
         "parentId": 119,
+        "sortOrder": 131,
         "name": {
             "jpn": "エンプレスドラム・冥灯",
             "eng": "Empress Roar \"Styx\"",
@@ -11180,6 +11271,7 @@
         },
         "id": 93,
         "parentId": -1,
+        "sortOrder": 102,
         "name": {
             "jpn": "金色の龍笛・水",
             "eng": "Gold Water Flute",
@@ -11285,6 +11377,7 @@
         },
         "id": 94,
         "parentId": -1,
+        "sortOrder": 103,
         "name": {
             "jpn": "金色の龍笛・龍",
             "eng": "Gold Dragon Flute",
@@ -11389,6 +11482,7 @@
         },
         "id": 95,
         "parentId": -1,
+        "sortOrder": 104,
         "name": {
             "jpn": "金色の龍笛・麻痺",
             "eng": "Gold Paralysis Flute",
@@ -11493,6 +11587,7 @@
         },
         "id": 96,
         "parentId": -1,
+        "sortOrder": 105,
         "name": {
             "jpn": "金色の龍笛・飛甲",
             "eng": "Buzzer Gold Flute",
@@ -11603,6 +11698,7 @@
         },
         "id": 97,
         "parentId": -1,
+        "sortOrder": 106,
         "name": {
             "jpn": "金色の龍笛・掻",
             "eng": "Thief Gold Flute",
@@ -11701,6 +11797,7 @@
         },
         "id": 98,
         "parentId": -1,
+        "sortOrder": 107,
         "name": {
             "jpn": "金色の龍笛・毒妖",
             "eng": "Spew Gold Flute",
@@ -11808,6 +11905,7 @@
         },
         "id": 99,
         "parentId": -1,
+        "sortOrder": 108,
         "name": {
             "jpn": "金色の龍笛・蛮顎",
             "eng": "Rage Gold Flute",
@@ -11918,6 +12016,7 @@
         },
         "id": 100,
         "parentId": -1,
+        "sortOrder": 109,
         "name": {
             "jpn": "金色の龍笛・浮空",
             "eng": "Drifter Gold Flute",
@@ -12023,6 +12122,7 @@
         },
         "id": 101,
         "parentId": -1,
+        "sortOrder": 110,
         "name": {
             "jpn": "金色の龍笛・風漂",
             "eng": "Stream Gold Flute",
@@ -12125,6 +12225,7 @@
         },
         "id": 102,
         "parentId": -1,
+        "sortOrder": 111,
         "name": {
             "jpn": "金色の龍笛・骨鎚",
             "eng": "Tar Gold Flute",
@@ -12235,6 +12336,7 @@
         },
         "id": 103,
         "parentId": -1,
+        "sortOrder": 112,
         "name": {
             "jpn": "金色の龍笛・幻",
             "eng": "Myth Gold Flute",
@@ -12334,6 +12436,7 @@
         },
         "id": 104,
         "parentId": -1,
+        "sortOrder": 113,
         "name": {
             "jpn": "金色の龍笛・岩賊",
             "eng": "Crusher Gold Flute",
@@ -12438,6 +12541,7 @@
         },
         "id": 106,
         "parentId": -1,
+        "sortOrder": 115,
         "name": {
             "jpn": "ガイラパイプ・飛甲",
             "eng": "Taroth Pipe \"Buzzer\"",
@@ -12548,6 +12652,7 @@
         },
         "id": 107,
         "parentId": -1,
+        "sortOrder": 116,
         "name": {
             "jpn": "ガイラパイプ・掻",
             "eng": "Taroth Pipe \"Thief\"",
@@ -12646,6 +12751,7 @@
         },
         "id": 108,
         "parentId": -1,
+        "sortOrder": 117,
         "name": {
             "jpn": "ガイラパイプ・毒妖",
             "eng": "Taroth Pipe \"Spew\"",
@@ -12753,6 +12859,7 @@
         },
         "id": 109,
         "parentId": -1,
+        "sortOrder": 118,
         "name": {
             "jpn": "ガイラパイプ・蛮顎",
             "eng": "Taroth Pipe \"Rage\"",
@@ -12863,6 +12970,7 @@
         },
         "id": 110,
         "parentId": -1,
+        "sortOrder": 119,
         "name": {
             "jpn": "ガイラパイプ・浮空",
             "eng": "Taroth Pipe \"Drifter\"",
@@ -12968,6 +13076,7 @@
         },
         "id": 111,
         "parentId": -1,
+        "sortOrder": 120,
         "name": {
             "jpn": "ガイラパイプ・風漂",
             "eng": "Taroth Pipe \"Stream\"",
@@ -13070,6 +13179,7 @@
         },
         "id": 112,
         "parentId": -1,
+        "sortOrder": 121,
         "name": {
             "jpn": "ガイラパイプ・骨鎚",
             "eng": "Taroth Pipe \"Tar\"",
@@ -13180,6 +13290,7 @@
         },
         "id": 113,
         "parentId": -1,
+        "sortOrder": 122,
         "name": {
             "jpn": "ガイラパイプ・幻",
             "eng": "Taroth Pipe \"Myth\"",
@@ -13279,6 +13390,7 @@
         },
         "id": 114,
         "parentId": -1,
+        "sortOrder": 123,
         "name": {
             "jpn": "ガイラパイプ・岩賊",
             "eng": "Taroth Pipe \"Crusher\"",
@@ -13384,6 +13496,7 @@
         },
         "id": 116,
         "parentId": -1,
+        "sortOrder": 125,
         "name": {
             "jpn": "ガイラパイプ・水",
             "eng": "Taroth Pipe \"Water\"",
@@ -13491,6 +13604,7 @@
         },
         "id": 117,
         "parentId": -1,
+        "sortOrder": 126,
         "name": {
             "jpn": "ガイラパイプ・龍",
             "eng": "Taroth Pipe \"Dragon\"",
@@ -13597,6 +13711,7 @@
         },
         "id": 118,
         "parentId": -1,
+        "sortOrder": 127,
         "name": {
             "jpn": "ガイラパイプ・麻痺",
             "eng": "Taroth Pipe \"Paralysis\"",
@@ -13691,6 +13806,7 @@
         },
         "id": 123,
         "parentId": -1,
+        "sortOrder": 132,
         "name": {
             "jpn": "ガイラパイプ・睡眠",
             "eng": "Taroth Pipe \"Sleep\"",
@@ -13797,6 +13913,7 @@
         },
         "id": 124,
         "parentId": -1,
+        "sortOrder": 133,
         "name": {
             "jpn": "皇金の龍笛・麻痺",
             "eng": "Kjárr Pipe \"Paralysis\"",
@@ -13905,6 +14022,7 @@
         },
         "id": 125,
         "parentId": -1,
+        "sortOrder": 134,
         "name": {
             "jpn": "皇金の龍笛・蛮顎",
             "eng": "Kjárr Pipe \"Rage\"",
@@ -14018,6 +14136,7 @@
         },
         "id": 126,
         "parentId": -1,
+        "sortOrder": 135,
         "name": {
             "jpn": "皇金の龍笛・幻",
             "eng": "Kjárr Pipe \"Myth\"",
@@ -14118,6 +14237,7 @@
         },
         "id": 127,
         "parentId": -1,
+        "sortOrder": 136,
         "name": {
             "jpn": "皇金の龍笛・岩賊",
             "eng": "Kjárr Pipe \"Crusher\"",
@@ -14226,6 +14346,7 @@
         },
         "id": 128,
         "parentId": -1,
+        "sortOrder": 137,
         "name": {
             "jpn": "皇金の龍笛・風漂",
             "eng": "Kjárr Pipe \"Stream\"",
@@ -14332,6 +14453,7 @@
         },
         "id": 129,
         "parentId": -1,
+        "sortOrder": 138,
         "name": {
             "jpn": "皇金の龍笛・水",
             "eng": "Kjárr Pipe \"Water\"",
@@ -14440,6 +14562,7 @@
         },
         "id": 130,
         "parentId": -1,
+        "sortOrder": 139,
         "name": {
             "jpn": "皇金の龍笛・龍",
             "eng": "Kjárr Pipe \"Dragon\"",

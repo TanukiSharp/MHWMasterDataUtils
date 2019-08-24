@@ -24,6 +24,7 @@
         },
         "id": 6,
         "parentId": -1,
+        "sortOrder": 10,
         "name": {
             "jpn": "アイアンガンランスⅠ",
             "eng": "Iron Gunlance I",
@@ -102,6 +103,7 @@
         },
         "id": 7,
         "parentId": 6,
+        "sortOrder": 11,
         "name": {
             "jpn": "アイアンガンランスⅡ",
             "eng": "Iron Gunlance II",
@@ -180,6 +182,7 @@
         },
         "id": 8,
         "parentId": 7,
+        "sortOrder": 12,
         "name": {
             "jpn": "アイアンガンランスⅢ",
             "eng": "Iron Gunlance III",
@@ -266,6 +269,7 @@
         },
         "id": 9,
         "parentId": 8,
+        "sortOrder": 13,
         "name": {
             "jpn": "スティールガンランスⅠ",
             "eng": "Steel Gunlance I",
@@ -352,6 +356,7 @@
         },
         "id": 10,
         "parentId": 9,
+        "sortOrder": 14,
         "name": {
             "jpn": "スティールガンランスⅡ",
             "eng": "Steel Gunlance II",
@@ -442,6 +447,7 @@
         },
         "id": 11,
         "parentId": 10,
+        "sortOrder": 15,
         "name": {
             "jpn": "スティールガンランスⅢ",
             "eng": "Steel Gunlance III",
@@ -530,6 +536,7 @@
         },
         "id": 12,
         "parentId": 11,
+        "sortOrder": 16,
         "name": {
             "jpn": "クロムガンランスⅠ",
             "eng": "Chrome Gunlance I",
@@ -622,6 +629,7 @@
         },
         "id": 13,
         "parentId": 12,
+        "sortOrder": 17,
         "name": {
             "jpn": "クロムガンランスⅡ",
             "eng": "Chrome Gunlance II",
@@ -715,6 +723,7 @@
         },
         "id": 14,
         "parentId": 12,
+        "sortOrder": 18,
         "name": {
             "jpn": "ネルガルクランブル",
             "eng": "Nergal Ram",
@@ -807,6 +816,7 @@
         },
         "id": 15,
         "parentId": 14,
+        "sortOrder": 19,
         "name": {
             "jpn": "焼滅の種火",
             "eng": "Eradication Flame",
@@ -899,6 +909,7 @@
         },
         "id": 16,
         "parentId": 7,
+        "sortOrder": 20,
         "name": {
             "jpn": "パルサーガンランスⅠ",
             "eng": "Pulsar Gunlance I",
@@ -985,6 +996,7 @@
         },
         "id": 17,
         "parentId": 16,
+        "sortOrder": 21,
         "name": {
             "jpn": "パルサーガンランスⅡ",
             "eng": "Pulsar Gunlance II",
@@ -1075,6 +1087,7 @@
         },
         "id": 18,
         "parentId": 17,
+        "sortOrder": 22,
         "name": {
             "jpn": "パルサーガンランスⅢ",
             "eng": "Pulsar Gunlance III",
@@ -1165,6 +1178,7 @@
         },
         "id": 19,
         "parentId": 18,
+        "sortOrder": 23,
         "name": {
             "jpn": "飛雷銃槍テツカガチ",
             "eng": "Kadachi Striker",
@@ -1257,6 +1271,7 @@
         },
         "id": 20,
         "parentId": 19,
+        "sortOrder": 87,
         "name": {
             "jpn": "飛雷銃槍テツカガチ改",
             "eng": "Kadachi Striker+",
@@ -1349,6 +1364,7 @@
         },
         "id": 21,
         "parentId": 20,
+        "sortOrder": 24,
         "name": {
             "jpn": "飛雷銃槍【蜻蛉切】",
             "eng": "Mythic Kadachi Striker",
@@ -1441,6 +1457,7 @@
         },
         "id": 22,
         "parentId": 17,
+        "sortOrder": 25,
         "name": {
             "jpn": "火竜銃槍Ⅰ",
             "eng": "Rath Gunlance I",
@@ -1531,6 +1548,7 @@
         },
         "id": 23,
         "parentId": 22,
+        "sortOrder": 26,
         "name": {
             "jpn": "火竜銃槍Ⅱ",
             "eng": "Rath Gunlance II",
@@ -1623,6 +1641,7 @@
         },
         "id": 24,
         "parentId": 23,
+        "sortOrder": 27,
         "name": {
             "jpn": "レッドルーク",
             "eng": "Red Rook",
@@ -1715,6 +1734,7 @@
         },
         "id": 25,
         "parentId": 24,
+        "sortOrder": 28,
         "name": {
             "jpn": "ブルールーク",
             "eng": "Blue Rook",
@@ -1807,6 +1827,7 @@
         },
         "id": 26,
         "parentId": 25,
+        "sortOrder": 29,
         "name": {
             "jpn": "ブルーチャリオット",
             "eng": "Blue Chariot",
@@ -1899,6 +1920,7 @@
         },
         "id": 27,
         "parentId": 16,
+        "sortOrder": 30,
         "name": {
             "jpn": "プリンセスバースト",
             "eng": "Princess Panoply",
@@ -1985,6 +2007,7 @@
         },
         "id": 28,
         "parentId": 27,
+        "sortOrder": 31,
         "name": {
             "jpn": "プリンセスバースト改",
             "eng": "Princess Panoply+",
@@ -2077,6 +2100,7 @@
         },
         "id": 29,
         "parentId": 28,
+        "sortOrder": 32,
         "name": {
             "jpn": "ローゼスバースト",
             "eng": "Rose Burst",
@@ -2169,6 +2193,7 @@
         },
         "id": 30,
         "parentId": 29,
+        "sortOrder": 33,
         "name": {
             "jpn": "ロイヤルバースト",
             "eng": "Royal Burst",
@@ -2261,6 +2286,7 @@
         },
         "id": 31,
         "parentId": 7,
+        "sortOrder": 34,
         "name": {
             "jpn": "マッドガンランスⅠ",
             "eng": "Madness Gunlance I",
@@ -2351,6 +2377,7 @@
         },
         "id": 32,
         "parentId": 31,
+        "sortOrder": 35,
         "name": {
             "jpn": "マッドガンランスⅡ",
             "eng": "Madness Gunlance II",
@@ -2441,6 +2468,7 @@
         },
         "id": 33,
         "parentId": 32,
+        "sortOrder": 36,
         "name": {
             "jpn": "マッドガンランスⅢ",
             "eng": "Madness Gunlance III",
@@ -2531,6 +2559,7 @@
         },
         "id": 34,
         "parentId": 33,
+        "sortOrder": 37,
         "name": {
             "jpn": "シュラムバスターⅠ",
             "eng": "Jyura Buster I",
@@ -2623,6 +2652,7 @@
         },
         "id": 35,
         "parentId": 34,
+        "sortOrder": 38,
         "name": {
             "jpn": "シュラムバスターⅡ",
             "eng": "Jyura Buster II",
@@ -2715,6 +2745,7 @@
         },
         "id": 36,
         "parentId": 35,
+        "sortOrder": 39,
         "name": {
             "jpn": "シュラムバスターⅢ",
             "eng": "Jyura Buster III",
@@ -2807,6 +2838,7 @@
         },
         "id": 37,
         "parentId": 32,
+        "sortOrder": 40,
         "name": {
             "jpn": "グレイスガンランスⅠ",
             "eng": "Glacial Gunlance I",
@@ -2893,6 +2925,7 @@
         },
         "id": 38,
         "parentId": 37,
+        "sortOrder": 41,
         "name": {
             "jpn": "グレイスガンランスⅡ",
             "eng": "Glacial Gunlance II",
@@ -2983,6 +3016,7 @@
         },
         "id": 39,
         "parentId": 38,
+        "sortOrder": 42,
         "name": {
             "jpn": "ギエナキャノンⅠ",
             "eng": "Legiana Cannon I",
@@ -3073,6 +3107,7 @@
         },
         "id": 40,
         "parentId": 39,
+        "sortOrder": 43,
         "name": {
             "jpn": "ギエナキャノンⅡ",
             "eng": "Legiana Cannon II",
@@ -3163,6 +3198,7 @@
         },
         "id": 41,
         "parentId": -1,
+        "sortOrder": 44,
         "name": {
             "jpn": "骨銃槍Ⅰ",
             "eng": "Bone Gunlance I",
@@ -3241,6 +3277,7 @@
         },
         "id": 42,
         "parentId": 41,
+        "sortOrder": 45,
         "name": {
             "jpn": "骨銃槍Ⅱ",
             "eng": "Bone Gunlance II",
@@ -3319,6 +3356,7 @@
         },
         "id": 43,
         "parentId": 42,
+        "sortOrder": 46,
         "name": {
             "jpn": "骨銃槍Ⅲ",
             "eng": "Bone Gunlance III",
@@ -3401,6 +3439,7 @@
         },
         "id": 44,
         "parentId": 43,
+        "sortOrder": 47,
         "name": {
             "jpn": "大骨銃槍Ⅰ",
             "eng": "Bone Cannon I",
@@ -3487,6 +3526,7 @@
         },
         "id": 45,
         "parentId": 44,
+        "sortOrder": 48,
         "name": {
             "jpn": "大骨銃槍Ⅱ",
             "eng": "Bone Cannon II",
@@ -3573,6 +3613,7 @@
         },
         "id": 46,
         "parentId": 45,
+        "sortOrder": 49,
         "name": {
             "jpn": "大骨銃槍Ⅲ",
             "eng": "Bone Cannon III",
@@ -3661,6 +3702,7 @@
         },
         "id": 47,
         "parentId": 46,
+        "sortOrder": 50,
         "name": {
             "jpn": "大骨銃槍【竜尾】Ⅰ",
             "eng": "Great Bone Gunlance I",
@@ -3749,6 +3791,7 @@
         },
         "id": 48,
         "parentId": 47,
+        "sortOrder": 51,
         "name": {
             "jpn": "大骨銃槍【竜尾】Ⅱ",
             "eng": "Great Bone Gunlance II",
@@ -3841,6 +3884,7 @@
         },
         "id": 49,
         "parentId": 46,
+        "sortOrder": 52,
         "name": {
             "jpn": "バゼルバスターⅠ",
             "eng": "Bazel Buster I",
@@ -3933,6 +3977,7 @@
         },
         "id": 50,
         "parentId": 49,
+        "sortOrder": 53,
         "name": {
             "jpn": "バゼルバスターⅡ",
             "eng": "Bazel Buster II",
@@ -4025,6 +4070,7 @@
         },
         "id": 51,
         "parentId": 42,
+        "sortOrder": 54,
         "name": {
             "jpn": "牙竜銃槍Ⅰ",
             "eng": "Jagras Gunlance I",
@@ -4115,6 +4161,7 @@
         },
         "id": 52,
         "parentId": 51,
+        "sortOrder": 55,
         "name": {
             "jpn": "牙竜銃槍Ⅱ",
             "eng": "Jagras Gunlance II",
@@ -4205,6 +4252,7 @@
         },
         "id": 53,
         "parentId": 52,
+        "sortOrder": 56,
         "name": {
             "jpn": "牙竜銃槍Ⅲ",
             "eng": "Jagras Gunlance III",
@@ -4295,6 +4343,7 @@
         },
         "id": 54,
         "parentId": 53,
+        "sortOrder": 57,
         "name": {
             "jpn": "牙竜銃槍【大喰】Ⅰ",
             "eng": "Glutton Gunlance I",
@@ -4388,6 +4437,7 @@
         },
         "id": 55,
         "parentId": 54,
+        "sortOrder": 58,
         "name": {
             "jpn": "牙竜銃槍【大喰】Ⅱ",
             "eng": "Glutton Gunlance II",
@@ -4481,6 +4531,7 @@
         },
         "id": 56,
         "parentId": 55,
+        "sortOrder": 59,
         "name": {
             "jpn": "牙竜銃槍【大喰】Ⅲ",
             "eng": "Glutton Gunlance III",
@@ -4574,6 +4625,7 @@
         },
         "id": 57,
         "parentId": 51,
+        "sortOrder": 60,
         "name": {
             "jpn": "牙竜銃槍【黄牙】Ⅰ",
             "eng": "Girros Gunlance I",
@@ -4660,6 +4712,7 @@
         },
         "id": 58,
         "parentId": 57,
+        "sortOrder": 61,
         "name": {
             "jpn": "牙竜銃槍【黄牙】Ⅱ",
             "eng": "Girros Gunlance II",
@@ -4750,6 +4803,7 @@
         },
         "id": 59,
         "parentId": 58,
+        "sortOrder": 62,
         "name": {
             "jpn": "牙竜銃槍【黒頭巾】Ⅰ",
             "eng": "Deathfang Gunlance I",
@@ -4840,6 +4894,7 @@
         },
         "id": 60,
         "parentId": 59,
+        "sortOrder": 63,
         "name": {
             "jpn": "牙竜銃槍【黒頭巾】Ⅱ",
             "eng": "Deathfang Gunlance II",
@@ -4930,6 +4985,7 @@
         },
         "id": 61,
         "parentId": 60,
+        "sortOrder": 64,
         "name": {
             "jpn": "牙竜銃槍【黒頭巾】Ⅲ",
             "eng": "Deathfang Gunlance III",
@@ -5020,6 +5076,7 @@
         },
         "id": 62,
         "parentId": 60,
+        "sortOrder": 65,
         "name": {
             "jpn": "ハザクスピサⅠ",
             "eng": "Hazak Spysa I",
@@ -5112,6 +5169,7 @@
         },
         "id": 63,
         "parentId": 62,
+        "sortOrder": 66,
         "name": {
             "jpn": "ハザクスピサⅡ",
             "eng": "Hazak Spysa II",
@@ -5204,6 +5262,7 @@
         },
         "id": 64,
         "parentId": 42,
+        "sortOrder": 67,
         "name": {
             "jpn": "ドラグロガンランスⅠ",
             "eng": "Carapace Cannon I",
@@ -5290,6 +5349,7 @@
         },
         "id": 65,
         "parentId": 64,
+        "sortOrder": 68,
         "name": {
             "jpn": "ドラグロガンランスⅡ",
             "eng": "Carapace Cannon II",
@@ -5380,6 +5440,7 @@
         },
         "id": 66,
         "parentId": 65,
+        "sortOrder": 69,
         "name": {
             "jpn": "ドラグロガンランスⅢ",
             "eng": "Carapace Cannon III",
@@ -5470,6 +5531,7 @@
         },
         "id": 67,
         "parentId": 66,
+        "sortOrder": 70,
         "name": {
             "jpn": "ボルボバスターⅠ",
             "eng": "Barroth Blaster I",
@@ -5560,6 +5622,7 @@
         },
         "id": 68,
         "parentId": 67,
+        "sortOrder": 71,
         "name": {
             "jpn": "ボルボバスターⅡ",
             "eng": "Barroth Blaster II",
@@ -5650,6 +5713,7 @@
         },
         "id": 69,
         "parentId": 68,
+        "sortOrder": 72,
         "name": {
             "jpn": "ボルボバスターⅢ",
             "eng": "Barroth Blaster III",
@@ -5740,6 +5804,7 @@
         },
         "id": 70,
         "parentId": 64,
+        "sortOrder": 73,
         "name": {
             "jpn": "ブレイズガンランスⅠ",
             "eng": "Blazing Gunlance I",
@@ -5826,6 +5891,7 @@
         },
         "id": 71,
         "parentId": 70,
+        "sortOrder": 74,
         "name": {
             "jpn": "ブレイズガンランスⅡ",
             "eng": "Blazing Gunlance II",
@@ -5916,6 +5982,7 @@
         },
         "id": 72,
         "parentId": 71,
+        "sortOrder": 75,
         "name": {
             "jpn": "ジャナフキャノンⅠ",
             "eng": "Anja Cannon I",
@@ -6006,6 +6073,7 @@
         },
         "id": 73,
         "parentId": 72,
+        "sortOrder": 76,
         "name": {
             "jpn": "ジャナフキャノンⅡ",
             "eng": "Anja Cannon II",
@@ -6096,6 +6164,7 @@
         },
         "id": 74,
         "parentId": 73,
+        "sortOrder": 77,
         "name": {
             "jpn": "ジャナフキャノンⅢ",
             "eng": "Anja Cannon III",
@@ -6186,6 +6255,7 @@
         },
         "id": 75,
         "parentId": -1,
+        "sortOrder": 78,
         "name": {
             "jpn": "龍骨銃槍Ⅰ",
             "eng": "Dragonbone Gunlance I",
@@ -6276,6 +6346,7 @@
         },
         "id": 76,
         "parentId": 75,
+        "sortOrder": 79,
         "name": {
             "jpn": "龍骨銃槍Ⅱ",
             "eng": "Dragonbone Gunlance II",
@@ -6362,6 +6433,7 @@
         },
         "id": 77,
         "parentId": 76,
+        "sortOrder": 80,
         "name": {
             "jpn": "龍骨銃槍Ⅲ",
             "eng": "Dragonbone Gunlance III",
@@ -6455,6 +6527,7 @@
         },
         "id": 78,
         "parentId": 75,
+        "sortOrder": 88,
         "name": {
             "jpn": "マグダ・ラハト",
             "eng": "Magda Lahat",
@@ -6545,6 +6618,7 @@
         },
         "id": 79,
         "parentId": 78,
+        "sortOrder": 81,
         "name": {
             "jpn": "驚天動地マグラハト",
             "eng": "Earthshaker Magda Lahat",
@@ -6635,6 +6709,7 @@
         },
         "id": 80,
         "parentId": -1,
+        "sortOrder": 82,
         "name": {
             "jpn": "黒鋼の銃槍Ⅰ",
             "eng": "Blacksteel Gunlance I",
@@ -6725,6 +6800,7 @@
         },
         "id": 81,
         "parentId": 80,
+        "sortOrder": 83,
         "name": {
             "jpn": "黒鋼の銃槍Ⅱ",
             "eng": "Blacksteel Gunlance II",
@@ -6815,6 +6891,7 @@
         },
         "id": 82,
         "parentId": 81,
+        "sortOrder": 84,
         "name": {
             "jpn": "鋼氷銃槍",
             "eng": "Icesteel Gunlance",
@@ -6907,6 +6984,7 @@
         },
         "id": 83,
         "parentId": 82,
+        "sortOrder": 85,
         "name": {
             "jpn": "ダオラ＝ブリジア",
             "eng": "Daora's Brigia",
@@ -6999,6 +7077,7 @@
         },
         "id": 84,
         "parentId": 81,
+        "sortOrder": 86,
         "name": {
             "jpn": "ゼノ＝ヘムタ",
             "eng": "Xeno Hemta",
@@ -7092,6 +7171,7 @@
         },
         "id": 85,
         "parentId": -1,
+        "sortOrder": 100,
         "name": {
             "jpn": "愚欲の銃槍",
             "eng": "Ravenous Gunlance",
@@ -7182,6 +7262,7 @@
         },
         "id": 86,
         "parentId": 85,
+        "sortOrder": 101,
         "name": {
             "jpn": "暴銃槍グラグリード",
             "eng": "Insatiable Gunlance",
@@ -7272,6 +7353,7 @@
         },
         "id": 113,
         "parentId": -1,
+        "sortOrder": 128,
         "name": {
             "jpn": "エンプレスハウル",
             "eng": "Empress Howl",
@@ -7364,6 +7446,7 @@
         },
         "id": 114,
         "parentId": 113,
+        "sortOrder": 129,
         "name": {
             "jpn": "エンプレスハウル・炎妃",
             "eng": "Empress Howl \"Blaze\"",
@@ -7457,6 +7540,7 @@
         },
         "id": 115,
         "parentId": 113,
+        "sortOrder": 130,
         "name": {
             "jpn": "エンプレスハウル・滅尽",
             "eng": "Empress Howl \"Ruin\"",
@@ -7550,6 +7634,7 @@
         },
         "id": 116,
         "parentId": 113,
+        "sortOrder": 131,
         "name": {
             "jpn": "エンプレスハウル・冥灯",
             "eng": "Empress Howl \"Styx\"",
@@ -7644,6 +7729,7 @@
         },
         "id": 87,
         "parentId": -1,
+        "sortOrder": 102,
         "name": {
             "jpn": "金色の銃槍・水",
             "eng": "Gold Water Exploder",
@@ -7713,6 +7799,7 @@
         },
         "id": 88,
         "parentId": -1,
+        "sortOrder": 103,
         "name": {
             "jpn": "金色の銃槍・毒",
             "eng": "Gold Poison Exploder",
@@ -7782,6 +7869,7 @@
         },
         "id": 89,
         "parentId": -1,
+        "sortOrder": 104,
         "name": {
             "jpn": "金色の銃槍・睡眠",
             "eng": "Gold Sleep Exploder",
@@ -7851,6 +7939,7 @@
         },
         "id": 90,
         "parentId": -1,
+        "sortOrder": 105,
         "name": {
             "jpn": "金色の銃槍・賊",
             "eng": "Glutton Gold Exploder",
@@ -7920,6 +8009,7 @@
         },
         "id": 91,
         "parentId": -1,
+        "sortOrder": 106,
         "name": {
             "jpn": "金色の銃槍・泥魚",
             "eng": "Mire Gold Exploder",
@@ -7989,6 +8079,7 @@
         },
         "id": 92,
         "parentId": -1,
+        "sortOrder": 107,
         "name": {
             "jpn": "金色の銃槍・土砂",
             "eng": "Mud Gold Exploder",
@@ -8058,6 +8149,7 @@
         },
         "id": 93,
         "parentId": -1,
+        "sortOrder": 108,
         "name": {
             "jpn": "金色の銃槍・飛雷",
             "eng": "Spark Gold Exploder",
@@ -8127,6 +8219,7 @@
         },
         "id": 94,
         "parentId": -1,
+        "sortOrder": 109,
         "name": {
             "jpn": "金色の銃槍・蛮顎",
             "eng": "Rage Gold Exploder",
@@ -8196,6 +8289,7 @@
         },
         "id": 95,
         "parentId": -1,
+        "sortOrder": 110,
         "name": {
             "jpn": "金色の銃槍・痺賊",
             "eng": "Numb Gold Exploder",
@@ -8265,6 +8359,7 @@
         },
         "id": 96,
         "parentId": -1,
+        "sortOrder": 111,
         "name": {
             "jpn": "金色の銃槍・風漂",
             "eng": "Stream Gold Exploder",
@@ -8334,6 +8429,7 @@
         },
         "id": 97,
         "parentId": -1,
+        "sortOrder": 112,
         "name": {
             "jpn": "金色の銃槍・屍套",
             "eng": "Decay Gold Exploder",
@@ -8403,6 +8499,7 @@
         },
         "id": 98,
         "parentId": -1,
+        "sortOrder": 113,
         "name": {
             "jpn": "金色の銃槍・王",
             "eng": "King Gold Exploder",
@@ -8472,6 +8569,7 @@
         },
         "id": 99,
         "parentId": -1,
+        "sortOrder": 114,
         "name": {
             "jpn": "金色の銃槍・爆鱗",
             "eng": "Bomber Gold Exploder",
@@ -8541,6 +8639,7 @@
         },
         "id": 100,
         "parentId": -1,
+        "sortOrder": 115,
         "name": {
             "jpn": "ガイラバスター・賊",
             "eng": "Taroth Buster \"Glutton\"",
@@ -8610,6 +8709,7 @@
         },
         "id": 101,
         "parentId": -1,
+        "sortOrder": 116,
         "name": {
             "jpn": "ガイラバスター・泥魚",
             "eng": "Taroth Buster \"Mire\"",
@@ -8679,6 +8779,7 @@
         },
         "id": 102,
         "parentId": -1,
+        "sortOrder": 117,
         "name": {
             "jpn": "ガイラバスター・土砂",
             "eng": "Taroth Buster \"Mud\"",
@@ -8748,6 +8849,7 @@
         },
         "id": 103,
         "parentId": -1,
+        "sortOrder": 118,
         "name": {
             "jpn": "ガイラバスター・飛雷",
             "eng": "Taroth Buster \"Spark\"",
@@ -8817,6 +8919,7 @@
         },
         "id": 104,
         "parentId": -1,
+        "sortOrder": 119,
         "name": {
             "jpn": "ガイラバスター・蛮顎",
             "eng": "Taroth Buster \"Rage\"",
@@ -8886,6 +8989,7 @@
         },
         "id": 105,
         "parentId": -1,
+        "sortOrder": 120,
         "name": {
             "jpn": "ガイラバスター・痺賊",
             "eng": "Taroth Buster \"Numb\"",
@@ -8955,6 +9059,7 @@
         },
         "id": 106,
         "parentId": -1,
+        "sortOrder": 121,
         "name": {
             "jpn": "ガイラバスター・風漂",
             "eng": "Taroth Buster \"Stream\"",
@@ -9024,6 +9129,7 @@
         },
         "id": 107,
         "parentId": -1,
+        "sortOrder": 122,
         "name": {
             "jpn": "ガイラバスター・屍套",
             "eng": "Taroth Buster \"Decay\"",
@@ -9093,6 +9199,7 @@
         },
         "id": 108,
         "parentId": -1,
+        "sortOrder": 123,
         "name": {
             "jpn": "ガイラバスター・王",
             "eng": "Taroth Buster \"King\"",
@@ -9162,6 +9269,7 @@
         },
         "id": 109,
         "parentId": -1,
+        "sortOrder": 124,
         "name": {
             "jpn": "ガイラバスター・爆鱗",
             "eng": "Taroth Buster \"Bomber\"",
@@ -9231,6 +9339,7 @@
         },
         "id": 110,
         "parentId": -1,
+        "sortOrder": 125,
         "name": {
             "jpn": "ガイラバスター・水",
             "eng": "Taroth Buster \"Water\"",
@@ -9302,6 +9411,7 @@
         },
         "id": 111,
         "parentId": -1,
+        "sortOrder": 126,
         "name": {
             "jpn": "ガイラバスター・毒",
             "eng": "Taroth Buster \"Poison\"",
@@ -9373,6 +9483,7 @@
         },
         "id": 112,
         "parentId": -1,
+        "sortOrder": 127,
         "name": {
             "jpn": "ガイラバスター・睡眠",
             "eng": "Taroth Buster \"Sleep\"",
@@ -9444,6 +9555,7 @@
         },
         "id": 117,
         "parentId": -1,
+        "sortOrder": 132,
         "name": {
             "jpn": "ガイラバスター・氷",
             "eng": "Taroth Buster \"Ice\"",
@@ -9515,6 +9627,7 @@
         },
         "id": 118,
         "parentId": -1,
+        "sortOrder": 133,
         "name": {
             "jpn": "皇金の銃槍・風漂",
             "eng": "Kjárr Buster \"Stream\"",
@@ -9585,6 +9698,7 @@
         },
         "id": 119,
         "parentId": -1,
+        "sortOrder": 134,
         "name": {
             "jpn": "皇金の銃槍・屍套",
             "eng": "Kjárr Buster \"Decay\"",
@@ -9655,6 +9769,7 @@
         },
         "id": 120,
         "parentId": -1,
+        "sortOrder": 135,
         "name": {
             "jpn": "皇金の銃槍・王",
             "eng": "Kjárr Buster \"King\"",
@@ -9725,6 +9840,7 @@
         },
         "id": 121,
         "parentId": -1,
+        "sortOrder": 136,
         "name": {
             "jpn": "皇金の銃槍・爆鱗",
             "eng": "Kjárr Buster \"Bomber\"",
@@ -9797,6 +9913,7 @@
         },
         "id": 122,
         "parentId": -1,
+        "sortOrder": 137,
         "name": {
             "jpn": "皇金の銃槍・飛雷",
             "eng": "Kjárr Buster \"Spark\"",
@@ -9867,6 +9984,7 @@
         },
         "id": 123,
         "parentId": -1,
+        "sortOrder": 138,
         "name": {
             "jpn": "皇金の銃槍・麻痺",
             "eng": "Kjárr Buster \"Paralysis\"",
@@ -9937,6 +10055,7 @@
         },
         "id": 124,
         "parentId": -1,
+        "sortOrder": 139,
         "name": {
             "jpn": "皇金の銃槍・水",
             "eng": "Kjárr Buster \"Water\"",

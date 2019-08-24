@@ -20,6 +20,7 @@
         },
         "id": 8,
         "parentId": -1,
+        "sortOrder": 10,
         "name": {
             "jpn": "ツインダガーⅠ",
             "eng": "Matched Slicers I",
@@ -94,6 +95,7 @@
         },
         "id": 9,
         "parentId": 8,
+        "sortOrder": 11,
         "name": {
             "jpn": "ツインダガーⅡ",
             "eng": "Matched Slicers II",
@@ -168,6 +170,7 @@
         },
         "id": 10,
         "parentId": 9,
+        "sortOrder": 12,
         "name": {
             "jpn": "ツインダガーⅢ",
             "eng": "Matched Slicers III",
@@ -250,6 +253,7 @@
         },
         "id": 11,
         "parentId": 10,
+        "sortOrder": 13,
         "name": {
             "jpn": "デュエルツインダガーⅠ",
             "eng": "Dual Slicers I",
@@ -332,6 +336,7 @@
         },
         "id": 12,
         "parentId": 11,
+        "sortOrder": 14,
         "name": {
             "jpn": "デュエルツインダガーⅡ",
             "eng": "Dual Slicers II",
@@ -418,6 +423,7 @@
         },
         "id": 13,
         "parentId": 12,
+        "sortOrder": 15,
         "name": {
             "jpn": "デュエルツインダガーⅢ",
             "eng": "Dual Slicers III",
@@ -502,6 +508,7 @@
         },
         "id": 14,
         "parentId": 13,
+        "sortOrder": 16,
         "name": {
             "jpn": "クロムツインダガーⅠ",
             "eng": "Chrome Slicers I",
@@ -590,6 +597,7 @@
         },
         "id": 15,
         "parentId": 14,
+        "sortOrder": 17,
         "name": {
             "jpn": "クロムツインダガーⅡ",
             "eng": "Chrome Slicers II",
@@ -679,6 +687,7 @@
         },
         "id": 16,
         "parentId": 14,
+        "sortOrder": 18,
         "name": {
             "jpn": "ネルガルガウジ",
             "eng": "Nergal Gouge",
@@ -767,6 +776,7 @@
         },
         "id": 17,
         "parentId": 16,
+        "sortOrder": 19,
         "name": {
             "jpn": "残滅の爪",
             "eng": "Decimation Claws",
@@ -855,6 +865,7 @@
         },
         "id": 18,
         "parentId": 10,
+        "sortOrder": 20,
         "name": {
             "jpn": "イルミナルダガーⅠ",
             "eng": "Luminous Daggers I",
@@ -937,6 +948,7 @@
         },
         "id": 19,
         "parentId": 18,
+        "sortOrder": 21,
         "name": {
             "jpn": "イルミナルダガーⅡ",
             "eng": "Luminous Daggers II",
@@ -1023,6 +1035,7 @@
         },
         "id": 20,
         "parentId": 19,
+        "sortOrder": 22,
         "name": {
             "jpn": "デュエルデステリオⅠ",
             "eng": "Dual Destroyers I",
@@ -1111,6 +1124,7 @@
         },
         "id": 21,
         "parentId": 20,
+        "sortOrder": 23,
         "name": {
             "jpn": "デュエルデステリオⅡ",
             "eng": "Dual Destroyers II",
@@ -1199,6 +1213,7 @@
         },
         "id": 22,
         "parentId": 21,
+        "sortOrder": 24,
         "name": {
             "jpn": "デュエルデステリオⅢ",
             "eng": "Dual Destroyers III",
@@ -1287,6 +1302,7 @@
         },
         "id": 23,
         "parentId": 20,
+        "sortOrder": 25,
         "name": {
             "jpn": "爆鱗の手斧",
             "eng": "Rookslayer Handaxes",
@@ -1375,6 +1391,7 @@
         },
         "id": 24,
         "parentId": 23,
+        "sortOrder": 26,
         "name": {
             "jpn": "爆鱗双斧バゼルホーク",
             "eng": "Bazelhawk Rookslayer",
@@ -1463,6 +1480,7 @@
         },
         "id": 25,
         "parentId": 18,
+        "sortOrder": 27,
         "name": {
             "jpn": "フリーズダガーⅠ",
             "eng": "Freeze Daggers I",
@@ -1549,6 +1567,7 @@
         },
         "id": 26,
         "parentId": 25,
+        "sortOrder": 28,
         "name": {
             "jpn": "フリーズダガーⅡ",
             "eng": "Freeze Daggers II",
@@ -1637,6 +1656,7 @@
         },
         "id": 27,
         "parentId": 26,
+        "sortOrder": 29,
         "name": {
             "jpn": "フリーズチェーンⅠ",
             "eng": "Freeze Chain I",
@@ -1725,6 +1745,7 @@
         },
         "id": 28,
         "parentId": 27,
+        "sortOrder": 30,
         "name": {
             "jpn": "フリーズチェーンⅡ",
             "eng": "Freeze Chain II",
@@ -1813,6 +1834,7 @@
         },
         "id": 29,
         "parentId": 9,
+        "sortOrder": 31,
         "name": {
             "jpn": "ビークダガーⅠ",
             "eng": "Rending Beaks I",
@@ -1895,6 +1917,7 @@
         },
         "id": 30,
         "parentId": 29,
+        "sortOrder": 32,
         "name": {
             "jpn": "ビークダガーⅡ",
             "eng": "Rending Beaks II",
@@ -1981,6 +2004,7 @@
         },
         "id": 31,
         "parentId": 30,
+        "sortOrder": 33,
         "name": {
             "jpn": "ビークダガーⅢ",
             "eng": "Rending Beaks III",
@@ -2067,6 +2091,7 @@
         },
         "id": 32,
         "parentId": 31,
+        "sortOrder": 34,
         "name": {
             "jpn": "アルカナリアⅠ",
             "eng": "Arcanaria I",
@@ -2149,6 +2174,7 @@
         },
         "id": 33,
         "parentId": 32,
+        "sortOrder": 35,
         "name": {
             "jpn": "アルカナリアⅡ",
             "eng": "Arcanaria II",
@@ -2235,6 +2261,7 @@
         },
         "id": 34,
         "parentId": 33,
+        "sortOrder": 36,
         "name": {
             "jpn": "アルカナリアⅢ",
             "eng": "Arcanaria III",
@@ -2321,6 +2348,7 @@
         },
         "id": 35,
         "parentId": 29,
+        "sortOrder": 37,
         "name": {
             "jpn": "オーダーレイピア",
             "eng": "Sworn Rapiers",
@@ -2407,6 +2435,7 @@
         },
         "id": 36,
         "parentId": 35,
+        "sortOrder": 38,
         "name": {
             "jpn": "オーダーレイピア改",
             "eng": "Sworn Rapiers+",
@@ -2495,6 +2524,7 @@
         },
         "id": 37,
         "parentId": 36,
+        "sortOrder": 39,
         "name": {
             "jpn": "ホーリーセーバー",
             "eng": "Holy Sabers",
@@ -2583,6 +2613,7 @@
         },
         "id": 38,
         "parentId": -1,
+        "sortOrder": 40,
         "name": {
             "jpn": "ボーンハチェットⅠ",
             "eng": "Bone Hatchets I",
@@ -2657,6 +2688,7 @@
         },
         "id": 39,
         "parentId": 38,
+        "sortOrder": 41,
         "name": {
             "jpn": "ボーンハチェットⅡ",
             "eng": "Bone Hatchets II",
@@ -2731,6 +2763,7 @@
         },
         "id": 40,
         "parentId": 39,
+        "sortOrder": 42,
         "name": {
             "jpn": "ボーンハチェットⅢ",
             "eng": "Bone Hatchets III",
@@ -2809,6 +2842,7 @@
         },
         "id": 41,
         "parentId": 40,
+        "sortOrder": 43,
         "name": {
             "jpn": "ワイルドハチェットⅠ",
             "eng": "Wild Hatchets I",
@@ -2891,6 +2925,7 @@
         },
         "id": 42,
         "parentId": 41,
+        "sortOrder": 44,
         "name": {
             "jpn": "ワイルドハチェットⅡ",
             "eng": "Wild Hatchets II",
@@ -2973,6 +3008,7 @@
         },
         "id": 43,
         "parentId": 42,
+        "sortOrder": 45,
         "name": {
             "jpn": "ワイルドハチェットⅢ",
             "eng": "Wild Hatchets III",
@@ -3057,6 +3093,7 @@
         },
         "id": 44,
         "parentId": 43,
+        "sortOrder": 46,
         "name": {
             "jpn": "ストロングハチェットⅠ",
             "eng": "Strong Hatchets I",
@@ -3141,6 +3178,7 @@
         },
         "id": 45,
         "parentId": 44,
+        "sortOrder": 47,
         "name": {
             "jpn": "ストロングハチェットⅡ",
             "eng": "Strong Hatchets II",
@@ -3229,6 +3267,7 @@
         },
         "id": 46,
         "parentId": 40,
+        "sortOrder": 50,
         "name": {
             "jpn": "ブレイズハチェットⅠ",
             "eng": "Blazing Hatchets I",
@@ -3311,6 +3350,7 @@
         },
         "id": 47,
         "parentId": 46,
+        "sortOrder": 51,
         "name": {
             "jpn": "ブレイズハチェットⅡ",
             "eng": "Blazing Hatchets II",
@@ -3397,6 +3437,7 @@
         },
         "id": 48,
         "parentId": 47,
+        "sortOrder": 52,
         "name": {
             "jpn": "ジャナフサイクロンⅠ",
             "eng": "Anja Cyclone I",
@@ -3483,6 +3524,7 @@
         },
         "id": 49,
         "parentId": 48,
+        "sortOrder": 53,
         "name": {
             "jpn": "ジャナフサイクロンⅡ",
             "eng": "Anja Cyclone II",
@@ -3569,6 +3611,7 @@
         },
         "id": 50,
         "parentId": 49,
+        "sortOrder": 54,
         "name": {
             "jpn": "ジャナフサイクロンⅢ",
             "eng": "Anja Cyclone III",
@@ -3655,6 +3698,7 @@
         },
         "id": 51,
         "parentId": 46,
+        "sortOrder": 55,
         "name": {
             "jpn": "ブロスハチェットⅠ",
             "eng": "Diablos Hatchets I",
@@ -3741,6 +3785,7 @@
         },
         "id": 52,
         "parentId": 51,
+        "sortOrder": 56,
         "name": {
             "jpn": "ブロスハチェットⅡ",
             "eng": "Diablos Hatchets II",
@@ -3829,6 +3874,7 @@
         },
         "id": 53,
         "parentId": 52,
+        "sortOrder": 57,
         "name": {
             "jpn": "ブロスクラブⅠ",
             "eng": "Diablos Clubs I",
@@ -3917,6 +3963,7 @@
         },
         "id": 54,
         "parentId": 53,
+        "sortOrder": 58,
         "name": {
             "jpn": "ブロスクラブⅡ",
             "eng": "Diablos Clubs II",
@@ -4005,6 +4052,7 @@
         },
         "id": 55,
         "parentId": 39,
+        "sortOrder": 60,
         "name": {
             "jpn": "マッドバンガーⅠ",
             "eng": "Madness Pangas I",
@@ -4091,6 +4139,7 @@
         },
         "id": 56,
         "parentId": 55,
+        "sortOrder": 61,
         "name": {
             "jpn": "マッドバンガーⅡ",
             "eng": "Madness Pangas II",
@@ -4177,6 +4226,7 @@
         },
         "id": 57,
         "parentId": 56,
+        "sortOrder": 62,
         "name": {
             "jpn": "マッドバンガーⅢ",
             "eng": "Madness Pangas III",
@@ -4263,6 +4313,7 @@
         },
         "id": 58,
         "parentId": 57,
+        "sortOrder": 63,
         "name": {
             "jpn": "シュラムハチェットⅠ",
             "eng": "Jyura Hatchets I",
@@ -4351,6 +4402,7 @@
         },
         "id": 59,
         "parentId": 58,
+        "sortOrder": 64,
         "name": {
             "jpn": "シュラムハチェットⅡ",
             "eng": "Jyura Hatchets II",
@@ -4439,6 +4491,7 @@
         },
         "id": 60,
         "parentId": 59,
+        "sortOrder": 65,
         "name": {
             "jpn": "シュラムハチェットⅢ",
             "eng": "Jyura Hatchets III",
@@ -4527,6 +4580,7 @@
         },
         "id": 61,
         "parentId": 58,
+        "sortOrder": 66,
         "name": {
             "jpn": "ラヴァサイクロンⅠ",
             "eng": "Lava Cyclone I",
@@ -4612,6 +4666,7 @@
         },
         "id": 62,
         "parentId": 61,
+        "sortOrder": 67,
         "name": {
             "jpn": "ラヴァサイクロンⅡ",
             "eng": "Lava Cyclone II",
@@ -4701,6 +4756,7 @@
         },
         "id": 63,
         "parentId": 55,
+        "sortOrder": 68,
         "name": {
             "jpn": "タロスバンガーⅠ",
             "eng": "Taurus Pangas I",
@@ -4783,6 +4839,7 @@
         },
         "id": 64,
         "parentId": 63,
+        "sortOrder": 69,
         "name": {
             "jpn": "タロスバンガーⅡ",
             "eng": "Taurus Pangas II",
@@ -4869,6 +4926,7 @@
         },
         "id": 65,
         "parentId": 64,
+        "sortOrder": 70,
         "name": {
             "jpn": "ダークリッパーⅠ",
             "eng": "Dark Ripper I",
@@ -4957,6 +5015,7 @@
         },
         "id": 66,
         "parentId": 65,
+        "sortOrder": 71,
         "name": {
             "jpn": "ダークリッパーⅡ",
             "eng": "Dark Ripper II",
@@ -5045,6 +5104,7 @@
         },
         "id": 67,
         "parentId": 66,
+        "sortOrder": 72,
         "name": {
             "jpn": "ダークリッパーⅢ",
             "eng": "Dark Ripper III",
@@ -5133,6 +5193,7 @@
         },
         "id": 68,
         "parentId": 39,
+        "sortOrder": 73,
         "name": {
             "jpn": "パルサーハチェットⅠ",
             "eng": "Pulsar Hatchets I",
@@ -5215,6 +5276,7 @@
         },
         "id": 69,
         "parentId": 68,
+        "sortOrder": 74,
         "name": {
             "jpn": "パルサーハチェットⅡ",
             "eng": "Pulsar Hatchets II",
@@ -5301,6 +5363,7 @@
         },
         "id": 70,
         "parentId": 69,
+        "sortOrder": 75,
         "name": {
             "jpn": "パルサーハチェットⅢ",
             "eng": "Pulsar Hatchets III",
@@ -5387,6 +5450,7 @@
         },
         "id": 71,
         "parentId": 70,
+        "sortOrder": 76,
         "name": {
             "jpn": "カガチノツメⅠ",
             "eng": "Kadachi Claws I",
@@ -5475,6 +5539,7 @@
         },
         "id": 72,
         "parentId": 71,
+        "sortOrder": 77,
         "name": {
             "jpn": "カガチノツメⅡ",
             "eng": "Kadachi Claws II",
@@ -5563,6 +5628,7 @@
         },
         "id": 73,
         "parentId": 72,
+        "sortOrder": 78,
         "name": {
             "jpn": "カガチノツメⅢ",
             "eng": "Kadachi Claws III",
@@ -5651,6 +5717,7 @@
         },
         "id": 74,
         "parentId": 69,
+        "sortOrder": 79,
         "name": {
             "jpn": "ガロンハチェットⅠ",
             "eng": "Garon Hatchets I",
@@ -5733,6 +5800,7 @@
         },
         "id": 75,
         "parentId": 74,
+        "sortOrder": 80,
         "name": {
             "jpn": "ガロンハチェットⅡ",
             "eng": "Garon Hatchets II",
@@ -5819,6 +5887,7 @@
         },
         "id": 76,
         "parentId": 75,
+        "sortOrder": 81,
         "name": {
             "jpn": "血吸いの鎖鎌",
             "eng": "Blood-drinker Chainblade",
@@ -5905,6 +5974,7 @@
         },
         "id": 77,
         "parentId": 76,
+        "sortOrder": 82,
         "name": {
             "jpn": "罪【シン】",
             "eng": "Sin",
@@ -5991,6 +6061,7 @@
         },
         "id": 78,
         "parentId": -1,
+        "sortOrder": 83,
         "name": {
             "jpn": "龍骨双刃Ⅰ",
             "eng": "Dragonbone Twinblades I",
@@ -6077,6 +6148,7 @@
         },
         "id": 79,
         "parentId": 78,
+        "sortOrder": 84,
         "name": {
             "jpn": "龍骨双刃Ⅱ",
             "eng": "Dragonbone Twinblades II",
@@ -6159,6 +6231,7 @@
         },
         "id": 80,
         "parentId": 79,
+        "sortOrder": 85,
         "name": {
             "jpn": "封龍剣【超絶一門】",
             "eng": "Enduring Schism",
@@ -6248,6 +6321,7 @@
         },
         "id": 83,
         "parentId": 78,
+        "sortOrder": 87,
         "name": {
             "jpn": "双雷剣キリン",
             "eng": "Kirin Bolts",
@@ -6334,6 +6408,7 @@
         },
         "id": 84,
         "parentId": 81,
+        "sortOrder": 88,
         "name": {
             "jpn": "双雷剣キリン改",
             "eng": "Kirin Bolts+",
@@ -6420,6 +6495,7 @@
         },
         "id": 85,
         "parentId": 78,
+        "sortOrder": 89,
         "name": {
             "jpn": "迅雷",
             "eng": "Monarch",
@@ -6506,6 +6582,7 @@
         },
         "id": 81,
         "parentId": 83,
+        "sortOrder": 95,
         "name": {
             "jpn": "マグダ・ウングラⅠ",
             "eng": "Magda Ungulae I",
@@ -6594,6 +6671,7 @@
         },
         "id": 82,
         "parentId": 84,
+        "sortOrder": 86,
         "name": {
             "jpn": "マグダ・ウングラⅡ",
             "eng": "Magda Ungulae II",
@@ -6682,6 +6760,7 @@
         },
         "id": 86,
         "parentId": -1,
+        "sortOrder": 90,
         "name": {
             "jpn": "黒鋼の双剣Ⅰ",
             "eng": "Blacksteel Twins I",
@@ -6768,6 +6847,7 @@
         },
         "id": 87,
         "parentId": 86,
+        "sortOrder": 91,
         "name": {
             "jpn": "黒鋼の双剣Ⅱ",
             "eng": "Blacksteel Twins II",
@@ -6856,6 +6936,7 @@
         },
         "id": 88,
         "parentId": 87,
+        "sortOrder": 92,
         "name": {
             "jpn": "ツインネイル",
             "eng": "Twin Nails",
@@ -6946,6 +7027,7 @@
         },
         "id": 89,
         "parentId": 88,
+        "sortOrder": 93,
         "name": {
             "jpn": "氷炎剣ヴィルマフレア",
             "eng": "Fire and Ice",
@@ -7034,6 +7116,7 @@
         },
         "id": 90,
         "parentId": 87,
+        "sortOrder": 94,
         "name": {
             "jpn": "ゼノ＝ラクス",
             "eng": "Xeno Raqs",
@@ -7123,6 +7206,7 @@
         },
         "id": 91,
         "parentId": -1,
+        "sortOrder": 96,
         "name": {
             "jpn": "憤怒の双刃",
             "eng": "Wrath & Rancor",
@@ -7209,6 +7293,7 @@
         },
         "id": 92,
         "parentId": 91,
+        "sortOrder": 97,
         "name": {
             "jpn": "ラースプレデター",
             "eng": "Wrathful Predation",
@@ -7295,6 +7380,7 @@
         },
         "id": 119,
         "parentId": -1,
+        "sortOrder": 124,
         "name": {
             "jpn": "エンプレスダガー",
             "eng": "Empress Daggers",
@@ -7384,6 +7470,7 @@
         },
         "id": 120,
         "parentId": 119,
+        "sortOrder": 125,
         "name": {
             "jpn": "エンプレスダガー・炎妃",
             "eng": "Empress Daggers \"Blaze\"",
@@ -7474,6 +7561,7 @@
         },
         "id": 121,
         "parentId": 119,
+        "sortOrder": 126,
         "name": {
             "jpn": "エンプレスダガー・滅尽",
             "eng": "Empress Daggers \"Ruin\"",
@@ -7564,6 +7652,7 @@
         },
         "id": 122,
         "parentId": 119,
+        "sortOrder": 127,
         "name": {
             "jpn": "エンプレスダガー・冥灯",
             "eng": "Empress Daggers \"Styx\"",
@@ -7654,6 +7743,7 @@
         },
         "id": 123,
         "parentId": -1,
+        "sortOrder": 128,
         "name": {
             "jpn": "フワフワの羽根箒",
             "eng": "Downy Crake Brooms",
@@ -7740,6 +7830,7 @@
         },
         "id": 124,
         "parentId": 123,
+        "sortOrder": 129,
         "name": {
             "jpn": "フワフワの慈愛",
             "eng": "Downy Crake Love",
@@ -7809,6 +7900,7 @@
         },
         "id": 133,
         "parentId": -1,
+        "sortOrder": 138,
         "name": {
             "jpn": "ジルエアエル",
             "eng": "Zireael",
@@ -7897,6 +7989,7 @@
         },
         "id": 93,
         "parentId": -1,
+        "sortOrder": 98,
         "name": {
             "jpn": "金色の双剣・水",
             "eng": "Gold Water Twinblades",
@@ -7962,6 +8055,7 @@
         },
         "id": 94,
         "parentId": -1,
+        "sortOrder": 99,
         "name": {
             "jpn": "金色の双剣・氷",
             "eng": "Gold Ice Twinblades",
@@ -8027,6 +8121,7 @@
         },
         "id": 95,
         "parentId": -1,
+        "sortOrder": 100,
         "name": {
             "jpn": "金色の双剣・毒",
             "eng": "Gold Poison Twinblades",
@@ -8092,6 +8187,7 @@
         },
         "id": 96,
         "parentId": -1,
+        "sortOrder": 101,
         "name": {
             "jpn": "金色の双剣・掻",
             "eng": "Thief Gold Twinblades",
@@ -8157,6 +8253,7 @@
         },
         "id": 97,
         "parentId": -1,
+        "sortOrder": 102,
         "name": {
             "jpn": "金色の双剣・泥魚",
             "eng": "Mire Gold Twinblades",
@@ -8222,6 +8319,7 @@
         },
         "id": 98,
         "parentId": -1,
+        "sortOrder": 103,
         "name": {
             "jpn": "金色の双剣・飛雷",
             "eng": "Spark Gold Twinblades",
@@ -8287,6 +8385,7 @@
         },
         "id": 99,
         "parentId": -1,
+        "sortOrder": 104,
         "name": {
             "jpn": "金色の双剣・蛮顎",
             "eng": "Rage Gold Twinblades",
@@ -8352,6 +8451,7 @@
         },
         "id": 100,
         "parentId": -1,
+        "sortOrder": 105,
         "name": {
             "jpn": "金色の双剣・黒甲",
             "eng": "Lurk Gold Twinblades",
@@ -8417,6 +8517,7 @@
         },
         "id": 101,
         "parentId": -1,
+        "sortOrder": 106,
         "name": {
             "jpn": "金色の双剣・眩",
             "eng": "Flash Gold Twinblades",
@@ -8482,6 +8583,7 @@
         },
         "id": 102,
         "parentId": -1,
+        "sortOrder": 107,
         "name": {
             "jpn": "金色の双剣・惨爪",
             "eng": "Claw Gold Twinblades",
@@ -8547,6 +8649,7 @@
         },
         "id": 103,
         "parentId": -1,
+        "sortOrder": 108,
         "name": {
             "jpn": "金色の双剣・角",
             "eng": "Horn Gold Twinblades",
@@ -8612,6 +8715,7 @@
         },
         "id": 104,
         "parentId": -1,
+        "sortOrder": 109,
         "name": {
             "jpn": "金色の双剣・溶岩",
             "eng": "Erupter Gold Twinblades",
@@ -8679,6 +8783,7 @@
         },
         "id": 105,
         "parentId": -1,
+        "sortOrder": 110,
         "name": {
             "jpn": "金色の双剣・熔山",
             "eng": "Magma Gold Twinblades",
@@ -8744,6 +8849,7 @@
         },
         "id": 106,
         "parentId": -1,
+        "sortOrder": 111,
         "name": {
             "jpn": "ガイラダガー・掻",
             "eng": "Taroth Daggers \"Thief\"",
@@ -8809,6 +8915,7 @@
         },
         "id": 107,
         "parentId": -1,
+        "sortOrder": 112,
         "name": {
             "jpn": "ガイラダガー・泥魚",
             "eng": "Taroth Daggers \"Mire\"",
@@ -8874,6 +8981,7 @@
         },
         "id": 108,
         "parentId": -1,
+        "sortOrder": 113,
         "name": {
             "jpn": "ガイラダガー・飛雷",
             "eng": "Taroth Daggers \"Spark\"",
@@ -8939,6 +9047,7 @@
         },
         "id": 109,
         "parentId": -1,
+        "sortOrder": 114,
         "name": {
             "jpn": "ガイラダガー・蛮顎",
             "eng": "Taroth Daggers \"Rage\"",
@@ -9004,6 +9113,7 @@
         },
         "id": 110,
         "parentId": -1,
+        "sortOrder": 115,
         "name": {
             "jpn": "ガイラダガー・黒甲",
             "eng": "Taroth Daggers \"Lurk\"",
@@ -9069,6 +9179,7 @@
         },
         "id": 111,
         "parentId": -1,
+        "sortOrder": 116,
         "name": {
             "jpn": "ガイラダガー・眩",
             "eng": "Taroth Daggers \"Flash\"",
@@ -9134,6 +9245,7 @@
         },
         "id": 112,
         "parentId": -1,
+        "sortOrder": 117,
         "name": {
             "jpn": "ガイラダガー・惨爪",
             "eng": "Taroth Daggers \"Claw\"",
@@ -9199,6 +9311,7 @@
         },
         "id": 113,
         "parentId": -1,
+        "sortOrder": 118,
         "name": {
             "jpn": "ガイラダガー・角",
             "eng": "Taroth Daggers \"Horn\"",
@@ -9264,6 +9377,7 @@
         },
         "id": 114,
         "parentId": -1,
+        "sortOrder": 119,
         "name": {
             "jpn": "ガイラダガー・溶岩",
             "eng": "Taroth Daggers \"Erupter\"",
@@ -9331,6 +9445,7 @@
         },
         "id": 115,
         "parentId": -1,
+        "sortOrder": 120,
         "name": {
             "jpn": "ガイラダガー・熔山",
             "eng": "Taroth Daggers \"Magma\"",
@@ -9396,6 +9511,7 @@
         },
         "id": 116,
         "parentId": -1,
+        "sortOrder": 121,
         "name": {
             "jpn": "ガイラダガー・水",
             "eng": "Taroth Daggers \"Water\"",
@@ -9463,6 +9579,7 @@
         },
         "id": 117,
         "parentId": -1,
+        "sortOrder": 122,
         "name": {
             "jpn": "ガイラダガー・氷",
             "eng": "Taroth Daggers \"Ice\"",
@@ -9530,6 +9647,7 @@
         },
         "id": 118,
         "parentId": -1,
+        "sortOrder": 123,
         "name": {
             "jpn": "ガイラダガー・毒",
             "eng": "Taroth Daggers \"Poison\"",
@@ -9597,6 +9715,7 @@
         },
         "id": 125,
         "parentId": -1,
+        "sortOrder": 130,
         "name": {
             "jpn": "ガイラダガー・火",
             "eng": "Taroth Daggers \"Fire\"",
@@ -9664,6 +9783,7 @@
         },
         "id": 126,
         "parentId": -1,
+        "sortOrder": 131,
         "name": {
             "jpn": "皇金の双剣・飛雷",
             "eng": "Kjárr Daggers \"Spark\"",
@@ -9732,6 +9852,7 @@
         },
         "id": 127,
         "parentId": -1,
+        "sortOrder": 132,
         "name": {
             "jpn": "皇金の双剣・蛮顎",
             "eng": "Kjárr Daggers \"Rage\"",
@@ -9798,6 +9919,7 @@
         },
         "id": 128,
         "parentId": -1,
+        "sortOrder": 133,
         "name": {
             "jpn": "皇金の双剣・熔山",
             "eng": "Kjárr Daggers \"Magma\"",
@@ -9866,6 +9988,7 @@
         },
         "id": 129,
         "parentId": -1,
+        "sortOrder": 134,
         "name": {
             "jpn": "皇金の双剣・黒甲",
             "eng": "Kjárr Daggers \"Lurk\"",
@@ -9934,6 +10057,7 @@
         },
         "id": 130,
         "parentId": -1,
+        "sortOrder": 135,
         "name": {
             "jpn": "皇金の双剣・水",
             "eng": "Kjárr Daggers \"Water\"",
@@ -10002,6 +10126,7 @@
         },
         "id": 131,
         "parentId": -1,
+        "sortOrder": 136,
         "name": {
             "jpn": "皇金の双剣・氷",
             "eng": "Kjárr Daggers \"Ice\"",
@@ -10070,6 +10195,7 @@
         },
         "id": 132,
         "parentId": -1,
+        "sortOrder": 137,
         "name": {
             "jpn": "皇金の双剣・龍",
             "eng": "Kjárr Daggers \"Dragon\"",

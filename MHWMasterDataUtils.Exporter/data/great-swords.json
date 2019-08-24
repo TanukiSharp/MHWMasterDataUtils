@@ -20,6 +20,7 @@
         },
         "id": 7,
         "parentId": -1,
+        "sortOrder": 10,
         "name": {
             "jpn": "バスターソードⅠ",
             "eng": "Buster Sword I",
@@ -94,6 +95,7 @@
         },
         "id": 8,
         "parentId": 7,
+        "sortOrder": 11,
         "name": {
             "jpn": "バスターソードⅡ",
             "eng": "Buster Sword II",
@@ -168,6 +170,7 @@
         },
         "id": 9,
         "parentId": 8,
+        "sortOrder": 12,
         "name": {
             "jpn": "バスターソードⅢ",
             "eng": "Buster Sword III",
@@ -250,6 +253,7 @@
         },
         "id": 10,
         "parentId": 9,
+        "sortOrder": 13,
         "name": {
             "jpn": "バスターブレイドⅠ",
             "eng": "Buster Blade I",
@@ -332,6 +336,7 @@
         },
         "id": 11,
         "parentId": 10,
+        "sortOrder": 14,
         "name": {
             "jpn": "バスターブレイドⅡ",
             "eng": "Buster Blade II",
@@ -418,6 +423,7 @@
         },
         "id": 12,
         "parentId": 11,
+        "sortOrder": 15,
         "name": {
             "jpn": "バスターブレイドⅢ",
             "eng": "Buster Blade III",
@@ -502,6 +508,7 @@
         },
         "id": 13,
         "parentId": 12,
+        "sortOrder": 16,
         "name": {
             "jpn": "クロームレイザーⅠ",
             "eng": "Chrome Razor I",
@@ -590,6 +597,7 @@
         },
         "id": 14,
         "parentId": 13,
+        "sortOrder": 17,
         "name": {
             "jpn": "クロームレイザーⅡ",
             "eng": "Chrome Razor II",
@@ -679,6 +687,7 @@
         },
         "id": 15,
         "parentId": 13,
+        "sortOrder": 18,
         "name": {
             "jpn": "ネルガルジャッジ",
             "eng": "Nergal Judicator",
@@ -767,6 +776,7 @@
         },
         "id": 16,
         "parentId": 15,
+        "sortOrder": 19,
         "name": {
             "jpn": "滅鬼の凶器",
             "eng": "Purgation's Atrocity",
@@ -855,6 +865,7 @@
         },
         "id": 17,
         "parentId": 9,
+        "sortOrder": 20,
         "name": {
             "jpn": "サンダーブレイドⅠ",
             "eng": "Thunder Blade I",
@@ -941,6 +952,7 @@
         },
         "id": 18,
         "parentId": 17,
+        "sortOrder": 21,
         "name": {
             "jpn": "サンダーブレイドⅡ",
             "eng": "Thunder Blade II",
@@ -1027,6 +1039,7 @@
         },
         "id": 19,
         "parentId": 18,
+        "sortOrder": 22,
         "name": {
             "jpn": "ライトニングパニッシュⅠ",
             "eng": "Lightning Punisher I",
@@ -1115,6 +1128,7 @@
         },
         "id": 20,
         "parentId": 19,
+        "sortOrder": 23,
         "name": {
             "jpn": "ライトニングパニッシュⅡ",
             "eng": "Lightning Punisher II",
@@ -1203,6 +1217,7 @@
         },
         "id": 21,
         "parentId": 20,
+        "sortOrder": 24,
         "name": {
             "jpn": "ライトニングパニッシュⅢ",
             "eng": "Lightning Punisher III",
@@ -1291,6 +1306,7 @@
         },
         "id": 22,
         "parentId": 17,
+        "sortOrder": 94,
         "name": {
             "jpn": "フリーズブレイドⅠ",
             "eng": "Freeze Blade I",
@@ -1377,6 +1393,7 @@
         },
         "id": 23,
         "parentId": 22,
+        "sortOrder": 95,
         "name": {
             "jpn": "フリーズブレイドⅡ",
             "eng": "Freeze Blade II",
@@ -1465,6 +1482,7 @@
         },
         "id": 24,
         "parentId": 23,
+        "sortOrder": 96,
         "name": {
             "jpn": "フロストブレイズⅠ",
             "eng": "Frost Blaze I",
@@ -1553,6 +1571,7 @@
         },
         "id": 25,
         "parentId": 24,
+        "sortOrder": 97,
         "name": {
             "jpn": "フロストブレイズⅡ",
             "eng": "Frost Blaze II",
@@ -1641,6 +1660,7 @@
         },
         "id": 26,
         "parentId": 8,
+        "sortOrder": 25,
         "name": {
             "jpn": "ジャグラスブレイドⅠ",
             "eng": "Jagras Blade I",
@@ -1727,6 +1747,7 @@
         },
         "id": 27,
         "parentId": 26,
+        "sortOrder": 26,
         "name": {
             "jpn": "ジャグラスブレイドⅡ",
             "eng": "Jagras Blade II",
@@ -1813,6 +1834,7 @@
         },
         "id": 28,
         "parentId": 27,
+        "sortOrder": 27,
         "name": {
             "jpn": "ジャグラスブレイドⅢ",
             "eng": "Jagras Blade III",
@@ -1899,6 +1921,7 @@
         },
         "id": 29,
         "parentId": 28,
+        "sortOrder": 28,
         "name": {
             "jpn": "ジャグラスハッカーⅠ",
             "eng": "Jagras Hacker I",
@@ -1988,6 +2011,7 @@
         },
         "id": 30,
         "parentId": 29,
+        "sortOrder": 29,
         "name": {
             "jpn": "ジャグラスハッカーⅡ",
             "eng": "Jagras Hacker II",
@@ -2077,6 +2101,7 @@
         },
         "id": 31,
         "parentId": 30,
+        "sortOrder": 30,
         "name": {
             "jpn": "ジャグラスハッカーⅢ",
             "eng": "Jagras Hacker III",
@@ -2166,6 +2191,7 @@
         },
         "id": 32,
         "parentId": 26,
+        "sortOrder": 31,
         "name": {
             "jpn": "ギルオスブレイドⅠ",
             "eng": "Girros Blade I",
@@ -2248,6 +2274,7 @@
         },
         "id": 33,
         "parentId": 32,
+        "sortOrder": 32,
         "name": {
             "jpn": "ギルオスブレイドⅡ",
             "eng": "Girros Blade II",
@@ -2334,6 +2361,7 @@
         },
         "id": 34,
         "parentId": 33,
+        "sortOrder": 33,
         "name": {
             "jpn": "マラドハディードⅠ",
             "eng": "Malady's Kiss I",
@@ -2420,6 +2448,7 @@
         },
         "id": 35,
         "parentId": 34,
+        "sortOrder": 34,
         "name": {
             "jpn": "マラドハディードⅡ",
             "eng": "Malady's Kiss II",
@@ -2506,6 +2535,7 @@
         },
         "id": 36,
         "parentId": 35,
+        "sortOrder": 35,
         "name": {
             "jpn": "マラドハディードⅢ",
             "eng": "Malady's Kiss III",
@@ -2592,6 +2622,7 @@
         },
         "id": 37,
         "parentId": 34,
+        "sortOrder": 36,
         "name": {
             "jpn": "ラヴァブレイズⅠ",
             "eng": "Lava Blaze I",
@@ -2677,6 +2708,7 @@
         },
         "id": 38,
         "parentId": 37,
+        "sortOrder": 37,
         "name": {
             "jpn": "ラヴァブレイズⅡ",
             "eng": "Lava Blaze II",
@@ -2766,6 +2798,7 @@
         },
         "id": 39,
         "parentId": 8,
+        "sortOrder": 38,
         "name": {
             "jpn": "ブルームブレイドⅠ",
             "eng": "Blooming Blade I",
@@ -2848,6 +2881,7 @@
         },
         "id": 40,
         "parentId": 39,
+        "sortOrder": 39,
         "name": {
             "jpn": "ブルームブレイドⅡ",
             "eng": "Blooming Blade II",
@@ -2934,6 +2968,7 @@
         },
         "id": 41,
         "parentId": 40,
+        "sortOrder": 40,
         "name": {
             "jpn": "ブルームブレイドⅢ",
             "eng": "Blooming Blade III",
@@ -3020,6 +3055,7 @@
         },
         "id": 42,
         "parentId": 41,
+        "sortOrder": 41,
         "name": {
             "jpn": "ダチュラブレイズⅠ",
             "eng": "Datura Blaze I",
@@ -3109,6 +3145,7 @@
         },
         "id": 43,
         "parentId": 42,
+        "sortOrder": 42,
         "name": {
             "jpn": "ダチュラブレイズⅡ",
             "eng": "Datura Blaze II",
@@ -3198,6 +3235,7 @@
         },
         "id": 44,
         "parentId": 43,
+        "sortOrder": 43,
         "name": {
             "jpn": "ダチュラブレイズⅢ",
             "eng": "Datura Blaze III",
@@ -3287,6 +3325,7 @@
         },
         "id": 45,
         "parentId": 39,
+        "sortOrder": 44,
         "name": {
             "jpn": "フレイムブレイドⅠ",
             "eng": "Flame Blade I",
@@ -3373,6 +3412,7 @@
         },
         "id": 46,
         "parentId": 45,
+        "sortOrder": 45,
         "name": {
             "jpn": "フレイムブレイドⅡ",
             "eng": "Flame Blade II",
@@ -3459,6 +3499,7 @@
         },
         "id": 47,
         "parentId": 46,
+        "sortOrder": 46,
         "name": {
             "jpn": "レッドウィング",
             "eng": "Red Wing",
@@ -3547,6 +3588,7 @@
         },
         "id": 48,
         "parentId": 47,
+        "sortOrder": 47,
         "name": {
             "jpn": "ブルーウィング",
             "eng": "Blue Wing",
@@ -3635,6 +3677,7 @@
         },
         "id": 49,
         "parentId": 48,
+        "sortOrder": 48,
         "name": {
             "jpn": "煌剣リオレウス",
             "eng": "Rathalos Glinsword",
@@ -3723,6 +3766,7 @@
         },
         "id": 50,
         "parentId": -1,
+        "sortOrder": 49,
         "name": {
             "jpn": "ボーンブレイドⅠ",
             "eng": "Bone Blade I",
@@ -3797,6 +3841,7 @@
         },
         "id": 51,
         "parentId": 50,
+        "sortOrder": 50,
         "name": {
             "jpn": "ボーンブレイドⅡ",
             "eng": "Bone Blade II",
@@ -3871,6 +3916,7 @@
         },
         "id": 52,
         "parentId": 51,
+        "sortOrder": 51,
         "name": {
             "jpn": "ボーンブレイドⅢ",
             "eng": "Bone Blade III",
@@ -3949,6 +3995,7 @@
         },
         "id": 53,
         "parentId": 52,
+        "sortOrder": 52,
         "name": {
             "jpn": "ボーンスラッシャーⅠ",
             "eng": "Bone Slasher I",
@@ -4031,6 +4078,7 @@
         },
         "id": 54,
         "parentId": 53,
+        "sortOrder": 53,
         "name": {
             "jpn": "ボーンスラッシャーⅡ",
             "eng": "Bone Slasher II",
@@ -4113,6 +4161,7 @@
         },
         "id": 55,
         "parentId": 54,
+        "sortOrder": 54,
         "name": {
             "jpn": "ボーンスラッシャーⅢ",
             "eng": "Bone Slasher III",
@@ -4197,6 +4246,7 @@
         },
         "id": 56,
         "parentId": 55,
+        "sortOrder": 55,
         "name": {
             "jpn": "オオアギトⅠ",
             "eng": "Giant Jawblade I",
@@ -4285,6 +4335,7 @@
         },
         "id": 57,
         "parentId": 56,
+        "sortOrder": 56,
         "name": {
             "jpn": "オオアギトⅡ",
             "eng": "Giant Jawblade II",
@@ -4373,6 +4424,7 @@
         },
         "id": 58,
         "parentId": 56,
+        "sortOrder": 57,
         "name": {
             "jpn": "ハザクラキス",
             "eng": "Hazak Kys",
@@ -4461,6 +4513,7 @@
         },
         "id": 59,
         "parentId": 58,
+        "sortOrder": 58,
         "name": {
             "jpn": "モンストロの憤怒",
             "eng": "Leviathan's Fury",
@@ -4549,6 +4602,7 @@
         },
         "id": 60,
         "parentId": 52,
+        "sortOrder": 59,
         "name": {
             "jpn": "フラムエルヘレヴ",
             "eng": "Flammenzahn",
@@ -4635,6 +4689,7 @@
         },
         "id": 61,
         "parentId": 60,
+        "sortOrder": 60,
         "name": {
             "jpn": "フラムエルヘレヴ改",
             "eng": "Flammenzahn+",
@@ -4721,6 +4776,7 @@
         },
         "id": 62,
         "parentId": 61,
+        "sortOrder": 61,
         "name": {
             "jpn": "蛮顎大剣フラムヘレヴ",
             "eng": "Gnashing Flammenzahn",
@@ -4807,6 +4863,7 @@
         },
         "id": 63,
         "parentId": 51,
+        "sortOrder": 62,
         "name": {
             "jpn": "アクアスラッシャーⅠ",
             "eng": "Aqua Slasher I",
@@ -4893,6 +4950,7 @@
         },
         "id": 64,
         "parentId": 63,
+        "sortOrder": 63,
         "name": {
             "jpn": "アクアスラッシャーⅡ",
             "eng": "Aqua Slasher II",
@@ -4979,6 +5037,7 @@
         },
         "id": 65,
         "parentId": 64,
+        "sortOrder": 64,
         "name": {
             "jpn": "アクアスラッシャーⅢ",
             "eng": "Aqua Slasher III",
@@ -5065,6 +5124,7 @@
         },
         "id": 66,
         "parentId": 65,
+        "sortOrder": 65,
         "name": {
             "jpn": "ウォーターゴーレムⅠ",
             "eng": "Water Golem I",
@@ -5153,6 +5213,7 @@
         },
         "id": 67,
         "parentId": 66,
+        "sortOrder": 66,
         "name": {
             "jpn": "ウォーターゴーレムⅡ",
             "eng": "Water Golem II",
@@ -5241,6 +5302,7 @@
         },
         "id": 68,
         "parentId": 67,
+        "sortOrder": 67,
         "name": {
             "jpn": "ウォーターゴーレムⅢ",
             "eng": "Water Golem III",
@@ -5329,6 +5391,7 @@
         },
         "id": 69,
         "parentId": 51,
+        "sortOrder": 68,
         "name": {
             "jpn": "ドラグロバスターⅠ",
             "eng": "Carapace Buster I",
@@ -5411,6 +5474,7 @@
         },
         "id": 70,
         "parentId": 69,
+        "sortOrder": 69,
         "name": {
             "jpn": "ドラグロバスターⅡ",
             "eng": "Carapace Buster II",
@@ -5497,6 +5561,7 @@
         },
         "id": 71,
         "parentId": 70,
+        "sortOrder": 70,
         "name": {
             "jpn": "ドラグロバスターⅢ",
             "eng": "Carapace Buster III",
@@ -5583,6 +5648,7 @@
         },
         "id": 72,
         "parentId": 71,
+        "sortOrder": 71,
         "name": {
             "jpn": "ボルボシュレッダーⅠ",
             "eng": "Barroth Shredder I",
@@ -5671,6 +5737,7 @@
         },
         "id": 73,
         "parentId": 72,
+        "sortOrder": 72,
         "name": {
             "jpn": "ボルボシュレッダーⅡ",
             "eng": "Barroth Shredder II",
@@ -5760,6 +5827,7 @@
         },
         "id": 74,
         "parentId": 73,
+        "sortOrder": 73,
         "name": {
             "jpn": "ボルボシュレッダーⅢ",
             "eng": "Barroth Shredder III",
@@ -5849,6 +5917,7 @@
         },
         "id": 75,
         "parentId": 69,
+        "sortOrder": 74,
         "name": {
             "jpn": "スパイクブレイドⅠ",
             "eng": "Spiked Blade I",
@@ -5931,6 +6000,7 @@
         },
         "id": 76,
         "parentId": 75,
+        "sortOrder": 75,
         "name": {
             "jpn": "スパイクブレイドⅡ",
             "eng": "Spiked Blade II",
@@ -6017,6 +6087,7 @@
         },
         "id": 77,
         "parentId": 76,
+        "sortOrder": 76,
         "name": {
             "jpn": "塊剣ラドバルクⅠ",
             "eng": "Radobaan Slab I",
@@ -6103,6 +6174,7 @@
         },
         "id": 78,
         "parentId": 77,
+        "sortOrder": 77,
         "name": {
             "jpn": "塊剣ラドバルクⅡ",
             "eng": "Radobaan Slab II",
@@ -6189,6 +6261,7 @@
         },
         "id": 79,
         "parentId": 78,
+        "sortOrder": 78,
         "name": {
             "jpn": "塊剣ラドバルクⅢ",
             "eng": "Radobaan Slab III",
@@ -6275,6 +6348,7 @@
         },
         "id": 80,
         "parentId": -1,
+        "sortOrder": 79,
         "name": {
             "jpn": "龍骨大剣Ⅰ",
             "eng": "Dragonbone Cleaver I",
@@ -6361,6 +6435,7 @@
         },
         "id": 81,
         "parentId": 80,
+        "sortOrder": 80,
         "name": {
             "jpn": "龍骨大剣Ⅱ",
             "eng": "Dragonbone Cleaver II",
@@ -6443,6 +6518,7 @@
         },
         "id": 82,
         "parentId": 81,
+        "sortOrder": 81,
         "name": {
             "jpn": "龍骨大剣Ⅲ",
             "eng": "Dragonbone Cleaver III",
@@ -6532,6 +6608,7 @@
         },
         "id": 85,
         "parentId": 80,
+        "sortOrder": 83,
         "name": {
             "jpn": "召雷剣",
             "eng": "Thundersword",
@@ -6618,6 +6695,7 @@
         },
         "id": 86,
         "parentId": 83,
+        "sortOrder": 84,
         "name": {
             "jpn": "召雷剣【麒麟】",
             "eng": "Kirin Thundersword",
@@ -6704,6 +6782,7 @@
         },
         "id": 87,
         "parentId": 80,
+        "sortOrder": 85,
         "name": {
             "jpn": "召雷剣【麒麟王】",
             "eng": "King Thundersword",
@@ -6790,6 +6869,7 @@
         },
         "id": 83,
         "parentId": 85,
+        "sortOrder": 98,
         "name": {
             "jpn": "マグダ・ポテスタスⅠ",
             "eng": "Magda Potestas I",
@@ -6878,6 +6958,7 @@
         },
         "id": 84,
         "parentId": 86,
+        "sortOrder": 82,
         "name": {
             "jpn": "マグダ・ポテスタスⅡ",
             "eng": "Magda Potestas II",
@@ -6966,6 +7047,7 @@
         },
         "id": 88,
         "parentId": -1,
+        "sortOrder": 86,
         "name": {
             "jpn": "黒鋼の大剣Ⅰ",
             "eng": "Blacksteel Chopper I",
@@ -7052,6 +7134,7 @@
         },
         "id": 89,
         "parentId": 88,
+        "sortOrder": 87,
         "name": {
             "jpn": "黒鋼の大剣Ⅱ",
             "eng": "Blacksteel Chopper II",
@@ -7138,6 +7221,7 @@
         },
         "id": 90,
         "parentId": 89,
+        "sortOrder": 88,
         "name": {
             "jpn": "鋼氷大剣",
             "eng": "Icesteel Edge",
@@ -7226,6 +7310,7 @@
         },
         "id": 91,
         "parentId": 90,
+        "sortOrder": 89,
         "name": {
             "jpn": "ダオラ＝デグニダル",
             "eng": "Daora's Decimator",
@@ -7314,6 +7399,7 @@
         },
         "id": 92,
         "parentId": 89,
+        "sortOrder": 90,
         "name": {
             "jpn": "ゼノ＝マーリク",
             "eng": "Xeno Maliq",
@@ -7403,6 +7489,7 @@
         },
         "id": 93,
         "parentId": -1,
+        "sortOrder": 91,
         "name": {
             "jpn": "リュウノアギト",
             "eng": "Wyvern Jawblade",
@@ -7491,6 +7578,7 @@
         },
         "id": 94,
         "parentId": 93,
+        "sortOrder": 92,
         "name": {
             "jpn": "リュウノアギト【大牙】",
             "eng": "Great Wyvern Jawblade",
@@ -7579,6 +7667,7 @@
         },
         "id": 95,
         "parentId": -1,
+        "sortOrder": 7,
         "name": {
             "jpn": "ベルセルクソード",
             "eng": "Berserker Sword",
@@ -7665,6 +7754,7 @@
         },
         "id": 96,
         "parentId": 95,
+        "sortOrder": 8,
         "name": {
             "jpn": "アングイッシュ",
             "eng": "Anguish",
@@ -7751,6 +7841,7 @@
         },
         "id": 97,
         "parentId": -1,
+        "sortOrder": 9,
         "name": {
             "jpn": "竜熱機関式【鋼翼】",
             "eng": "Wyvern Ignition \"Steel\"",
@@ -7837,6 +7928,7 @@
         },
         "id": 98,
         "parentId": 97,
+        "sortOrder": 99,
         "name": {
             "jpn": "竜熱機関式【鋼翼】改",
             "eng": "Wyvern Ignition \"Impact\"",
@@ -7926,6 +8018,7 @@
         },
         "id": 123,
         "parentId": -1,
+        "sortOrder": 124,
         "name": {
             "jpn": "エンプレスガレア",
             "eng": "Empress Galea",
@@ -8015,6 +8108,7 @@
         },
         "id": 124,
         "parentId": 123,
+        "sortOrder": 125,
         "name": {
             "jpn": "エンプレスガレア・炎妃",
             "eng": "Empress Galea \"Blaze\"",
@@ -8105,6 +8199,7 @@
         },
         "id": 125,
         "parentId": 123,
+        "sortOrder": 126,
         "name": {
             "jpn": "エンプレスガレア・滅尽",
             "eng": "Empress Galea \"Ruin\"",
@@ -8195,6 +8290,7 @@
         },
         "id": 126,
         "parentId": 123,
+        "sortOrder": 127,
         "name": {
             "jpn": "エンプレスガレア・冥灯",
             "eng": "Empress Galea \"Styx\"",
@@ -8285,6 +8381,7 @@
         },
         "id": 99,
         "parentId": -1,
+        "sortOrder": 100,
         "name": {
             "jpn": "金色の大剣・水",
             "eng": "Gold Water Fellsword",
@@ -8350,6 +8447,7 @@
         },
         "id": 100,
         "parentId": -1,
+        "sortOrder": 101,
         "name": {
             "jpn": "金色の大剣・氷",
             "eng": "Gold Ice Fellsword",
@@ -8415,6 +8513,7 @@
         },
         "id": 101,
         "parentId": -1,
+        "sortOrder": 102,
         "name": {
             "jpn": "金色の大剣・睡眠",
             "eng": "Gold Sleep Fellsword",
@@ -8480,6 +8579,7 @@
         },
         "id": 102,
         "parentId": -1,
+        "sortOrder": 103,
         "name": {
             "jpn": "金色の大剣・賊",
             "eng": "Glutton Gold Fellsword",
@@ -8547,6 +8647,7 @@
         },
         "id": 103,
         "parentId": -1,
+        "sortOrder": 104,
         "name": {
             "jpn": "金色の大剣・毒妖",
             "eng": "Spew Gold Fellsword",
@@ -8614,6 +8715,7 @@
         },
         "id": 104,
         "parentId": -1,
+        "sortOrder": 105,
         "name": {
             "jpn": "金色の大剣・土砂",
             "eng": "Mud Gold Fellsword",
@@ -8681,6 +8783,7 @@
         },
         "id": 105,
         "parentId": -1,
+        "sortOrder": 106,
         "name": {
             "jpn": "金色の大剣・痺賊",
             "eng": "Numb Gold Fellsword",
@@ -8746,6 +8849,7 @@
         },
         "id": 106,
         "parentId": -1,
+        "sortOrder": 107,
         "name": {
             "jpn": "金色の大剣・骨鎚",
             "eng": "Tar Gold Fellsword",
@@ -8811,6 +8915,7 @@
         },
         "id": 107,
         "parentId": -1,
+        "sortOrder": 108,
         "name": {
             "jpn": "金色の大剣・屍套",
             "eng": "Decay Gold Fellsword",
@@ -8876,6 +8981,7 @@
         },
         "id": 108,
         "parentId": -1,
+        "sortOrder": 109,
         "name": {
             "jpn": "金色の大剣・王",
             "eng": "King Gold Fellsword",
@@ -8941,6 +9047,7 @@
         },
         "id": 109,
         "parentId": -1,
+        "sortOrder": 110,
         "name": {
             "jpn": "金色の大剣・溶岩",
             "eng": "Erupter Gold Fellsword",
@@ -9006,6 +9113,7 @@
         },
         "id": 110,
         "parentId": -1,
+        "sortOrder": 111,
         "name": {
             "jpn": "金色の大剣・熔山",
             "eng": "Magma Gold Fellsword",
@@ -9071,6 +9179,7 @@
         },
         "id": 111,
         "parentId": -1,
+        "sortOrder": 112,
         "name": {
             "jpn": "ガイラブレイズ・賊",
             "eng": "Taroth Blaze \"Glutton\"",
@@ -9138,6 +9247,7 @@
         },
         "id": 112,
         "parentId": -1,
+        "sortOrder": 113,
         "name": {
             "jpn": "ガイラブレイズ・毒妖",
             "eng": "Taroth Blaze \"Spew\"",
@@ -9205,6 +9315,7 @@
         },
         "id": 113,
         "parentId": -1,
+        "sortOrder": 114,
         "name": {
             "jpn": "ガイラブレイズ・土砂",
             "eng": "Taroth Blaze \"Mud\"",
@@ -9272,6 +9383,7 @@
         },
         "id": 114,
         "parentId": -1,
+        "sortOrder": 115,
         "name": {
             "jpn": "ガイラブレイズ・痺賊",
             "eng": "Taroth Blaze \"Numb\"",
@@ -9337,6 +9449,7 @@
         },
         "id": 115,
         "parentId": -1,
+        "sortOrder": 116,
         "name": {
             "jpn": "ガイラブレイズ・骨鎚",
             "eng": "Taroth Blaze \"Tar\"",
@@ -9402,6 +9515,7 @@
         },
         "id": 116,
         "parentId": -1,
+        "sortOrder": 117,
         "name": {
             "jpn": "ガイラブレイズ・屍套",
             "eng": "Taroth Blaze \"Decay\"",
@@ -9467,6 +9581,7 @@
         },
         "id": 117,
         "parentId": -1,
+        "sortOrder": 118,
         "name": {
             "jpn": "ガイラブレイズ・王",
             "eng": "Taroth Blaze \"King\"",
@@ -9532,6 +9647,7 @@
         },
         "id": 118,
         "parentId": -1,
+        "sortOrder": 119,
         "name": {
             "jpn": "ガイラブレイズ・溶岩",
             "eng": "Taroth Blaze \"Erupter\"",
@@ -9597,6 +9713,7 @@
         },
         "id": 119,
         "parentId": -1,
+        "sortOrder": 120,
         "name": {
             "jpn": "ガイラブレイズ・熔山",
             "eng": "Taroth Blaze \"Magma\"",
@@ -9662,6 +9779,7 @@
         },
         "id": 120,
         "parentId": -1,
+        "sortOrder": 121,
         "name": {
             "jpn": "ガイラブレイズ・水",
             "eng": "Taroth Blaze \"Water\"",
@@ -9729,6 +9847,7 @@
         },
         "id": 121,
         "parentId": -1,
+        "sortOrder": 122,
         "name": {
             "jpn": "ガイラブレイズ・氷",
             "eng": "Taroth Blaze \"Ice\"",
@@ -9796,6 +9915,7 @@
         },
         "id": 122,
         "parentId": -1,
+        "sortOrder": 123,
         "name": {
             "jpn": "ガイラブレイズ・睡眠",
             "eng": "Taroth Blaze \"Sleep\"",
@@ -9863,6 +9983,7 @@
         },
         "id": 127,
         "parentId": -1,
+        "sortOrder": 128,
         "name": {
             "jpn": "ガイラブレイズ・雷",
             "eng": "Taroth Blaze \"Thunder\"",
@@ -9930,6 +10051,7 @@
         },
         "id": 128,
         "parentId": -1,
+        "sortOrder": 129,
         "name": {
             "jpn": "皇金の大剣・痺賊",
             "eng": "Kjárr Fellsword \"Numb\"",
@@ -9998,6 +10120,7 @@
         },
         "id": 129,
         "parentId": -1,
+        "sortOrder": 130,
         "name": {
             "jpn": "皇金の大剣・屍套",
             "eng": "Kjárr Fellsword \"Decay\"",
@@ -10066,6 +10189,7 @@
         },
         "id": 130,
         "parentId": -1,
+        "sortOrder": 131,
         "name": {
             "jpn": "皇金の大剣・王",
             "eng": "Kjárr Fellsword \"King\"",
@@ -10134,6 +10258,7 @@
         },
         "id": 131,
         "parentId": -1,
+        "sortOrder": 132,
         "name": {
             "jpn": "皇金の大剣・熔山",
             "eng": "Kjárr Fellsword \"Magma\"",
@@ -10202,6 +10327,7 @@
         },
         "id": 132,
         "parentId": -1,
+        "sortOrder": 133,
         "name": {
             "jpn": "皇金の大剣・水",
             "eng": "Kjárr Fellsword \"Water\"",
@@ -10268,6 +10394,7 @@
         },
         "id": 133,
         "parentId": -1,
+        "sortOrder": 134,
         "name": {
             "jpn": "皇金の大剣・氷",
             "eng": "Kjárr Fellsword \"Ice\"",
@@ -10334,6 +10461,7 @@
         },
         "id": 134,
         "parentId": -1,
+        "sortOrder": 135,
         "name": {
             "jpn": "皇金の大剣・雷",
             "eng": "Kjárr Fellsword \"Thunder\"",

@@ -31,7 +31,7 @@ namespace MHWMasterDataUtils.Weapons
         public readonly byte GemSlot2;
         public readonly byte GemSlot3;
         public readonly byte TreePosition;
-        public readonly ushort Order;
+        public readonly ushort SortOrder;
         public readonly ushort GmdNameIndex;
         public readonly ushort GmdDescriptionIndex;
         public readonly ushort SkillId;
@@ -61,7 +61,7 @@ namespace MHWMasterDataUtils.Weapons
             byte gemSlot2,
             byte gemSlot3,
             byte treePosition,
-            ushort order,
+            ushort sortOrder,
             ushort gmdNameIndex,
             ushort gmdDescriptionIndex,
             ushort skillId
@@ -91,7 +91,7 @@ namespace MHWMasterDataUtils.Weapons
             GemSlot2 = gemSlot2;
             GemSlot3 = gemSlot3;
             TreePosition = treePosition;
-            Order = order;
+            SortOrder = sortOrder;
             GmdNameIndex = gmdNameIndex;
             GmdDescriptionIndex = gmdDescriptionIndex;
             SkillId = skillId;
@@ -149,7 +149,7 @@ namespace MHWMasterDataUtils.Weapons
                 diff++;
             if (other.TreePosition != TreePosition)
                 diff++;
-            if (other.Order != Order)
+            if (other.SortOrder != SortOrder)
                 diff++;
             if (other.GmdNameIndex != GmdNameIndex)
                 diff++;

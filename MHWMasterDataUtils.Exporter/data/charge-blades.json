@@ -21,6 +21,7 @@
         },
         "id": 6,
         "parentId": -1,
+        "sortOrder": 10,
         "name": {
             "jpn": "調査団試作盾斧Ⅰ",
             "eng": "Proto Commission Axe I",
@@ -96,6 +97,7 @@
         },
         "id": 7,
         "parentId": 6,
+        "sortOrder": 11,
         "name": {
             "jpn": "調査団試作盾斧Ⅱ",
             "eng": "Proto Commission Axe II",
@@ -171,6 +173,7 @@
         },
         "id": 8,
         "parentId": 7,
+        "sortOrder": 12,
         "name": {
             "jpn": "調査団試作盾斧Ⅲ",
             "eng": "Proto Commission Axe III",
@@ -254,6 +257,7 @@
         },
         "id": 9,
         "parentId": 8,
+        "sortOrder": 13,
         "name": {
             "jpn": "精鋭調査団盾斧Ⅰ",
             "eng": "Elite Commission Axe I",
@@ -337,6 +341,7 @@
         },
         "id": 10,
         "parentId": 9,
+        "sortOrder": 14,
         "name": {
             "jpn": "精鋭調査団盾斧Ⅱ",
             "eng": "Elite Commission Axe II",
@@ -424,6 +429,7 @@
         },
         "id": 11,
         "parentId": 10,
+        "sortOrder": 15,
         "name": {
             "jpn": "精鋭調査団盾斧Ⅲ",
             "eng": "Elite Commission Axe III",
@@ -509,6 +515,7 @@
         },
         "id": 12,
         "parentId": 11,
+        "sortOrder": 16,
         "name": {
             "jpn": "クロムガーディアンⅠ",
             "eng": "Chrome Guardian I",
@@ -598,6 +605,7 @@
         },
         "id": 13,
         "parentId": 12,
+        "sortOrder": 17,
         "name": {
             "jpn": "クロムガーディアンⅡ",
             "eng": "Chrome Guardian II",
@@ -688,6 +696,7 @@
         },
         "id": 14,
         "parentId": 12,
+        "sortOrder": 18,
         "name": {
             "jpn": "ネルガルスイング",
             "eng": "Nergal Lacerator",
@@ -777,6 +786,7 @@
         },
         "id": 15,
         "parentId": 14,
+        "sortOrder": 19,
         "name": {
             "jpn": "壊滅の一束",
             "eng": "Devastation's Thorns",
@@ -866,6 +876,7 @@
         },
         "id": 16,
         "parentId": 9,
+        "sortOrder": 20,
         "name": {
             "jpn": "火竜の盾斧Ⅰ",
             "eng": "Rathsblade I",
@@ -953,6 +964,7 @@
         },
         "id": 17,
         "parentId": 16,
+        "sortOrder": 21,
         "name": {
             "jpn": "火竜の盾斧Ⅱ",
             "eng": "Rathsblade II",
@@ -1042,6 +1054,7 @@
         },
         "id": 18,
         "parentId": 17,
+        "sortOrder": 22,
         "name": {
             "jpn": "炎斧アクセリオン",
             "eng": "Axelion Blade",
@@ -1131,6 +1144,7 @@
         },
         "id": 19,
         "parentId": 18,
+        "sortOrder": 23,
         "name": {
             "jpn": "焔斧ハルバリオン",
             "eng": "Halberion Blade",
@@ -1220,6 +1234,7 @@
         },
         "id": 20,
         "parentId": 7,
+        "sortOrder": 25,
         "name": {
             "jpn": "泥流の盾斧Ⅰ",
             "eng": "Mudslide Blade I",
@@ -1307,6 +1322,7 @@
         },
         "id": 21,
         "parentId": 20,
+        "sortOrder": 26,
         "name": {
             "jpn": "泥流の盾斧Ⅱ",
             "eng": "Mudslide Blade II",
@@ -1394,6 +1410,7 @@
         },
         "id": 22,
         "parentId": 21,
+        "sortOrder": 27,
         "name": {
             "jpn": "泥流の盾斧Ⅲ",
             "eng": "Mudslide Blade III",
@@ -1481,6 +1498,7 @@
         },
         "id": 23,
         "parentId": 22,
+        "sortOrder": 28,
         "name": {
             "jpn": "ディープシュラムⅠ",
             "eng": "Jyura Depth I",
@@ -1570,6 +1588,7 @@
         },
         "id": 24,
         "parentId": 23,
+        "sortOrder": 29,
         "name": {
             "jpn": "ディープシュラムⅡ",
             "eng": "Jyura Depth II",
@@ -1659,6 +1678,7 @@
         },
         "id": 25,
         "parentId": 24,
+        "sortOrder": 30,
         "name": {
             "jpn": "ディープシュラムⅢ",
             "eng": "Jyura Depth III",
@@ -1748,6 +1768,7 @@
         },
         "id": 26,
         "parentId": 21,
+        "sortOrder": 31,
         "name": {
             "jpn": "氷結の盾斧Ⅰ",
             "eng": "Everfrost Blade I",
@@ -1835,6 +1856,7 @@
         },
         "id": 27,
         "parentId": 26,
+        "sortOrder": 32,
         "name": {
             "jpn": "氷結の盾斧Ⅱ",
             "eng": "Everfrost Blade II",
@@ -1925,6 +1947,7 @@
         },
         "id": 28,
         "parentId": 27,
+        "sortOrder": 33,
         "name": {
             "jpn": "ギガフロストⅠ",
             "eng": "Gigafrost I",
@@ -2015,6 +2038,7 @@
         },
         "id": 29,
         "parentId": 28,
+        "sortOrder": 34,
         "name": {
             "jpn": "ギガフロストⅡ",
             "eng": "Gigafrost II",
@@ -2105,6 +2129,7 @@
         },
         "id": 30,
         "parentId": 20,
+        "sortOrder": 35,
         "name": {
             "jpn": "ディア＝ルテミス",
             "eng": "Dear Lutemis",
@@ -2192,6 +2217,7 @@
         },
         "id": 31,
         "parentId": 30,
+        "sortOrder": 36,
         "name": {
             "jpn": "ディア＝ルテミア",
             "eng": "Dear Lutemia",
@@ -2282,6 +2308,7 @@
         },
         "id": 32,
         "parentId": 31,
+        "sortOrder": 37,
         "name": {
             "jpn": "ディア＝ヘカテル",
             "eng": "Dear Hecatel",
@@ -2372,6 +2399,7 @@
         },
         "id": 33,
         "parentId": 32,
+        "sortOrder": 38,
         "name": {
             "jpn": "ディア＝ヘカテリア",
             "eng": "Dear Hecatelia",
@@ -2462,6 +2490,7 @@
         },
         "id": 34,
         "parentId": -1,
+        "sortOrder": 39,
         "name": {
             "jpn": "ボーンアームズⅠ",
             "eng": "Bone Strongarm I",
@@ -2537,6 +2566,7 @@
         },
         "id": 35,
         "parentId": 34,
+        "sortOrder": 40,
         "name": {
             "jpn": "ボーンアームズⅡ",
             "eng": "Bone Strongarm II",
@@ -2612,6 +2642,7 @@
         },
         "id": 36,
         "parentId": 35,
+        "sortOrder": 41,
         "name": {
             "jpn": "ボーンアームズⅢ",
             "eng": "Bone Strongarm III",
@@ -2691,6 +2722,7 @@
         },
         "id": 37,
         "parentId": 36,
+        "sortOrder": 42,
         "name": {
             "jpn": "ハードボーンアームズⅠ",
             "eng": "Hard Bone Strongarm I",
@@ -2774,6 +2806,7 @@
         },
         "id": 38,
         "parentId": 37,
+        "sortOrder": 43,
         "name": {
             "jpn": "ハードボーンアームズⅡ",
             "eng": "Hard Bone Strongarm II",
@@ -2857,6 +2890,7 @@
         },
         "id": 39,
         "parentId": 38,
+        "sortOrder": 44,
         "name": {
             "jpn": "ハードボーンアームズⅢ",
             "eng": "Hard Bone Strongarm III",
@@ -2942,6 +2976,7 @@
         },
         "id": 40,
         "parentId": 39,
+        "sortOrder": 45,
         "name": {
             "jpn": "ストロングアームズⅠ",
             "eng": "Mighty Strongarm I",
@@ -3027,6 +3062,7 @@
         },
         "id": 41,
         "parentId": 40,
+        "sortOrder": 46,
         "name": {
             "jpn": "ストロングアームズⅡ",
             "eng": "Mighty Strongarm II",
@@ -3116,6 +3152,7 @@
         },
         "id": 42,
         "parentId": 37,
+        "sortOrder": 47,
         "name": {
             "jpn": "ブロスウォールⅠ",
             "eng": "Diablos Wall I",
@@ -3203,6 +3240,7 @@
         },
         "id": 43,
         "parentId": 42,
+        "sortOrder": 48,
         "name": {
             "jpn": "ブロスウォールⅡ",
             "eng": "Diablos Wall II",
@@ -3290,6 +3328,7 @@
         },
         "id": 44,
         "parentId": 43,
+        "sortOrder": 49,
         "name": {
             "jpn": "タイラントブロスⅠ",
             "eng": "Diablos Tyrannis I",
@@ -3377,6 +3416,7 @@
         },
         "id": 45,
         "parentId": 44,
+        "sortOrder": 50,
         "name": {
             "jpn": "タイラントブロスⅡ",
             "eng": "Diablos Tyrannis II",
@@ -3464,6 +3504,7 @@
         },
         "id": 46,
         "parentId": 35,
+        "sortOrder": 52,
         "name": {
             "jpn": "ジャグラスアームズⅠ",
             "eng": "Jagras Strongarm I",
@@ -3551,6 +3592,7 @@
         },
         "id": 47,
         "parentId": 46,
+        "sortOrder": 53,
         "name": {
             "jpn": "ジャグラスアームズⅡ",
             "eng": "Jagras Strongarm II",
@@ -3638,6 +3680,7 @@
         },
         "id": 48,
         "parentId": 47,
+        "sortOrder": 54,
         "name": {
             "jpn": "ジャグラスアームズⅢ",
             "eng": "Jagras Strongarm III",
@@ -3725,6 +3768,7 @@
         },
         "id": 49,
         "parentId": 48,
+        "sortOrder": 55,
         "name": {
             "jpn": "ジャグラスエスクードⅠ",
             "eng": "Jagras Escudo I",
@@ -3815,6 +3859,7 @@
         },
         "id": 50,
         "parentId": 49,
+        "sortOrder": 56,
         "name": {
             "jpn": "ジャグラスエスクードⅡ",
             "eng": "Jagras Escudo II",
@@ -3905,6 +3950,7 @@
         },
         "id": 51,
         "parentId": 50,
+        "sortOrder": 57,
         "name": {
             "jpn": "ジャグラスエスクードⅢ",
             "eng": "Jagras Escudo III",
@@ -3995,6 +4041,7 @@
         },
         "id": 52,
         "parentId": 49,
+        "sortOrder": 58,
         "name": {
             "jpn": "ガマルシルトⅠ",
             "eng": "Gama Silt I",
@@ -4081,6 +4128,7 @@
         },
         "id": 53,
         "parentId": 52,
+        "sortOrder": 59,
         "name": {
             "jpn": "ガマルシルトⅡ",
             "eng": "Gama Silt II",
@@ -4171,6 +4219,7 @@
         },
         "id": 54,
         "parentId": 46,
+        "sortOrder": 60,
         "name": {
             "jpn": "ギルオスアームズⅠ",
             "eng": "Girros Strongarm I",
@@ -4254,6 +4303,7 @@
         },
         "id": 55,
         "parentId": 54,
+        "sortOrder": 61,
         "name": {
             "jpn": "ギルオスアームズⅡ",
             "eng": "Girros Strongarm II",
@@ -4341,6 +4391,7 @@
         },
         "id": 56,
         "parentId": 55,
+        "sortOrder": 62,
         "name": {
             "jpn": "ギルオスナージャⅠ",
             "eng": "Girros Nadja I",
@@ -4428,6 +4479,7 @@
         },
         "id": 57,
         "parentId": 56,
+        "sortOrder": 63,
         "name": {
             "jpn": "ギルオスナージャⅡ",
             "eng": "Girros Nadja II",
@@ -4515,6 +4567,7 @@
         },
         "id": 58,
         "parentId": 57,
+        "sortOrder": 64,
         "name": {
             "jpn": "ギルオスナージャⅢ",
             "eng": "Girros Nadja III",
@@ -4602,6 +4655,7 @@
         },
         "id": 59,
         "parentId": 57,
+        "sortOrder": 65,
         "name": {
             "jpn": "ハザクアスピダⅠ",
             "eng": "Hazak Aspida I",
@@ -4691,6 +4745,7 @@
         },
         "id": 60,
         "parentId": 59,
+        "sortOrder": 66,
         "name": {
             "jpn": "ハザクアスピダⅡ",
             "eng": "Hazak Aspida II",
@@ -4780,6 +4835,7 @@
         },
         "id": 61,
         "parentId": 35,
+        "sortOrder": 67,
         "name": {
             "jpn": "パルサーアームズⅠ",
             "eng": "Pulsar Strongarm I",
@@ -4863,6 +4919,7 @@
         },
         "id": 62,
         "parentId": 61,
+        "sortOrder": 68,
         "name": {
             "jpn": "パルサーアームズⅡ",
             "eng": "Pulsar Strongarm II",
@@ -4950,6 +5007,7 @@
         },
         "id": 63,
         "parentId": 62,
+        "sortOrder": 69,
         "name": {
             "jpn": "パルサーアームズⅢ",
             "eng": "Pulsar Strongarm III",
@@ -5037,6 +5095,7 @@
         },
         "id": 64,
         "parentId": 63,
+        "sortOrder": 70,
         "name": {
             "jpn": "カガチノカイナⅠ",
             "eng": "Kadachi Kaina I",
@@ -5126,6 +5185,7 @@
         },
         "id": 65,
         "parentId": 64,
+        "sortOrder": 71,
         "name": {
             "jpn": "カガチノカイナⅡ",
             "eng": "Kadachi Kaina II",
@@ -5215,6 +5275,7 @@
         },
         "id": 66,
         "parentId": 65,
+        "sortOrder": 72,
         "name": {
             "jpn": "カガチノカイナⅢ",
             "eng": "Kadachi Kaina III",
@@ -5304,6 +5365,7 @@
         },
         "id": 67,
         "parentId": 62,
+        "sortOrder": 73,
         "name": {
             "jpn": "ガロンアームズⅠ",
             "eng": "Garon Strongarm I",
@@ -5387,6 +5449,7 @@
         },
         "id": 68,
         "parentId": 67,
+        "sortOrder": 74,
         "name": {
             "jpn": "ガロンアームズⅡ",
             "eng": "Garon Strongarm II",
@@ -5474,6 +5537,7 @@
         },
         "id": 69,
         "parentId": 68,
+        "sortOrder": 75,
         "name": {
             "jpn": "憎しみの炎",
             "eng": "Hate's Undying Flame",
@@ -5561,6 +5625,7 @@
         },
         "id": 70,
         "parentId": 69,
+        "sortOrder": 76,
         "name": {
             "jpn": "憎【オディウム】",
             "eng": "Odium",
@@ -5648,6 +5713,7 @@
         },
         "id": 71,
         "parentId": -1,
+        "sortOrder": 77,
         "name": {
             "jpn": "龍骨盾斧Ⅰ",
             "eng": "Dragonbone Cutter I",
@@ -5735,6 +5801,7 @@
         },
         "id": 72,
         "parentId": 71,
+        "sortOrder": 78,
         "name": {
             "jpn": "龍骨盾斧Ⅱ",
             "eng": "Dragonbone Cutter II",
@@ -5818,6 +5885,7 @@
         },
         "id": 73,
         "parentId": 72,
+        "sortOrder": 79,
         "name": {
             "jpn": "龍骨盾斧Ⅲ",
             "eng": "Dragonbone Cutter III",
@@ -5908,6 +5976,7 @@
         },
         "id": 74,
         "parentId": 71,
+        "sortOrder": 86,
         "name": {
             "jpn": "マグダ・マヌス",
             "eng": "Magda Manus",
@@ -5995,6 +6064,7 @@
         },
         "id": 75,
         "parentId": 74,
+        "sortOrder": 80,
         "name": {
             "jpn": "捲土重来マグマヌス",
             "eng": "Avenging Magda Manus",
@@ -6082,6 +6152,7 @@
         },
         "id": 76,
         "parentId": -1,
+        "sortOrder": 81,
         "name": {
             "jpn": "黒鋼の盾斧Ⅰ",
             "eng": "Blacksteel Charger I",
@@ -6169,6 +6240,7 @@
         },
         "id": 77,
         "parentId": 76,
+        "sortOrder": 82,
         "name": {
             "jpn": "黒鋼の盾斧Ⅱ",
             "eng": "Blacksteel Charger II",
@@ -6256,6 +6328,7 @@
         },
         "id": 78,
         "parentId": 77,
+        "sortOrder": 83,
         "name": {
             "jpn": "ダオラ＝カスカ",
             "eng": "Daora's Casca",
@@ -6345,6 +6418,7 @@
         },
         "id": 79,
         "parentId": 78,
+        "sortOrder": 84,
         "name": {
             "jpn": "ダオラ＝ゲンム",
             "eng": "Daora's Thwartoise",
@@ -6435,6 +6509,7 @@
         },
         "id": 80,
         "parentId": 77,
+        "sortOrder": 85,
         "name": {
             "jpn": "ゼノ＝ラーツ",
             "eng": "Xeno Ra'atz",
@@ -6525,6 +6600,7 @@
         },
         "id": 81,
         "parentId": -1,
+        "sortOrder": 100,
         "name": {
             "jpn": "暴虐の盾斧",
             "eng": "Tyrant's Charge Blade",
@@ -6612,6 +6688,7 @@
         },
         "id": 82,
         "parentId": 81,
+        "sortOrder": 101,
         "name": {
             "jpn": "デストネーター",
             "eng": "Oppressor's Charge Blade",
@@ -6699,6 +6776,7 @@
         },
         "id": 83,
         "parentId": -1,
+        "sortOrder": 102,
         "name": {
             "jpn": "ダンテの魔剣",
             "eng": "Dante's Devil Sword",
@@ -6789,6 +6867,7 @@
         },
         "id": 109,
         "parentId": -1,
+        "sortOrder": 128,
         "name": {
             "jpn": "エンプレスアルマ",
             "eng": "Empress Alma",
@@ -6879,6 +6958,7 @@
         },
         "id": 110,
         "parentId": 109,
+        "sortOrder": 129,
         "name": {
             "jpn": "エンプレスアルマ・炎妃",
             "eng": "Empress Alma \"Blaze\"",
@@ -6970,6 +7050,7 @@
         },
         "id": 111,
         "parentId": 109,
+        "sortOrder": 130,
         "name": {
             "jpn": "エンプレスアルマ・滅尽",
             "eng": "Empress Alma \"Ruin\"",
@@ -7061,6 +7142,7 @@
         },
         "id": 112,
         "parentId": 109,
+        "sortOrder": 131,
         "name": {
             "jpn": "エンプレスアルマ・冥灯",
             "eng": "Empress Alma \"Styx\"",
@@ -7152,6 +7234,7 @@
         },
         "id": 85,
         "parentId": -1,
+        "sortOrder": 104,
         "name": {
             "jpn": "金色の盾斧・氷",
             "eng": "Gold Ice Cutter",
@@ -7218,6 +7301,7 @@
         },
         "id": 86,
         "parentId": -1,
+        "sortOrder": 105,
         "name": {
             "jpn": "金色の盾斧・雷",
             "eng": "Gold Thunder Cutter",
@@ -7284,6 +7368,7 @@
         },
         "id": 87,
         "parentId": -1,
+        "sortOrder": 106,
         "name": {
             "jpn": "金色の盾斧・睡眠",
             "eng": "Gold Sleep Cutter",
@@ -7350,6 +7435,7 @@
         },
         "id": 88,
         "parentId": -1,
+        "sortOrder": 107,
         "name": {
             "jpn": "金色の盾斧・賊",
             "eng": "Glutton Gold Cutter",
@@ -7416,6 +7502,7 @@
         },
         "id": 89,
         "parentId": -1,
+        "sortOrder": 108,
         "name": {
             "jpn": "金色の盾斧・泥魚",
             "eng": "Mire Gold Cutter",
@@ -7482,6 +7569,7 @@
         },
         "id": 90,
         "parentId": -1,
+        "sortOrder": 109,
         "name": {
             "jpn": "金色の盾斧・飛雷",
             "eng": "Spark Gold Cutter",
@@ -7548,6 +7636,7 @@
         },
         "id": 91,
         "parentId": -1,
+        "sortOrder": 110,
         "name": {
             "jpn": "金色の盾斧・痺賊",
             "eng": "Numb Gold Cutter",
@@ -7614,6 +7703,7 @@
         },
         "id": 92,
         "parentId": -1,
+        "sortOrder": 111,
         "name": {
             "jpn": "金色の盾斧・惨爪",
             "eng": "Claw Gold Cutter",
@@ -7680,6 +7770,7 @@
         },
         "id": 93,
         "parentId": -1,
+        "sortOrder": 112,
         "name": {
             "jpn": "金色の盾斧・屍套",
             "eng": "Decay Gold Cutter",
@@ -7746,6 +7837,7 @@
         },
         "id": 94,
         "parentId": -1,
+        "sortOrder": 113,
         "name": {
             "jpn": "金色の盾斧・王",
             "eng": "King Gold Cutter",
@@ -7812,6 +7904,7 @@
         },
         "id": 95,
         "parentId": -1,
+        "sortOrder": 114,
         "name": {
             "jpn": "金色の盾斧・角",
             "eng": "Horn Gold Cutter",
@@ -7878,6 +7971,7 @@
         },
         "id": 96,
         "parentId": -1,
+        "sortOrder": 115,
         "name": {
             "jpn": "金色の盾斧・岩賊",
             "eng": "Crusher Gold Cutter",
@@ -7944,6 +8038,7 @@
         },
         "id": 97,
         "parentId": -1,
+        "sortOrder": 116,
         "name": {
             "jpn": "ガイラアームズ・賊",
             "eng": "Taroth Strongarm \"Glutton\"",
@@ -8010,6 +8105,7 @@
         },
         "id": 98,
         "parentId": -1,
+        "sortOrder": 117,
         "name": {
             "jpn": "ガイラアームズ・泥魚",
             "eng": "Taroth Strongarm \"Mire\"",
@@ -8076,6 +8172,7 @@
         },
         "id": 99,
         "parentId": -1,
+        "sortOrder": 118,
         "name": {
             "jpn": "ガイラアームズ・飛雷",
             "eng": "Taroth Strongarm \"Spark\"",
@@ -8142,6 +8239,7 @@
         },
         "id": 100,
         "parentId": -1,
+        "sortOrder": 119,
         "name": {
             "jpn": "ガイラアームズ・痺賊",
             "eng": "Taroth Strongarm \"Numb\"",
@@ -8208,6 +8306,7 @@
         },
         "id": 101,
         "parentId": -1,
+        "sortOrder": 120,
         "name": {
             "jpn": "ガイラアームズ・惨爪",
             "eng": "Taroth Strongarm \"Claw\"",
@@ -8274,6 +8373,7 @@
         },
         "id": 102,
         "parentId": -1,
+        "sortOrder": 121,
         "name": {
             "jpn": "ガイラアームズ・屍套",
             "eng": "Taroth Strongarm \"Decay\"",
@@ -8340,6 +8440,7 @@
         },
         "id": 103,
         "parentId": -1,
+        "sortOrder": 122,
         "name": {
             "jpn": "ガイラアームズ・王",
             "eng": "Taroth Strongarm \"King\"",
@@ -8406,6 +8507,7 @@
         },
         "id": 104,
         "parentId": -1,
+        "sortOrder": 123,
         "name": {
             "jpn": "ガイラアームズ・角",
             "eng": "Taroth Strongarm \"Horn\"",
@@ -8472,6 +8574,7 @@
         },
         "id": 105,
         "parentId": -1,
+        "sortOrder": 124,
         "name": {
             "jpn": "ガイラアームズ・岩賊",
             "eng": "Taroth Strongarm \"Crusher\"",
@@ -8538,6 +8641,7 @@
         },
         "id": 106,
         "parentId": -1,
+        "sortOrder": 125,
         "name": {
             "jpn": "ガイラアームズ・氷",
             "eng": "Taroth Strongarm \"Ice\"",
@@ -8606,6 +8710,7 @@
         },
         "id": 107,
         "parentId": -1,
+        "sortOrder": 126,
         "name": {
             "jpn": "ガイラアームズ・雷",
             "eng": "Taroth Strongarm \"Thunder\"",
@@ -8674,6 +8779,7 @@
         },
         "id": 108,
         "parentId": -1,
+        "sortOrder": 127,
         "name": {
             "jpn": "ガイラアームズ・睡眠",
             "eng": "Taroth Strongarm \"Sleep\"",
@@ -8742,6 +8848,7 @@
         },
         "id": 113,
         "parentId": -1,
+        "sortOrder": 132,
         "name": {
             "jpn": "ガイラアームズ・水",
             "eng": "Taroth Strongarm \"Water\"",
@@ -8810,6 +8917,7 @@
         },
         "id": 114,
         "parentId": -1,
+        "sortOrder": 133,
         "name": {
             "jpn": "皇金の盾斧・飛雷",
             "eng": "Kjárr Strongarm \"Spark\"",
@@ -8877,6 +8985,7 @@
         },
         "id": 115,
         "parentId": -1,
+        "sortOrder": 134,
         "name": {
             "jpn": "皇金の盾斧・痺賊",
             "eng": "Kjárr Strongarm \"Numb\"",
@@ -8946,6 +9055,7 @@
         },
         "id": 116,
         "parentId": -1,
+        "sortOrder": 135,
         "name": {
             "jpn": "皇金の盾斧・屍套",
             "eng": "Kjárr Strongarm \"Decay\"",
@@ -9013,6 +9123,7 @@
         },
         "id": 117,
         "parentId": -1,
+        "sortOrder": 136,
         "name": {
             "jpn": "皇金の盾斧・王",
             "eng": "Kjárr Strongarm \"King\"",
@@ -9080,6 +9191,7 @@
         },
         "id": 118,
         "parentId": -1,
+        "sortOrder": 137,
         "name": {
             "jpn": "皇金の盾斧・氷",
             "eng": "Kjárr Strongarm \"Ice\"",
@@ -9149,6 +9261,7 @@
         },
         "id": 119,
         "parentId": -1,
+        "sortOrder": 138,
         "name": {
             "jpn": "皇金の盾斧・岩賊",
             "eng": "Kjárr Strongarm \"Crusher\"",
@@ -9216,6 +9329,7 @@
         },
         "id": 120,
         "parentId": -1,
+        "sortOrder": 139,
         "name": {
             "jpn": "皇金の盾斧・水",
             "eng": "Kjárr Strongarm \"Water\"",

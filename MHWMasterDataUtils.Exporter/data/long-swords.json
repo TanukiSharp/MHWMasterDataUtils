@@ -20,6 +20,7 @@
         },
         "id": 6,
         "parentId": -1,
+        "sortOrder": 10,
         "name": {
             "jpn": "鉄刀Ⅰ",
             "eng": "Iron Katana I",
@@ -94,6 +95,7 @@
         },
         "id": 7,
         "parentId": 6,
+        "sortOrder": 11,
         "name": {
             "jpn": "鉄刀Ⅱ",
             "eng": "Iron Katana II",
@@ -168,6 +170,7 @@
         },
         "id": 8,
         "parentId": 7,
+        "sortOrder": 12,
         "name": {
             "jpn": "鉄刀Ⅲ",
             "eng": "Iron Katana III",
@@ -250,6 +253,7 @@
         },
         "id": 9,
         "parentId": 8,
+        "sortOrder": 13,
         "name": {
             "jpn": "鉄刀【禊】Ⅰ",
             "eng": "Iron Grace I",
@@ -332,6 +336,7 @@
         },
         "id": 10,
         "parentId": 9,
+        "sortOrder": 14,
         "name": {
             "jpn": "鉄刀【禊】Ⅱ",
             "eng": "Iron Grace II",
@@ -418,6 +423,7 @@
         },
         "id": 11,
         "parentId": 10,
+        "sortOrder": 15,
         "name": {
             "jpn": "鉄刀【禊】Ⅲ",
             "eng": "Iron Grace III",
@@ -502,6 +508,7 @@
         },
         "id": 12,
         "parentId": 11,
+        "sortOrder": 16,
         "name": {
             "jpn": "鉄刀【神楽】Ⅰ",
             "eng": "Iron Gospel I",
@@ -590,6 +597,7 @@
         },
         "id": 13,
         "parentId": 12,
+        "sortOrder": 17,
         "name": {
             "jpn": "鉄刀【神楽】Ⅱ",
             "eng": "Iron Gospel II",
@@ -679,6 +687,7 @@
         },
         "id": 14,
         "parentId": 12,
+        "sortOrder": 18,
         "name": {
             "jpn": "ネルガルリーヴェ",
             "eng": "Nergal Reaver",
@@ -767,6 +776,7 @@
         },
         "id": 15,
         "parentId": 14,
+        "sortOrder": 19,
         "name": {
             "jpn": "滅尽の一刀",
             "eng": "Extermination's Edge",
@@ -855,6 +865,7 @@
         },
         "id": 16,
         "parentId": 8,
+        "sortOrder": 20,
         "name": {
             "jpn": "眩刀【揺】Ⅰ",
             "eng": "Flickering Glow I",
@@ -937,6 +948,7 @@
         },
         "id": 17,
         "parentId": 16,
+        "sortOrder": 21,
         "name": {
             "jpn": "眩刀【揺】Ⅱ",
             "eng": "Flickering Glow II",
@@ -1023,6 +1035,7 @@
         },
         "id": 18,
         "parentId": 17,
+        "sortOrder": 22,
         "name": {
             "jpn": "眩惑刀【閃】Ⅰ",
             "eng": "Dazzling Flash I",
@@ -1111,6 +1124,7 @@
         },
         "id": 19,
         "parentId": 18,
+        "sortOrder": 23,
         "name": {
             "jpn": "眩惑刀【閃】Ⅱ",
             "eng": "Dazzling Flash II",
@@ -1199,6 +1213,7 @@
         },
         "id": 20,
         "parentId": 19,
+        "sortOrder": 24,
         "name": {
             "jpn": "眩惑刀【閃】Ⅲ",
             "eng": "Dazzling Flash III",
@@ -1287,6 +1302,7 @@
         },
         "id": 21,
         "parentId": 7,
+        "sortOrder": 25,
         "name": {
             "jpn": "アルリーシャⅠ",
             "eng": "First Dance I",
@@ -1369,6 +1385,7 @@
         },
         "id": 22,
         "parentId": 21,
+        "sortOrder": 26,
         "name": {
             "jpn": "アルリーシャⅡ",
             "eng": "First Dance II",
@@ -1455,6 +1472,7 @@
         },
         "id": 23,
         "parentId": 22,
+        "sortOrder": 27,
         "name": {
             "jpn": "アルリーシャⅢ",
             "eng": "First Dance III",
@@ -1541,6 +1559,7 @@
         },
         "id": 24,
         "parentId": 23,
+        "sortOrder": 28,
         "name": {
             "jpn": "アルダジャージュⅠ",
             "eng": "Last Dance I",
@@ -1623,6 +1642,7 @@
         },
         "id": 25,
         "parentId": 24,
+        "sortOrder": 29,
         "name": {
             "jpn": "アルダジャージュⅡ",
             "eng": "Last Dance II",
@@ -1709,6 +1729,7 @@
         },
         "id": 26,
         "parentId": 25,
+        "sortOrder": 30,
         "name": {
             "jpn": "アルダジャージュⅢ",
             "eng": "Last Dance III",
@@ -1795,6 +1816,7 @@
         },
         "id": 27,
         "parentId": 24,
+        "sortOrder": 31,
         "name": {
             "jpn": "ブラスリッジⅠ",
             "eng": "Brazenridge I",
@@ -1883,6 +1905,7 @@
         },
         "id": 28,
         "parentId": 27,
+        "sortOrder": 32,
         "name": {
             "jpn": "ブラスリッジⅡ",
             "eng": "Brazenridge II",
@@ -1972,6 +1995,7 @@
         },
         "id": 29,
         "parentId": 21,
+        "sortOrder": 33,
         "name": {
             "jpn": "飛竜刀【青葉】",
             "eng": "Wyvern Blade \"Leaf\"",
@@ -2058,6 +2082,7 @@
         },
         "id": 30,
         "parentId": 29,
+        "sortOrder": 34,
         "name": {
             "jpn": "飛竜刀【翠】",
             "eng": "Wyvern Blade \"Verde\"",
@@ -2146,6 +2171,7 @@
         },
         "id": 31,
         "parentId": 30,
+        "sortOrder": 35,
         "name": {
             "jpn": "飛竜刀【葵】",
             "eng": "Wyvern Blade \"Holly\"",
@@ -2234,6 +2260,7 @@
         },
         "id": 32,
         "parentId": 29,
+        "sortOrder": 37,
         "name": {
             "jpn": "飛竜刀【紅葉】",
             "eng": "Wyvern Blade \"Fall\"",
@@ -2320,6 +2347,7 @@
         },
         "id": 33,
         "parentId": 32,
+        "sortOrder": 38,
         "name": {
             "jpn": "飛竜刀【朱】",
             "eng": "Wyvern Blade \"Blood\"",
@@ -2408,6 +2436,7 @@
         },
         "id": 34,
         "parentId": 33,
+        "sortOrder": 39,
         "name": {
             "jpn": "飛竜刀【蒼】",
             "eng": "Wyvern Blade \"Azure\"",
@@ -2496,6 +2525,7 @@
         },
         "id": 35,
         "parentId": 34,
+        "sortOrder": 40,
         "name": {
             "jpn": "飛竜刀【藍染】",
             "eng": "Wyvern Blade \"Indigo\"",
@@ -2584,6 +2614,7 @@
         },
         "id": 36,
         "parentId": -1,
+        "sortOrder": 41,
         "name": {
             "jpn": "ボーンショテルⅠ",
             "eng": "Bone Shotel I",
@@ -2658,6 +2689,7 @@
         },
         "id": 37,
         "parentId": 36,
+        "sortOrder": 42,
         "name": {
             "jpn": "ボーンショテルⅡ",
             "eng": "Bone Shotel II",
@@ -2732,6 +2764,7 @@
         },
         "id": 38,
         "parentId": 37,
+        "sortOrder": 43,
         "name": {
             "jpn": "ボーンショテルⅢ",
             "eng": "Bone Shotel III",
@@ -2810,6 +2843,7 @@
         },
         "id": 39,
         "parentId": 38,
+        "sortOrder": 44,
         "name": {
             "jpn": "ハードボーンショテルⅠ",
             "eng": "Hard Bone Shotel I",
@@ -2892,6 +2926,7 @@
         },
         "id": 40,
         "parentId": 39,
+        "sortOrder": 45,
         "name": {
             "jpn": "ハードボーンショテルⅡ",
             "eng": "Hard Bone Shotel II",
@@ -2974,6 +3009,7 @@
         },
         "id": 41,
         "parentId": 40,
+        "sortOrder": 46,
         "name": {
             "jpn": "ハードボーンショテルⅢ",
             "eng": "Hard Bone Shotel III",
@@ -3058,6 +3094,7 @@
         },
         "id": 42,
         "parentId": 41,
+        "sortOrder": 47,
         "name": {
             "jpn": "ボーンリーパーⅠ",
             "eng": "Bone Reaper I",
@@ -3142,6 +3179,7 @@
         },
         "id": 43,
         "parentId": 42,
+        "sortOrder": 48,
         "name": {
             "jpn": "ボーンリーパーⅡ",
             "eng": "Bone Reaper II",
@@ -3230,6 +3268,7 @@
         },
         "id": 44,
         "parentId": 41,
+        "sortOrder": 49,
         "name": {
             "jpn": "爆鱗の大刀",
             "eng": "Rookslayer Long Sword",
@@ -3319,6 +3358,7 @@
         },
         "id": 45,
         "parentId": 44,
+        "sortOrder": 50,
         "name": {
             "jpn": "爆鱗刀バゼルバルガー",
             "eng": "Bazel Varga Rookslayer",
@@ -3408,6 +3448,7 @@
         },
         "id": 46,
         "parentId": 38,
+        "sortOrder": 51,
         "name": {
             "jpn": "ブレイズショテルⅠ",
             "eng": "Blazing Shotel I",
@@ -3490,6 +3531,7 @@
         },
         "id": 47,
         "parentId": 46,
+        "sortOrder": 52,
         "name": {
             "jpn": "ブレイズショテルⅡ",
             "eng": "Blazing Shotel II",
@@ -3576,6 +3618,7 @@
         },
         "id": 48,
         "parentId": 47,
+        "sortOrder": 53,
         "name": {
             "jpn": "ジャナフシミターⅠ",
             "eng": "Anja Scimitar I",
@@ -3662,6 +3705,7 @@
         },
         "id": 49,
         "parentId": 48,
+        "sortOrder": 54,
         "name": {
             "jpn": "ジャナフシミターⅡ",
             "eng": "Anja Scimitar II",
@@ -3748,6 +3792,7 @@
         },
         "id": 50,
         "parentId": 49,
+        "sortOrder": 55,
         "name": {
             "jpn": "ジャナフシミターⅢ",
             "eng": "Anja Scimitar III",
@@ -3834,6 +3879,7 @@
         },
         "id": 51,
         "parentId": 37,
+        "sortOrder": 56,
         "name": {
             "jpn": "シュラムショテルⅠ",
             "eng": "Jyura Shotel I",
@@ -3920,6 +3966,7 @@
         },
         "id": 52,
         "parentId": 51,
+        "sortOrder": 57,
         "name": {
             "jpn": "シュラムショテルⅡ",
             "eng": "Jyura Shotel II",
@@ -4006,6 +4053,7 @@
         },
         "id": 53,
         "parentId": 52,
+        "sortOrder": 58,
         "name": {
             "jpn": "シュラムショテルⅢ",
             "eng": "Jyura Shotel III",
@@ -4092,6 +4140,7 @@
         },
         "id": 54,
         "parentId": 53,
+        "sortOrder": 59,
         "name": {
             "jpn": "ディプテルスⅠ",
             "eng": "Dipterus I",
@@ -4180,6 +4229,7 @@
         },
         "id": 55,
         "parentId": 54,
+        "sortOrder": 60,
         "name": {
             "jpn": "ディプテルスⅡ",
             "eng": "Dipterus II",
@@ -4268,6 +4318,7 @@
         },
         "id": 56,
         "parentId": 55,
+        "sortOrder": 61,
         "name": {
             "jpn": "ディプテルスⅢ",
             "eng": "Dipterus III",
@@ -4356,6 +4407,7 @@
         },
         "id": 57,
         "parentId": 55,
+        "sortOrder": 62,
         "name": {
             "jpn": "ハザクグローサⅠ",
             "eng": "Hazak Grosser I",
@@ -4444,6 +4496,7 @@
         },
         "id": 58,
         "parentId": 57,
+        "sortOrder": 63,
         "name": {
             "jpn": "ハザクグローサⅡ",
             "eng": "Hazak Grosser II",
@@ -4532,6 +4585,7 @@
         },
         "id": 59,
         "parentId": 37,
+        "sortOrder": 64,
         "name": {
             "jpn": "パルサーショテルⅠ",
             "eng": "Pulsar Shotel I",
@@ -4614,6 +4668,7 @@
         },
         "id": 60,
         "parentId": 59,
+        "sortOrder": 65,
         "name": {
             "jpn": "パルサーショテルⅡ",
             "eng": "Pulsar Shotel II",
@@ -4700,6 +4755,7 @@
         },
         "id": 61,
         "parentId": 60,
+        "sortOrder": 66,
         "name": {
             "jpn": "パルサーショテルⅢ",
             "eng": "Pulsar Shotel III",
@@ -4786,6 +4842,7 @@
         },
         "id": 62,
         "parentId": 61,
+        "sortOrder": 67,
         "name": {
             "jpn": "カガチノキバⅠ",
             "eng": "Kadachi Fang I",
@@ -4874,6 +4931,7 @@
         },
         "id": 63,
         "parentId": 62,
+        "sortOrder": 68,
         "name": {
             "jpn": "カガチノキバⅡ",
             "eng": "Kadachi Fang II",
@@ -4962,6 +5020,7 @@
         },
         "id": 64,
         "parentId": 63,
+        "sortOrder": 69,
         "name": {
             "jpn": "カガチノキバⅢ",
             "eng": "Kadachi Fang III",
@@ -5050,6 +5109,7 @@
         },
         "id": 65,
         "parentId": 60,
+        "sortOrder": 70,
         "name": {
             "jpn": "グレイスショテルⅠ",
             "eng": "Glacial Shotel I",
@@ -5132,6 +5192,7 @@
         },
         "id": 66,
         "parentId": 65,
+        "sortOrder": 71,
         "name": {
             "jpn": "グレイスショテルⅡ",
             "eng": "Glacial Shotel II",
@@ -5218,6 +5279,7 @@
         },
         "id": 67,
         "parentId": 66,
+        "sortOrder": 72,
         "name": {
             "jpn": "スティーラー",
             "eng": "Stealer",
@@ -5304,6 +5366,7 @@
         },
         "id": 68,
         "parentId": 67,
+        "sortOrder": 73,
         "name": {
             "jpn": "レイ＝スティーラー",
             "eng": "Legia Stealer",
@@ -5390,6 +5453,7 @@
         },
         "id": 69,
         "parentId": 59,
+        "sortOrder": 74,
         "name": {
             "jpn": "ダークショテルⅠ",
             "eng": "Dark Shotel I",
@@ -5472,6 +5536,7 @@
         },
         "id": 70,
         "parentId": 69,
+        "sortOrder": 75,
         "name": {
             "jpn": "ダークショテルⅡ",
             "eng": "Dark Shotel II",
@@ -5558,6 +5623,7 @@
         },
         "id": 71,
         "parentId": 70,
+        "sortOrder": 76,
         "name": {
             "jpn": "ダークシミターⅠ",
             "eng": "Dark Scimitar I",
@@ -5646,6 +5712,7 @@
         },
         "id": 72,
         "parentId": 71,
+        "sortOrder": 77,
         "name": {
             "jpn": "ダークシミターⅡ",
             "eng": "Dark Scimitar II",
@@ -5734,6 +5801,7 @@
         },
         "id": 73,
         "parentId": 72,
+        "sortOrder": 78,
         "name": {
             "jpn": "ダークシミターⅢ",
             "eng": "Dark Scimitar III",
@@ -5822,6 +5890,7 @@
         },
         "id": 74,
         "parentId": -1,
+        "sortOrder": 79,
         "name": {
             "jpn": "龍骨刀Ⅰ",
             "eng": "Dragonbone Stabber I",
@@ -5908,6 +5977,7 @@
         },
         "id": 75,
         "parentId": 74,
+        "sortOrder": 80,
         "name": {
             "jpn": "龍骨刀Ⅱ",
             "eng": "Dragonbone Stabber II",
@@ -5990,6 +6060,7 @@
         },
         "id": 76,
         "parentId": 75,
+        "sortOrder": 81,
         "name": {
             "jpn": "龍骨刀Ⅲ",
             "eng": "Dragonbone Stabber III",
@@ -6078,6 +6149,7 @@
         },
         "id": 77,
         "parentId": 74,
+        "sortOrder": 90,
         "name": {
             "jpn": "マグダ・ファクルタスⅠ",
             "eng": "Magda Facultas I",
@@ -6166,6 +6238,7 @@
         },
         "id": 78,
         "parentId": 77,
+        "sortOrder": 82,
         "name": {
             "jpn": "マグダ・ファクルタスⅡ",
             "eng": "Magda Facultas II",
@@ -6254,6 +6327,7 @@
         },
         "id": 79,
         "parentId": -1,
+        "sortOrder": 83,
         "name": {
             "jpn": "黒鋼の太刀Ⅰ",
             "eng": "Blacksteel Long Sword I",
@@ -6340,6 +6414,7 @@
         },
         "id": 80,
         "parentId": 79,
+        "sortOrder": 84,
         "name": {
             "jpn": "黒鋼の太刀Ⅱ",
             "eng": "Blacksteel Long Sword II",
@@ -6426,6 +6501,7 @@
         },
         "id": 81,
         "parentId": 80,
+        "sortOrder": 85,
         "name": {
             "jpn": "帝王刀",
             "eng": "Imperial Saber",
@@ -6512,6 +6588,7 @@
         },
         "id": 82,
         "parentId": 81,
+        "sortOrder": 86,
         "name": {
             "jpn": "帝王刀【陽炎】",
             "eng": "Imperial Shimmer",
@@ -6598,6 +6675,7 @@
         },
         "id": 83,
         "parentId": 80,
+        "sortOrder": 87,
         "name": {
             "jpn": "ゼノ＝サイファ",
             "eng": "Xeno Cypher",
@@ -6687,6 +6765,7 @@
         },
         "id": 84,
         "parentId": -1,
+        "sortOrder": 88,
         "name": {
             "jpn": "天下無双刀",
             "eng": "Supremacy Blade",
@@ -6775,6 +6854,7 @@
         },
         "id": 85,
         "parentId": 84,
+        "sortOrder": 89,
         "name": {
             "jpn": "天上天下無双刀",
             "eng": "Divine Slasher",
@@ -6863,6 +6943,7 @@
         },
         "id": 86,
         "parentId": -1,
+        "sortOrder": 91,
         "name": {
             "jpn": "クルーエルペイン",
             "eng": "Reaver \"Cruelty\"",
@@ -6949,6 +7030,7 @@
         },
         "id": 87,
         "parentId": 86,
+        "sortOrder": 92,
         "name": {
             "jpn": "カラミティペイン",
             "eng": "Reaver \"Calamity\"",
@@ -7035,6 +7117,7 @@
         },
         "id": 88,
         "parentId": -1,
+        "sortOrder": 93,
         "name": {
             "jpn": "蒼星ノ太刀",
             "eng": "Azure Star Blade",
@@ -7121,6 +7204,7 @@
         },
         "id": 89,
         "parentId": 88,
+        "sortOrder": 94,
         "name": {
             "jpn": "蒼星ノ太刀【舞龍】",
             "eng": "Azure Star \"Dragon Dance\"",
@@ -7209,6 +7293,7 @@
         },
         "id": 116,
         "parentId": -1,
+        "sortOrder": 121,
         "name": {
             "jpn": "エンプレスソード",
             "eng": "Empress Sword",
@@ -7298,6 +7383,7 @@
         },
         "id": 117,
         "parentId": 116,
+        "sortOrder": 122,
         "name": {
             "jpn": "エンプレスソード・炎妃",
             "eng": "Empress Sword \"Blaze\"",
@@ -7388,6 +7474,7 @@
         },
         "id": 118,
         "parentId": 116,
+        "sortOrder": 123,
         "name": {
             "jpn": "エンプレスソード・滅尽",
             "eng": "Empress Sword \"Ruin\"",
@@ -7478,6 +7565,7 @@
         },
         "id": 119,
         "parentId": 116,
+        "sortOrder": 124,
         "name": {
             "jpn": "エンプレスソード・冥灯",
             "eng": "Empress Sword \"Styx\"",
@@ -7568,6 +7656,7 @@
         },
         "id": 90,
         "parentId": -1,
+        "sortOrder": 95,
         "name": {
             "jpn": "金色の太刀・水",
             "eng": "Gold Water Katana",
@@ -7633,6 +7722,7 @@
         },
         "id": 91,
         "parentId": -1,
+        "sortOrder": 96,
         "name": {
             "jpn": "金色の太刀・毒",
             "eng": "Gold Poison Katana",
@@ -7698,6 +7788,7 @@
         },
         "id": 92,
         "parentId": -1,
+        "sortOrder": 97,
         "name": {
             "jpn": "金色の太刀・麻痺",
             "eng": "Gold Paralysis Katana",
@@ -7763,6 +7854,7 @@
         },
         "id": 93,
         "parentId": -1,
+        "sortOrder": 98,
         "name": {
             "jpn": "金色の太刀・掻",
             "eng": "Thief Gold Katana",
@@ -7828,6 +7920,7 @@
         },
         "id": 94,
         "parentId": -1,
+        "sortOrder": 99,
         "name": {
             "jpn": "金色の太刀・泥魚",
             "eng": "Mire Gold Katana",
@@ -7893,6 +7986,7 @@
         },
         "id": 95,
         "parentId": -1,
+        "sortOrder": 100,
         "name": {
             "jpn": "金色の太刀・飛雷",
             "eng": "Spark Gold Katana",
@@ -7958,6 +8052,7 @@
         },
         "id": 96,
         "parentId": -1,
+        "sortOrder": 101,
         "name": {
             "jpn": "金色の太刀・蛮顎",
             "eng": "Rage Gold Katana",
@@ -8023,6 +8118,7 @@
         },
         "id": 97,
         "parentId": -1,
+        "sortOrder": 102,
         "name": {
             "jpn": "金色の太刀・黒甲",
             "eng": "Lurk Gold Katana",
@@ -8088,6 +8184,7 @@
         },
         "id": 98,
         "parentId": -1,
+        "sortOrder": 103,
         "name": {
             "jpn": "金色の太刀・眩",
             "eng": "Flash Gold Katana",
@@ -8153,6 +8250,7 @@
         },
         "id": 99,
         "parentId": -1,
+        "sortOrder": 104,
         "name": {
             "jpn": "金色の太刀・風漂",
             "eng": "Stream Gold Katana",
@@ -8218,6 +8316,7 @@
         },
         "id": 100,
         "parentId": -1,
+        "sortOrder": 105,
         "name": {
             "jpn": "金色の太刀・屍套",
             "eng": "Decay Gold Katana",
@@ -8283,6 +8382,7 @@
         },
         "id": 101,
         "parentId": -1,
+        "sortOrder": 106,
         "name": {
             "jpn": "金色の太刀・爆鎚",
             "eng": "Gyre Gold Katana",
@@ -8350,6 +8450,7 @@
         },
         "id": 102,
         "parentId": -1,
+        "sortOrder": 107,
         "name": {
             "jpn": "金色の太刀・熔山",
             "eng": "Magma Gold Katana",
@@ -8415,6 +8516,7 @@
         },
         "id": 103,
         "parentId": -1,
+        "sortOrder": 108,
         "name": {
             "jpn": "ガイラソード・掻",
             "eng": "Taroth Sword \"Thief\"",
@@ -8480,6 +8582,7 @@
         },
         "id": 104,
         "parentId": -1,
+        "sortOrder": 109,
         "name": {
             "jpn": "ガイラソード・泥魚",
             "eng": "Taroth Sword \"Mire\"",
@@ -8545,6 +8648,7 @@
         },
         "id": 105,
         "parentId": -1,
+        "sortOrder": 110,
         "name": {
             "jpn": "ガイラソード・飛雷",
             "eng": "Taroth Sword \"Spark\"",
@@ -8610,6 +8714,7 @@
         },
         "id": 106,
         "parentId": -1,
+        "sortOrder": 111,
         "name": {
             "jpn": "ガイラソード・蛮顎",
             "eng": "Taroth Sword \"Rage\"",
@@ -8675,6 +8780,7 @@
         },
         "id": 107,
         "parentId": -1,
+        "sortOrder": 112,
         "name": {
             "jpn": "ガイラソード・黒甲",
             "eng": "Taroth Sword \"Lurk\"",
@@ -8740,6 +8846,7 @@
         },
         "id": 108,
         "parentId": -1,
+        "sortOrder": 113,
         "name": {
             "jpn": "ガイラソード・眩",
             "eng": "Taroth Sword \"Flash\"",
@@ -8805,6 +8912,7 @@
         },
         "id": 109,
         "parentId": -1,
+        "sortOrder": 114,
         "name": {
             "jpn": "ガイラソード・風漂",
             "eng": "Taroth Sword \"Stream\"",
@@ -8870,6 +8978,7 @@
         },
         "id": 110,
         "parentId": -1,
+        "sortOrder": 115,
         "name": {
             "jpn": "ガイラソード・屍套",
             "eng": "Taroth Sword \"Decay\"",
@@ -8935,6 +9044,7 @@
         },
         "id": 111,
         "parentId": -1,
+        "sortOrder": 116,
         "name": {
             "jpn": "ガイラソード・爆鎚",
             "eng": "Taroth Sword \"Gyre\"",
@@ -9002,6 +9112,7 @@
         },
         "id": 112,
         "parentId": -1,
+        "sortOrder": 117,
         "name": {
             "jpn": "ガイラソード・熔山",
             "eng": "Taroth Sword \"Magma\"",
@@ -9067,6 +9178,7 @@
         },
         "id": 113,
         "parentId": -1,
+        "sortOrder": 118,
         "name": {
             "jpn": "ガイラソード・水",
             "eng": "Taroth Sword \"Water\"",
@@ -9134,6 +9246,7 @@
         },
         "id": 114,
         "parentId": -1,
+        "sortOrder": 119,
         "name": {
             "jpn": "ガイラソード・毒",
             "eng": "Taroth Sword \"Poison\"",
@@ -9201,6 +9314,7 @@
         },
         "id": 115,
         "parentId": -1,
+        "sortOrder": 120,
         "name": {
             "jpn": "ガイラソード・麻痺",
             "eng": "Taroth Sword \"Paralysis\"",
@@ -9268,6 +9382,7 @@
         },
         "id": 120,
         "parentId": -1,
+        "sortOrder": 125,
         "name": {
             "jpn": "ガイラソード・火",
             "eng": "Taroth Sword \"Fire\"",
@@ -9335,6 +9450,7 @@
         },
         "id": 121,
         "parentId": -1,
+        "sortOrder": 126,
         "name": {
             "jpn": "皇金の太刀・飛雷",
             "eng": "Kjárr Sword \"Spark\"",
@@ -9403,6 +9519,7 @@
         },
         "id": 122,
         "parentId": -1,
+        "sortOrder": 127,
         "name": {
             "jpn": "皇金の太刀・風漂",
             "eng": "Kjárr Sword \"Stream\"",
@@ -9471,6 +9588,7 @@
         },
         "id": 123,
         "parentId": -1,
+        "sortOrder": 128,
         "name": {
             "jpn": "皇金の太刀・屍套",
             "eng": "Kjárr Sword \"Decay\"",
@@ -9539,6 +9657,7 @@
         },
         "id": 124,
         "parentId": -1,
+        "sortOrder": 129,
         "name": {
             "jpn": "皇金の太刀・熔山",
             "eng": "Kjárr Sword \"Magma\"",
@@ -9607,6 +9726,7 @@
         },
         "id": 125,
         "parentId": -1,
+        "sortOrder": 130,
         "name": {
             "jpn": "皇金の太刀・水",
             "eng": "Kjárr Sword \"Water\"",
@@ -9673,6 +9793,7 @@
         },
         "id": 126,
         "parentId": -1,
+        "sortOrder": 131,
         "name": {
             "jpn": "皇金の太刀・火",
             "eng": "Kjárr Sword \"Fire\"",
@@ -9739,6 +9860,7 @@
         },
         "id": 127,
         "parentId": -1,
+        "sortOrder": 132,
         "name": {
             "jpn": "皇金の太刀・麻痺",
             "eng": "Kjárr Sword \"Paralysis\"",

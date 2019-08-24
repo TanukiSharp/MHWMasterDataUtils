@@ -20,6 +20,7 @@
         },
         "id": 7,
         "parentId": -1,
+        "sortOrder": 10,
         "name": {
             "jpn": "アイアンランスⅠ",
             "eng": "Iron Lance I",
@@ -94,6 +95,7 @@
         },
         "id": 8,
         "parentId": 7,
+        "sortOrder": 11,
         "name": {
             "jpn": "アイアンランスⅡ",
             "eng": "Iron Lance II",
@@ -168,6 +170,7 @@
         },
         "id": 9,
         "parentId": 8,
+        "sortOrder": 12,
         "name": {
             "jpn": "アイアンランスⅢ",
             "eng": "Iron Lance III",
@@ -250,6 +253,7 @@
         },
         "id": 10,
         "parentId": 9,
+        "sortOrder": 13,
         "name": {
             "jpn": "スティールランスⅠ",
             "eng": "Steel Lance I",
@@ -332,6 +336,7 @@
         },
         "id": 11,
         "parentId": 10,
+        "sortOrder": 14,
         "name": {
             "jpn": "スティールランスⅡ",
             "eng": "Steel Lance II",
@@ -418,6 +423,7 @@
         },
         "id": 12,
         "parentId": 11,
+        "sortOrder": 15,
         "name": {
             "jpn": "スティールランスⅢ",
             "eng": "Steel Lance III",
@@ -502,6 +508,7 @@
         },
         "id": 13,
         "parentId": 12,
+        "sortOrder": 16,
         "name": {
             "jpn": "クロムランツェⅠ",
             "eng": "Chrome Lance I",
@@ -590,6 +597,7 @@
         },
         "id": 14,
         "parentId": 13,
+        "sortOrder": 17,
         "name": {
             "jpn": "クロムランツェⅡ",
             "eng": "Chrome Lance II",
@@ -679,6 +687,7 @@
         },
         "id": 15,
         "parentId": 13,
+        "sortOrder": 18,
         "name": {
             "jpn": "ネルガルカルガ",
             "eng": "Nergal Impaler",
@@ -767,6 +776,7 @@
         },
         "id": 16,
         "parentId": 15,
+        "sortOrder": 19,
         "name": {
             "jpn": "亡滅の腕",
             "eng": "Perdition's Hand",
@@ -855,6 +865,7 @@
         },
         "id": 17,
         "parentId": 10,
+        "sortOrder": 70,
         "name": {
             "jpn": "グレイスランサーⅠ",
             "eng": "Glacial Lance I",
@@ -937,6 +948,7 @@
         },
         "id": 18,
         "parentId": 17,
+        "sortOrder": 71,
         "name": {
             "jpn": "グレイスランサーⅡ",
             "eng": "Glacial Lance II",
@@ -1023,6 +1035,7 @@
         },
         "id": 19,
         "parentId": 18,
+        "sortOrder": 72,
         "name": {
             "jpn": "ギエナハルバⅠ",
             "eng": "Legiana Halberd I",
@@ -1109,6 +1122,7 @@
         },
         "id": 20,
         "parentId": 19,
+        "sortOrder": 73,
         "name": {
             "jpn": "ギエナハルバⅡ",
             "eng": "Legiana Halberd II",
@@ -1195,6 +1209,7 @@
         },
         "id": 21,
         "parentId": 8,
+        "sortOrder": 20,
         "name": {
             "jpn": "クルルランスⅠ",
             "eng": "Kulu Lance I",
@@ -1277,6 +1292,7 @@
         },
         "id": 22,
         "parentId": 21,
+        "sortOrder": 21,
         "name": {
             "jpn": "クルルランスⅡ",
             "eng": "Kulu Lance II",
@@ -1363,6 +1379,7 @@
         },
         "id": 23,
         "parentId": 22,
+        "sortOrder": 22,
         "name": {
             "jpn": "クルルランスⅢ",
             "eng": "Kulu Lance III",
@@ -1449,6 +1466,7 @@
         },
         "id": 24,
         "parentId": 23,
+        "sortOrder": 23,
         "name": {
             "jpn": "クルルハスターⅠ",
             "eng": "Kulu Hasta I",
@@ -1535,6 +1553,7 @@
         },
         "id": 25,
         "parentId": 24,
+        "sortOrder": 24,
         "name": {
             "jpn": "クルルハスターⅡ",
             "eng": "Kulu Hasta II",
@@ -1621,6 +1640,7 @@
         },
         "id": 26,
         "parentId": 25,
+        "sortOrder": 25,
         "name": {
             "jpn": "クルルハスターⅢ",
             "eng": "Kulu Hasta III",
@@ -1707,6 +1727,7 @@
         },
         "id": 27,
         "parentId": 24,
+        "sortOrder": 26,
         "name": {
             "jpn": "ガマルパイルⅠ",
             "eng": "Gama Pilebunker I",
@@ -1792,6 +1813,7 @@
         },
         "id": 28,
         "parentId": 27,
+        "sortOrder": 27,
         "name": {
             "jpn": "ガマルパイルⅡ",
             "eng": "Gama Pilebunker II",
@@ -1881,6 +1903,7 @@
         },
         "id": 29,
         "parentId": 21,
+        "sortOrder": 28,
         "name": {
             "jpn": "サンダーランスⅠ",
             "eng": "Thunder Lance I",
@@ -1967,6 +1990,7 @@
         },
         "id": 30,
         "parentId": 29,
+        "sortOrder": 29,
         "name": {
             "jpn": "サンダーランスⅡ",
             "eng": "Thunder Lance II",
@@ -2053,6 +2077,7 @@
         },
         "id": 31,
         "parentId": 30,
+        "sortOrder": 30,
         "name": {
             "jpn": "ライトニングパイルⅠ",
             "eng": "Lightning Spire I",
@@ -2141,6 +2166,7 @@
         },
         "id": 32,
         "parentId": 31,
+        "sortOrder": 31,
         "name": {
             "jpn": "ライトニングパイルⅡ",
             "eng": "Lightning Spire II",
@@ -2229,6 +2255,7 @@
         },
         "id": 33,
         "parentId": 32,
+        "sortOrder": 32,
         "name": {
             "jpn": "ライトニングパイルⅢ",
             "eng": "Lightning Spire III",
@@ -2317,6 +2344,7 @@
         },
         "id": 34,
         "parentId": 8,
+        "sortOrder": 33,
         "name": {
             "jpn": "ブルームランスⅠ",
             "eng": "Blooming Lance I",
@@ -2399,6 +2427,7 @@
         },
         "id": 35,
         "parentId": 34,
+        "sortOrder": 34,
         "name": {
             "jpn": "ブルームランスⅡ",
             "eng": "Blooming Lance II",
@@ -2485,6 +2514,7 @@
         },
         "id": 36,
         "parentId": 35,
+        "sortOrder": 35,
         "name": {
             "jpn": "ブルームランスⅢ",
             "eng": "Blooming Lance III",
@@ -2571,6 +2601,7 @@
         },
         "id": 37,
         "parentId": 36,
+        "sortOrder": 36,
         "name": {
             "jpn": "ダチュラパイクⅠ",
             "eng": "Datura Pike I",
@@ -2660,6 +2691,7 @@
         },
         "id": 38,
         "parentId": 37,
+        "sortOrder": 37,
         "name": {
             "jpn": "ダチュラパイクⅡ",
             "eng": "Datura Pike II",
@@ -2749,6 +2781,7 @@
         },
         "id": 39,
         "parentId": 38,
+        "sortOrder": 38,
         "name": {
             "jpn": "ダチュラパイクⅢ",
             "eng": "Datura Pike III",
@@ -2838,6 +2871,7 @@
         },
         "id": 40,
         "parentId": 35,
+        "sortOrder": 39,
         "name": {
             "jpn": "フレイムランスⅠ",
             "eng": "Flame Lance I",
@@ -2924,6 +2958,7 @@
         },
         "id": 41,
         "parentId": 40,
+        "sortOrder": 40,
         "name": {
             "jpn": "フレイムランスⅡ",
             "eng": "Flame Lance II",
@@ -3012,6 +3047,7 @@
         },
         "id": 42,
         "parentId": 41,
+        "sortOrder": 41,
         "name": {
             "jpn": "レッドテイル",
             "eng": "Red Tail",
@@ -3100,6 +3136,7 @@
         },
         "id": 43,
         "parentId": 42,
+        "sortOrder": 42,
         "name": {
             "jpn": "ブルーテイル",
             "eng": "Blue Tail",
@@ -3188,6 +3225,7 @@
         },
         "id": 44,
         "parentId": 43,
+        "sortOrder": 43,
         "name": {
             "jpn": "ブループロミネンス",
             "eng": "Blue Prominence",
@@ -3276,6 +3314,7 @@
         },
         "id": 45,
         "parentId": -1,
+        "sortOrder": 44,
         "name": {
             "jpn": "ボーンランスⅠ",
             "eng": "Bone Lance I",
@@ -3350,6 +3389,7 @@
         },
         "id": 46,
         "parentId": 45,
+        "sortOrder": 45,
         "name": {
             "jpn": "ボーンランスⅡ",
             "eng": "Bone Lance II",
@@ -3424,6 +3464,7 @@
         },
         "id": 47,
         "parentId": 46,
+        "sortOrder": 46,
         "name": {
             "jpn": "ボーンランスⅢ",
             "eng": "Bone Lance III",
@@ -3502,6 +3543,7 @@
         },
         "id": 48,
         "parentId": 47,
+        "sortOrder": 47,
         "name": {
             "jpn": "ハードボーンランスⅠ",
             "eng": "Hard Bone Lance I",
@@ -3584,6 +3626,7 @@
         },
         "id": 49,
         "parentId": 48,
+        "sortOrder": 48,
         "name": {
             "jpn": "ハードボーンランスⅡ",
             "eng": "Hard Bone Lance II",
@@ -3666,6 +3709,7 @@
         },
         "id": 50,
         "parentId": 49,
+        "sortOrder": 49,
         "name": {
             "jpn": "ハードボーンランスⅢ",
             "eng": "Hard Bone Lance III",
@@ -3750,6 +3794,7 @@
         },
         "id": 51,
         "parentId": 50,
+        "sortOrder": 50,
         "name": {
             "jpn": "ヘビィボーンランスⅠ",
             "eng": "Heavy Bone Lance I",
@@ -3834,6 +3879,7 @@
         },
         "id": 52,
         "parentId": 51,
+        "sortOrder": 51,
         "name": {
             "jpn": "ヘビィボーンランスⅡ",
             "eng": "Heavy Bone Lance II",
@@ -3922,6 +3968,7 @@
         },
         "id": 53,
         "parentId": 51,
+        "sortOrder": 52,
         "name": {
             "jpn": "ハザクヴェヒター",
             "eng": "Hazak Wächter",
@@ -4010,6 +4057,7 @@
         },
         "id": 54,
         "parentId": 53,
+        "sortOrder": 53,
         "name": {
             "jpn": "ラ・モールの哀愁",
             "eng": "Love's Sorrow",
@@ -4098,6 +4146,7 @@
         },
         "id": 55,
         "parentId": 47,
+        "sortOrder": 74,
         "name": {
             "jpn": "タロスランスⅠ",
             "eng": "Taurus Lance I",
@@ -4180,6 +4229,7 @@
         },
         "id": 56,
         "parentId": 55,
+        "sortOrder": 75,
         "name": {
             "jpn": "タロスランスⅡ",
             "eng": "Taurus Lance II",
@@ -4266,6 +4316,7 @@
         },
         "id": 57,
         "parentId": 56,
+        "sortOrder": 76,
         "name": {
             "jpn": "ダークスティンガーⅠ",
             "eng": "Dark Stinger I",
@@ -4354,6 +4405,7 @@
         },
         "id": 58,
         "parentId": 57,
+        "sortOrder": 77,
         "name": {
             "jpn": "ダークスティンガーⅡ",
             "eng": "Dark Stinger II",
@@ -4442,6 +4494,7 @@
         },
         "id": 59,
         "parentId": 58,
+        "sortOrder": 78,
         "name": {
             "jpn": "ダークスティンガーⅢ",
             "eng": "Dark Stinger III",
@@ -4530,6 +4583,7 @@
         },
         "id": 60,
         "parentId": 46,
+        "sortOrder": 58,
         "name": {
             "jpn": "ドラグロランスⅠ",
             "eng": "Carapace Lance I",
@@ -4612,6 +4666,7 @@
         },
         "id": 61,
         "parentId": 60,
+        "sortOrder": 59,
         "name": {
             "jpn": "ドラグロランスⅡ",
             "eng": "Carapace Lance II",
@@ -4698,6 +4753,7 @@
         },
         "id": 62,
         "parentId": 61,
+        "sortOrder": 60,
         "name": {
             "jpn": "ドラグロランスⅢ",
             "eng": "Carapace Lance III",
@@ -4784,6 +4840,7 @@
         },
         "id": 63,
         "parentId": 62,
+        "sortOrder": 61,
         "name": {
             "jpn": "ボロススティンガーⅠ",
             "eng": "Barroth Stinger I",
@@ -4872,6 +4929,7 @@
         },
         "id": 64,
         "parentId": 63,
+        "sortOrder": 62,
         "name": {
             "jpn": "ボロススティンガーⅡ",
             "eng": "Barroth Stinger II",
@@ -4961,6 +5019,7 @@
         },
         "id": 65,
         "parentId": 64,
+        "sortOrder": 63,
         "name": {
             "jpn": "ボロススティンガーⅢ",
             "eng": "Barroth Stinger III",
@@ -5050,6 +5109,7 @@
         },
         "id": 66,
         "parentId": 61,
+        "sortOrder": 54,
         "name": {
             "jpn": "ガロンランスⅠ",
             "eng": "Garon Lance I",
@@ -5132,6 +5192,7 @@
         },
         "id": 67,
         "parentId": 66,
+        "sortOrder": 55,
         "name": {
             "jpn": "ガロンランスⅡ",
             "eng": "Garon Lance II",
@@ -5218,6 +5279,7 @@
         },
         "id": 68,
         "parentId": 67,
+        "sortOrder": 56,
         "name": {
             "jpn": "ガロンダーラⅠ",
             "eng": "Garon Dhara I",
@@ -5304,6 +5366,7 @@
         },
         "id": 69,
         "parentId": 68,
+        "sortOrder": 57,
         "name": {
             "jpn": "ガロンダーラⅡ",
             "eng": "Garon Dhara II",
@@ -5390,6 +5453,7 @@
         },
         "id": 70,
         "parentId": 46,
+        "sortOrder": 64,
         "name": {
             "jpn": "アクアホーンⅠ",
             "eng": "Aqua Horn I",
@@ -5476,6 +5540,7 @@
         },
         "id": 71,
         "parentId": 70,
+        "sortOrder": 65,
         "name": {
             "jpn": "アクアホーンⅡ",
             "eng": "Aqua Horn II",
@@ -5562,6 +5627,7 @@
         },
         "id": 72,
         "parentId": 71,
+        "sortOrder": 66,
         "name": {
             "jpn": "アクアホーンⅢ",
             "eng": "Aqua Horn III",
@@ -5648,6 +5714,7 @@
         },
         "id": 73,
         "parentId": 72,
+        "sortOrder": 67,
         "name": {
             "jpn": "ウォータースパイクⅠ",
             "eng": "Water Spike I",
@@ -5736,6 +5803,7 @@
         },
         "id": 74,
         "parentId": 73,
+        "sortOrder": 68,
         "name": {
             "jpn": "ウォータースパイクⅡ",
             "eng": "Water Spike II",
@@ -5824,6 +5892,7 @@
         },
         "id": 75,
         "parentId": 74,
+        "sortOrder": 69,
         "name": {
             "jpn": "ウォータースパイクⅢ",
             "eng": "Water Spike III",
@@ -5912,6 +5981,7 @@
         },
         "id": 76,
         "parentId": -1,
+        "sortOrder": 79,
         "name": {
             "jpn": "龍骨槍Ⅰ",
             "eng": "Dragonbone Lance I",
@@ -5998,6 +6068,7 @@
         },
         "id": 77,
         "parentId": 76,
+        "sortOrder": 80,
         "name": {
             "jpn": "龍骨槍Ⅱ",
             "eng": "Dragonbone Lance II",
@@ -6080,6 +6151,7 @@
         },
         "id": 78,
         "parentId": 77,
+        "sortOrder": 81,
         "name": {
             "jpn": "龍骨槍Ⅲ",
             "eng": "Dragonbone Lance III",
@@ -6169,6 +6241,7 @@
         },
         "id": 79,
         "parentId": 77,
+        "sortOrder": 82,
         "name": {
             "jpn": "爆鱗の突撃槍",
             "eng": "Rookslayer Lance",
@@ -6255,6 +6328,7 @@
         },
         "id": 80,
         "parentId": 79,
+        "sortOrder": 83,
         "name": {
             "jpn": "爆鱗槍バゼルミニアド",
             "eng": "Bazel Myniad Rookslayer",
@@ -6341,6 +6415,7 @@
         },
         "id": 81,
         "parentId": 76,
+        "sortOrder": 91,
         "name": {
             "jpn": "雷槍",
             "eng": "Thunderpike",
@@ -6427,6 +6502,7 @@
         },
         "id": 82,
         "parentId": 81,
+        "sortOrder": 92,
         "name": {
             "jpn": "雷槍【イカズチ】",
             "eng": "Thunderspear",
@@ -6513,6 +6589,7 @@
         },
         "id": 83,
         "parentId": 82,
+        "sortOrder": 93,
         "name": {
             "jpn": "雷槍【タケミカヅチ】",
             "eng": "Thunderpiercer",
@@ -6599,6 +6676,7 @@
         },
         "id": 84,
         "parentId": -1,
+        "sortOrder": 84,
         "name": {
             "jpn": "黒鋼の槍Ⅰ",
             "eng": "Blacksteel Lance I",
@@ -6685,6 +6763,7 @@
         },
         "id": 85,
         "parentId": 84,
+        "sortOrder": 85,
         "name": {
             "jpn": "黒鋼の槍Ⅱ",
             "eng": "Blacksteel Lance II",
@@ -6771,6 +6850,7 @@
         },
         "id": 86,
         "parentId": 85,
+        "sortOrder": 86,
         "name": {
             "jpn": "鋼氷槍",
             "eng": "Icesteel Spear",
@@ -6859,6 +6939,7 @@
         },
         "id": 87,
         "parentId": 86,
+        "sortOrder": 87,
         "name": {
             "jpn": "テリオス＝ダオラ",
             "eng": "Daora's Fang",
@@ -6947,6 +7028,7 @@
         },
         "id": 88,
         "parentId": 85,
+        "sortOrder": 88,
         "name": {
             "jpn": "ゼノ＝ザウータ",
             "eng": "Xeno Zauta",
@@ -7036,6 +7118,7 @@
         },
         "id": 89,
         "parentId": -1,
+        "sortOrder": 89,
         "name": {
             "jpn": "バベル",
             "eng": "Babel Spear",
@@ -7124,6 +7207,7 @@
         },
         "id": 90,
         "parentId": 89,
+        "sortOrder": 90,
         "name": {
             "jpn": "エルダーバベル",
             "eng": "Elder Babel Spear",
@@ -7212,6 +7296,7 @@
         },
         "id": 91,
         "parentId": -1,
+        "sortOrder": 100,
         "name": {
             "jpn": "悲哀の重鎗",
             "eng": "Grief Lance",
@@ -7298,6 +7383,7 @@
         },
         "id": 92,
         "parentId": 91,
+        "sortOrder": 101,
         "name": {
             "jpn": "アトロシスタワー",
             "eng": "Fiendish Tower",
@@ -7384,6 +7470,7 @@
         },
         "id": 117,
         "parentId": -1,
+        "sortOrder": 126,
         "name": {
             "jpn": "エンプレスランス",
             "eng": "Empress Lance",
@@ -7473,6 +7560,7 @@
         },
         "id": 118,
         "parentId": 117,
+        "sortOrder": 127,
         "name": {
             "jpn": "エンプレスランス・炎妃",
             "eng": "Empress Lance \"Blaze\"",
@@ -7563,6 +7651,7 @@
         },
         "id": 119,
         "parentId": 117,
+        "sortOrder": 128,
         "name": {
             "jpn": "エンプレスランス・滅尽",
             "eng": "Empress Lance \"Ruin\"",
@@ -7653,6 +7742,7 @@
         },
         "id": 120,
         "parentId": 117,
+        "sortOrder": 129,
         "name": {
             "jpn": "エンプレスランス・冥灯",
             "eng": "Empress Lance \"Styx\"",
@@ -7743,6 +7833,7 @@
         },
         "id": 121,
         "parentId": -1,
+        "sortOrder": 130,
         "name": {
             "jpn": "団旗槍【流星】",
             "eng": "Shooting Star Lance",
@@ -7829,6 +7920,7 @@
         },
         "id": 122,
         "parentId": 121,
+        "sortOrder": 131,
         "name": {
             "jpn": "団旗槍【導きの星】",
             "eng": "Sapphire Star Lance",
@@ -7915,6 +8007,7 @@
         },
         "id": 123,
         "parentId": -1,
+        "sortOrder": 132,
         "name": {
             "jpn": "団旗槍【順風】",
             "eng": "Fair Wind Lance",
@@ -8001,6 +8094,7 @@
         },
         "id": 124,
         "parentId": 123,
+        "sortOrder": 133,
         "name": {
             "jpn": "団旗槍【順風満帆】",
             "eng": "White Wind Lance",
@@ -8070,6 +8164,7 @@
         },
         "id": 93,
         "parentId": -1,
+        "sortOrder": 102,
         "name": {
             "jpn": "金色の槍・水",
             "eng": "Gold Water Defender",
@@ -8135,6 +8230,7 @@
         },
         "id": 94,
         "parentId": -1,
+        "sortOrder": 103,
         "name": {
             "jpn": "金色の槍・雷",
             "eng": "Gold Thunder Defender",
@@ -8200,6 +8296,7 @@
         },
         "id": 95,
         "parentId": -1,
+        "sortOrder": 104,
         "name": {
             "jpn": "金色の槍・睡眠",
             "eng": "Gold Sleep Defender",
@@ -8265,6 +8362,7 @@
         },
         "id": 96,
         "parentId": -1,
+        "sortOrder": 105,
         "name": {
             "jpn": "金色の槍・掻",
             "eng": "Thief Gold Defender",
@@ -8330,6 +8428,7 @@
         },
         "id": 97,
         "parentId": -1,
+        "sortOrder": 106,
         "name": {
             "jpn": "金色の槍・毒妖",
             "eng": "Spew Gold Defender",
@@ -8397,6 +8496,7 @@
         },
         "id": 98,
         "parentId": -1,
+        "sortOrder": 107,
         "name": {
             "jpn": "金色の槍・土砂",
             "eng": "Mud Gold Defender",
@@ -8462,6 +8562,7 @@
         },
         "id": 99,
         "parentId": -1,
+        "sortOrder": 108,
         "name": {
             "jpn": "金色の槍・黒甲",
             "eng": "Lurk Gold Defender",
@@ -8527,6 +8628,7 @@
         },
         "id": 100,
         "parentId": -1,
+        "sortOrder": 109,
         "name": {
             "jpn": "金色の槍・風漂",
             "eng": "Stream Gold Defender",
@@ -8592,6 +8694,7 @@
         },
         "id": 101,
         "parentId": -1,
+        "sortOrder": 110,
         "name": {
             "jpn": "金色の槍・惨爪",
             "eng": "Claw Gold Defender",
@@ -8657,6 +8760,7 @@
         },
         "id": 102,
         "parentId": -1,
+        "sortOrder": 111,
         "name": {
             "jpn": "金色の槍・屍套",
             "eng": "Decay Gold Defender",
@@ -8722,6 +8826,7 @@
         },
         "id": 103,
         "parentId": -1,
+        "sortOrder": 112,
         "name": {
             "jpn": "金色の槍・王",
             "eng": "King Gold Defender",
@@ -8787,6 +8892,7 @@
         },
         "id": 104,
         "parentId": -1,
+        "sortOrder": 113,
         "name": {
             "jpn": "金色の槍・岩賊",
             "eng": "Crusher Gold Defender",
@@ -8852,6 +8958,7 @@
         },
         "id": 105,
         "parentId": -1,
+        "sortOrder": 114,
         "name": {
             "jpn": "ガイラクレスト・掻",
             "eng": "Taroth Crest \"Thief\"",
@@ -8917,6 +9024,7 @@
         },
         "id": 106,
         "parentId": -1,
+        "sortOrder": 115,
         "name": {
             "jpn": "ガイラクレスト・毒妖",
             "eng": "Taroth Crest \"Spew\"",
@@ -8984,6 +9092,7 @@
         },
         "id": 107,
         "parentId": -1,
+        "sortOrder": 116,
         "name": {
             "jpn": "ガイラクレスト・土砂",
             "eng": "Taroth Crest \"Mud\"",
@@ -9049,6 +9158,7 @@
         },
         "id": 108,
         "parentId": -1,
+        "sortOrder": 117,
         "name": {
             "jpn": "ガイラクレスト・黒甲",
             "eng": "Taroth Crest \"Lurk\"",
@@ -9114,6 +9224,7 @@
         },
         "id": 109,
         "parentId": -1,
+        "sortOrder": 118,
         "name": {
             "jpn": "ガイラクレスト・風漂",
             "eng": "Taroth Crest \"Stream\"",
@@ -9179,6 +9290,7 @@
         },
         "id": 110,
         "parentId": -1,
+        "sortOrder": 119,
         "name": {
             "jpn": "ガイラクレスト・惨爪",
             "eng": "Taroth Crest \"Claw\"",
@@ -9244,6 +9356,7 @@
         },
         "id": 111,
         "parentId": -1,
+        "sortOrder": 120,
         "name": {
             "jpn": "ガイラクレスト・屍套",
             "eng": "Taroth Crest \"Decay\"",
@@ -9309,6 +9422,7 @@
         },
         "id": 112,
         "parentId": -1,
+        "sortOrder": 121,
         "name": {
             "jpn": "ガイラクレスト・王",
             "eng": "Taroth Crest \"King\"",
@@ -9374,6 +9488,7 @@
         },
         "id": 113,
         "parentId": -1,
+        "sortOrder": 122,
         "name": {
             "jpn": "ガイラクレスト・岩賊",
             "eng": "Taroth Crest \"Crusher\"",
@@ -9439,6 +9554,7 @@
         },
         "id": 114,
         "parentId": -1,
+        "sortOrder": 123,
         "name": {
             "jpn": "ガイラクレスト・水",
             "eng": "Taroth Crest \"Water\"",
@@ -9506,6 +9622,7 @@
         },
         "id": 115,
         "parentId": -1,
+        "sortOrder": 124,
         "name": {
             "jpn": "ガイラクレスト・雷",
             "eng": "Taroth Crest \"Thunder\"",
@@ -9573,6 +9690,7 @@
         },
         "id": 116,
         "parentId": -1,
+        "sortOrder": 125,
         "name": {
             "jpn": "ガイラクレスト・睡眠",
             "eng": "Taroth Crest \"Sleep\"",
@@ -9640,6 +9758,7 @@
         },
         "id": 125,
         "parentId": -1,
+        "sortOrder": 134,
         "name": {
             "jpn": "ガイラクレスト・毒",
             "eng": "Taroth Crest \"Poison\"",
@@ -9707,6 +9826,7 @@
         },
         "id": 126,
         "parentId": -1,
+        "sortOrder": 135,
         "name": {
             "jpn": "皇金の槍・麻痺",
             "eng": "Kjárr Crest \"Paralysis\"",
@@ -9773,6 +9893,7 @@
         },
         "id": 127,
         "parentId": -1,
+        "sortOrder": 136,
         "name": {
             "jpn": "皇金の槍・風漂",
             "eng": "Kjárr Crest \"Stream\"",
@@ -9841,6 +9962,7 @@
         },
         "id": 128,
         "parentId": -1,
+        "sortOrder": 137,
         "name": {
             "jpn": "皇金の槍・屍套",
             "eng": "Kjárr Crest \"Decay\"",
@@ -9907,6 +10029,7 @@
         },
         "id": 129,
         "parentId": -1,
+        "sortOrder": 138,
         "name": {
             "jpn": "皇金の槍・王",
             "eng": "Kjárr Crest \"King\"",
@@ -9975,6 +10098,7 @@
         },
         "id": 130,
         "parentId": -1,
+        "sortOrder": 139,
         "name": {
             "jpn": "皇金の槍・岩賊",
             "eng": "Kjárr Crest \"Crusher\"",
@@ -10043,6 +10167,7 @@
         },
         "id": 131,
         "parentId": -1,
+        "sortOrder": 140,
         "name": {
             "jpn": "皇金の槍・水",
             "eng": "Kjárr Crest \"Water\"",
@@ -10109,6 +10234,7 @@
         },
         "id": 132,
         "parentId": -1,
+        "sortOrder": 141,
         "name": {
             "jpn": "皇金の槍・雷",
             "eng": "Kjárr Crest \"Thunder\"",

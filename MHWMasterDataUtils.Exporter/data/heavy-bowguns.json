@@ -108,6 +108,7 @@
         ],
         "id": 8,
         "parentId": -1,
+        "sortOrder": 20,
         "name": {
             "jpn": "アイアンアサルトⅠ",
             "eng": "Iron Assault I",
@@ -270,6 +271,7 @@
         ],
         "id": 9,
         "parentId": -1,
+        "sortOrder": 21,
         "name": {
             "jpn": "アイアンアサルトⅡ",
             "eng": "Iron Assault II",
@@ -432,6 +434,7 @@
         ],
         "id": 10,
         "parentId": -1,
+        "sortOrder": 22,
         "name": {
             "jpn": "アイアンアサルトⅢ",
             "eng": "Iron Assault III",
@@ -602,6 +605,7 @@
         ],
         "id": 11,
         "parentId": -1,
+        "sortOrder": 23,
         "name": {
             "jpn": "スティールアサルトⅠ",
             "eng": "Steel Assault I",
@@ -772,6 +776,7 @@
         ],
         "id": 12,
         "parentId": -1,
+        "sortOrder": 24,
         "name": {
             "jpn": "スティールアサルトⅡ",
             "eng": "Steel Assault II",
@@ -946,6 +951,7 @@
         ],
         "id": 13,
         "parentId": -1,
+        "sortOrder": 25,
         "name": {
             "jpn": "スティールアサルトⅢ",
             "eng": "Steel Assault III",
@@ -1118,6 +1124,7 @@
         ],
         "id": 14,
         "parentId": -1,
+        "sortOrder": 26,
         "name": {
             "jpn": "クロムアサルトⅠ",
             "eng": "Chrome Assault I",
@@ -1294,6 +1301,7 @@
         ],
         "id": 15,
         "parentId": -1,
+        "sortOrder": 27,
         "name": {
             "jpn": "クロムアサルトⅡ",
             "eng": "Chrome Assault II",
@@ -1489,6 +1497,7 @@
         ],
         "id": 16,
         "parentId": 8,
+        "sortOrder": 28,
         "name": {
             "jpn": "ネルガルグレア",
             "eng": "Nergal Roar",
@@ -1683,6 +1692,7 @@
         ],
         "id": 17,
         "parentId": 9,
+        "sortOrder": 29,
         "name": {
             "jpn": "撃滅の砲火",
             "eng": "Destruction's Fusillade",
@@ -1859,6 +1869,7 @@
         ],
         "id": 18,
         "parentId": 10,
+        "sortOrder": 30,
         "name": {
             "jpn": "アクアアサルトⅠ",
             "eng": "Aqua Assault I",
@@ -2033,6 +2044,7 @@
         ],
         "id": 19,
         "parentId": 11,
+        "sortOrder": 31,
         "name": {
             "jpn": "アクアアサルトⅡ",
             "eng": "Aqua Assault II",
@@ -2207,6 +2219,7 @@
         ],
         "id": 20,
         "parentId": 12,
+        "sortOrder": 32,
         "name": {
             "jpn": "アクアアサルトⅢ",
             "eng": "Aqua Assault III",
@@ -2381,6 +2394,7 @@
         ],
         "id": 21,
         "parentId": 13,
+        "sortOrder": 33,
         "name": {
             "jpn": "ウォーターキャノンⅠ",
             "eng": "Water Cannon I",
@@ -2557,6 +2571,7 @@
         ],
         "id": 22,
         "parentId": 14,
+        "sortOrder": 34,
         "name": {
             "jpn": "ウォーターキャノンⅡ",
             "eng": "Water Cannon II",
@@ -2733,6 +2748,7 @@
         ],
         "id": 23,
         "parentId": 14,
+        "sortOrder": 35,
         "name": {
             "jpn": "ウォーターキャノンⅢ",
             "eng": "Water Cannon III",
@@ -2903,6 +2919,7 @@
         ],
         "id": 24,
         "parentId": 16,
+        "sortOrder": 36,
         "name": {
             "jpn": "イルミナルアサルトⅠ",
             "eng": "Luminous Assault I",
@@ -3067,6 +3084,7 @@
         ],
         "id": 25,
         "parentId": 9,
+        "sortOrder": 37,
         "name": {
             "jpn": "イルミナルアサルトⅡ",
             "eng": "Luminous Assault II",
@@ -3235,6 +3253,7 @@
         ],
         "id": 26,
         "parentId": 18,
+        "sortOrder": 38,
         "name": {
             "jpn": "アルマデステリオⅠ",
             "eng": "Arma Destroyer I",
@@ -3405,6 +3424,7 @@
         ],
         "id": 27,
         "parentId": 19,
+        "sortOrder": 39,
         "name": {
             "jpn": "アルマデステリオⅡ",
             "eng": "Arma Destroyer II",
@@ -3575,6 +3595,7 @@
         ],
         "id": 28,
         "parentId": 20,
+        "sortOrder": 40,
         "name": {
             "jpn": "アルマデステリオⅢ",
             "eng": "Arma Destroyer III",
@@ -3763,6 +3784,7 @@
         ],
         "id": 29,
         "parentId": 21,
+        "sortOrder": 41,
         "name": {
             "jpn": "ロゼッテス",
             "eng": "Shattercryst",
@@ -3949,6 +3971,7 @@
         ],
         "id": 30,
         "parentId": 22,
+        "sortOrder": 42,
         "name": {
             "jpn": "ロゼッテス改",
             "eng": "Shattercryst+",
@@ -4137,6 +4160,7 @@
         ],
         "id": 31,
         "parentId": 18,
+        "sortOrder": 43,
         "name": {
             "jpn": "レイ＝ロゼッテス",
             "eng": "Legia Shattercryst",
@@ -4301,6 +4325,7 @@
         ],
         "id": 32,
         "parentId": 24,
+        "sortOrder": 44,
         "name": {
             "jpn": "ジャグラスアサルトⅠ",
             "eng": "Jagras Assault I",
@@ -4463,6 +4488,7 @@
         ],
         "id": 33,
         "parentId": 25,
+        "sortOrder": 45,
         "name": {
             "jpn": "ジャグラスアサルトⅡ",
             "eng": "Jagras Assault II",
@@ -4625,6 +4651,7 @@
         ],
         "id": 34,
         "parentId": 26,
+        "sortOrder": 46,
         "name": {
             "jpn": "ジャグラスアサルトⅢ",
             "eng": "Jagras Assault III",
@@ -4787,6 +4814,7 @@
         ],
         "id": 35,
         "parentId": 27,
+        "sortOrder": 47,
         "name": {
             "jpn": "ジャグラスキャノンⅠ",
             "eng": "Jagras Cannon I",
@@ -4951,6 +4979,7 @@
         ],
         "id": 36,
         "parentId": 24,
+        "sortOrder": 48,
         "name": {
             "jpn": "ジャグラスキャノンⅡ",
             "eng": "Jagras Cannon II",
@@ -5115,6 +5144,7 @@
         ],
         "id": 37,
         "parentId": 29,
+        "sortOrder": 49,
         "name": {
             "jpn": "牙竜重弩【暴食】",
             "eng": "Gluttonous Fangcannon",
@@ -5309,6 +5339,7 @@
         ],
         "id": 38,
         "parentId": 30,
+        "sortOrder": 50,
         "name": {
             "jpn": "ブレイズアサルトⅠ",
             "eng": "Blazing Assault I",
@@ -5497,6 +5528,7 @@
         ],
         "id": 39,
         "parentId": 9,
+        "sortOrder": 51,
         "name": {
             "jpn": "ブレイズアサルトⅡ",
             "eng": "Blazing Assault II",
@@ -5689,6 +5721,7 @@
         ],
         "id": 40,
         "parentId": 32,
+        "sortOrder": 52,
         "name": {
             "jpn": "フラムエルテルマ",
             "eng": "Flammenkanone",
@@ -5883,6 +5916,7 @@
         ],
         "id": 41,
         "parentId": 33,
+        "sortOrder": 53,
         "name": {
             "jpn": "蛮顎重弩フラムテルマ",
             "eng": "Gnashing Flammenkanone",
@@ -6053,6 +6087,7 @@
         ],
         "id": 42,
         "parentId": 34,
+        "sortOrder": 54,
         "name": {
             "jpn": "ボーンシューターⅠ",
             "eng": "Bone Shooter I",
@@ -6209,6 +6244,7 @@
         ],
         "id": 43,
         "parentId": 35,
+        "sortOrder": 55,
         "name": {
             "jpn": "ボーンシューターⅡ",
             "eng": "Bone Shooter II",
@@ -6365,6 +6401,7 @@
         ],
         "id": 44,
         "parentId": 36,
+        "sortOrder": 56,
         "name": {
             "jpn": "ボーンシューターⅢ",
             "eng": "Bone Shooter III",
@@ -6525,6 +6562,7 @@
         ],
         "id": 45,
         "parentId": 32,
+        "sortOrder": 57,
         "name": {
             "jpn": "ヘビィシューターⅠ",
             "eng": "Heavy Shooter I",
@@ -6689,6 +6727,7 @@
         ],
         "id": 46,
         "parentId": 38,
+        "sortOrder": 58,
         "name": {
             "jpn": "ヘビィシューターⅡ",
             "eng": "Heavy Shooter II",
@@ -6853,6 +6892,7 @@
         ],
         "id": 47,
         "parentId": 39,
+        "sortOrder": 59,
         "name": {
             "jpn": "ヘビィシューターⅢ",
             "eng": "Heavy Shooter III",
@@ -7019,6 +7059,7 @@
         ],
         "id": 48,
         "parentId": 40,
+        "sortOrder": 60,
         "name": {
             "jpn": "パワーシューターⅠ",
             "eng": "Power Shooter I",
@@ -7185,6 +7226,7 @@
         ],
         "id": 49,
         "parentId": -1,
+        "sortOrder": 61,
         "name": {
             "jpn": "パワーシューターⅡ",
             "eng": "Power Shooter II",
@@ -7349,6 +7391,7 @@
         ],
         "id": 50,
         "parentId": 42,
+        "sortOrder": 62,
         "name": {
             "jpn": "ディアシューターⅠ",
             "eng": "Diablos Shooter I",
@@ -7511,6 +7554,7 @@
         ],
         "id": 51,
         "parentId": 43,
+        "sortOrder": 63,
         "name": {
             "jpn": "ディアシューターⅡ",
             "eng": "Diablos Shooter II",
@@ -7675,6 +7719,7 @@
         ],
         "id": 52,
         "parentId": 44,
+        "sortOrder": 64,
         "name": {
             "jpn": "デュエルスタッブ",
             "eng": "Dual Threat",
@@ -7839,6 +7884,7 @@
         ],
         "id": 53,
         "parentId": 45,
+        "sortOrder": 65,
         "name": {
             "jpn": "ネロディアーカ",
             "eng": "Nero's Blazooka",
@@ -8003,6 +8049,7 @@
         ],
         "id": 54,
         "parentId": 46,
+        "sortOrder": 66,
         "name": {
             "jpn": "カーディアーカ",
             "eng": "Griffon Blazooka",
@@ -8191,6 +8238,7 @@
         ],
         "id": 55,
         "parentId": 47,
+        "sortOrder": 67,
         "name": {
             "jpn": "ブルームシューターⅠ",
             "eng": "Blooming Shooter I",
@@ -8373,6 +8421,7 @@
         ],
         "id": 56,
         "parentId": 48,
+        "sortOrder": 68,
         "name": {
             "jpn": "ブルームシューターⅡ",
             "eng": "Blooming Shooter II",
@@ -8559,6 +8608,7 @@
         ],
         "id": 57,
         "parentId": 45,
+        "sortOrder": 69,
         "name": {
             "jpn": "ブルームシューターⅢ",
             "eng": "Blooming Shooter III",
@@ -8745,6 +8795,7 @@
         ],
         "id": 58,
         "parentId": 50,
+        "sortOrder": 70,
         "name": {
             "jpn": "ダチュラブラスターⅠ",
             "eng": "Datura Blaster I",
@@ -8934,6 +8985,7 @@
         ],
         "id": 59,
         "parentId": 51,
+        "sortOrder": 71,
         "name": {
             "jpn": "ダチュラブラスターⅡ",
             "eng": "Datura Blaster II",
@@ -9123,6 +9175,7 @@
         ],
         "id": 60,
         "parentId": 52,
+        "sortOrder": 72,
         "name": {
             "jpn": "ダチュラブラスターⅢ",
             "eng": "Datura Blaster III",
@@ -9318,6 +9371,7 @@
         ],
         "id": 61,
         "parentId": 53,
+        "sortOrder": 73,
         "name": {
             "jpn": "スパイクシューターⅠ",
             "eng": "Spiked Shooter I",
@@ -9506,6 +9560,7 @@
         ],
         "id": 62,
         "parentId": 43,
+        "sortOrder": 74,
         "name": {
             "jpn": "スパイクシューターⅡ",
             "eng": "Spiked Shooter II",
@@ -9698,6 +9753,7 @@
         ],
         "id": 63,
         "parentId": 55,
+        "sortOrder": 75,
         "name": {
             "jpn": "バルキンキャノンⅠ",
             "eng": "Baan Roar I",
@@ -9890,6 +9946,7 @@
         ],
         "id": 64,
         "parentId": 56,
+        "sortOrder": 76,
         "name": {
             "jpn": "バルキンキャノンⅡ",
             "eng": "Baan Roar II",
@@ -10082,6 +10139,7 @@
         ],
         "id": 65,
         "parentId": 57,
+        "sortOrder": 77,
         "name": {
             "jpn": "バルキンキャノンⅢ",
             "eng": "Baan Roar III",
@@ -10262,6 +10320,7 @@
         ],
         "id": 66,
         "parentId": 58,
+        "sortOrder": 78,
         "name": {
             "jpn": "ガマル砲Ⅰ",
             "eng": "Gama Cannon I",
@@ -10440,6 +10499,7 @@
         ],
         "id": 67,
         "parentId": 59,
+        "sortOrder": 79,
         "name": {
             "jpn": "ガマル砲Ⅱ",
             "eng": "Gama Cannon II",
@@ -10616,6 +10676,7 @@
         ],
         "id": 68,
         "parentId": 55,
+        "sortOrder": 80,
         "name": {
             "jpn": "パルサーシューターⅠ",
             "eng": "Pulsar Shooter I",
@@ -10786,6 +10847,7 @@
         ],
         "id": 69,
         "parentId": 61,
+        "sortOrder": 81,
         "name": {
             "jpn": "パルサーシューターⅡ",
             "eng": "Pulsar Shooter II",
@@ -10960,6 +11022,7 @@
         ],
         "id": 70,
         "parentId": 62,
+        "sortOrder": 82,
         "name": {
             "jpn": "パルサーシューターⅢ",
             "eng": "Pulsar Shooter III",
@@ -11134,6 +11197,7 @@
         ],
         "id": 71,
         "parentId": 63,
+        "sortOrder": 83,
         "name": {
             "jpn": "カガチノシシⅠ",
             "eng": "Kadachi Lion I",
@@ -11310,6 +11374,7 @@
         ],
         "id": 72,
         "parentId": 64,
+        "sortOrder": 84,
         "name": {
             "jpn": "カガチノシシⅡ",
             "eng": "Kadachi Lion II",
@@ -11486,6 +11551,7 @@
         ],
         "id": 73,
         "parentId": 63,
+        "sortOrder": 85,
         "name": {
             "jpn": "カガチノシシⅢ",
             "eng": "Kadachi Lion III",
@@ -11638,6 +11704,7 @@
         ],
         "id": 74,
         "parentId": 66,
+        "sortOrder": 86,
         "name": {
             "jpn": "龍骨砲Ⅰ",
             "eng": "Dragonbone Cannon I",
@@ -11788,6 +11855,7 @@
         ],
         "id": 75,
         "parentId": 43,
+        "sortOrder": 87,
         "name": {
             "jpn": "龍骨砲Ⅱ",
             "eng": "Dragonbone Cannon II",
@@ -11934,6 +12002,7 @@
         ],
         "id": 76,
         "parentId": 68,
+        "sortOrder": 88,
         "name": {
             "jpn": "龍骨砲Ⅲ",
             "eng": "Dragonbone Cannon III",
@@ -12098,6 +12167,7 @@
         ],
         "id": 79,
         "parentId": 69,
+        "sortOrder": 90,
         "name": {
             "jpn": "クイックキャスト",
             "eng": "Quickcaster",
@@ -12260,6 +12330,7 @@
         ],
         "id": 80,
         "parentId": 70,
+        "sortOrder": 91,
         "name": {
             "jpn": "クイックキャスト改",
             "eng": "Quickcaster+",
@@ -12424,6 +12495,7 @@
         ],
         "id": 81,
         "parentId": 71,
+        "sortOrder": 92,
         "name": {
             "jpn": "クイックシャフト",
             "eng": "Quickquiver",
@@ -12618,6 +12690,7 @@
         ],
         "id": 77,
         "parentId": 72,
+        "sortOrder": 98,
         "name": {
             "jpn": "マグダ・ゲミトゥスⅠ",
             "eng": "Magda Gemitus I",
@@ -12812,6 +12885,7 @@
         ],
         "id": 78,
         "parentId": -1,
+        "sortOrder": 89,
         "name": {
             "jpn": "マグダ・ゲミトゥスⅡ",
             "eng": "Magda Gemitus II",
@@ -12958,6 +13032,7 @@
         ],
         "id": 82,
         "parentId": 74,
+        "sortOrder": 93,
         "name": {
             "jpn": "黒鋼の砲筒Ⅰ",
             "eng": "Blacksteel Cannon I",
@@ -13102,6 +13177,7 @@
         ],
         "id": 83,
         "parentId": 75,
+        "sortOrder": 94,
         "name": {
             "jpn": "黒鋼の砲筒Ⅱ",
             "eng": "Blacksteel Cannon II",
@@ -13294,6 +13370,7 @@
         ],
         "id": 84,
         "parentId": 74,
+        "sortOrder": 95,
         "name": {
             "jpn": "テオ＝アーティレリ",
             "eng": "Teostra's Artillery",
@@ -13486,6 +13563,7 @@
         ],
         "id": 85,
         "parentId": 77,
+        "sortOrder": 96,
         "name": {
             "jpn": "テオ＝フランマルス",
             "eng": "Teostra's Flames",
@@ -13672,6 +13750,7 @@
         ],
         "id": 86,
         "parentId": 74,
+        "sortOrder": 97,
         "name": {
             "jpn": "ゼノ＝ジィカ",
             "eng": "Xeno Jiiqa",
@@ -13861,6 +13940,7 @@
         ],
         "id": 87,
         "parentId": 79,
+        "sortOrder": 100,
         "name": {
             "jpn": "暴食の重弩",
             "eng": "Gluttonous Cannon",
@@ -14047,6 +14127,7 @@
         ],
         "id": 88,
         "parentId": 80,
+        "sortOrder": 101,
         "name": {
             "jpn": "アンフィニグラ",
             "eng": "Dark Devourer",
@@ -14263,6 +14344,7 @@
         ],
         "id": 113,
         "parentId": -1,
+        "sortOrder": 126,
         "name": {
             "jpn": "エンプレスカノン",
             "eng": "Empress Cannon",
@@ -14481,6 +14563,7 @@
         ],
         "id": 114,
         "parentId": 82,
+        "sortOrder": 127,
         "name": {
             "jpn": "エンプレスカノン・炎妃",
             "eng": "Empress Cannon \"Blaze\"",
@@ -14670,6 +14753,7 @@
         ],
         "id": 115,
         "parentId": 83,
+        "sortOrder": 128,
         "name": {
             "jpn": "エンプレスカノン・滅尽",
             "eng": "Empress Cannon \"Ruin\"",
@@ -14883,6 +14967,7 @@
         ],
         "id": 116,
         "parentId": 84,
+        "sortOrder": 129,
         "name": {
             "jpn": "エンプレスカノン・冥灯",
             "eng": "Empress Cannon \"Styx\"",
@@ -15079,6 +15164,7 @@
         ],
         "id": 89,
         "parentId": -1,
+        "sortOrder": 102,
         "name": {
             "jpn": "金色の砲筒・援撃",
             "eng": "Gold Support Cannon",
@@ -15226,6 +15312,7 @@
         ],
         "id": 90,
         "parentId": -1,
+        "sortOrder": 103,
         "name": {
             "jpn": "金色の砲筒・爆撃",
             "eng": "Gold Blast Cannon",
@@ -15397,6 +15484,7 @@
         ],
         "id": 91,
         "parentId": -1,
+        "sortOrder": 104,
         "name": {
             "jpn": "金色の砲筒・冷撃",
             "eng": "Gold Icewater Cannon",
@@ -15526,6 +15614,7 @@
         ],
         "id": 92,
         "parentId": -1,
+        "sortOrder": 105,
         "name": {
             "jpn": "金色の砲筒・賊",
             "eng": "Glutton Gold Cannon",
@@ -15691,6 +15780,7 @@
         ],
         "id": 93,
         "parentId": -1,
+        "sortOrder": 106,
         "name": {
             "jpn": "金色の砲筒・毒妖",
             "eng": "Spew Gold Cannon",
@@ -15844,6 +15934,7 @@
         ],
         "id": 94,
         "parentId": -1,
+        "sortOrder": 107,
         "name": {
             "jpn": "金色の砲筒・飛雷",
             "eng": "Spark Gold Cannon",
@@ -16003,6 +16094,7 @@
         ],
         "id": 95,
         "parentId": -1,
+        "sortOrder": 108,
         "name": {
             "jpn": "金色の砲筒・蛮顎",
             "eng": "Rage Gold Cannon",
@@ -16150,6 +16242,7 @@
         ],
         "id": 96,
         "parentId": -1,
+        "sortOrder": 109,
         "name": {
             "jpn": "金色の砲筒・眩",
             "eng": "Flash Gold Cannon",
@@ -16321,6 +16414,7 @@
         ],
         "id": 97,
         "parentId": -1,
+        "sortOrder": 110,
         "name": {
             "jpn": "金色の砲筒・骨鎚",
             "eng": "Tar Gold Cannon",
@@ -16438,6 +16532,7 @@
         ],
         "id": 98,
         "parentId": -1,
+        "sortOrder": 111,
         "name": {
             "jpn": "金色の砲筒・角",
             "eng": "Horn Gold Cannon",
@@ -16567,6 +16662,7 @@
         ],
         "id": 99,
         "parentId": -1,
+        "sortOrder": 112,
         "name": {
             "jpn": "金色の砲筒・岩賊",
             "eng": "Crusher Gold Cannon",
@@ -16726,6 +16822,7 @@
         ],
         "id": 100,
         "parentId": -1,
+        "sortOrder": 113,
         "name": {
             "jpn": "金色の砲筒・熔山",
             "eng": "Magma Gold Cannon",
@@ -16855,6 +16952,7 @@
         ],
         "id": 101,
         "parentId": -1,
+        "sortOrder": 114,
         "name": {
             "jpn": "ガイラアサルト・賊",
             "eng": "Taroth Assault \"Glutton\"",
@@ -17020,6 +17118,7 @@
         ],
         "id": 102,
         "parentId": -1,
+        "sortOrder": 115,
         "name": {
             "jpn": "ガイラアサルト・毒妖",
             "eng": "Taroth Assault \"Spew\"",
@@ -17173,6 +17272,7 @@
         ],
         "id": 103,
         "parentId": -1,
+        "sortOrder": 116,
         "name": {
             "jpn": "ガイラアサルト・飛雷",
             "eng": "Taroth Assault \"Spark\"",
@@ -17332,6 +17432,7 @@
         ],
         "id": 104,
         "parentId": -1,
+        "sortOrder": 117,
         "name": {
             "jpn": "ガイラアサルト・蛮顎",
             "eng": "Taroth Assault \"Rage\"",
@@ -17479,6 +17580,7 @@
         ],
         "id": 105,
         "parentId": -1,
+        "sortOrder": 118,
         "name": {
             "jpn": "ガイラアサルト・眩",
             "eng": "Taroth Assault \"Flash\"",
@@ -17650,6 +17752,7 @@
         ],
         "id": 106,
         "parentId": -1,
+        "sortOrder": 119,
         "name": {
             "jpn": "ガイラアサルト・骨鎚",
             "eng": "Taroth Assault \"Tar\"",
@@ -17767,6 +17870,7 @@
         ],
         "id": 107,
         "parentId": -1,
+        "sortOrder": 120,
         "name": {
             "jpn": "ガイラアサルト・角",
             "eng": "Taroth Assault \"Horn\"",
@@ -17896,6 +18000,7 @@
         ],
         "id": 108,
         "parentId": -1,
+        "sortOrder": 121,
         "name": {
             "jpn": "ガイラアサルト・岩賊",
             "eng": "Taroth Assault \"Crusher\"",
@@ -18055,6 +18160,7 @@
         ],
         "id": 109,
         "parentId": -1,
+        "sortOrder": 122,
         "name": {
             "jpn": "ガイラアサルト・熔山",
             "eng": "Taroth Assault \"Magma\"",
@@ -18226,6 +18332,7 @@
         ],
         "id": 110,
         "parentId": -1,
+        "sortOrder": 123,
         "name": {
             "jpn": "ガイラアサルト・援撃",
             "eng": "Taroth Assault \"Support\"",
@@ -18375,6 +18482,7 @@
         ],
         "id": 111,
         "parentId": -1,
+        "sortOrder": 124,
         "name": {
             "jpn": "ガイラアサルト・爆撃",
             "eng": "Taroth Assault \"Blast\"",
@@ -18548,6 +18656,7 @@
         ],
         "id": 112,
         "parentId": -1,
+        "sortOrder": 125,
         "name": {
             "jpn": "ガイラアサルト・冷撃",
             "eng": "Taroth Assault \"Icewater\"",
@@ -18685,6 +18794,7 @@
         ],
         "id": 117,
         "parentId": -1,
+        "sortOrder": 130,
         "name": {
             "jpn": "ガイラアサルト・狙撃",
             "eng": "Taroth Assault \"Pierce\"",
@@ -18852,6 +18962,7 @@
         ],
         "id": 118,
         "parentId": -1,
+        "sortOrder": 131,
         "name": {
             "jpn": "皇金の砲筒・蛮顎",
             "eng": "Kjárr Assault \"Rage\"",
@@ -19000,6 +19111,7 @@
         ],
         "id": 119,
         "parentId": -1,
+        "sortOrder": 132,
         "name": {
             "jpn": "皇金の砲筒・角",
             "eng": "Kjárr Assault \"Horn\"",
@@ -19156,6 +19268,7 @@
         ],
         "id": 120,
         "parentId": -1,
+        "sortOrder": 133,
         "name": {
             "jpn": "皇金の砲筒・飛雷",
             "eng": "Kjárr Assault \"Spark\"",
@@ -19340,6 +19453,7 @@
         ],
         "id": 121,
         "parentId": -1,
+        "sortOrder": 134,
         "name": {
             "jpn": "皇金の砲筒・熔山",
             "eng": "Kjárr Assault \"Magma\"",
@@ -19518,6 +19632,7 @@
         ],
         "id": 122,
         "parentId": -1,
+        "sortOrder": 135,
         "name": {
             "jpn": "皇金の砲筒・水",
             "eng": "Kjárr Assault \"Water\"",
@@ -19686,6 +19801,7 @@
         ],
         "id": 123,
         "parentId": -1,
+        "sortOrder": 136,
         "name": {
             "jpn": "皇金の砲筒・氷",
             "eng": "Kjárr Assault \"Ice\"",
