@@ -66,7 +66,7 @@
             2
         ],
         "id": 9,
-        "parentId": -1,
+        "parentId": 8,
         "sortOrder": 21,
         "name": {
             "jpn": "鉄弓Ⅱ",
@@ -110,7 +110,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -127,7 +127,7 @@
             2
         ],
         "id": 10,
-        "parentId": -1,
+        "parentId": 9,
         "sortOrder": 22,
         "name": {
             "jpn": "鉄弓Ⅲ",
@@ -171,7 +171,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -196,7 +196,7 @@
             2
         ],
         "id": 11,
-        "parentId": -1,
+        "parentId": 10,
         "sortOrder": 23,
         "name": {
             "jpn": "鋼鉄弓Ⅰ",
@@ -240,7 +240,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -265,7 +265,7 @@
             2
         ],
         "id": 12,
-        "parentId": -1,
+        "parentId": 11,
         "sortOrder": 24,
         "name": {
             "jpn": "鋼鉄弓Ⅱ",
@@ -309,7 +309,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -338,7 +338,7 @@
             2
         ],
         "id": 13,
-        "parentId": -1,
+        "parentId": 12,
         "sortOrder": 25,
         "name": {
             "jpn": "鋼鉄弓Ⅲ",
@@ -384,7 +384,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -409,7 +409,7 @@
             2
         ],
         "id": 14,
-        "parentId": -1,
+        "parentId": 13,
         "sortOrder": 26,
         "name": {
             "jpn": "合金弓Ⅰ",
@@ -455,7 +455,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -484,7 +484,7 @@
             2
         ],
         "id": 15,
-        "parentId": -1,
+        "parentId": 14,
         "sortOrder": 27,
         "name": {
             "jpn": "合金弓Ⅱ",
@@ -531,7 +531,7 @@
             2,
             2
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -560,7 +560,7 @@
             2
         ],
         "id": 16,
-        "parentId": -1,
+        "parentId": 14,
         "sortOrder": 28,
         "name": {
             "jpn": "ネルガルファウル",
@@ -606,7 +606,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -635,7 +635,7 @@
             2
         ],
         "id": 17,
-        "parentId": -1,
+        "parentId": 16,
         "sortOrder": 29,
         "name": {
             "jpn": "必滅の一矢",
@@ -712,7 +712,7 @@
             10
         ],
         "id": 18,
-        "parentId": -1,
+        "parentId": 9,
         "sortOrder": 30,
         "name": {
             "jpn": "クルルアローⅠ",
@@ -756,7 +756,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -783,7 +783,7 @@
             10
         ],
         "id": 19,
-        "parentId": -1,
+        "parentId": 18,
         "sortOrder": 31,
         "name": {
             "jpn": "クルルアローⅡ",
@@ -827,7 +827,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -858,7 +858,7 @@
             10
         ],
         "id": 20,
-        "parentId": -1,
+        "parentId": 19,
         "sortOrder": 32,
         "name": {
             "jpn": "クルルアローⅢ",
@@ -902,7 +902,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -933,7 +933,7 @@
             10
         ],
         "id": 21,
-        "parentId": -1,
+        "parentId": 20,
         "sortOrder": 33,
         "name": {
             "jpn": "リーシャアルサクルⅠ",
@@ -1008,7 +1008,7 @@
             10
         ],
         "id": 22,
-        "parentId": -1,
+        "parentId": 21,
         "sortOrder": 34,
         "name": {
             "jpn": "リーシャアルサクルⅡ",
@@ -1052,7 +1052,7 @@
         "hiddenElementStatus": 9,
         "hiddenElementStatusDamage": 240,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1083,7 +1083,7 @@
             10
         ],
         "id": 23,
-        "parentId": -1,
+        "parentId": 22,
         "sortOrder": 35,
         "name": {
             "jpn": "リーシャアルサクルⅢ",
@@ -1127,7 +1127,7 @@
         "hiddenElementStatus": 9,
         "hiddenElementStatusDamage": 270,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1157,7 +1157,7 @@
             10
         ],
         "id": 24,
-        "parentId": -1,
+        "parentId": 21,
         "sortOrder": 36,
         "name": {
             "jpn": "ブラスコルダ",
@@ -1233,7 +1233,7 @@
             10
         ],
         "id": 25,
-        "parentId": -1,
+        "parentId": 24,
         "sortOrder": 37,
         "name": {
             "jpn": "重弓ヘラギガス",
@@ -1309,7 +1309,7 @@
             7
         ],
         "id": 26,
-        "parentId": -1,
+        "parentId": 18,
         "sortOrder": 38,
         "name": {
             "jpn": "プリンセスアローⅠ",
@@ -1353,7 +1353,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1379,7 +1379,7 @@
             7
         ],
         "id": 27,
-        "parentId": -1,
+        "parentId": 26,
         "sortOrder": 40,
         "name": {
             "jpn": "プリンセスアローⅡ",
@@ -1426,7 +1426,7 @@
             1,
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1456,7 +1456,7 @@
             7
         ],
         "id": 28,
-        "parentId": -1,
+        "parentId": 27,
         "sortOrder": 42,
         "name": {
             "jpn": "プリンセスアローⅢ",
@@ -1503,7 +1503,7 @@
             2,
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1533,7 +1533,7 @@
             6
         ],
         "id": 29,
-        "parentId": -1,
+        "parentId": 26,
         "sortOrder": 43,
         "name": {
             "jpn": "火竜の強弓Ⅰ",
@@ -1607,7 +1607,7 @@
             6
         ],
         "id": 30,
-        "parentId": -1,
+        "parentId": 29,
         "sortOrder": 45,
         "name": {
             "jpn": "火竜の強弓Ⅱ",
@@ -1653,7 +1653,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1683,7 +1683,7 @@
             6
         ],
         "id": 31,
-        "parentId": -1,
+        "parentId": 30,
         "sortOrder": 46,
         "name": {
             "jpn": "火竜の強弓Ⅲ",
@@ -1729,7 +1729,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1758,7 +1758,7 @@
             2
         ],
         "id": 32,
-        "parentId": -1,
+        "parentId": 9,
         "sortOrder": 48,
         "name": {
             "jpn": "アクアアローⅠ",
@@ -1802,7 +1802,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1831,7 +1831,7 @@
             2
         ],
         "id": 33,
-        "parentId": -1,
+        "parentId": 32,
         "sortOrder": 49,
         "name": {
             "jpn": "アクアアローⅡ",
@@ -1875,7 +1875,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1904,7 +1904,7 @@
             2
         ],
         "id": 34,
-        "parentId": -1,
+        "parentId": 33,
         "sortOrder": 50,
         "name": {
             "jpn": "アクアアローⅢ",
@@ -1948,7 +1948,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1977,7 +1977,7 @@
             2
         ],
         "id": 35,
-        "parentId": -1,
+        "parentId": 34,
         "sortOrder": 51,
         "name": {
             "jpn": "ウォーターシュート Ⅰ",
@@ -2052,7 +2052,7 @@
             2
         ],
         "id": 36,
-        "parentId": -1,
+        "parentId": 35,
         "sortOrder": 52,
         "name": {
             "jpn": "ウォーターシュート Ⅱ",
@@ -2098,7 +2098,7 @@
         "slots": [
             2
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2127,7 +2127,7 @@
             2
         ],
         "id": 37,
-        "parentId": -1,
+        "parentId": 36,
         "sortOrder": 53,
         "name": {
             "jpn": "ウォーターシュート Ⅲ",
@@ -2173,7 +2173,7 @@
         "slots": [
             3
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2204,7 +2204,7 @@
             8
         ],
         "id": 38,
-        "parentId": -1,
+        "parentId": 33,
         "sortOrder": 54,
         "name": {
             "jpn": "グレイスアローⅠ",
@@ -2248,7 +2248,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2275,7 +2275,7 @@
             8
         ],
         "id": 39,
-        "parentId": -1,
+        "parentId": 38,
         "sortOrder": 55,
         "name": {
             "jpn": "グレイスアローⅡ",
@@ -2319,7 +2319,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2350,7 +2350,7 @@
             8
         ],
         "id": 40,
-        "parentId": -1,
+        "parentId": 39,
         "sortOrder": 56,
         "name": {
             "jpn": "ファーンライク",
@@ -2425,7 +2425,7 @@
             8
         ],
         "id": 41,
-        "parentId": -1,
+        "parentId": 40,
         "sortOrder": 57,
         "name": {
             "jpn": "レイ＝ファーンライク",
@@ -2561,7 +2561,7 @@
             6
         ],
         "id": 43,
-        "parentId": -1,
+        "parentId": 42,
         "sortOrder": 59,
         "name": {
             "jpn": "ハンターボウⅡ",
@@ -2605,7 +2605,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2623,7 +2623,7 @@
             6
         ],
         "id": 44,
-        "parentId": -1,
+        "parentId": 43,
         "sortOrder": 60,
         "name": {
             "jpn": "ハンターボウⅢ",
@@ -2667,7 +2667,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2689,7 +2689,7 @@
             6
         ],
         "id": 45,
-        "parentId": -1,
+        "parentId": 44,
         "sortOrder": 61,
         "name": {
             "jpn": "パワーハンターボウⅠ",
@@ -2733,7 +2733,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2759,7 +2759,7 @@
             6
         ],
         "id": 46,
-        "parentId": -1,
+        "parentId": 45,
         "sortOrder": 62,
         "name": {
             "jpn": "パワーハンターボウⅡ",
@@ -2803,7 +2803,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2829,7 +2829,7 @@
             6
         ],
         "id": 47,
-        "parentId": -1,
+        "parentId": 46,
         "sortOrder": 63,
         "name": {
             "jpn": "パワーハンターボウⅢ",
@@ -2875,7 +2875,7 @@
         "slots": [
             2
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2901,7 +2901,7 @@
             6
         ],
         "id": 48,
-        "parentId": -1,
+        "parentId": 47,
         "sortOrder": 64,
         "name": {
             "jpn": "ブレイブハンターボウⅠ",
@@ -2947,7 +2947,7 @@
         "slots": [
             2
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2973,7 +2973,7 @@
             6
         ],
         "id": 49,
-        "parentId": -1,
+        "parentId": 48,
         "sortOrder": 65,
         "name": {
             "jpn": "ブレイブハンターボウⅡ",
@@ -3019,7 +3019,7 @@
         "slots": [
             3
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3049,7 +3049,7 @@
             8
         ],
         "id": 50,
-        "parentId": -1,
+        "parentId": 48,
         "sortOrder": 66,
         "name": {
             "jpn": "ハザクヴェロスⅠ",
@@ -3095,7 +3095,7 @@
         "slots": [
             2
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3125,7 +3125,7 @@
             8
         ],
         "id": 51,
-        "parentId": -1,
+        "parentId": 50,
         "sortOrder": 67,
         "name": {
             "jpn": "ハザクヴェロスⅡ",
@@ -3171,7 +3171,7 @@
         "slots": [
             2
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3201,7 +3201,7 @@
             4
         ],
         "id": 52,
-        "parentId": -1,
+        "parentId": 45,
         "sortOrder": 68,
         "name": {
             "jpn": "ブロスボウⅠ",
@@ -3245,7 +3245,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3275,7 +3275,7 @@
             4
         ],
         "id": 53,
-        "parentId": -1,
+        "parentId": 52,
         "sortOrder": 69,
         "name": {
             "jpn": "ブロスボウⅡ",
@@ -3322,7 +3322,7 @@
             1,
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3352,7 +3352,7 @@
             4
         ],
         "id": 54,
-        "parentId": -1,
+        "parentId": 53,
         "sortOrder": 70,
         "name": {
             "jpn": "ブロスホーンボウ",
@@ -3429,7 +3429,7 @@
             4
         ],
         "id": 55,
-        "parentId": -1,
+        "parentId": 54,
         "sortOrder": 71,
         "name": {
             "jpn": "ゲイルホーンボウ",
@@ -3506,7 +3506,7 @@
             4
         ],
         "id": 56,
-        "parentId": -1,
+        "parentId": 55,
         "sortOrder": 72,
         "name": {
             "jpn": "角王弓ゲイルホーン",
@@ -3583,7 +3583,7 @@
             7
         ],
         "id": 57,
-        "parentId": -1,
+        "parentId": 43,
         "sortOrder": 73,
         "name": {
             "jpn": "ブルームアーチⅠ",
@@ -3627,7 +3627,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3653,7 +3653,7 @@
             7
         ],
         "id": 58,
-        "parentId": -1,
+        "parentId": 57,
         "sortOrder": 74,
         "name": {
             "jpn": "ブルームアーチⅡ",
@@ -3697,7 +3697,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3727,7 +3727,7 @@
             7
         ],
         "id": 59,
-        "parentId": -1,
+        "parentId": 58,
         "sortOrder": 75,
         "name": {
             "jpn": "ブルームアーチⅢ",
@@ -3771,7 +3771,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3801,7 +3801,7 @@
             7
         ],
         "id": 60,
-        "parentId": -1,
+        "parentId": 59,
         "sortOrder": 76,
         "name": {
             "jpn": "ダチュラストリングⅠ",
@@ -3878,7 +3878,7 @@
             7
         ],
         "id": 61,
-        "parentId": -1,
+        "parentId": 60,
         "sortOrder": 77,
         "name": {
             "jpn": "ダチュラストリングⅡ",
@@ -3925,7 +3925,7 @@
             2,
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3955,7 +3955,7 @@
             7
         ],
         "id": 62,
-        "parentId": -1,
+        "parentId": 61,
         "sortOrder": 78,
         "name": {
             "jpn": "ダチュラストリングⅢ",
@@ -4002,7 +4002,7 @@
             2,
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4032,7 +4032,7 @@
             10
         ],
         "id": 63,
-        "parentId": -1,
+        "parentId": 57,
         "sortOrder": 79,
         "name": {
             "jpn": "ブレイズボウⅠ",
@@ -4076,7 +4076,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4102,7 +4102,7 @@
             10
         ],
         "id": 64,
-        "parentId": -1,
+        "parentId": 63,
         "sortOrder": 80,
         "name": {
             "jpn": "ブレイズボウⅡ",
@@ -4146,7 +4146,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4176,7 +4176,7 @@
             10
         ],
         "id": 65,
-        "parentId": -1,
+        "parentId": 64,
         "sortOrder": 81,
         "name": {
             "jpn": "ジャナフアルカウスⅠ",
@@ -4250,7 +4250,7 @@
             10
         ],
         "id": 66,
-        "parentId": -1,
+        "parentId": 65,
         "sortOrder": 82,
         "name": {
             "jpn": "ジャナフアルカウスⅡ",
@@ -4294,7 +4294,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4324,7 +4324,7 @@
             10
         ],
         "id": 67,
-        "parentId": -1,
+        "parentId": 66,
         "sortOrder": 83,
         "name": {
             "jpn": "ジャナフアルカウスⅢ",
@@ -4368,7 +4368,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4398,7 +4398,7 @@
             5
         ],
         "id": 68,
-        "parentId": -1,
+        "parentId": 43,
         "sortOrder": 84,
         "name": {
             "jpn": "パルサーボウⅠ",
@@ -4442,7 +4442,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4468,7 +4468,7 @@
             5
         ],
         "id": 69,
-        "parentId": -1,
+        "parentId": 68,
         "sortOrder": 85,
         "name": {
             "jpn": "パルサーボウⅡ",
@@ -4512,7 +4512,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4542,7 +4542,7 @@
             5
         ],
         "id": 70,
-        "parentId": -1,
+        "parentId": 69,
         "sortOrder": 86,
         "name": {
             "jpn": "パルサーボウⅢ",
@@ -4586,7 +4586,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4616,7 +4616,7 @@
             5
         ],
         "id": 71,
-        "parentId": -1,
+        "parentId": 70,
         "sortOrder": 87,
         "name": {
             "jpn": "飛雷弓イテカガチ",
@@ -4692,7 +4692,7 @@
             5
         ],
         "id": 72,
-        "parentId": -1,
+        "parentId": 71,
         "sortOrder": 88,
         "name": {
             "jpn": "飛雷弓【羽々矢】",
@@ -4842,7 +4842,7 @@
             8
         ],
         "id": 74,
-        "parentId": -1,
+        "parentId": 73,
         "sortOrder": 90,
         "name": {
             "jpn": "龍骨弓Ⅱ",
@@ -4886,7 +4886,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4912,7 +4912,7 @@
             8
         ],
         "id": 75,
-        "parentId": -1,
+        "parentId": 74,
         "sortOrder": 91,
         "name": {
             "jpn": "龍骨弓Ⅲ",
@@ -4959,7 +4959,7 @@
             1,
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -5063,7 +5063,7 @@
             8
         ],
         "id": 77,
-        "parentId": -1,
+        "parentId": 76,
         "sortOrder": 93,
         "name": {
             "jpn": "黒鋼の弓Ⅱ",
@@ -5107,7 +5107,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -5136,7 +5136,7 @@
             2
         ],
         "id": 78,
-        "parentId": -1,
+        "parentId": 77,
         "sortOrder": 94,
         "name": {
             "jpn": "鋼氷馬弓",
@@ -5212,7 +5212,7 @@
             2
         ],
         "id": 79,
-        "parentId": -1,
+        "parentId": 78,
         "sortOrder": 95,
         "name": {
             "jpn": "アルナス＝ダオラ",
@@ -5290,7 +5290,7 @@
             10
         ],
         "id": 80,
-        "parentId": -1,
+        "parentId": 77,
         "sortOrder": 96,
         "name": {
             "jpn": "ゼノ＝メートラ",
@@ -5447,7 +5447,7 @@
             10
         ],
         "id": 82,
-        "parentId": -1,
+        "parentId": 81,
         "sortOrder": 98,
         "name": {
             "jpn": "グレイトハンターボウ",
@@ -5597,7 +5597,7 @@
             6
         ],
         "id": 84,
-        "parentId": -1,
+        "parentId": 83,
         "sortOrder": 101,
         "name": {
             "jpn": "ヴィランブレイス",
@@ -5746,7 +5746,7 @@
             2
         ],
         "id": 112,
-        "parentId": -1,
+        "parentId": 111,
         "sortOrder": 129,
         "name": {
             "jpn": "エンプレスアロー・炎妃",
@@ -5794,7 +5794,7 @@
             2,
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -5825,7 +5825,7 @@
             8
         ],
         "id": 113,
-        "parentId": -1,
+        "parentId": 111,
         "sortOrder": 130,
         "name": {
             "jpn": "エンプレスアロー・滅尽",
@@ -5873,7 +5873,7 @@
             2,
             2
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -5902,7 +5902,7 @@
             2
         ],
         "id": 114,
-        "parentId": -1,
+        "parentId": 111,
         "sortOrder": 131,
         "name": {
             "jpn": "エンプレスアロー・冥灯",
@@ -5950,7 +5950,7 @@
             3,
             3
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [

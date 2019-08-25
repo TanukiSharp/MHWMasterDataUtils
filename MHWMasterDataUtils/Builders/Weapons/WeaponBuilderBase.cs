@@ -54,9 +54,9 @@ namespace MHWMasterDataUtils.Builders.Weapons
             SwitchAxe,
             ChargeBlade,
             InsectGlaive,
-            Bow,
-            HeavyBowgun,
             LightBowgun,
+            HeavyBowgun,
+            Bow,
         }
 
         private static WeaponTypeOrder ToWeaponTypeOrder(core.WeaponType weaponType)
