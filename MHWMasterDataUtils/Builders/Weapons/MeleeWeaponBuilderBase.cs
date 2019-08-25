@@ -59,10 +59,9 @@ namespace MHWMasterDataUtils.Builders.Weapons
                 allSharpness.Insert(0, currentSharpness);
             }
 
-            if (allSharpness.Count == 0)
-                resultWeapon.Sharpness = new[] { minSharpness };
-            else
-                resultWeapon.Sharpness = allSharpness.Take(5).ToArray();
+            allSharpness.Add(maxSharpness);
+
+            resultWeapon.Sharpness = allSharpness.Take(6).ToArray();
         }
     }
 }
