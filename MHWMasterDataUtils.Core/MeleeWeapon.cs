@@ -7,10 +7,8 @@ namespace MHWMasterDataUtils.Core
 {
     public class MeleeWeapon : WeaponBase
     {
-        [JsonProperty("sharpness")]
-        public SharpnessInfo Sharpness { get; set; }
-        [JsonProperty("maxSharpness")]
-        public SharpnessInfo MaxSharpness { get; set; }
+        [JsonProperty("sharpness"), JsonConverter(typeof(SharpnessJsonConverter))]
+        public SharpnessInfo[] Sharpness { get; set; }
         [JsonProperty("weaponSpecific")]
         public object WeaponSpecific { get; set; }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using MHWMasterDataUtils.Equipment;
 using MHWMasterDataUtils.Languages;
 using MHWMasterDataUtils.Sharpness;
@@ -46,10 +47,22 @@ namespace MHWMasterDataUtils.Builders.Weapons
             core.SharpnessInfo maxSharpness = sharpnessPackageProcessor.Table[weapon.SharpnessId];
 
             ushort sharpnessModifier = SharpnessUtils.ToSharpnessModifier(weapon.Handicraft);
-            core.SharpnessInfo sharpness = SharpnessUtils.ApplySharpnessModifier(sharpnessModifier, maxSharpness);
+            core.SharpnessInfo minSharpness = SharpnessUtils.ApplySharpnessModifier(sharpnessModifier, maxSharpness);
 
-            resultWeapon.Sharpness = sharpness;
-            resultWeapon.MaxSharpness = maxSharpness;
+            var allSharpness = new List<core.SharpnessInfo>();
+
+            core.SharpnessInfo currentSharpness = maxSharpness;
+
+            while (currentSharpness.Equals(minSharpness) == false)
+            {
+                currentSharpness = SharpnessUtils.ApplySharpnessModifier(10, currentSharpness);
+                allSharpness.Insert(0, currentSharpness);
+            }
+
+            if (allSharpness.Count == 0)
+                resultWeapon.Sharpness = new[] { minSharpness };
+            else
+                resultWeapon.Sharpness = allSharpness.Take(5).ToArray();
         }
     }
 }
