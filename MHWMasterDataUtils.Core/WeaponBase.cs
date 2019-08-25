@@ -9,6 +9,8 @@ namespace MHWMasterDataUtils.Core
     {
         [JsonIgnore]
         public int TreeOrder { get; set; }
+        [JsonIgnore]
+        public WeaponType Type { get; set; }
 
         [JsonProperty("id")]
         public uint Id { get; set; }
