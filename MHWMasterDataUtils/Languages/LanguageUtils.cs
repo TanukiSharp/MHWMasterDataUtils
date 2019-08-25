@@ -119,8 +119,8 @@ namespace MHWMasterDataUtils.Languages
                 case LanguageIdPrimitive.German: return "ger";
                 case LanguageIdPrimitive.Italian: return "ita";
                 case LanguageIdPrimitive.Korean: return "kor";
-                case LanguageIdPrimitive.ChineseTraditional: return "cnt";
-                case LanguageIdPrimitive.ChineseSimplified: return "cns";
+                case LanguageIdPrimitive.ChineseTraditional: return "cht";
+                case LanguageIdPrimitive.ChineseSimplified: return "chs";
                 case LanguageIdPrimitive.Russian: return "rus";
                 case LanguageIdPrimitive.Polish: return "pol";
                 case LanguageIdPrimitive.Portuguese: return "ptb";
