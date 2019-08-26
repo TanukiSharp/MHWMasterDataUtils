@@ -9,15 +9,13 @@ namespace MHWMasterDataUtils.Core
     {
         [JsonProperty("sharpness"), JsonConverter(typeof(SharpnessJsonConverter))]
         public SharpnessInfo[] Sharpness { get; set; }
-        [JsonProperty("weaponSpecific")]
-        public object WeaponSpecific { get; set; }
 
         public override string ToString()
         {
             var text = new StringBuilder($"[{Id}] {Name[LanguageUtils.DefaultLanguageCode]}");
 
-            if (WeaponSpecific is GunlanceShell shell)
-                text.Append($" {(GunlanceShellType)shell.ShellType}-{shell.ShellLevel}");
+            if (this is Gunlance gunlance)
+                text.Append($" {(GunlanceShellType)gunlance.Shelling.ShellType}-{gunlance.Shelling.ShellLevel}");
 
             text.Append($" (parent: {ParentId})");
 
