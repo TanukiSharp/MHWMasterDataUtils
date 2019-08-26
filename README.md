@@ -91,12 +91,13 @@ The solution contains a project named `MHWMasterDataUtils.Core`, which holds the
 
 # Thanks
 
-Special thanks to Frederik Schumacher for his wonderful work on the Monster Hunter World data wiki
+Special thanks to **Frederik Schumacher** for his wonderful work on the Monster Hunter World data wiki
 - GitLab: https://gitlab.com/frederik-schumacher/mhw-equipment-docs/wikis/home (private)
 - GitHub: https://github.com/fre-sch
 
-Also thanks to the modding community
-- Discord: https://discord.gg/gJwMdhK
+Also thanks to the modding community (Discord: https://discord.gg/gJwMdhK)
+- **AsteriskAmpersand** for helping with various topics
+- **Deathcream** for helping me understand the sharpness values
 
 # Terms of use
 
