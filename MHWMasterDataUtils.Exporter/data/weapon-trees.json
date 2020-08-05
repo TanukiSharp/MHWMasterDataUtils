@@ -952,5 +952,545 @@
             "ptb": "Árvore do Bruxo",
             "ara": "شجرة الويتشر"
         }
+    },
+    {
+        "treeId": 56,
+        "name": {
+            "jpn": "防衛隊派生",
+            "eng": "Defender Tree",
+            "fre": "Défenseur",
+            "spa": "Árbol de defensor",
+            "ger": "Verteidiger-Baum",
+            "ita": "Serie difensore",
+            "kor": "수비대 파생",
+            "cht": "防衛隊衍生",
+            "chs": "防卫队衍生",
+            "rus": "Дерево защитника",
+            "pol": "Drzewo Obrońcy",
+            "ptb": "Árvore Defensora",
+            "ara": "شجرة المدافع"
+        }
+    },
+    {
+        "treeId": 60,
+        "name": {
+            "jpn": "獄狼竜派生",
+            "eng": "Stygian Zinogre Tree",
+            "fre": "Zinogre stygien",
+            "spa": "Árbol de Zinogre Estigio",
+            "ger": "Höllen-Zinogre-Baum",
+            "ita": "Serie Zinogre stigeo",
+            "kor": "옥랑룡 파생",
+            "cht": "獄狼龍衍生",
+            "chs": "狱狼龙衍生",
+            "rus": "Древо стигийск. зиногра",
+            "pol": "Drzewo Styg. Zinogra",
+            "ptb": "Árvore Zinogre Tenebroso",
+            "ara": "شجرة زينغر جهنمي"
+        }
+    },
+    {
+        "treeId": 61,
+        "name": {
+            "jpn": "猛牛竜派生",
+            "eng": "Banbaro Tree",
+            "fre": "Banbaro",
+            "spa": "Árbol de Banbaro",
+            "ger": "Banbaro-Baum",
+            "ita": "Serie Banbaro",
+            "kor": "맹우룡 파생",
+            "cht": "猛牛龍衍生",
+            "chs": "猛牛龙衍生",
+            "rus": "Древо банбаро",
+            "pol": "Drzewo Banbaro",
+            "ptb": "Árvore Banbaro",
+            "ara": "شجرة بنبارو"
+        }
+    },
+    {
+        "treeId": 62,
+        "name": {
+            "jpn": "迅竜派生",
+            "eng": "Nargacuga Tree",
+            "fre": "Nargacuga",
+            "spa": "Árbol de Nargacuga",
+            "ger": "Nargacuga-Baum",
+            "ita": "Serie Nargacuga",
+            "kor": "신룡 파생",
+            "cht": "迅龍衍生",
+            "chs": "迅龙衍生",
+            "rus": "Древо наргакуги",
+            "pol": "Drzewo Nargacuga",
+            "ptb": "Árvore Nargacuga",
+            "ara": "شجرة نارغاكوغا"
+        }
+    },
+    {
+        "treeId": 63,
+        "name": {
+            "jpn": "斬竜派生",
+            "eng": "Glavenus Tree",
+            "fre": "Glavenus",
+            "spa": "Árbol de Glavenus",
+            "ger": "Glavenus-Baum",
+            "ita": "Serie Glavenus",
+            "kor": "참룡 파생",
+            "cht": "斬龍衍生",
+            "chs": "斩龙衍生",
+            "rus": "Древо главенус",
+            "pol": "Drzewo Glavenusa",
+            "ptb": "Árvore Glavenus",
+            "ara": "شجرة غلافنيوس"
+        }
+    },
+    {
+        "treeId": 64,
+        "name": {
+            "jpn": "水妖鳥派生",
+            "eng": "Coral Pukei Tree",
+            "fre": "Pukei-Pukei corail",
+            "spa": "Árbol de Pukei Coralino",
+            "ger": "Korallen-Pukei-Pukei-Baum",
+            "ita": "Serie Pukei corallino",
+            "kor": "수요조 파생",
+            "cht": "水妖鳥衍生",
+            "chs": "水妖鸟衍生",
+            "rus": "Древо кораллового поки",
+            "pol": "Drzewo Koralowego Pukei",
+            "ptb": "Árvore Pukei Coralino",
+            "ara": "شجرة بوكي مرجاني"
+        }
+    },
+    {
+        "treeId": 65,
+        "name": {
+            "jpn": "冰龍派生",
+            "eng": "Velkhana Tree",
+            "fre": "Velkhana",
+            "spa": "Árbol de Velkhana",
+            "ger": "Velkhana-Baum",
+            "ita": "Serie Velkhana",
+            "kor": "빙룡 파생",
+            "cht": "冰呪龍衍生",
+            "chs": "冰呪龙衍生",
+            "rus": "Древо велханы",
+            "pol": "Drzewo Velkhana",
+            "ptb": "Árvore Velkhana",
+            "ara": "شجرة فيلكانا"
+        }
+    },
+    {
+        "treeId": 66,
+        "name": {
+            "jpn": "轟竜派生",
+            "eng": "Tigrex Tree",
+            "fre": "Tigrex",
+            "spa": "Árbol de Tigrex",
+            "ger": "Tigrex-Baum",
+            "ita": "Serie Tigrex",
+            "kor": "굉룡 파생",
+            "cht": "轟龍衍生",
+            "chs": "轰龙衍生",
+            "rus": "Древо тигрекса",
+            "pol": "Drzewo Tigrexa",
+            "ptb": "Árvore Tigrex",
+            "ara": "شجرة تغريكس"
+        }
+    },
+    {
+        "treeId": 67,
+        "name": {
+            "jpn": "雷顎竜派生",
+            "eng": "Fulgur Anjanath Tree",
+            "fre": "Anjanath tonnerre",
+            "spa": "Árbol de Anja Fulgúreo",
+            "ger": "Fulgur-Anjanath-Baum",
+            "ita": "Serie Anjanath tonante",
+            "kor": "뇌악룡 파생",
+            "cht": "雷顎龍衍生",
+            "chs": "雷颚龙衍生",
+            "rus": "Древо громового аньяната",
+            "pol": "Drzewo Piorunowego Anja",
+            "ptb": "Árvore Anja Fulgurante",
+            "ara": "شجرة أنجاناث رعدي"
+        }
+    },
+    {
+        "treeId": 68,
+        "name": {
+            "jpn": "浮眠竜派生",
+            "eng": "Nightshade Lumu Tree",
+            "fre": "Paolumu belladone",
+            "spa": "Árbol de Lumu Somnus",
+            "ger": "Nachtschatten-Paolumu-Baum",
+            "ita": "Serie Paolumu onirico",
+            "kor": "부면룡 파생",
+            "cht": "浮眠龍衍生",
+            "chs": "浮眠龙衍生",
+            "rus": "Древо ночного луму",
+            "pol": "Drzewo Biel. Lumu",
+            "ptb": "Árvore Lumu Beladona",
+            "ara": "شجرة لومو ظل الليل"
+        }
+    },
+    {
+        "treeId": 69,
+        "name": {
+            "jpn": "砕竜派生",
+            "eng": "Brachydios Tree",
+            "fre": "Brachydios",
+            "spa": "Árbol de Brachydios",
+            "ger": "Brachydios-Baum",
+            "ita": "Serie Brachydios",
+            "kor": "쇄룡 파생",
+            "cht": "碎龍衍生",
+            "chs": "碎龙衍生",
+            "rus": "Древо брахидиоса",
+            "pol": "Drzewo Brachydiosa",
+            "ptb": "Árvore Brachydios",
+            "ara": "شجرة براكيديوس"
+        }
+    },
+    {
+        "treeId": 70,
+        "name": {
+            "jpn": "地啼龍派生",
+            "eng": "Shara Ishvalda Tree",
+            "fre": "Shara Ishvalda",
+            "spa": "Árbol de Shara Ishvalda",
+            "ger": "Shara-Ishvalda-Baum",
+            "ita": "Serie Shara Ishvalda",
+            "kor": "지제룡 파생",
+            "cht": "天地煌啼龍衍生",
+            "chs": "天地煌啼龙衍生",
+            "rus": "Древо шара-ишвалды",
+            "pol": "Drzewo Shar Ishvalda",
+            "ptb": "Árvore Shara Ishvalda",
+            "ara": "شجرة شارا إشفالدا"
+        }
+    },
+    {
+        "treeId": 71,
+        "name": {
+            "jpn": "金獅子派生",
+            "eng": "Rajang Tree",
+            "fre": "Rajang",
+            "spa": "Árbol de Rajang",
+            "ger": "Rajang-Baum",
+            "ita": "Serie Rajang",
+            "kor": "금사자 파생",
+            "cht": "金獅子衍生",
+            "chs": "金狮子衍生",
+            "rus": "Древо раянга",
+            "pol": "Drzewo Rajanga",
+            "ptb": "Árvore Rajang",
+            "ara": "شجرة راجانغ"
+        }
+    },
+    {
+        "treeId": 72,
+        "name": {
+            "jpn": "煌黒龍派生",
+            "eng": "Alatreon Tree",
+            "fre": "Alatreon",
+            "spa": "Árbol de Alatreon",
+            "ger": "Alatreon-Baum",
+            "ita": "Serie Alatreon",
+            "kor": "황흑룡 파생",
+            "cht": "煌黑龍衍生",
+            "chs": "煌黑龙衍生",
+            "rus": "Древо алатреона",
+            "pol": "Drzewo Alatreona",
+            "ptb": "Árvore Alatreon",
+            "ara": "شجرة ألاتريون"
+        }
+    },
+    {
+        "treeId": 73,
+        "name": {
+            "jpn": "黒狼鳥派生",
+            "eng": "Yian Garuga Tree",
+            "fre": "Yian Garuga",
+            "spa": "Árbol de Yian Garuga",
+            "ger": "Yian-Garuga-Baum",
+            "ita": "Serie Yian Garuga",
+            "kor": "흑랑조 파생",
+            "cht": "黑狼鳥衍生",
+            "chs": "黑狼鸟衍生",
+            "rus": "Древо йан-гаруги",
+            "pol": "Drzewo Yian Garugi",
+            "ptb": "Árvore Yian Garuga",
+            "ara": "شجرة إيان غاروغا"
+        }
+    },
+    {
+        "treeId": 74,
+        "name": {
+            "jpn": "雷狼竜派生",
+            "eng": "Zinogre Tree",
+            "fre": "Zinogre",
+            "spa": "Árbol de Zinogre",
+            "ger": "Zinogre-Baum",
+            "ita": "Serie Zinogre",
+            "kor": "뇌랑룡 파생",
+            "cht": "雷狼龍衍生",
+            "chs": "雷狼龙衍生",
+            "rus": "Древо зиногра",
+            "pol": "Drzewo Zinogra",
+            "ptb": "Árvore Zinogre",
+            "ara": "شجرة زينغر"
+        }
+    },
+    {
+        "treeId": 75,
+        "name": {
+            "jpn": "氷牙竜派生",
+            "eng": "Barioth Tree",
+            "fre": "Barioth",
+            "spa": "Árbol de Barioth",
+            "ger": "Barioth-Baum",
+            "ita": "Serie Barioth",
+            "kor": "빙아룡 파생",
+            "cht": "冰牙龍衍生",
+            "chs": "冰牙龙衍生",
+            "rus": "Древо бариота",
+            "pol": "Drzewo Bariotha",
+            "ptb": "Árvore Barioth",
+            "ara": "شجرة باريوث"
+        }
+    },
+    {
+        "treeId": 76,
+        "name": {
+            "jpn": "硫斬竜派生",
+            "eng": "Acidic Glavenus Tree",
+            "fre": "Glavenus acide",
+            "spa": "Árbol de Glavenus Acídico",
+            "ger": "Säure-Glavenus-Baum",
+            "ita": "Serie Glavenus caustico",
+            "kor": "류참룡 파생",
+            "cht": "硫斬龍衍生",
+            "chs": "硫斩龙衍生",
+            "rus": "Древо кислотн. главенуса",
+            "pol": "Drzewo Kwas. Glavenusa",
+            "ptb": "Árvore Glavenus Ácido",
+            "ara": "شجرة غلافنيوس الحمضي"
+        }
+    },
+    {
+        "treeId": 77,
+        "name": {
+            "jpn": "飛毒竜派生",
+            "eng": "Viper Kadachi Tree",
+            "fre": "Tobi-Kadachi vipère",
+            "spa": "Árbol de Kadachi Vípero",
+            "ger": "Viper-Tobi-Kadachi-Baum",
+            "ita": "Serie Kadachi vipera",
+            "kor": "비독룡 파생",
+            "cht": "痺毒龍衍生",
+            "chs": "痹毒龙衍生",
+            "rus": "Древо аспидового кадачи",
+            "pol": "Drzewo Żmijowego Kadachi",
+            "ptb": "Árvore Kadachi Vípero",
+            "ara": "شجرة كاداتشي ثعباني"
+        }
+    },
+    {
+        "treeId": 78,
+        "name": {
+            "jpn": "溟龍派生",
+            "eng": "Namielle Tree",
+            "fre": "Namielle",
+            "spa": "Árbol de Namielle",
+            "ger": "Namielle-Baum",
+            "ita": "Serie Namielle",
+            "kor": "명룡 파생",
+            "cht": "溟波龍衍生",
+            "chs": "溟波龙衍生",
+            "rus": "Древо намиэля",
+            "pol": "Drzewo Namiella",
+            "ptb": "Árvore Namielle",
+            "ara": "شجرة ناميال"
+        }
+    },
+    {
+        "treeId": 79,
+        "name": {
+            "jpn": "凍魚竜派生",
+            "eng": "Beotodus Tree",
+            "fre": "Beotodus",
+            "spa": "Árbol de Beotodus",
+            "ger": "Beotodus-Baum",
+            "ita": "Serie Beotodus",
+            "kor": "동어룡 파생",
+            "cht": "冰魚龍衍生",
+            "chs": "冰鱼龙衍生",
+            "rus": "Древо беотода",
+            "pol": "Drzewo Beotodusa",
+            "ptb": "Árvore Beotodus",
+            "ara": "شجرة بيوتودس"
+        }
+    },
+    {
+        "treeId": 80,
+        "name": {
+            "jpn": "兇爪竜派生",
+            "eng": "Ebony Odogaron Tree",
+            "fre": "Odogaron désastre",
+            "spa": "Árbol de Odogaron Ébano",
+            "ger": "Vulkan-Odogaron-Baum",
+            "ita": "Serie Odogaron d'ebano",
+            "kor": "흉조룡 파생",
+            "cht": "兇爪龍衍生",
+            "chs": "凶爪龙衍生",
+            "rus": "Древо эбен. одогарона",
+            "pol": "Drzewo Heb. Odogarona",
+            "ptb": "Árvore Odogaron Negro",
+            "ara": "شجرة أودوغارون أسمر"
+        }
+    },
+    {
+        "treeId": 81,
+        "name": {
+            "jpn": "黒轟竜派生",
+            "eng": "Brute Tigrex Tree",
+            "fre": "Tigrex berserk",
+            "spa": "Árbol de Tigrex Pardo",
+            "ger": "Brachial-Tigrex-Baum",
+            "ita": "Serie Tigrex brutale",
+            "kor": "흑굉룡 파생",
+            "cht": "黑轟龍衍生",
+            "chs": "黑轰龙衍生",
+            "rus": "Древо свирепого тигрекса",
+            "pol": "Drzewo Zwalistego Tigrexa",
+            "ptb": "Árvore Tigrex Bruto",
+            "ara": "شجرة تغريكس غاشم"
+        }
+    },
+    {
+        "treeId": 82,
+        "name": {
+            "jpn": "工房武器派生",
+            "eng": "Workshop Weapon Tree",
+            "fre": "Atelier",
+            "spa": "Árbol de armas de la forja",
+            "ger": "Werkstatt-Waffenbaum",
+            "ita": "Serie armeria",
+            "kor": "공방무기 파생",
+            "cht": "工房武器衍生",
+            "chs": "工房武器衍生",
+            "rus": "Древо мастерской",
+            "pol": "Drzewo oręża z warsztatu",
+            "ptb": "Árvore Arma Oficina",
+            "ara": "شجرة ورشة الأسلحة"
+        }
+    },
+    {
+        "treeId": 83,
+        "name": {
+            "jpn": "工房武器派生",
+            "eng": "Workshop Weapon Tree",
+            "fre": "Atelier",
+            "spa": "Árbol de armas de la forja",
+            "ger": "Werkstatt-Waffenbaum",
+            "ita": "Serie armeria",
+            "kor": "공방무기 파생",
+            "cht": "工房武器衍生",
+            "chs": "工房武器衍生",
+            "rus": "Древо мастерской",
+            "pol": "Drzewo oręża z warsztatu",
+            "ptb": "Árvore Arma Oficina",
+            "ara": "شجرة ورشة الأسلحة"
+        }
+    },
+    {
+        "treeId": 84,
+        "name": {
+            "jpn": "ギルドパレス派生",
+            "eng": "Guild Palace Tree",
+            "fre": "Palais de la Guilde",
+            "spa": "Árbol palacio gremial",
+            "ger": "Palast-Baum",
+            "ita": "Serie Palatium",
+            "kor": "길드팰리스 파생",
+            "cht": "公會宮殿衍生",
+            "chs": "公会宫殿衍生",
+            "rus": "Дерево дворца гильдии",
+            "pol": "Drzewo pałacu Gildii",
+            "ptb": "Árvore Palácio da Guilda",
+            "ara": "شجرة قصر النقابة"
+        }
+    },
+    {
+        "treeId": 85,
+        "name": {
+            "jpn": "金獅子派生改",
+            "eng": "Furious Rajang Tree",
+            "fre": "Rajang orage",
+            "spa": "Árbol de Rajang Rabioso",
+            "ger": "Zorniger-Rajang-Baum",
+            "ita": "Serie Rajang furioso",
+            "kor": "금사자 파생+",
+            "cht": "激昂金獅子衍生改",
+            "chs": "激昂金狮子衍生改",
+            "rus": "Древо взбешенного раянга",
+            "pol": "Drzewo Wściek. Rajanga",
+            "ptb": "Árvore Rajang Furioso",
+            "ara": "شجرة راجانغ الغاضب"
+        }
+    },
+    {
+        "treeId": 86,
+        "name": {
+            "jpn": "砕竜派生改",
+            "eng": "Raging Brachydios Tree",
+            "fre": "Brachydios tempête",
+            "spa": "Árbol de Brachydios Colérico",
+            "ger": "Wütiger-Brachydios-Baum",
+            "ita": "Serie Brachydios rabbioso",
+            "kor": "쇄룡 파생+",
+            "cht": "猛爆碎龍衍生改",
+            "chs": "猛爆碎龙衍生改",
+            "rus": "Древо неистового брахидиоса",
+            "pol": "Drzewo Roz. Brachyd.",
+            "ptb": "Árvore Brachydios Colérico",
+            "ara": "شجرة براكيديوس الحانق"
+        }
+    },
+    {
+        "treeId": 88,
+        "name": {
+            "jpn": "氷牙竜派生改",
+            "eng": "Frostfang Barioth",
+            "fre": "Barioth crocgivre",
+            "spa": "Barioth Cynodon",
+            "ger": "Frosthauer-Barioth",
+            "ita": "Barioth assiderato",
+            "kor": "빙아룡 파생+",
+            "cht": "霜刃冰牙龍衍生改",
+            "chs": "霜刃冰牙龙衍生改",
+            "rus": "Ледозубый бариот",
+            "pol": "Barioth Mrozokieł",
+            "ptb": "Barioth Presagélida",
+            "ara": "باريوث أنياب الصقيع"
+        }
+    },
+    {
+        "treeId": 92,
+        "name": {
+            "jpn": "蒼世派生",
+            "eng": "Azure Era",
+            "fre": "Ère d'azur",
+            "spa": "Era Celeste",
+            "ger": "Azurära-Baum",
+            "ita": "Era azzurra",
+            "kor": "푸른빛 파생",
+            "cht": "蒼世衍生",
+            "chs": "苍世衍生",
+            "rus": "Лазурная эра",
+            "pol": "Epoka lazuru",
+            "ptb": "Era Lazúli",
+            "ara": "عصر اللازورد"
+        }
     }
 ]
