@@ -9,7 +9,7 @@ namespace MHWMasterDataUtils.Weapons
     public class BowBottleTablePackageProcessor : ListPackageProcessorBase<BowBottleTableEntryPrimitive>
     {
         public BowBottleTablePackageProcessor()
-            : base(0x01A6, BowBottleTableEntryPrimitive.Read)
+            : base(new ushort[] { 0x021D }, BowBottleTableEntryPrimitive.Read)
         {
         }
 

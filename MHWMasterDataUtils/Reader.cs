@@ -32,6 +32,14 @@ namespace MHWMasterDataUtils
             }
         }
 
+        public long Position
+        {
+            get
+            {
+                return innerReader.BaseStream.Position;
+            }
+        }
+
         public byte ReadByte()
         {
             return innerReader.ReadByte();

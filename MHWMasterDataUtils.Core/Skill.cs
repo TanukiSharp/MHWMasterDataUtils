@@ -18,9 +18,9 @@ namespace MHWMasterDataUtils.Core
         [JsonProperty("description")]
         public Dictionary<string, string> Description { get; set; }
         [JsonProperty("params")]
-        public int[] Parameters { get; set; }
+        public IReadOnlyCollection<short> Parameters { get; set; }
 
-        public static Ability CreateRegularSkill(int level, Dictionary<string, string> description, int[] parameters)
+        public static Ability CreateRegularSkill(int level, Dictionary<string, string> description, IReadOnlyCollection<short> parameters)
         {
             return new Ability
             {
@@ -32,7 +32,7 @@ namespace MHWMasterDataUtils.Core
             };
         }
 
-        public static Ability CreateSetSkill(int requiredParts, Dictionary<string, string> name, Dictionary<string, string> description, int[] parameters)
+        public static Ability CreateSetSkill(int requiredParts, Dictionary<string, string> name, Dictionary<string, string> description, IReadOnlyCollection<short> parameters)
         {
             return new Ability
             {

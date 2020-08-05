@@ -7,7 +7,7 @@ namespace MHWMasterDataUtils.Weapons
     public class GunlanceShellPackageProcessor : MapPackageProcessorBase<ushort, GunlanceShellPrimitive>
     {
         public GunlanceShellPackageProcessor()
-            : base(0x0177, GunlanceShellPrimitive.Read, x => x.Id)
+            : base(new ushort[] { 0x01C2 }, GunlanceShellPrimitive.Read, x => x.Id)
         {
         }
 

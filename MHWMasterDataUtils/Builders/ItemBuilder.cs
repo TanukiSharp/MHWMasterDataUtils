@@ -31,8 +31,9 @@ namespace MHWMasterDataUtils.Builders
             return new T();
         }
 
-        protected virtual void UpdateItem(T item)
+        protected virtual bool UpdateItem(T item)
         {
+            return true;
         }
 
         private static readonly LanguageUtils.LanguageValueProcessor[] languageValueProcessors = new[]
@@ -70,9 +71,8 @@ namespace MHWMasterDataUtils.Builders
                 item.BuyPrice = itemEntry.BuyPrice;
                 item.SellPrice = itemEntry.SellPrice;
 
-                UpdateItem(item);
-
-                result.Add(item);
+                if (UpdateItem(item))
+                    result.Add(item);
             }
 
             return result.ToArray();

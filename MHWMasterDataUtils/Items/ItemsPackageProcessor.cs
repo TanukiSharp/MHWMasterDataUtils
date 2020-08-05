@@ -14,7 +14,7 @@ namespace MHWMasterDataUtils.Items
         }
 
         public ItemsPackageProcessor()
-            : base(0x00AE, ItemEntryPrimitive.Read, x => x.Id)
+            : base(new ushort[] { 0x00BE }, new ushort[] { 0x00BD }, ItemEntryPrimitive.Read, x => x.Id)
         {
         }
     }

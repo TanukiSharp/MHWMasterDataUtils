@@ -12,8 +12,8 @@ namespace MHWMasterDataUtils.Weapons
     {
         public readonly Dictionary<WeaponType, Dictionary<uint, WeaponPrimitiveBase>> Table = new Dictionary<WeaponType, Dictionary<uint, WeaponPrimitiveBase>>();
 
-        public const ushort MeleeWeaponHeaderValue = 0x0186;
-        public const ushort RangeWeaponHeaderValue = 0x01B1;
+        public const ushort MeleeWeaponHeaderValue = 0x01C1;
+        public const ushort RangeWeaponHeaderValue = 0x021D;
 
         public static bool IsWeaponInEquipmentPath(string chunkFullFilename)
         {
@@ -55,18 +55,19 @@ namespace MHWMasterDataUtils.Weapons
         {
             WeaponType weaponType = DetermineWeaponType(chunkFullFilename);
 
-            using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
-            {
-                ushort headerValue = reader.ReadUInt16();
-                uint numEntries = reader.ReadUInt32();
+            using var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename);
 
-                if (headerValue == MeleeWeaponHeaderValue)
-                    ProcessMeleeWeapons(reader, numEntries, weaponType);
-                else if (headerValue == RangeWeaponHeaderValue)
-                    ProcessRangeWeapons(reader, numEntries, weaponType);
-                else
-                    throw new FormatException($"Invalid header in file '{reader.Filename ?? "<unknown>"}'. Expected {MeleeWeaponHeaderValue:x4} (melee) or {RangeWeaponHeaderValue:x4} (range), read {headerValue:x4}.");
-            }
+            PackageUtility.ReadAndAssertIceborneHeader(reader);
+
+            ushort headerValue = reader.ReadUInt16();
+            uint numEntries = reader.ReadUInt32();
+
+            if (headerValue == MeleeWeaponHeaderValue)
+                ProcessMeleeWeapons(reader, numEntries, weaponType);
+            else if (headerValue == RangeWeaponHeaderValue)
+                ProcessRangeWeapons(reader, numEntries, weaponType);
+            else
+                throw new FormatException($"Invalid header in file '{reader.Filename ?? "<unknown>"}'. Expected 0x{MeleeWeaponHeaderValue:X04} (melee) or 0x{RangeWeaponHeaderValue:X04} (range), read 0x{headerValue:X04}.");
         }
 
         private Dictionary<uint, WeaponPrimitiveBase> GetOrAddWeaponMap(WeaponType weaponType)

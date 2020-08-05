@@ -7,7 +7,7 @@ namespace MHWMasterDataUtils.Equipment
 {
     public class EquipmentPrimitive : IComparable<EquipmentPrimitive>
     {
-        public readonly ushort Id;
+        public readonly uint Id;
         public readonly ushort Order;
         public readonly ArmorVariantPrimitive Variant;
         public readonly ushort SetId;
@@ -46,7 +46,7 @@ namespace MHWMasterDataUtils.Equipment
         public readonly PermanentPrimitive IsPermanent;
 
         private EquipmentPrimitive(
-            ushort id,
+            uint id,
             ushort order,
             ArmorVariantPrimitive variant,
             ushort setId,
@@ -124,10 +124,14 @@ namespace MHWMasterDataUtils.Equipment
             IsPermanent = isPermanent;
         }
 
+        public override string ToString()
+        {
+            return $"Id: {Id}, Cost: {CraftingCost}";
+        }
+
         public static EquipmentPrimitive Read(Reader reader)
         {
-            ushort id = reader.ReadUInt16();
-            reader.Offset(2); // Skip unk1 and unk2.
+            uint id = reader.ReadUInt32();
             ushort order = reader.ReadUInt16();
             var variant = (ArmorVariantPrimitive)reader.ReadByte();
             ushort setId = reader.ReadUInt16();

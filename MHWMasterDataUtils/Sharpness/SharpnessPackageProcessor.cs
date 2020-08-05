@@ -9,8 +9,9 @@ namespace MHWMasterDataUtils.Sharpness
 {
     public class SharpnessPackageProcessor : PackageProcessorBase
     {
-        public const ushort HeaderValue = 0x0177;
         public Dictionary<uint, SharpnessInfo> Table { get; } = new Dictionary<uint, SharpnessInfo>();
+
+        private static readonly ushort[] headerValues = new ushort[] { 0x01C1 };
 
         private const int Red = 0;
         private const int Orange = 1;
@@ -33,10 +34,8 @@ namespace MHWMasterDataUtils.Sharpness
 
         private uint ReadHeader(Reader reader)
         {
-            ushort headerValue = reader.ReadUInt16();
-
-            if (headerValue != HeaderValue)
-                throw new FormatException($"Invalid header in file '{reader.Filename ?? "<unknown>"}'. Expected {HeaderValue:x4}, read {headerValue:x4}.");
+            PackageUtility.ReadAndAssertIceborneHeader(reader);
+            PackageUtility.ReadAndAssertTwoBytesHeader(headerValues, reader);
 
             return reader.ReadUInt32();
         }
@@ -73,15 +72,14 @@ namespace MHWMasterDataUtils.Sharpness
         {
             ushort[] sharpnessValues = new ushort[7];
 
-            using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
-            {
-                uint numEntries = ReadHeader(reader);
+            using var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename);
 
-                for (uint i = 0; i < numEntries; i++)
-                {
-                    uint id = ReadValues(reader, sharpnessValues);
-                    TryAddSharpnessValues(id, sharpnessValues);
-                }
+            uint numEntries = ReadHeader(reader);
+
+            for (uint i = 0; i < numEntries; i++)
+            {
+                uint id = ReadValues(reader, sharpnessValues);
+                TryAddSharpnessValues(id, sharpnessValues);
             }
         }
     }

@@ -30,8 +30,9 @@ namespace MHWMasterDataUtils.Exporter
 
             counter++;
 
-            using (Stream fs = File.OpenWrite(filename))
-                stream.CopyTo(fs);
+            using Stream fs = File.OpenWrite(filename);
+            
+            stream.CopyTo(fs);
         }
     }
 }

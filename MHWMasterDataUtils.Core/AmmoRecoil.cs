@@ -6,6 +6,7 @@ namespace MHWMasterDataUtils.Core
 {
     public enum AmmoShotType
     {
+        Unknown,
         NormalRecoil1,
         NormalRecoil2,
         NormalRecoil3,

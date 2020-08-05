@@ -91,6 +91,7 @@ namespace MHWMasterDataUtils.Weapons
             ushort baseModelId = reader.ReadUInt16();
             ushort part1Id = reader.ReadUInt16();
             ushort part2Id = reader.ReadUInt16();
+            reader.Offset(1); // Skip unknown1.
             byte color = reader.ReadByte();
             byte treeId = reader.ReadByte();
             var isFixedUpgrade = (FixedUpgradePrimitive)reader.ReadByte();
@@ -112,13 +113,13 @@ namespace MHWMasterDataUtils.Weapons
             byte gemSlot3 = reader.ReadByte();
             ushort weapon1Id = reader.ReadUInt16();
             ushort weapon2Id = reader.ReadUInt16();
-            reader.Offset(12); // Skip unknown3, unknown4 and unknown5.
+            reader.Offset(12); // Skip unknown2, unknown3 and unknown4.
             byte treePosition = reader.ReadByte();
             ushort sortOrder = reader.ReadUInt16();
             ushort gmdNameIndex = reader.ReadUInt16();
             ushort gmdDescriptionIndex = reader.ReadUInt16();
             ushort skillId = reader.ReadUInt16();
-            reader.Offset(2); // Skip unknown6.
+            reader.Offset(2); // Skip unknown5.
 
             return new MeleeWeaponPrimitiveBase(
                 weaponType,

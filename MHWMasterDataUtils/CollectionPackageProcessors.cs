@@ -8,14 +8,14 @@ namespace MHWMasterDataUtils
 {
     public abstract class ListPackageProcessorBase<TValue> : PackageProcessorBase
     {
-        public ushort HeaderValue { get; }
         public List<TValue> List { get; } = new List<TValue>();
 
+        private readonly ushort[] headerValues;
         private readonly Func<Reader, TValue> entryReader;
 
-        protected ListPackageProcessorBase(ushort headerValue, Func<Reader, TValue> entryReader)
+        protected ListPackageProcessorBase(ushort[] headerValues, Func<Reader, TValue> entryReader)
         {
-            HeaderValue = headerValue;
+            this.headerValues = headerValues;
 
             this.entryReader = entryReader;
         }
@@ -28,40 +28,44 @@ namespace MHWMasterDataUtils
 
         private uint ReadHeader(Reader reader)
         {
-            ushort headerValue = reader.ReadUInt16();
-
-            if (headerValue != HeaderValue)
-                throw new FormatException($"Invalid header in file '{reader.Filename ?? "<unknown>"}'. Expected {HeaderValue:x4}, read {headerValue:x4}.");
+            PackageUtility.ReadAndAssertIceborneHeader(reader);
+            PackageUtility.ReadAndAssertTwoBytesHeader(headerValues, reader);
 
             return reader.ReadUInt32();
         }
 
         public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
-            using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
-            {
-                uint numEntries = ReadHeader(reader);
+            using var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename);
 
-                for (uint i = 0; i < numEntries; i++)
-                {
-                    TValue entry = entryReader(reader);
-                    List.Add(entry);
-                }
+            uint numEntries = ReadHeader(reader);
+
+            for (uint i = 0; i < numEntries; i++)
+            {
+                TValue entry = entryReader(reader);
+                List.Add(entry);
             }
         }
     }
 
     public abstract class MapPackageProcessorBase<TKey, TValue> : PackageProcessorBase
     {
-        public ushort HeaderValue { get; }
         public Dictionary<TKey, TValue> Table { get; } = new Dictionary<TKey, TValue>();
 
+        private readonly ushort[] allowedHeaderValues;
+        private readonly ushort[] ignoredHeaderValues;
         private readonly Func<Reader, TValue> entryReader;
         private readonly Func<TValue, TKey> keySelector;
 
-        protected MapPackageProcessorBase(ushort headerValue, Func<Reader, TValue> entryReader, Func<TValue, TKey> keySelector)
+        protected MapPackageProcessorBase(ushort[] allowedHeaderValues, Func<Reader, TValue> entryReader, Func<TValue, TKey> keySelector)
+            : this(allowedHeaderValues, null, entryReader, keySelector)
         {
-            HeaderValue = headerValue;
+        }
+
+        protected MapPackageProcessorBase(ushort[] allowedHeaderValues, ushort[] ignoredHeaderValues, Func<Reader, TValue> entryReader, Func<TValue, TKey> keySelector)
+        {
+            this.allowedHeaderValues = allowedHeaderValues;
+            this.ignoredHeaderValues = ignoredHeaderValues;
 
             this.entryReader = entryReader;
             this.keySelector = keySelector;
@@ -75,28 +79,27 @@ namespace MHWMasterDataUtils
 
         private uint ReadHeader(Reader reader)
         {
-            ushort headerValue = reader.ReadUInt16();
+            PackageUtility.ReadAndAssertIceborneHeader(reader);
+            PackageUtility.ReadAndAssertTwoBytesHeader(allowedHeaderValues, ignoredHeaderValues, reader);
 
-            if (headerValue != HeaderValue)
-                throw new FormatException($"Invalid header in file '{reader.Filename ?? "<unknown>"}'. Expected {HeaderValue:x4}, read {headerValue:x4}.");
-
-            return reader.ReadUInt32();
+            return reader.ReadUInt16();
         }
 
         public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
-            using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
+            using var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename);
+
+            uint numEntries = ReadHeader(reader);
+
+            reader.Offset(2);
+
+            for (uint i = 0; i < numEntries; i++)
             {
-                uint numEntries = ReadHeader(reader);
+                TValue entry = entryReader(reader);
+                TKey key = keySelector(entry);
 
-                for (uint i = 0; i < numEntries; i++)
-                {
-                    TValue entry = entryReader(reader);
-                    TKey key = keySelector(entry);
-
-                    if (Table.ContainsKey(key) == false)
-                        Table.Add(key, entry);
-                }
+                if (Table.ContainsKey(key) == false)
+                    Table.Add(key, entry);
             }
         }
     }

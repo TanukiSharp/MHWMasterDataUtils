@@ -16,7 +16,7 @@ namespace MHWMasterDataUtils.Languages
         public readonly uint NameSize;
         public readonly string Name; // char name[name_size + 1]; // null byte terminated string
 
-        private const uint expectedHeaderValue = 0x00444d47;
+        private const uint expectedHeaderValue = 0x00444D47;
 
         private LanguageHeaderPrimitive(
             uint headerValue,

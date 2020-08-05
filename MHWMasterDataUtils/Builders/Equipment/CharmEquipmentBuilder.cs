@@ -10,7 +10,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
 {
     public class CharmEquipmentBuilder : EquipmentBuilderBase<Charm>
     {
-        private readonly Dictionary<ushort, EquipmentUpgradeEntryPrimitive> equipmentUpgrades;
+        private readonly Dictionary<uint, EquipmentUpgradeEntryPrimitive> equipmentUpgrades;
 
         public CharmEquipmentBuilder(
             EquipmentPackageProcessor equipments,

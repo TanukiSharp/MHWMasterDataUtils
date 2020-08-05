@@ -97,7 +97,29 @@ namespace MHWMasterDataUtils
             foreach (IPackageProcessor packageFileProcessor in matchingPackageProcessors)
             {
                 cachedSubStream.Initialize(reader.BaseStream, childEntry.FileOffset, childEntry.FileSize);
-                packageFileProcessor.ProcessChunkFile(cachedSubStream, childEntry.ChunkFullFilename);
+
+                Stream workStream = cachedSubStream;
+
+                if (packageFileProcessor.Crypto != null)
+                {
+                    byte[] buffer = new byte[workStream.Length];
+
+                    workStream.Read(buffer);
+
+                    var blowfish = new MHWCrypto.Blowfish(packageFileProcessor.Crypto.Key);
+                    blowfish.Decrypt(buffer);
+
+                    workStream = new MemoryStream(buffer);
+                }
+
+                try
+                {
+                    packageFileProcessor.ProcessChunkFile(workStream, childEntry.ChunkFullFilename);
+                }
+                catch (SkipException ex)
+                {
+                    logger.LogInformation($"Skipped '{(reader.BaseStream is FileStream fs ? fs.Name : "<unknown>")}' => '{childEntry.ChunkFullFilename}' [{ex.Message}] ");
+                }
             }
         }
 
@@ -111,7 +133,7 @@ namespace MHWMasterDataUtils
         {
             reader.BaseStream.Seek(0x0C, SeekOrigin.Begin);
             int totalParentCount = reader.ReadInt32();
-            reader.BaseStream.Seek(0x100, SeekOrigin.Begin);
+            reader.BaseStream.Seek(0x0100, SeekOrigin.Begin);
 
             return totalParentCount;
         }
@@ -135,7 +157,7 @@ namespace MHWMasterDataUtils
 
         private void ProcessChildEntry()
         {
-            PackageChildEntry childEntry = PackageChildEntry.Read(reader);
+            var childEntry = PackageChildEntry.Read(reader);
 
             if (childEntry.EntryType == 1) // Folder
                 return;
@@ -155,7 +177,7 @@ namespace MHWMasterDataUtils
 
         private void ProcessParentEntry()
         {
-            PackageParentEntry parentEntry = PackageParentEntry.Read(reader);
+            var parentEntry = PackageParentEntry.Read(reader);
 
             for (int j = 0; j < parentEntry.ChildCount; j++)
                 ProcessChildEntry();
@@ -186,7 +208,7 @@ namespace MHWMasterDataUtils
 
         public void Run(string packagesFullPath)
         {
-            IEnumerable<string> packageFilenames = Directory.GetFiles(packagesFullPath, "chunk*.pkg", SearchOption.TopDirectoryOnly)
+            IEnumerable<string> packageFilenames = Directory.GetFiles(packagesFullPath, "chunkG*.pkg", SearchOption.TopDirectoryOnly)
                 .Select(x => new { OriginalFilename = x, Index = PackageUtility.GetChunkFileIndex(x) })
                 .Where(x => x.Index >= 0)
                 .OrderByDescending(x => x.Index)

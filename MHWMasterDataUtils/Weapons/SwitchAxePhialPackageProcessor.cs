@@ -7,7 +7,7 @@ namespace MHWMasterDataUtils.Weapons
     public class SwitchAxePhialPackageProcessor : MapPackageProcessorBase<ushort, SwitchAxePhialPrimitive>
     {
         public SwitchAxePhialPackageProcessor()
-            : base(0x0177, SwitchAxePhialPrimitive.Read, x => x.Id)
+            : base(new ushort[] { 0x01C1 }, SwitchAxePhialPrimitive.Read, x => x.Id)
         {
         }
 

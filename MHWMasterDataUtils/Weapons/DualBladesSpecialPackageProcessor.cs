@@ -7,7 +7,7 @@ namespace MHWMasterDataUtils.Weapons
     public class DualBladesSpecialPackageProcessor : MapPackageProcessorBase<ushort, DualBladesSpecialPrimitive>
     {
         public DualBladesSpecialPackageProcessor()
-            : base(0x0177, DualBladesSpecialPrimitive.Read, x => x.Id)
+            : base(new ushort[] { 0x01C1 }, DualBladesSpecialPrimitive.Read, x => x.Id)
         {
         }
 

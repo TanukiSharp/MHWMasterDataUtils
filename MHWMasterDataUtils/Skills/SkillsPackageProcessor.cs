@@ -7,7 +7,7 @@ namespace MHWMasterDataUtils.Skills
     public class SkillsPackageProcessor : ListPackageProcessorBase<SkillPrimitive>
     {
         public SkillsPackageProcessor()
-            : base(0x005e, SkillPrimitive.Read)
+            : base(new ushort[] { 0x005E }, SkillPrimitive.Read)
         {
         }
 

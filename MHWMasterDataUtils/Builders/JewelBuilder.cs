@@ -26,11 +26,13 @@ namespace MHWMasterDataUtils.Builders
             this.jewels = jewels;
         }
 
-        protected override void UpdateItem(Jewel item)
+        protected override bool UpdateItem(Jewel item)
         {
-            base.UpdateItem(item);
+            if (base.UpdateItem(item) == false)
+                return false;
 
-            JewelPrimitive jewel = jewels.Table[item.Id];
+            if (jewels.Table.TryGetValue(item.Id, out JewelPrimitive jewel) == false)
+                return false;
 
             item.EquipmentId = jewel.EquipmentId;
 
@@ -46,6 +48,8 @@ namespace MHWMasterDataUtils.Builders
 
                 item.Skills = skills.ToArray();
             }
+
+            return true;
         }
     }
 }

@@ -50,7 +50,7 @@ namespace MHWMasterDataUtils.Exporter
 
             var equipmentUpgrades = new EquipmentUpgradePackageProcessor("/common/equip/equip_custom.eq_cus");
             var insectUpgrades = new EquipmentUpgradePackageProcessor("/common/equip/insect.eq_cus");
-            var insectElemntUpgrades = new EquipmentUpgradePackageProcessor("/common/equip/insect_element.eq_cus");
+            var insectElementUpgrades = new EquipmentUpgradePackageProcessor("/common/equip/insect_element.eq_cus");
             var weaponUpgrades = new EquipmentUpgradePackageProcessor("/common/equip/weapon.eq_cus");
 
             var jewels = new JewelPackageProcessor();
@@ -102,7 +102,7 @@ namespace MHWMasterDataUtils.Exporter
                 //DEBUG,
                 equipmentUpgrades,
                 insectUpgrades,
-                insectElemntUpgrades,
+                insectElementUpgrades,
                 weaponUpgrades,
                 jewels,
                 items,
@@ -145,8 +145,9 @@ namespace MHWMasterDataUtils.Exporter
 
             string packagesFullPath = PackageUtility.GetPackagesFullPath();
 
-            using (var packageReader = new PackageReader(logger, fileProcessors))
-                packageReader.Run(packagesFullPath);
+            using var packageReader = new PackageReader(logger, fileProcessors);
+
+            packageReader.Run(packagesFullPath);
 
             WeaponTreeName[] weaponTrees = new WeaponTreeNameBuilder(weaponSeriesLanguages, weapons).Build();
             SerializeJson("weapon-trees", weaponTrees);
@@ -376,26 +377,28 @@ namespace MHWMasterDataUtils.Exporter
 
         private static void SerializeJson(string filename, object instance)
         {
-            using (var sw = new StringWriter())
+            using var sw = new StringWriter
             {
-                sw.NewLine = "\n";
+                NewLine = "\n"
+            };
 
-                using (var jw = new JsonTextWriter(sw))
-                {
-                    jw.Formatting = Formatting.Indented;
-                    jw.IndentChar = ' ';
-                    jw.Indentation = 4;
+            using var jw = new JsonTextWriter(sw)
+            {
+                Formatting = Formatting.Indented,
+                IndentChar = ' ',
+                Indentation = 4
+            };
 
-                    var serializer = new JsonSerializer
-                    {
-                        NullValueHandling = NullValueHandling.Ignore
-                    };
+            var serializer = new JsonSerializer
+            {
+                NullValueHandling = NullValueHandling.Ignore
+            };
 
-                    serializer.Serialize(jw, instance);
+            serializer.Serialize(jw, instance);
 
-                    File.WriteAllText(Path.Combine(dataOutputFullPath, $"{filename}.json"), sw.ToString());
-                }
-            }
+            sw.Write('\n');
+
+            File.WriteAllText(Path.Combine(dataOutputFullPath, $"{filename}.json"), sw.ToString());
         }
     }
 }

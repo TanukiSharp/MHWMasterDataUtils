@@ -15,7 +15,8 @@ namespace MHWMasterDataUtils.Items
         public readonly ushort SortOrder;
         public readonly ItemFlagsPrimitive Flags;
         public readonly uint IconId;
-        public readonly ushort IconColor;
+        public readonly byte IconColor;
+        public readonly byte CarryItem;
         public readonly uint SellPrice;
         public readonly uint BuyPrice;
 
@@ -29,7 +30,8 @@ namespace MHWMasterDataUtils.Items
             ushort sortOrder,
             ItemFlagsPrimitive flags,
             uint iconId,
-            ushort iconColor,
+            byte iconColor,
+            byte carryItem,
             uint sellPrice,
             uint buyPrice
         )
@@ -44,6 +46,7 @@ namespace MHWMasterDataUtils.Items
             Flags = flags;
             IconId = iconId;
             IconColor = iconColor;
+            CarryItem = carryItem;
             SellPrice = sellPrice;
             BuyPrice = buyPrice;
         }
@@ -59,7 +62,8 @@ namespace MHWMasterDataUtils.Items
             ushort sortOrder = reader.ReadUInt16();
             var flags = (ItemFlagsPrimitive)reader.ReadUInt32();
             uint iconId = reader.ReadUInt32();
-            ushort iconColor = reader.ReadUInt16();
+            byte iconColor = reader.ReadByte();
+            byte carryItem = reader.ReadByte();
             uint sellPrice = reader.ReadUInt32();
             uint buyPrice = reader.ReadUInt32();
 
@@ -74,6 +78,7 @@ namespace MHWMasterDataUtils.Items
                 flags,
                 iconId,
                 iconColor,
+                carryItem,
                 sellPrice,
                 buyPrice
             );

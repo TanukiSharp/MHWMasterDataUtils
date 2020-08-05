@@ -8,6 +8,8 @@ namespace MHWMasterDataUtils
 {
     public abstract class PackageProcessorBase : IPackageProcessor
     {
+        public virtual ICryptoInfo Crypto { get; } = null;
+
         public virtual void PreProcess()
         {
         }

@@ -58,29 +58,28 @@ namespace MHWMasterDataUtils.Languages
 
         public override void ProcessChunkFile(Stream stream, string chunkFullFilename)
         {
-            using (var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename))
+            using var reader = new Reader(new BinaryReader(stream, Encoding.UTF8, true), chunkFullFilename);
+
+            var header = LanguageHeaderPrimitive.Read(reader);
+
+            LanguageInfoEntryPrimitive[] infoEntries = ReadInfoEntries(reader, header);
+
+            // Skip buckets.
+            reader.Offset(8 * 256);
+
+            byte[] keyBlock = reader.ReadBytes((int)header.KeyBlockSize);
+            byte[] stringBlock = reader.ReadBytes((int)header.StringBlockSize);
+
+            List<string> values = ParseStringBlock(stringBlock);
+
+            foreach (LanguageInfoEntryPrimitive infoEntry in infoEntries)
             {
-                LanguageHeaderPrimitive header = LanguageHeaderPrimitive.Read(reader);
+                int index = (int)infoEntry.KeyOffset;
 
-                LanguageInfoEntryPrimitive[] infoEntries = ReadInfoEntries(reader, header);
+                string key = NativeUtils.GetNextString(keyBlock, ref index, Encoding.ASCII);
+                string value = values[(int)infoEntry.StringIndex];
 
-                // Skip buckets.
-                reader.Offset(8 * 256);
-
-                byte[] keyBlock = reader.ReadBytes((int)header.KeyBlockSize);
-                byte[] stringBlock = reader.ReadBytes((int)header.StringBlockSize);
-
-                List<string> values = ParseStringBlock(stringBlock);
-
-                foreach (LanguageInfoEntryPrimitive infoEntry in infoEntries)
-                {
-                    int index = (int)infoEntry.KeyOffset;
-
-                    string key = NativeUtils.GetNextString(keyBlock, ref index, Encoding.ASCII);
-                    string value = values[(int)infoEntry.StringIndex];
-
-                    TryAddEntry(header.LanguageId, infoEntry.StringIndex, key, value);
-                }
+                TryAddEntry(header.LanguageId, infoEntry.StringIndex, key, value);
             }
         }
 

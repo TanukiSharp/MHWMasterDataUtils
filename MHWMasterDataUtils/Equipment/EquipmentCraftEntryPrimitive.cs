@@ -56,6 +56,7 @@ namespace MHWMasterDataUtils.Equipment
             ushort keyItem = reader.ReadUInt16();
             reader.Offset(8); // Skipp unknown1 and unknown2.
             uint rank = reader.ReadUInt32();
+            reader.Offset(4); // Skipp unknown3.
             ushort item1Id = reader.ReadUInt16();
             byte item1Quantity = reader.ReadByte();
             ushort item2Id = reader.ReadUInt16();
@@ -64,7 +65,7 @@ namespace MHWMasterDataUtils.Equipment
             byte item3Quantity = reader.ReadByte();
             ushort item4Id = reader.ReadUInt16();
             byte item4Quantity = reader.ReadByte();
-            reader.Offset(4); // Skip unknown3, unknown4, unknown5 and unknown6.
+            reader.Offset(4); // Skip unknown4, unknown5 and unknown6, unknown7.
 
             return new EquipmentCraftEntryPrimitive(
                 equipType,

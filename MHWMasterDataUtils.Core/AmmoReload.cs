@@ -6,6 +6,7 @@ namespace MHWMasterDataUtils.Core
 {
     public enum AmmoReload
     {
+        Unknown,
         Fast,
         Normal,
         Slow,

@@ -100,7 +100,9 @@ namespace MHWMasterDataUtils.Weapons
                     return AmmoShotType.Wyvern;
             }
 
-            throw new FormatException($"Unknown ammo shot type value '{shotType}'");
+            // TODO: Figure out new flags...
+            // throw new FormatException($"Unknown ammo shot type value '{shotType}'");
+            return AmmoShotType.Unknown;
         }
 
         private static AmmoReload FromReloadValue(byte reloadAmount)
@@ -135,7 +137,9 @@ namespace MHWMasterDataUtils.Weapons
                     return AmmoReload.VerySlow;
             }
 
-            throw new FormatException($"Unknown ammo reload value '{reloadAmount}'");
+            // TODO: Figure out new flags...
+            // throw new FormatException($"Unknown ammo reload value '{reloadAmount}'");
+            return AmmoReload.Unknown;
         }
 
         public override string ToString()

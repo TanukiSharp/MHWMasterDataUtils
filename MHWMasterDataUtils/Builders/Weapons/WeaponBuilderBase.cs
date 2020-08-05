@@ -19,7 +19,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
         protected readonly EquipmentCraftPackageProcessor<core.WeaponType> craftPackageProcessor;
 
         protected readonly Dictionary<uint, WeaponPrimitiveBase> weapons;
-        protected readonly Dictionary<ushort, EquipmentUpgradeEntryPrimitive> equipmentUpgrades;
+        protected readonly Dictionary<uint, EquipmentUpgradeEntryPrimitive> equipmentUpgrades;
         protected readonly Dictionary<(core.WeaponType, uint), uint> weaponIndices = new Dictionary<(core.WeaponType, uint), uint>();
 
         protected WeaponBuilderBase(
@@ -216,7 +216,8 @@ namespace MHWMasterDataUtils.Builders.Weapons
                 TryAddCraft(result, upgradeEntry.Item4Id, upgradeEntry.Item4Quantity);
             }
             else
-                throw new FormatException($"Unknown weapon for craft of upgrade (type: {weapon.WeaponType}, id: {weapon.Id})");
+                // Weapons such as Kulve or Safi cannot be crafted, and cannot be upgrade in a standard way.
+                return null;
 
             return new core.Craft
             {
@@ -280,7 +281,7 @@ namespace MHWMasterDataUtils.Builders.Weapons
             CreateUpgradableWeapons(result);
             CreateNonUpgradableWeapons(result);
 
-            result.Sort((a, b) => a.TreeOrder.CompareTo(b.TreeOrder));
+            result.Sort((a, b) => a.SortOrder.CompareTo(b.SortOrder));
 
             return result.ToArray();
         }

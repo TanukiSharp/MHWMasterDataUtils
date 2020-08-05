@@ -39,5 +39,10 @@ namespace MHWMasterDataUtils.Weapons
 
             return new DualBladesSpecialPrimitive(id, element1, element1Damage, element2, element2Damage);
         }
+
+        public override string ToString()
+        {
+            return $"[{Id}] {Element1}: {Element1Damage}, {Element2}: {Element2Damage}";
+        }
     }
 }

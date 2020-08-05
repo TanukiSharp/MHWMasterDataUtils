@@ -8,7 +8,7 @@ namespace MHWMasterDataUtils.Core
     public abstract class EquipmentBase
     {
         [JsonProperty("id")]
-        public int Id { get; set; }
+        public uint Id { get; set; }
         [JsonProperty("order")]
         public int Order { get; set; }
         [JsonProperty("name")]

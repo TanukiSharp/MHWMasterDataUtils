@@ -8,7 +8,7 @@ namespace MHWMasterDataUtils.Weapons
     public class HuntingHornNotesPackageProcessor : MapPackageProcessorBase<uint, HuntingHornNotesPrimitive>
     {
         public HuntingHornNotesPackageProcessor()
-            : base(0x0177, HuntingHornNotesPrimitive.Read, x => x.SongId)
+            : base(new ushort[] { 0x01C1 }, HuntingHornNotesPrimitive.Read, x => x.SongId)
         {
         }
 
@@ -20,8 +20,10 @@ namespace MHWMasterDataUtils.Weapons
 
     public class HuntingHornSongsPackageProcessor : ListPackageProcessorBase<HuntingHornSongPrimitive>
     {
+        public override ICryptoInfo Crypto { get; } = new CryptoInfo("qm7psvaMXQoay7kARXpNPcLNWqsbqcOyI4lqHtxFh26HSuE6RHNq7J4e");
+
         public HuntingHornSongsPackageProcessor()
-            : base(0x0146, HuntingHornSongPrimitive.Read)
+            : base(new ushort[] { 0x0190 }, HuntingHornSongPrimitive.Read)
         {
         }
 

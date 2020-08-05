@@ -119,42 +119,42 @@ namespace MHWMasterDataUtils.Weapons
 
         public static AmmoTableEntryPrimitive Read(Reader reader)
         {
-            AmmoEntryPrimitive normal1 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive normal2 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive normal3 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive pierce1 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive pierce2 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive pierce3 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive spread1 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive spread2 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive spread3 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive cluster1 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive cluster2 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive cluster3 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive wyvern = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive sticky1 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive sticky2 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive sticky3 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive slicing = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive flaming = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive water = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive freeze = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive thunder = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive dragon = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive poison1 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive poison2 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive paralysis1 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive paralysis2 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive sleep1 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive sleep2 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive exhaust1 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive exhaust2 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive recover1 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive recover2 = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive demon = AmmoEntryPrimitive.Read(reader);
-            AmmoEntryPrimitive armor = AmmoEntryPrimitive.Read(reader);
+            var normal1 = AmmoEntryPrimitive.Read(reader);
+            var normal2 = AmmoEntryPrimitive.Read(reader);
+            var normal3 = AmmoEntryPrimitive.Read(reader);
+            var pierce1 = AmmoEntryPrimitive.Read(reader);
+            var pierce2 = AmmoEntryPrimitive.Read(reader);
+            var pierce3 = AmmoEntryPrimitive.Read(reader);
+            var spread1 = AmmoEntryPrimitive.Read(reader);
+            var spread2 = AmmoEntryPrimitive.Read(reader);
+            var spread3 = AmmoEntryPrimitive.Read(reader);
+            var cluster1 = AmmoEntryPrimitive.Read(reader);
+            var cluster2 = AmmoEntryPrimitive.Read(reader);
+            var cluster3 = AmmoEntryPrimitive.Read(reader);
+            var wyvern = AmmoEntryPrimitive.Read(reader);
+            var sticky1 = AmmoEntryPrimitive.Read(reader);
+            var sticky2 = AmmoEntryPrimitive.Read(reader);
+            var sticky3 = AmmoEntryPrimitive.Read(reader);
+            var slicing = AmmoEntryPrimitive.Read(reader);
+            var flaming = AmmoEntryPrimitive.Read(reader);
+            var water = AmmoEntryPrimitive.Read(reader);
+            var freeze = AmmoEntryPrimitive.Read(reader);
+            var thunder = AmmoEntryPrimitive.Read(reader);
+            var dragon = AmmoEntryPrimitive.Read(reader);
+            var poison1 = AmmoEntryPrimitive.Read(reader);
+            var poison2 = AmmoEntryPrimitive.Read(reader);
+            var paralysis1 = AmmoEntryPrimitive.Read(reader);
+            var paralysis2 = AmmoEntryPrimitive.Read(reader);
+            var sleep1 = AmmoEntryPrimitive.Read(reader);
+            var sleep2 = AmmoEntryPrimitive.Read(reader);
+            var exhaust1 = AmmoEntryPrimitive.Read(reader);
+            var exhaust2 = AmmoEntryPrimitive.Read(reader);
+            var recover1 = AmmoEntryPrimitive.Read(reader);
+            var recover2 = AmmoEntryPrimitive.Read(reader);
+            var demon = AmmoEntryPrimitive.Read(reader);
+            var armor = AmmoEntryPrimitive.Read(reader);
             reader.Offset(6); // Skip unknonw1 and unknown2.
-            AmmoEntryPrimitive tranq = AmmoEntryPrimitive.Read(reader);
+            var tranq = AmmoEntryPrimitive.Read(reader);
 
             return new AmmoTableEntryPrimitive(
                 normal1,

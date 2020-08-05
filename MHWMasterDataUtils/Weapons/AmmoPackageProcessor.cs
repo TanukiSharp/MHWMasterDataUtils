@@ -7,7 +7,7 @@ namespace MHWMasterDataUtils.Weapons
     public class AmmoPackageProcessor : ListPackageProcessorBase<AmmoTableEntryPrimitive>
     {
         public AmmoPackageProcessor()
-            : base(0x01A6, AmmoTableEntryPrimitive.Read)
+            : base(new ushort[] { 0x021D }, AmmoTableEntryPrimitive.Read)
         {
         }
 

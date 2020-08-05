@@ -7,7 +7,7 @@ namespace MHWMasterDataUtils.Jewels
     public class JewelPackageProcessor : MapPackageProcessorBase<uint, JewelPrimitive>
     {
         public JewelPackageProcessor()
-            : base(0x00AE, JewelPrimitive.Read, x => x.Id)
+            : base(new ushort[] { 0x00BC }, JewelPrimitive.Read, x => x.Id)
         {
         }
 

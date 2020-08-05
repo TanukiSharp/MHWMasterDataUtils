@@ -83,21 +83,13 @@ namespace MHWMasterDataUtils.Builders
                     Dictionary<string, string> skillAbilityName = LanguageUtils.CreateLocalizations(skillAttributesLanguages.Table, skillAbilityNameIndex);
                     Dictionary<string, string> skillAbilityDescription = LanguageUtils.CreateLocalizations(skillAttributesLanguages.Table, skillAbilityDescriptionIndex, languageValueProcessors);
 
-                    int[] parameters = new int[]
-                    {
-                        skillAbility.Param1,
-                        skillAbility.Param2,
-                        skillAbility.Param3,
-                        skillAbility.Param4
-                    };
-
                     if (isSetBonus)
                     {
                         abilities.Add(core.Ability.CreateSetSkill(
                             skillAbility.Level,
                             skillAbilityName,
                             skillAbilityDescription,
-                            parameters
+                            skillAbility.Params
                         ));
                     }
                     else
@@ -105,7 +97,7 @@ namespace MHWMasterDataUtils.Builders
                         abilities.Add(core.Ability.CreateRegularSkill(
                             skillAbility.Level,
                             skillAbilityDescription,
-                            parameters
+                            skillAbility.Params
                         ));
                     }
                 }
@@ -131,7 +123,7 @@ namespace MHWMasterDataUtils.Builders
                     ability.SkillId = FindSkillIdByName(ability.Name, result);
             }
 
-            return result.ToArray();
+            return result.OrderBy(x => x.Id).ToArray();
         }
     }
 }

@@ -11,16 +11,34 @@ namespace MHWMasterDataUtils.Languages
     {
         public static LanguageIdPrimitive[] Languages { get; } = Enum.GetValues(typeof(LanguageIdPrimitive)).Cast<LanguageIdPrimitive>().ToArray();
 
+        private static readonly string[] InvalidIfEquals = new string[]
+        {
+            "Invalid Message",
+            "Unavailable",
+            "HARDUMMY",
+        };
+
+        private static readonly string[] InvalidIfContains = new string[]
+        {
+            "dummy",
+        };
+
         public static bool IsValidText(string text)
         {
             if (string.IsNullOrWhiteSpace(text))
                 return false;
 
-            if (text == "Invalid Message")
-                return false;
+            foreach (string x in InvalidIfEquals)
+            {
+                if (text == x)
+                    return false;
+            }
 
-            if (text.Contains("dummy"))
-                return false;
+            foreach (string x in InvalidIfContains)
+            {
+                if (text.Contains(x))
+                    return false;
+            }
 
             return true;
         }

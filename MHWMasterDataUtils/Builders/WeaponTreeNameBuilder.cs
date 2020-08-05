@@ -56,7 +56,13 @@ namespace MHWMasterDataUtils.Builders
 
                         string treeName = treeSeriesLanguageItem.Value;
 
-                        if (treeName == "無効" || treeName == string.Empty)
+                        if (LanguageUtils.IsValidText(treeName) == false)
+                        {
+                            isDisabledTree = true;
+                            break;
+                        }
+
+                        if (treeName == "無効" || treeName.Length == 0)
                         {
                             isDisabledTree = true;
                             break;
