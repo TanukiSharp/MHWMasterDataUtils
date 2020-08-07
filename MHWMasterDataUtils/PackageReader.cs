@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.MemoryMappedFiles;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
@@ -189,9 +191,28 @@ namespace MHWMasterDataUtils
                 fileProcessor.PreProcess();
         }
 
+        private Stream GetFileStream(string filename)
+        {
+            try
+            {
+                using var mmf = MemoryMappedFile.CreateFromFile(filename, FileMode.Open);
+                return mmf.CreateViewStream();
+            }
+            catch (SecurityException ex)
+            {
+                Console.WriteLine($"Insufficient access right to create memory mapped file: {ex.Message}");
+                Console.WriteLine("Fallback to slow disk access.");
+
+                // Fallback on slow path.
+                return File.OpenRead(filename);
+            }
+        }
+
         private void ProcessPackageFile(string packageFullFilename)
         {
-            using (reader = new BinaryReader(File.OpenRead(packageFullFilename), Encoding.UTF8, false))
+            using Stream stream = GetFileStream(packageFullFilename);
+
+            using (reader = new BinaryReader(stream, Encoding.UTF8, false))
             {
                 int totalParentCount = ReadHeader();
 
