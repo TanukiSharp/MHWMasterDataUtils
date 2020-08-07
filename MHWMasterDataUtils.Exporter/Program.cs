@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.IO;
 using MHWMasterDataUtils.Builders;
 using MHWMasterDataUtils.Builders.Equipment;
@@ -147,7 +148,16 @@ namespace MHWMasterDataUtils.Exporter
 
             using var packageReader = new PackageReader(logger, fileProcessors);
 
+            Console.WriteLine("-=-=-=-=-=- READ MASTER DATA -=-=-=-=-=-");
+
+            var sw = Stopwatch.StartNew();
             packageReader.Run(packagesFullPath);
+            TimeSpan elapsed = sw.Elapsed;
+            Console.WriteLine($"Took {elapsed}");
+
+            Console.WriteLine("-=-=-=-=-=- SERIALIZE PROCESSED DATA -=-=-=-=-=-");
+
+            sw = Stopwatch.StartNew();
 
             WeaponTreeName[] weaponTrees = new WeaponTreeNameBuilder(weaponSeriesLanguages, weapons).Build();
             SerializeJson("weapon-trees", weaponTrees);
@@ -357,6 +367,11 @@ namespace MHWMasterDataUtils.Exporter
                 equipmentUpgrades
             ).Build();
             SerializeJson("charms", charms);
+
+            elapsed = sw.Elapsed;
+            Console.WriteLine($"Took {elapsed}");
+
+            Console.WriteLine("-=-=-=-=-=- END -=-=-=-=-=-");
         }
 
         private static string Lookup(string filename)
