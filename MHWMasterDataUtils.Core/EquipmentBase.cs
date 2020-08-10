@@ -25,6 +25,8 @@ namespace MHWMasterDataUtils.Core
         public CraftItem[] Craft { get; set; }
         [JsonProperty("isPermanent")]
         public bool IsPermanent { get; set; }
+        [JsonProperty("skills")]
+        public EquipmentSkill[] Skills { get; set; }
 
         public override string ToString()
         {

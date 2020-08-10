@@ -94,6 +94,12 @@ namespace MHWMasterDataUtils.Builders.Equipment
             LanguageUtils.StyleTextRemover
         };
 
+        private static void TryAddRegularSkill(List<core.EquipmentSkill> setSkills, int id, int level)
+        {
+            if (id > 0)
+                setSkills.Add(new core.EquipmentSkill { SkillId = id, Level = level, RequiredParts = null });
+        }
+
         public TEquiment[] Build()
         {
             var result = new List<TEquiment>();
@@ -120,6 +126,17 @@ namespace MHWMasterDataUtils.Builders.Equipment
                 resultEquipment.Rarity = equipment.Rarity;
                 resultEquipment.Craft = CreateCraft(equipment);
                 resultEquipment.IsPermanent = equipment.IsPermanent == PermanentPrimitive.CannotBeSold;
+
+                if (equipment.Skill1Id > 0 || equipment.Skill2Id > 0 || equipment.Skill3Id > 0)
+                {
+                    var skills = new List<core.EquipmentSkill>();
+
+                    TryAddRegularSkill(skills, equipment.Skill1Id, equipment.Skill1Level);
+                    TryAddRegularSkill(skills, equipment.Skill2Id, equipment.Skill2Level);
+                    TryAddRegularSkill(skills, equipment.Skill3Id, equipment.Skill3Level);
+
+                    resultEquipment.Skills = skills.ToArray();
+                }
 
                 UpdateEquipment(equipment, resultEquipment);
 

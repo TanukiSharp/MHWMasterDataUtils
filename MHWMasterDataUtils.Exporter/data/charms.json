@@ -35,7 +35,17 @@
         "cost": 1500,
         "gender": 3,
         "rarity": 3,
-        "isPermanent": true
+        "isPermanent": true,
+        "skills": [
+            {
+                "skillId": 19,
+                "level": 1
+            },
+            {
+                "skillId": 97,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3128,
@@ -91,7 +101,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 1,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3129,
@@ -147,7 +163,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 1,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3130,
@@ -203,7 +225,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 1,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3131,
@@ -259,7 +287,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 19,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3132,
@@ -315,7 +349,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 19,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3133,
@@ -371,7 +411,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 19,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3134,
@@ -427,7 +473,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 20,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3135,
@@ -483,7 +535,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 20,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3136,
@@ -539,7 +597,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 20,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3137,
@@ -595,7 +659,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 2,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3138,
@@ -651,7 +721,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 2,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3139,
@@ -707,7 +783,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 2,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3140,
@@ -763,7 +845,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 3,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3141,
@@ -819,7 +907,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 3,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3142,
@@ -875,7 +969,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 3,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3143,
@@ -931,7 +1031,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 4,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3144,
@@ -987,7 +1093,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 4,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3145,
@@ -1043,7 +1155,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 4,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3146,
@@ -1099,7 +1217,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 6,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3147,
@@ -1155,7 +1279,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 6,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3148,
@@ -1211,7 +1341,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 6,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3149,
@@ -1267,7 +1403,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 7,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3150,
@@ -1323,7 +1465,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 7,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3151,
@@ -1379,7 +1527,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 7,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3152,
@@ -1435,7 +1589,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 8,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3153,
@@ -1491,7 +1651,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 8,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3154,
@@ -1547,7 +1713,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 8,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3158,
@@ -1603,7 +1775,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 11,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3159,
@@ -1659,7 +1837,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 11,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3160,
@@ -1715,7 +1899,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 11,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3161,
@@ -1771,7 +1961,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 12,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3162,
@@ -1827,7 +2023,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 12,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3163,
@@ -1883,7 +2085,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 12,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3164,
@@ -1939,7 +2147,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 13,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3165,
@@ -1995,7 +2209,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 13,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3166,
@@ -2051,7 +2271,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 21,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3167,
@@ -2107,7 +2333,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 21,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3168,
@@ -2163,7 +2395,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 21,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3169,
@@ -2219,7 +2457,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 22,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3170,
@@ -2275,7 +2519,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 22,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3171,
@@ -2331,7 +2581,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 22,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3172,
@@ -2387,7 +2643,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 23,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3173,
@@ -2443,7 +2705,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 23,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3174,
@@ -2499,7 +2767,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 23,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3175,
@@ -2555,7 +2829,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 24,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3176,
@@ -2611,7 +2891,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 24,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3177,
@@ -2667,7 +2953,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 24,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3178,
@@ -2723,7 +3015,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 25,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3179,
@@ -2779,7 +3077,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 25,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3180,
@@ -2835,7 +3139,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 25,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3181,
@@ -2891,7 +3201,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 26,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3182,
@@ -2947,7 +3263,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 26,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3183,
@@ -3003,7 +3325,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 26,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3184,
@@ -3059,7 +3387,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 27,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3185,
@@ -3115,7 +3449,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 27,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3186,
@@ -3171,7 +3511,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 27,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3187,
@@ -3227,7 +3573,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 28,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3188,
@@ -3283,7 +3635,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 28,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3189,
@@ -3339,7 +3697,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 28,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3190,
@@ -3395,7 +3759,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 29,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3191,
@@ -3451,7 +3821,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 29,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3192,
@@ -3507,7 +3883,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 29,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3193,
@@ -3563,7 +3945,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 30,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3194,
@@ -3619,7 +4007,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 30,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3195,
@@ -3675,7 +4069,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 30,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3196,
@@ -3731,7 +4131,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 31,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3197,
@@ -3787,7 +4193,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 31,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3198,
@@ -3843,7 +4255,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 31,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3199,
@@ -3899,7 +4317,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 32,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3200,
@@ -3955,7 +4379,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 32,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3201,
@@ -4011,7 +4441,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 32,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3202,
@@ -4067,7 +4503,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 33,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3203,
@@ -4123,7 +4565,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 33,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3204,
@@ -4179,7 +4627,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 33,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3205,
@@ -4235,7 +4689,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 34,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3206,
@@ -4291,7 +4751,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 34,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3207,
@@ -4347,7 +4813,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 34,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3208,
@@ -4403,7 +4875,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 35,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3209,
@@ -4459,7 +4937,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 35,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3210,
@@ -4515,7 +4999,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 35,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3211,
@@ -4571,7 +5061,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 36,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3212,
@@ -4627,7 +5123,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 36,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3213,
@@ -4683,7 +5185,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 36,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3214,
@@ -4739,7 +5247,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 37,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3215,
@@ -4795,7 +5309,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 37,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3216,
@@ -4851,7 +5371,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 37,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3217,
@@ -4907,7 +5433,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 38,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3218,
@@ -4963,7 +5495,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 38,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3219,
@@ -5019,7 +5557,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 38,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3220,
@@ -5075,7 +5619,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 48,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3221,
@@ -5131,7 +5681,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 48,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3222,
@@ -5187,7 +5743,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 48,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3223,
@@ -5243,7 +5805,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 49,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3225,
@@ -5299,7 +5867,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 50,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3226,
@@ -5355,7 +5929,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 50,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3227,
@@ -5411,7 +5991,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 52,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3228,
@@ -5467,7 +6053,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 52,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3229,
@@ -5523,7 +6115,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 53,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3230,
@@ -5579,7 +6177,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 53,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3231,
@@ -5635,7 +6239,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 55,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3232,
@@ -5691,7 +6301,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 55,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3233,
@@ -5747,7 +6363,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 56,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3234,
@@ -5803,7 +6425,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 56,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3235,
@@ -5859,7 +6487,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 57,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3236,
@@ -5915,7 +6549,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 57,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3237,
@@ -5971,7 +6611,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 57,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3238,
@@ -6027,7 +6673,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 58,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3239,
@@ -6083,7 +6735,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 58,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3240,
@@ -6139,7 +6797,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 58,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3241,
@@ -6195,7 +6859,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 61,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3242,
@@ -6251,7 +6921,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 61,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3243,
@@ -6307,7 +6983,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 62,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3244,
@@ -6363,7 +7045,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 62,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3245,
@@ -6419,7 +7107,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 63,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3246,
@@ -6475,7 +7169,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 63,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3247,
@@ -6531,7 +7231,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 66,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3248,
@@ -6587,7 +7293,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 66,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3249,
@@ -6643,7 +7355,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 70,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3250,
@@ -6699,7 +7417,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 70,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3251,
@@ -6755,7 +7479,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 71,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3252,
@@ -6811,7 +7541,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 71,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3253,
@@ -6867,7 +7603,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 71,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3254,
@@ -6923,7 +7665,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 73,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3255,
@@ -6979,7 +7727,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 73,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3256,
@@ -7035,7 +7789,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 74,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3257,
@@ -7091,7 +7851,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 74,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3258,
@@ -7147,7 +7913,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 76,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3259,
@@ -7203,7 +7975,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 76,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3260,
@@ -7259,7 +8037,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 77,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3261,
@@ -7315,7 +8099,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 77,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3262,
@@ -7371,7 +8161,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 77,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3263,
@@ -7427,7 +8223,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 78,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3264,
@@ -7483,7 +8285,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 78,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3265,
@@ -7539,7 +8347,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 78,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3266,
@@ -7595,7 +8409,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 79,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3267,
@@ -7651,7 +8471,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 79,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3268,
@@ -7707,7 +8533,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 80,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3269,
@@ -7763,7 +8595,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 80,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3270,
@@ -7819,7 +8657,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 80,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3271,
@@ -7875,7 +8719,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 81,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3272,
@@ -7931,7 +8781,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 81,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3273,
@@ -7987,7 +8843,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 81,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3274,
@@ -8043,7 +8905,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 82,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3275,
@@ -8099,7 +8967,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 82,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3276,
@@ -8155,7 +9029,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 82,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3277,
@@ -8211,7 +9091,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 83,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3278,
@@ -8267,7 +9153,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 83,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3279,
@@ -8323,7 +9215,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 83,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3280,
@@ -8379,7 +9277,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 85,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3281,
@@ -8435,7 +9339,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 85,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3282,
@@ -8491,7 +9401,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 85,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3283,
@@ -8547,7 +9463,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 86,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3284,
@@ -8603,7 +9525,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 86,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3285,
@@ -8659,7 +9587,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 86,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3286,
@@ -8715,7 +9649,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 88,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3287,
@@ -8771,7 +9711,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 88,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3288,
@@ -8827,7 +9773,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 88,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3289,
@@ -8883,7 +9835,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 90,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3290,
@@ -8939,7 +9897,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 90,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3292,
@@ -8995,7 +9959,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 97,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3293,
@@ -9051,7 +10021,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 97,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3294,
@@ -9107,7 +10083,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 97,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3295,
@@ -9163,7 +10145,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 98,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3296,
@@ -9219,7 +10207,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 98,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3297,
@@ -9275,7 +10269,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 98,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3298,
@@ -9331,7 +10331,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 99,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3299,
@@ -9387,7 +10393,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 99,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3300,
@@ -9443,7 +10455,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 99,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3301,
@@ -9499,7 +10517,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 100,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3302,
@@ -9555,7 +10579,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 100,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3303,
@@ -9611,7 +10641,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 100,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3304,
@@ -9667,7 +10703,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 101,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3305,
@@ -9723,7 +10765,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 101,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3306,
@@ -9779,7 +10827,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 102,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3307,
@@ -9835,7 +10889,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 102,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3308,
@@ -9891,7 +10951,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 102,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3309,
@@ -9947,7 +11013,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 103,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3310,
@@ -10003,7 +11075,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 103,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3311,
@@ -10059,7 +11137,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 103,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3312,
@@ -10115,7 +11199,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 104,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3313,
@@ -10171,7 +11261,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 104,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3314,
@@ -10227,7 +11323,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 108,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3315,
@@ -10283,7 +11385,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 108,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3316,
@@ -10339,7 +11447,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 108,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3317,
@@ -10395,7 +11509,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 109,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3318,
@@ -10451,7 +11571,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 109,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3319,
@@ -10507,7 +11633,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 109,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3320,
@@ -10563,7 +11695,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 115,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3321,
@@ -10619,7 +11757,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 115,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3322,
@@ -10675,7 +11819,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 115,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3323,
@@ -10731,7 +11881,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 116,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3324,
@@ -10787,7 +11943,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 116,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3325,
@@ -10843,7 +12005,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 116,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3326,
@@ -10899,7 +12067,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 124,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3327,
@@ -10955,7 +12129,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 124,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3328,
@@ -11011,7 +12191,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 124,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3329,
@@ -11067,7 +12253,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 47,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3330,
@@ -11123,7 +12315,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 47,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3331,
@@ -11179,7 +12377,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 54,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3332,
@@ -11235,7 +12439,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 54,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3333,
@@ -11291,7 +12501,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 54,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3334,
@@ -11347,7 +12563,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 64,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3335,
@@ -11403,7 +12625,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 64,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3336,
@@ -11459,7 +12687,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 120,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3337,
@@ -11515,7 +12749,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 120,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3338,
@@ -11571,7 +12811,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 120,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3339,
@@ -11627,7 +12873,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 72,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3340,
@@ -11683,7 +12935,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 72,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3341,
@@ -11739,7 +12997,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 84,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3342,
@@ -11795,7 +13059,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 39,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3343,
@@ -11851,7 +13121,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 40,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3344,
@@ -11907,7 +13183,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 41,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3345,
@@ -11963,7 +13245,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 42,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3346,
@@ -12019,7 +13307,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 43,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3347,
@@ -12075,7 +13369,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 44,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3348,
@@ -12131,7 +13431,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 46,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3350,
@@ -12187,7 +13493,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 65,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3352,
@@ -12243,7 +13555,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 68,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3353,
@@ -12299,7 +13617,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 69,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3354,
@@ -12355,7 +13679,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 5,
+                "level": 1
+            },
+            {
+                "skillId": 75,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3355,
@@ -12411,7 +13745,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 14,
+                "level": 1
+            },
+            {
+                "skillId": 112,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3356,
@@ -12467,7 +13811,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 92,
+                "level": 1
+            },
+            {
+                "skillId": 91,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3357,
@@ -12523,7 +13877,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 93,
+                "level": 1
+            },
+            {
+                "skillId": 95,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3358,
@@ -12579,7 +13943,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 94,
+                "level": 1
+            },
+            {
+                "skillId": 96,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3359,
@@ -12635,7 +14009,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 17,
+                "level": 1
+            },
+            {
+                "skillId": 16,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3360,
@@ -12691,7 +14075,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 59,
+                "level": 1
+            },
+            {
+                "skillId": 107,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3361,
@@ -12747,7 +14141,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 105,
+                "level": 1
+            },
+            {
+                "skillId": 114,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3362,
@@ -12803,7 +14207,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 117,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3363,
@@ -12859,7 +14269,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 118,
+                "level": 1
+            },
+            {
+                "skillId": 119,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3364,
@@ -12915,7 +14335,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 122,
+                "level": 1
+            },
+            {
+                "skillId": 60,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3365,
@@ -12971,7 +14401,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 123,
+                "level": 1
+            },
+            {
+                "skillId": 34,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3366,
@@ -13027,7 +14467,17 @@
                 "quantity": 2
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 157,
+                "level": 1
+            },
+            {
+                "skillId": 67,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3367,
@@ -13083,7 +14533,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 74,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3379,
@@ -13139,7 +14595,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 19,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3380,
@@ -13195,7 +14657,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 19,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3381,
@@ -13251,7 +14719,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 20,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3382,
@@ -13307,7 +14781,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 20,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3383,
@@ -13363,7 +14843,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 12,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3384,
@@ -13419,7 +14905,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 12,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3385,
@@ -13475,7 +14967,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 30,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3386,
@@ -13531,7 +15029,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 30,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3387,
@@ -13587,7 +15091,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 31,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3388,
@@ -13643,7 +15153,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 31,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3389,
@@ -13699,7 +15215,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 33,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3390,
@@ -13755,7 +15277,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 33,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3391,
@@ -13811,7 +15339,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 80,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3392,
@@ -13867,7 +15401,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 80,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3393,
@@ -13923,7 +15463,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 82,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3394,
@@ -13979,7 +15525,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 82,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3395,
@@ -14035,7 +15587,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 98,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3396,
@@ -14091,7 +15649,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 98,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3397,
@@ -14147,7 +15711,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 99,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3398,
@@ -14203,7 +15773,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 32,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3399,
@@ -14259,7 +15835,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 32,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3400,
@@ -14315,7 +15897,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 48,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3402,
@@ -14371,7 +15959,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 78,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3403,
@@ -14427,7 +16021,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 78,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3404,
@@ -14483,7 +16083,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 34,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3405,
@@ -14539,7 +16145,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 34,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3406,
@@ -14578,7 +16190,13 @@
         "gender": 3,
         "rarity": 12,
         "craft": [],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 55,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3407,
@@ -14634,7 +16252,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 73,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3408,
@@ -14690,7 +16314,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 74,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3409,
@@ -14729,7 +16359,13 @@
         "gender": 3,
         "rarity": 12,
         "craft": [],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 74,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3410,
@@ -14785,7 +16421,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 76,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3411,
@@ -14841,7 +16483,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 79,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3412,
@@ -14897,7 +16545,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 90,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3413,
@@ -14953,7 +16607,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 47,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3414,
@@ -15009,7 +16669,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 54,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3416,
@@ -15065,7 +16731,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 11,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3418,
@@ -15121,7 +16793,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 13,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3420,
@@ -15177,7 +16855,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 52,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3421,
@@ -15233,7 +16917,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 56,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3422,
@@ -15289,7 +16979,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 66,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3423,
@@ -15345,7 +17041,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 66,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3424,
@@ -15401,7 +17103,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 66,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3425,
@@ -15457,7 +17165,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 64,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3426,
@@ -15513,7 +17227,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 64,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3427,
@@ -15569,7 +17289,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 64,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3428,
@@ -15625,7 +17351,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 61,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3429,
@@ -15681,7 +17413,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 61,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3430,
@@ -15737,7 +17475,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 61,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3431,
@@ -15793,7 +17537,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 62,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3432,
@@ -15849,7 +17599,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 62,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3433,
@@ -15905,7 +17661,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 62,
+                "level": 5
+            }
+        ]
     },
     {
         "id": 3434,
@@ -15961,7 +17723,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 63,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3435,
@@ -16017,7 +17785,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 101,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3436,
@@ -16073,7 +17847,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 104,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3437,
@@ -16129,7 +17909,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 49,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3439,
@@ -16185,7 +17971,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 53,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3440,
@@ -16241,7 +18033,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 186,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3441,
@@ -16297,7 +18095,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 186,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3442,
@@ -16336,7 +18140,13 @@
         "gender": 3,
         "rarity": 12,
         "craft": [],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 186,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3443,
@@ -16392,7 +18202,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 185,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3444,
@@ -16448,7 +18264,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 185,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3445,
@@ -16504,7 +18326,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 185,
+                "level": 3
+            }
+        ]
     },
     {
         "id": 3446,
@@ -16542,7 +18370,17 @@
         "cost": 0,
         "gender": 3,
         "rarity": 11,
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 159,
+                "level": 1
+            },
+            {
+                "skillId": 205,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3447,
@@ -16580,7 +18418,13 @@
         "cost": 0,
         "gender": 3,
         "rarity": 11,
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 162,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3448,
@@ -16618,7 +18462,17 @@
         "cost": 0,
         "gender": 3,
         "rarity": 11,
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 123,
+                "level": 1
+            },
+            {
+                "skillId": 206,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3449,
@@ -16656,7 +18510,13 @@
         "cost": 0,
         "gender": 3,
         "rarity": 11,
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 160,
+                "level": 1
+            }
+        ]
     },
     {
         "id": 3450,
@@ -16712,7 +18572,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 35,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3451,
@@ -16768,7 +18634,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 36,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3452,
@@ -16824,7 +18696,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 37,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3453,
@@ -16876,7 +18754,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 38,
+                "level": 4
+            }
+        ]
     },
     {
         "id": 3454,
@@ -16932,7 +18816,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 39,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3455,
@@ -16988,7 +18878,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 40,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3456,
@@ -17044,7 +18940,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 41,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3457,
@@ -17100,7 +19002,13 @@
                 "quantity": 1
             }
         ],
-        "isPermanent": false
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 68,
+                "level": 2
+            }
+        ]
     },
     {
         "id": 3458,
