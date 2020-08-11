@@ -70,6 +70,9 @@ namespace MHWMasterDataUtils.Languages
             byte[] keyBlock = reader.ReadBytes((int)header.KeyBlockSize);
             byte[] stringBlock = reader.ReadBytes((int)header.StringBlockSize);
 
+            if (stringBlock.Length == 0)
+                return;
+
             List<string> values = ParseStringBlock(stringBlock);
 
             foreach (LanguageInfoEntryPrimitive infoEntry in infoEntries)
