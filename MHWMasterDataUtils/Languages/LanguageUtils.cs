@@ -147,5 +147,39 @@ namespace MHWMasterDataUtils.Languages
 
             throw new ArgumentException($"Invalid '{nameof(language)}' argument. Unknown value '{language}'.");
         }
+
+        public struct TextSearchResult
+        {
+            public string RegexPattern;
+            public uint KeyId;
+            public string KeyName;
+            public string MatchedValue;
+        }
+
+        public static IEnumerable<TextSearchResult> SearchEnglishContainedString(string searchedValue, IEnumerable<IPackageProcessor> packageProcessors)
+        {
+            foreach (LanguagePackageProcessor languageProcessor in packageProcessors.OfType<LanguagePackageProcessor>())
+            {
+                foreach (KeyValuePair<LanguageIdPrimitive, Dictionary<uint, LanguageItem>> language in languageProcessor.Table)
+                {
+                    if (language.Key != LanguageIdPrimitive.English)
+                        continue;
+
+                    foreach (KeyValuePair<uint, LanguageItem> languageEntries in language.Value)
+                    {
+                        if (languageEntries.Value.Value.Contains(searchedValue))
+                        {
+                            yield return new TextSearchResult
+                            {
+                                RegexPattern = languageProcessor.RegexPattern,
+                                KeyId = languageEntries.Key,
+                                KeyName = languageEntries.Value.Key,
+                                MatchedValue = languageEntries.Value.Value,
+                            };
+                        }
+                    }
+                }
+            }
+        }
     }
 }

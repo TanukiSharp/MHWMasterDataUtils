@@ -84,6 +84,8 @@ namespace MHWMasterDataUtils.Exporter
             var skillLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_pt_\\w{3}.gmd");
             var skillAbilitiesLanguages = new LanguagePackageProcessor("/common/text/vfont/skill_\\w{3}.gmd");
 
+            // var allLanguages = new LanguagePackageProcessor(".*_\\w{3}.gmd");
+
             var bowBottles = new BowBottleTablePackageProcessor();
             var weapons = new WeaponsPackageProcessor();
             var huntingHornNotes = new HuntingHornNotesPackageProcessor();
@@ -141,6 +143,7 @@ namespace MHWMasterDataUtils.Exporter
                 skillLanguages,
                 skillAbilitiesLanguages,
                 equipment
+                //allLanguages,
                 //new DumpPackageProcessor("/common/equip/rod_insect.rod_inse"),
             };
 
