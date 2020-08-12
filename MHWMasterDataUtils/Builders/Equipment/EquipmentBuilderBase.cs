@@ -17,7 +17,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
         protected readonly LanguagePackageProcessor equipmentLanguages;
         protected readonly Dictionary<uint, EquipmentCraftEntryPrimitive> equipmentCraft;
 
-        public EquipmentBuilderBase(
+        protected EquipmentBuilderBase(
             core.EquipmentType equipmentType,
             Predicate<EquipmentPrimitive> filter,
             EquipmentPackageProcessor equipments,
