@@ -42,6 +42,16 @@ namespace MHWMasterDataUtils.Builders
             LanguageUtils.StyleTextRemover
         };
 
+        private static readonly (uint targetId, uint sourceId)[] NameReplacementTable =
+        {
+            (1638, 4540),
+        };
+
+        private static readonly (uint targetId, uint sourceId)[] DescriptionReplacementTable =
+        {
+            (1639, 4541),
+        };
+
         public T[] Build()
         {
             var result = new List<T>();
@@ -50,6 +60,20 @@ namespace MHWMasterDataUtils.Builders
             {
                 uint nameIndex = itemEntry.Id * 2;
                 uint descriptionIndex = nameIndex + 1;
+
+                if (NameReplacementTable.Any(x => x.sourceId == nameIndex))
+                    continue;
+
+                (uint targetId, uint sourceId) = NameReplacementTable.FirstOrDefault(x => x.targetId == nameIndex);
+                if (targetId != 0 && sourceId != 0 && targetId == nameIndex)
+                    nameIndex = sourceId;
+
+                if (DescriptionReplacementTable.Any(x => x.sourceId == descriptionIndex))
+                    continue;
+
+                (targetId, sourceId) = DescriptionReplacementTable.FirstOrDefault(x => x.targetId == descriptionIndex);
+                if (targetId != 0 && sourceId != 0 && targetId == descriptionIndex)
+                    descriptionIndex = sourceId;
 
                 if (LanguageUtils.IsValidText(steamItemsLanguages.Table, nameIndex) == false ||
                     LanguageUtils.IsValidText(steamItemsLanguages.Table, descriptionIndex) == false)

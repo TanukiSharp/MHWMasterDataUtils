@@ -100,12 +100,41 @@ namespace MHWMasterDataUtils.Builders.Equipment
                 setSkills.Add(new core.EquipmentSkill { SkillId = id, Level = level, RequiredParts = null });
         }
 
+        private static readonly (uint targetId, uint sourceId)[] NameReplacementTable =
+        {
+            (5558, 5755),
+            (5560, 5757),
+            (5561, 5758),
+        };
+
+        private static readonly (uint targetId, uint sourceId)[] DescriptionReplacementTable =
+        {
+            (5559, 5756),
+        };
+
         public TEquiment[] Build()
         {
             var result = new List<TEquiment>();
 
             foreach (EquipmentPrimitive equipment in equipments.Table.Values)
             {
+                uint nameIndex = equipment.GmdNameIndex;
+                uint descriptionIndex = equipment.GmdDescriptionIndex;
+
+                if (NameReplacementTable.Any(x => x.sourceId == nameIndex))
+                    continue;
+
+                (uint targetId, uint sourceId) = NameReplacementTable.FirstOrDefault(x => x.targetId == nameIndex);
+                if (targetId != 0 && sourceId != 0 && targetId == nameIndex)
+                    nameIndex = sourceId;
+
+                if (DescriptionReplacementTable.Any(x => x.sourceId == descriptionIndex))
+                    continue;
+
+                (targetId, sourceId) = DescriptionReplacementTable.FirstOrDefault(x => x.targetId == descriptionIndex);
+                if (targetId != 0 && sourceId != 0 && targetId == descriptionIndex)
+                    descriptionIndex = sourceId;
+
                 if (filter(equipment) == false)
                     continue;
 
@@ -114,8 +143,8 @@ namespace MHWMasterDataUtils.Builders.Equipment
 
                 TEquiment resultEquipment = CreateEquipmentInstance();
 
-                Dictionary<string, string> name = LanguageUtils.CreateLocalizations(equipmentLanguages.Table, equipment.GmdNameIndex, languageValueProcessors);
-                Dictionary<string, string> description = LanguageUtils.CreateLocalizations(equipmentLanguages.Table, equipment.GmdDescriptionIndex, languageValueProcessors);
+                Dictionary<string, string> name = LanguageUtils.CreateLocalizations(equipmentLanguages.Table, nameIndex, languageValueProcessors);
+                Dictionary<string, string> description = LanguageUtils.CreateLocalizations(equipmentLanguages.Table, descriptionIndex, languageValueProcessors);
 
                 resultEquipment.Id = equipment.Id;
                 resultEquipment.Order = equipment.Order;
