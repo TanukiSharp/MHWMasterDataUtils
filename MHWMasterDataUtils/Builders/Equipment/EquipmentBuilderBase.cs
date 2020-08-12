@@ -45,7 +45,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
             if (LanguageUtils.IsValidText(japaneseWeaponName) == false)
                 return false;
 
-            string englishWeaponDescription = equipmentLanguages.Table[LanguageIdPrimitive.English][equipment.GmdNameIndex].Value;
+            string englishWeaponDescription = equipmentLanguages.Table[LanguageIdPrimitive.English][equipment.GmdDescriptionIndex].Value;
             if (LanguageUtils.IsValidText(englishWeaponDescription) == false)
                 return false;
 
