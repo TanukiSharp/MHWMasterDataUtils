@@ -141,6 +141,9 @@ namespace MHWMasterDataUtils.Builders.Equipment
                 if (IsValidEquipment(equipment) == false)
                     continue;
 
+                if (equipmentType == core.EquipmentType.Charm && equipment.Skill1Id == 0 && equipment.Skill2Id == 0 && equipment.Skill3Id == 0)
+                    continue;
+
                 TEquiment resultEquipment = CreateEquipmentInstance();
 
                 Dictionary<string, string> name = LanguageUtils.CreateLocalizations(equipmentLanguages.Table, nameIndex, languageValueProcessors);
