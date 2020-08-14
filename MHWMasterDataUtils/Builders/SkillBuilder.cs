@@ -118,11 +118,11 @@ namespace MHWMasterDataUtils.Builders
 
             foreach (core.Skill skill in result)
             {
-                if (skill.IsSetBonus == false)
-                    continue;
-
-                foreach (core.Ability ability in skill.Abilities)
-                    ability.SkillId = FindSkillIdByName(ability.Name, result);
+                if (skill.IsSetBonus)
+                {
+                    foreach (core.Ability ability in skill.Abilities)
+                        ability.SkillId = FindSkillIdByName(ability.Name, result);
+                }
             }
 
             return result.OrderBy(x => x.Id).ToArray();
