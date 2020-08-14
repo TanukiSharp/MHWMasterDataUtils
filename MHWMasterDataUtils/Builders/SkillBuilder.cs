@@ -86,6 +86,7 @@ namespace MHWMasterDataUtils.Builders
                     if (isSetBonus)
                     {
                         abilities.Add(core.Ability.CreateSetSkill(
+                            skillAbility.Index,
                             skillAbility.Level,
                             skillAbilityName,
                             skillAbilityDescription,
@@ -95,6 +96,7 @@ namespace MHWMasterDataUtils.Builders
                     else
                     {
                         abilities.Add(core.Ability.CreateRegularSkill(
+                            skillAbility.Index,
                             skillAbility.Level,
                             skillAbilityDescription,
                             skillAbility.Params

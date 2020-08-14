@@ -7,6 +7,8 @@ namespace MHWMasterDataUtils.Core
 {
     public class Ability
     {
+        [JsonProperty("id")]
+        public uint Id { get; set; }
         [JsonProperty("level")]
         public int? Level { get; set; }
         [JsonProperty("requiredParts")]
@@ -20,10 +22,11 @@ namespace MHWMasterDataUtils.Core
         [JsonProperty("params")]
         public IReadOnlyCollection<short> Parameters { get; set; }
 
-        public static Ability CreateRegularSkill(int level, Dictionary<string, string> description, IReadOnlyCollection<short> parameters)
+        public static Ability CreateRegularSkill(uint abilityId, int level, Dictionary<string, string> description, IReadOnlyCollection<short> parameters)
         {
             return new Ability
             {
+                Id = abilityId,
                 Level = level,
                 RequiredParts = null,
                 Name = null,
@@ -32,10 +35,11 @@ namespace MHWMasterDataUtils.Core
             };
         }
 
-        public static Ability CreateSetSkill(int requiredParts, Dictionary<string, string> name, Dictionary<string, string> description, IReadOnlyCollection<short> parameters)
+        public static Ability CreateSetSkill(uint abilityId, int requiredParts, Dictionary<string, string> name, Dictionary<string, string> description, IReadOnlyCollection<short> parameters)
         {
             return new Ability
             {
+                Id = abilityId,
                 Level = null,
                 RequiredParts = requiredParts,
                 Name = name,
