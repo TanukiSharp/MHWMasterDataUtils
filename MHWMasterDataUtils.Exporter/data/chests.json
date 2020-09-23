@@ -10,9 +10,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 2,
         "id": 667,
         "order": 1,
+        "setGroup": 2,
         "name": {
             "jpn": "レザーベスト",
             "eng": "Leather Mail",
@@ -65,9 +65,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 15,
         "id": 668,
         "order": 2,
+        "setGroup": 15,
         "name": {
             "jpn": "チェーンベスト",
             "eng": "Chainmail Vest",
@@ -120,9 +120,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 1,
         "id": 669,
         "order": 3,
+        "setGroup": 1,
         "name": {
             "jpn": "ハンターメイル",
             "eng": "Hunter's Mail",
@@ -185,9 +185,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 5,
         "id": 670,
         "order": 4,
+        "setGroup": 5,
         "name": {
             "jpn": "ボーンメイル",
             "eng": "Bone Mail",
@@ -250,9 +250,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 6,
         "id": 671,
         "order": 10,
+        "setGroup": 6,
         "name": {
             "jpn": "アロイメイル",
             "eng": "Alloy Mail",
@@ -319,9 +319,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 9,
         "id": 672,
         "order": 5,
+        "setGroup": 9,
         "name": {
             "jpn": "ランゴメイル",
             "eng": "Vespoid Mail",
@@ -384,9 +384,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 4,
         "id": 673,
         "order": 8,
+        "setGroup": 4,
         "name": {
             "jpn": "ジャグラスメイル",
             "eng": "Jagras Mail",
@@ -457,9 +457,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 10,
         "id": 674,
         "order": 9,
+        "setGroup": 10,
         "name": {
             "jpn": "クルルメイル",
             "eng": "Kulu Mail",
@@ -530,9 +530,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 11,
         "id": 675,
         "order": 11,
+        "setGroup": 11,
         "name": {
             "jpn": "プケプケメイル",
             "eng": "Pukei Mail",
@@ -599,9 +599,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 13,
         "id": 676,
         "order": 12,
+        "setGroup": 13,
         "name": {
             "jpn": "ボロスメイル",
             "eng": "Barroth Mail",
@@ -672,9 +672,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 12,
         "id": 677,
         "order": 13,
+        "setGroup": 12,
         "name": {
             "jpn": "ジュラメイル",
             "eng": "Jyura Mail",
@@ -745,9 +745,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 14,
         "id": 678,
         "order": 14,
+        "setGroup": 14,
         "name": {
             "jpn": "カガチメイル",
             "eng": "Kadachi Mail",
@@ -818,9 +818,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 25,
         "id": 679,
         "order": 15,
+        "setGroup": 25,
         "name": {
             "jpn": "ハイメタメイル",
             "eng": "High Metal Mail",
@@ -891,9 +891,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 18,
         "id": 680,
         "order": 19,
+        "setGroup": 18,
         "name": {
             "jpn": "タロスメイル",
             "eng": "Hornetaur Mail",
@@ -964,12 +964,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 3,
         "setSkills": [
             125
         ],
         "id": 681,
         "order": 20,
+        "setGroup": 3,
         "name": {
             "jpn": "ジャナフメイル",
             "eng": "Anja Mail",
@@ -1040,9 +1040,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 21,
         "id": 682,
         "order": 21,
+        "setGroup": 21,
         "name": {
             "jpn": "レイアメイル",
             "eng": "Rathian Mail",
@@ -1113,9 +1113,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 23,
         "id": 683,
         "order": 22,
+        "setGroup": 23,
         "name": {
             "jpn": "ツィツィメイル",
             "eng": "Tzitzi Mail",
@@ -1186,9 +1186,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 24,
         "id": 684,
         "order": 23,
+        "setGroup": 24,
         "name": {
             "jpn": "ウルムーメイル",
             "eng": "Lumu Mail",
@@ -1259,9 +1259,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 22,
         "id": 685,
         "order": 24,
+        "setGroup": 22,
         "name": {
             "jpn": "ギルオスメイル",
             "eng": "Girros Mail",
@@ -1332,9 +1332,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 28,
         "id": 686,
         "order": 25,
+        "setGroup": 28,
         "name": {
             "jpn": "バルキンメイル",
             "eng": "Baan Mail",
@@ -1405,9 +1405,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 20,
         "id": 687,
         "order": 16,
+        "setGroup": 20,
         "name": {
             "jpn": "オウビートペット",
             "eng": "King Beetle Thorax",
@@ -1478,9 +1478,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 159,
         "id": 688,
         "order": 17,
+        "setGroup": 159,
         "name": {
             "jpn": "パピメルペット",
             "eng": "Butterfly Thorax",
@@ -1551,9 +1551,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 31,
         "id": 689,
         "order": 26,
+        "setGroup": 31,
         "name": {
             "jpn": "インゴットメイル",
             "eng": "Ingot Mail",
@@ -1624,12 +1624,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 27,
         "setSkills": [
             151
         ],
         "id": 690,
         "order": 29,
+        "setGroup": 27,
         "name": {
             "jpn": "ギエナメイル",
             "eng": "Legiana Mail",
@@ -1700,12 +1700,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 29,
         "setSkills": [
             153
         ],
         "id": 691,
         "order": 30,
+        "setGroup": 29,
         "name": {
             "jpn": "ガロンメイル",
             "eng": "Odogaron Mail",
@@ -1776,12 +1776,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 33,
         "setSkills": [
             128
         ],
         "id": 692,
         "order": 31,
+        "setGroup": 33,
         "name": {
             "jpn": "レウスメイル",
             "eng": "Rathalos Mail",
@@ -1852,12 +1852,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 34,
         "setSkills": [
             129
         ],
         "id": 693,
         "order": 32,
+        "setGroup": 34,
         "name": {
             "jpn": "ディアブロメイル",
             "eng": "Diablos Mail",
@@ -1928,12 +1928,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 35,
         "setSkills": [
             130
         ],
         "id": 694,
         "order": 33,
+        "setGroup": 35,
         "name": {
             "jpn": "キリンベスト",
             "eng": "Kirin Jacket",
@@ -2004,9 +2004,9 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 26,
         "id": 695,
         "order": 27,
+        "setGroup": 26,
         "name": {
             "jpn": "デスギアムスケル",
             "eng": "Death Stench Muscle",
@@ -2077,9 +2077,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 36,
         "id": 696,
         "order": 28,
+        "setGroup": 36,
         "name": {
             "jpn": "ブリゲイドスーツ",
             "eng": "Brigade Suit",
@@ -2150,9 +2150,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 39,
         "id": 697,
         "order": 34,
+        "setGroup": 39,
         "name": {
             "jpn": "レザーベスト α",
             "eng": "Leather Mail α",
@@ -2217,9 +2217,9 @@
         "slots": [
             1
         ],
-        "setGroup": 40,
         "id": 698,
         "order": 35,
+        "setGroup": 40,
         "name": {
             "jpn": "レザーベスト β",
             "eng": "Leather Mail β",
@@ -2276,9 +2276,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 147,
         "id": 699,
         "order": 36,
+        "setGroup": 147,
         "name": {
             "jpn": "チェーンベスト α",
             "eng": "Chainmail Armor α",
@@ -2343,9 +2343,9 @@
         "slots": [
             1
         ],
-        "setGroup": 148,
         "id": 700,
         "order": 37,
+        "setGroup": 148,
         "name": {
             "jpn": "チェーンベスト β",
             "eng": "Chainmail Armor β",
@@ -2402,9 +2402,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 41,
         "id": 701,
         "order": 38,
+        "setGroup": 41,
         "name": {
             "jpn": "ハンターメイル α",
             "eng": "Hunter's Mail α",
@@ -2469,9 +2469,9 @@
         "slots": [
             1
         ],
-        "setGroup": 42,
         "id": 702,
         "order": 39,
+        "setGroup": 42,
         "name": {
             "jpn": "ハンターメイル β",
             "eng": "Hunter's Mail β",
@@ -2534,9 +2534,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 43,
         "id": 703,
         "order": 40,
+        "setGroup": 43,
         "name": {
             "jpn": "ボーンメイル α",
             "eng": "Bone Mail α",
@@ -2605,9 +2605,9 @@
         "slots": [
             1
         ],
-        "setGroup": 44,
         "id": 704,
         "order": 41,
+        "setGroup": 44,
         "name": {
             "jpn": "ボーンメイル β",
             "eng": "Bone Mail β",
@@ -2674,9 +2674,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 45,
         "id": 705,
         "order": 42,
+        "setGroup": 45,
         "name": {
             "jpn": "アロイメイル α",
             "eng": "Alloy Mail α",
@@ -2749,9 +2749,9 @@
         "slots": [
             1
         ],
-        "setGroup": 46,
         "id": 706,
         "order": 43,
+        "setGroup": 46,
         "name": {
             "jpn": "アロイメイル β",
             "eng": "Alloy Mail β",
@@ -2822,9 +2822,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 51,
         "id": 707,
         "order": 48,
+        "setGroup": 51,
         "name": {
             "jpn": "ランゴメイル α",
             "eng": "Vespoid Mail α",
@@ -2893,9 +2893,9 @@
         "slots": [
             1
         ],
-        "setGroup": 52,
         "id": 708,
         "order": 49,
+        "setGroup": 52,
         "name": {
             "jpn": "ランゴメイル β",
             "eng": "Vespoid Mail β",
@@ -2962,9 +2962,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 57,
         "id": 709,
         "order": 50,
+        "setGroup": 57,
         "name": {
             "jpn": "タロスメイル α",
             "eng": "Hornetaur Mail α",
@@ -3041,9 +3041,9 @@
         "slots": [
             1
         ],
-        "setGroup": 58,
         "id": 710,
         "order": 51,
+        "setGroup": 58,
         "name": {
             "jpn": "タロスメイル β",
             "eng": "Hornetaur Mail β",
@@ -3114,9 +3114,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 61,
         "id": 711,
         "order": 59,
+        "setGroup": 61,
         "name": {
             "jpn": "ジャグラスメイル α",
             "eng": "Jagras Mail α",
@@ -3189,9 +3189,9 @@
         "slots": [
             1
         ],
-        "setGroup": 62,
         "id": 712,
         "order": 60,
+        "setGroup": 62,
         "name": {
             "jpn": "ジャグラスメイル β",
             "eng": "Jagras Mail β",
@@ -3262,9 +3262,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 63,
         "id": 713,
         "order": 61,
+        "setGroup": 63,
         "name": {
             "jpn": "クルルメイル α",
             "eng": "Kulu Mail α",
@@ -3341,9 +3341,9 @@
         "slots": [
             1
         ],
-        "setGroup": 64,
         "id": 714,
         "order": 62,
+        "setGroup": 64,
         "name": {
             "jpn": "クルルメイル β",
             "eng": "Kulu Mail β",
@@ -3414,9 +3414,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 65,
         "id": 715,
         "order": 67,
+        "setGroup": 65,
         "name": {
             "jpn": "プケプケメイル α",
             "eng": "Pukei Mail α",
@@ -3489,9 +3489,9 @@
         "slots": [
             1
         ],
-        "setGroup": 66,
         "id": 716,
         "order": 68,
+        "setGroup": 66,
         "name": {
             "jpn": "プケプケメイル β",
             "eng": "Pukei Mail β",
@@ -3558,9 +3558,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 69,
         "id": 717,
         "order": 69,
+        "setGroup": 69,
         "name": {
             "jpn": "ボロスメイル α",
             "eng": "Barroth Mail α",
@@ -3633,9 +3633,9 @@
         "slots": [
             1
         ],
-        "setGroup": 70,
         "id": 718,
         "order": 70,
+        "setGroup": 70,
         "name": {
             "jpn": "ボロスメイル β",
             "eng": "Barroth Mail β",
@@ -3706,9 +3706,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 67,
         "id": 719,
         "order": 73,
+        "setGroup": 67,
         "name": {
             "jpn": "ジュラメイル α",
             "eng": "Jyura Mail α",
@@ -3785,9 +3785,9 @@
         "slots": [
             1
         ],
-        "setGroup": 68,
         "id": 720,
         "order": 74,
+        "setGroup": 68,
         "name": {
             "jpn": "ジュラメイル β",
             "eng": "Jyura Mail β",
@@ -3858,9 +3858,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 71,
         "id": 721,
         "order": 75,
+        "setGroup": 71,
         "name": {
             "jpn": "カガチメイル α",
             "eng": "Kadachi Mail α",
@@ -3937,9 +3937,9 @@
         "slots": [
             2
         ],
-        "setGroup": 72,
         "id": 722,
         "order": 76,
+        "setGroup": 72,
         "name": {
             "jpn": "カガチメイル β",
             "eng": "Kadachi Mail β",
@@ -4010,12 +4010,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 93,
         "setSkills": [
             132
         ],
         "id": 723,
         "order": 71,
+        "setGroup": 93,
         "name": {
             "jpn": "ジャナフメイル α",
             "eng": "Anja Mail α",
@@ -4093,12 +4093,12 @@
             1,
             1
         ],
-        "setGroup": 94,
         "setSkills": [
             132
         ],
         "id": 724,
         "order": 72,
+        "setGroup": 94,
         "name": {
             "jpn": "ジャナフメイル β",
             "eng": "Anja Mail β",
@@ -4169,9 +4169,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 73,
         "id": 725,
         "order": 79,
+        "setGroup": 73,
         "name": {
             "jpn": "レイアメイル α",
             "eng": "Rathian Mail α",
@@ -4248,9 +4248,9 @@
         "slots": [
             1
         ],
-        "setGroup": 74,
         "id": 726,
         "order": 80,
+        "setGroup": 74,
         "name": {
             "jpn": "レイアメイル β",
             "eng": "Rathian Mail β",
@@ -4325,9 +4325,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 77,
         "id": 727,
         "order": 63,
+        "setGroup": 77,
         "name": {
             "jpn": "ツィツィメイル α",
             "eng": "Tzitzi Mail α",
@@ -4405,9 +4405,9 @@
             1,
             1
         ],
-        "setGroup": 78,
         "id": 728,
         "order": 64,
+        "setGroup": 78,
         "name": {
             "jpn": "ツィツィメイル β",
             "eng": "Tzitzi Mail β",
@@ -4478,9 +4478,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 79,
         "id": 729,
         "order": 77,
+        "setGroup": 79,
         "name": {
             "jpn": "ウルムーメイル α",
             "eng": "Lumu Mail α",
@@ -4557,9 +4557,9 @@
         "slots": [
             1
         ],
-        "setGroup": 80,
         "id": 730,
         "order": 78,
+        "setGroup": 80,
         "name": {
             "jpn": "ウルムーメイル β",
             "eng": "Lumu Mail β",
@@ -4630,9 +4630,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 75,
         "id": 731,
         "order": 65,
+        "setGroup": 75,
         "name": {
             "jpn": "ギルオスメイル α",
             "eng": "Girros Mail α",
@@ -4705,9 +4705,9 @@
         "slots": [
             1
         ],
-        "setGroup": 76,
         "id": 732,
         "order": 66,
+        "setGroup": 76,
         "name": {
             "jpn": "ギルオスメイル β",
             "eng": "Girros Mail β",
@@ -4778,9 +4778,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 97,
         "id": 733,
         "order": 83,
+        "setGroup": 97,
         "name": {
             "jpn": "バルキンメイル α",
             "eng": "Baan Mail α",
@@ -4857,9 +4857,9 @@
         "slots": [
             1
         ],
-        "setGroup": 98,
         "id": 734,
         "order": 84,
+        "setGroup": 98,
         "name": {
             "jpn": "バルキンメイル β",
             "eng": "Baan Mail β",
@@ -4930,9 +4930,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 89,
         "id": 735,
         "order": 93,
+        "setGroup": 89,
         "name": {
             "jpn": "ハイメタメイル α",
             "eng": "High Metal Mail α",
@@ -5009,9 +5009,9 @@
         "slots": [
             2
         ],
-        "setGroup": 90,
         "id": 736,
         "order": 94,
+        "setGroup": 90,
         "name": {
             "jpn": "ハイメタメイル β",
             "eng": "High Metal Mail β",
@@ -5086,9 +5086,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 91,
         "id": 737,
         "order": 95,
+        "setGroup": 91,
         "name": {
             "jpn": "インゴットメイル α",
             "eng": "Ingot Mail α",
@@ -5161,9 +5161,9 @@
         "slots": [
             1
         ],
-        "setGroup": 92,
         "id": 738,
         "order": 96,
+        "setGroup": 92,
         "name": {
             "jpn": "インゴットメイル β",
             "eng": "Ingot Mail β",
@@ -5234,9 +5234,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 55,
         "id": 739,
         "order": 87,
+        "setGroup": 55,
         "name": {
             "jpn": "バルノスマント α",
             "eng": "Barnos Jacket α",
@@ -5313,9 +5313,9 @@
         "slots": [
             1
         ],
-        "setGroup": 56,
         "id": 740,
         "order": 88,
+        "setGroup": 56,
         "name": {
             "jpn": "バルノスマント β",
             "eng": "Barnos Jacket β",
@@ -5386,12 +5386,12 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 87,
         "setSkills": [
             131
         ],
         "id": 741,
         "order": 81,
+        "setGroup": 87,
         "name": {
             "jpn": "リオハートメイル α",
             "eng": "Rath Heart Mail α",
@@ -5465,12 +5465,12 @@
             1,
             1
         ],
-        "setGroup": 88,
         "setSkills": [
             131
         ],
         "id": 742,
         "order": 82,
+        "setGroup": 88,
         "name": {
             "jpn": "リオハートメイル β",
             "eng": "Rath Heart Mail β",
@@ -5541,12 +5541,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 95,
         "setSkills": [
             152
         ],
         "id": 743,
         "order": 103,
+        "setGroup": 95,
         "name": {
             "jpn": "ギエナメイル α",
             "eng": "Legiana Mail α",
@@ -5623,12 +5623,12 @@
         "slots": [
             1
         ],
-        "setGroup": 96,
         "setSkills": [
             152
         ],
         "id": 744,
         "order": 104,
+        "setGroup": 96,
         "name": {
             "jpn": "ギエナメイル β",
             "eng": "Legiana Mail β",
@@ -5699,12 +5699,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 81,
         "setSkills": [
             154
         ],
         "id": 745,
         "order": 105,
+        "setGroup": 81,
         "name": {
             "jpn": "ガロンメイル α",
             "eng": "Odogaron Mail α",
@@ -5781,12 +5781,12 @@
         "slots": [
             1
         ],
-        "setGroup": 82,
         "setSkills": [
             154
         ],
         "id": 746,
         "order": 106,
+        "setGroup": 82,
         "name": {
             "jpn": "ガロンメイル β",
             "eng": "Odogaron Mail β",
@@ -5857,12 +5857,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 101,
         "setSkills": [
             135
         ],
         "id": 747,
         "order": 107,
+        "setGroup": 101,
         "name": {
             "jpn": "レウスメイル α",
             "eng": "Rathalos Mail α",
@@ -5939,12 +5939,12 @@
         "slots": [
             1
         ],
-        "setGroup": 102,
         "setSkills": [
             135
         ],
         "id": 748,
         "order": 108,
+        "setGroup": 102,
         "name": {
             "jpn": "レウスメイル β",
             "eng": "Rathalos Mail β",
@@ -6017,12 +6017,12 @@
         "slots": [
             1
         ],
-        "setGroup": 111,
         "setSkills": [
             135
         ],
         "id": 749,
         "order": 109,
+        "setGroup": 111,
         "name": {
             "jpn": "リオソウルメイル α",
             "eng": "Rath Soul Mail α",
@@ -6099,12 +6099,12 @@
         "slots": [
             2
         ],
-        "setGroup": 112,
         "setSkills": [
             135
         ],
         "id": 750,
         "order": 110,
+        "setGroup": 112,
         "name": {
             "jpn": "リオソウルメイル β",
             "eng": "Rath Soul Mail β",
@@ -6175,12 +6175,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 103,
         "setSkills": [
             136
         ],
         "id": 751,
         "order": 111,
+        "setGroup": 103,
         "name": {
             "jpn": "ディアブロメイル α",
             "eng": "Diablos Mail α",
@@ -6257,12 +6257,12 @@
         "slots": [
             2
         ],
-        "setGroup": 104,
         "setSkills": [
             136
         ],
         "id": 752,
         "order": 112,
+        "setGroup": 104,
         "name": {
             "jpn": "ディアブロメイル β",
             "eng": "Diablos Mail β",
@@ -6335,12 +6335,12 @@
         "slots": [
             1
         ],
-        "setGroup": 113,
         "setSkills": [
             136
         ],
         "id": 753,
         "order": 113,
+        "setGroup": 113,
         "name": {
             "jpn": "ディアネロメイル α",
             "eng": "Diablos Nero Mail α",
@@ -6414,12 +6414,12 @@
             2,
             1
         ],
-        "setGroup": 114,
         "setSkills": [
             136
         ],
         "id": 754,
         "order": 114,
+        "setGroup": 114,
         "name": {
             "jpn": "ディアネロメイル β",
             "eng": "Diablos Nero Mail β",
@@ -6490,9 +6490,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 83,
         "id": 755,
         "order": 89,
+        "setGroup": 83,
         "name": {
             "jpn": "ガマルメイル α",
             "eng": "Dodogama Mail α",
@@ -6565,9 +6565,9 @@
         "slots": [
             1
         ],
-        "setGroup": 84,
         "id": 756,
         "order": 90,
+        "setGroup": 84,
         "name": {
             "jpn": "ガマルメイル β",
             "eng": "Dodogama Mail β",
@@ -6638,9 +6638,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 85,
         "id": 757,
         "order": 101,
+        "setGroup": 85,
         "name": {
             "jpn": "ラヴァメイル α",
             "eng": "Lavasioth Mail α",
@@ -6718,9 +6718,9 @@
             1,
             1
         ],
-        "setGroup": 86,
         "id": 758,
         "order": 102,
+        "setGroup": 86,
         "name": {
             "jpn": "ラヴァメイル β",
             "eng": "Lavasioth Mail β",
@@ -6793,12 +6793,12 @@
         "slots": [
             1
         ],
-        "setGroup": 109,
         "setSkills": [
             138
         ],
         "id": 759,
         "order": 115,
+        "setGroup": 109,
         "name": {
             "jpn": "ガンキンメイル α",
             "eng": "Uragaan Mail α",
@@ -6871,12 +6871,12 @@
         "slots": [
             3
         ],
-        "setGroup": 110,
         "setSkills": [
             138
         ],
         "id": 760,
         "order": 116,
+        "setGroup": 110,
         "name": {
             "jpn": "ガンキンメイル β",
             "eng": "Uragaan Mail β",
@@ -6949,12 +6949,12 @@
         "slots": [
             1
         ],
-        "setGroup": 107,
         "setSkills": [
             126
         ],
         "id": 761,
         "order": 126,
+        "setGroup": 107,
         "name": {
             "jpn": "オーグメイル α",
             "eng": "Nergigante Mail α",
@@ -7032,12 +7032,12 @@
             2,
             1
         ],
-        "setGroup": 108,
         "setSkills": [
             126
         ],
         "id": 762,
         "order": 127,
+        "setGroup": 108,
         "name": {
             "jpn": "オーグメイル β",
             "eng": "Nergigante Mail β",
@@ -7108,9 +7108,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 117,
         "id": 763,
         "order": 44,
+        "setGroup": 117,
         "name": {
             "jpn": "オウビートペット α",
             "eng": "King Beetle Thorax α",
@@ -7187,9 +7187,9 @@
         "slots": [
             1
         ],
-        "setGroup": 118,
         "id": 764,
         "order": 45,
+        "setGroup": 118,
         "name": {
             "jpn": "オウビートペット β",
             "eng": "King Beetle Thorax β",
@@ -7260,9 +7260,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 160,
         "id": 765,
         "order": 46,
+        "setGroup": 160,
         "name": {
             "jpn": "パピメルペット α",
             "eng": "Butterfly Thorax α",
@@ -7339,9 +7339,9 @@
         "slots": [
             1
         ],
-        "setGroup": 161,
         "id": 766,
         "order": 47,
+        "setGroup": 161,
         "name": {
             "jpn": "パピメルペット β",
             "eng": "Butterfly Thorax β",
@@ -7414,9 +7414,9 @@
         "slots": [
             2
         ],
-        "setGroup": 119,
         "id": 767,
         "order": 97,
+        "setGroup": 119,
         "name": {
             "jpn": "ブリゲイドスーツ α",
             "eng": "Brigade Suit α",
@@ -7490,9 +7490,9 @@
             2,
             2
         ],
-        "setGroup": 120,
         "id": 768,
         "order": 98,
+        "setGroup": 120,
         "name": {
             "jpn": "ブリゲイドスーツ β",
             "eng": "Brigade Suit β",
@@ -7565,9 +7565,9 @@
         "slots": [
             1
         ],
-        "setGroup": 121,
         "id": 769,
         "order": 119,
+        "setGroup": 121,
         "name": {
             "jpn": "ダマスクメイル α",
             "eng": "Damascus Mail α",
@@ -7646,9 +7646,9 @@
             1,
             1
         ],
-        "setGroup": 122,
         "id": 770,
         "order": 120,
+        "setGroup": 122,
         "name": {
             "jpn": "ダマスクメイル β",
             "eng": "Damascus Mail β",
@@ -7721,9 +7721,9 @@
         "slots": [
             1
         ],
-        "setGroup": 123,
         "id": 771,
         "order": 121,
+        "setGroup": 123,
         "name": {
             "jpn": "ドーベルメイル α",
             "eng": "Dober Mail α",
@@ -7800,9 +7800,9 @@
         "slots": [
             3
         ],
-        "setGroup": 124,
         "id": 772,
         "order": 122,
+        "setGroup": 124,
         "name": {
             "jpn": "ドーベルメイル β",
             "eng": "Dober Mail β",
@@ -7873,12 +7873,12 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 129,
         "setSkills": [
             144
         ],
         "id": 773,
         "order": 130,
+        "setGroup": 129,
         "name": {
             "jpn": "クシャナディール α",
             "eng": "Kushala Cista α",
@@ -7955,12 +7955,12 @@
         "slots": [
             2
         ],
-        "setGroup": 130,
         "setSkills": [
             144
         ],
         "id": 774,
         "order": 131,
+        "setGroup": 130,
         "name": {
             "jpn": "クシャナディール β",
             "eng": "Kushala Cista β",
@@ -8031,12 +8031,12 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 127,
         "setSkills": [
             143
         ],
         "id": 775,
         "order": 128,
+        "setGroup": 127,
         "name": {
             "jpn": "カイザーメイル α",
             "eng": "Kaiser Mail α",
@@ -8114,12 +8114,12 @@
             1,
             1
         ],
-        "setGroup": 128,
         "setSkills": [
             143
         ],
         "id": 776,
         "order": 129,
+        "setGroup": 128,
         "name": {
             "jpn": "カイザーメイル β",
             "eng": "Kaiser Mail β",
@@ -8190,12 +8190,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 105,
         "setSkills": [
             137
         ],
         "id": 777,
         "order": 134,
+        "setGroup": 105,
         "name": {
             "jpn": "キリンベスト α",
             "eng": "Kirin Jacket α",
@@ -8272,12 +8272,12 @@
         "slots": [
             1
         ],
-        "setGroup": 106,
         "setSkills": [
             137
         ],
         "id": 778,
         "order": 135,
+        "setGroup": 106,
         "name": {
             "jpn": "キリンベスト β",
             "eng": "Kirin Jacket β",
@@ -8350,12 +8350,12 @@
         "slots": [
             1
         ],
-        "setGroup": 99,
         "setSkills": [
             127
         ],
         "id": 779,
         "order": 132,
+        "setGroup": 99,
         "name": {
             "jpn": "ウルズメイル α",
             "eng": "Vaal Hazak Mail α",
@@ -8433,12 +8433,12 @@
             1,
             1
         ],
-        "setGroup": 100,
         "setSkills": [
             127
         ],
         "id": 780,
         "order": 133,
+        "setGroup": 100,
         "name": {
             "jpn": "ウルズメイル β",
             "eng": "Vaal Hazak Mail β",
@@ -8509,12 +8509,12 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 115,
         "setSkills": [
             142
         ],
         "id": 781,
         "order": 117,
+        "setGroup": 115,
         "name": {
             "jpn": "バゼルメイル α",
             "eng": "Bazel Mail α",
@@ -8592,12 +8592,12 @@
             1,
             1
         ],
-        "setGroup": 116,
         "setSkills": [
             142
         ],
         "id": 782,
         "order": 118,
+        "setGroup": 116,
         "name": {
             "jpn": "バゼルメイル β",
             "eng": "Bazel Mail β",
@@ -8668,9 +8668,9 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 131,
         "id": 783,
         "order": 123,
+        "setGroup": 131,
         "name": {
             "jpn": "デスギアムスケル α",
             "eng": "Death Stench Muscle α",
@@ -8747,9 +8747,9 @@
         "slots": [
             3
         ],
-        "setGroup": 132,
         "id": 784,
         "order": 124,
+        "setGroup": 132,
         "name": {
             "jpn": "デスギアムスケル β",
             "eng": "Death Stench Muscle β",
@@ -8822,12 +8822,12 @@
         "slots": [
             1
         ],
-        "setGroup": 133,
         "setSkills": [
             149
         ],
         "id": 785,
         "order": 138,
+        "setGroup": 133,
         "name": {
             "jpn": "ギルドクロススーツ α",
             "eng": "Guild Cross Suit α",
@@ -8904,12 +8904,12 @@
         "slots": [
             3
         ],
-        "setGroup": 134,
         "setSkills": [
             149
         ],
         "id": 786,
         "order": 139,
+        "setGroup": 134,
         "name": {
             "jpn": "ギルドクロススーツ β",
             "eng": "Guild Cross Suit β",
@@ -8982,12 +8982,12 @@
         "slots": [
             1
         ],
-        "setGroup": 125,
         "setSkills": [
             145
         ],
         "id": 787,
         "order": 136,
+        "setGroup": 125,
         "name": {
             "jpn": "ゼノラージハイド α",
             "eng": "Xeno'jiiva Hide α",
@@ -9065,12 +9065,12 @@
             1,
             1
         ],
-        "setGroup": 126,
         "setSkills": [
             145
         ],
         "id": 788,
         "order": 137,
+        "setGroup": 126,
         "name": {
             "jpn": "ゼノラージハイド β",
             "eng": "Xeno'jiiva Hide β",
@@ -9141,12 +9141,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 137,
         "setSkills": [
             147
         ],
         "id": 791,
         "order": 91,
+        "setGroup": 137,
         "name": {
             "jpn": "ゾラマグナハイド α",
             "eng": "Zorah Hide α",
@@ -9223,12 +9223,12 @@
         "slots": [
             2
         ],
-        "setGroup": 138,
         "setSkills": [
             147
         ],
         "id": 792,
         "order": 92,
+        "setGroup": 138,
         "name": {
             "jpn": "ゾラマグナハイド β",
             "eng": "Zorah Hide β",
@@ -9299,12 +9299,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 149,
         "setSkills": [
             150
         ],
         "id": 793,
         "order": 141,
+        "setGroup": 149,
         "name": {
             "jpn": "シーカーベスト α",
             "eng": "Commission Jacket α",
@@ -9381,12 +9381,12 @@
         "slots": [
             1
         ],
-        "setGroup": 150,
         "setSkills": [
             150
         ],
         "id": 794,
         "order": 142,
+        "setGroup": 150,
         "name": {
             "jpn": "シーカーベスト β",
             "eng": "Commission Jacket β",
@@ -9457,9 +9457,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 164,
         "id": 813,
         "order": 0,
+        "setGroup": 164,
         "name": {
             "jpn": "オリジンメイル",
             "eng": "Origin Mail",
@@ -9514,9 +9514,9 @@
         "slots": [
             1
         ],
-        "setGroup": 191,
         "id": 815,
         "order": 146,
+        "setGroup": 191,
         "name": {
             "jpn": "マムガイラメイル α",
             "eng": "Kulve Taroth's Ire α",
@@ -9594,9 +9594,9 @@
             3,
             1
         ],
-        "setGroup": 192,
         "id": 816,
         "order": 147,
+        "setGroup": 192,
         "name": {
             "jpn": "マムガイラメイル β",
             "eng": "Kulve Taroth's Ire β",
@@ -9671,9 +9671,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 193,
         "id": 817,
         "order": 150,
+        "setGroup": 193,
         "name": {
             "jpn": "ブロッサムベスト",
             "eng": "Blossom Vest",
@@ -9736,9 +9736,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 194,
         "id": 818,
         "order": 151,
+        "setGroup": 194,
         "name": {
             "jpn": "ダイバースーツ",
             "eng": "Diver's Suit",
@@ -9801,9 +9801,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 195,
         "id": 819,
         "order": 152,
+        "setGroup": 195,
         "name": {
             "jpn": "ハーベストトロンコ",
             "eng": "Harvest Tronco",
@@ -9866,9 +9866,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 196,
         "id": 820,
         "order": 153,
+        "setGroup": 196,
         "name": {
             "jpn": "オリオンベスト",
             "eng": "Orion Vest",
@@ -9931,12 +9931,12 @@
             "dragon": 4
         },
         "slots": [],
-        "setGroup": 197,
         "setSkills": [
             168
         ],
         "id": 821,
         "order": 154,
+        "setGroup": 197,
         "name": {
             "jpn": "フルドレススーツ",
             "eng": "Gala Suit Jacket",
@@ -10001,9 +10001,9 @@
         "slots": [
             2
         ],
-        "setGroup": 201,
         "id": 823,
         "order": 144,
+        "setGroup": 201,
         "name": {
             "jpn": "バンギスメイル α",
             "eng": "Vangis Mail α",
@@ -10080,9 +10080,9 @@
         "slots": [
             3
         ],
-        "setGroup": 202,
         "id": 824,
         "order": 145,
+        "setGroup": 202,
         "name": {
             "jpn": "バンギスメイル β",
             "eng": "Vangis Mail β",
@@ -10155,12 +10155,12 @@
         "slots": [
             3
         ],
-        "setGroup": 206,
         "setSkills": [
             164
         ],
         "id": 828,
         "order": 183,
+        "setGroup": 206,
         "name": {
             "jpn": "ドラケンメイル α",
             "eng": "Drachen Mail α",
@@ -10238,9 +10238,9 @@
             1,
             1
         ],
-        "setGroup": 207,
         "id": 829,
         "order": 155,
+        "setGroup": 207,
         "name": {
             "jpn": "ブロッサムベスト α",
             "eng": "Blossom Vest α",
@@ -10305,9 +10305,9 @@
         "slots": [
             2
         ],
-        "setGroup": 208,
         "id": 830,
         "order": 156,
+        "setGroup": 208,
         "name": {
             "jpn": "ダイバースーツ α",
             "eng": "Diver's Suit α",
@@ -10377,9 +10377,9 @@
             2,
             1
         ],
-        "setGroup": 209,
         "id": 831,
         "order": 157,
+        "setGroup": 209,
         "name": {
             "jpn": "ハーベストトロンコ α",
             "eng": "Harvest Tronco α",
@@ -10448,9 +10448,9 @@
         "slots": [
             3
         ],
-        "setGroup": 210,
         "id": 832,
         "order": 158,
+        "setGroup": 210,
         "name": {
             "jpn": "オリオンベスト α",
             "eng": "Orion Vest α",
@@ -10521,12 +10521,12 @@
             1,
             1
         ],
-        "setGroup": 211,
         "setSkills": [
             168
         ],
         "id": 833,
         "order": 159,
+        "setGroup": 211,
         "name": {
             "jpn": "フルドレススーツ α",
             "eng": "Gala Suit Jacket α",
@@ -10593,9 +10593,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 212,
         "id": 834,
         "order": 160,
+        "setGroup": 212,
         "name": {
             "jpn": "パピオムペット",
             "eng": "Butterfly Thorax",
@@ -10666,9 +10666,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 213,
         "id": 835,
         "order": 161,
+        "setGroup": 213,
         "name": {
             "jpn": "パピオムペット α",
             "eng": "Butterfly Thorax α",
@@ -10745,9 +10745,9 @@
         "slots": [
             1
         ],
-        "setGroup": 214,
         "id": 836,
         "order": 162,
+        "setGroup": 214,
         "name": {
             "jpn": "パピオムペット β",
             "eng": "Butterfly Thorax β",
@@ -10818,9 +10818,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 215,
         "id": 837,
         "order": 163,
+        "setGroup": 215,
         "name": {
             "jpn": "クインビートペット",
             "eng": "Queen Beetle Thorax",
@@ -10891,9 +10891,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 216,
         "id": 838,
         "order": 164,
+        "setGroup": 216,
         "name": {
             "jpn": "クインビートペット α",
             "eng": "Queen Beetle Thorax α",
@@ -10970,9 +10970,9 @@
         "slots": [
             1
         ],
-        "setGroup": 217,
         "id": 839,
         "order": 165,
+        "setGroup": 217,
         "name": {
             "jpn": "クインビートペット β",
             "eng": "Queen Beetle Thorax β",
@@ -11045,12 +11045,12 @@
         "slots": [
             3
         ],
-        "setGroup": 218,
         "setSkills": [
             127
         ],
         "id": 840,
         "order": 166,
+        "setGroup": 218,
         "name": {
             "jpn": "ウルズメイル γ",
             "eng": "Vaal Hazak Mail γ",
@@ -11128,12 +11128,12 @@
             1,
             1
         ],
-        "setGroup": 219,
         "setSkills": [
             137
         ],
         "id": 841,
         "order": 167,
+        "setGroup": 219,
         "name": {
             "jpn": "キリンベスト γ",
             "eng": "Kirin Jacket γ",
@@ -11206,12 +11206,12 @@
         "slots": [
             2
         ],
-        "setGroup": 220,
         "setSkills": [
             143
         ],
         "id": 842,
         "order": 168,
+        "setGroup": 220,
         "name": {
             "jpn": "カイザーメイル γ",
             "eng": "Kaiser Mail γ",
@@ -11288,12 +11288,12 @@
         "slots": [
             2
         ],
-        "setGroup": 221,
         "setSkills": [
             144
         ],
         "id": 843,
         "order": 169,
+        "setGroup": 221,
         "name": {
             "jpn": "クシャナディール γ",
             "eng": "Kushala Cista γ",
@@ -11372,12 +11372,12 @@
             2,
             1
         ],
-        "setGroup": 222,
         "setSkills": [
             126
         ],
         "id": 844,
         "order": 170,
+        "setGroup": 222,
         "name": {
             "jpn": "オーグメイル γ",
             "eng": "Nergigante Mail γ",
@@ -11452,12 +11452,12 @@
             1,
             1
         ],
-        "setGroup": 223,
         "setSkills": [
             147
         ],
         "id": 845,
         "order": 171,
+        "setGroup": 223,
         "name": {
             "jpn": "ゾラマグナハイド γ",
             "eng": "Zorah Hide γ",
@@ -11531,12 +11531,12 @@
             1,
             1
         ],
-        "setGroup": 224,
         "setSkills": [
             145
         ],
         "id": 846,
         "order": 172,
+        "setGroup": 224,
         "name": {
             "jpn": "ゼノラージハイド γ",
             "eng": "Xeno'jiiva Hide γ",
@@ -11609,12 +11609,12 @@
         "slots": [
             2
         ],
-        "setGroup": 229,
         "setSkills": [
             135
         ],
         "id": 851,
         "order": 180,
+        "setGroup": 229,
         "name": {
             "jpn": "蒼星ノ将【鎧】 α",
             "eng": "Azure Starlord Armor α",
@@ -11687,9 +11687,9 @@
         "slots": [
             3
         ],
-        "setGroup": 230,
         "id": 852,
         "order": 182,
+        "setGroup": 230,
         "name": {
             "jpn": "ダンテコート α",
             "eng": "Dante's Coat α",
@@ -11767,12 +11767,12 @@
             1,
             1
         ],
-        "setGroup": 231,
         "setSkills": [
             163
         ],
         "id": 853,
         "order": 148,
+        "setGroup": 231,
         "name": {
             "jpn": "エンプレスメイル α",
             "eng": "Empress Mail α",
@@ -11851,12 +11851,12 @@
             1,
             1
         ],
-        "setGroup": 232,
         "setSkills": [
             163
         ],
         "id": 854,
         "order": 149,
+        "setGroup": 232,
         "name": {
             "jpn": "エンプレスメイル β",
             "eng": "Empress Mail β",
@@ -11929,12 +11929,12 @@
         "slots": [
             3
         ],
-        "setGroup": 242,
         "setSkills": [
             163
         ],
         "id": 864,
         "order": 173,
+        "setGroup": 242,
         "name": {
             "jpn": "エンプレスメイル γ",
             "eng": "Empress Mail γ",
@@ -12011,9 +12011,9 @@
         "slots": [
             1
         ],
-        "setGroup": 247,
         "id": 869,
         "order": 174,
+        "setGroup": 247,
         "name": {
             "jpn": "マムガイラメイル γ",
             "eng": "Kulve Taroth's Ire γ",
@@ -12088,9 +12088,9 @@
             "dragon": 3
         },
         "slots": [],
-        "setGroup": 248,
         "id": 870,
         "order": 298,
+        "setGroup": 248,
         "name": {
             "jpn": "防衛隊【鎧】 α",
             "eng": "Defender Mail α",
@@ -12150,9 +12150,9 @@
         "slots": [
             2
         ],
-        "setGroup": 302,
         "id": 873,
         "order": 302,
+        "setGroup": 302,
         "name": {
             "jpn": "EXボーンメイル α",
             "eng": "Bone Mail α+",
@@ -12226,9 +12226,9 @@
             4,
             1
         ],
-        "setGroup": 303,
         "id": 874,
         "order": 303,
+        "setGroup": 303,
         "name": {
             "jpn": "EXボーンメイル β",
             "eng": "Bone Mail β+",
@@ -12297,9 +12297,9 @@
         "slots": [
             3
         ],
-        "setGroup": 304,
         "id": 875,
         "order": 304,
+        "setGroup": 304,
         "name": {
             "jpn": "EXアロイメイル α",
             "eng": "Alloy Mail α+",
@@ -12373,9 +12373,9 @@
             4,
             1
         ],
-        "setGroup": 305,
         "id": 876,
         "order": 305,
+        "setGroup": 305,
         "name": {
             "jpn": "EXアロイメイル β",
             "eng": "Alloy Mail β+",
@@ -12445,9 +12445,9 @@
             2,
             1
         ],
-        "setGroup": 306,
         "id": 877,
         "order": 306,
+        "setGroup": 306,
         "name": {
             "jpn": "EXランゴメイル α",
             "eng": "Vespoid Mail α+",
@@ -12517,9 +12517,9 @@
             4,
             1
         ],
-        "setGroup": 307,
         "id": 878,
         "order": 307,
+        "setGroup": 307,
         "name": {
             "jpn": "EXランゴメイル β",
             "eng": "Vespoid Mail β+",
@@ -12589,9 +12589,9 @@
             2,
             1
         ],
-        "setGroup": 308,
         "id": 879,
         "order": 308,
+        "setGroup": 308,
         "name": {
             "jpn": "EXタロスメイル α",
             "eng": "Hornetaur Mail α+",
@@ -12666,9 +12666,9 @@
             2,
             1
         ],
-        "setGroup": 309,
         "id": 880,
         "order": 309,
+        "setGroup": 309,
         "name": {
             "jpn": "EXタロスメイル β",
             "eng": "Hornetaur Mail β+",
@@ -12738,9 +12738,9 @@
             2,
             2
         ],
-        "setGroup": 318,
         "id": 881,
         "order": 318,
+        "setGroup": 318,
         "name": {
             "jpn": "EXバルノスマント α",
             "eng": "Barnos Jacket α+",
@@ -12814,9 +12814,9 @@
             4,
             2
         ],
-        "setGroup": 319,
         "id": 882,
         "order": 319,
+        "setGroup": 319,
         "name": {
             "jpn": "EXバルノスマント β",
             "eng": "Barnos Jacket β+",
@@ -12890,9 +12890,9 @@
             1,
             1
         ],
-        "setGroup": 322,
         "id": 883,
         "order": 322,
+        "setGroup": 322,
         "name": {
             "jpn": "EXコルトスマント α",
             "eng": "Cortos Cape α+",
@@ -12965,9 +12965,9 @@
         "slots": [
             4
         ],
-        "setGroup": 323,
         "id": 884,
         "order": 323,
+        "setGroup": 323,
         "name": {
             "jpn": "EXコルトスマント β",
             "eng": "Cortos Cape β+",
@@ -13040,9 +13040,9 @@
         "slots": [
             3
         ],
-        "setGroup": 324,
         "id": 885,
         "order": 324,
+        "setGroup": 324,
         "name": {
             "jpn": "EXジャグラスメイル α",
             "eng": "Jagras Mail α+",
@@ -13119,9 +13119,9 @@
         "slots": [
             4
         ],
-        "setGroup": 325,
         "id": 886,
         "order": 325,
+        "setGroup": 325,
         "name": {
             "jpn": "EXジャグラスメイル β",
             "eng": "Jagras Mail β+",
@@ -13199,9 +13199,9 @@
             1,
             1
         ],
-        "setGroup": 326,
         "id": 887,
         "order": 326,
+        "setGroup": 326,
         "name": {
             "jpn": "EXツィツィメイル α",
             "eng": "Tzitzi Mail α+",
@@ -13279,9 +13279,9 @@
             4,
             1
         ],
-        "setGroup": 327,
         "id": 888,
         "order": 327,
+        "setGroup": 327,
         "name": {
             "jpn": "EXツィツィメイル β",
             "eng": "Tzitzi Mail β+",
@@ -13358,9 +13358,9 @@
         "slots": [
             2
         ],
-        "setGroup": 328,
         "id": 889,
         "order": 328,
+        "setGroup": 328,
         "name": {
             "jpn": "EXギルオスメイル α",
             "eng": "Girros Mail α+",
@@ -13438,9 +13438,9 @@
             4,
             2
         ],
-        "setGroup": 329,
         "id": 890,
         "order": 329,
+        "setGroup": 329,
         "name": {
             "jpn": "EXギルオスメイル β",
             "eng": "Girros Mail β+",
@@ -13513,9 +13513,9 @@
         "slots": [
             2
         ],
-        "setGroup": 330,
         "id": 891,
         "order": 330,
+        "setGroup": 330,
         "name": {
             "jpn": "EXガマルメイル α",
             "eng": "Dodogama Mail α+",
@@ -13592,9 +13592,9 @@
         "slots": [
             4
         ],
-        "setGroup": 331,
         "id": 892,
         "order": 331,
+        "setGroup": 331,
         "name": {
             "jpn": "EXガマルメイル β",
             "eng": "Dodogama Mail β+",
@@ -13667,9 +13667,9 @@
         "slots": [
             2
         ],
-        "setGroup": 332,
         "id": 893,
         "order": 332,
+        "setGroup": 332,
         "name": {
             "jpn": "EXクルルメイル α",
             "eng": "Kulu Mail α+",
@@ -13746,9 +13746,9 @@
         "slots": [
             4
         ],
-        "setGroup": 333,
         "id": 894,
         "order": 333,
+        "setGroup": 333,
         "name": {
             "jpn": "EXクルルメイル β",
             "eng": "Kulu Mail β+",
@@ -13825,9 +13825,9 @@
         "slots": [
             2
         ],
-        "setGroup": 334,
         "id": 895,
         "order": 334,
+        "setGroup": 334,
         "name": {
             "jpn": "EXプケプケメイル α",
             "eng": "Pukei Mail α+",
@@ -13900,9 +13900,9 @@
         "slots": [
             4
         ],
-        "setGroup": 335,
         "id": 896,
         "order": 335,
+        "setGroup": 335,
         "name": {
             "jpn": "EXプケプケメイル β",
             "eng": "Pukei Mail β+",
@@ -13976,9 +13976,9 @@
             1,
             1
         ],
-        "setGroup": 336,
         "id": 897,
         "order": 338,
+        "setGroup": 336,
         "name": {
             "jpn": "EXボロスメイル α",
             "eng": "Barroth Mail α+",
@@ -14052,9 +14052,9 @@
             4,
             1
         ],
-        "setGroup": 337,
         "id": 898,
         "order": 339,
+        "setGroup": 337,
         "name": {
             "jpn": "EXボロスメイル β",
             "eng": "Barroth Mail β+",
@@ -14123,9 +14123,9 @@
         "slots": [
             2
         ],
-        "setGroup": 338,
         "id": 899,
         "order": 340,
+        "setGroup": 338,
         "name": {
             "jpn": "EXジュラメイル α",
             "eng": "Jyura Mail α+",
@@ -14198,9 +14198,9 @@
         "slots": [
             4
         ],
-        "setGroup": 339,
         "id": 900,
         "order": 341,
+        "setGroup": 339,
         "name": {
             "jpn": "EXジュラメイル β",
             "eng": "Jyura Mail β+",
@@ -14273,9 +14273,9 @@
         "slots": [
             3
         ],
-        "setGroup": 340,
         "id": 901,
         "order": 342,
+        "setGroup": 340,
         "name": {
             "jpn": "EXブランメイル α",
             "eng": "Beo Mail α+",
@@ -14349,9 +14349,9 @@
             4,
             2
         ],
-        "setGroup": 341,
         "id": 902,
         "order": 343,
+        "setGroup": 341,
         "name": {
             "jpn": "EXブランメイル β",
             "eng": "Beo Mail β+",
@@ -14421,9 +14421,9 @@
             2,
             1
         ],
-        "setGroup": 342,
         "id": 903,
         "order": 344,
+        "setGroup": 342,
         "name": {
             "jpn": "EXカガチメイル α",
             "eng": "Kadachi Mail α+",
@@ -14497,9 +14497,9 @@
             4,
             2
         ],
-        "setGroup": 343,
         "id": 904,
         "order": 345,
+        "setGroup": 343,
         "name": {
             "jpn": "EXカガチメイル β",
             "eng": "Kadachi Mail β+",
@@ -14568,9 +14568,9 @@
         "slots": [
             2
         ],
-        "setGroup": 344,
         "id": 905,
         "order": 348,
+        "setGroup": 344,
         "name": {
             "jpn": "EXハイメタメイル α",
             "eng": "High Metal Mail α+",
@@ -14648,9 +14648,9 @@
             4,
             1
         ],
-        "setGroup": 345,
         "id": 906,
         "order": 349,
+        "setGroup": 345,
         "name": {
             "jpn": "EXハイメタメイル β",
             "eng": "High Metal Mail β+",
@@ -14727,9 +14727,9 @@
         "slots": [
             3
         ],
-        "setGroup": 346,
         "id": 907,
         "order": 350,
+        "setGroup": 346,
         "name": {
             "jpn": "EXバフバロメイル α",
             "eng": "Banbaro Mail α+",
@@ -14807,9 +14807,9 @@
             4,
             1
         ],
-        "setGroup": 347,
         "id": 908,
         "order": 351,
+        "setGroup": 347,
         "name": {
             "jpn": "EXバフバロメイル β",
             "eng": "Banbaro Mail β+",
@@ -14883,12 +14883,12 @@
             1,
             1
         ],
-        "setGroup": 348,
         "setSkills": [
             182
         ],
         "id": 909,
         "order": 352,
+        "setGroup": 348,
         "name": {
             "jpn": "EXジャナフメイル α",
             "eng": "Anja Mail α+",
@@ -14966,12 +14966,12 @@
             4,
             1
         ],
-        "setGroup": 349,
         "setSkills": [
             182
         ],
         "id": 910,
         "order": 353,
+        "setGroup": 349,
         "name": {
             "jpn": "EXジャナフメイル β",
             "eng": "Anja Mail β+",
@@ -15049,12 +15049,12 @@
             2,
             2
         ],
-        "setGroup": 350,
         "setSkills": [
             183
         ],
         "id": 911,
         "order": 356,
+        "setGroup": 350,
         "name": {
             "jpn": "EXレイアメイル α",
             "eng": "Rathian Mail α+",
@@ -15128,12 +15128,12 @@
             4,
             2
         ],
-        "setGroup": 351,
         "setSkills": [
             183
         ],
         "id": 912,
         "order": 357,
+        "setGroup": 351,
         "name": {
             "jpn": "EXレイアメイル β",
             "eng": "Rathian Mail β+",
@@ -15206,12 +15206,12 @@
         "slots": [
             2
         ],
-        "setGroup": 352,
         "setSkills": [
             183
         ],
         "id": 913,
         "order": 358,
+        "setGroup": 352,
         "name": {
             "jpn": "EXリオハートメイル α",
             "eng": "Rath Heart Mail α+",
@@ -15290,12 +15290,12 @@
             1,
             1
         ],
-        "setGroup": 353,
         "setSkills": [
             183
         ],
         "id": 914,
         "order": 359,
+        "setGroup": 353,
         "name": {
             "jpn": "EXリオハートメイル β",
             "eng": "Rath Heart Mail β+",
@@ -15369,9 +15369,9 @@
             3,
             1
         ],
-        "setGroup": 354,
         "id": 915,
         "order": 360,
+        "setGroup": 354,
         "name": {
             "jpn": "EXウルムーメイル α",
             "eng": "Lumu Mail α+",
@@ -15445,9 +15445,9 @@
             4,
             1
         ],
-        "setGroup": 355,
         "id": 916,
         "order": 361,
+        "setGroup": 355,
         "name": {
             "jpn": "EXウルムーメイル β",
             "eng": "Lumu Mail β+",
@@ -15516,9 +15516,9 @@
         "slots": [
             2
         ],
-        "setGroup": 356,
         "id": 917,
         "order": 362,
+        "setGroup": 356,
         "name": {
             "jpn": "EXウルムメアメイル α",
             "eng": "Lumu Phantasm Mail α+",
@@ -15592,9 +15592,9 @@
             4,
             1
         ],
-        "setGroup": 357,
         "id": 918,
         "order": 363,
+        "setGroup": 357,
         "name": {
             "jpn": "EXウルムメアメイル β",
             "eng": "Lumu Phantasm Mail β+",
@@ -15663,9 +15663,9 @@
         "slots": [
             2
         ],
-        "setGroup": 358,
         "id": 919,
         "order": 336,
+        "setGroup": 358,
         "name": {
             "jpn": "EXプケラグーナメイル α",
             "eng": "Pukei Lagoon Mail α+",
@@ -15739,9 +15739,9 @@
             4,
             1
         ],
-        "setGroup": 359,
         "id": 920,
         "order": 337,
+        "setGroup": 359,
         "name": {
             "jpn": "EXプケラグーナメイル β",
             "eng": "Pukei Lagoon Mail β+",
@@ -15811,9 +15811,9 @@
             1,
             1
         ],
-        "setGroup": 360,
         "id": 921,
         "order": 346,
+        "setGroup": 360,
         "name": {
             "jpn": "EXベニカガチメイル α",
             "eng": "Viper Kadachi Mail α+",
@@ -15887,9 +15887,9 @@
             4,
             1
         ],
-        "setGroup": 361,
         "id": 922,
         "order": 347,
+        "setGroup": 361,
         "name": {
             "jpn": "EXベニカガチメイル β",
             "eng": "Viper Kadachi Mail β+",
@@ -15958,9 +15958,9 @@
         "slots": [
             3
         ],
-        "setGroup": 362,
         "id": 923,
         "order": 364,
+        "setGroup": 362,
         "name": {
             "jpn": "EXバルキンメイル α",
             "eng": "Baan Mail α+",
@@ -16033,9 +16033,9 @@
         "slots": [
             4
         ],
-        "setGroup": 363,
         "id": 924,
         "order": 365,
+        "setGroup": 363,
         "name": {
             "jpn": "EXバルキンメイル β",
             "eng": "Baan Mail β+",
@@ -16104,9 +16104,9 @@
         "slots": [
             3
         ],
-        "setGroup": 378,
         "id": 933,
         "order": 370,
+        "setGroup": 378,
         "name": {
             "jpn": "EXインゴットメイル α",
             "eng": "Ingot Mail α+",
@@ -16179,9 +16179,9 @@
         "slots": [
             4
         ],
-        "setGroup": 379,
         "id": 934,
         "order": 371,
+        "setGroup": 379,
         "name": {
             "jpn": "EXインゴットメイル β",
             "eng": "Ingot Mail β+",
@@ -16254,12 +16254,12 @@
         "slots": [
             3
         ],
-        "setGroup": 380,
         "setSkills": [
             188
         ],
         "id": 935,
         "order": 372,
+        "setGroup": 380,
         "name": {
             "jpn": "EXベリオメイル α",
             "eng": "Barioth Mail α+",
@@ -16337,12 +16337,12 @@
             4,
             1
         ],
-        "setGroup": 381,
         "setSkills": [
             188
         ],
         "id": 936,
         "order": 373,
+        "setGroup": 381,
         "name": {
             "jpn": "EXベリオメイル β",
             "eng": "Barioth Mail β+",
@@ -16416,12 +16416,12 @@
             1,
             1
         ],
-        "setGroup": 382,
         "setSkills": [
             189
         ],
         "id": 937,
         "order": 374,
+        "setGroup": 382,
         "name": {
             "jpn": "EXレウスメイル α",
             "eng": "Rathalos Mail α+",
@@ -16498,12 +16498,12 @@
         "slots": [
             4
         ],
-        "setGroup": 383,
         "setSkills": [
             189
         ],
         "id": 938,
         "order": 375,
+        "setGroup": 383,
         "name": {
             "jpn": "EXレウスメイル β",
             "eng": "Rathalos Mail β+",
@@ -16576,12 +16576,12 @@
         "slots": [
             2
         ],
-        "setGroup": 384,
         "setSkills": [
             190
         ],
         "id": 939,
         "order": 378,
+        "setGroup": 384,
         "name": {
             "jpn": "EXディアブロメイル α",
             "eng": "Diablos Mail α+",
@@ -16659,12 +16659,12 @@
             4,
             1
         ],
-        "setGroup": 385,
         "setSkills": [
             190
         ],
         "id": 940,
         "order": 379,
+        "setGroup": 385,
         "name": {
             "jpn": "EXディアブロメイル β",
             "eng": "Diablos Mail β+",
@@ -16741,12 +16741,12 @@
         "slots": [
             1
         ],
-        "setGroup": 386,
         "setSkills": [
             191
         ],
         "id": 941,
         "order": 382,
+        "setGroup": 386,
         "name": {
             "jpn": "EXギエナメイル α",
             "eng": "Legiana Mail α+",
@@ -16823,12 +16823,12 @@
         "slots": [
             4
         ],
-        "setGroup": 387,
         "setSkills": [
             191
         ],
         "id": 942,
         "order": 383,
+        "setGroup": 387,
         "name": {
             "jpn": "EXギエナメイル β",
             "eng": "Legiana Mail β+",
@@ -16905,12 +16905,12 @@
         "slots": [
             3
         ],
-        "setGroup": 388,
         "setSkills": [
             192
         ],
         "id": 943,
         "order": 386,
+        "setGroup": 388,
         "name": {
             "jpn": "EXガロンメイル α",
             "eng": "Odogaron Mail α+",
@@ -16988,12 +16988,12 @@
             4,
             1
         ],
-        "setGroup": 389,
         "setSkills": [
             192
         ],
         "id": 944,
         "order": 387,
+        "setGroup": 389,
         "name": {
             "jpn": "EXガロンメイル β",
             "eng": "Odogaron Mail β+",
@@ -17067,9 +17067,9 @@
             1,
             1
         ],
-        "setGroup": 390,
         "id": 945,
         "order": 390,
+        "setGroup": 390,
         "name": {
             "jpn": "EXラヴァメイル α",
             "eng": "Lavasioth Mail α+",
@@ -17147,9 +17147,9 @@
             4,
             1
         ],
-        "setGroup": 391,
         "id": 946,
         "order": 391,
+        "setGroup": 391,
         "name": {
             "jpn": "EXラヴァメイル β",
             "eng": "Lavasioth Mail β+",
@@ -17226,12 +17226,12 @@
         "slots": [
             3
         ],
-        "setGroup": 392,
         "setSkills": [
             193
         ],
         "id": 947,
         "order": 392,
+        "setGroup": 392,
         "name": {
             "jpn": "EXガンキンメイル α",
             "eng": "Uragaan Mail α+",
@@ -17308,12 +17308,12 @@
         "slots": [
             4
         ],
-        "setGroup": 393,
         "setSkills": [
             193
         ],
         "id": 948,
         "order": 393,
+        "setGroup": 393,
         "name": {
             "jpn": "EXガンキンメイル β",
             "eng": "Uragaan Mail β+",
@@ -17386,12 +17386,12 @@
         "slots": [
             2
         ],
-        "setGroup": 394,
         "setSkills": [
             171
         ],
         "id": 949,
         "order": 394,
+        "setGroup": 394,
         "name": {
             "jpn": "EXナルガメイル α",
             "eng": "Nargacuga Mail α+",
@@ -17468,12 +17468,12 @@
         "slots": [
             4
         ],
-        "setGroup": 395,
         "setSkills": [
             171
         ],
         "id": 950,
         "order": 395,
+        "setGroup": 395,
         "name": {
             "jpn": "EXナルガメイル β",
             "eng": "Nargacuga Mail β+",
@@ -17546,12 +17546,12 @@
         "slots": [
             1
         ],
-        "setGroup": 396,
         "setSkills": [
             173
         ],
         "id": 951,
         "order": 396,
+        "setGroup": 396,
         "name": {
             "jpn": "EXディノメイル α",
             "eng": "Glavenus Mail α+",
@@ -17628,12 +17628,12 @@
         "slots": [
             4
         ],
-        "setGroup": 397,
         "setSkills": [
             173
         ],
         "id": 952,
         "order": 397,
+        "setGroup": 397,
         "name": {
             "jpn": "EXディノメイル β",
             "eng": "Glavenus Mail β+",
@@ -17710,12 +17710,12 @@
         "slots": [
             1
         ],
-        "setGroup": 398,
         "setSkills": [
             172
         ],
         "id": 953,
         "order": 400,
+        "setGroup": 398,
         "name": {
             "jpn": "EXブラキメイル α",
             "eng": "Brachydios Mail α+",
@@ -17792,12 +17792,12 @@
         "slots": [
             4
         ],
-        "setGroup": 399,
         "setSkills": [
             172
         ],
         "id": 954,
         "order": 401,
+        "setGroup": 399,
         "name": {
             "jpn": "EXブラキメイル β",
             "eng": "Brachydios Mail β+",
@@ -17874,12 +17874,12 @@
         "slots": [
             2
         ],
-        "setGroup": 400,
         "setSkills": [
             170
         ],
         "id": 955,
         "order": 402,
+        "setGroup": 400,
         "name": {
             "jpn": "EXレックスメイル α",
             "eng": "Tigrex Mail α+",
@@ -17957,12 +17957,12 @@
             4,
             1
         ],
-        "setGroup": 401,
         "setSkills": [
             170
         ],
         "id": 956,
         "order": 403,
+        "setGroup": 401,
         "name": {
             "jpn": "EXレックスメイル β",
             "eng": "Tigrex Mail β+",
@@ -18035,12 +18035,12 @@
         "slots": [
             3
         ],
-        "setGroup": 402,
         "setSkills": [
             182
         ],
         "id": 957,
         "order": 354,
+        "setGroup": 402,
         "name": {
             "jpn": "EXジャナールメイル α",
             "eng": "Fulgur Mail α+",
@@ -18117,12 +18117,12 @@
         "slots": [
             4
         ],
-        "setGroup": 403,
         "setSkills": [
             182
         ],
         "id": 958,
         "order": 355,
+        "setGroup": 403,
         "name": {
             "jpn": "EXジャナールメイル β",
             "eng": "Fulgur Mail β+",
@@ -18201,12 +18201,12 @@
             1,
             1
         ],
-        "setGroup": 406,
         "setSkills": [
             181
         ],
         "id": 961,
         "order": 406,
+        "setGroup": 406,
         "name": {
             "jpn": "EXクロオビメイル α",
             "eng": "Black Belt Mail α+",
@@ -18281,12 +18281,12 @@
             1,
             1
         ],
-        "setGroup": 407,
         "setSkills": [
             181
         ],
         "id": 962,
         "order": 407,
+        "setGroup": 407,
         "name": {
             "jpn": "EXクロオビメイル β",
             "eng": "Black Belt Mail β+",
@@ -18356,12 +18356,12 @@
             1,
             1
         ],
-        "setGroup": 413,
         "setSkills": [
             191
         ],
         "id": 965,
         "order": 384,
+        "setGroup": 413,
         "name": {
             "jpn": "EXブリーナメイル α",
             "eng": "Hoarcry Mail α+",
@@ -18438,12 +18438,12 @@
         "slots": [
             4
         ],
-        "setGroup": 414,
         "setSkills": [
             191
         ],
         "id": 966,
         "order": 385,
+        "setGroup": 414,
         "name": {
             "jpn": "EXブリーナメイル β",
             "eng": "Hoarcry Mail β+",
@@ -18516,12 +18516,12 @@
         "slots": [
             2
         ],
-        "setGroup": 415,
         "setSkills": [
             189
         ],
         "id": 967,
         "order": 376,
+        "setGroup": 415,
         "name": {
             "jpn": "EXリオソウルメイル α",
             "eng": "Rath Soul Mail α+",
@@ -18599,12 +18599,12 @@
             4,
             1
         ],
-        "setGroup": 416,
         "setSkills": [
             189
         ],
         "id": 968,
         "order": 377,
+        "setGroup": 416,
         "name": {
             "jpn": "EXリオソウルメイル β",
             "eng": "Rath Soul Mail β+",
@@ -18677,12 +18677,12 @@
         "slots": [
             2
         ],
-        "setGroup": 417,
         "setSkills": [
             190
         ],
         "id": 969,
         "order": 380,
+        "setGroup": 417,
         "name": {
             "jpn": "EXディアネロメイル α",
             "eng": "Diablos Nero Mail α+",
@@ -18760,12 +18760,12 @@
             4,
             1
         ],
-        "setGroup": 418,
         "setSkills": [
             190
         ],
         "id": 970,
         "order": 381,
+        "setGroup": 418,
         "name": {
             "jpn": "EXディアネロメイル β",
             "eng": "Diablos Nero Mail β+",
@@ -18842,12 +18842,12 @@
         "slots": [
             2
         ],
-        "setGroup": 419,
         "setSkills": [
             192
         ],
         "id": 971,
         "order": 388,
+        "setGroup": 419,
         "name": {
             "jpn": "EXデスガロンメイル α",
             "eng": "Death Garon Mail α+",
@@ -18925,12 +18925,12 @@
             4,
             1
         ],
-        "setGroup": 420,
         "setSkills": [
             192
         ],
         "id": 972,
         "order": 389,
+        "setGroup": 420,
         "name": {
             "jpn": "EXデスガロンメイル β",
             "eng": "Death Garon Mail β+",
@@ -19007,12 +19007,12 @@
         "slots": [
             1
         ],
-        "setGroup": 421,
         "setSkills": [
             173
         ],
         "id": 973,
         "order": 398,
+        "setGroup": 421,
         "name": {
             "jpn": "EXディノイエロメイル α",
             "eng": "Acidic Glavenus Mail α+",
@@ -19090,12 +19090,12 @@
             4,
             1
         ],
-        "setGroup": 422,
         "setSkills": [
             173
         ],
         "id": 974,
         "order": 399,
+        "setGroup": 422,
         "name": {
             "jpn": "EXディノイエロメイル β",
             "eng": "Acidic Glavenus Mail β+",
@@ -19172,12 +19172,12 @@
         "slots": [
             1
         ],
-        "setGroup": 423,
         "setSkills": [
             179
         ],
         "id": 975,
         "order": 366,
+        "setGroup": 423,
         "name": {
             "jpn": "EXアーティアメイル α",
             "eng": "Artian Mail α+",
@@ -19254,12 +19254,12 @@
         "slots": [
             4
         ],
-        "setGroup": 424,
         "setSkills": [
             179
         ],
         "id": 976,
         "order": 367,
+        "setGroup": 424,
         "name": {
             "jpn": "EXアーティアメイル β",
             "eng": "Artian Mail β+",
@@ -19338,9 +19338,9 @@
             1,
             1
         ],
-        "setGroup": 428,
         "id": 979,
         "order": 408,
+        "setGroup": 428,
         "name": {
             "jpn": "EXドーベルメイル α",
             "eng": "Dober Mail α+",
@@ -19419,9 +19419,9 @@
             1,
             1
         ],
-        "setGroup": 429,
         "id": 980,
         "order": 409,
+        "setGroup": 429,
         "name": {
             "jpn": "EXドーベルメイル β",
             "eng": "Dober Mail β+",
@@ -19499,9 +19499,9 @@
             3,
             1
         ],
-        "setGroup": 430,
         "id": 981,
         "order": 410,
+        "setGroup": 430,
         "name": {
             "jpn": "EXダマスクメイル α",
             "eng": "Damascus Mail α+",
@@ -19580,9 +19580,9 @@
             2,
             1
         ],
-        "setGroup": 431,
         "id": 982,
         "order": 411,
+        "setGroup": 431,
         "name": {
             "jpn": "EXダマスクメイル β",
             "eng": "Damascus Mail β+",
@@ -19655,12 +19655,12 @@
         "slots": [
             1
         ],
-        "setGroup": 432,
         "setSkills": [
             178
         ],
         "id": 983,
         "order": 416,
+        "setGroup": 432,
         "name": {
             "jpn": "EXラヴィーナメイル α",
             "eng": "Rimeguard Mail α+",
@@ -19738,12 +19738,12 @@
             4,
             1
         ],
-        "setGroup": 433,
         "setSkills": [
             178
         ],
         "id": 984,
         "order": 417,
+        "setGroup": 433,
         "name": {
             "jpn": "EXラヴィーナメイル β",
             "eng": "Rimeguard Mail β+",
@@ -19817,12 +19817,12 @@
             1,
             1
         ],
-        "setGroup": 434,
         "setSkills": [
             194
         ],
         "id": 985,
         "order": 412,
+        "setGroup": 434,
         "name": {
             "jpn": "EXプライドメイル α",
             "eng": "Pride Mail α+",
@@ -19901,12 +19901,12 @@
             1,
             1
         ],
-        "setGroup": 435,
         "setSkills": [
             194
         ],
         "id": 986,
         "order": 413,
+        "setGroup": 435,
         "name": {
             "jpn": "EXプライドメイル β",
             "eng": "Pride Mail β+",
@@ -19980,12 +19980,12 @@
             3,
             1
         ],
-        "setGroup": 436,
         "setSkills": [
             196
         ],
         "id": 987,
         "order": 418,
+        "setGroup": 436,
         "name": {
             "jpn": "EXヴァルファーメイル α",
             "eng": "Fellshroud Mail α+",
@@ -20063,12 +20063,12 @@
             4,
             2
         ],
-        "setGroup": 437,
         "setSkills": [
             196
         ],
         "id": 988,
         "order": 419,
+        "setGroup": 437,
         "name": {
             "jpn": "EXヴァルファーメイル β",
             "eng": "Fellshroud Mail β+",
@@ -20146,12 +20146,12 @@
             2,
             1
         ],
-        "setGroup": 438,
         "setSkills": [
             143
         ],
         "id": 989,
         "order": 420,
+        "setGroup": 438,
         "name": {
             "jpn": "EXカイザーメイル α",
             "eng": "Kaiser Mail α+",
@@ -20230,12 +20230,12 @@
             1,
             1
         ],
-        "setGroup": 439,
         "setSkills": [
             143
         ],
         "id": 990,
         "order": 421,
+        "setGroup": 439,
         "name": {
             "jpn": "EXカイザーメイル β",
             "eng": "Kaiser Mail β+",
@@ -20308,12 +20308,12 @@
         "slots": [
             1
         ],
-        "setGroup": 440,
         "setSkills": [
             144
         ],
         "id": 991,
         "order": 422,
+        "setGroup": 440,
         "name": {
             "jpn": "EXクシャナディール α",
             "eng": "Kushala Cista α+",
@@ -20387,12 +20387,12 @@
             4,
             2
         ],
-        "setGroup": 441,
         "setSkills": [
             144
         ],
         "id": 992,
         "order": 423,
+        "setGroup": 441,
         "name": {
             "jpn": "EXクシャナディール β",
             "eng": "Kushala Cista β+",
@@ -20466,12 +20466,12 @@
             3,
             2
         ],
-        "setGroup": 442,
         "setSkills": [
             199
         ],
         "id": 993,
         "order": 424,
+        "setGroup": 442,
         "name": {
             "jpn": "EXキリンベスト α",
             "eng": "Kirin Jacket α+",
@@ -20549,12 +20549,12 @@
             4,
             2
         ],
-        "setGroup": 443,
         "setSkills": [
             199
         ],
         "id": 994,
         "order": 425,
+        "setGroup": 443,
         "name": {
             "jpn": "EXキリンベスト β",
             "eng": "Kirin Jacket β+",
@@ -20632,12 +20632,12 @@
             2,
             2
         ],
-        "setGroup": 444,
         "setSkills": [
             177
         ],
         "id": 995,
         "order": 426,
+        "setGroup": 444,
         "name": {
             "jpn": "EXテンタクルメイル α",
             "eng": "Tentacle Cloak α+",
@@ -20715,12 +20715,12 @@
             4,
             2
         ],
-        "setGroup": 445,
         "setSkills": [
             177
         ],
         "id": 996,
         "order": 427,
+        "setGroup": 445,
         "name": {
             "jpn": "EXテンタクルメイル β",
             "eng": "Tentacle Cloak β+",
@@ -20798,12 +20798,12 @@
             1,
             1
         ],
-        "setGroup": 448,
         "setSkills": [
             200
         ],
         "id": 999,
         "order": 428,
+        "setGroup": 448,
         "name": {
             "jpn": "EXギルドパレスメイル α",
             "eng": "Guild Palace Mail α+",
@@ -20881,12 +20881,12 @@
             4,
             2
         ],
-        "setGroup": 449,
         "setSkills": [
             200
         ],
         "id": 1000,
         "order": 429,
+        "setGroup": 449,
         "name": {
             "jpn": "EXギルドパレスメイル β",
             "eng": "Guild Palace Mail β+",
@@ -20964,12 +20964,12 @@
             1,
             1
         ],
-        "setGroup": 450,
         "setSkills": [
             180
         ],
         "id": 1001,
         "order": 368,
+        "setGroup": 450,
         "name": {
             "jpn": "EXアークロックメイル α",
             "eng": "Clockwork Mail α+",
@@ -21047,12 +21047,12 @@
             4,
             1
         ],
-        "setGroup": 451,
         "setSkills": [
             180
         ],
         "id": 1002,
         "order": 369,
+        "setGroup": 451,
         "name": {
             "jpn": "EXアークロックメイル β",
             "eng": "Clockwork Mail β+",
@@ -21126,12 +21126,12 @@
             2,
             2
         ],
-        "setGroup": 453,
         "setSkills": [
             203
         ],
         "id": 1003,
         "order": 446,
+        "setGroup": 453,
         "name": {
             "jpn": "EXゾークメイル α",
             "eng": "Ruinous Mail α+",
@@ -21209,12 +21209,12 @@
             4,
             2
         ],
-        "setGroup": 454,
         "setSkills": [
             203
         ],
         "id": 1004,
         "order": 447,
+        "setGroup": 454,
         "name": {
             "jpn": "EXゾークメイル β",
             "eng": "Ruinous Mail β+",
@@ -21288,12 +21288,12 @@
             3,
             2
         ],
-        "setGroup": 455,
         "setSkills": [
             176
         ],
         "id": 1005,
         "order": 431,
+        "setGroup": 455,
         "name": {
             "jpn": "EXアンガルダメイル α",
             "eng": "Shara Ishvalda Mail α+",
@@ -21371,12 +21371,12 @@
             4,
             2
         ],
-        "setGroup": 456,
         "setSkills": [
             176
         ],
         "id": 1006,
         "order": 432,
+        "setGroup": 456,
         "name": {
             "jpn": "EXアンガルダメイル β",
             "eng": "Shara Ishvalda Mail β+",
@@ -21449,12 +21449,12 @@
         "slots": [
             2
         ],
-        "setGroup": 457,
         "setSkills": [
             195
         ],
         "id": 1007,
         "order": 414,
+        "setGroup": 457,
         "name": {
             "jpn": "EXグリードメイル α",
             "eng": "Esurient Mail α+",
@@ -21533,12 +21533,12 @@
             2,
             2
         ],
-        "setGroup": 458,
         "setSkills": [
             195
         ],
         "id": 1008,
         "order": 415,
+        "setGroup": 458,
         "name": {
             "jpn": "EXグリードメイル β",
             "eng": "Esurient Mail β+",
@@ -21613,12 +21613,12 @@
             1,
             1
         ],
-        "setGroup": 461,
         "setSkills": [
             200
         ],
         "id": 1011,
         "order": 448,
+        "setGroup": 461,
         "name": {
             "jpn": "EXギルドワークボディ α",
             "eng": "Guildwork Body α+",
@@ -21697,12 +21697,12 @@
             2,
             2
         ],
-        "setGroup": 462,
         "setSkills": [
             200
         ],
         "id": 1012,
         "order": 449,
+        "setGroup": 462,
         "name": {
             "jpn": "EXギルドワークボディ β",
             "eng": "Guildwork Body β+",
@@ -21776,12 +21776,12 @@
             3,
             1
         ],
-        "setGroup": 464,
         "setSkills": [
             175
         ],
         "id": 1013,
         "order": 440,
+        "setGroup": 464,
         "name": {
             "jpn": "EXゴールドルナメイル α",
             "eng": "Golden Lunemail α+",
@@ -21860,12 +21860,12 @@
             2,
             1
         ],
-        "setGroup": 465,
         "setSkills": [
             175
         ],
         "id": 1014,
         "order": 441,
+        "setGroup": 465,
         "name": {
             "jpn": "EXゴールドルナメイル β",
             "eng": "Golden Lunemail β+",
@@ -21938,12 +21938,12 @@
         "slots": [
             1
         ],
-        "setGroup": 466,
         "setSkills": [
             174
         ],
         "id": 1015,
         "order": 442,
+        "setGroup": 466,
         "name": {
             "jpn": "EXシルバーソルメイル α",
             "eng": "Silver Solmail α+",
@@ -22020,12 +22020,12 @@
         "slots": [
             4
         ],
-        "setGroup": 467,
         "setSkills": [
             174
         ],
         "id": 1016,
         "order": 443,
+        "setGroup": 467,
         "name": {
             "jpn": "EXシルバーソルメイル β",
             "eng": "Silver Solmail β+",
@@ -22098,12 +22098,12 @@
         "slots": [
             3
         ],
-        "setGroup": 470,
         "setSkills": [
             169
         ],
         "id": 1019,
         "order": 438,
+        "setGroup": 470,
         "name": {
             "jpn": "EXジンオウメイル α",
             "eng": "Zinogre Mail α+",
@@ -22180,12 +22180,12 @@
         "slots": [
             4
         ],
-        "setGroup": 471,
         "setSkills": [
             169
         ],
         "id": 1020,
         "order": 439,
+        "setGroup": 471,
         "name": {
             "jpn": "EXジンオウメイル β",
             "eng": "Zinogre Mail β+",
@@ -22258,12 +22258,12 @@
         "slots": [
             2
         ],
-        "setGroup": 472,
         "setSkills": [
             169
         ],
         "id": 1021,
         "order": 604,
+        "setGroup": 472,
         "name": {
             "jpn": "EXゴクオウメイル α",
             "eng": "Stygian Mail α+",
@@ -22340,12 +22340,12 @@
         "slots": [
             4
         ],
-        "setGroup": 473,
         "setSkills": [
             169
         ],
         "id": 1022,
         "order": 605,
+        "setGroup": 473,
         "name": {
             "jpn": "EXゴクオウメイル β",
             "eng": "Stygian Mail β+",
@@ -22422,9 +22422,9 @@
         "slots": [
             1
         ],
-        "setGroup": 474,
         "id": 1023,
         "order": 436,
+        "setGroup": 474,
         "name": {
             "jpn": "EXガルルガメイル α",
             "eng": "Garuga Mail α+",
@@ -22501,9 +22501,9 @@
         "slots": [
             4
         ],
-        "setGroup": 475,
         "id": 1024,
         "order": 437,
+        "setGroup": 475,
         "name": {
             "jpn": "EXガルルガメイル β",
             "eng": "Garuga Mail β+",
@@ -22581,12 +22581,12 @@
             3,
             1
         ],
-        "setGroup": 476,
         "setSkills": [
             201
         ],
         "id": 1025,
         "order": 434,
+        "setGroup": 476,
         "name": {
             "jpn": "EXゾラマグナハイド α",
             "eng": "Zorah Hide α+",
@@ -22664,12 +22664,12 @@
             4,
             2
         ],
-        "setGroup": 477,
         "setSkills": [
             201
         ],
         "id": 1026,
         "order": 435,
+        "setGroup": 477,
         "name": {
             "jpn": "EXゾラマグナハイド β",
             "eng": "Zorah Hide β+",
@@ -22743,12 +22743,12 @@
             3,
             1
         ],
-        "setGroup": 478,
         "setSkills": [
             208
         ],
         "id": 1027,
         "order": 600,
+        "setGroup": 478,
         "name": {
             "jpn": "EX金色ノ羽織 α",
             "eng": "Golden Haori α+",
@@ -22827,12 +22827,12 @@
             1,
             1
         ],
-        "setGroup": 479,
         "setSkills": [
             208
         ],
         "id": 1028,
         "order": 601,
+        "setGroup": 479,
         "name": {
             "jpn": "EX金色ノ羽織 β",
             "eng": "Golden Haori β+",
@@ -22905,12 +22905,12 @@
         "slots": [
             1
         ],
-        "setGroup": 480,
         "setSkills": [
             217
         ],
         "id": 1029,
         "order": 602,
+        "setGroup": 480,
         "name": {
             "jpn": "EX斉天ノ衣 α",
             "eng": "Grand God's Peer Garb α+",
@@ -22988,12 +22988,12 @@
             4,
             2
         ],
-        "setGroup": 481,
         "setSkills": [
             217
         ],
         "id": 1030,
         "order": 603,
+        "setGroup": 481,
         "name": {
             "jpn": "EX斉天ノ衣 β",
             "eng": "Grand God's Peer Garb β+",
@@ -23068,12 +23068,12 @@
             1,
             1
         ],
-        "setGroup": 482,
         "setSkills": [
             218
         ],
         "id": 1031,
         "order": 608,
+        "setGroup": 482,
         "name": {
             "jpn": "EXブラキウムメイル α",
             "eng": "Brachydium Mail α+",
@@ -23152,12 +23152,12 @@
             2,
             1
         ],
-        "setGroup": 483,
         "setSkills": [
             218
         ],
         "id": 1032,
         "order": 609,
+        "setGroup": 483,
         "name": {
             "jpn": "EXブラキウムメイル β",
             "eng": "Brachydium Mail β+",
@@ -23231,12 +23231,12 @@
             3,
             2
         ],
-        "setGroup": 484,
         "setSkills": [
             211
         ],
         "id": 1033,
         "order": 606,
+        "setGroup": 484,
         "name": {
             "jpn": "EX龍紋ヲ刻マレシ封鎧 α",
             "eng": "Safi Crested Chest α+",
@@ -23314,12 +23314,12 @@
             4,
             2
         ],
-        "setGroup": 485,
         "setSkills": [
             211
         ],
         "id": 1034,
         "order": 607,
+        "setGroup": 485,
         "name": {
             "jpn": "EX龍紋ヲ刻マレシ封鎧 β",
             "eng": "Safi Crested Chest β+",
@@ -23398,12 +23398,12 @@
             1,
             1
         ],
-        "setGroup": 486,
         "setSkills": [
             221
         ],
         "id": 1035,
         "order": 612,
+        "setGroup": 486,
         "name": {
             "jpn": "EXエスカドラソウル α",
             "eng": "Escadora Soul α+",
@@ -23482,12 +23482,12 @@
             1,
             1
         ],
-        "setGroup": 487,
         "setSkills": [
             221
         ],
         "id": 1036,
         "order": 613,
+        "setGroup": 487,
         "name": {
             "jpn": "EXエスカドラソウル β",
             "eng": "Escadora Soul β+",
@@ -23564,12 +23564,12 @@
         "slots": [
             2
         ],
-        "setGroup": 492,
         "setSkills": [
             202
         ],
         "id": 1037,
         "order": 444,
+        "setGroup": 492,
         "name": {
             "jpn": "EXエンプレスメイル α",
             "eng": "Empress Mail α+",
@@ -23647,12 +23647,12 @@
             4,
             1
         ],
-        "setGroup": 493,
         "setSkills": [
             202
         ],
         "id": 1038,
         "order": 445,
+        "setGroup": 493,
         "name": {
             "jpn": "EXエンプレスメイル β",
             "eng": "Empress Mail β+",
@@ -23730,12 +23730,12 @@
             3,
             3
         ],
-        "setGroup": 494,
         "setSkills": [
             219
         ],
         "id": 1039,
         "order": 616,
+        "setGroup": 494,
         "name": {
             "jpn": "EXマムガイラメイル α",
             "eng": "Kulve Taroth's Ire α+",
@@ -23813,12 +23813,12 @@
             4,
             3
         ],
-        "setGroup": 495,
         "setSkills": [
             219
         ],
         "id": 1040,
         "order": 617,
+        "setGroup": 495,
         "name": {
             "jpn": "EXマムガイラメイル β",
             "eng": "Kulve Taroth's Ire β+",
@@ -23891,12 +23891,12 @@
         "slots": [
             4
         ],
-        "setGroup": 496,
         "setSkills": [
             214
         ],
         "id": 1041,
         "order": 802,
+        "setGroup": 496,
         "name": {
             "jpn": "EXローゼスーツ α",
             "eng": "Rose Jacket α+",
@@ -23966,12 +23966,12 @@
             4,
             1
         ],
-        "setGroup": 498,
         "setSkills": [
             215
         ],
         "id": 1043,
         "order": 803,
+        "setGroup": 498,
         "name": {
             "jpn": "EXパッションボディ α",
             "eng": "Passionate Body α+",
@@ -24044,12 +24044,12 @@
         "slots": [
             4
         ],
-        "setGroup": 502,
         "setSkills": [
             212
         ],
         "id": 1047,
         "order": 800,
+        "setGroup": 502,
         "name": {
             "jpn": "EXウーロンベスト α",
             "eng": "Oolong Vest α+",
@@ -24114,12 +24114,12 @@
         "slots": [
             1
         ],
-        "setGroup": 504,
         "setSkills": [
             213
         ],
         "id": 1049,
         "order": 801,
+        "setGroup": 504,
         "name": {
             "jpn": "EXアストラクロス α",
             "eng": "Astral Cloth α+",
@@ -24190,9 +24190,9 @@
             1,
             1
         ],
-        "setGroup": 517,
         "id": 1058,
         "order": 810,
+        "setGroup": 517,
         "name": {
             "jpn": "EXマッスルボディ α",
             "eng": "Buff Chest α+",
@@ -24265,12 +24265,12 @@
         "slots": [
             3
         ],
-        "setGroup": 518,
         "setSkills": [
             170
         ],
         "id": 1059,
         "order": 404,
+        "setGroup": 518,
         "name": {
             "jpn": "EXレックスロアメイル α",
             "eng": "Rex Roar Mail α+",
@@ -24348,12 +24348,12 @@
             4,
             1
         ],
-        "setGroup": 519,
         "setSkills": [
             170
         ],
         "id": 1060,
         "order": 405,
+        "setGroup": 519,
         "name": {
             "jpn": "EXレックスロアメイル β",
             "eng": "Rex Roar Mail β+",
@@ -24428,9 +24428,9 @@
             "dragon": 3
         },
         "slots": [],
-        "setGroup": 520,
         "id": 1061,
         "order": 299,
+        "setGroup": 520,
         "name": {
             "jpn": "ガーディアンスーツ α",
             "eng": "Guardian Suit α+",
@@ -24489,12 +24489,12 @@
         "slots": [
             4
         ],
-        "setGroup": 524,
         "setSkills": [
             177
         ],
         "id": 1065,
         "order": 619,
+        "setGroup": 524,
         "name": {
             "jpn": "EXテンタクルメイル γ",
             "eng": "Tentacle Cloak γ+",
@@ -24572,12 +24572,12 @@
             3,
             2
         ],
-        "setGroup": 528,
         "setSkills": [
             220
         ],
         "id": 1069,
         "order": 610,
+        "setGroup": 528,
         "name": {
             "jpn": "EXオルムングメイル α",
             "eng": "Frostfang Mail α+",
@@ -24655,12 +24655,12 @@
             4,
             2
         ],
-        "setGroup": 529,
         "setSkills": [
             220
         ],
         "id": 1070,
         "order": 611,
+        "setGroup": 529,
         "name": {
             "jpn": "EXオルムングメイル β",
             "eng": "Frostfang Mail β+",

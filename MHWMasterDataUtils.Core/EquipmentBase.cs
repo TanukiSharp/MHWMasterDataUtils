@@ -11,6 +11,8 @@ namespace MHWMasterDataUtils.Core
         public uint Id { get; set; }
         [JsonProperty("order")]
         public int Order { get; set; }
+        [JsonProperty("setGroup")]
+        public int SetGroup { get; set; }
         [JsonProperty("name")]
         public Dictionary<string, string> Name { get; set; }
         [JsonProperty("description")]

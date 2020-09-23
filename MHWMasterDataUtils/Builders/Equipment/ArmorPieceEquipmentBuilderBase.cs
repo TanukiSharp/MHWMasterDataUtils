@@ -42,7 +42,6 @@ namespace MHWMasterDataUtils.Builders.Equipment
                 Dragon = equipment.DragonRes
             };
             resultEquipment.Slots = EquipmentUtils.CreateSlotsArray(equipment);
-            resultEquipment.SetGroup = equipment.SetGroup;
 
             if (equipment.SetSkill1Id > 0 || equipment.SetSkill2Id > 0)
             {

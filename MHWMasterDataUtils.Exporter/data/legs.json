@@ -10,9 +10,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 2,
         "id": 2508,
         "order": 1,
+        "setGroup": 2,
         "name": {
             "jpn": "レザーパンツ",
             "eng": "Leather Trousers",
@@ -65,9 +65,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 15,
         "id": 2509,
         "order": 2,
+        "setGroup": 15,
         "name": {
             "jpn": "チェーンパンツ",
             "eng": "Chainmail Trousers",
@@ -120,9 +120,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 1,
         "id": 2510,
         "order": 3,
+        "setGroup": 1,
         "name": {
             "jpn": "ハンターグリーヴ",
             "eng": "Hunter's Greaves",
@@ -185,9 +185,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 5,
         "id": 2511,
         "order": 4,
+        "setGroup": 5,
         "name": {
             "jpn": "ボーングリーヴ",
             "eng": "Bone Greaves",
@@ -250,9 +250,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 6,
         "id": 2512,
         "order": 10,
+        "setGroup": 6,
         "name": {
             "jpn": "アロイグリーヴ",
             "eng": "Alloy Greaves",
@@ -319,9 +319,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 9,
         "id": 2513,
         "order": 5,
+        "setGroup": 9,
         "name": {
             "jpn": "ランゴグリーヴ",
             "eng": "Vespoid Greaves",
@@ -384,9 +384,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 8,
         "id": 2514,
         "order": 7,
+        "setGroup": 8,
         "name": {
             "jpn": "ガライーブーツ",
             "eng": "Gajau Boots",
@@ -449,9 +449,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 4,
         "id": 2515,
         "order": 8,
+        "setGroup": 4,
         "name": {
             "jpn": "ジャグラスグリーヴ",
             "eng": "Jagras Greaves",
@@ -522,9 +522,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 10,
         "id": 2516,
         "order": 9,
+        "setGroup": 10,
         "name": {
             "jpn": "クルルグリーヴ",
             "eng": "Kulu Greaves",
@@ -591,9 +591,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 11,
         "id": 2517,
         "order": 11,
+        "setGroup": 11,
         "name": {
             "jpn": "プケプケグリーヴ",
             "eng": "Pukei Greaves",
@@ -664,9 +664,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 13,
         "id": 2518,
         "order": 12,
+        "setGroup": 13,
         "name": {
             "jpn": "ボロスグリーヴ",
             "eng": "Barroth Greaves",
@@ -737,9 +737,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 12,
         "id": 2519,
         "order": 13,
+        "setGroup": 12,
         "name": {
             "jpn": "ジュラグリーヴ",
             "eng": "Jyura Greaves",
@@ -810,9 +810,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 14,
         "id": 2520,
         "order": 14,
+        "setGroup": 14,
         "name": {
             "jpn": "カガチグリーヴ",
             "eng": "Kadachi Greaves",
@@ -879,9 +879,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 25,
         "id": 2521,
         "order": 15,
+        "setGroup": 25,
         "name": {
             "jpn": "ハイメタグリーヴ",
             "eng": "High Metal Greaves",
@@ -948,9 +948,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 18,
         "id": 2522,
         "order": 19,
+        "setGroup": 18,
         "name": {
             "jpn": "タロスグリーヴ",
             "eng": "Hornetaur Greaves",
@@ -1021,12 +1021,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 3,
         "setSkills": [
             125
         ],
         "id": 2523,
         "order": 20,
+        "setGroup": 3,
         "name": {
             "jpn": "ジャナフグリーヴ",
             "eng": "Anja Greaves",
@@ -1097,9 +1097,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 21,
         "id": 2524,
         "order": 21,
+        "setGroup": 21,
         "name": {
             "jpn": "レイアグリーヴ",
             "eng": "Rathian Greaves",
@@ -1170,9 +1170,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 23,
         "id": 2525,
         "order": 22,
+        "setGroup": 23,
         "name": {
             "jpn": "ツィツィグリーヴ",
             "eng": "Tzitzi Greaves",
@@ -1239,9 +1239,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 24,
         "id": 2526,
         "order": 23,
+        "setGroup": 24,
         "name": {
             "jpn": "ウルムーグリーヴ",
             "eng": "Lumu Greaves",
@@ -1312,9 +1312,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 22,
         "id": 2527,
         "order": 24,
+        "setGroup": 22,
         "name": {
             "jpn": "ギルオスグリーヴ",
             "eng": "Girros Greaves",
@@ -1385,9 +1385,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 28,
         "id": 2528,
         "order": 25,
+        "setGroup": 28,
         "name": {
             "jpn": "バルキングリーヴ",
             "eng": "Baan Greaves",
@@ -1458,9 +1458,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 20,
         "id": 2529,
         "order": 16,
+        "setGroup": 20,
         "name": {
             "jpn": "オウビートガンバ",
             "eng": "King Beetle Crura",
@@ -1531,9 +1531,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 159,
         "id": 2530,
         "order": 17,
+        "setGroup": 159,
         "name": {
             "jpn": "パピメルガンバ",
             "eng": "Butterfly Crura",
@@ -1604,9 +1604,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 31,
         "id": 2531,
         "order": 26,
+        "setGroup": 31,
         "name": {
             "jpn": "インゴットグリーヴ",
             "eng": "Ingot Greaves",
@@ -1677,12 +1677,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 27,
         "setSkills": [
             151
         ],
         "id": 2532,
         "order": 29,
+        "setGroup": 27,
         "name": {
             "jpn": "ギエナグリーヴ",
             "eng": "Legiana Greaves",
@@ -1753,12 +1753,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 29,
         "setSkills": [
             153
         ],
         "id": 2533,
         "order": 30,
+        "setGroup": 29,
         "name": {
             "jpn": "ガロングリーヴ",
             "eng": "Odogaron Greaves",
@@ -1829,12 +1829,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 33,
         "setSkills": [
             128
         ],
         "id": 2534,
         "order": 31,
+        "setGroup": 33,
         "name": {
             "jpn": "レウスグリーヴ",
             "eng": "Rathalos Greaves",
@@ -1905,12 +1905,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 34,
         "setSkills": [
             129
         ],
         "id": 2535,
         "order": 32,
+        "setGroup": 34,
         "name": {
             "jpn": "ディアブログリーヴ",
             "eng": "Diablos Greaves",
@@ -1981,12 +1981,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 35,
         "setSkills": [
             130
         ],
         "id": 2536,
         "order": 33,
+        "setGroup": 35,
         "name": {
             "jpn": "キリンレガース",
             "eng": "Kirin Leg Guards",
@@ -2053,9 +2053,9 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 26,
         "id": 2537,
         "order": 27,
+        "setGroup": 26,
         "name": {
             "jpn": "デスギアフェルゼ",
             "eng": "Death Stench Heel",
@@ -2126,9 +2126,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 36,
         "id": 2538,
         "order": 28,
+        "setGroup": 36,
         "name": {
             "jpn": "ブリゲイドブーツ",
             "eng": "Brigade Boots",
@@ -2199,9 +2199,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 39,
         "id": 2539,
         "order": 34,
+        "setGroup": 39,
         "name": {
             "jpn": "レザーパンツ α",
             "eng": "Leather Trousers α",
@@ -2266,9 +2266,9 @@
         "slots": [
             1
         ],
-        "setGroup": 40,
         "id": 2540,
         "order": 35,
+        "setGroup": 40,
         "name": {
             "jpn": "レザーパンツ β",
             "eng": "Leather Trousers β",
@@ -2325,9 +2325,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 147,
         "id": 2541,
         "order": 36,
+        "setGroup": 147,
         "name": {
             "jpn": "チェーンパンツ α",
             "eng": "Chainmail Trousers α",
@@ -2392,9 +2392,9 @@
         "slots": [
             1
         ],
-        "setGroup": 148,
         "id": 2542,
         "order": 37,
+        "setGroup": 148,
         "name": {
             "jpn": "チェーンパンツ β",
             "eng": "Chainmail Trousers β",
@@ -2451,9 +2451,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 41,
         "id": 2543,
         "order": 38,
+        "setGroup": 41,
         "name": {
             "jpn": "ハンターグリーヴ α",
             "eng": "Hunter's Greaves α",
@@ -2522,9 +2522,9 @@
         "slots": [
             1
         ],
-        "setGroup": 42,
         "id": 2544,
         "order": 39,
+        "setGroup": 42,
         "name": {
             "jpn": "ハンターグリーヴ β",
             "eng": "Hunter's Greaves β",
@@ -2587,9 +2587,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 43,
         "id": 2545,
         "order": 40,
+        "setGroup": 43,
         "name": {
             "jpn": "ボーングリーヴ α",
             "eng": "Bone Greaves α",
@@ -2658,9 +2658,9 @@
         "slots": [
             1
         ],
-        "setGroup": 44,
         "id": 2546,
         "order": 41,
+        "setGroup": 44,
         "name": {
             "jpn": "ボーングリーヴ β",
             "eng": "Bone Greaves β",
@@ -2727,9 +2727,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 45,
         "id": 2547,
         "order": 42,
+        "setGroup": 45,
         "name": {
             "jpn": "アロイグリーヴ α",
             "eng": "Alloy Greaves α",
@@ -2802,9 +2802,9 @@
         "slots": [
             1
         ],
-        "setGroup": 46,
         "id": 2548,
         "order": 43,
+        "setGroup": 46,
         "name": {
             "jpn": "アロイグリーヴ β",
             "eng": "Alloy Greaves β",
@@ -2875,9 +2875,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 51,
         "id": 2549,
         "order": 48,
+        "setGroup": 51,
         "name": {
             "jpn": "ランゴグリーヴ α",
             "eng": "Vespoid Greaves α",
@@ -2954,9 +2954,9 @@
         "slots": [
             1
         ],
-        "setGroup": 52,
         "id": 2550,
         "order": 49,
+        "setGroup": 52,
         "name": {
             "jpn": "ランゴグリーヴ β",
             "eng": "Vespoid Greaves β",
@@ -3027,9 +3027,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 57,
         "id": 2551,
         "order": 50,
+        "setGroup": 57,
         "name": {
             "jpn": "タロスグリーヴ α",
             "eng": "Hornetaur Greaves α",
@@ -3106,9 +3106,9 @@
         "slots": [
             1
         ],
-        "setGroup": 58,
         "id": 2552,
         "order": 51,
+        "setGroup": 58,
         "name": {
             "jpn": "タロスグリーヴ β",
             "eng": "Hornetaur Greaves β",
@@ -3179,9 +3179,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 49,
         "id": 2553,
         "order": 55,
+        "setGroup": 49,
         "name": {
             "jpn": "ガライーブーツ α",
             "eng": "Gajau Boots α",
@@ -3254,9 +3254,9 @@
         "slots": [
             1
         ],
-        "setGroup": 50,
         "id": 2554,
         "order": 56,
+        "setGroup": 50,
         "name": {
             "jpn": "ガライーブーツ β",
             "eng": "Gajau Boots β",
@@ -3327,9 +3327,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 61,
         "id": 2555,
         "order": 59,
+        "setGroup": 61,
         "name": {
             "jpn": "ジャグラスグリーヴ α",
             "eng": "Jagras Greaves α",
@@ -3406,9 +3406,9 @@
         "slots": [
             1
         ],
-        "setGroup": 62,
         "id": 2556,
         "order": 60,
+        "setGroup": 62,
         "name": {
             "jpn": "ジャグラスグリーヴ β",
             "eng": "Jagras Greaves β",
@@ -3479,9 +3479,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 63,
         "id": 2557,
         "order": 61,
+        "setGroup": 63,
         "name": {
             "jpn": "クルルグリーヴ α",
             "eng": "Kulu Greaves α",
@@ -3558,9 +3558,9 @@
         "slots": [
             1
         ],
-        "setGroup": 64,
         "id": 2558,
         "order": 62,
+        "setGroup": 64,
         "name": {
             "jpn": "クルルグリーヴ β",
             "eng": "Kulu Greaves β",
@@ -3631,9 +3631,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 65,
         "id": 2559,
         "order": 67,
+        "setGroup": 65,
         "name": {
             "jpn": "プケプケグリーヴ α",
             "eng": "Pukei Greaves α",
@@ -3710,9 +3710,9 @@
         "slots": [
             2
         ],
-        "setGroup": 66,
         "id": 2560,
         "order": 68,
+        "setGroup": 66,
         "name": {
             "jpn": "プケプケグリーヴ β",
             "eng": "Pukei Greaves β",
@@ -3783,9 +3783,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 69,
         "id": 2561,
         "order": 69,
+        "setGroup": 69,
         "name": {
             "jpn": "ボロスグリーヴ α",
             "eng": "Barroth Greaves α",
@@ -3863,9 +3863,9 @@
             1,
             1
         ],
-        "setGroup": 70,
         "id": 2562,
         "order": 70,
+        "setGroup": 70,
         "name": {
             "jpn": "ボロスグリーヴ β",
             "eng": "Barroth Greaves β",
@@ -3936,9 +3936,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 67,
         "id": 2563,
         "order": 73,
+        "setGroup": 67,
         "name": {
             "jpn": "ジュラグリーヴ α",
             "eng": "Jyura Greaves α",
@@ -4011,9 +4011,9 @@
         "slots": [
             2
         ],
-        "setGroup": 68,
         "id": 2564,
         "order": 74,
+        "setGroup": 68,
         "name": {
             "jpn": "ジュラグリーヴ β",
             "eng": "Jyura Greaves β",
@@ -4084,9 +4084,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 71,
         "id": 2565,
         "order": 75,
+        "setGroup": 71,
         "name": {
             "jpn": "カガチグリーヴ α",
             "eng": "Kadachi Greaves α",
@@ -4164,9 +4164,9 @@
             1,
             1
         ],
-        "setGroup": 72,
         "id": 2566,
         "order": 76,
+        "setGroup": 72,
         "name": {
             "jpn": "カガチグリーヴ β",
             "eng": "Kadachi Greaves β",
@@ -4237,12 +4237,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 93,
         "setSkills": [
             132
         ],
         "id": 2567,
         "order": 71,
+        "setGroup": 93,
         "name": {
             "jpn": "ジャナフグリーヴ α",
             "eng": "Anja Greaves α",
@@ -4315,12 +4315,12 @@
         "slots": [
             1
         ],
-        "setGroup": 94,
         "setSkills": [
             132
         ],
         "id": 2568,
         "order": 72,
+        "setGroup": 94,
         "name": {
             "jpn": "ジャナフグリーヴ β",
             "eng": "Anja Greaves β",
@@ -4391,9 +4391,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 73,
         "id": 2569,
         "order": 79,
+        "setGroup": 73,
         "name": {
             "jpn": "レイアグリーヴ α",
             "eng": "Rathian Greaves α",
@@ -4466,9 +4466,9 @@
         "slots": [
             1
         ],
-        "setGroup": 74,
         "id": 2570,
         "order": 80,
+        "setGroup": 74,
         "name": {
             "jpn": "レイアグリーヴ β",
             "eng": "Rathian Greaves β",
@@ -4539,9 +4539,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 77,
         "id": 2571,
         "order": 63,
+        "setGroup": 77,
         "name": {
             "jpn": "ツィツィグリーヴ α",
             "eng": "Tzitzi Greaves α",
@@ -4614,9 +4614,9 @@
         "slots": [
             1
         ],
-        "setGroup": 78,
         "id": 2572,
         "order": 64,
+        "setGroup": 78,
         "name": {
             "jpn": "ツィツィグリーヴ β",
             "eng": "Tzitzi Greaves β",
@@ -4687,9 +4687,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 79,
         "id": 2573,
         "order": 77,
+        "setGroup": 79,
         "name": {
             "jpn": "ウルムーグリーヴ α",
             "eng": "Lumu Greaves α",
@@ -4767,9 +4767,9 @@
             1,
             1
         ],
-        "setGroup": 80,
         "id": 2574,
         "order": 78,
+        "setGroup": 80,
         "name": {
             "jpn": "ウルムーグリーヴ β",
             "eng": "Lumu Greaves β",
@@ -4840,9 +4840,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 75,
         "id": 2575,
         "order": 65,
+        "setGroup": 75,
         "name": {
             "jpn": "ギルオスグリーヴ α",
             "eng": "Girros Greaves α",
@@ -4915,9 +4915,9 @@
         "slots": [
             1
         ],
-        "setGroup": 76,
         "id": 2576,
         "order": 66,
+        "setGroup": 76,
         "name": {
             "jpn": "ギルオスグリーヴ β",
             "eng": "Girros Greaves β",
@@ -4988,9 +4988,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 97,
         "id": 2577,
         "order": 83,
+        "setGroup": 97,
         "name": {
             "jpn": "バルキングリーヴ α",
             "eng": "Baan Greaves α",
@@ -5063,9 +5063,9 @@
         "slots": [
             1
         ],
-        "setGroup": 98,
         "id": 2578,
         "order": 84,
+        "setGroup": 98,
         "name": {
             "jpn": "バルキングリーヴ β",
             "eng": "Baan Greaves β",
@@ -5136,9 +5136,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 89,
         "id": 2579,
         "order": 93,
+        "setGroup": 89,
         "name": {
             "jpn": "ハイメタグリーヴ α",
             "eng": "High Metal Greaves α",
@@ -5215,9 +5215,9 @@
         "slots": [
             1
         ],
-        "setGroup": 90,
         "id": 2580,
         "order": 94,
+        "setGroup": 90,
         "name": {
             "jpn": "ハイメタグリーヴ β",
             "eng": "High Metal Greaves β",
@@ -5288,9 +5288,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 91,
         "id": 2581,
         "order": 95,
+        "setGroup": 91,
         "name": {
             "jpn": "インゴットグリーヴ α",
             "eng": "Ingot Greaves α",
@@ -5367,9 +5367,9 @@
         "slots": [
             2
         ],
-        "setGroup": 92,
         "id": 2582,
         "order": 96,
+        "setGroup": 92,
         "name": {
             "jpn": "インゴットグリーヴ β",
             "eng": "Ingot Greaves β",
@@ -5440,12 +5440,12 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 87,
         "setSkills": [
             131
         ],
         "id": 2583,
         "order": 81,
+        "setGroup": 87,
         "name": {
             "jpn": "リオハートグリーヴ α",
             "eng": "Rath Heart Greaves α",
@@ -5522,12 +5522,12 @@
         "slots": [
             2
         ],
-        "setGroup": 88,
         "setSkills": [
             131
         ],
         "id": 2584,
         "order": 82,
+        "setGroup": 88,
         "name": {
             "jpn": "リオハートグリーヴ β",
             "eng": "Rath Heart Greaves β",
@@ -5598,12 +5598,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 95,
         "setSkills": [
             152
         ],
         "id": 2585,
         "order": 103,
+        "setGroup": 95,
         "name": {
             "jpn": "ギエナグリーヴ α",
             "eng": "Legiana Greaves α",
@@ -5680,12 +5680,12 @@
         "slots": [
             3
         ],
-        "setGroup": 96,
         "setSkills": [
             152
         ],
         "id": 2586,
         "order": 104,
+        "setGroup": 96,
         "name": {
             "jpn": "ギエナグリーヴ β",
             "eng": "Legiana Greaves β",
@@ -5756,12 +5756,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 81,
         "setSkills": [
             154
         ],
         "id": 2587,
         "order": 105,
+        "setGroup": 81,
         "name": {
             "jpn": "ガロングリーヴ α",
             "eng": "Odogaron Greaves α",
@@ -5838,12 +5838,12 @@
         "slots": [
             1
         ],
-        "setGroup": 82,
         "setSkills": [
             154
         ],
         "id": 2588,
         "order": 106,
+        "setGroup": 82,
         "name": {
             "jpn": "ガロングリーヴ β",
             "eng": "Odogaron Greaves β",
@@ -5914,12 +5914,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 101,
         "setSkills": [
             135
         ],
         "id": 2589,
         "order": 107,
+        "setGroup": 101,
         "name": {
             "jpn": "レウスグリーヴ α",
             "eng": "Rathalos Greaves α",
@@ -5996,12 +5996,12 @@
         "slots": [
             3
         ],
-        "setGroup": 102,
         "setSkills": [
             135
         ],
         "id": 2590,
         "order": 108,
+        "setGroup": 102,
         "name": {
             "jpn": "レウスグリーヴ β",
             "eng": "Rathalos Greaves β",
@@ -6072,12 +6072,12 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 111,
         "setSkills": [
             135
         ],
         "id": 2591,
         "order": 109,
+        "setGroup": 111,
         "name": {
             "jpn": "リオソウルグリーヴ α",
             "eng": "Rath Soul Greaves α",
@@ -6154,12 +6154,12 @@
         "slots": [
             1
         ],
-        "setGroup": 112,
         "setSkills": [
             135
         ],
         "id": 2592,
         "order": 110,
+        "setGroup": 112,
         "name": {
             "jpn": "リオソウルグリーヴ β",
             "eng": "Rath Soul Greaves β",
@@ -6230,12 +6230,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 103,
         "setSkills": [
             136
         ],
         "id": 2593,
         "order": 111,
+        "setGroup": 103,
         "name": {
             "jpn": "ディアブログリーヴ α",
             "eng": "Diablos Greaves α",
@@ -6313,12 +6313,12 @@
             1,
             1
         ],
-        "setGroup": 104,
         "setSkills": [
             136
         ],
         "id": 2594,
         "order": 112,
+        "setGroup": 104,
         "name": {
             "jpn": "ディアブログリーヴ β",
             "eng": "Diablos Greaves β",
@@ -6391,12 +6391,12 @@
         "slots": [
             1
         ],
-        "setGroup": 113,
         "setSkills": [
             136
         ],
         "id": 2595,
         "order": 113,
+        "setGroup": 113,
         "name": {
             "jpn": "ディアネログリーヴ α",
             "eng": "Diablos Nero Greaves α",
@@ -6473,12 +6473,12 @@
         "slots": [
             2
         ],
-        "setGroup": 114,
         "setSkills": [
             136
         ],
         "id": 2596,
         "order": 114,
+        "setGroup": 114,
         "name": {
             "jpn": "ディアネログリーヴ β",
             "eng": "Diablos Nero Greaves β",
@@ -6549,9 +6549,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 83,
         "id": 2597,
         "order": 89,
+        "setGroup": 83,
         "name": {
             "jpn": "ガマルグリーヴ α",
             "eng": "Dodogama Greaves α",
@@ -6628,9 +6628,9 @@
         "slots": [
             1
         ],
-        "setGroup": 84,
         "id": 2598,
         "order": 90,
+        "setGroup": 84,
         "name": {
             "jpn": "ガマルグリーヴ β",
             "eng": "Dodogama Greaves β",
@@ -6703,9 +6703,9 @@
         "slots": [
             1
         ],
-        "setGroup": 85,
         "id": 2599,
         "order": 101,
+        "setGroup": 85,
         "name": {
             "jpn": "ラヴァグリーヴ α",
             "eng": "Lavasioth Greaves α",
@@ -6782,9 +6782,9 @@
         "slots": [
             2
         ],
-        "setGroup": 86,
         "id": 2600,
         "order": 102,
+        "setGroup": 86,
         "name": {
             "jpn": "ラヴァグリーヴ β",
             "eng": "Lavasioth Greaves β",
@@ -6857,12 +6857,12 @@
         "slots": [
             1
         ],
-        "setGroup": 109,
         "setSkills": [
             138
         ],
         "id": 2601,
         "order": 115,
+        "setGroup": 109,
         "name": {
             "jpn": "ガンキングリーヴ α",
             "eng": "Uragaan Greaves α",
@@ -6935,12 +6935,12 @@
         "slots": [
             3
         ],
-        "setGroup": 110,
         "setSkills": [
             138
         ],
         "id": 2602,
         "order": 116,
+        "setGroup": 110,
         "name": {
             "jpn": "ガンキングリーヴ β",
             "eng": "Uragaan Greaves β",
@@ -7013,12 +7013,12 @@
         "slots": [
             1
         ],
-        "setGroup": 107,
         "setSkills": [
             126
         ],
         "id": 2603,
         "order": 126,
+        "setGroup": 107,
         "name": {
             "jpn": "オーググリーヴ α",
             "eng": "Nergigante Greaves α",
@@ -7095,12 +7095,12 @@
         "slots": [
             2
         ],
-        "setGroup": 108,
         "setSkills": [
             126
         ],
         "id": 2604,
         "order": 127,
+        "setGroup": 108,
         "name": {
             "jpn": "オーググリーヴ β",
             "eng": "Nergigante Greaves β",
@@ -7173,9 +7173,9 @@
         "slots": [
             1
         ],
-        "setGroup": 117,
         "id": 2605,
         "order": 44,
+        "setGroup": 117,
         "name": {
             "jpn": "オウビートガンバ α",
             "eng": "King Beetle Crura α",
@@ -7253,9 +7253,9 @@
             2,
             1
         ],
-        "setGroup": 118,
         "id": 2606,
         "order": 45,
+        "setGroup": 118,
         "name": {
             "jpn": "オウビートガンバ β",
             "eng": "King Beetle Crura β",
@@ -7328,9 +7328,9 @@
         "slots": [
             1
         ],
-        "setGroup": 160,
         "id": 2607,
         "order": 46,
+        "setGroup": 160,
         "name": {
             "jpn": "パピメルガンバ α",
             "eng": "Butterfly Crura α",
@@ -7408,9 +7408,9 @@
             2,
             1
         ],
-        "setGroup": 161,
         "id": 2608,
         "order": 47,
+        "setGroup": 161,
         "name": {
             "jpn": "パピメルガンバ β",
             "eng": "Butterfly Crura β",
@@ -7483,9 +7483,9 @@
         "slots": [
             1
         ],
-        "setGroup": 119,
         "id": 2609,
         "order": 97,
+        "setGroup": 119,
         "name": {
             "jpn": "ブリゲイドブーツ α",
             "eng": "Brigade Boots α",
@@ -7562,9 +7562,9 @@
         "slots": [
             3
         ],
-        "setGroup": 120,
         "id": 2610,
         "order": 98,
+        "setGroup": 120,
         "name": {
             "jpn": "ブリゲイドブーツ β",
             "eng": "Brigade Boots β",
@@ -7637,9 +7637,9 @@
         "slots": [
             1
         ],
-        "setGroup": 121,
         "id": 2611,
         "order": 119,
+        "setGroup": 121,
         "name": {
             "jpn": "ダマスクグリーヴ α",
             "eng": "Damascus Greaves α",
@@ -7716,9 +7716,9 @@
         "slots": [
             3
         ],
-        "setGroup": 122,
         "id": 2612,
         "order": 120,
+        "setGroup": 122,
         "name": {
             "jpn": "ダマスクグリーヴ β",
             "eng": "Damascus Greaves β",
@@ -7789,9 +7789,9 @@
             "dragon": 4
         },
         "slots": [],
-        "setGroup": 123,
         "id": 2613,
         "order": 121,
+        "setGroup": 123,
         "name": {
             "jpn": "ドーベルグリーヴ α",
             "eng": "Dober Greaves α",
@@ -7868,9 +7868,9 @@
         "slots": [
             1
         ],
-        "setGroup": 124,
         "id": 2614,
         "order": 122,
+        "setGroup": 124,
         "name": {
             "jpn": "ドーベルグリーヴ β",
             "eng": "Dober Greaves β",
@@ -7941,12 +7941,12 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 129,
         "setSkills": [
             144
         ],
         "id": 2615,
         "order": 130,
+        "setGroup": 129,
         "name": {
             "jpn": "クシャナペイル α",
             "eng": "Kushala Crus α",
@@ -8023,12 +8023,12 @@
         "slots": [
             3
         ],
-        "setGroup": 130,
         "setSkills": [
             144
         ],
         "id": 2616,
         "order": 131,
+        "setGroup": 130,
         "name": {
             "jpn": "クシャナペイル β",
             "eng": "Kushala Crus β",
@@ -8099,12 +8099,12 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 127,
         "setSkills": [
             143
         ],
         "id": 2617,
         "order": 128,
+        "setGroup": 127,
         "name": {
             "jpn": "カイザーグリーヴ α",
             "eng": "Kaiser Greaves α",
@@ -8181,12 +8181,12 @@
         "slots": [
             1
         ],
-        "setGroup": 128,
         "setSkills": [
             143
         ],
         "id": 2618,
         "order": 129,
+        "setGroup": 128,
         "name": {
             "jpn": "カイザーグリーヴ β",
             "eng": "Kaiser Greaves β",
@@ -8257,12 +8257,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 105,
         "setSkills": [
             137
         ],
         "id": 2619,
         "order": 134,
+        "setGroup": 105,
         "name": {
             "jpn": "キリンレガース α",
             "eng": "Kirin Leg Guards α",
@@ -8340,12 +8340,12 @@
             1,
             1
         ],
-        "setGroup": 106,
         "setSkills": [
             137
         ],
         "id": 2620,
         "order": 135,
+        "setGroup": 106,
         "name": {
             "jpn": "キリンレガース β",
             "eng": "Kirin Leg Guards β",
@@ -8418,12 +8418,12 @@
         "slots": [
             1
         ],
-        "setGroup": 99,
         "setSkills": [
             127
         ],
         "id": 2621,
         "order": 132,
+        "setGroup": 99,
         "name": {
             "jpn": "ウルズグリーヴ α",
             "eng": "Vaal Hazak Greaves α",
@@ -8501,12 +8501,12 @@
             1,
             1
         ],
-        "setGroup": 100,
         "setSkills": [
             127
         ],
         "id": 2622,
         "order": 133,
+        "setGroup": 100,
         "name": {
             "jpn": "ウルズグリーヴ β",
             "eng": "Vaal Hazak Greaves β",
@@ -8579,12 +8579,12 @@
         "slots": [
             1
         ],
-        "setGroup": 115,
         "setSkills": [
             142
         ],
         "id": 2623,
         "order": 117,
+        "setGroup": 115,
         "name": {
             "jpn": "バゼルグリーヴ α",
             "eng": "Bazel Greaves α",
@@ -8661,12 +8661,12 @@
         "slots": [
             3
         ],
-        "setGroup": 116,
         "setSkills": [
             142
         ],
         "id": 2624,
         "order": 118,
+        "setGroup": 116,
         "name": {
             "jpn": "バゼルグリーヴ β",
             "eng": "Bazel Greaves β",
@@ -8737,9 +8737,9 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 131,
         "id": 2625,
         "order": 123,
+        "setGroup": 131,
         "name": {
             "jpn": "デスギアフェルゼ α",
             "eng": "Death Stench Heel α",
@@ -8817,9 +8817,9 @@
             1,
             1
         ],
-        "setGroup": 132,
         "id": 2626,
         "order": 124,
+        "setGroup": 132,
         "name": {
             "jpn": "デスギアフェルゼ β",
             "eng": "Death Stench Heel β",
@@ -8892,12 +8892,12 @@
         "slots": [
             1
         ],
-        "setGroup": 133,
         "setSkills": [
             149
         ],
         "id": 2627,
         "order": 138,
+        "setGroup": 133,
         "name": {
             "jpn": "ギルドクロスブーツ α",
             "eng": "Guild Cross Boots α",
@@ -8974,12 +8974,12 @@
         "slots": [
             3
         ],
-        "setGroup": 134,
         "setSkills": [
             149
         ],
         "id": 2628,
         "order": 139,
+        "setGroup": 134,
         "name": {
             "jpn": "ギルドクロスブーツ β",
             "eng": "Guild Cross Boots β",
@@ -9052,12 +9052,12 @@
         "slots": [
             1
         ],
-        "setGroup": 125,
         "setSkills": [
             145
         ],
         "id": 2629,
         "order": 136,
+        "setGroup": 125,
         "name": {
             "jpn": "ゼノラージフット α",
             "eng": "Xeno'jiiva Spurs α",
@@ -9135,12 +9135,12 @@
             1,
             1
         ],
-        "setGroup": 126,
         "setSkills": [
             145
         ],
         "id": 2630,
         "order": 137,
+        "setGroup": 126,
         "name": {
             "jpn": "ゼノラージフット β",
             "eng": "Xeno'jiiva Spurs β",
@@ -9211,12 +9211,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 137,
         "setSkills": [
             147
         ],
         "id": 2633,
         "order": 91,
+        "setGroup": 137,
         "name": {
             "jpn": "ゾラマグナフット α",
             "eng": "Zorah Spurs α",
@@ -9293,12 +9293,12 @@
         "slots": [
             2
         ],
-        "setGroup": 138,
         "setSkills": [
             147
         ],
         "id": 2634,
         "order": 92,
+        "setGroup": 138,
         "name": {
             "jpn": "ゾラマグナフット β",
             "eng": "Zorah Spurs β",
@@ -9369,12 +9369,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 149,
         "setSkills": [
             150
         ],
         "id": 2635,
         "order": 141,
+        "setGroup": 149,
         "name": {
             "jpn": "シーカーパンツ α",
             "eng": "Commission Pants α",
@@ -9451,12 +9451,12 @@
         "slots": [
             2
         ],
-        "setGroup": 150,
         "setSkills": [
             150
         ],
         "id": 2636,
         "order": 142,
+        "setGroup": 150,
         "name": {
             "jpn": "シーカーパンツ β",
             "eng": "Commission Pants β",
@@ -9527,9 +9527,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 164,
         "id": 2655,
         "order": 0,
+        "setGroup": 164,
         "name": {
             "jpn": "オリジングリーヴ",
             "eng": "Origin Greaves",
@@ -9578,9 +9578,9 @@
         "slots": [
             1
         ],
-        "setGroup": 191,
         "id": 2657,
         "order": 146,
+        "setGroup": 191,
         "name": {
             "jpn": "マムガイラグリーヴ α",
             "eng": "Kulve Taroth's Wrath α",
@@ -9658,9 +9658,9 @@
             2,
             1
         ],
-        "setGroup": 192,
         "id": 2658,
         "order": 147,
+        "setGroup": 192,
         "name": {
             "jpn": "マムガイラグリーヴ β",
             "eng": "Kulve Taroth's Wrath β",
@@ -9735,9 +9735,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 193,
         "id": 2659,
         "order": 150,
+        "setGroup": 193,
         "name": {
             "jpn": "ブロッサムブーツ",
             "eng": "Blossom Boots",
@@ -9800,9 +9800,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 194,
         "id": 2660,
         "order": 151,
+        "setGroup": 194,
         "name": {
             "jpn": "ダイバーブーツ",
             "eng": "Diver's Boots",
@@ -9865,9 +9865,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 195,
         "id": 2661,
         "order": 152,
+        "setGroup": 195,
         "name": {
             "jpn": "ハーベストライース",
             "eng": "Harvest Raiz",
@@ -9930,9 +9930,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 196,
         "id": 2662,
         "order": 153,
+        "setGroup": 196,
         "name": {
             "jpn": "オリオンブーツ",
             "eng": "Orion Boots",
@@ -9995,12 +9995,12 @@
             "dragon": 4
         },
         "slots": [],
-        "setGroup": 197,
         "setSkills": [
             168
         ],
         "id": 2663,
         "order": 154,
+        "setGroup": 197,
         "name": {
             "jpn": "フルドレスブーツ",
             "eng": "Gala Suit Slacks",
@@ -10063,9 +10063,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 201,
         "id": 2665,
         "order": 144,
+        "setGroup": 201,
         "name": {
             "jpn": "バンギスグリーヴ α",
             "eng": "Vangis Greaves α",
@@ -10143,9 +10143,9 @@
             1,
             1
         ],
-        "setGroup": 202,
         "id": 2666,
         "order": 145,
+        "setGroup": 202,
         "name": {
             "jpn": "バンギスグリーヴ β",
             "eng": "Vangis Greaves β",
@@ -10218,12 +10218,12 @@
         "slots": [
             2
         ],
-        "setGroup": 206,
         "setSkills": [
             164
         ],
         "id": 2670,
         "order": 183,
+        "setGroup": 206,
         "name": {
             "jpn": "ドラケングリーヴ α",
             "eng": "Drachen Greaves α",
@@ -10301,9 +10301,9 @@
             1,
             1
         ],
-        "setGroup": 207,
         "id": 2671,
         "order": 155,
+        "setGroup": 207,
         "name": {
             "jpn": "ブロッサムブーツ α",
             "eng": "Blossom Boots α",
@@ -10368,9 +10368,9 @@
         "slots": [
             2
         ],
-        "setGroup": 208,
         "id": 2672,
         "order": 156,
+        "setGroup": 208,
         "name": {
             "jpn": "ダイバーブーツ α",
             "eng": "Diver's Boots α",
@@ -10440,9 +10440,9 @@
             2,
             1
         ],
-        "setGroup": 209,
         "id": 2673,
         "order": 157,
+        "setGroup": 209,
         "name": {
             "jpn": "ハーベストライース α",
             "eng": "Harvest Raiz α",
@@ -10512,9 +10512,9 @@
             3,
             1
         ],
-        "setGroup": 210,
         "id": 2674,
         "order": 158,
+        "setGroup": 210,
         "name": {
             "jpn": "オリオンブーツ α",
             "eng": "Orion Boots α",
@@ -10585,12 +10585,12 @@
             1,
             1
         ],
-        "setGroup": 211,
         "setSkills": [
             168
         ],
         "id": 2675,
         "order": 159,
+        "setGroup": 211,
         "name": {
             "jpn": "フルドレスブーツ α",
             "eng": "Gala Suit Slacks α",
@@ -10657,9 +10657,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 212,
         "id": 2676,
         "order": 160,
+        "setGroup": 212,
         "name": {
             "jpn": "パピオムガンバ",
             "eng": "Butterfly Crura",
@@ -10730,9 +10730,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 213,
         "id": 2677,
         "order": 161,
+        "setGroup": 213,
         "name": {
             "jpn": "パピオムガンバ α",
             "eng": "Butterfly Crura α",
@@ -10809,9 +10809,9 @@
         "slots": [
             1
         ],
-        "setGroup": 214,
         "id": 2678,
         "order": 162,
+        "setGroup": 214,
         "name": {
             "jpn": "パピオムガンバ β",
             "eng": "Butterfly Crura β",
@@ -10882,9 +10882,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 215,
         "id": 2679,
         "order": 163,
+        "setGroup": 215,
         "name": {
             "jpn": "クインビートガンバ",
             "eng": "Queen Beetle Crura",
@@ -10955,9 +10955,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 216,
         "id": 2680,
         "order": 164,
+        "setGroup": 216,
         "name": {
             "jpn": "クインビートガンバ α",
             "eng": "Queen Beetle Crura α",
@@ -11034,9 +11034,9 @@
         "slots": [
             1
         ],
-        "setGroup": 217,
         "id": 2681,
         "order": 165,
+        "setGroup": 217,
         "name": {
             "jpn": "クインビートガンバ β",
             "eng": "Queen Beetle Crura β",
@@ -11110,12 +11110,12 @@
             3,
             1
         ],
-        "setGroup": 218,
         "setSkills": [
             127
         ],
         "id": 2682,
         "order": 166,
+        "setGroup": 218,
         "name": {
             "jpn": "ウルズグリーヴ γ",
             "eng": "Vaal Hazak Greaves γ",
@@ -11192,12 +11192,12 @@
         "slots": [
             3
         ],
-        "setGroup": 219,
         "setSkills": [
             137
         ],
         "id": 2683,
         "order": 167,
+        "setGroup": 219,
         "name": {
             "jpn": "キリンレガース γ",
             "eng": "Kirin Leg Guards γ",
@@ -11275,12 +11275,12 @@
             3,
             1
         ],
-        "setGroup": 220,
         "setSkills": [
             143
         ],
         "id": 2684,
         "order": 168,
+        "setGroup": 220,
         "name": {
             "jpn": "カイザーグリーヴ γ",
             "eng": "Kaiser Greaves γ",
@@ -11353,12 +11353,12 @@
         "slots": [
             3
         ],
-        "setGroup": 221,
         "setSkills": [
             144
         ],
         "id": 2685,
         "order": 169,
+        "setGroup": 221,
         "name": {
             "jpn": "クシャナペイル γ",
             "eng": "Kushala Crus γ",
@@ -11432,12 +11432,12 @@
             2,
             2
         ],
-        "setGroup": 222,
         "setSkills": [
             126
         ],
         "id": 2686,
         "order": 170,
+        "setGroup": 222,
         "name": {
             "jpn": "オーググリーヴ γ",
             "eng": "Nergigante Greaves γ",
@@ -11511,12 +11511,12 @@
             3,
             2
         ],
-        "setGroup": 223,
         "setSkills": [
             147
         ],
         "id": 2687,
         "order": 171,
+        "setGroup": 223,
         "name": {
             "jpn": "ゾラマグナフット γ",
             "eng": "Zorah Spurs γ",
@@ -11595,12 +11595,12 @@
             1,
             1
         ],
-        "setGroup": 224,
         "setSkills": [
             145
         ],
         "id": 2688,
         "order": 172,
+        "setGroup": 224,
         "name": {
             "jpn": "ゼノラージフット γ",
             "eng": "Xeno'jiiva Spurs γ",
@@ -11673,12 +11673,12 @@
         "slots": [
             3
         ],
-        "setGroup": 229,
         "setSkills": [
             135
         ],
         "id": 2693,
         "order": 180,
+        "setGroup": 229,
         "name": {
             "jpn": "蒼星ノ将【具足】 α",
             "eng": "Azure Starlord Guards α",
@@ -11752,9 +11752,9 @@
             1,
             1
         ],
-        "setGroup": 230,
         "id": 2694,
         "order": 182,
+        "setGroup": 230,
         "name": {
             "jpn": "ダンテレザー α",
             "eng": "Dante's Leather Boots α",
@@ -11828,12 +11828,12 @@
             2,
             1
         ],
-        "setGroup": 231,
         "setSkills": [
             163
         ],
         "id": 2695,
         "order": 148,
+        "setGroup": 231,
         "name": {
             "jpn": "エンプレスグリーヴ α",
             "eng": "Empress Greaves α",
@@ -11911,12 +11911,12 @@
             2,
             2
         ],
-        "setGroup": 232,
         "setSkills": [
             163
         ],
         "id": 2696,
         "order": 149,
+        "setGroup": 232,
         "name": {
             "jpn": "エンプレスグリーヴ β",
             "eng": "Empress Greaves β",
@@ -11989,12 +11989,12 @@
         "slots": [
             3
         ],
-        "setGroup": 242,
         "setSkills": [
             163
         ],
         "id": 2706,
         "order": 173,
+        "setGroup": 242,
         "name": {
             "jpn": "エンプレスグリーヴ γ",
             "eng": "Empress Greaves γ",
@@ -12072,9 +12072,9 @@
             3,
             1
         ],
-        "setGroup": 247,
         "id": 2711,
         "order": 174,
+        "setGroup": 247,
         "name": {
             "jpn": "マムガイラグリーヴ γ",
             "eng": "Kulve Taroth's Wrath γ",
@@ -12149,9 +12149,9 @@
             "dragon": 3
         },
         "slots": [],
-        "setGroup": 248,
         "id": 2712,
         "order": 298,
+        "setGroup": 248,
         "name": {
             "jpn": "防衛隊【脚甲】 α",
             "eng": "Defender Greaves α",
@@ -12211,9 +12211,9 @@
         "slots": [
             3
         ],
-        "setGroup": 302,
         "id": 2715,
         "order": 302,
+        "setGroup": 302,
         "name": {
             "jpn": "EXボーングリーヴ α",
             "eng": "Bone Greaves α+",
@@ -12286,9 +12286,9 @@
         "slots": [
             4
         ],
-        "setGroup": 303,
         "id": 2716,
         "order": 303,
+        "setGroup": 303,
         "name": {
             "jpn": "EXボーングリーヴ β",
             "eng": "Bone Greaves β+",
@@ -12357,9 +12357,9 @@
         "slots": [
             3
         ],
-        "setGroup": 304,
         "id": 2717,
         "order": 304,
+        "setGroup": 304,
         "name": {
             "jpn": "EXアロイグリーヴ α",
             "eng": "Alloy Greaves α+",
@@ -12432,9 +12432,9 @@
         "slots": [
             4
         ],
-        "setGroup": 305,
         "id": 2718,
         "order": 305,
+        "setGroup": 305,
         "name": {
             "jpn": "EXアロイグリーヴ β",
             "eng": "Alloy Greaves β+",
@@ -12507,9 +12507,9 @@
         "slots": [
             3
         ],
-        "setGroup": 306,
         "id": 2719,
         "order": 306,
+        "setGroup": 306,
         "name": {
             "jpn": "EXランゴグリーヴ α",
             "eng": "Vespoid Greaves α+",
@@ -12583,9 +12583,9 @@
             4,
             1
         ],
-        "setGroup": 307,
         "id": 2720,
         "order": 307,
+        "setGroup": 307,
         "name": {
             "jpn": "EXランゴグリーヴ β",
             "eng": "Vespoid Greaves β+",
@@ -12655,9 +12655,9 @@
             2,
             1
         ],
-        "setGroup": 308,
         "id": 2721,
         "order": 308,
+        "setGroup": 308,
         "name": {
             "jpn": "EXタロスグリーヴ α",
             "eng": "Hornetaur Greaves α+",
@@ -12731,9 +12731,9 @@
             4,
             1
         ],
-        "setGroup": 309,
         "id": 2722,
         "order": 309,
+        "setGroup": 309,
         "name": {
             "jpn": "EXタロスグリーヴ β",
             "eng": "Hornetaur Greaves β+",
@@ -12803,9 +12803,9 @@
             2,
             1
         ],
-        "setGroup": 312,
         "id": 2723,
         "order": 312,
+        "setGroup": 312,
         "name": {
             "jpn": "EXガライーブーツ α",
             "eng": "Gajau Boots α+",
@@ -12879,9 +12879,9 @@
             4,
             1
         ],
-        "setGroup": 313,
         "id": 2724,
         "order": 313,
+        "setGroup": 313,
         "name": {
             "jpn": "EXガライーブーツ β",
             "eng": "Gajau Boots β+",
@@ -12955,9 +12955,9 @@
             2,
             1
         ],
-        "setGroup": 324,
         "id": 2725,
         "order": 324,
+        "setGroup": 324,
         "name": {
             "jpn": "EXジャグラスグリーヴ α",
             "eng": "Jagras Greaves α+",
@@ -13035,9 +13035,9 @@
             4,
             1
         ],
-        "setGroup": 325,
         "id": 2726,
         "order": 325,
+        "setGroup": 325,
         "name": {
             "jpn": "EXジャグラスグリーヴ β",
             "eng": "Jagras Greaves β+",
@@ -13110,9 +13110,9 @@
         "slots": [
             3
         ],
-        "setGroup": 326,
         "id": 2727,
         "order": 326,
+        "setGroup": 326,
         "name": {
             "jpn": "EXツィツィグリーヴ α",
             "eng": "Tzitzi Greaves α+",
@@ -13189,9 +13189,9 @@
         "slots": [
             4
         ],
-        "setGroup": 327,
         "id": 2728,
         "order": 327,
+        "setGroup": 327,
         "name": {
             "jpn": "EXツィツィグリーヴ β",
             "eng": "Tzitzi Greaves β+",
@@ -13268,9 +13268,9 @@
         "slots": [
             1
         ],
-        "setGroup": 328,
         "id": 2729,
         "order": 328,
+        "setGroup": 328,
         "name": {
             "jpn": "EXギルオスグリーヴ α",
             "eng": "Girros Greaves α+",
@@ -13347,9 +13347,9 @@
         "slots": [
             4
         ],
-        "setGroup": 329,
         "id": 2730,
         "order": 329,
+        "setGroup": 329,
         "name": {
             "jpn": "EXギルオスグリーヴ β",
             "eng": "Girros Greaves β+",
@@ -13423,9 +13423,9 @@
             2,
             1
         ],
-        "setGroup": 330,
         "id": 2731,
         "order": 330,
+        "setGroup": 330,
         "name": {
             "jpn": "EXガマルグリーヴ α",
             "eng": "Dodogama Greaves α+",
@@ -13503,9 +13503,9 @@
             4,
             1
         ],
-        "setGroup": 331,
         "id": 2732,
         "order": 331,
+        "setGroup": 331,
         "name": {
             "jpn": "EXガマルグリーヴ β",
             "eng": "Dodogama Greaves β+",
@@ -13578,9 +13578,9 @@
         "slots": [
             2
         ],
-        "setGroup": 332,
         "id": 2733,
         "order": 332,
+        "setGroup": 332,
         "name": {
             "jpn": "EXクルルグリーヴ α",
             "eng": "Kulu Greaves α+",
@@ -13653,9 +13653,9 @@
         "slots": [
             4
         ],
-        "setGroup": 333,
         "id": 2734,
         "order": 333,
+        "setGroup": 333,
         "name": {
             "jpn": "EXクルルグリーヴ β",
             "eng": "Kulu Greaves β+",
@@ -13728,9 +13728,9 @@
         "slots": [
             3
         ],
-        "setGroup": 334,
         "id": 2735,
         "order": 334,
+        "setGroup": 334,
         "name": {
             "jpn": "EXプケプケグリーヴ α",
             "eng": "Pukei Greaves α+",
@@ -13804,9 +13804,9 @@
             4,
             2
         ],
-        "setGroup": 335,
         "id": 2736,
         "order": 335,
+        "setGroup": 335,
         "name": {
             "jpn": "EXプケプケグリーヴ β",
             "eng": "Pukei Greaves β+",
@@ -13876,9 +13876,9 @@
             3,
             1
         ],
-        "setGroup": 336,
         "id": 2737,
         "order": 338,
+        "setGroup": 336,
         "name": {
             "jpn": "EXボロスグリーヴ α",
             "eng": "Barroth Greaves α+",
@@ -13953,9 +13953,9 @@
             2,
             1
         ],
-        "setGroup": 337,
         "id": 2738,
         "order": 339,
+        "setGroup": 337,
         "name": {
             "jpn": "EXボロスグリーヴ β",
             "eng": "Barroth Greaves β+",
@@ -14024,9 +14024,9 @@
         "slots": [
             2
         ],
-        "setGroup": 338,
         "id": 2739,
         "order": 340,
+        "setGroup": 338,
         "name": {
             "jpn": "EXジュラグリーヴ α",
             "eng": "Jyura Greaves α+",
@@ -14100,9 +14100,9 @@
             4,
             1
         ],
-        "setGroup": 339,
         "id": 2740,
         "order": 341,
+        "setGroup": 339,
         "name": {
             "jpn": "EXジュラグリーヴ β",
             "eng": "Jyura Greaves β+",
@@ -14175,9 +14175,9 @@
         "slots": [
             2
         ],
-        "setGroup": 340,
         "id": 2741,
         "order": 342,
+        "setGroup": 340,
         "name": {
             "jpn": "EXブラングリーヴ α",
             "eng": "Beo Greaves α+",
@@ -14254,9 +14254,9 @@
         "slots": [
             4
         ],
-        "setGroup": 341,
         "id": 2742,
         "order": 343,
+        "setGroup": 341,
         "name": {
             "jpn": "EXブラングリーヴ β",
             "eng": "Beo Greaves β+",
@@ -14330,9 +14330,9 @@
             3,
             1
         ],
-        "setGroup": 342,
         "id": 2743,
         "order": 344,
+        "setGroup": 342,
         "name": {
             "jpn": "EXカガチグリーヴ α",
             "eng": "Kadachi Greaves α+",
@@ -14407,9 +14407,9 @@
             1,
             1
         ],
-        "setGroup": 343,
         "id": 2744,
         "order": 345,
+        "setGroup": 343,
         "name": {
             "jpn": "EXカガチグリーヴ β",
             "eng": "Kadachi Greaves β+",
@@ -14480,9 +14480,9 @@
             2,
             1
         ],
-        "setGroup": 344,
         "id": 2745,
         "order": 348,
+        "setGroup": 344,
         "name": {
             "jpn": "EXハイメタグリーヴ α",
             "eng": "High Metal Greaves α+",
@@ -14560,9 +14560,9 @@
             4,
             3
         ],
-        "setGroup": 345,
         "id": 2746,
         "order": 349,
+        "setGroup": 345,
         "name": {
             "jpn": "EXハイメタグリーヴ β",
             "eng": "High Metal Greaves β+",
@@ -14639,9 +14639,9 @@
         "slots": [
             3
         ],
-        "setGroup": 346,
         "id": 2747,
         "order": 350,
+        "setGroup": 346,
         "name": {
             "jpn": "EXバフバログリーヴ α",
             "eng": "Banbaro Greaves α+",
@@ -14715,9 +14715,9 @@
             4,
             1
         ],
-        "setGroup": 347,
         "id": 2748,
         "order": 351,
+        "setGroup": 347,
         "name": {
             "jpn": "EXバフバログリーヴ β",
             "eng": "Banbaro Greaves β+",
@@ -14786,12 +14786,12 @@
         "slots": [
             2
         ],
-        "setGroup": 348,
         "setSkills": [
             182
         ],
         "id": 2749,
         "order": 352,
+        "setGroup": 348,
         "name": {
             "jpn": "EXジャナフグリーヴ α",
             "eng": "Anja Greaves α+",
@@ -14869,12 +14869,12 @@
             4,
             1
         ],
-        "setGroup": 349,
         "setSkills": [
             182
         ],
         "id": 2750,
         "order": 353,
+        "setGroup": 349,
         "name": {
             "jpn": "EXジャナフグリーヴ β",
             "eng": "Anja Greaves β+",
@@ -14947,12 +14947,12 @@
         "slots": [
             3
         ],
-        "setGroup": 350,
         "setSkills": [
             183
         ],
         "id": 2751,
         "order": 356,
+        "setGroup": 350,
         "name": {
             "jpn": "EXレイアグリーヴ α",
             "eng": "Rathian Greaves α+",
@@ -15025,12 +15025,12 @@
         "slots": [
             4
         ],
-        "setGroup": 351,
         "setSkills": [
             183
         ],
         "id": 2752,
         "order": 357,
+        "setGroup": 351,
         "name": {
             "jpn": "EXレイアグリーヴ β",
             "eng": "Rathian Greaves β+",
@@ -15100,12 +15100,12 @@
             2,
             1
         ],
-        "setGroup": 352,
         "setSkills": [
             183
         ],
         "id": 2753,
         "order": 358,
+        "setGroup": 352,
         "name": {
             "jpn": "EXリオハートグリーヴ α",
             "eng": "Rath Heart Greaves α+",
@@ -15183,12 +15183,12 @@
             4,
             2
         ],
-        "setGroup": 353,
         "setSkills": [
             183
         ],
         "id": 2754,
         "order": 359,
+        "setGroup": 353,
         "name": {
             "jpn": "EXリオハートグリーヴ β",
             "eng": "Rath Heart Greaves β+",
@@ -15261,9 +15261,9 @@
         "slots": [
             3
         ],
-        "setGroup": 354,
         "id": 2755,
         "order": 360,
+        "setGroup": 354,
         "name": {
             "jpn": "EXウルムーグリーヴ α",
             "eng": "Lumu Greaves α+",
@@ -15337,9 +15337,9 @@
             4,
             1
         ],
-        "setGroup": 355,
         "id": 2756,
         "order": 361,
+        "setGroup": 355,
         "name": {
             "jpn": "EXウルムーグリーヴ β",
             "eng": "Lumu Greaves β+",
@@ -15408,9 +15408,9 @@
         "slots": [
             3
         ],
-        "setGroup": 356,
         "id": 2757,
         "order": 362,
+        "setGroup": 356,
         "name": {
             "jpn": "EXウルムメアグリーヴ α",
             "eng": "Lumu Phantasm Greaves α+",
@@ -15484,9 +15484,9 @@
             4,
             1
         ],
-        "setGroup": 357,
         "id": 2758,
         "order": 363,
+        "setGroup": 357,
         "name": {
             "jpn": "EXウルムメアグリーヴ β",
             "eng": "Lumu Phantasm Greaves β+",
@@ -15555,9 +15555,9 @@
         "slots": [
             1
         ],
-        "setGroup": 358,
         "id": 2759,
         "order": 336,
+        "setGroup": 358,
         "name": {
             "jpn": "EXプケラグーナグリーヴ α",
             "eng": "Pukei Lagoon Greaves α+",
@@ -15635,9 +15635,9 @@
             4,
             1
         ],
-        "setGroup": 359,
         "id": 2760,
         "order": 337,
+        "setGroup": 359,
         "name": {
             "jpn": "EXプケラグーナグリーヴ β",
             "eng": "Pukei Lagoon Greaves β+",
@@ -15710,9 +15710,9 @@
         "slots": [
             2
         ],
-        "setGroup": 360,
         "id": 2761,
         "order": 346,
+        "setGroup": 360,
         "name": {
             "jpn": "EXベニカガチグリーヴ α",
             "eng": "Viper Kadachi Greaves α+",
@@ -15790,9 +15790,9 @@
             4,
             1
         ],
-        "setGroup": 361,
         "id": 2762,
         "order": 347,
+        "setGroup": 361,
         "name": {
             "jpn": "EXベニカガチグリーヴ β",
             "eng": "Viper Kadachi Greaves β+",
@@ -15865,9 +15865,9 @@
         "slots": [
             2
         ],
-        "setGroup": 362,
         "id": 2763,
         "order": 364,
+        "setGroup": 362,
         "name": {
             "jpn": "EXバルキングリーヴ α",
             "eng": "Baan Greaves α+",
@@ -15945,9 +15945,9 @@
             4,
             1
         ],
-        "setGroup": 363,
         "id": 2764,
         "order": 365,
+        "setGroup": 363,
         "name": {
             "jpn": "EXバルキングリーヴ β",
             "eng": "Baan Greaves β+",
@@ -16020,9 +16020,9 @@
         "slots": [
             2
         ],
-        "setGroup": 378,
         "id": 2774,
         "order": 370,
+        "setGroup": 378,
         "name": {
             "jpn": "EXインゴットグリーヴ α",
             "eng": "Ingot Greaves α+",
@@ -16095,9 +16095,9 @@
         "slots": [
             4
         ],
-        "setGroup": 379,
         "id": 2775,
         "order": 371,
+        "setGroup": 379,
         "name": {
             "jpn": "EXインゴットグリーヴ β",
             "eng": "Ingot Greaves β+",
@@ -16171,12 +16171,12 @@
             1,
             1
         ],
-        "setGroup": 380,
         "setSkills": [
             188
         ],
         "id": 2776,
         "order": 372,
+        "setGroup": 380,
         "name": {
             "jpn": "EXベリオグリーヴ α",
             "eng": "Barioth Greaves α+",
@@ -16254,12 +16254,12 @@
             4,
             1
         ],
-        "setGroup": 381,
         "setSkills": [
             188
         ],
         "id": 2777,
         "order": 373,
+        "setGroup": 381,
         "name": {
             "jpn": "EXベリオグリーヴ β",
             "eng": "Barioth Greaves β+",
@@ -16336,12 +16336,12 @@
         "slots": [
             3
         ],
-        "setGroup": 382,
         "setSkills": [
             189
         ],
         "id": 2778,
         "order": 374,
+        "setGroup": 382,
         "name": {
             "jpn": "EXレウスグリーヴ α",
             "eng": "Rathalos Greaves α+",
@@ -16418,12 +16418,12 @@
         "slots": [
             4
         ],
-        "setGroup": 383,
         "setSkills": [
             189
         ],
         "id": 2779,
         "order": 375,
+        "setGroup": 383,
         "name": {
             "jpn": "EXレウスグリーヴ β",
             "eng": "Rathalos Greaves β+",
@@ -16501,12 +16501,12 @@
             1,
             1
         ],
-        "setGroup": 384,
         "setSkills": [
             190
         ],
         "id": 2780,
         "order": 378,
+        "setGroup": 384,
         "name": {
             "jpn": "EXディアブログリーヴ α",
             "eng": "Diablos Greaves α+",
@@ -16584,12 +16584,12 @@
             4,
             1
         ],
-        "setGroup": 385,
         "setSkills": [
             190
         ],
         "id": 2781,
         "order": 379,
+        "setGroup": 385,
         "name": {
             "jpn": "EXディアブログリーヴ β",
             "eng": "Diablos Greaves β+",
@@ -16666,12 +16666,12 @@
         "slots": [
             3
         ],
-        "setGroup": 386,
         "setSkills": [
             191
         ],
         "id": 2782,
         "order": 382,
+        "setGroup": 386,
         "name": {
             "jpn": "EXギエナグリーヴ α",
             "eng": "Legiana Greaves α+",
@@ -16749,12 +16749,12 @@
             4,
             2
         ],
-        "setGroup": 387,
         "setSkills": [
             191
         ],
         "id": 2783,
         "order": 383,
+        "setGroup": 387,
         "name": {
             "jpn": "EXギエナグリーヴ β",
             "eng": "Legiana Greaves β+",
@@ -16827,12 +16827,12 @@
         "slots": [
             1
         ],
-        "setGroup": 388,
         "setSkills": [
             192
         ],
         "id": 2784,
         "order": 386,
+        "setGroup": 388,
         "name": {
             "jpn": "EXガロングリーヴ α",
             "eng": "Odogaron Greaves α+",
@@ -16909,12 +16909,12 @@
         "slots": [
             4
         ],
-        "setGroup": 389,
         "setSkills": [
             192
         ],
         "id": 2785,
         "order": 387,
+        "setGroup": 389,
         "name": {
             "jpn": "EXガロングリーヴ β",
             "eng": "Odogaron Greaves β+",
@@ -16991,9 +16991,9 @@
         "slots": [
             2
         ],
-        "setGroup": 390,
         "id": 2786,
         "order": 390,
+        "setGroup": 390,
         "name": {
             "jpn": "EXラヴァグリーヴ α",
             "eng": "Lavasioth Greaves α+",
@@ -17071,9 +17071,9 @@
             4,
             1
         ],
-        "setGroup": 391,
         "id": 2787,
         "order": 391,
+        "setGroup": 391,
         "name": {
             "jpn": "EXラヴァグリーヴ β",
             "eng": "Lavasioth Greaves β+",
@@ -17150,12 +17150,12 @@
         "slots": [
             1
         ],
-        "setGroup": 392,
         "setSkills": [
             193
         ],
         "id": 2788,
         "order": 392,
+        "setGroup": 392,
         "name": {
             "jpn": "EXガンキングリーヴ α",
             "eng": "Uragaan Greaves α+",
@@ -17233,12 +17233,12 @@
             4,
             1
         ],
-        "setGroup": 393,
         "setSkills": [
             193
         ],
         "id": 2789,
         "order": 393,
+        "setGroup": 393,
         "name": {
             "jpn": "EXガンキングリーヴ β",
             "eng": "Uragaan Greaves β+",
@@ -17312,12 +17312,12 @@
             1,
             1
         ],
-        "setGroup": 394,
         "setSkills": [
             171
         ],
         "id": 2790,
         "order": 394,
+        "setGroup": 394,
         "name": {
             "jpn": "EXナルガグリーヴ α",
             "eng": "Nargacuga Greaves α+",
@@ -17395,12 +17395,12 @@
             4,
             1
         ],
-        "setGroup": 395,
         "setSkills": [
             171
         ],
         "id": 2791,
         "order": 395,
+        "setGroup": 395,
         "name": {
             "jpn": "EXナルガグリーヴ β",
             "eng": "Nargacuga Greaves β+",
@@ -17473,12 +17473,12 @@
         "slots": [
             2
         ],
-        "setGroup": 396,
         "setSkills": [
             173
         ],
         "id": 2792,
         "order": 396,
+        "setGroup": 396,
         "name": {
             "jpn": "EXディノグリーヴ α",
             "eng": "Glavenus Greaves α+",
@@ -17555,12 +17555,12 @@
         "slots": [
             4
         ],
-        "setGroup": 397,
         "setSkills": [
             173
         ],
         "id": 2793,
         "order": 397,
+        "setGroup": 397,
         "name": {
             "jpn": "EXディノグリーヴ β",
             "eng": "Glavenus Greaves β+",
@@ -17633,12 +17633,12 @@
         "slots": [
             2
         ],
-        "setGroup": 398,
         "setSkills": [
             172
         ],
         "id": 2794,
         "order": 400,
+        "setGroup": 398,
         "name": {
             "jpn": "EXブラキグリーヴ α",
             "eng": "Brachydios Greaves α+",
@@ -17715,12 +17715,12 @@
         "slots": [
             4
         ],
-        "setGroup": 399,
         "setSkills": [
             172
         ],
         "id": 2795,
         "order": 401,
+        "setGroup": 399,
         "name": {
             "jpn": "EXブラキグリーヴ β",
             "eng": "Brachydios Greaves β+",
@@ -17798,12 +17798,12 @@
             3,
             1
         ],
-        "setGroup": 400,
         "setSkills": [
             170
         ],
         "id": 2796,
         "order": 402,
+        "setGroup": 400,
         "name": {
             "jpn": "EXレックスグリーヴ α",
             "eng": "Tigrex Greaves α+",
@@ -17881,12 +17881,12 @@
             4,
             2
         ],
-        "setGroup": 401,
         "setSkills": [
             170
         ],
         "id": 2797,
         "order": 403,
+        "setGroup": 401,
         "name": {
             "jpn": "EXレックスグリーヴ β",
             "eng": "Tigrex Greaves β+",
@@ -17960,12 +17960,12 @@
             2,
             1
         ],
-        "setGroup": 402,
         "setSkills": [
             182
         ],
         "id": 2798,
         "order": 354,
+        "setGroup": 402,
         "name": {
             "jpn": "EXジャナールグリーヴ α",
             "eng": "Fulgur Greaves α+",
@@ -18043,12 +18043,12 @@
             4,
             1
         ],
-        "setGroup": 403,
         "setSkills": [
             182
         ],
         "id": 2799,
         "order": 355,
+        "setGroup": 403,
         "name": {
             "jpn": "EXジャナールグリーヴ β",
             "eng": "Fulgur Greaves β+",
@@ -18122,12 +18122,12 @@
             2,
             2
         ],
-        "setGroup": 406,
         "setSkills": [
             181
         ],
         "id": 2802,
         "order": 406,
+        "setGroup": 406,
         "name": {
             "jpn": "EXクロオビグリーヴ α",
             "eng": "Black Belt Greaves α+",
@@ -18201,12 +18201,12 @@
             4,
             2
         ],
-        "setGroup": 407,
         "setSkills": [
             181
         ],
         "id": 2803,
         "order": 407,
+        "setGroup": 407,
         "name": {
             "jpn": "EXクロオビグリーヴ β",
             "eng": "Black Belt Greaves β+",
@@ -18276,12 +18276,12 @@
             1,
             1
         ],
-        "setGroup": 413,
         "setSkills": [
             191
         ],
         "id": 2806,
         "order": 384,
+        "setGroup": 413,
         "name": {
             "jpn": "EXブリーナグリーヴ α",
             "eng": "Hoarcry Greaves α+",
@@ -18359,12 +18359,12 @@
             4,
             2
         ],
-        "setGroup": 414,
         "setSkills": [
             191
         ],
         "id": 2807,
         "order": 385,
+        "setGroup": 414,
         "name": {
             "jpn": "EXブリーナグリーヴ β",
             "eng": "Hoarcry Greaves β+",
@@ -18437,12 +18437,12 @@
         "slots": [
             1
         ],
-        "setGroup": 415,
         "setSkills": [
             189
         ],
         "id": 2808,
         "order": 376,
+        "setGroup": 415,
         "name": {
             "jpn": "EXリオソウルグリーヴ α",
             "eng": "Rath Soul Greaves α+",
@@ -18519,12 +18519,12 @@
         "slots": [
             4
         ],
-        "setGroup": 416,
         "setSkills": [
             189
         ],
         "id": 2809,
         "order": 377,
+        "setGroup": 416,
         "name": {
             "jpn": "EXリオソウルグリーヴ β",
             "eng": "Rath Soul Greaves β+",
@@ -18601,12 +18601,12 @@
         "slots": [
             1
         ],
-        "setGroup": 417,
         "setSkills": [
             190
         ],
         "id": 2810,
         "order": 380,
+        "setGroup": 417,
         "name": {
             "jpn": "EXディアネログリーヴ α",
             "eng": "Diablos Nero Greaves α+",
@@ -18683,12 +18683,12 @@
         "slots": [
             4
         ],
-        "setGroup": 418,
         "setSkills": [
             190
         ],
         "id": 2811,
         "order": 381,
+        "setGroup": 418,
         "name": {
             "jpn": "EXディアネログリーヴ β",
             "eng": "Diablos Nero Greaves β+",
@@ -18762,12 +18762,12 @@
             1,
             1
         ],
-        "setGroup": 419,
         "setSkills": [
             192
         ],
         "id": 2812,
         "order": 388,
+        "setGroup": 419,
         "name": {
             "jpn": "EXデスガロングリーヴ α",
             "eng": "Death Garon Greaves α+",
@@ -18846,12 +18846,12 @@
             1,
             1
         ],
-        "setGroup": 420,
         "setSkills": [
             192
         ],
         "id": 2813,
         "order": 389,
+        "setGroup": 420,
         "name": {
             "jpn": "EXデスガロングリーヴ β",
             "eng": "Death Garon Greaves β+",
@@ -18924,12 +18924,12 @@
         "slots": [
             1
         ],
-        "setGroup": 421,
         "setSkills": [
             173
         ],
         "id": 2814,
         "order": 398,
+        "setGroup": 421,
         "name": {
             "jpn": "EXディノイエログリーヴ α",
             "eng": "Acidic Glavenus Greaves α+",
@@ -19007,12 +19007,12 @@
             4,
             2
         ],
-        "setGroup": 422,
         "setSkills": [
             173
         ],
         "id": 2815,
         "order": 399,
+        "setGroup": 422,
         "name": {
             "jpn": "EXディノイエログリーヴ β",
             "eng": "Acidic Glavenus Greaves β+",
@@ -19086,12 +19086,12 @@
             1,
             1
         ],
-        "setGroup": 423,
         "setSkills": [
             179
         ],
         "id": 2816,
         "order": 366,
+        "setGroup": 423,
         "name": {
             "jpn": "EXアーティアグリーヴ α",
             "eng": "Artian Greaves α+",
@@ -19168,12 +19168,12 @@
         "slots": [
             4
         ],
-        "setGroup": 424,
         "setSkills": [
             179
         ],
         "id": 2817,
         "order": 367,
+        "setGroup": 424,
         "name": {
             "jpn": "EXアーティアグリーヴ β",
             "eng": "Artian Greaves β+",
@@ -19246,9 +19246,9 @@
         "slots": [
             2
         ],
-        "setGroup": 428,
         "id": 2820,
         "order": 408,
+        "setGroup": 428,
         "name": {
             "jpn": "EXドーベルグリーヴ α",
             "eng": "Dober Greaves α+",
@@ -19326,9 +19326,9 @@
             4,
             2
         ],
-        "setGroup": 429,
         "id": 2821,
         "order": 409,
+        "setGroup": 429,
         "name": {
             "jpn": "EXドーベルグリーヴ β",
             "eng": "Dober Greaves β+",
@@ -19406,9 +19406,9 @@
             2,
             1
         ],
-        "setGroup": 430,
         "id": 2822,
         "order": 410,
+        "setGroup": 430,
         "name": {
             "jpn": "EXダマスクグリーヴ α",
             "eng": "Damascus Greaves α+",
@@ -19486,9 +19486,9 @@
             4,
             2
         ],
-        "setGroup": 431,
         "id": 2823,
         "order": 411,
+        "setGroup": 431,
         "name": {
             "jpn": "EXダマスクグリーヴ β",
             "eng": "Damascus Greaves β+",
@@ -19566,12 +19566,12 @@
             1,
             1
         ],
-        "setGroup": 432,
         "setSkills": [
             178
         ],
         "id": 2824,
         "order": 416,
+        "setGroup": 432,
         "name": {
             "jpn": "EXラヴィーナグリーヴ α",
             "eng": "Rimeguard Greaves α+",
@@ -19649,12 +19649,12 @@
             4,
             1
         ],
-        "setGroup": 433,
         "setSkills": [
             178
         ],
         "id": 2825,
         "order": 417,
+        "setGroup": 433,
         "name": {
             "jpn": "EXラヴィーナグリーヴ β",
             "eng": "Rimeguard Greaves β+",
@@ -19727,12 +19727,12 @@
         "slots": [
             3
         ],
-        "setGroup": 434,
         "setSkills": [
             194
         ],
         "id": 2826,
         "order": 412,
+        "setGroup": 434,
         "name": {
             "jpn": "EXプライドグリーヴ α",
             "eng": "Pride Greaves α+",
@@ -19810,12 +19810,12 @@
             4,
             2
         ],
-        "setGroup": 435,
         "setSkills": [
             194
         ],
         "id": 2827,
         "order": 413,
+        "setGroup": 435,
         "name": {
             "jpn": "EXプライドグリーヴ β",
             "eng": "Pride Greaves β+",
@@ -19893,12 +19893,12 @@
             3,
             2
         ],
-        "setGroup": 436,
         "setSkills": [
             196
         ],
         "id": 2828,
         "order": 418,
+        "setGroup": 436,
         "name": {
             "jpn": "EXヴァルファーグリーヴ α",
             "eng": "Fellshroud Greaves α+",
@@ -19976,12 +19976,12 @@
             4,
             3
         ],
-        "setGroup": 437,
         "setSkills": [
             196
         ],
         "id": 2829,
         "order": 419,
+        "setGroup": 437,
         "name": {
             "jpn": "EXヴァルファーグリーヴ β",
             "eng": "Fellshroud Greaves β+",
@@ -20054,12 +20054,12 @@
         "slots": [
             2
         ],
-        "setGroup": 438,
         "setSkills": [
             143
         ],
         "id": 2830,
         "order": 420,
+        "setGroup": 438,
         "name": {
             "jpn": "EXカイザーグリーヴ α",
             "eng": "Kaiser Greaves α+",
@@ -20136,12 +20136,12 @@
         "slots": [
             4
         ],
-        "setGroup": 439,
         "setSkills": [
             143
         ],
         "id": 2831,
         "order": 421,
+        "setGroup": 439,
         "name": {
             "jpn": "EXカイザーグリーヴ β",
             "eng": "Kaiser Greaves β+",
@@ -20218,12 +20218,12 @@
         "slots": [
             1
         ],
-        "setGroup": 440,
         "setSkills": [
             144
         ],
         "id": 2832,
         "order": 422,
+        "setGroup": 440,
         "name": {
             "jpn": "EXクシャナペイル α",
             "eng": "Kushala Crus α+",
@@ -20301,12 +20301,12 @@
             4,
             3
         ],
-        "setGroup": 441,
         "setSkills": [
             144
         ],
         "id": 2833,
         "order": 423,
+        "setGroup": 441,
         "name": {
             "jpn": "EXクシャナペイル β",
             "eng": "Kushala Crus β+",
@@ -20379,12 +20379,12 @@
         "slots": [
             1
         ],
-        "setGroup": 442,
         "setSkills": [
             199
         ],
         "id": 2834,
         "order": 424,
+        "setGroup": 442,
         "name": {
             "jpn": "EXキリンレガース α",
             "eng": "Kirin Leg Guards α+",
@@ -20461,12 +20461,12 @@
         "slots": [
             4
         ],
-        "setGroup": 443,
         "setSkills": [
             199
         ],
         "id": 2835,
         "order": 425,
+        "setGroup": 443,
         "name": {
             "jpn": "EXキリンレガース β",
             "eng": "Kirin Leg Guards β+",
@@ -20540,12 +20540,12 @@
             2,
             1
         ],
-        "setGroup": 444,
         "setSkills": [
             177
         ],
         "id": 2836,
         "order": 426,
+        "setGroup": 444,
         "name": {
             "jpn": "EXテンタクルグリーヴ α",
             "eng": "Tentacle Greaves α+",
@@ -20623,12 +20623,12 @@
             4,
             2
         ],
-        "setGroup": 445,
         "setSkills": [
             177
         ],
         "id": 2837,
         "order": 427,
+        "setGroup": 445,
         "name": {
             "jpn": "EXテンタクルグリーヴ β",
             "eng": "Tentacle Greaves β+",
@@ -20701,12 +20701,12 @@
         "slots": [
             2
         ],
-        "setGroup": 448,
         "setSkills": [
             200
         ],
         "id": 2840,
         "order": 428,
+        "setGroup": 448,
         "name": {
             "jpn": "EXギルドパレスグリーヴ α",
             "eng": "Guild Palace Greaves α+",
@@ -20784,12 +20784,12 @@
             4,
             1
         ],
-        "setGroup": 449,
         "setSkills": [
             200
         ],
         "id": 2841,
         "order": 429,
+        "setGroup": 449,
         "name": {
             "jpn": "EXギルドパレスグリーヴ β",
             "eng": "Guild Palace Greaves β+",
@@ -20867,12 +20867,12 @@
             1,
             1
         ],
-        "setGroup": 450,
         "setSkills": [
             180
         ],
         "id": 2842,
         "order": 368,
+        "setGroup": 450,
         "name": {
             "jpn": "EXアークロックグリーヴ α",
             "eng": "Clockwork Greaves α+",
@@ -20949,12 +20949,12 @@
         "slots": [
             4
         ],
-        "setGroup": 451,
         "setSkills": [
             180
         ],
         "id": 2843,
         "order": 369,
+        "setGroup": 451,
         "name": {
             "jpn": "EXアークロックグリーヴ β",
             "eng": "Clockwork Greaves β+",
@@ -21031,12 +21031,12 @@
         "slots": [
             2
         ],
-        "setGroup": 453,
         "setSkills": [
             203
         ],
         "id": 2844,
         "order": 446,
+        "setGroup": 453,
         "name": {
             "jpn": "EXゾークグリーヴ α",
             "eng": "Ruinous Greaves α+",
@@ -21114,12 +21114,12 @@
             4,
             1
         ],
-        "setGroup": 454,
         "setSkills": [
             203
         ],
         "id": 2845,
         "order": 447,
+        "setGroup": 454,
         "name": {
             "jpn": "EXゾークグリーヴ β",
             "eng": "Ruinous Greaves β+",
@@ -21194,12 +21194,12 @@
             1,
             1
         ],
-        "setGroup": 455,
         "setSkills": [
             176
         ],
         "id": 2846,
         "order": 431,
+        "setGroup": 455,
         "name": {
             "jpn": "EXアンガルダグリーヴ α",
             "eng": "Shara Ishvalda Greaves α+",
@@ -21278,12 +21278,12 @@
             2,
             1
         ],
-        "setGroup": 456,
         "setSkills": [
             176
         ],
         "id": 2847,
         "order": 432,
+        "setGroup": 456,
         "name": {
             "jpn": "EXアンガルダグリーヴ β",
             "eng": "Shara Ishvalda Greaves β+",
@@ -21361,12 +21361,12 @@
             2,
             2
         ],
-        "setGroup": 457,
         "setSkills": [
             195
         ],
         "id": 2848,
         "order": 414,
+        "setGroup": 457,
         "name": {
             "jpn": "EXグリードグリーヴ α",
             "eng": "Esurient Greaves α+",
@@ -21444,12 +21444,12 @@
             4,
             2
         ],
-        "setGroup": 458,
         "setSkills": [
             195
         ],
         "id": 2849,
         "order": 415,
+        "setGroup": 458,
         "name": {
             "jpn": "EXグリードグリーヴ β",
             "eng": "Esurient Greaves β+",
@@ -21527,12 +21527,12 @@
             2,
             1
         ],
-        "setGroup": 461,
         "setSkills": [
             200
         ],
         "id": 2852,
         "order": 448,
+        "setGroup": 461,
         "name": {
             "jpn": "EXギルドワークフット α",
             "eng": "Guildwork Feet α+",
@@ -21610,12 +21610,12 @@
             4,
             1
         ],
-        "setGroup": 462,
         "setSkills": [
             200
         ],
         "id": 2853,
         "order": 449,
+        "setGroup": 462,
         "name": {
             "jpn": "EXギルドワークフット β",
             "eng": "Guildwork Feet β+",
@@ -21688,12 +21688,12 @@
         "slots": [
             1
         ],
-        "setGroup": 464,
         "setSkills": [
             175
         ],
         "id": 2854,
         "order": 440,
+        "setGroup": 464,
         "name": {
             "jpn": "EXゴールドルナグリーヴ α",
             "eng": "Golden Lunegreaves α+",
@@ -21770,12 +21770,12 @@
         "slots": [
             4
         ],
-        "setGroup": 465,
         "setSkills": [
             175
         ],
         "id": 2855,
         "order": 441,
+        "setGroup": 465,
         "name": {
             "jpn": "EXゴールドルナグリーヴ β",
             "eng": "Golden Lunegreaves β+",
@@ -21849,12 +21849,12 @@
             3,
             2
         ],
-        "setGroup": 466,
         "setSkills": [
             174
         ],
         "id": 2856,
         "order": 442,
+        "setGroup": 466,
         "name": {
             "jpn": "EXシルバーソルグリーヴ α",
             "eng": "Silver Solgreaves α+",
@@ -21933,12 +21933,12 @@
             2,
             1
         ],
-        "setGroup": 467,
         "setSkills": [
             174
         ],
         "id": 2857,
         "order": 443,
+        "setGroup": 467,
         "name": {
             "jpn": "EXシルバーソルグリーヴ β",
             "eng": "Silver Solgreaves β+",
@@ -22011,12 +22011,12 @@
         "slots": [
             1
         ],
-        "setGroup": 470,
         "setSkills": [
             169
         ],
         "id": 2860,
         "order": 438,
+        "setGroup": 470,
         "name": {
             "jpn": "EXジンオウグリーヴ α",
             "eng": "Zinogre Greaves α+",
@@ -22094,12 +22094,12 @@
             4,
             1
         ],
-        "setGroup": 471,
         "setSkills": [
             169
         ],
         "id": 2861,
         "order": 439,
+        "setGroup": 471,
         "name": {
             "jpn": "EXジンオウグリーヴ β",
             "eng": "Zinogre Greaves β+",
@@ -22177,12 +22177,12 @@
             1,
             1
         ],
-        "setGroup": 472,
         "setSkills": [
             169
         ],
         "id": 2862,
         "order": 604,
+        "setGroup": 472,
         "name": {
             "jpn": "EXゴクオウグリーヴ α",
             "eng": "Stygian Greaves α+",
@@ -22260,12 +22260,12 @@
             4,
             1
         ],
-        "setGroup": 473,
         "setSkills": [
             169
         ],
         "id": 2863,
         "order": 605,
+        "setGroup": 473,
         "name": {
             "jpn": "EXゴクオウグリーヴ β",
             "eng": "Stygian Greaves β+",
@@ -22339,9 +22339,9 @@
             3,
             3
         ],
-        "setGroup": 474,
         "id": 2864,
         "order": 436,
+        "setGroup": 474,
         "name": {
             "jpn": "EXガルルガグリーヴ α",
             "eng": "Garuga Greaves α+",
@@ -22420,9 +22420,9 @@
             2,
             2
         ],
-        "setGroup": 475,
         "id": 2865,
         "order": 437,
+        "setGroup": 475,
         "name": {
             "jpn": "EXガルルガグリーヴ β",
             "eng": "Garuga Greaves β+",
@@ -22496,12 +22496,12 @@
             3,
             1
         ],
-        "setGroup": 476,
         "setSkills": [
             201
         ],
         "id": 2866,
         "order": 434,
+        "setGroup": 476,
         "name": {
             "jpn": "EXゾラマグナフット α",
             "eng": "Zorah Spurs α+",
@@ -22579,12 +22579,12 @@
             4,
             3
         ],
-        "setGroup": 477,
         "setSkills": [
             201
         ],
         "id": 2867,
         "order": 435,
+        "setGroup": 477,
         "name": {
             "jpn": "EXゾラマグナフット β",
             "eng": "Zorah Spurs β+",
@@ -22658,12 +22658,12 @@
             2,
             2
         ],
-        "setGroup": 478,
         "setSkills": [
             208
         ],
         "id": 2868,
         "order": 600,
+        "setGroup": 478,
         "name": {
             "jpn": "EX金色ノ袴 α",
             "eng": "Golden Hakama α+",
@@ -22741,12 +22741,12 @@
             4,
             2
         ],
-        "setGroup": 479,
         "setSkills": [
             208
         ],
         "id": 2869,
         "order": 601,
+        "setGroup": 479,
         "name": {
             "jpn": "EX金色ノ袴 β",
             "eng": "Golden Hakama β+",
@@ -22824,12 +22824,12 @@
             2,
             2
         ],
-        "setGroup": 480,
         "setSkills": [
             217
         ],
         "id": 2870,
         "order": 602,
+        "setGroup": 480,
         "name": {
             "jpn": "EX斉天ノ具足 α",
             "eng": "Grand God's Peer Feet α+",
@@ -22907,12 +22907,12 @@
             4,
             4
         ],
-        "setGroup": 481,
         "setSkills": [
             217
         ],
         "id": 2871,
         "order": 603,
+        "setGroup": 481,
         "name": {
             "jpn": "EX斉天ノ具足 β",
             "eng": "Grand God's Peer Feet β+",
@@ -22986,12 +22986,12 @@
             3,
             1
         ],
-        "setGroup": 482,
         "setSkills": [
             218
         ],
         "id": 2872,
         "order": 608,
+        "setGroup": 482,
         "name": {
             "jpn": "EXブラキウムグリーヴ α",
             "eng": "Brachydium Greaves α+",
@@ -23070,12 +23070,12 @@
             1,
             1
         ],
-        "setGroup": 483,
         "setSkills": [
             218
         ],
         "id": 2873,
         "order": 609,
+        "setGroup": 483,
         "name": {
             "jpn": "EXブラキウムグリーヴ β",
             "eng": "Brachydium Greaves β+",
@@ -23150,12 +23150,12 @@
             2,
             1
         ],
-        "setGroup": 484,
         "setSkills": [
             211
         ],
         "id": 2874,
         "order": 606,
+        "setGroup": 484,
         "name": {
             "jpn": "EX龍紋ヲ刻マレシ封靴 α",
             "eng": "Safi Crested Boots α+",
@@ -23234,12 +23234,12 @@
             2,
             1
         ],
-        "setGroup": 485,
         "setSkills": [
             211
         ],
         "id": 2875,
         "order": 607,
+        "setGroup": 485,
         "name": {
             "jpn": "EX龍紋ヲ刻マレシ封靴 β",
             "eng": "Safi Crested Boots β+",
@@ -23314,12 +23314,12 @@
             2,
             2
         ],
-        "setGroup": 486,
         "setSkills": [
             221
         ],
         "id": 2876,
         "order": 612,
+        "setGroup": 486,
         "name": {
             "jpn": "EXエスカドラスケル α",
             "eng": "Escadora Sheath α+",
@@ -23398,12 +23398,12 @@
             4,
             2
         ],
-        "setGroup": 487,
         "setSkills": [
             221
         ],
         "id": 2877,
         "order": 613,
+        "setGroup": 487,
         "name": {
             "jpn": "EXエスカドラスケル β",
             "eng": "Escadora Sheath β+",
@@ -23477,12 +23477,12 @@
             3,
             1
         ],
-        "setGroup": 492,
         "setSkills": [
             202
         ],
         "id": 2878,
         "order": 444,
+        "setGroup": 492,
         "name": {
             "jpn": "EXエンプレスグリーヴ α",
             "eng": "Empress Greaves α+",
@@ -23560,12 +23560,12 @@
             4,
             2
         ],
-        "setGroup": 493,
         "setSkills": [
             202
         ],
         "id": 2879,
         "order": 445,
+        "setGroup": 493,
         "name": {
             "jpn": "EXエンプレスグリーヴ β",
             "eng": "Empress Greaves β+",
@@ -23644,12 +23644,12 @@
             1,
             1
         ],
-        "setGroup": 494,
         "setSkills": [
             219
         ],
         "id": 2880,
         "order": 616,
+        "setGroup": 494,
         "name": {
             "jpn": "EXマムガイラグリーヴ α",
             "eng": "Kulve Taroth's Wrath α+",
@@ -23728,12 +23728,12 @@
             1,
             1
         ],
-        "setGroup": 495,
         "setSkills": [
             219
         ],
         "id": 2881,
         "order": 617,
+        "setGroup": 495,
         "name": {
             "jpn": "EXマムガイラグリーヴ β",
             "eng": "Kulve Taroth's Wrath β+",
@@ -23807,12 +23807,12 @@
             4,
             1
         ],
-        "setGroup": 496,
         "setSkills": [
             214
         ],
         "id": 2882,
         "order": 802,
+        "setGroup": 496,
         "name": {
             "jpn": "EXローゼブーツ α",
             "eng": "Rose Boots α+",
@@ -23878,12 +23878,12 @@
             1,
             1
         ],
-        "setGroup": 498,
         "setSkills": [
             215
         ],
         "id": 2884,
         "order": 803,
+        "setGroup": 498,
         "name": {
             "jpn": "EXパッションフット α",
             "eng": "Passionate Leggings α+",
@@ -23949,12 +23949,12 @@
             4,
             2
         ],
-        "setGroup": 502,
         "setSkills": [
             212
         ],
         "id": 2888,
         "order": 800,
+        "setGroup": 502,
         "name": {
             "jpn": "EXウーロンフット α",
             "eng": "Oolong Boots α+",
@@ -24019,12 +24019,12 @@
         "slots": [
             1
         ],
-        "setGroup": 504,
         "setSkills": [
             213
         ],
         "id": 2890,
         "order": 801,
+        "setGroup": 504,
         "name": {
             "jpn": "EXアストラタイツ α",
             "eng": "Astral Tights α+",
@@ -24093,9 +24093,9 @@
         "slots": [
             4
         ],
-        "setGroup": 517,
         "id": 2899,
         "order": 810,
+        "setGroup": 517,
         "name": {
             "jpn": "EXマッスルレッグ α",
             "eng": "Buff Legs α+",
@@ -24168,12 +24168,12 @@
         "slots": [
             1
         ],
-        "setGroup": 518,
         "setSkills": [
             170
         ],
         "id": 2900,
         "order": 404,
+        "setGroup": 518,
         "name": {
             "jpn": "EXレックスロアグリーヴ α",
             "eng": "Rex Roar Greaves α+",
@@ -24250,12 +24250,12 @@
         "slots": [
             4
         ],
-        "setGroup": 519,
         "setSkills": [
             170
         ],
         "id": 2901,
         "order": 405,
+        "setGroup": 519,
         "name": {
             "jpn": "EXレックスロアグリーヴ β",
             "eng": "Rex Roar Greaves β+",
@@ -24330,9 +24330,9 @@
             "dragon": 3
         },
         "slots": [],
-        "setGroup": 520,
         "id": 2902,
         "order": 299,
+        "setGroup": 520,
         "name": {
             "jpn": "ガーディアンブーツ α",
             "eng": "Guardian Boots α+",
@@ -24391,12 +24391,12 @@
         "slots": [
             4
         ],
-        "setGroup": 524,
         "setSkills": [
             177
         ],
         "id": 2906,
         "order": 619,
+        "setGroup": 524,
         "name": {
             "jpn": "EXテンタクルグリーヴ γ",
             "eng": "Tentacle Greaves γ+",
@@ -24474,12 +24474,12 @@
             1,
             1
         ],
-        "setGroup": 528,
         "setSkills": [
             220
         ],
         "id": 2910,
         "order": 610,
+        "setGroup": 528,
         "name": {
             "jpn": "EXオルムンググリーヴ α",
             "eng": "Frostfang Greaves α+",
@@ -24557,12 +24557,12 @@
             4,
             4
         ],
-        "setGroup": 529,
         "setSkills": [
             220
         ],
         "id": 2911,
         "order": 611,
+        "setGroup": 529,
         "name": {
             "jpn": "EXオルムンググリーヴ β",
             "eng": "Frostfang Greaves β+",

@@ -10,9 +10,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 2,
         "id": 1899,
         "order": 1,
+        "setGroup": 2,
         "name": {
             "jpn": "レザーベルト",
             "eng": "Leather Belt",
@@ -65,9 +65,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 15,
         "id": 1900,
         "order": 2,
+        "setGroup": 15,
         "name": {
             "jpn": "チェーンベルト",
             "eng": "Chainmail Belt",
@@ -120,9 +120,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 1,
         "id": 1901,
         "order": 3,
+        "setGroup": 1,
         "name": {
             "jpn": "ハンターコイル",
             "eng": "Hunter's Coil",
@@ -185,9 +185,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 5,
         "id": 1902,
         "order": 4,
+        "setGroup": 5,
         "name": {
             "jpn": "ボーンコイル",
             "eng": "Bone Coil",
@@ -250,9 +250,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 6,
         "id": 1903,
         "order": 10,
+        "setGroup": 6,
         "name": {
             "jpn": "アロイコイル",
             "eng": "Alloy Coil",
@@ -319,9 +319,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 9,
         "id": 1904,
         "order": 5,
+        "setGroup": 9,
         "name": {
             "jpn": "ランゴコイル",
             "eng": "Vespoid Coil",
@@ -384,9 +384,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 4,
         "id": 1905,
         "order": 8,
+        "setGroup": 4,
         "name": {
             "jpn": "ジャグラスコイル",
             "eng": "Jagras Coil",
@@ -457,9 +457,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 10,
         "id": 1906,
         "order": 9,
+        "setGroup": 10,
         "name": {
             "jpn": "クルルコイル",
             "eng": "Kulu Coil",
@@ -526,9 +526,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 11,
         "id": 1907,
         "order": 11,
+        "setGroup": 11,
         "name": {
             "jpn": "プケプケコイル",
             "eng": "Pukei Coil",
@@ -599,9 +599,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 13,
         "id": 1908,
         "order": 12,
+        "setGroup": 13,
         "name": {
             "jpn": "ボロスコイル",
             "eng": "Barroth Coil",
@@ -668,9 +668,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 12,
         "id": 1909,
         "order": 13,
+        "setGroup": 12,
         "name": {
             "jpn": "ジュラコイル",
             "eng": "Jyura Coil",
@@ -737,9 +737,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 14,
         "id": 1910,
         "order": 14,
+        "setGroup": 14,
         "name": {
             "jpn": "カガチコイル",
             "eng": "Kadachi Coil",
@@ -806,9 +806,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 25,
         "id": 1911,
         "order": 15,
+        "setGroup": 25,
         "name": {
             "jpn": "ハイメタコイル",
             "eng": "High Metal Coil",
@@ -875,9 +875,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 18,
         "id": 1912,
         "order": 19,
+        "setGroup": 18,
         "name": {
             "jpn": "タロスコイル",
             "eng": "Hornetaur Coil",
@@ -948,12 +948,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 3,
         "setSkills": [
             125
         ],
         "id": 1913,
         "order": 20,
+        "setGroup": 3,
         "name": {
             "jpn": "ジャナフコイル",
             "eng": "Anja Coil",
@@ -1024,9 +1024,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 21,
         "id": 1914,
         "order": 21,
+        "setGroup": 21,
         "name": {
             "jpn": "レイアコイル",
             "eng": "Rathian Coil",
@@ -1097,9 +1097,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 23,
         "id": 1915,
         "order": 22,
+        "setGroup": 23,
         "name": {
             "jpn": "ツィツィコイル",
             "eng": "Tzitzi Coil",
@@ -1166,9 +1166,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 24,
         "id": 1916,
         "order": 23,
+        "setGroup": 24,
         "name": {
             "jpn": "ウルムーコイル",
             "eng": "Lumu Coil",
@@ -1235,9 +1235,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 22,
         "id": 1917,
         "order": 24,
+        "setGroup": 22,
         "name": {
             "jpn": "ギルオスコイル",
             "eng": "Girros Coil",
@@ -1308,9 +1308,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 28,
         "id": 1918,
         "order": 25,
+        "setGroup": 28,
         "name": {
             "jpn": "バルキンコイル",
             "eng": "Baan Coil",
@@ -1381,9 +1381,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 20,
         "id": 1919,
         "order": 16,
+        "setGroup": 20,
         "name": {
             "jpn": "オウビートアンカ",
             "eng": "King Beetle Elytra",
@@ -1454,9 +1454,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 159,
         "id": 1920,
         "order": 17,
+        "setGroup": 159,
         "name": {
             "jpn": "パピメルアンカ",
             "eng": "Butterfly Elytra",
@@ -1527,9 +1527,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 31,
         "id": 1921,
         "order": 26,
+        "setGroup": 31,
         "name": {
             "jpn": "インゴットコイル",
             "eng": "Ingot Coil",
@@ -1600,12 +1600,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 27,
         "setSkills": [
             151
         ],
         "id": 1922,
         "order": 29,
+        "setGroup": 27,
         "name": {
             "jpn": "ギエナコイル",
             "eng": "Legiana Coil",
@@ -1676,12 +1676,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 29,
         "setSkills": [
             153
         ],
         "id": 1923,
         "order": 30,
+        "setGroup": 29,
         "name": {
             "jpn": "ガロンコイル",
             "eng": "Odogaron Coil",
@@ -1752,12 +1752,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 33,
         "setSkills": [
             128
         ],
         "id": 1924,
         "order": 31,
+        "setGroup": 33,
         "name": {
             "jpn": "レウスコイル",
             "eng": "Rathalos Coil",
@@ -1828,12 +1828,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 34,
         "setSkills": [
             129
         ],
         "id": 1925,
         "order": 32,
+        "setGroup": 34,
         "name": {
             "jpn": "ディアブロコイル",
             "eng": "Diablos Coil",
@@ -1904,12 +1904,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 35,
         "setSkills": [
             130
         ],
         "id": 1926,
         "order": 33,
+        "setGroup": 35,
         "name": {
             "jpn": "キリンフープ",
             "eng": "Kirin Hoop",
@@ -1980,9 +1980,9 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 26,
         "id": 1927,
         "order": 27,
+        "setGroup": 26,
         "name": {
             "jpn": "デスギアナーベル",
             "eng": "Death Stench Bowels",
@@ -2053,9 +2053,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 36,
         "id": 1928,
         "order": 28,
+        "setGroup": 36,
         "name": {
             "jpn": "ブリゲイドコイル",
             "eng": "Brigade Coil",
@@ -2126,9 +2126,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 39,
         "id": 1929,
         "order": 34,
+        "setGroup": 39,
         "name": {
             "jpn": "レザーベルト α",
             "eng": "Leather Belt α",
@@ -2193,9 +2193,9 @@
         "slots": [
             1
         ],
-        "setGroup": 40,
         "id": 1930,
         "order": 35,
+        "setGroup": 40,
         "name": {
             "jpn": "レザーベルト β",
             "eng": "Leather Belt β",
@@ -2252,9 +2252,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 147,
         "id": 1931,
         "order": 36,
+        "setGroup": 147,
         "name": {
             "jpn": "チェーンベルト α",
             "eng": "Chainmail Belt α",
@@ -2319,9 +2319,9 @@
         "slots": [
             1
         ],
-        "setGroup": 148,
         "id": 1932,
         "order": 37,
+        "setGroup": 148,
         "name": {
             "jpn": "チェーンベルト β",
             "eng": "Chainmail Belt β",
@@ -2378,9 +2378,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 41,
         "id": 1933,
         "order": 38,
+        "setGroup": 41,
         "name": {
             "jpn": "ハンターコイル α",
             "eng": "Hunter's Coil α",
@@ -2449,9 +2449,9 @@
         "slots": [
             1
         ],
-        "setGroup": 42,
         "id": 1934,
         "order": 39,
+        "setGroup": 42,
         "name": {
             "jpn": "ハンターコイル β",
             "eng": "Hunter's Coil β",
@@ -2514,9 +2514,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 43,
         "id": 1935,
         "order": 40,
+        "setGroup": 43,
         "name": {
             "jpn": "ボーンコイル α",
             "eng": "Bone Coil α",
@@ -2589,9 +2589,9 @@
         "slots": [
             1
         ],
-        "setGroup": 44,
         "id": 1936,
         "order": 41,
+        "setGroup": 44,
         "name": {
             "jpn": "ボーンコイル β",
             "eng": "Bone Coil β",
@@ -2658,9 +2658,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 45,
         "id": 1937,
         "order": 42,
+        "setGroup": 45,
         "name": {
             "jpn": "アロイコイル α",
             "eng": "Alloy Coil α",
@@ -2737,9 +2737,9 @@
         "slots": [
             1
         ],
-        "setGroup": 46,
         "id": 1938,
         "order": 43,
+        "setGroup": 46,
         "name": {
             "jpn": "アロイコイル β",
             "eng": "Alloy Coil β",
@@ -2810,9 +2810,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 51,
         "id": 1939,
         "order": 48,
+        "setGroup": 51,
         "name": {
             "jpn": "ランゴコイル α",
             "eng": "Vespoid Coil α",
@@ -2881,9 +2881,9 @@
         "slots": [
             1
         ],
-        "setGroup": 52,
         "id": 1940,
         "order": 49,
+        "setGroup": 52,
         "name": {
             "jpn": "ランゴコイル β",
             "eng": "Vespoid Coil β",
@@ -2950,9 +2950,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 57,
         "id": 1941,
         "order": 50,
+        "setGroup": 57,
         "name": {
             "jpn": "タロスコイル α",
             "eng": "Hornetaur Coil α",
@@ -3025,9 +3025,9 @@
         "slots": [
             1
         ],
-        "setGroup": 58,
         "id": 1942,
         "order": 51,
+        "setGroup": 58,
         "name": {
             "jpn": "タロスコイル β",
             "eng": "Hornetaur Coil β",
@@ -3094,9 +3094,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 61,
         "id": 1943,
         "order": 59,
+        "setGroup": 61,
         "name": {
             "jpn": "ジャグラスコイル α",
             "eng": "Jagras Coil α",
@@ -3173,9 +3173,9 @@
         "slots": [
             1
         ],
-        "setGroup": 62,
         "id": 1944,
         "order": 60,
+        "setGroup": 62,
         "name": {
             "jpn": "ジャグラスコイル β",
             "eng": "Jagras Coil β",
@@ -3246,9 +3246,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 63,
         "id": 1945,
         "order": 61,
+        "setGroup": 63,
         "name": {
             "jpn": "クルルコイル α",
             "eng": "Kulu Coil α",
@@ -3321,9 +3321,9 @@
         "slots": [
             2
         ],
-        "setGroup": 64,
         "id": 1946,
         "order": 62,
+        "setGroup": 64,
         "name": {
             "jpn": "クルルコイル β",
             "eng": "Kulu Coil β",
@@ -3394,9 +3394,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 65,
         "id": 1947,
         "order": 67,
+        "setGroup": 65,
         "name": {
             "jpn": "プケプケコイル α",
             "eng": "Pukei Coil α",
@@ -3469,9 +3469,9 @@
         "slots": [
             1
         ],
-        "setGroup": 66,
         "id": 1948,
         "order": 68,
+        "setGroup": 66,
         "name": {
             "jpn": "プケプケコイル β",
             "eng": "Pukei Coil β",
@@ -3542,9 +3542,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 69,
         "id": 1949,
         "order": 69,
+        "setGroup": 69,
         "name": {
             "jpn": "ボロスコイル α",
             "eng": "Barroth Coil α",
@@ -3617,9 +3617,9 @@
         "slots": [
             2
         ],
-        "setGroup": 70,
         "id": 1950,
         "order": 70,
+        "setGroup": 70,
         "name": {
             "jpn": "ボロスコイル β",
             "eng": "Barroth Coil β",
@@ -3686,9 +3686,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 67,
         "id": 1951,
         "order": 73,
+        "setGroup": 67,
         "name": {
             "jpn": "ジュラコイル α",
             "eng": "Jyura Coil α",
@@ -3757,9 +3757,9 @@
         "slots": [
             1
         ],
-        "setGroup": 68,
         "id": 1952,
         "order": 74,
+        "setGroup": 68,
         "name": {
             "jpn": "ジュラコイル β",
             "eng": "Jyura Coil β",
@@ -3826,9 +3826,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 71,
         "id": 1953,
         "order": 75,
+        "setGroup": 71,
         "name": {
             "jpn": "カガチコイル α",
             "eng": "Kadachi Coil α",
@@ -3906,9 +3906,9 @@
             1,
             1
         ],
-        "setGroup": 72,
         "id": 1954,
         "order": 76,
+        "setGroup": 72,
         "name": {
             "jpn": "カガチコイル β",
             "eng": "Kadachi Coil β",
@@ -3979,12 +3979,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 93,
         "setSkills": [
             132
         ],
         "id": 1955,
         "order": 71,
+        "setGroup": 93,
         "name": {
             "jpn": "ジャナフコイル α",
             "eng": "Anja Coil α",
@@ -4061,12 +4061,12 @@
         "slots": [
             2
         ],
-        "setGroup": 94,
         "setSkills": [
             132
         ],
         "id": 1956,
         "order": 72,
+        "setGroup": 94,
         "name": {
             "jpn": "ジャナフコイル β",
             "eng": "Anja Coil β",
@@ -4137,9 +4137,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 73,
         "id": 1957,
         "order": 79,
+        "setGroup": 73,
         "name": {
             "jpn": "レイアコイル α",
             "eng": "Rathian Coil α",
@@ -4216,9 +4216,9 @@
         "slots": [
             1
         ],
-        "setGroup": 74,
         "id": 1958,
         "order": 80,
+        "setGroup": 74,
         "name": {
             "jpn": "レイアコイル β",
             "eng": "Rathian Coil β",
@@ -4293,9 +4293,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 77,
         "id": 1959,
         "order": 63,
+        "setGroup": 77,
         "name": {
             "jpn": "ツィツィコイル α",
             "eng": "Tzitzi Coil α",
@@ -4372,9 +4372,9 @@
         "slots": [
             2
         ],
-        "setGroup": 78,
         "id": 1960,
         "order": 64,
+        "setGroup": 78,
         "name": {
             "jpn": "ツィツィコイル β",
             "eng": "Tzitzi Coil β",
@@ -4445,9 +4445,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 79,
         "id": 1961,
         "order": 77,
+        "setGroup": 79,
         "name": {
             "jpn": "ウルムーコイル α",
             "eng": "Lumu Coil α",
@@ -4520,9 +4520,9 @@
         "slots": [
             1
         ],
-        "setGroup": 80,
         "id": 1962,
         "order": 78,
+        "setGroup": 80,
         "name": {
             "jpn": "ウルムーコイル β",
             "eng": "Lumu Coil β",
@@ -4593,9 +4593,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 75,
         "id": 1963,
         "order": 65,
+        "setGroup": 75,
         "name": {
             "jpn": "ギルオスコイル α",
             "eng": "Girros Coil α",
@@ -4672,9 +4672,9 @@
         "slots": [
             1
         ],
-        "setGroup": 76,
         "id": 1964,
         "order": 66,
+        "setGroup": 76,
         "name": {
             "jpn": "ギルオスコイル β",
             "eng": "Girros Coil β",
@@ -4745,9 +4745,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 97,
         "id": 1965,
         "order": 83,
+        "setGroup": 97,
         "name": {
             "jpn": "バルキンコイル α",
             "eng": "Baan Coil α",
@@ -4820,9 +4820,9 @@
         "slots": [
             2
         ],
-        "setGroup": 98,
         "id": 1966,
         "order": 84,
+        "setGroup": 98,
         "name": {
             "jpn": "バルキンコイル β",
             "eng": "Baan Coil β",
@@ -4893,9 +4893,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 89,
         "id": 1967,
         "order": 93,
+        "setGroup": 89,
         "name": {
             "jpn": "ハイメタコイル α",
             "eng": "High Metal Coil α",
@@ -4972,9 +4972,9 @@
         "slots": [
             1
         ],
-        "setGroup": 90,
         "id": 1968,
         "order": 94,
+        "setGroup": 90,
         "name": {
             "jpn": "ハイメタコイル β",
             "eng": "High Metal Coil β",
@@ -5045,9 +5045,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 91,
         "id": 1969,
         "order": 95,
+        "setGroup": 91,
         "name": {
             "jpn": "インゴットコイル α",
             "eng": "Ingot Coil α",
@@ -5120,9 +5120,9 @@
         "slots": [
             3
         ],
-        "setGroup": 92,
         "id": 1970,
         "order": 96,
+        "setGroup": 92,
         "name": {
             "jpn": "インゴットコイル β",
             "eng": "Ingot Coil β",
@@ -5193,12 +5193,12 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 87,
         "setSkills": [
             131
         ],
         "id": 1971,
         "order": 81,
+        "setGroup": 87,
         "name": {
             "jpn": "リオハートコイル α",
             "eng": "Rath Heart Coil α",
@@ -5275,12 +5275,12 @@
         "slots": [
             1
         ],
-        "setGroup": 88,
         "setSkills": [
             131
         ],
         "id": 1972,
         "order": 82,
+        "setGroup": 88,
         "name": {
             "jpn": "リオハートコイル β",
             "eng": "Rath Heart Coil β",
@@ -5351,12 +5351,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 95,
         "setSkills": [
             152
         ],
         "id": 1973,
         "order": 103,
+        "setGroup": 95,
         "name": {
             "jpn": "ギエナコイル α",
             "eng": "Legiana Coil α",
@@ -5433,12 +5433,12 @@
         "slots": [
             2
         ],
-        "setGroup": 96,
         "setSkills": [
             152
         ],
         "id": 1974,
         "order": 104,
+        "setGroup": 96,
         "name": {
             "jpn": "ギエナコイル β",
             "eng": "Legiana Coil β",
@@ -5509,12 +5509,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 81,
         "setSkills": [
             154
         ],
         "id": 1975,
         "order": 105,
+        "setGroup": 81,
         "name": {
             "jpn": "ガロンコイル α",
             "eng": "Odogaron Coil α",
@@ -5591,12 +5591,12 @@
         "slots": [
             2
         ],
-        "setGroup": 82,
         "setSkills": [
             154
         ],
         "id": 1976,
         "order": 106,
+        "setGroup": 82,
         "name": {
             "jpn": "ガロンコイル β",
             "eng": "Odogaron Coil β",
@@ -5667,12 +5667,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 101,
         "setSkills": [
             135
         ],
         "id": 1977,
         "order": 107,
+        "setGroup": 101,
         "name": {
             "jpn": "レウスコイル α",
             "eng": "Rathalos Coil α",
@@ -5749,12 +5749,12 @@
         "slots": [
             2
         ],
-        "setGroup": 102,
         "setSkills": [
             135
         ],
         "id": 1978,
         "order": 108,
+        "setGroup": 102,
         "name": {
             "jpn": "レウスコイル β",
             "eng": "Rathalos Coil β",
@@ -5825,12 +5825,12 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 111,
         "setSkills": [
             135
         ],
         "id": 1979,
         "order": 109,
+        "setGroup": 111,
         "name": {
             "jpn": "リオソウルコイル α",
             "eng": "Rath Soul Coil α",
@@ -5907,12 +5907,12 @@
         "slots": [
             3
         ],
-        "setGroup": 112,
         "setSkills": [
             135
         ],
         "id": 1980,
         "order": 110,
+        "setGroup": 112,
         "name": {
             "jpn": "リオソウルコイル β",
             "eng": "Rath Soul Coil β",
@@ -5983,12 +5983,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 103,
         "setSkills": [
             136
         ],
         "id": 1981,
         "order": 111,
+        "setGroup": 103,
         "name": {
             "jpn": "ディアブロコイル α",
             "eng": "Diablos Coil α",
@@ -6065,12 +6065,12 @@
         "slots": [
             2
         ],
-        "setGroup": 104,
         "setSkills": [
             136
         ],
         "id": 1982,
         "order": 112,
+        "setGroup": 104,
         "name": {
             "jpn": "ディアブロコイル β",
             "eng": "Diablos Coil β",
@@ -6141,12 +6141,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 113,
         "setSkills": [
             136
         ],
         "id": 1983,
         "order": 113,
+        "setGroup": 113,
         "name": {
             "jpn": "ディアネロコイル α",
             "eng": "Diablos Nero Coil α",
@@ -6223,12 +6223,12 @@
         "slots": [
             2
         ],
-        "setGroup": 114,
         "setSkills": [
             136
         ],
         "id": 1984,
         "order": 114,
+        "setGroup": 114,
         "name": {
             "jpn": "ディアネロコイル β",
             "eng": "Diablos Nero Coil β",
@@ -6299,9 +6299,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 83,
         "id": 1985,
         "order": 89,
+        "setGroup": 83,
         "name": {
             "jpn": "ガマルコイル α",
             "eng": "Dodogama Coil α",
@@ -6378,9 +6378,9 @@
         "slots": [
             1
         ],
-        "setGroup": 84,
         "id": 1986,
         "order": 90,
+        "setGroup": 84,
         "name": {
             "jpn": "ガマルコイル β",
             "eng": "Dodogama Coil β",
@@ -6451,9 +6451,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 85,
         "id": 1987,
         "order": 101,
+        "setGroup": 85,
         "name": {
             "jpn": "ラヴァコイル α",
             "eng": "Lavasioth Coil α",
@@ -6530,9 +6530,9 @@
         "slots": [
             1
         ],
-        "setGroup": 86,
         "id": 1988,
         "order": 102,
+        "setGroup": 86,
         "name": {
             "jpn": "ラヴァコイル β",
             "eng": "Lavasioth Coil β",
@@ -6606,12 +6606,12 @@
             1,
             1
         ],
-        "setGroup": 109,
         "setSkills": [
             138
         ],
         "id": 1989,
         "order": 115,
+        "setGroup": 109,
         "name": {
             "jpn": "ガンキンコイル α",
             "eng": "Uragaan Coil α",
@@ -6689,12 +6689,12 @@
             2,
             1
         ],
-        "setGroup": 110,
         "setSkills": [
             138
         ],
         "id": 1990,
         "order": 116,
+        "setGroup": 110,
         "name": {
             "jpn": "ガンキンコイル β",
             "eng": "Uragaan Coil β",
@@ -6765,12 +6765,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 107,
         "setSkills": [
             126
         ],
         "id": 1991,
         "order": 126,
+        "setGroup": 107,
         "name": {
             "jpn": "オーグコイル α",
             "eng": "Nergigante Coil α",
@@ -6847,12 +6847,12 @@
         "slots": [
             2
         ],
-        "setGroup": 108,
         "setSkills": [
             126
         ],
         "id": 1992,
         "order": 127,
+        "setGroup": 108,
         "name": {
             "jpn": "オーグコイル β",
             "eng": "Nergigante Coil β",
@@ -6925,9 +6925,9 @@
         "slots": [
             1
         ],
-        "setGroup": 117,
         "id": 1993,
         "order": 44,
+        "setGroup": 117,
         "name": {
             "jpn": "オウビートアンカ α",
             "eng": "King Beetle Elytra α",
@@ -7005,9 +7005,9 @@
             2,
             1
         ],
-        "setGroup": 118,
         "id": 1994,
         "order": 45,
+        "setGroup": 118,
         "name": {
             "jpn": "オウビートアンカ β",
             "eng": "King Beetle Elytra β",
@@ -7080,9 +7080,9 @@
         "slots": [
             1
         ],
-        "setGroup": 160,
         "id": 1995,
         "order": 46,
+        "setGroup": 160,
         "name": {
             "jpn": "パピメルアンカ α",
             "eng": "Butterfly Elytra α",
@@ -7160,9 +7160,9 @@
             2,
             1
         ],
-        "setGroup": 161,
         "id": 1996,
         "order": 47,
+        "setGroup": 161,
         "name": {
             "jpn": "パピメルアンカ β",
             "eng": "Butterfly Elytra β",
@@ -7233,9 +7233,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 119,
         "id": 1997,
         "order": 97,
+        "setGroup": 119,
         "name": {
             "jpn": "ブリゲイドコイル α",
             "eng": "Brigade Coil α",
@@ -7312,9 +7312,9 @@
         "slots": [
             1
         ],
-        "setGroup": 120,
         "id": 1998,
         "order": 98,
+        "setGroup": 120,
         "name": {
             "jpn": "ブリゲイドコイル β",
             "eng": "Brigade Coil β",
@@ -7387,9 +7387,9 @@
         "slots": [
             1
         ],
-        "setGroup": 121,
         "id": 1999,
         "order": 119,
+        "setGroup": 121,
         "name": {
             "jpn": "ダマスクコイル α",
             "eng": "Damascus Coil α",
@@ -7468,9 +7468,9 @@
             1,
             1
         ],
-        "setGroup": 122,
         "id": 2000,
         "order": 120,
+        "setGroup": 122,
         "name": {
             "jpn": "ダマスクコイル β",
             "eng": "Damascus Coil β",
@@ -7543,9 +7543,9 @@
         "slots": [
             2
         ],
-        "setGroup": 123,
         "id": 2001,
         "order": 121,
+        "setGroup": 123,
         "name": {
             "jpn": "ドーベルコイル α",
             "eng": "Dober Coil α",
@@ -7622,9 +7622,9 @@
         "slots": [
             3
         ],
-        "setGroup": 124,
         "id": 2002,
         "order": 122,
+        "setGroup": 124,
         "name": {
             "jpn": "ドーベルコイル β",
             "eng": "Dober Coil β",
@@ -7695,12 +7695,12 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 129,
         "setSkills": [
             144
         ],
         "id": 2003,
         "order": 130,
+        "setGroup": 129,
         "name": {
             "jpn": "クシャナアンダ α",
             "eng": "Kushala Cocoon α",
@@ -7778,12 +7778,12 @@
             1,
             1
         ],
-        "setGroup": 130,
         "setSkills": [
             144
         ],
         "id": 2004,
         "order": 131,
+        "setGroup": 130,
         "name": {
             "jpn": "クシャナアンダ β",
             "eng": "Kushala Cocoon β",
@@ -7854,12 +7854,12 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 127,
         "setSkills": [
             143
         ],
         "id": 2005,
         "order": 128,
+        "setGroup": 127,
         "name": {
             "jpn": "カイザーコイル α",
             "eng": "Kaiser Coil α",
@@ -7936,12 +7936,12 @@
         "slots": [
             2
         ],
-        "setGroup": 128,
         "setSkills": [
             143
         ],
         "id": 2006,
         "order": 129,
+        "setGroup": 128,
         "name": {
             "jpn": "カイザーコイル β",
             "eng": "Kaiser Coil β",
@@ -8012,12 +8012,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 105,
         "setSkills": [
             137
         ],
         "id": 2007,
         "order": 134,
+        "setGroup": 105,
         "name": {
             "jpn": "キリンフープ α",
             "eng": "Kirin Hoop α",
@@ -8096,12 +8096,12 @@
             1,
             1
         ],
-        "setGroup": 106,
         "setSkills": [
             137
         ],
         "id": 2008,
         "order": 135,
+        "setGroup": 106,
         "name": {
             "jpn": "キリンフープ β",
             "eng": "Kirin Hoop β",
@@ -8174,12 +8174,12 @@
         "slots": [
             1
         ],
-        "setGroup": 99,
         "setSkills": [
             127
         ],
         "id": 2009,
         "order": 132,
+        "setGroup": 99,
         "name": {
             "jpn": "ウルズコイル α",
             "eng": "Vaal Hazak Coil α",
@@ -8257,12 +8257,12 @@
             1,
             1
         ],
-        "setGroup": 100,
         "setSkills": [
             127
         ],
         "id": 2010,
         "order": 133,
+        "setGroup": 100,
         "name": {
             "jpn": "ウルズコイル β",
             "eng": "Vaal Hazak Coil β",
@@ -8335,12 +8335,12 @@
         "slots": [
             1
         ],
-        "setGroup": 115,
         "setSkills": [
             142
         ],
         "id": 2011,
         "order": 117,
+        "setGroup": 115,
         "name": {
             "jpn": "バゼルコイル α",
             "eng": "Bazel Coil α",
@@ -8417,12 +8417,12 @@
         "slots": [
             3
         ],
-        "setGroup": 116,
         "setSkills": [
             142
         ],
         "id": 2012,
         "order": 118,
+        "setGroup": 116,
         "name": {
             "jpn": "バゼルコイル β",
             "eng": "Bazel Coil β",
@@ -8493,9 +8493,9 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 131,
         "id": 2013,
         "order": 123,
+        "setGroup": 131,
         "name": {
             "jpn": "デスギアナーベル α",
             "eng": "Death Stench Bowels α",
@@ -8573,9 +8573,9 @@
             1,
             1
         ],
-        "setGroup": 132,
         "id": 2014,
         "order": 124,
+        "setGroup": 132,
         "name": {
             "jpn": "デスギアナーベル β",
             "eng": "Death Stench Bowels β",
@@ -8648,12 +8648,12 @@
         "slots": [
             1
         ],
-        "setGroup": 133,
         "setSkills": [
             149
         ],
         "id": 2015,
         "order": 138,
+        "setGroup": 133,
         "name": {
             "jpn": "ギルドクロスコイル α",
             "eng": "Guild Cross Coil α",
@@ -8732,12 +8732,12 @@
             1,
             1
         ],
-        "setGroup": 134,
         "setSkills": [
             149
         ],
         "id": 2016,
         "order": 139,
+        "setGroup": 134,
         "name": {
             "jpn": "ギルドクロスコイル β",
             "eng": "Guild Cross Coil β",
@@ -8810,12 +8810,12 @@
         "slots": [
             2
         ],
-        "setGroup": 125,
         "setSkills": [
             145
         ],
         "id": 2017,
         "order": 136,
+        "setGroup": 125,
         "name": {
             "jpn": "ゼノラージスパイン α",
             "eng": "Xeno'jiiva Spine α",
@@ -8893,12 +8893,12 @@
             2,
             1
         ],
-        "setGroup": 126,
         "setSkills": [
             145
         ],
         "id": 2018,
         "order": 137,
+        "setGroup": 126,
         "name": {
             "jpn": "ゼノラージスパイン β",
             "eng": "Xeno'jiiva Spine β",
@@ -8969,12 +8969,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 137,
         "setSkills": [
             147
         ],
         "id": 2021,
         "order": 91,
+        "setGroup": 137,
         "name": {
             "jpn": "ゾラマグナスパイン α",
             "eng": "Zorah Spine α",
@@ -9051,12 +9051,12 @@
         "slots": [
             2
         ],
-        "setGroup": 138,
         "setSkills": [
             147
         ],
         "id": 2022,
         "order": 92,
+        "setGroup": 138,
         "name": {
             "jpn": "ゾラマグナスパイン β",
             "eng": "Zorah Spine β",
@@ -9129,12 +9129,12 @@
         "slots": [
             1
         ],
-        "setGroup": 149,
         "setSkills": [
             150
         ],
         "id": 2023,
         "order": 141,
+        "setGroup": 149,
         "name": {
             "jpn": "シーカーベルト α",
             "eng": "Commission Belt α",
@@ -9211,12 +9211,12 @@
         "slots": [
             2
         ],
-        "setGroup": 150,
         "setSkills": [
             150
         ],
         "id": 2024,
         "order": 142,
+        "setGroup": 150,
         "name": {
             "jpn": "シーカーベルト β",
             "eng": "Commission Belt β",
@@ -9287,9 +9287,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 164,
         "id": 2043,
         "order": 0,
+        "setGroup": 164,
         "name": {
             "jpn": "オリジンコイル",
             "eng": "Origin Coil",
@@ -9338,9 +9338,9 @@
         "slots": [
             1
         ],
-        "setGroup": 191,
         "id": 2045,
         "order": 146,
+        "setGroup": 191,
         "name": {
             "jpn": "マムガイラコイル α",
             "eng": "Kulve Taroth's Malice α",
@@ -9418,9 +9418,9 @@
             3,
             1
         ],
-        "setGroup": 192,
         "id": 2046,
         "order": 147,
+        "setGroup": 192,
         "name": {
             "jpn": "マムガイラコイル β",
             "eng": "Kulve Taroth's Malice β",
@@ -9495,9 +9495,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 193,
         "id": 2047,
         "order": 150,
+        "setGroup": 193,
         "name": {
             "jpn": "ブロッサムコート",
             "eng": "Blossom Coat",
@@ -9560,9 +9560,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 194,
         "id": 2048,
         "order": 151,
+        "setGroup": 194,
         "name": {
             "jpn": "ダイバーベルト",
             "eng": "Diver's Belt",
@@ -9625,9 +9625,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 195,
         "id": 2049,
         "order": 152,
+        "setGroup": 195,
         "name": {
             "jpn": "ハーベストオッハ",
             "eng": "Harvest Hoja",
@@ -9690,9 +9690,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 196,
         "id": 2050,
         "order": 153,
+        "setGroup": 196,
         "name": {
             "jpn": "オリオンコート",
             "eng": "Orion Coat",
@@ -9755,12 +9755,12 @@
             "dragon": 4
         },
         "slots": [],
-        "setGroup": 197,
         "setSkills": [
             168
         ],
         "id": 2051,
         "order": 154,
+        "setGroup": 197,
         "name": {
             "jpn": "フルドレスコート",
             "eng": "Gala Suit Tail",
@@ -9825,9 +9825,9 @@
         "slots": [
             1
         ],
-        "setGroup": 201,
         "id": 2053,
         "order": 144,
+        "setGroup": 201,
         "name": {
             "jpn": "バンギスコイル α",
             "eng": "Vangis Coil α",
@@ -9905,9 +9905,9 @@
             3,
             1
         ],
-        "setGroup": 202,
         "id": 2054,
         "order": 145,
+        "setGroup": 202,
         "name": {
             "jpn": "バンギスコイル β",
             "eng": "Vangis Coil β",
@@ -9980,12 +9980,12 @@
         "slots": [
             3
         ],
-        "setGroup": 206,
         "setSkills": [
             164
         ],
         "id": 2058,
         "order": 183,
+        "setGroup": 206,
         "name": {
             "jpn": "ドラケンコイル α",
             "eng": "Drachen Coil α",
@@ -10063,9 +10063,9 @@
             1,
             1
         ],
-        "setGroup": 207,
         "id": 2059,
         "order": 155,
+        "setGroup": 207,
         "name": {
             "jpn": "ブロッサムコート α",
             "eng": "Blossom Coat α",
@@ -10130,9 +10130,9 @@
         "slots": [
             2
         ],
-        "setGroup": 208,
         "id": 2060,
         "order": 156,
+        "setGroup": 208,
         "name": {
             "jpn": "ダイバーベルト α",
             "eng": "Diver's Belt α",
@@ -10202,9 +10202,9 @@
             2,
             1
         ],
-        "setGroup": 209,
         "id": 2061,
         "order": 157,
+        "setGroup": 209,
         "name": {
             "jpn": "ハーベストオッハ α",
             "eng": "Harvest Hoja α",
@@ -10274,9 +10274,9 @@
             3,
             1
         ],
-        "setGroup": 210,
         "id": 2062,
         "order": 158,
+        "setGroup": 210,
         "name": {
             "jpn": "オリオンコート α",
             "eng": "Orion Coat α",
@@ -10347,12 +10347,12 @@
             1,
             1
         ],
-        "setGroup": 211,
         "setSkills": [
             168
         ],
         "id": 2063,
         "order": 159,
+        "setGroup": 211,
         "name": {
             "jpn": "フルドレスコート α",
             "eng": "Gala Suit Tail α",
@@ -10419,9 +10419,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 212,
         "id": 2064,
         "order": 160,
+        "setGroup": 212,
         "name": {
             "jpn": "パピオムアンカ",
             "eng": "Butterfly Elytra",
@@ -10494,9 +10494,9 @@
         "slots": [
             1
         ],
-        "setGroup": 213,
         "id": 2065,
         "order": 161,
+        "setGroup": 213,
         "name": {
             "jpn": "パピオムアンカ α",
             "eng": "Butterfly Elytra α",
@@ -10573,9 +10573,9 @@
         "slots": [
             3
         ],
-        "setGroup": 214,
         "id": 2066,
         "order": 162,
+        "setGroup": 214,
         "name": {
             "jpn": "パピオムアンカ β",
             "eng": "Butterfly Elytra β",
@@ -10646,9 +10646,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 215,
         "id": 2067,
         "order": 163,
+        "setGroup": 215,
         "name": {
             "jpn": "クインビートアンカ",
             "eng": "Queen Beetle Elytra",
@@ -10721,9 +10721,9 @@
         "slots": [
             1
         ],
-        "setGroup": 216,
         "id": 2068,
         "order": 164,
+        "setGroup": 216,
         "name": {
             "jpn": "クインビートアンカ α",
             "eng": "Queen Beetle Elytra α",
@@ -10800,9 +10800,9 @@
         "slots": [
             3
         ],
-        "setGroup": 217,
         "id": 2069,
         "order": 165,
+        "setGroup": 217,
         "name": {
             "jpn": "クインビートアンカ β",
             "eng": "Queen Beetle Elytra β",
@@ -10877,12 +10877,12 @@
             1,
             1
         ],
-        "setGroup": 218,
         "setSkills": [
             127
         ],
         "id": 2070,
         "order": 166,
+        "setGroup": 218,
         "name": {
             "jpn": "ウルズコイル γ",
             "eng": "Vaal Hazak Coil γ",
@@ -10960,12 +10960,12 @@
             1,
             1
         ],
-        "setGroup": 219,
         "setSkills": [
             137
         ],
         "id": 2071,
         "order": 167,
+        "setGroup": 219,
         "name": {
             "jpn": "キリンフープ γ",
             "eng": "Kirin Hoop γ",
@@ -11039,12 +11039,12 @@
             1,
             1
         ],
-        "setGroup": 220,
         "setSkills": [
             143
         ],
         "id": 2072,
         "order": 168,
+        "setGroup": 220,
         "name": {
             "jpn": "カイザーコイル γ",
             "eng": "Kaiser Coil γ",
@@ -11118,12 +11118,12 @@
             1,
             1
         ],
-        "setGroup": 222,
         "setSkills": [
             144
         ],
         "id": 2073,
         "order": 169,
+        "setGroup": 222,
         "name": {
             "jpn": "クシャナアンダ γ",
             "eng": "Kushala Cocoon γ",
@@ -11197,12 +11197,12 @@
             3,
             1
         ],
-        "setGroup": 223,
         "setSkills": [
             126
         ],
         "id": 2074,
         "order": 170,
+        "setGroup": 223,
         "name": {
             "jpn": "オーグコイル γ",
             "eng": "Nergigante Coil γ",
@@ -11280,12 +11280,12 @@
             3,
             2
         ],
-        "setGroup": 224,
         "setSkills": [
             147
         ],
         "id": 2075,
         "order": 171,
+        "setGroup": 224,
         "name": {
             "jpn": "ゾラマグナスパイン γ",
             "eng": "Zorah Spine γ",
@@ -11363,12 +11363,12 @@
             3,
             1
         ],
-        "setGroup": 226,
         "setSkills": [
             145
         ],
         "id": 2076,
         "order": 172,
+        "setGroup": 226,
         "name": {
             "jpn": "ゼノラージスパイン γ",
             "eng": "Xeno'jiiva Spine γ",
@@ -11441,12 +11441,12 @@
         "slots": [
             2
         ],
-        "setGroup": 231,
         "setSkills": [
             135
         ],
         "id": 2081,
         "order": 180,
+        "setGroup": 231,
         "name": {
             "jpn": "蒼星ノ将【腰当て】 α",
             "eng": "Azure Starlord Tassets α",
@@ -11519,9 +11519,9 @@
         "slots": [
             3
         ],
-        "setGroup": 232,
         "id": 2082,
         "order": 182,
+        "setGroup": 232,
         "name": {
             "jpn": "ダンテベルト α",
             "eng": "Dante's Belt α",
@@ -11599,12 +11599,12 @@
             2,
             1
         ],
-        "setGroup": 233,
         "setSkills": [
             163
         ],
         "id": 2083,
         "order": 148,
+        "setGroup": 233,
         "name": {
             "jpn": "エンプレスコイル α",
             "eng": "Empress Coil α",
@@ -11682,12 +11682,12 @@
             2,
             2
         ],
-        "setGroup": 234,
         "setSkills": [
             163
         ],
         "id": 2084,
         "order": 149,
+        "setGroup": 234,
         "name": {
             "jpn": "エンプレスコイル β",
             "eng": "Empress Coil β",
@@ -11760,12 +11760,12 @@
         "slots": [
             3
         ],
-        "setGroup": 244,
         "setSkills": [
             163
         ],
         "id": 2094,
         "order": 173,
+        "setGroup": 244,
         "name": {
             "jpn": "エンプレスコイル γ",
             "eng": "Empress Coil γ",
@@ -11842,9 +11842,9 @@
         "slots": [
             3
         ],
-        "setGroup": 249,
         "id": 2099,
         "order": 174,
+        "setGroup": 249,
         "name": {
             "jpn": "マムガイラコイル γ",
             "eng": "Kulve Taroth's Malice γ",
@@ -11921,9 +11921,9 @@
         "slots": [
             1
         ],
-        "setGroup": 250,
         "id": 2100,
         "order": 298,
+        "setGroup": 250,
         "name": {
             "jpn": "防衛隊【帯甲】 α",
             "eng": "Defender Waist α",
@@ -11983,9 +11983,9 @@
         "slots": [
             3
         ],
-        "setGroup": 302,
         "id": 2103,
         "order": 302,
+        "setGroup": 302,
         "name": {
             "jpn": "EXボーンコイル α",
             "eng": "Bone Coil α+",
@@ -12059,9 +12059,9 @@
             4,
             1
         ],
-        "setGroup": 303,
         "id": 2104,
         "order": 303,
+        "setGroup": 303,
         "name": {
             "jpn": "EXボーンコイル β",
             "eng": "Bone Coil β+",
@@ -12130,9 +12130,9 @@
         "slots": [
             3
         ],
-        "setGroup": 304,
         "id": 2105,
         "order": 304,
+        "setGroup": 304,
         "name": {
             "jpn": "EXアロイコイル α",
             "eng": "Alloy Coil α+",
@@ -12205,9 +12205,9 @@
         "slots": [
             4
         ],
-        "setGroup": 305,
         "id": 2106,
         "order": 305,
+        "setGroup": 305,
         "name": {
             "jpn": "EXアロイコイル β",
             "eng": "Alloy Coil β+",
@@ -12280,9 +12280,9 @@
         "slots": [
             3
         ],
-        "setGroup": 306,
         "id": 2107,
         "order": 306,
+        "setGroup": 306,
         "name": {
             "jpn": "EXランゴコイル α",
             "eng": "Vespoid Coil α+",
@@ -12356,9 +12356,9 @@
             4,
             1
         ],
-        "setGroup": 307,
         "id": 2108,
         "order": 307,
+        "setGroup": 307,
         "name": {
             "jpn": "EXランゴコイル β",
             "eng": "Vespoid Coil β+",
@@ -12427,9 +12427,9 @@
         "slots": [
             2
         ],
-        "setGroup": 308,
         "id": 2109,
         "order": 308,
+        "setGroup": 308,
         "name": {
             "jpn": "EXタロスコイル α",
             "eng": "Hornetaur Coil α+",
@@ -12503,9 +12503,9 @@
             4,
             1
         ],
-        "setGroup": 309,
         "id": 2110,
         "order": 309,
+        "setGroup": 309,
         "name": {
             "jpn": "EXタロスコイル β",
             "eng": "Hornetaur Coil β+",
@@ -12575,9 +12575,9 @@
             2,
             1
         ],
-        "setGroup": 324,
         "id": 2111,
         "order": 324,
+        "setGroup": 324,
         "name": {
             "jpn": "EXジャグラスコイル α",
             "eng": "Jagras Coil α+",
@@ -12655,9 +12655,9 @@
             4,
             1
         ],
-        "setGroup": 325,
         "id": 2112,
         "order": 325,
+        "setGroup": 325,
         "name": {
             "jpn": "EXジャグラスコイル β",
             "eng": "Jagras Coil β+",
@@ -12730,9 +12730,9 @@
         "slots": [
             2
         ],
-        "setGroup": 326,
         "id": 2113,
         "order": 326,
+        "setGroup": 326,
         "name": {
             "jpn": "EXツィツィコイル α",
             "eng": "Tzitzi Coil α+",
@@ -12810,9 +12810,9 @@
             4,
             1
         ],
-        "setGroup": 327,
         "id": 2114,
         "order": 327,
+        "setGroup": 327,
         "name": {
             "jpn": "EXツィツィコイル β",
             "eng": "Tzitzi Coil β+",
@@ -12885,9 +12885,9 @@
         "slots": [
             3
         ],
-        "setGroup": 328,
         "id": 2115,
         "order": 328,
+        "setGroup": 328,
         "name": {
             "jpn": "EXギルオスコイル α",
             "eng": "Girros Coil α+",
@@ -12965,9 +12965,9 @@
             4,
             2
         ],
-        "setGroup": 329,
         "id": 2116,
         "order": 329,
+        "setGroup": 329,
         "name": {
             "jpn": "EXギルオスコイル β",
             "eng": "Girros Coil β+",
@@ -13041,9 +13041,9 @@
             2,
             1
         ],
-        "setGroup": 330,
         "id": 2117,
         "order": 330,
+        "setGroup": 330,
         "name": {
             "jpn": "EXガマルコイル α",
             "eng": "Dodogama Coil α+",
@@ -13121,9 +13121,9 @@
             4,
             1
         ],
-        "setGroup": 331,
         "id": 2118,
         "order": 331,
+        "setGroup": 331,
         "name": {
             "jpn": "EXガマルコイル β",
             "eng": "Dodogama Coil β+",
@@ -13196,9 +13196,9 @@
         "slots": [
             3
         ],
-        "setGroup": 332,
         "id": 2119,
         "order": 332,
+        "setGroup": 332,
         "name": {
             "jpn": "EXクルルコイル α",
             "eng": "Kulu Coil α+",
@@ -13272,9 +13272,9 @@
             4,
             1
         ],
-        "setGroup": 333,
         "id": 2120,
         "order": 333,
+        "setGroup": 333,
         "name": {
             "jpn": "EXクルルコイル β",
             "eng": "Kulu Coil β+",
@@ -13343,9 +13343,9 @@
         "slots": [
             3
         ],
-        "setGroup": 334,
         "id": 2121,
         "order": 334,
+        "setGroup": 334,
         "name": {
             "jpn": "EXプケプケコイル α",
             "eng": "Pukei Coil α+",
@@ -13423,9 +13423,9 @@
             4,
             1
         ],
-        "setGroup": 335,
         "id": 2122,
         "order": 335,
+        "setGroup": 335,
         "name": {
             "jpn": "EXプケプケコイル β",
             "eng": "Pukei Coil β+",
@@ -13502,9 +13502,9 @@
         "slots": [
             1
         ],
-        "setGroup": 336,
         "id": 2123,
         "order": 338,
+        "setGroup": 336,
         "name": {
             "jpn": "EXボロスコイル α",
             "eng": "Barroth Coil α+",
@@ -13581,9 +13581,9 @@
         "slots": [
             4
         ],
-        "setGroup": 337,
         "id": 2124,
         "order": 339,
+        "setGroup": 337,
         "name": {
             "jpn": "EXボロスコイル β",
             "eng": "Barroth Coil β+",
@@ -13656,9 +13656,9 @@
         "slots": [
             3
         ],
-        "setGroup": 338,
         "id": 2125,
         "order": 340,
+        "setGroup": 338,
         "name": {
             "jpn": "EXジュラコイル α",
             "eng": "Jyura Coil α+",
@@ -13732,9 +13732,9 @@
             4,
             1
         ],
-        "setGroup": 339,
         "id": 2126,
         "order": 341,
+        "setGroup": 339,
         "name": {
             "jpn": "EXジュラコイル β",
             "eng": "Jyura Coil β+",
@@ -13803,9 +13803,9 @@
         "slots": [
             2
         ],
-        "setGroup": 340,
         "id": 2127,
         "order": 342,
+        "setGroup": 340,
         "name": {
             "jpn": "EXブランコイル α",
             "eng": "Beo Coil α+",
@@ -13879,9 +13879,9 @@
             4,
             1
         ],
-        "setGroup": 341,
         "id": 2128,
         "order": 343,
+        "setGroup": 341,
         "name": {
             "jpn": "EXブランコイル β",
             "eng": "Beo Coil β+",
@@ -13955,9 +13955,9 @@
             3,
             1
         ],
-        "setGroup": 342,
         "id": 2129,
         "order": 344,
+        "setGroup": 342,
         "name": {
             "jpn": "EXカガチコイル α",
             "eng": "Kadachi Coil α+",
@@ -14031,9 +14031,9 @@
             4,
             1
         ],
-        "setGroup": 343,
         "id": 2130,
         "order": 345,
+        "setGroup": 343,
         "name": {
             "jpn": "EXカガチコイル β",
             "eng": "Kadachi Coil β+",
@@ -14103,9 +14103,9 @@
             2,
             2
         ],
-        "setGroup": 344,
         "id": 2131,
         "order": 348,
+        "setGroup": 344,
         "name": {
             "jpn": "EXハイメタコイル α",
             "eng": "High Metal Coil α+",
@@ -14179,9 +14179,9 @@
             4,
             2
         ],
-        "setGroup": 345,
         "id": 2132,
         "order": 349,
+        "setGroup": 345,
         "name": {
             "jpn": "EXハイメタコイル β",
             "eng": "High Metal Coil β+",
@@ -14254,9 +14254,9 @@
         "slots": [
             3
         ],
-        "setGroup": 346,
         "id": 2133,
         "order": 350,
+        "setGroup": 346,
         "name": {
             "jpn": "EXバフバロコイル α",
             "eng": "Banbaro Coil α+",
@@ -14330,9 +14330,9 @@
             4,
             1
         ],
-        "setGroup": 347,
         "id": 2134,
         "order": 351,
+        "setGroup": 347,
         "name": {
             "jpn": "EXバフバロコイル β",
             "eng": "Banbaro Coil β+",
@@ -14402,12 +14402,12 @@
             3,
             1
         ],
-        "setGroup": 348,
         "setSkills": [
             182
         ],
         "id": 2135,
         "order": 352,
+        "setGroup": 348,
         "name": {
             "jpn": "EXジャナフコイル α",
             "eng": "Anja Coil α+",
@@ -14485,12 +14485,12 @@
             4,
             2
         ],
-        "setGroup": 349,
         "setSkills": [
             182
         ],
         "id": 2136,
         "order": 353,
+        "setGroup": 349,
         "name": {
             "jpn": "EXジャナフコイル β",
             "eng": "Anja Coil β+",
@@ -14564,12 +14564,12 @@
             3,
             2
         ],
-        "setGroup": 350,
         "setSkills": [
             183
         ],
         "id": 2137,
         "order": 356,
+        "setGroup": 350,
         "name": {
             "jpn": "EXレイアコイル α",
             "eng": "Rathian Coil α+",
@@ -14643,12 +14643,12 @@
             4,
             2
         ],
-        "setGroup": 351,
         "setSkills": [
             183
         ],
         "id": 2138,
         "order": 357,
+        "setGroup": 351,
         "name": {
             "jpn": "EXレイアコイル β",
             "eng": "Rathian Coil β+",
@@ -14721,12 +14721,12 @@
         "slots": [
             3
         ],
-        "setGroup": 352,
         "setSkills": [
             183
         ],
         "id": 2139,
         "order": 358,
+        "setGroup": 352,
         "name": {
             "jpn": "EXリオハートコイル α",
             "eng": "Rath Heart Coil α+",
@@ -14803,12 +14803,12 @@
         "slots": [
             4
         ],
-        "setGroup": 353,
         "setSkills": [
             183
         ],
         "id": 2140,
         "order": 359,
+        "setGroup": 353,
         "name": {
             "jpn": "EXリオハートコイル β",
             "eng": "Rath Heart Coil β+",
@@ -14886,9 +14886,9 @@
             2,
             2
         ],
-        "setGroup": 354,
         "id": 2141,
         "order": 360,
+        "setGroup": 354,
         "name": {
             "jpn": "EXウルムーコイル α",
             "eng": "Lumu Coil α+",
@@ -14962,9 +14962,9 @@
             4,
             1
         ],
-        "setGroup": 355,
         "id": 2142,
         "order": 361,
+        "setGroup": 355,
         "name": {
             "jpn": "EXウルムーコイル β",
             "eng": "Lumu Coil β+",
@@ -15037,9 +15037,9 @@
         "slots": [
             2
         ],
-        "setGroup": 356,
         "id": 2143,
         "order": 362,
+        "setGroup": 356,
         "name": {
             "jpn": "EXウルムメアコイル α",
             "eng": "Lumu Phantasm Coil α+",
@@ -15112,9 +15112,9 @@
         "slots": [
             4
         ],
-        "setGroup": 357,
         "id": 2144,
         "order": 363,
+        "setGroup": 357,
         "name": {
             "jpn": "EXウルムメアコイル β",
             "eng": "Lumu Phantasm Coil β+",
@@ -15183,9 +15183,9 @@
         "slots": [
             2
         ],
-        "setGroup": 358,
         "id": 2145,
         "order": 336,
+        "setGroup": 358,
         "name": {
             "jpn": "EXプケラグーナコイル α",
             "eng": "Pukei Lagoon Coil α+",
@@ -15258,9 +15258,9 @@
         "slots": [
             4
         ],
-        "setGroup": 359,
         "id": 2146,
         "order": 337,
+        "setGroup": 359,
         "name": {
             "jpn": "EXプケラグーナコイル β",
             "eng": "Pukei Lagoon Coil β+",
@@ -15333,9 +15333,9 @@
         "slots": [
             2
         ],
-        "setGroup": 360,
         "id": 2147,
         "order": 346,
+        "setGroup": 360,
         "name": {
             "jpn": "EXベニカガチコイル α",
             "eng": "Viper Kadachi Coil α+",
@@ -15413,9 +15413,9 @@
             4,
             1
         ],
-        "setGroup": 361,
         "id": 2148,
         "order": 347,
+        "setGroup": 361,
         "name": {
             "jpn": "EXベニカガチコイル β",
             "eng": "Viper Kadachi Coil β+",
@@ -15488,9 +15488,9 @@
         "slots": [
             1
         ],
-        "setGroup": 362,
         "id": 2149,
         "order": 364,
+        "setGroup": 362,
         "name": {
             "jpn": "EXバルキンコイル α",
             "eng": "Baan Coil α+",
@@ -15567,9 +15567,9 @@
         "slots": [
             4
         ],
-        "setGroup": 363,
         "id": 2150,
         "order": 365,
+        "setGroup": 363,
         "name": {
             "jpn": "EXバルキンコイル β",
             "eng": "Baan Coil β+",
@@ -15642,9 +15642,9 @@
         "slots": [
             2
         ],
-        "setGroup": 378,
         "id": 2159,
         "order": 370,
+        "setGroup": 378,
         "name": {
             "jpn": "EXインゴットコイル α",
             "eng": "Ingot Coil α+",
@@ -15718,9 +15718,9 @@
             4,
             1
         ],
-        "setGroup": 379,
         "id": 2160,
         "order": 371,
+        "setGroup": 379,
         "name": {
             "jpn": "EXインゴットコイル β",
             "eng": "Ingot Coil β+",
@@ -15793,12 +15793,12 @@
         "slots": [
             3
         ],
-        "setGroup": 380,
         "setSkills": [
             188
         ],
         "id": 2161,
         "order": 372,
+        "setGroup": 380,
         "name": {
             "jpn": "EXベリオコイル α",
             "eng": "Barioth Faulds α+",
@@ -15875,12 +15875,12 @@
         "slots": [
             4
         ],
-        "setGroup": 381,
         "setSkills": [
             188
         ],
         "id": 2162,
         "order": 373,
+        "setGroup": 381,
         "name": {
             "jpn": "EXベリオコイル β",
             "eng": "Barioth Faulds β+",
@@ -15953,12 +15953,12 @@
         "slots": [
             2
         ],
-        "setGroup": 382,
         "setSkills": [
             189
         ],
         "id": 2163,
         "order": 374,
+        "setGroup": 382,
         "name": {
             "jpn": "EXレウスコイル α",
             "eng": "Rathalos Coil α+",
@@ -16036,12 +16036,12 @@
             4,
             2
         ],
-        "setGroup": 383,
         "setSkills": [
             189
         ],
         "id": 2164,
         "order": 375,
+        "setGroup": 383,
         "name": {
             "jpn": "EXレウスコイル β",
             "eng": "Rathalos Coil β+",
@@ -16114,12 +16114,12 @@
         "slots": [
             2
         ],
-        "setGroup": 384,
         "setSkills": [
             190
         ],
         "id": 2165,
         "order": 378,
+        "setGroup": 384,
         "name": {
             "jpn": "EXディアブロコイル α",
             "eng": "Diablos Coil α+",
@@ -16197,12 +16197,12 @@
             4,
             1
         ],
-        "setGroup": 385,
         "setSkills": [
             190
         ],
         "id": 2166,
         "order": 379,
+        "setGroup": 385,
         "name": {
             "jpn": "EXディアブロコイル β",
             "eng": "Diablos Coil β+",
@@ -16275,12 +16275,12 @@
         "slots": [
             2
         ],
-        "setGroup": 386,
         "setSkills": [
             191
         ],
         "id": 2167,
         "order": 382,
+        "setGroup": 386,
         "name": {
             "jpn": "EXギエナコイル α",
             "eng": "Legiana Coil α+",
@@ -16358,12 +16358,12 @@
             4,
             1
         ],
-        "setGroup": 387,
         "setSkills": [
             191
         ],
         "id": 2168,
         "order": 383,
+        "setGroup": 387,
         "name": {
             "jpn": "EXギエナコイル β",
             "eng": "Legiana Coil β+",
@@ -16440,12 +16440,12 @@
         "slots": [
             2
         ],
-        "setGroup": 388,
         "setSkills": [
             192
         ],
         "id": 2169,
         "order": 386,
+        "setGroup": 388,
         "name": {
             "jpn": "EXガロンコイル α",
             "eng": "Odogaron Coil α+",
@@ -16523,12 +16523,12 @@
             4,
             2
         ],
-        "setGroup": 389,
         "setSkills": [
             192
         ],
         "id": 2170,
         "order": 387,
+        "setGroup": 389,
         "name": {
             "jpn": "EXガロンコイル β",
             "eng": "Odogaron Coil β+",
@@ -16601,9 +16601,9 @@
         "slots": [
             1
         ],
-        "setGroup": 390,
         "id": 2171,
         "order": 390,
+        "setGroup": 390,
         "name": {
             "jpn": "EXラヴァコイル α",
             "eng": "Lavasioth Coil α+",
@@ -16680,9 +16680,9 @@
         "slots": [
             4
         ],
-        "setGroup": 391,
         "id": 2172,
         "order": 391,
+        "setGroup": 391,
         "name": {
             "jpn": "EXラヴァコイル β",
             "eng": "Lavasioth Coil β+",
@@ -16760,12 +16760,12 @@
             2,
             1
         ],
-        "setGroup": 392,
         "setSkills": [
             193
         ],
         "id": 2173,
         "order": 392,
+        "setGroup": 392,
         "name": {
             "jpn": "EXガンキンコイル α",
             "eng": "Uragaan Coil α+",
@@ -16843,12 +16843,12 @@
             4,
             2
         ],
-        "setGroup": 393,
         "setSkills": [
             193
         ],
         "id": 2174,
         "order": 393,
+        "setGroup": 393,
         "name": {
             "jpn": "EXガンキンコイル β",
             "eng": "Uragaan Coil β+",
@@ -16921,12 +16921,12 @@
         "slots": [
             1
         ],
-        "setGroup": 394,
         "setSkills": [
             171
         ],
         "id": 2175,
         "order": 394,
+        "setGroup": 394,
         "name": {
             "jpn": "EXナルガコイル α",
             "eng": "Nargacuga Faulds α+",
@@ -17003,12 +17003,12 @@
         "slots": [
             4
         ],
-        "setGroup": 395,
         "setSkills": [
             171
         ],
         "id": 2176,
         "order": 395,
+        "setGroup": 395,
         "name": {
             "jpn": "EXナルガコイル β",
             "eng": "Nargacuga Faulds β+",
@@ -17086,12 +17086,12 @@
             1,
             1
         ],
-        "setGroup": 396,
         "setSkills": [
             173
         ],
         "id": 2177,
         "order": 396,
+        "setGroup": 396,
         "name": {
             "jpn": "EXディノコイル α",
             "eng": "Glavenus Faulds α+",
@@ -17168,12 +17168,12 @@
         "slots": [
             4
         ],
-        "setGroup": 397,
         "setSkills": [
             173
         ],
         "id": 2178,
         "order": 397,
+        "setGroup": 397,
         "name": {
             "jpn": "EXディノコイル β",
             "eng": "Glavenus Faulds β+",
@@ -17246,12 +17246,12 @@
         "slots": [
             3
         ],
-        "setGroup": 398,
         "setSkills": [
             172
         ],
         "id": 2179,
         "order": 400,
+        "setGroup": 398,
         "name": {
             "jpn": "EXブラキコイル α",
             "eng": "Brachydios Faulds α+",
@@ -17329,12 +17329,12 @@
             4,
             2
         ],
-        "setGroup": 399,
         "setSkills": [
             172
         ],
         "id": 2180,
         "order": 401,
+        "setGroup": 399,
         "name": {
             "jpn": "EXブラキコイル β",
             "eng": "Brachydios Faulds β+",
@@ -17408,12 +17408,12 @@
             3,
             1
         ],
-        "setGroup": 400,
         "setSkills": [
             170
         ],
         "id": 2181,
         "order": 402,
+        "setGroup": 400,
         "name": {
             "jpn": "EXレックスコイル α",
             "eng": "Tigrex Tassets α+",
@@ -17492,12 +17492,12 @@
             2,
             1
         ],
-        "setGroup": 401,
         "setSkills": [
             170
         ],
         "id": 2182,
         "order": 403,
+        "setGroup": 401,
         "name": {
             "jpn": "EXレックスコイル β",
             "eng": "Tigrex Tassets β+",
@@ -17570,12 +17570,12 @@
         "slots": [
             1
         ],
-        "setGroup": 402,
         "setSkills": [
             182
         ],
         "id": 2183,
         "order": 354,
+        "setGroup": 402,
         "name": {
             "jpn": "EXジャナールコイル α",
             "eng": "Fulgur Coil α+",
@@ -17653,12 +17653,12 @@
             4,
             1
         ],
-        "setGroup": 403,
         "setSkills": [
             182
         ],
         "id": 2184,
         "order": 355,
+        "setGroup": 403,
         "name": {
             "jpn": "EXジャナールコイル β",
             "eng": "Fulgur Coil β+",
@@ -17735,12 +17735,12 @@
         "slots": [
             3
         ],
-        "setGroup": 406,
         "setSkills": [
             181
         ],
         "id": 2187,
         "order": 406,
+        "setGroup": 406,
         "name": {
             "jpn": "EXクロオビコイル α",
             "eng": "Black Belt Tassets α+",
@@ -17814,12 +17814,12 @@
             4,
             1
         ],
-        "setGroup": 407,
         "setSkills": [
             181
         ],
         "id": 2188,
         "order": 407,
+        "setGroup": 407,
         "name": {
             "jpn": "EXクロオビコイル β",
             "eng": "Black Belt Tassets β+",
@@ -17889,12 +17889,12 @@
             1,
             1
         ],
-        "setGroup": 413,
         "setSkills": [
             191
         ],
         "id": 2191,
         "order": 384,
+        "setGroup": 413,
         "name": {
             "jpn": "EXブリーナコイル α",
             "eng": "Hoarcry Coil α+",
@@ -17971,12 +17971,12 @@
         "slots": [
             4
         ],
-        "setGroup": 414,
         "setSkills": [
             191
         ],
         "id": 2192,
         "order": 385,
+        "setGroup": 414,
         "name": {
             "jpn": "EXブリーナコイル β",
             "eng": "Hoarcry Coil β+",
@@ -18049,12 +18049,12 @@
         "slots": [
             3
         ],
-        "setGroup": 415,
         "setSkills": [
             189
         ],
         "id": 2193,
         "order": 376,
+        "setGroup": 415,
         "name": {
             "jpn": "EXリオソウルコイル α",
             "eng": "Rath Soul Coil α+",
@@ -18132,12 +18132,12 @@
             4,
             2
         ],
-        "setGroup": 416,
         "setSkills": [
             189
         ],
         "id": 2194,
         "order": 377,
+        "setGroup": 416,
         "name": {
             "jpn": "EXリオソウルコイル β",
             "eng": "Rath Soul Coil β+",
@@ -18210,12 +18210,12 @@
         "slots": [
             2
         ],
-        "setGroup": 417,
         "setSkills": [
             190
         ],
         "id": 2195,
         "order": 380,
+        "setGroup": 417,
         "name": {
             "jpn": "EXディアネロコイル α",
             "eng": "Diablos Nero Coil α+",
@@ -18293,12 +18293,12 @@
             4,
             1
         ],
-        "setGroup": 418,
         "setSkills": [
             190
         ],
         "id": 2196,
         "order": 381,
+        "setGroup": 418,
         "name": {
             "jpn": "EXディアネロコイル β",
             "eng": "Diablos Nero Coil β+",
@@ -18372,12 +18372,12 @@
             2,
             1
         ],
-        "setGroup": 419,
         "setSkills": [
             192
         ],
         "id": 2197,
         "order": 388,
+        "setGroup": 419,
         "name": {
             "jpn": "EXデスガロンコイル α",
             "eng": "Death Garon Coil α+",
@@ -18455,12 +18455,12 @@
             4,
             2
         ],
-        "setGroup": 420,
         "setSkills": [
             192
         ],
         "id": 2198,
         "order": 389,
+        "setGroup": 420,
         "name": {
             "jpn": "EXデスガロンコイル β",
             "eng": "Death Garon Coil β+",
@@ -18533,12 +18533,12 @@
         "slots": [
             2
         ],
-        "setGroup": 421,
         "setSkills": [
             173
         ],
         "id": 2199,
         "order": 398,
+        "setGroup": 421,
         "name": {
             "jpn": "EXディノイエロコイル α",
             "eng": "Acidic Glavenus Coil α+",
@@ -18615,12 +18615,12 @@
         "slots": [
             4
         ],
-        "setGroup": 422,
         "setSkills": [
             173
         ],
         "id": 2200,
         "order": 399,
+        "setGroup": 422,
         "name": {
             "jpn": "EXディノイエロコイル β",
             "eng": "Acidic Glavenus Coil β+",
@@ -18694,12 +18694,12 @@
             1,
             1
         ],
-        "setGroup": 423,
         "setSkills": [
             179
         ],
         "id": 2201,
         "order": 366,
+        "setGroup": 423,
         "name": {
             "jpn": "EXアーティアコイル α",
             "eng": "Artian Coil α+",
@@ -18777,12 +18777,12 @@
             4,
             1
         ],
-        "setGroup": 424,
         "setSkills": [
             179
         ],
         "id": 2202,
         "order": 367,
+        "setGroup": 424,
         "name": {
             "jpn": "EXアーティアコイル β",
             "eng": "Artian Coil β+",
@@ -18860,9 +18860,9 @@
             2,
             1
         ],
-        "setGroup": 428,
         "id": 2205,
         "order": 408,
+        "setGroup": 428,
         "name": {
             "jpn": "EXドーベルコイル α",
             "eng": "Dober Coil α+",
@@ -18940,9 +18940,9 @@
             4,
             2
         ],
-        "setGroup": 429,
         "id": 2206,
         "order": 409,
+        "setGroup": 429,
         "name": {
             "jpn": "EXドーベルコイル β",
             "eng": "Dober Coil β+",
@@ -19020,9 +19020,9 @@
             3,
             2
         ],
-        "setGroup": 430,
         "id": 2207,
         "order": 410,
+        "setGroup": 430,
         "name": {
             "jpn": "EXダマスクコイル α",
             "eng": "Damascus Coil α+",
@@ -19101,9 +19101,9 @@
             3,
             1
         ],
-        "setGroup": 431,
         "id": 2208,
         "order": 411,
+        "setGroup": 431,
         "name": {
             "jpn": "EXダマスクコイル β",
             "eng": "Damascus Coil β+",
@@ -19177,12 +19177,12 @@
             2,
             1
         ],
-        "setGroup": 432,
         "setSkills": [
             178
         ],
         "id": 2209,
         "order": 416,
+        "setGroup": 432,
         "name": {
             "jpn": "EXラヴィーナコイル α",
             "eng": "Rimeguard Coil α+",
@@ -19260,12 +19260,12 @@
             4,
             1
         ],
-        "setGroup": 433,
         "setSkills": [
             178
         ],
         "id": 2210,
         "order": 417,
+        "setGroup": 433,
         "name": {
             "jpn": "EXラヴィーナコイル β",
             "eng": "Rimeguard Coil β+",
@@ -19338,12 +19338,12 @@
         "slots": [
             3
         ],
-        "setGroup": 434,
         "setSkills": [
             194
         ],
         "id": 2211,
         "order": 412,
+        "setGroup": 434,
         "name": {
             "jpn": "EXプライドコイル α",
             "eng": "Pride Coil α+",
@@ -19421,12 +19421,12 @@
             4,
             2
         ],
-        "setGroup": 435,
         "setSkills": [
             194
         ],
         "id": 2212,
         "order": 413,
+        "setGroup": 435,
         "name": {
             "jpn": "EXプライドコイル β",
             "eng": "Pride Coil β+",
@@ -19500,12 +19500,12 @@
             2,
             1
         ],
-        "setGroup": 436,
         "setSkills": [
             196
         ],
         "id": 2213,
         "order": 418,
+        "setGroup": 436,
         "name": {
             "jpn": "EXヴァルファーコイル α",
             "eng": "Fellshroud Coil α+",
@@ -19583,12 +19583,12 @@
             4,
             2
         ],
-        "setGroup": 437,
         "setSkills": [
             196
         ],
         "id": 2214,
         "order": 419,
+        "setGroup": 437,
         "name": {
             "jpn": "EXヴァルファーコイル β",
             "eng": "Fellshroud Coil β+",
@@ -19661,12 +19661,12 @@
         "slots": [
             3
         ],
-        "setGroup": 438,
         "setSkills": [
             143
         ],
         "id": 2215,
         "order": 420,
+        "setGroup": 438,
         "name": {
             "jpn": "EXカイザーコイル α",
             "eng": "Kaiser Coil α+",
@@ -19745,12 +19745,12 @@
             2,
             1
         ],
-        "setGroup": 439,
         "setSkills": [
             143
         ],
         "id": 2216,
         "order": 421,
+        "setGroup": 439,
         "name": {
             "jpn": "EXカイザーコイル β",
             "eng": "Kaiser Coil β+",
@@ -19823,12 +19823,12 @@
         "slots": [
             2
         ],
-        "setGroup": 440,
         "setSkills": [
             144
         ],
         "id": 2217,
         "order": 422,
+        "setGroup": 440,
         "name": {
             "jpn": "EXクシャナアンダ α",
             "eng": "Kushala Cocoon α+",
@@ -19906,12 +19906,12 @@
             4,
             1
         ],
-        "setGroup": 441,
         "setSkills": [
             144
         ],
         "id": 2218,
         "order": 423,
+        "setGroup": 441,
         "name": {
             "jpn": "EXクシャナアンダ β",
             "eng": "Kushala Cocoon β+",
@@ -19984,12 +19984,12 @@
         "slots": [
             2
         ],
-        "setGroup": 442,
         "setSkills": [
             199
         ],
         "id": 2219,
         "order": 424,
+        "setGroup": 442,
         "name": {
             "jpn": "EXキリンフープ α",
             "eng": "Kirin Hoop α+",
@@ -20068,12 +20068,12 @@
             1,
             1
         ],
-        "setGroup": 443,
         "setSkills": [
             199
         ],
         "id": 2220,
         "order": 425,
+        "setGroup": 443,
         "name": {
             "jpn": "EXキリンフープ β",
             "eng": "Kirin Hoop β+",
@@ -20148,12 +20148,12 @@
             1,
             1
         ],
-        "setGroup": 444,
         "setSkills": [
             177
         ],
         "id": 2221,
         "order": 426,
+        "setGroup": 444,
         "name": {
             "jpn": "EXテンタクルコイル α",
             "eng": "Tentacle Coil α+",
@@ -20232,12 +20232,12 @@
             1,
             1
         ],
-        "setGroup": 445,
         "setSkills": [
             177
         ],
         "id": 2222,
         "order": 427,
+        "setGroup": 445,
         "name": {
             "jpn": "EXテンタクルコイル β",
             "eng": "Tentacle Coil β+",
@@ -20315,12 +20315,12 @@
             1,
             1
         ],
-        "setGroup": 448,
         "setSkills": [
             200
         ],
         "id": 2225,
         "order": 428,
+        "setGroup": 448,
         "name": {
             "jpn": "EXギルドパレスコイル α",
             "eng": "Guild Palace Coil α+",
@@ -20398,12 +20398,12 @@
             4,
             1
         ],
-        "setGroup": 449,
         "setSkills": [
             200
         ],
         "id": 2226,
         "order": 429,
+        "setGroup": 449,
         "name": {
             "jpn": "EXギルドパレスコイル β",
             "eng": "Guild Palace Coil β+",
@@ -20480,12 +20480,12 @@
         "slots": [
             2
         ],
-        "setGroup": 450,
         "setSkills": [
             180
         ],
         "id": 2227,
         "order": 368,
+        "setGroup": 450,
         "name": {
             "jpn": "EXアークロックコイル α",
             "eng": "Clockwork Coil α+",
@@ -20563,12 +20563,12 @@
             4,
             1
         ],
-        "setGroup": 451,
         "setSkills": [
             180
         ],
         "id": 2228,
         "order": 369,
+        "setGroup": 451,
         "name": {
             "jpn": "EXアークロックコイル β",
             "eng": "Clockwork Coil β+",
@@ -20642,12 +20642,12 @@
             2,
             1
         ],
-        "setGroup": 453,
         "setSkills": [
             203
         ],
         "id": 2229,
         "order": 446,
+        "setGroup": 453,
         "name": {
             "jpn": "EXゾークコイル α",
             "eng": "Ruinous Coil α+",
@@ -20725,12 +20725,12 @@
             4,
             1
         ],
-        "setGroup": 454,
         "setSkills": [
             203
         ],
         "id": 2230,
         "order": 447,
+        "setGroup": 454,
         "name": {
             "jpn": "EXゾークコイル β",
             "eng": "Ruinous Coil β+",
@@ -20808,12 +20808,12 @@
             3,
             2
         ],
-        "setGroup": 455,
         "setSkills": [
             176
         ],
         "id": 2231,
         "order": 431,
+        "setGroup": 455,
         "name": {
             "jpn": "EXアンガルダコイル α",
             "eng": "Shara Ishvalda Coil α+",
@@ -20891,12 +20891,12 @@
             4,
             3
         ],
-        "setGroup": 456,
         "setSkills": [
             176
         ],
         "id": 2232,
         "order": 432,
+        "setGroup": 456,
         "name": {
             "jpn": "EXアンガルダコイル β",
             "eng": "Shara Ishvalda Coil β+",
@@ -20969,12 +20969,12 @@
         "slots": [
             1
         ],
-        "setGroup": 457,
         "setSkills": [
             195
         ],
         "id": 2233,
         "order": 414,
+        "setGroup": 457,
         "name": {
             "jpn": "EXグリードコイル α",
             "eng": "Esurient Faulds α+",
@@ -21052,12 +21052,12 @@
             4,
             1
         ],
-        "setGroup": 458,
         "setSkills": [
             195
         ],
         "id": 2234,
         "order": 415,
+        "setGroup": 458,
         "name": {
             "jpn": "EXグリードコイル β",
             "eng": "Esurient Faulds β+",
@@ -21131,12 +21131,12 @@
             3,
             2
         ],
-        "setGroup": 461,
         "setSkills": [
             200
         ],
         "id": 2237,
         "order": 448,
+        "setGroup": 461,
         "name": {
             "jpn": "EXギルドワークウエスト α",
             "eng": "Guildwork Waist α+",
@@ -21214,12 +21214,12 @@
             4,
             3
         ],
-        "setGroup": 462,
         "setSkills": [
             200
         ],
         "id": 2238,
         "order": 449,
+        "setGroup": 462,
         "name": {
             "jpn": "EXギルドワークウエスト β",
             "eng": "Guildwork Waist β+",
@@ -21293,12 +21293,12 @@
             2,
             2
         ],
-        "setGroup": 464,
         "setSkills": [
             175
         ],
         "id": 2239,
         "order": 440,
+        "setGroup": 464,
         "name": {
             "jpn": "EXゴールドルナコイル α",
             "eng": "Golden Lunecoil α+",
@@ -21376,12 +21376,12 @@
             4,
             2
         ],
-        "setGroup": 465,
         "setSkills": [
             175
         ],
         "id": 2240,
         "order": 441,
+        "setGroup": 465,
         "name": {
             "jpn": "EXゴールドルナコイル β",
             "eng": "Golden Lunecoil β+",
@@ -21455,12 +21455,12 @@
             1,
             1
         ],
-        "setGroup": 466,
         "setSkills": [
             174
         ],
         "id": 2241,
         "order": 442,
+        "setGroup": 466,
         "name": {
             "jpn": "EXシルバーソルコイル α",
             "eng": "Silver Solcoil α+",
@@ -21538,12 +21538,12 @@
             4,
             1
         ],
-        "setGroup": 467,
         "setSkills": [
             174
         ],
         "id": 2242,
         "order": 443,
+        "setGroup": 467,
         "name": {
             "jpn": "EXシルバーソルコイル β",
             "eng": "Silver Solcoil β+",
@@ -21620,12 +21620,12 @@
         "slots": [
             2
         ],
-        "setGroup": 470,
         "setSkills": [
             169
         ],
         "id": 2245,
         "order": 438,
+        "setGroup": 470,
         "name": {
             "jpn": "EXジンオウコイル α",
             "eng": "Zinogre Coil α+",
@@ -21703,12 +21703,12 @@
             4,
             2
         ],
-        "setGroup": 471,
         "setSkills": [
             169
         ],
         "id": 2246,
         "order": 439,
+        "setGroup": 471,
         "name": {
             "jpn": "EXジンオウコイル β",
             "eng": "Zinogre Coil β+",
@@ -21783,12 +21783,12 @@
             1,
             1
         ],
-        "setGroup": 472,
         "setSkills": [
             169
         ],
         "id": 2247,
         "order": 604,
+        "setGroup": 472,
         "name": {
             "jpn": "EXゴクオウコイル α",
             "eng": "Stygian Coil α+",
@@ -21867,12 +21867,12 @@
             1,
             1
         ],
-        "setGroup": 473,
         "setSkills": [
             169
         ],
         "id": 2248,
         "order": 605,
+        "setGroup": 473,
         "name": {
             "jpn": "EXゴクオウコイル β",
             "eng": "Stygian Coil β+",
@@ -21950,9 +21950,9 @@
             1,
             1
         ],
-        "setGroup": 474,
         "id": 2249,
         "order": 436,
+        "setGroup": 474,
         "name": {
             "jpn": "EXガルルガコイル α",
             "eng": "Garuga Tassets α+",
@@ -22030,9 +22030,9 @@
             4,
             3
         ],
-        "setGroup": 475,
         "id": 2250,
         "order": 437,
+        "setGroup": 475,
         "name": {
             "jpn": "EXガルルガコイル β",
             "eng": "Garuga Tassets β+",
@@ -22106,12 +22106,12 @@
             3,
             2
         ],
-        "setGroup": 476,
         "setSkills": [
             201
         ],
         "id": 2251,
         "order": 434,
+        "setGroup": 476,
         "name": {
             "jpn": "EXゾラマグナスパイン α",
             "eng": "Zorah Spine α+",
@@ -22189,12 +22189,12 @@
             4,
             3
         ],
-        "setGroup": 477,
         "setSkills": [
             201
         ],
         "id": 2252,
         "order": 435,
+        "setGroup": 477,
         "name": {
             "jpn": "EXゾラマグナスパイン β",
             "eng": "Zorah Spine β+",
@@ -22268,12 +22268,12 @@
             3,
             1
         ],
-        "setGroup": 478,
         "setSkills": [
             208
         ],
         "id": 2253,
         "order": 600,
+        "setGroup": 478,
         "name": {
             "jpn": "EX金色ノ帯 α",
             "eng": "Golden Obi α+",
@@ -22351,12 +22351,12 @@
             4,
             3
         ],
-        "setGroup": 479,
         "setSkills": [
             208
         ],
         "id": 2254,
         "order": 601,
+        "setGroup": 479,
         "name": {
             "jpn": "EX金色ノ帯 β",
             "eng": "Golden Obi β+",
@@ -22431,12 +22431,12 @@
             1,
             1
         ],
-        "setGroup": 480,
         "setSkills": [
             217
         ],
         "id": 2255,
         "order": 602,
+        "setGroup": 480,
         "name": {
             "jpn": "EX斉天ノ帯 α",
             "eng": "Grand God's Peer Belt α+",
@@ -22515,12 +22515,12 @@
             2,
             1
         ],
-        "setGroup": 481,
         "setSkills": [
             217
         ],
         "id": 2256,
         "order": 603,
+        "setGroup": 481,
         "name": {
             "jpn": "EX斉天ノ帯 β",
             "eng": "Grand God's Peer Belt β+",
@@ -22593,12 +22593,12 @@
         "slots": [
             3
         ],
-        "setGroup": 482,
         "setSkills": [
             218
         ],
         "id": 2257,
         "order": 608,
+        "setGroup": 482,
         "name": {
             "jpn": "EXブラキウムコイル α",
             "eng": "Brachydium Faulds α+",
@@ -22676,12 +22676,12 @@
             4,
             1
         ],
-        "setGroup": 483,
         "setSkills": [
             218
         ],
         "id": 2258,
         "order": 609,
+        "setGroup": 483,
         "name": {
             "jpn": "EXブラキウムコイル β",
             "eng": "Brachydium Faulds β+",
@@ -22754,12 +22754,12 @@
         "slots": [
             3
         ],
-        "setGroup": 484,
         "setSkills": [
             211
         ],
         "id": 2259,
         "order": 606,
+        "setGroup": 484,
         "name": {
             "jpn": "EX龍紋ヲ刻マレシ封帯 α",
             "eng": "Safi Crested Belt α+",
@@ -22837,12 +22837,12 @@
             4,
             1
         ],
-        "setGroup": 485,
         "setSkills": [
             211
         ],
         "id": 2260,
         "order": 607,
+        "setGroup": 485,
         "name": {
             "jpn": "EX龍紋ヲ刻マレシ封帯 β",
             "eng": "Safi Crested Belt β+",
@@ -22916,12 +22916,12 @@
             3,
             1
         ],
-        "setGroup": 486,
         "setSkills": [
             221
         ],
         "id": 2261,
         "order": 612,
+        "setGroup": 486,
         "name": {
             "jpn": "EXエスカドラマイト α",
             "eng": "Escadora Might α+",
@@ -22999,12 +22999,12 @@
             4,
             1
         ],
-        "setGroup": 487,
         "setSkills": [
             221
         ],
         "id": 2262,
         "order": 613,
+        "setGroup": 487,
         "name": {
             "jpn": "EXエスカドラマイト β",
             "eng": "Escadora Might β+",
@@ -23082,12 +23082,12 @@
             2,
             2
         ],
-        "setGroup": 492,
         "setSkills": [
             202
         ],
         "id": 2263,
         "order": 444,
+        "setGroup": 492,
         "name": {
             "jpn": "EXエンプレスコイル α",
             "eng": "Empress Coil α+",
@@ -23165,12 +23165,12 @@
             4,
             2
         ],
-        "setGroup": 493,
         "setSkills": [
             202
         ],
         "id": 2264,
         "order": 445,
+        "setGroup": 493,
         "name": {
             "jpn": "EXエンプレスコイル β",
             "eng": "Empress Coil β+",
@@ -23245,12 +23245,12 @@
             1,
             1
         ],
-        "setGroup": 494,
         "setSkills": [
             219
         ],
         "id": 2265,
         "order": 616,
+        "setGroup": 494,
         "name": {
             "jpn": "EXマムガイラコイル α",
             "eng": "Kulve Taroth's Malice α+",
@@ -23328,12 +23328,12 @@
             4,
             2
         ],
-        "setGroup": 495,
         "setSkills": [
             219
         ],
         "id": 2266,
         "order": 617,
+        "setGroup": 495,
         "name": {
             "jpn": "EXマムガイラコイル β",
             "eng": "Kulve Taroth's Malice β+",
@@ -23407,12 +23407,12 @@
             4,
             1
         ],
-        "setGroup": 496,
         "setSkills": [
             214
         ],
         "id": 2267,
         "order": 802,
+        "setGroup": 496,
         "name": {
             "jpn": "EXローゼベルト α",
             "eng": "Rose Belt α+",
@@ -23482,12 +23482,12 @@
             1,
             1
         ],
-        "setGroup": 498,
         "setSkills": [
             215
         ],
         "id": 2269,
         "order": 803,
+        "setGroup": 498,
         "name": {
             "jpn": "EXパッションベルト α",
             "eng": "Passionate Belt α+",
@@ -23553,12 +23553,12 @@
             1,
             1
         ],
-        "setGroup": 502,
         "setSkills": [
             212
         ],
         "id": 2273,
         "order": 800,
+        "setGroup": 502,
         "name": {
             "jpn": "EXウーロンウエスト α",
             "eng": "Oolong Waist α+",
@@ -23624,12 +23624,12 @@
             4,
             1
         ],
-        "setGroup": 504,
         "setSkills": [
             213
         ],
         "id": 2275,
         "order": 801,
+        "setGroup": 504,
         "name": {
             "jpn": "EXアストラスカート α",
             "eng": "Astral Skirt α+",
@@ -23698,9 +23698,9 @@
         "slots": [
             4
         ],
-        "setGroup": 517,
         "id": 2284,
         "order": 810,
+        "setGroup": 517,
         "name": {
             "jpn": "EXマッスルウエスト α",
             "eng": "Buff Waist α+",
@@ -23773,12 +23773,12 @@
         "slots": [
             2
         ],
-        "setGroup": 518,
         "setSkills": [
             170
         ],
         "id": 2285,
         "order": 404,
+        "setGroup": 518,
         "name": {
             "jpn": "EXレックスロアコイル α",
             "eng": "Rex Roar Coil α+",
@@ -23855,12 +23855,12 @@
         "slots": [
             4
         ],
-        "setGroup": 519,
         "setSkills": [
             170
         ],
         "id": 2286,
         "order": 405,
+        "setGroup": 519,
         "name": {
             "jpn": "EXレックスロアコイル β",
             "eng": "Rex Roar Coil β+",
@@ -23937,9 +23937,9 @@
         "slots": [
             1
         ],
-        "setGroup": 520,
         "id": 2287,
         "order": 299,
+        "setGroup": 520,
         "name": {
             "jpn": "ガーディアンコイル α",
             "eng": "Guardian Coil α+",
@@ -23999,12 +23999,12 @@
             4,
             2
         ],
-        "setGroup": 524,
         "setSkills": [
             177
         ],
         "id": 2291,
         "order": 619,
+        "setGroup": 524,
         "name": {
             "jpn": "EXテンタクルコイル γ",
             "eng": "Tentacle Coil γ+",
@@ -24083,12 +24083,12 @@
             3,
             1
         ],
-        "setGroup": 528,
         "setSkills": [
             220
         ],
         "id": 2295,
         "order": 610,
+        "setGroup": 528,
         "name": {
             "jpn": "EXオルムングコイル α",
             "eng": "Frostfang Coil α+",
@@ -24167,12 +24167,12 @@
             3,
             1
         ],
-        "setGroup": 529,
         "setSkills": [
             220
         ],
         "id": 2296,
         "order": 611,
+        "setGroup": 529,
         "name": {
             "jpn": "EXオルムングコイル β",
             "eng": "Frostfang Coil β+",

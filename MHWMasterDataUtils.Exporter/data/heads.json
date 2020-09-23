@@ -10,9 +10,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 2,
         "id": 0,
         "order": 1,
+        "setGroup": 2,
         "name": {
             "jpn": "レザーヘッド",
             "eng": "Leather Headgear",
@@ -71,9 +71,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 15,
         "id": 1,
         "order": 2,
+        "setGroup": 15,
         "name": {
             "jpn": "チェーンヘッド",
             "eng": "Chainmail Headgear",
@@ -132,9 +132,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 1,
         "id": 2,
         "order": 3,
+        "setGroup": 1,
         "name": {
             "jpn": "ハンターヘルム",
             "eng": "Hunter's Headgear",
@@ -197,9 +197,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 5,
         "id": 3,
         "order": 4,
+        "setGroup": 5,
         "name": {
             "jpn": "ボーンヘルム",
             "eng": "Bone Helm",
@@ -262,9 +262,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 6,
         "id": 4,
         "order": 10,
+        "setGroup": 6,
         "name": {
             "jpn": "アロイヘルム",
             "eng": "Alloy Helm",
@@ -331,9 +331,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 9,
         "id": 5,
         "order": 5,
+        "setGroup": 9,
         "name": {
             "jpn": "ランゴヘルム",
             "eng": "Vespoid Helm",
@@ -396,9 +396,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 4,
         "id": 6,
         "order": 8,
+        "setGroup": 4,
         "name": {
             "jpn": "ジャグラスヘルム",
             "eng": "Jagras Helm",
@@ -469,9 +469,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 10,
         "id": 7,
         "order": 9,
+        "setGroup": 10,
         "name": {
             "jpn": "クルルヘルム",
             "eng": "Kulu Headpiece",
@@ -538,9 +538,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 11,
         "id": 8,
         "order": 11,
+        "setGroup": 11,
         "name": {
             "jpn": "プケプケヘルム",
             "eng": "Pukei Hood",
@@ -611,9 +611,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 13,
         "id": 9,
         "order": 12,
+        "setGroup": 13,
         "name": {
             "jpn": "ボロスヘルム",
             "eng": "Barroth Helm",
@@ -684,9 +684,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 12,
         "id": 10,
         "order": 13,
+        "setGroup": 12,
         "name": {
             "jpn": "ジュラヘルム",
             "eng": "Jyura Helm",
@@ -757,9 +757,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 14,
         "id": 11,
         "order": 14,
+        "setGroup": 14,
         "name": {
             "jpn": "カガチヘルム",
             "eng": "Kadachi Helm",
@@ -830,9 +830,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 25,
         "id": 12,
         "order": 15,
+        "setGroup": 25,
         "name": {
             "jpn": "ハイメタヘルム",
             "eng": "High Metal Helm",
@@ -899,9 +899,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 18,
         "id": 13,
         "order": 19,
+        "setGroup": 18,
         "name": {
             "jpn": "タロスヘルム",
             "eng": "Hornetaur Helm",
@@ -972,9 +972,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 168,
         "id": 14,
         "order": 18,
+        "setGroup": 168,
         "name": {
             "jpn": "シャムゴーグル",
             "eng": "Shamos Goggles",
@@ -1045,12 +1045,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 3,
         "setSkills": [
             125
         ],
         "id": 15,
         "order": 20,
+        "setGroup": 3,
         "name": {
             "jpn": "ジャナフヘルム",
             "eng": "Anja Helm",
@@ -1121,9 +1121,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 21,
         "id": 16,
         "order": 21,
+        "setGroup": 21,
         "name": {
             "jpn": "レイアヘルム",
             "eng": "Rathian Helm",
@@ -1194,9 +1194,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 23,
         "id": 17,
         "order": 22,
+        "setGroup": 23,
         "name": {
             "jpn": "ツィツィヘルム",
             "eng": "Tzitzi Headgear",
@@ -1267,9 +1267,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 24,
         "id": 18,
         "order": 23,
+        "setGroup": 24,
         "name": {
             "jpn": "ウルムーヘルム",
             "eng": "Lumu Hat",
@@ -1340,9 +1340,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 22,
         "id": 19,
         "order": 24,
+        "setGroup": 22,
         "name": {
             "jpn": "ギルオスヘルム",
             "eng": "Girros Mask",
@@ -1413,9 +1413,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 28,
         "id": 20,
         "order": 25,
+        "setGroup": 28,
         "name": {
             "jpn": "バルキンヘルム",
             "eng": "Baan Helm",
@@ -1486,9 +1486,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 20,
         "id": 21,
         "order": 16,
+        "setGroup": 20,
         "name": {
             "jpn": "オウビートテスタ",
             "eng": "King Beetle Vertex",
@@ -1559,9 +1559,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 169,
         "id": 22,
         "order": 17,
+        "setGroup": 169,
         "name": {
             "jpn": "パピメルテスタ",
             "eng": "Butterfly Vertex",
@@ -1632,9 +1632,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 31,
         "id": 23,
         "order": 26,
+        "setGroup": 31,
         "name": {
             "jpn": "インゴットヘルム",
             "eng": "Ingot Helm",
@@ -1705,12 +1705,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 27,
         "setSkills": [
             151
         ],
         "id": 24,
         "order": 29,
+        "setGroup": 27,
         "name": {
             "jpn": "ギエナヘルム",
             "eng": "Legiana Helm",
@@ -1781,12 +1781,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 29,
         "setSkills": [
             153
         ],
         "id": 25,
         "order": 30,
+        "setGroup": 29,
         "name": {
             "jpn": "ガロンヘルム",
             "eng": "Odogaron Helm",
@@ -1857,12 +1857,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 33,
         "setSkills": [
             128
         ],
         "id": 26,
         "order": 31,
+        "setGroup": 33,
         "name": {
             "jpn": "レウスヘルム",
             "eng": "Rathalos Helm",
@@ -1933,12 +1933,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 34,
         "setSkills": [
             129
         ],
         "id": 27,
         "order": 32,
+        "setGroup": 34,
         "name": {
             "jpn": "ディアブロヘルム",
             "eng": "Diablos Helm",
@@ -2009,12 +2009,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 35,
         "setSkills": [
             130
         ],
         "id": 28,
         "order": 33,
+        "setGroup": 35,
         "name": {
             "jpn": "キリンホーン",
             "eng": "Kirin Horn",
@@ -2085,9 +2085,9 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 26,
         "id": 29,
         "order": 27,
+        "setGroup": 26,
         "name": {
             "jpn": "デスギアゲヒル",
             "eng": "Death Stench Brain",
@@ -2158,9 +2158,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 36,
         "id": 30,
         "order": 28,
+        "setGroup": 36,
         "name": {
             "jpn": "ブリゲイドロポス",
             "eng": "Brigade Lobos",
@@ -2231,9 +2231,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 37,
         "id": 31,
         "order": 0,
+        "setGroup": 37,
         "name": {
             "jpn": "爆砕の羽根飾り",
             "eng": "Pulverizing Feather",
@@ -2287,9 +2287,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 39,
         "id": 32,
         "order": 34,
+        "setGroup": 39,
         "name": {
             "jpn": "レザーヘッド α",
             "eng": "Leather Headgear α",
@@ -2354,9 +2354,9 @@
         "slots": [
             1
         ],
-        "setGroup": 40,
         "id": 33,
         "order": 35,
+        "setGroup": 40,
         "name": {
             "jpn": "レザーヘッド β",
             "eng": "Leather Headgear β",
@@ -2419,9 +2419,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 147,
         "id": 34,
         "order": 36,
+        "setGroup": 147,
         "name": {
             "jpn": "チェーンヘッド α",
             "eng": "Chainmail Headgear α",
@@ -2490,9 +2490,9 @@
         "slots": [
             1
         ],
-        "setGroup": 148,
         "id": 35,
         "order": 37,
+        "setGroup": 148,
         "name": {
             "jpn": "チェーンヘッド β",
             "eng": "Chainmail Headgear β",
@@ -2555,9 +2555,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 41,
         "id": 36,
         "order": 38,
+        "setGroup": 41,
         "name": {
             "jpn": "ハンターヘルム α",
             "eng": "Hunter's Headgear α",
@@ -2626,9 +2626,9 @@
         "slots": [
             1
         ],
-        "setGroup": 42,
         "id": 37,
         "order": 39,
+        "setGroup": 42,
         "name": {
             "jpn": "ハンターヘルム β",
             "eng": "Hunter's Headgear β",
@@ -2691,9 +2691,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 43,
         "id": 38,
         "order": 40,
+        "setGroup": 43,
         "name": {
             "jpn": "ボーンヘルム α",
             "eng": "Bone Helm α",
@@ -2766,9 +2766,9 @@
         "slots": [
             1
         ],
-        "setGroup": 44,
         "id": 39,
         "order": 41,
+        "setGroup": 44,
         "name": {
             "jpn": "ボーンヘルム β",
             "eng": "Bone Helm β",
@@ -2835,9 +2835,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 45,
         "id": 40,
         "order": 42,
+        "setGroup": 45,
         "name": {
             "jpn": "アロイヘルム α",
             "eng": "Alloy Helm α",
@@ -2914,9 +2914,9 @@
         "slots": [
             1
         ],
-        "setGroup": 46,
         "id": 41,
         "order": 43,
+        "setGroup": 46,
         "name": {
             "jpn": "アロイヘルム β",
             "eng": "Alloy Helm β",
@@ -2987,9 +2987,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 51,
         "id": 42,
         "order": 48,
+        "setGroup": 51,
         "name": {
             "jpn": "ランゴヘルム α",
             "eng": "Vespoid Helm α",
@@ -3062,9 +3062,9 @@
         "slots": [
             1
         ],
-        "setGroup": 52,
         "id": 43,
         "order": 49,
+        "setGroup": 52,
         "name": {
             "jpn": "ランゴヘルム β",
             "eng": "Vespoid Helm β",
@@ -3131,9 +3131,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 57,
         "id": 44,
         "order": 50,
+        "setGroup": 57,
         "name": {
             "jpn": "タロスヘルム α",
             "eng": "Hornetaur Helm α",
@@ -3206,9 +3206,9 @@
         "slots": [
             1
         ],
-        "setGroup": 58,
         "id": 45,
         "order": 51,
+        "setGroup": 58,
         "name": {
             "jpn": "タロスヘルム β",
             "eng": "Hornetaur Helm β",
@@ -3275,9 +3275,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 174,
         "id": 46,
         "order": 57,
+        "setGroup": 174,
         "name": {
             "jpn": "シャムゴーグル α",
             "eng": "Shamos Goggles α",
@@ -3350,9 +3350,9 @@
         "slots": [
             1
         ],
-        "setGroup": 175,
         "id": 47,
         "order": 58,
+        "setGroup": 175,
         "name": {
             "jpn": "シャムゴーグル β",
             "eng": "Shamos Goggles β",
@@ -3419,9 +3419,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 61,
         "id": 48,
         "order": 59,
+        "setGroup": 61,
         "name": {
             "jpn": "ジャグラスヘルム α",
             "eng": "Jagras Helm α",
@@ -3494,9 +3494,9 @@
         "slots": [
             1
         ],
-        "setGroup": 62,
         "id": 49,
         "order": 60,
+        "setGroup": 62,
         "name": {
             "jpn": "ジャグラスヘルム β",
             "eng": "Jagras Helm β",
@@ -3567,9 +3567,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 63,
         "id": 50,
         "order": 61,
+        "setGroup": 63,
         "name": {
             "jpn": "クルルヘルム α",
             "eng": "Kulu Headpiece α",
@@ -3643,9 +3643,9 @@
             1,
             1
         ],
-        "setGroup": 64,
         "id": 51,
         "order": 62,
+        "setGroup": 64,
         "name": {
             "jpn": "クルルヘルム β",
             "eng": "Kulu Headpiece β",
@@ -3712,9 +3712,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 65,
         "id": 52,
         "order": 67,
+        "setGroup": 65,
         "name": {
             "jpn": "プケプケヘルム α",
             "eng": "Pukei Hood α",
@@ -3788,9 +3788,9 @@
             1,
             1
         ],
-        "setGroup": 66,
         "id": 53,
         "order": 68,
+        "setGroup": 66,
         "name": {
             "jpn": "プケプケヘルム β",
             "eng": "Pukei Hood β",
@@ -3861,9 +3861,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 69,
         "id": 54,
         "order": 69,
+        "setGroup": 69,
         "name": {
             "jpn": "ボロスヘルム α",
             "eng": "Barroth Helm α",
@@ -3936,9 +3936,9 @@
         "slots": [
             1
         ],
-        "setGroup": 70,
         "id": 55,
         "order": 70,
+        "setGroup": 70,
         "name": {
             "jpn": "ボロスヘルム β",
             "eng": "Barroth Helm β",
@@ -4009,9 +4009,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 67,
         "id": 56,
         "order": 73,
+        "setGroup": 67,
         "name": {
             "jpn": "ジュラヘルム α",
             "eng": "Jyura Helm α",
@@ -4084,9 +4084,9 @@
         "slots": [
             1
         ],
-        "setGroup": 68,
         "id": 57,
         "order": 74,
+        "setGroup": 68,
         "name": {
             "jpn": "ジュラヘルム β",
             "eng": "Jyura Helm β",
@@ -4157,9 +4157,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 71,
         "id": 58,
         "order": 75,
+        "setGroup": 71,
         "name": {
             "jpn": "カガチヘルム α",
             "eng": "Kadachi Helm α",
@@ -4232,9 +4232,9 @@
         "slots": [
             2
         ],
-        "setGroup": 72,
         "id": 59,
         "order": 76,
+        "setGroup": 72,
         "name": {
             "jpn": "カガチヘルム β",
             "eng": "Kadachi Helm β",
@@ -4305,12 +4305,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 93,
         "setSkills": [
             132
         ],
         "id": 60,
         "order": 71,
+        "setGroup": 93,
         "name": {
             "jpn": "ジャナフヘルム α",
             "eng": "Anja Helm α",
@@ -4387,12 +4387,12 @@
         "slots": [
             2
         ],
-        "setGroup": 94,
         "setSkills": [
             132
         ],
         "id": 61,
         "order": 72,
+        "setGroup": 94,
         "name": {
             "jpn": "ジャナフヘルム β",
             "eng": "Anja Helm β",
@@ -4463,9 +4463,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 73,
         "id": 62,
         "order": 79,
+        "setGroup": 73,
         "name": {
             "jpn": "レイアヘルム α",
             "eng": "Rathian Helm α",
@@ -4542,9 +4542,9 @@
         "slots": [
             1
         ],
-        "setGroup": 74,
         "id": 63,
         "order": 80,
+        "setGroup": 74,
         "name": {
             "jpn": "レイアヘルム β",
             "eng": "Rathian Helm β",
@@ -4619,9 +4619,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 77,
         "id": 64,
         "order": 63,
+        "setGroup": 77,
         "name": {
             "jpn": "ツィツィヘルム α",
             "eng": "Tzitzi Headgear α",
@@ -4698,9 +4698,9 @@
         "slots": [
             1
         ],
-        "setGroup": 78,
         "id": 65,
         "order": 64,
+        "setGroup": 78,
         "name": {
             "jpn": "ツィツィヘルム β",
             "eng": "Tzitzi Headgear β",
@@ -4771,9 +4771,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 79,
         "id": 66,
         "order": 77,
+        "setGroup": 79,
         "name": {
             "jpn": "ウルムーヘルム α",
             "eng": "Lumu Hat α",
@@ -4846,9 +4846,9 @@
         "slots": [
             2
         ],
-        "setGroup": 80,
         "id": 67,
         "order": 78,
+        "setGroup": 80,
         "name": {
             "jpn": "ウルムーヘルム β",
             "eng": "Lumu Hat β",
@@ -4919,9 +4919,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 75,
         "id": 68,
         "order": 65,
+        "setGroup": 75,
         "name": {
             "jpn": "ギルオスヘルム α",
             "eng": "Girros Mask α",
@@ -4998,9 +4998,9 @@
         "slots": [
             1
         ],
-        "setGroup": 76,
         "id": 69,
         "order": 66,
+        "setGroup": 76,
         "name": {
             "jpn": "ギルオスヘルム β",
             "eng": "Girros Mask β",
@@ -5071,9 +5071,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 97,
         "id": 70,
         "order": 83,
+        "setGroup": 97,
         "name": {
             "jpn": "バルキンヘルム α",
             "eng": "Baan Helm α",
@@ -5146,9 +5146,9 @@
         "slots": [
             2
         ],
-        "setGroup": 98,
         "id": 71,
         "order": 84,
+        "setGroup": 98,
         "name": {
             "jpn": "バルキンヘルム β",
             "eng": "Baan Helm β",
@@ -5219,9 +5219,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 89,
         "id": 72,
         "order": 93,
+        "setGroup": 89,
         "name": {
             "jpn": "ハイメタヘルム α",
             "eng": "High Metal Helm α",
@@ -5298,9 +5298,9 @@
         "slots": [
             2
         ],
-        "setGroup": 90,
         "id": 73,
         "order": 94,
+        "setGroup": 90,
         "name": {
             "jpn": "ハイメタヘルム β",
             "eng": "High Metal Helm β",
@@ -5371,9 +5371,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 91,
         "id": 74,
         "order": 95,
+        "setGroup": 91,
         "name": {
             "jpn": "インゴットヘルム α",
             "eng": "Ingot Helm α",
@@ -5446,9 +5446,9 @@
         "slots": [
             1
         ],
-        "setGroup": 92,
         "id": 75,
         "order": 96,
+        "setGroup": 92,
         "name": {
             "jpn": "インゴットヘルム β",
             "eng": "Ingot Helm β",
@@ -5519,9 +5519,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 166,
         "id": 76,
         "order": 85,
+        "setGroup": 166,
         "name": {
             "jpn": "ガストホーン α",
             "eng": "Gastodon Horn α",
@@ -5598,9 +5598,9 @@
         "slots": [
             1
         ],
-        "setGroup": 167,
         "id": 77,
         "order": 86,
+        "setGroup": 167,
         "name": {
             "jpn": "ガストホーン β",
             "eng": "Gastodon Horn β",
@@ -5671,12 +5671,12 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 87,
         "setSkills": [
             131
         ],
         "id": 78,
         "order": 81,
+        "setGroup": 87,
         "name": {
             "jpn": "リオハートヘルム α",
             "eng": "Rath Heart Helm α",
@@ -5753,12 +5753,12 @@
         "slots": [
             2
         ],
-        "setGroup": 88,
         "setSkills": [
             131
         ],
         "id": 79,
         "order": 82,
+        "setGroup": 88,
         "name": {
             "jpn": "リオハートヘルム β",
             "eng": "Rath Heart Helm β",
@@ -5829,12 +5829,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 95,
         "setSkills": [
             152
         ],
         "id": 80,
         "order": 103,
+        "setGroup": 95,
         "name": {
             "jpn": "ギエナヘルム α",
             "eng": "Legiana Helm α",
@@ -5911,12 +5911,12 @@
         "slots": [
             1
         ],
-        "setGroup": 96,
         "setSkills": [
             152
         ],
         "id": 81,
         "order": 104,
+        "setGroup": 96,
         "name": {
             "jpn": "ギエナヘルム β",
             "eng": "Legiana Helm β",
@@ -5987,12 +5987,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 81,
         "setSkills": [
             154
         ],
         "id": 82,
         "order": 105,
+        "setGroup": 81,
         "name": {
             "jpn": "ガロンヘルム α",
             "eng": "Odogaron Helm α",
@@ -6069,12 +6069,12 @@
         "slots": [
             2
         ],
-        "setGroup": 82,
         "setSkills": [
             154
         ],
         "id": 83,
         "order": 106,
+        "setGroup": 82,
         "name": {
             "jpn": "ガロンヘルム β",
             "eng": "Odogaron Helm β",
@@ -6145,12 +6145,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 101,
         "setSkills": [
             135
         ],
         "id": 84,
         "order": 107,
+        "setGroup": 101,
         "name": {
             "jpn": "レウスヘルム α",
             "eng": "Rathalos Helm α",
@@ -6227,12 +6227,12 @@
         "slots": [
             1
         ],
-        "setGroup": 102,
         "setSkills": [
             135
         ],
         "id": 85,
         "order": 108,
+        "setGroup": 102,
         "name": {
             "jpn": "レウスヘルム β",
             "eng": "Rathalos Helm β",
@@ -6303,12 +6303,12 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 111,
         "setSkills": [
             135
         ],
         "id": 86,
         "order": 109,
+        "setGroup": 111,
         "name": {
             "jpn": "リオソウルヘルム α",
             "eng": "Rath Soul Helm α",
@@ -6386,12 +6386,12 @@
             1,
             1
         ],
-        "setGroup": 112,
         "setSkills": [
             135
         ],
         "id": 87,
         "order": 110,
+        "setGroup": 112,
         "name": {
             "jpn": "リオソウルヘルム β",
             "eng": "Rath Soul Helm β",
@@ -6462,12 +6462,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 103,
         "setSkills": [
             136
         ],
         "id": 88,
         "order": 111,
+        "setGroup": 103,
         "name": {
             "jpn": "ディアブロヘルム α",
             "eng": "Diablos Helm α",
@@ -6544,12 +6544,12 @@
         "slots": [
             2
         ],
-        "setGroup": 104,
         "setSkills": [
             136
         ],
         "id": 89,
         "order": 112,
+        "setGroup": 104,
         "name": {
             "jpn": "ディアブロヘルム β",
             "eng": "Diablos Helm β",
@@ -6622,12 +6622,12 @@
         "slots": [
             1
         ],
-        "setGroup": 113,
         "setSkills": [
             136
         ],
         "id": 90,
         "order": 113,
+        "setGroup": 113,
         "name": {
             "jpn": "ディアネロヘルム α",
             "eng": "Diablos Nero Helm α",
@@ -6700,12 +6700,12 @@
         "slots": [
             3
         ],
-        "setGroup": 114,
         "setSkills": [
             136
         ],
         "id": 91,
         "order": 114,
+        "setGroup": 114,
         "name": {
             "jpn": "ディアネロヘルム β",
             "eng": "Diablos Nero Helm β",
@@ -6776,9 +6776,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 83,
         "id": 92,
         "order": 89,
+        "setGroup": 83,
         "name": {
             "jpn": "ガマルヘルム α",
             "eng": "Dodogama Helm α",
@@ -6851,9 +6851,9 @@
         "slots": [
             1
         ],
-        "setGroup": 84,
         "id": 93,
         "order": 90,
+        "setGroup": 84,
         "name": {
             "jpn": "ガマルヘルム β",
             "eng": "Dodogama Helm β",
@@ -6924,9 +6924,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 85,
         "id": 94,
         "order": 101,
+        "setGroup": 85,
         "name": {
             "jpn": "ラヴァヘルム α",
             "eng": "Lavasioth Helm α",
@@ -7004,9 +7004,9 @@
             1,
             1
         ],
-        "setGroup": 86,
         "id": 95,
         "order": 102,
+        "setGroup": 86,
         "name": {
             "jpn": "ラヴァヘルム β",
             "eng": "Lavasioth Helm β",
@@ -7083,12 +7083,12 @@
         "slots": [
             3
         ],
-        "setGroup": 109,
         "setSkills": [
             138
         ],
         "id": 96,
         "order": 115,
+        "setGroup": 109,
         "name": {
             "jpn": "ガンキンヘルム α",
             "eng": "Uragaan Helm α",
@@ -7162,12 +7162,12 @@
             3,
             1
         ],
-        "setGroup": 110,
         "setSkills": [
             138
         ],
         "id": 97,
         "order": 116,
+        "setGroup": 110,
         "name": {
             "jpn": "ガンキンヘルム β",
             "eng": "Uragaan Helm β",
@@ -7240,12 +7240,12 @@
         "slots": [
             1
         ],
-        "setGroup": 107,
         "setSkills": [
             126
         ],
         "id": 98,
         "order": 126,
+        "setGroup": 107,
         "name": {
             "jpn": "オーグヘルム α",
             "eng": "Nergigante Helm α",
@@ -7323,12 +7323,12 @@
             1,
             1
         ],
-        "setGroup": 108,
         "setSkills": [
             126
         ],
         "id": 99,
         "order": 127,
+        "setGroup": 108,
         "name": {
             "jpn": "オーグヘルム β",
             "eng": "Nergigante Helm β",
@@ -7399,9 +7399,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 117,
         "id": 100,
         "order": 44,
+        "setGroup": 117,
         "name": {
             "jpn": "オウビートテスタ α",
             "eng": "King Beetle Vertex α",
@@ -7478,9 +7478,9 @@
         "slots": [
             1
         ],
-        "setGroup": 118,
         "id": 101,
         "order": 45,
+        "setGroup": 118,
         "name": {
             "jpn": "オウビートテスタ β",
             "eng": "King Beetle Vertex β",
@@ -7551,9 +7551,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 170,
         "id": 102,
         "order": 46,
+        "setGroup": 170,
         "name": {
             "jpn": "パピメルテスタ α",
             "eng": "Butterfly Vertex α",
@@ -7630,9 +7630,9 @@
         "slots": [
             1
         ],
-        "setGroup": 171,
         "id": 103,
         "order": 47,
+        "setGroup": 171,
         "name": {
             "jpn": "パピメルテスタ β",
             "eng": "Butterfly Vertex β",
@@ -7703,9 +7703,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 119,
         "id": 104,
         "order": 97,
+        "setGroup": 119,
         "name": {
             "jpn": "ブリゲイドロポス α",
             "eng": "Brigade Lobos α",
@@ -7782,9 +7782,9 @@
         "slots": [
             1
         ],
-        "setGroup": 120,
         "id": 105,
         "order": 98,
+        "setGroup": 120,
         "name": {
             "jpn": "ブリゲイドロポス β",
             "eng": "Brigade Lobos β",
@@ -7857,9 +7857,9 @@
         "slots": [
             1
         ],
-        "setGroup": 121,
         "id": 106,
         "order": 119,
+        "setGroup": 121,
         "name": {
             "jpn": "ダマスクヘルム α",
             "eng": "Damascus Helm α",
@@ -7936,9 +7936,9 @@
         "slots": [
             3
         ],
-        "setGroup": 122,
         "id": 107,
         "order": 120,
+        "setGroup": 122,
         "name": {
             "jpn": "ダマスクヘルム β",
             "eng": "Damascus Helm β",
@@ -8009,9 +8009,9 @@
             "dragon": 4
         },
         "slots": [],
-        "setGroup": 123,
         "id": 108,
         "order": 121,
+        "setGroup": 123,
         "name": {
             "jpn": "ドーベルヘルム α",
             "eng": "Dober Helm α",
@@ -8088,9 +8088,9 @@
         "slots": [
             1
         ],
-        "setGroup": 124,
         "id": 109,
         "order": 122,
+        "setGroup": 124,
         "name": {
             "jpn": "ドーベルヘルム β",
             "eng": "Dober Helm β",
@@ -8161,12 +8161,12 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 129,
         "setSkills": [
             144
         ],
         "id": 110,
         "order": 130,
+        "setGroup": 129,
         "name": {
             "jpn": "クシャナアンク α",
             "eng": "Kushala Glare α",
@@ -8245,12 +8245,12 @@
             1,
             1
         ],
-        "setGroup": 130,
         "setSkills": [
             144
         ],
         "id": 111,
         "order": 131,
+        "setGroup": 130,
         "name": {
             "jpn": "クシャナアンク β",
             "eng": "Kushala Glare β",
@@ -8321,12 +8321,12 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 127,
         "setSkills": [
             143
         ],
         "id": 112,
         "order": 128,
+        "setGroup": 127,
         "name": {
             "jpn": "カイザークラウン α",
             "eng": "Kaiser Crown α",
@@ -8399,12 +8399,12 @@
         "slots": [
             2
         ],
-        "setGroup": 128,
         "setSkills": [
             143
         ],
         "id": 113,
         "order": 129,
+        "setGroup": 128,
         "name": {
             "jpn": "カイザークラウン β",
             "eng": "Kaiser Crown β",
@@ -8475,12 +8475,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 105,
         "setSkills": [
             137
         ],
         "id": 114,
         "order": 134,
+        "setGroup": 105,
         "name": {
             "jpn": "キリンホーン α",
             "eng": "Kirin Horn α",
@@ -8557,12 +8557,12 @@
         "slots": [
             1
         ],
-        "setGroup": 106,
         "setSkills": [
             137
         ],
         "id": 115,
         "order": 135,
+        "setGroup": 106,
         "name": {
             "jpn": "キリンホーン β",
             "eng": "Kirin Horn β",
@@ -8633,12 +8633,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 99,
         "setSkills": [
             127
         ],
         "id": 116,
         "order": 132,
+        "setGroup": 99,
         "name": {
             "jpn": "ウルズヘルム α",
             "eng": "Vaal Hazak Helm α",
@@ -8715,12 +8715,12 @@
         "slots": [
             1
         ],
-        "setGroup": 100,
         "setSkills": [
             127
         ],
         "id": 117,
         "order": 133,
+        "setGroup": 100,
         "name": {
             "jpn": "ウルズヘルム β",
             "eng": "Vaal Hazak Helm β",
@@ -8793,12 +8793,12 @@
         "slots": [
             2
         ],
-        "setGroup": 115,
         "setSkills": [
             142
         ],
         "id": 118,
         "order": 117,
+        "setGroup": 115,
         "name": {
             "jpn": "バゼルヘルム α",
             "eng": "Bazel Helm α",
@@ -8876,12 +8876,12 @@
             3,
             1
         ],
-        "setGroup": 116,
         "setSkills": [
             142
         ],
         "id": 119,
         "order": 118,
+        "setGroup": 116,
         "name": {
             "jpn": "バゼルヘルム β",
             "eng": "Bazel Helm β",
@@ -8954,9 +8954,9 @@
         "slots": [
             2
         ],
-        "setGroup": 131,
         "id": 120,
         "order": 123,
+        "setGroup": 131,
         "name": {
             "jpn": "デスギアゲヒル α",
             "eng": "Death Stench Brain α",
@@ -9033,9 +9033,9 @@
         "slots": [
             3
         ],
-        "setGroup": 132,
         "id": 121,
         "order": 124,
+        "setGroup": 132,
         "name": {
             "jpn": "デスギアゲヒル β",
             "eng": "Death Stench Brain β",
@@ -9108,12 +9108,12 @@
         "slots": [
             1
         ],
-        "setGroup": 133,
         "setSkills": [
             149
         ],
         "id": 122,
         "order": 138,
+        "setGroup": 133,
         "name": {
             "jpn": "ギルドクロスアクセ α",
             "eng": "Guild Cross Circlet α",
@@ -9192,12 +9192,12 @@
             1,
             1
         ],
-        "setGroup": 134,
         "setSkills": [
             149
         ],
         "id": 123,
         "order": 139,
+        "setGroup": 134,
         "name": {
             "jpn": "ギルドクロスアクセ β",
             "eng": "Guild Cross Circlet β",
@@ -9270,9 +9270,9 @@
         "slots": [
             2
         ],
-        "setGroup": 149,
         "id": 124,
         "order": 125,
+        "setGroup": 149,
         "name": {
             "jpn": "スカルフェイス α",
             "eng": "Skull Mask α",
@@ -9343,9 +9343,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 153,
         "id": 126,
         "order": 99,
+        "setGroup": 153,
         "name": {
             "jpn": "アイルーフェイク α",
             "eng": "Faux Felyne α",
@@ -9416,9 +9416,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 154,
         "id": 128,
         "order": 52,
+        "setGroup": 154,
         "name": {
             "jpn": "モスフェイク α",
             "eng": "Mosswine Mask α",
@@ -9489,9 +9489,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 181,
         "id": 132,
         "order": 0,
+        "setGroup": 181,
         "name": {
             "jpn": "龍封じのピアス α",
             "eng": "Dragonseal Earrings α",
@@ -9547,9 +9547,9 @@
         "slots": [
             1
         ],
-        "setGroup": 183,
         "id": 134,
         "order": 100,
+        "setGroup": 183,
         "name": {
             "jpn": "知略の眼鏡 α",
             "eng": "Strategist Spectacles α",
@@ -9618,9 +9618,9 @@
         "slots": [
             3
         ],
-        "setGroup": 185,
         "id": 136,
         "order": 140,
+        "setGroup": 185,
         "name": {
             "jpn": "竜王の隻眼 α",
             "eng": "Dragonking Eyepatch α",
@@ -9689,12 +9689,12 @@
         "slots": [
             1
         ],
-        "setGroup": 125,
         "setSkills": [
             145
         ],
         "id": 138,
         "order": 136,
+        "setGroup": 125,
         "name": {
             "jpn": "ゼノラージヘッド α",
             "eng": "Xeno'jiiva Headgear α",
@@ -9771,12 +9771,12 @@
         "slots": [
             2
         ],
-        "setGroup": 126,
         "setSkills": [
             145
         ],
         "id": 139,
         "order": 137,
+        "setGroup": 126,
         "name": {
             "jpn": "ゼノラージヘッド β",
             "eng": "Xeno'jiiva Headgear β",
@@ -9847,12 +9847,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 137,
         "setSkills": [
             147
         ],
         "id": 142,
         "order": 91,
+        "setGroup": 137,
         "name": {
             "jpn": "ゾラマグナヘッド α",
             "eng": "Zorah Headgear α",
@@ -9929,12 +9929,12 @@
         "slots": [
             1
         ],
-        "setGroup": 138,
         "setSkills": [
             147
         ],
         "id": 143,
         "order": 92,
+        "setGroup": 138,
         "name": {
             "jpn": "ゾラマグナヘッド β",
             "eng": "Zorah Headgear β",
@@ -10007,12 +10007,12 @@
         "slots": [
             1
         ],
-        "setGroup": 151,
         "setSkills": [
             150
         ],
         "id": 144,
         "order": 141,
+        "setGroup": 151,
         "name": {
             "jpn": "シーカーヘッド α",
             "eng": "Commission Gorget α",
@@ -10089,12 +10089,12 @@
         "slots": [
             2
         ],
-        "setGroup": 152,
         "setSkills": [
             150
         ],
         "id": 145,
         "order": 142,
+        "setGroup": 152,
         "name": {
             "jpn": "シーカーヘッド β",
             "eng": "Commission Gorget β",
@@ -10165,9 +10165,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 176,
         "id": 164,
         "order": 0,
+        "setGroup": 176,
         "name": {
             "jpn": "オリジンヘルム",
             "eng": "Origin Helm",
@@ -10222,9 +10222,9 @@
         "slots": [
             1
         ],
-        "setGroup": 191,
         "id": 166,
         "order": 146,
+        "setGroup": 191,
         "name": {
             "jpn": "マムガイラヘルム α",
             "eng": "Kulve Taroth's Fury α",
@@ -10302,9 +10302,9 @@
             2,
             1
         ],
-        "setGroup": 192,
         "id": 167,
         "order": 147,
+        "setGroup": 192,
         "name": {
             "jpn": "マムガイラヘルム β",
             "eng": "Kulve Taroth's Fury β",
@@ -10379,9 +10379,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 193,
         "id": 168,
         "order": 150,
+        "setGroup": 193,
         "name": {
             "jpn": "ブロッサムヘッド",
             "eng": "Blossom Headgear",
@@ -10444,9 +10444,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 194,
         "id": 169,
         "order": 151,
+        "setGroup": 194,
         "name": {
             "jpn": "ダイバーシュノ",
             "eng": "Diver's Mask",
@@ -10509,9 +10509,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 195,
         "id": 170,
         "order": 152,
+        "setGroup": 195,
         "name": {
             "jpn": "ハーベストフロール",
             "eng": "Harvest Flor",
@@ -10574,9 +10574,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 196,
         "id": 171,
         "order": 153,
+        "setGroup": 196,
         "name": {
             "jpn": "オリオンヘッド",
             "eng": "Orion Cap",
@@ -10639,12 +10639,12 @@
             "dragon": 4
         },
         "slots": [],
-        "setGroup": 197,
         "setSkills": [
             168
         ],
         "id": 172,
         "order": 154,
+        "setGroup": 197,
         "name": {
             "jpn": "フルドレスハット",
             "eng": "Gala Suit Top Hat",
@@ -10709,9 +10709,9 @@
         "slots": [
             1
         ],
-        "setGroup": 201,
         "id": 174,
         "order": 144,
+        "setGroup": 201,
         "name": {
             "jpn": "バンギスヘルム α",
             "eng": "Vangis Helm α",
@@ -10789,9 +10789,9 @@
             3,
             1
         ],
-        "setGroup": 202,
         "id": 175,
         "order": 145,
+        "setGroup": 202,
         "name": {
             "jpn": "バンギスヘルム β",
             "eng": "Vangis Helm β",
@@ -10865,12 +10865,12 @@
             3,
             1
         ],
-        "setGroup": 206,
         "setSkills": [
             164
         ],
         "id": 179,
         "order": 183,
+        "setGroup": 206,
         "name": {
             "jpn": "ドラケンアーメット α",
             "eng": "Drachen Armet α",
@@ -10948,9 +10948,9 @@
             1,
             1
         ],
-        "setGroup": 207,
         "id": 180,
         "order": 155,
+        "setGroup": 207,
         "name": {
             "jpn": "ブロッサムヘッド α",
             "eng": "Blossom Headgear α",
@@ -11015,9 +11015,9 @@
         "slots": [
             2
         ],
-        "setGroup": 208,
         "id": 181,
         "order": 156,
+        "setGroup": 208,
         "name": {
             "jpn": "ダイバーシュノ α",
             "eng": "Diver's Mask α",
@@ -11087,9 +11087,9 @@
             2,
             1
         ],
-        "setGroup": 209,
         "id": 182,
         "order": 157,
+        "setGroup": 209,
         "name": {
             "jpn": "ハーベストフロール α",
             "eng": "Harvest Flor α",
@@ -11159,9 +11159,9 @@
             3,
             1
         ],
-        "setGroup": 210,
         "id": 183,
         "order": 158,
+        "setGroup": 210,
         "name": {
             "jpn": "オリオンヘッド α",
             "eng": "Orion Cap α",
@@ -11232,12 +11232,12 @@
             1,
             1
         ],
-        "setGroup": 211,
         "setSkills": [
             168
         ],
         "id": 184,
         "order": 159,
+        "setGroup": 211,
         "name": {
             "jpn": "フルドレスハット α",
             "eng": "Gala Suit Top Hat α",
@@ -11304,9 +11304,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 212,
         "id": 185,
         "order": 160,
+        "setGroup": 212,
         "name": {
             "jpn": "パピオムテスタ",
             "eng": "Butterfly Vertex",
@@ -11379,9 +11379,9 @@
         "slots": [
             1
         ],
-        "setGroup": 213,
         "id": 186,
         "order": 161,
+        "setGroup": 213,
         "name": {
             "jpn": "パピオムテスタ α",
             "eng": "Butterfly Vertex α",
@@ -11458,9 +11458,9 @@
         "slots": [
             2
         ],
-        "setGroup": 214,
         "id": 187,
         "order": 162,
+        "setGroup": 214,
         "name": {
             "jpn": "パピオムテスタ β",
             "eng": "Butterfly Vertex β",
@@ -11531,9 +11531,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 215,
         "id": 188,
         "order": 163,
+        "setGroup": 215,
         "name": {
             "jpn": "クインビートテスタ",
             "eng": "Queen Beetle Vertex",
@@ -11606,9 +11606,9 @@
         "slots": [
             1
         ],
-        "setGroup": 216,
         "id": 189,
         "order": 164,
+        "setGroup": 216,
         "name": {
             "jpn": "クインビートテスタ α",
             "eng": "Queen Beetle Vertex α",
@@ -11685,9 +11685,9 @@
         "slots": [
             2
         ],
-        "setGroup": 217,
         "id": 190,
         "order": 165,
+        "setGroup": 217,
         "name": {
             "jpn": "クインビートテスタ β",
             "eng": "Queen Beetle Vertex β",
@@ -11760,12 +11760,12 @@
         "slots": [
             3
         ],
-        "setGroup": 218,
         "setSkills": [
             127
         ],
         "id": 191,
         "order": 166,
+        "setGroup": 218,
         "name": {
             "jpn": "ウルズヘルム γ",
             "eng": "Vaal Hazak Helm γ",
@@ -11842,12 +11842,12 @@
         "slots": [
             2
         ],
-        "setGroup": 219,
         "setSkills": [
             137
         ],
         "id": 192,
         "order": 167,
+        "setGroup": 219,
         "name": {
             "jpn": "キリンホーン γ",
             "eng": "Kirin Horn γ",
@@ -11925,12 +11925,12 @@
             2,
             2
         ],
-        "setGroup": 220,
         "setSkills": [
             143
         ],
         "id": 193,
         "order": 168,
+        "setGroup": 220,
         "name": {
             "jpn": "カイザークラウン γ",
             "eng": "Kaiser Crown γ",
@@ -12003,12 +12003,12 @@
         "slots": [
             2
         ],
-        "setGroup": 221,
         "setSkills": [
             144
         ],
         "id": 194,
         "order": 169,
+        "setGroup": 221,
         "name": {
             "jpn": "クシャナアンク γ",
             "eng": "Kushala Glare γ",
@@ -12082,12 +12082,12 @@
             2,
             2
         ],
-        "setGroup": 222,
         "setSkills": [
             126
         ],
         "id": 195,
         "order": 170,
+        "setGroup": 222,
         "name": {
             "jpn": "オーグヘルム γ",
             "eng": "Nergigante Helm γ",
@@ -12164,12 +12164,12 @@
         "slots": [
             2
         ],
-        "setGroup": 223,
         "setSkills": [
             147
         ],
         "id": 196,
         "order": 171,
+        "setGroup": 223,
         "name": {
             "jpn": "ゾラマグナヘッド γ",
             "eng": "Zorah Headgear γ",
@@ -12248,12 +12248,12 @@
             1,
             1
         ],
-        "setGroup": 224,
         "setSkills": [
             145
         ],
         "id": 197,
         "order": 172,
+        "setGroup": 224,
         "name": {
             "jpn": "ゼノラージヘッド γ",
             "eng": "Xeno'jiiva Headgear γ",
@@ -12330,12 +12330,12 @@
         "slots": [
             3
         ],
-        "setGroup": 229,
         "setSkills": [
             135
         ],
         "id": 202,
         "order": 180,
+        "setGroup": 229,
         "name": {
             "jpn": "蒼星ノ将【兜】 α",
             "eng": "Azure Starlord Crown α",
@@ -12408,9 +12408,9 @@
         "slots": [
             1
         ],
-        "setGroup": 230,
         "id": 203,
         "order": 182,
+        "setGroup": 230,
         "name": {
             "jpn": "ダンテウィッグ α",
             "eng": "Dante's Hair α",
@@ -12488,12 +12488,12 @@
             3,
             1
         ],
-        "setGroup": 231,
         "setSkills": [
             163
         ],
         "id": 204,
         "order": 148,
+        "setGroup": 231,
         "name": {
             "jpn": "エンプレスセクター α",
             "eng": "Empress Crown α",
@@ -12571,12 +12571,12 @@
             3,
             2
         ],
-        "setGroup": 232,
         "setSkills": [
             163
         ],
         "id": 205,
         "order": 149,
+        "setGroup": 232,
         "name": {
             "jpn": "エンプレスセクター β",
             "eng": "Empress Crown β",
@@ -12650,9 +12650,9 @@
             2,
             1
         ],
-        "setGroup": 233,
         "id": 206,
         "order": 186,
+        "setGroup": 233,
         "name": {
             "jpn": "封印の眼帯 α",
             "eng": "Sealed Eyepatch α",
@@ -12727,9 +12727,9 @@
             1,
             1
         ],
-        "setGroup": 234,
         "id": 207,
         "order": 187,
+        "setGroup": 234,
         "name": {
             "jpn": "シャドウアイ α",
             "eng": "Shadow Shades α",
@@ -12803,9 +12803,9 @@
             3,
             1
         ],
-        "setGroup": 235,
         "id": 208,
         "order": 188,
+        "setGroup": 235,
         "name": {
             "jpn": "クルルフェイク α",
             "eng": "Kulu-Ya-Ku Head α",
@@ -12879,9 +12879,9 @@
             1,
             1
         ],
-        "setGroup": 236,
         "id": 209,
         "order": 189,
+        "setGroup": 236,
         "name": {
             "jpn": "ユラユラフェイク α",
             "eng": "Wiggler Head α",
@@ -12956,12 +12956,12 @@
             1,
             1
         ],
-        "setGroup": 253,
         "setSkills": [
             163
         ],
         "id": 226,
         "order": 173,
+        "setGroup": 253,
         "name": {
             "jpn": "エンプレスセクター γ",
             "eng": "Empress Crown γ",
@@ -13040,9 +13040,9 @@
             1,
             1
         ],
-        "setGroup": 258,
         "id": 231,
         "order": 174,
+        "setGroup": 258,
         "name": {
             "jpn": "マムガイラヘルム γ",
             "eng": "Kulve Taroth's Fury γ",
@@ -13119,9 +13119,9 @@
         "slots": [
             1
         ],
-        "setGroup": 259,
         "id": 232,
         "order": 298,
+        "setGroup": 259,
         "name": {
             "jpn": "防衛隊【兜】 α",
             "eng": "Defender Helm α",
@@ -13181,9 +13181,9 @@
         "slots": [
             3
         ],
-        "setGroup": 302,
         "id": 235,
         "order": 302,
+        "setGroup": 302,
         "name": {
             "jpn": "EXボーンヘルム α",
             "eng": "Bone Helm α+",
@@ -13256,9 +13256,9 @@
         "slots": [
             4
         ],
-        "setGroup": 303,
         "id": 236,
         "order": 303,
+        "setGroup": 303,
         "name": {
             "jpn": "EXボーンヘルム β",
             "eng": "Bone Helm β+",
@@ -13331,9 +13331,9 @@
         "slots": [
             2
         ],
-        "setGroup": 304,
         "id": 237,
         "order": 304,
+        "setGroup": 304,
         "name": {
             "jpn": "EXアロイヘルム α",
             "eng": "Alloy Helm α+",
@@ -13411,9 +13411,9 @@
             4,
             1
         ],
-        "setGroup": 305,
         "id": 238,
         "order": 305,
+        "setGroup": 305,
         "name": {
             "jpn": "EXアロイヘルム β",
             "eng": "Alloy Helm β+",
@@ -13486,9 +13486,9 @@
         "slots": [
             3
         ],
-        "setGroup": 306,
         "id": 239,
         "order": 306,
+        "setGroup": 306,
         "name": {
             "jpn": "EXランゴヘルム α",
             "eng": "Vespoid Helm α+",
@@ -13562,9 +13562,9 @@
             4,
             1
         ],
-        "setGroup": 307,
         "id": 240,
         "order": 307,
+        "setGroup": 307,
         "name": {
             "jpn": "EXランゴヘルム β",
             "eng": "Vespoid Helm β+",
@@ -13633,9 +13633,9 @@
         "slots": [
             2
         ],
-        "setGroup": 308,
         "id": 241,
         "order": 308,
+        "setGroup": 308,
         "name": {
             "jpn": "EXタロスヘルム α",
             "eng": "Hornetaur Helm α+",
@@ -13708,9 +13708,9 @@
         "slots": [
             4
         ],
-        "setGroup": 309,
         "id": 242,
         "order": 309,
+        "setGroup": 309,
         "name": {
             "jpn": "EXタロスヘルム β",
             "eng": "Hornetaur Helm β+",
@@ -13784,9 +13784,9 @@
             2,
             1
         ],
-        "setGroup": 314,
         "id": 243,
         "order": 314,
+        "setGroup": 314,
         "name": {
             "jpn": "EXシャムゴーグル α",
             "eng": "Shamos Goggles α+",
@@ -13860,9 +13860,9 @@
             4,
             2
         ],
-        "setGroup": 315,
         "id": 244,
         "order": 315,
+        "setGroup": 315,
         "name": {
             "jpn": "EXシャムゴーグル β",
             "eng": "Shamos Goggles β+",
@@ -13935,9 +13935,9 @@
         "slots": [
             1
         ],
-        "setGroup": 316,
         "id": 245,
         "order": 316,
+        "setGroup": 316,
         "name": {
             "jpn": "EXガストホーン α",
             "eng": "Gastodon Horn α+",
@@ -14011,9 +14011,9 @@
             4,
             1
         ],
-        "setGroup": 317,
         "id": 246,
         "order": 317,
+        "setGroup": 317,
         "name": {
             "jpn": "EXガストホーン β",
             "eng": "Gastodon Horn β+",
@@ -14087,9 +14087,9 @@
             2,
             1
         ],
-        "setGroup": 320,
         "id": 247,
         "order": 320,
+        "setGroup": 320,
         "name": {
             "jpn": "EXウルグマフラー α",
             "eng": "Wulg Scarf α+",
@@ -14163,9 +14163,9 @@
             4,
             1
         ],
-        "setGroup": 321,
         "id": 248,
         "order": 321,
+        "setGroup": 321,
         "name": {
             "jpn": "EXウルグマフラー β",
             "eng": "Wulg Scarf β+",
@@ -14238,9 +14238,9 @@
         "slots": [
             2
         ],
-        "setGroup": 324,
         "id": 249,
         "order": 324,
+        "setGroup": 324,
         "name": {
             "jpn": "EXジャグラスヘルム α",
             "eng": "Jagras Helm α+",
@@ -14318,9 +14318,9 @@
             4,
             1
         ],
-        "setGroup": 325,
         "id": 250,
         "order": 325,
+        "setGroup": 325,
         "name": {
             "jpn": "EXジャグラスヘルム β",
             "eng": "Jagras Helm β+",
@@ -14398,9 +14398,9 @@
             2,
             1
         ],
-        "setGroup": 326,
         "id": 251,
         "order": 326,
+        "setGroup": 326,
         "name": {
             "jpn": "EXツィツィヘルム α",
             "eng": "Tzitzi Headgear α+",
@@ -14478,9 +14478,9 @@
             4,
             1
         ],
-        "setGroup": 327,
         "id": 252,
         "order": 327,
+        "setGroup": 327,
         "name": {
             "jpn": "EXツィツィヘルム β",
             "eng": "Tzitzi Headgear β+",
@@ -14553,9 +14553,9 @@
         "slots": [
             2
         ],
-        "setGroup": 328,
         "id": 253,
         "order": 328,
+        "setGroup": 328,
         "name": {
             "jpn": "EXギルオスヘルム α",
             "eng": "Girros Headgear α+",
@@ -14632,9 +14632,9 @@
         "slots": [
             4
         ],
-        "setGroup": 329,
         "id": 254,
         "order": 329,
+        "setGroup": 329,
         "name": {
             "jpn": "EXギルオスヘルム β",
             "eng": "Girros Headgear β+",
@@ -14707,9 +14707,9 @@
         "slots": [
             3
         ],
-        "setGroup": 330,
         "id": 255,
         "order": 330,
+        "setGroup": 330,
         "name": {
             "jpn": "EXガマルヘルム α",
             "eng": "Dodogama Helm α+",
@@ -14786,9 +14786,9 @@
         "slots": [
             4
         ],
-        "setGroup": 331,
         "id": 256,
         "order": 331,
+        "setGroup": 331,
         "name": {
             "jpn": "EXガマルヘルム β",
             "eng": "Dodogama Helm β+",
@@ -14861,9 +14861,9 @@
         "slots": [
             1
         ],
-        "setGroup": 332,
         "id": 257,
         "order": 332,
+        "setGroup": 332,
         "name": {
             "jpn": "EXクルルヘルム α",
             "eng": "Kulu Headpiece α+",
@@ -14940,9 +14940,9 @@
         "slots": [
             4
         ],
-        "setGroup": 333,
         "id": 258,
         "order": 333,
+        "setGroup": 333,
         "name": {
             "jpn": "EXクルルヘルム β",
             "eng": "Kulu Headpiece β+",
@@ -15016,9 +15016,9 @@
             2,
             2
         ],
-        "setGroup": 334,
         "id": 259,
         "order": 334,
+        "setGroup": 334,
         "name": {
             "jpn": "EXプケプケヘルム α",
             "eng": "Pukei Hat α+",
@@ -15093,9 +15093,9 @@
             1,
             1
         ],
-        "setGroup": 335,
         "id": 260,
         "order": 335,
+        "setGroup": 335,
         "name": {
             "jpn": "EXプケプケヘルム β",
             "eng": "Pukei Hat β+",
@@ -15164,9 +15164,9 @@
         "slots": [
             2
         ],
-        "setGroup": 336,
         "id": 261,
         "order": 338,
+        "setGroup": 336,
         "name": {
             "jpn": "EXボロスヘルム α",
             "eng": "Barroth Helm α+",
@@ -15244,9 +15244,9 @@
             4,
             1
         ],
-        "setGroup": 337,
         "id": 262,
         "order": 339,
+        "setGroup": 337,
         "name": {
             "jpn": "EXボロスヘルム β",
             "eng": "Barroth Helm β+",
@@ -15320,9 +15320,9 @@
             1,
             1
         ],
-        "setGroup": 338,
         "id": 263,
         "order": 340,
+        "setGroup": 338,
         "name": {
             "jpn": "EXジュラヘルム α",
             "eng": "Jyura Helm α+",
@@ -15400,9 +15400,9 @@
             4,
             1
         ],
-        "setGroup": 339,
         "id": 264,
         "order": 341,
+        "setGroup": 339,
         "name": {
             "jpn": "EXジュラヘルム β",
             "eng": "Jyura Helm β+",
@@ -15479,9 +15479,9 @@
         "slots": [
             2
         ],
-        "setGroup": 340,
         "id": 265,
         "order": 342,
+        "setGroup": 340,
         "name": {
             "jpn": "EXブランヘルム α",
             "eng": "Beo Helm α+",
@@ -15555,9 +15555,9 @@
             4,
             1
         ],
-        "setGroup": 341,
         "id": 266,
         "order": 343,
+        "setGroup": 341,
         "name": {
             "jpn": "EXブランヘルム β",
             "eng": "Beo Helm β+",
@@ -15626,9 +15626,9 @@
         "slots": [
             2
         ],
-        "setGroup": 342,
         "id": 267,
         "order": 344,
+        "setGroup": 342,
         "name": {
             "jpn": "EXカガチヘルム α",
             "eng": "Kadachi Hat α+",
@@ -15706,9 +15706,9 @@
             4,
             1
         ],
-        "setGroup": 343,
         "id": 268,
         "order": 345,
+        "setGroup": 343,
         "name": {
             "jpn": "EXカガチヘルム β",
             "eng": "Kadachi Hat β+",
@@ -15785,9 +15785,9 @@
         "slots": [
             2
         ],
-        "setGroup": 344,
         "id": 269,
         "order": 348,
+        "setGroup": 344,
         "name": {
             "jpn": "EXハイメタヘルム α",
             "eng": "High Metal Helm α+",
@@ -15865,9 +15865,9 @@
             4,
             1
         ],
-        "setGroup": 345,
         "id": 270,
         "order": 349,
+        "setGroup": 345,
         "name": {
             "jpn": "EXハイメタヘルム β",
             "eng": "High Metal Helm β+",
@@ -15944,9 +15944,9 @@
         "slots": [
             2
         ],
-        "setGroup": 346,
         "id": 271,
         "order": 350,
+        "setGroup": 346,
         "name": {
             "jpn": "EXバフバロヘルム α",
             "eng": "Banbaro Helm α+",
@@ -16020,9 +16020,9 @@
             4,
             1
         ],
-        "setGroup": 347,
         "id": 272,
         "order": 351,
+        "setGroup": 347,
         "name": {
             "jpn": "EXバフバロヘルム β",
             "eng": "Banbaro Helm β+",
@@ -16091,12 +16091,12 @@
         "slots": [
             3
         ],
-        "setGroup": 348,
         "setSkills": [
             182
         ],
         "id": 273,
         "order": 352,
+        "setGroup": 348,
         "name": {
             "jpn": "EXジャナフヘルム α",
             "eng": "Anja Helm α+",
@@ -16173,12 +16173,12 @@
         "slots": [
             4
         ],
-        "setGroup": 349,
         "setSkills": [
             182
         ],
         "id": 274,
         "order": 353,
+        "setGroup": 349,
         "name": {
             "jpn": "EXジャナフヘルム β",
             "eng": "Anja Helm β+",
@@ -16251,12 +16251,12 @@
         "slots": [
             3
         ],
-        "setGroup": 350,
         "setSkills": [
             183
         ],
         "id": 275,
         "order": 356,
+        "setGroup": 350,
         "name": {
             "jpn": "EXレイアヘルム α",
             "eng": "Rathian Helm α+",
@@ -16329,12 +16329,12 @@
         "slots": [
             4
         ],
-        "setGroup": 351,
         "setSkills": [
             183
         ],
         "id": 276,
         "order": 357,
+        "setGroup": 351,
         "name": {
             "jpn": "EXレイアヘルム β",
             "eng": "Rathian Helm β+",
@@ -16407,12 +16407,12 @@
         "slots": [
             3
         ],
-        "setGroup": 352,
         "setSkills": [
             183
         ],
         "id": 277,
         "order": 358,
+        "setGroup": 352,
         "name": {
             "jpn": "EXリオハートヘルム α",
             "eng": "Rath Heart Helm α+",
@@ -16490,12 +16490,12 @@
             4,
             1
         ],
-        "setGroup": 353,
         "setSkills": [
             183
         ],
         "id": 278,
         "order": 359,
+        "setGroup": 353,
         "name": {
             "jpn": "EXリオハートヘルム β",
             "eng": "Rath Heart Helm β+",
@@ -16568,9 +16568,9 @@
         "slots": [
             3
         ],
-        "setGroup": 354,
         "id": 279,
         "order": 360,
+        "setGroup": 354,
         "name": {
             "jpn": "EXウルムーヘルム α",
             "eng": "Lumu Hat α+",
@@ -16644,9 +16644,9 @@
             4,
             1
         ],
-        "setGroup": 355,
         "id": 280,
         "order": 361,
+        "setGroup": 355,
         "name": {
             "jpn": "EXウルムーヘルム β",
             "eng": "Lumu Hat β+",
@@ -16716,9 +16716,9 @@
             1,
             1
         ],
-        "setGroup": 356,
         "id": 281,
         "order": 362,
+        "setGroup": 356,
         "name": {
             "jpn": "EXウルムメアヘルム α",
             "eng": "Lumu Phantasm Hood α+",
@@ -16791,9 +16791,9 @@
         "slots": [
             4
         ],
-        "setGroup": 357,
         "id": 282,
         "order": 363,
+        "setGroup": 357,
         "name": {
             "jpn": "EXウルムメアヘルム β",
             "eng": "Lumu Phantasm Hood β+",
@@ -16862,9 +16862,9 @@
         "slots": [
             1
         ],
-        "setGroup": 358,
         "id": 283,
         "order": 336,
+        "setGroup": 358,
         "name": {
             "jpn": "EXプケラグーナヘルム α",
             "eng": "Pukei Lagoon Hat α+",
@@ -16941,9 +16941,9 @@
         "slots": [
             4
         ],
-        "setGroup": 359,
         "id": 284,
         "order": 337,
+        "setGroup": 359,
         "name": {
             "jpn": "EXプケラグーナヘルム β",
             "eng": "Pukei Lagoon Hat β+",
@@ -17020,9 +17020,9 @@
         "slots": [
             1
         ],
-        "setGroup": 360,
         "id": 285,
         "order": 346,
+        "setGroup": 360,
         "name": {
             "jpn": "EXベニカガチヘルム α",
             "eng": "Viper Kadachi Hat α+",
@@ -17099,9 +17099,9 @@
         "slots": [
             4
         ],
-        "setGroup": 361,
         "id": 286,
         "order": 347,
+        "setGroup": 361,
         "name": {
             "jpn": "EXベニカガチヘルム β",
             "eng": "Viper Kadachi Hat β+",
@@ -17179,9 +17179,9 @@
             1,
             1
         ],
-        "setGroup": 362,
         "id": 287,
         "order": 364,
+        "setGroup": 362,
         "name": {
             "jpn": "EXバルキンヘルム α",
             "eng": "Baan Helm α+",
@@ -17258,9 +17258,9 @@
         "slots": [
             4
         ],
-        "setGroup": 363,
         "id": 288,
         "order": 365,
+        "setGroup": 363,
         "name": {
             "jpn": "EXバルキンヘルム β",
             "eng": "Baan Helm β+",
@@ -17335,9 +17335,9 @@
             2,
             1
         ],
-        "setGroup": 374,
         "id": 297,
         "order": 433,
+        "setGroup": 374,
         "name": {
             "jpn": "EX身軽さの耳飾り α",
             "eng": "Acrobat Earrings α+",
@@ -17393,9 +17393,9 @@
         "slots": [
             2
         ],
-        "setGroup": 378,
         "id": 301,
         "order": 370,
+        "setGroup": 378,
         "name": {
             "jpn": "EXインゴットヘルム α",
             "eng": "Ingot Helm α+",
@@ -17469,9 +17469,9 @@
             4,
             2
         ],
-        "setGroup": 379,
         "id": 302,
         "order": 371,
+        "setGroup": 379,
         "name": {
             "jpn": "EXインゴットヘルム β",
             "eng": "Ingot Helm β+",
@@ -17541,12 +17541,12 @@
             1,
             1
         ],
-        "setGroup": 380,
         "setSkills": [
             188
         ],
         "id": 303,
         "order": 372,
+        "setGroup": 380,
         "name": {
             "jpn": "EXベリオヘルム α",
             "eng": "Barioth Helm α+",
@@ -17624,12 +17624,12 @@
             4,
             1
         ],
-        "setGroup": 381,
         "setSkills": [
             188
         ],
         "id": 304,
         "order": 373,
+        "setGroup": 381,
         "name": {
             "jpn": "EXベリオヘルム β",
             "eng": "Barioth Helm β+",
@@ -17706,12 +17706,12 @@
         "slots": [
             2
         ],
-        "setGroup": 382,
         "setSkills": [
             189
         ],
         "id": 305,
         "order": 374,
+        "setGroup": 382,
         "name": {
             "jpn": "EXレウスヘルム α",
             "eng": "Rathalos Helm α+",
@@ -17789,12 +17789,12 @@
             4,
             1
         ],
-        "setGroup": 383,
         "setSkills": [
             189
         ],
         "id": 306,
         "order": 375,
+        "setGroup": 383,
         "name": {
             "jpn": "EXレウスヘルム β",
             "eng": "Rathalos Helm β+",
@@ -17867,12 +17867,12 @@
         "slots": [
             2
         ],
-        "setGroup": 384,
         "setSkills": [
             190
         ],
         "id": 307,
         "order": 378,
+        "setGroup": 384,
         "name": {
             "jpn": "EXディアブロヘルム α",
             "eng": "Diablos Helm α+",
@@ -17949,12 +17949,12 @@
         "slots": [
             4
         ],
-        "setGroup": 385,
         "setSkills": [
             190
         ],
         "id": 308,
         "order": 379,
+        "setGroup": 385,
         "name": {
             "jpn": "EXディアブロヘルム β",
             "eng": "Diablos Helm β+",
@@ -18027,12 +18027,12 @@
         "slots": [
             2
         ],
-        "setGroup": 386,
         "setSkills": [
             191
         ],
         "id": 309,
         "order": 382,
+        "setGroup": 386,
         "name": {
             "jpn": "EXギエナヘルム α",
             "eng": "Legiana Helm α+",
@@ -18110,12 +18110,12 @@
             4,
             1
         ],
-        "setGroup": 387,
         "setSkills": [
             191
         ],
         "id": 310,
         "order": 383,
+        "setGroup": 387,
         "name": {
             "jpn": "EXギエナヘルム β",
             "eng": "Legiana Helm β+",
@@ -18188,12 +18188,12 @@
         "slots": [
             2
         ],
-        "setGroup": 388,
         "setSkills": [
             192
         ],
         "id": 311,
         "order": 386,
+        "setGroup": 388,
         "name": {
             "jpn": "EXガロンヘルム α",
             "eng": "Odogaron Helm α+",
@@ -18270,12 +18270,12 @@
         "slots": [
             4
         ],
-        "setGroup": 389,
         "setSkills": [
             192
         ],
         "id": 312,
         "order": 387,
+        "setGroup": 389,
         "name": {
             "jpn": "EXガロンヘルム β",
             "eng": "Odogaron Helm β+",
@@ -18353,9 +18353,9 @@
             1,
             1
         ],
-        "setGroup": 390,
         "id": 313,
         "order": 390,
+        "setGroup": 390,
         "name": {
             "jpn": "EXラヴァヘルム α",
             "eng": "Lavasioth Helm α+",
@@ -18433,9 +18433,9 @@
             4,
             1
         ],
-        "setGroup": 391,
         "id": 314,
         "order": 391,
+        "setGroup": 391,
         "name": {
             "jpn": "EXラヴァヘルム β",
             "eng": "Lavasioth Helm β+",
@@ -18513,12 +18513,12 @@
             2,
             1
         ],
-        "setGroup": 392,
         "setSkills": [
             193
         ],
         "id": 315,
         "order": 392,
+        "setGroup": 392,
         "name": {
             "jpn": "EXガンキンヘルム α",
             "eng": "Uragaan Helm α+",
@@ -18596,12 +18596,12 @@
             4,
             3
         ],
-        "setGroup": 393,
         "setSkills": [
             193
         ],
         "id": 316,
         "order": 393,
+        "setGroup": 393,
         "name": {
             "jpn": "EXガンキンヘルム β",
             "eng": "Uragaan Helm β+",
@@ -18675,12 +18675,12 @@
             1,
             1
         ],
-        "setGroup": 394,
         "setSkills": [
             171
         ],
         "id": 317,
         "order": 394,
+        "setGroup": 394,
         "name": {
             "jpn": "EXナルガヘルム α",
             "eng": "Nargacuga Helm α+",
@@ -18758,12 +18758,12 @@
             4,
             1
         ],
-        "setGroup": 395,
         "setSkills": [
             171
         ],
         "id": 318,
         "order": 395,
+        "setGroup": 395,
         "name": {
             "jpn": "EXナルガヘルム β",
             "eng": "Nargacuga Helm β+",
@@ -18840,12 +18840,12 @@
         "slots": [
             1
         ],
-        "setGroup": 396,
         "setSkills": [
             173
         ],
         "id": 319,
         "order": 396,
+        "setGroup": 396,
         "name": {
             "jpn": "EXディノヘルム α",
             "eng": "Glavenus Helm α+",
@@ -18922,12 +18922,12 @@
         "slots": [
             4
         ],
-        "setGroup": 397,
         "setSkills": [
             173
         ],
         "id": 320,
         "order": 397,
+        "setGroup": 397,
         "name": {
             "jpn": "EXディノヘルム β",
             "eng": "Glavenus Helm β+",
@@ -19004,12 +19004,12 @@
         "slots": [
             3
         ],
-        "setGroup": 398,
         "setSkills": [
             172
         ],
         "id": 321,
         "order": 400,
+        "setGroup": 398,
         "name": {
             "jpn": "EXブラキヘルム α",
             "eng": "Brachydios Helm α+",
@@ -19087,12 +19087,12 @@
             4,
             1
         ],
-        "setGroup": 399,
         "setSkills": [
             172
         ],
         "id": 322,
         "order": 401,
+        "setGroup": 399,
         "name": {
             "jpn": "EXブラキヘルム β",
             "eng": "Brachydios Helm β+",
@@ -19165,12 +19165,12 @@
         "slots": [
             1
         ],
-        "setGroup": 400,
         "setSkills": [
             170
         ],
         "id": 323,
         "order": 402,
+        "setGroup": 400,
         "name": {
             "jpn": "EXレックスヘルム α",
             "eng": "Tigrex Helm α+",
@@ -19247,12 +19247,12 @@
         "slots": [
             4
         ],
-        "setGroup": 401,
         "setSkills": [
             170
         ],
         "id": 324,
         "order": 403,
+        "setGroup": 401,
         "name": {
             "jpn": "EXレックスヘルム β",
             "eng": "Tigrex Helm β+",
@@ -19330,12 +19330,12 @@
             2,
             1
         ],
-        "setGroup": 402,
         "setSkills": [
             182
         ],
         "id": 325,
         "order": 354,
+        "setGroup": 402,
         "name": {
             "jpn": "EXジャナールヘルム α",
             "eng": "Fulgur Helm α+",
@@ -19413,12 +19413,12 @@
             4,
             2
         ],
-        "setGroup": 403,
         "setSkills": [
             182
         ],
         "id": 326,
         "order": 355,
+        "setGroup": 403,
         "name": {
             "jpn": "EXジャナールヘルム β",
             "eng": "Fulgur Helm β+",
@@ -19491,12 +19491,12 @@
         "slots": [
             3
         ],
-        "setGroup": 406,
         "setSkills": [
             181
         ],
         "id": 329,
         "order": 406,
+        "setGroup": 406,
         "name": {
             "jpn": "EXクロオビヘルム α",
             "eng": "Black Belt Helm α+",
@@ -19570,12 +19570,12 @@
             4,
             2
         ],
-        "setGroup": 407,
         "setSkills": [
             181
         ],
         "id": 330,
         "order": 407,
+        "setGroup": 407,
         "name": {
             "jpn": "EXクロオビヘルム β",
             "eng": "Black Belt Helm β+",
@@ -19646,12 +19646,12 @@
             1,
             1
         ],
-        "setGroup": 413,
         "setSkills": [
             191
         ],
         "id": 336,
         "order": 384,
+        "setGroup": 413,
         "name": {
             "jpn": "EXブリーナヘルム α",
             "eng": "Hoarcry Helm α+",
@@ -19729,12 +19729,12 @@
             4,
             1
         ],
-        "setGroup": 414,
         "setSkills": [
             191
         ],
         "id": 337,
         "order": 385,
+        "setGroup": 414,
         "name": {
             "jpn": "EXブリーナヘルム β",
             "eng": "Hoarcry Helm β+",
@@ -19808,12 +19808,12 @@
             1,
             1
         ],
-        "setGroup": 415,
         "setSkills": [
             189
         ],
         "id": 338,
         "order": 376,
+        "setGroup": 415,
         "name": {
             "jpn": "EXリオソウルヘルム α",
             "eng": "Rath Soul Helm α+",
@@ -19890,12 +19890,12 @@
         "slots": [
             4
         ],
-        "setGroup": 416,
         "setSkills": [
             189
         ],
         "id": 339,
         "order": 377,
+        "setGroup": 416,
         "name": {
             "jpn": "EXリオソウルヘルム β",
             "eng": "Rath Soul Helm β+",
@@ -19969,12 +19969,12 @@
             1,
             1
         ],
-        "setGroup": 417,
         "setSkills": [
             190
         ],
         "id": 340,
         "order": 380,
+        "setGroup": 417,
         "name": {
             "jpn": "EXディアネロヘルム α",
             "eng": "Diablos Nero Helm α+",
@@ -20052,12 +20052,12 @@
             4,
             1
         ],
-        "setGroup": 418,
         "setSkills": [
             190
         ],
         "id": 341,
         "order": 381,
+        "setGroup": 418,
         "name": {
             "jpn": "EXディアネロヘルム β",
             "eng": "Diablos Nero Helm β+",
@@ -20130,12 +20130,12 @@
         "slots": [
             3
         ],
-        "setGroup": 419,
         "setSkills": [
             192
         ],
         "id": 342,
         "order": 388,
+        "setGroup": 419,
         "name": {
             "jpn": "EXデスガロンヘルム α",
             "eng": "Death Garon Helm α+",
@@ -20213,12 +20213,12 @@
             4,
             2
         ],
-        "setGroup": 420,
         "setSkills": [
             192
         ],
         "id": 343,
         "order": 389,
+        "setGroup": 420,
         "name": {
             "jpn": "EXデスガロンヘルム β",
             "eng": "Death Garon Helm β+",
@@ -20291,12 +20291,12 @@
         "slots": [
             1
         ],
-        "setGroup": 421,
         "setSkills": [
             173
         ],
         "id": 344,
         "order": 398,
+        "setGroup": 421,
         "name": {
             "jpn": "EXディノイエロヘルム α",
             "eng": "Acidic Glavenus Helm α+",
@@ -20373,12 +20373,12 @@
         "slots": [
             4
         ],
-        "setGroup": 422,
         "setSkills": [
             173
         ],
         "id": 345,
         "order": 399,
+        "setGroup": 422,
         "name": {
             "jpn": "EXディノイエロヘルム β",
             "eng": "Acidic Glavenus Helm β+",
@@ -20455,12 +20455,12 @@
         "slots": [
             2
         ],
-        "setGroup": 423,
         "setSkills": [
             179
         ],
         "id": 346,
         "order": 366,
+        "setGroup": 423,
         "name": {
             "jpn": "EXアーティアヘルム α",
             "eng": "Artian Helm α+",
@@ -20538,12 +20538,12 @@
             4,
             1
         ],
-        "setGroup": 424,
         "setSkills": [
             179
         ],
         "id": 347,
         "order": 367,
+        "setGroup": 424,
         "name": {
             "jpn": "EXアーティアヘルム β",
             "eng": "Artian Helm β+",
@@ -20620,9 +20620,9 @@
         "slots": [
             1
         ],
-        "setGroup": 428,
         "id": 351,
         "order": 408,
+        "setGroup": 428,
         "name": {
             "jpn": "EXドーベルヘルム α",
             "eng": "Dober Helm α+",
@@ -20699,9 +20699,9 @@
         "slots": [
             4
         ],
-        "setGroup": 429,
         "id": 352,
         "order": 409,
+        "setGroup": 429,
         "name": {
             "jpn": "EXドーベルヘルム β",
             "eng": "Dober Helm β+",
@@ -20774,9 +20774,9 @@
         "slots": [
             3
         ],
-        "setGroup": 430,
         "id": 353,
         "order": 410,
+        "setGroup": 430,
         "name": {
             "jpn": "EXダマスクヘルム α",
             "eng": "Damascus Helm α+",
@@ -20855,9 +20855,9 @@
             1,
             1
         ],
-        "setGroup": 431,
         "id": 354,
         "order": 411,
+        "setGroup": 431,
         "name": {
             "jpn": "EXダマスクヘルム β",
             "eng": "Damascus Helm β+",
@@ -20931,12 +20931,12 @@
             3,
             2
         ],
-        "setGroup": 432,
         "setSkills": [
             178
         ],
         "id": 355,
         "order": 416,
+        "setGroup": 432,
         "name": {
             "jpn": "EXラヴィーナヘルム α",
             "eng": "Rimeguard Helm α+",
@@ -21014,12 +21014,12 @@
             4,
             2
         ],
-        "setGroup": 433,
         "setSkills": [
             178
         ],
         "id": 356,
         "order": 417,
+        "setGroup": 433,
         "name": {
             "jpn": "EXラヴィーナヘルム β",
             "eng": "Rimeguard Helm β+",
@@ -21093,12 +21093,12 @@
             2,
             1
         ],
-        "setGroup": 434,
         "setSkills": [
             194
         ],
         "id": 357,
         "order": 412,
+        "setGroup": 434,
         "name": {
             "jpn": "EXプライドヘルム α",
             "eng": "Pride Helm α+",
@@ -21176,12 +21176,12 @@
             4,
             1
         ],
-        "setGroup": 435,
         "setSkills": [
             194
         ],
         "id": 358,
         "order": 413,
+        "setGroup": 435,
         "name": {
             "jpn": "EXプライドヘルム β",
             "eng": "Pride Helm β+",
@@ -21258,12 +21258,12 @@
         "slots": [
             1
         ],
-        "setGroup": 436,
         "setSkills": [
             196
         ],
         "id": 359,
         "order": 418,
+        "setGroup": 436,
         "name": {
             "jpn": "EXヴァルファーヘルム α",
             "eng": "Fellshroud Helm α+",
@@ -21341,12 +21341,12 @@
             4,
             1
         ],
-        "setGroup": 437,
         "setSkills": [
             196
         ],
         "id": 360,
         "order": 419,
+        "setGroup": 437,
         "name": {
             "jpn": "EXヴァルファーヘルム β",
             "eng": "Fellshroud Helm β+",
@@ -21419,12 +21419,12 @@
         "slots": [
             1
         ],
-        "setGroup": 438,
         "setSkills": [
             143
         ],
         "id": 361,
         "order": 420,
+        "setGroup": 438,
         "name": {
             "jpn": "EXカイザークラウン α",
             "eng": "Kaiser Crown α+",
@@ -21501,12 +21501,12 @@
         "slots": [
             4
         ],
-        "setGroup": 439,
         "setSkills": [
             143
         ],
         "id": 362,
         "order": 421,
+        "setGroup": 439,
         "name": {
             "jpn": "EXカイザークラウン β",
             "eng": "Kaiser Crown β+",
@@ -21583,12 +21583,12 @@
         "slots": [
             2
         ],
-        "setGroup": 440,
         "setSkills": [
             144
         ],
         "id": 363,
         "order": 422,
+        "setGroup": 440,
         "name": {
             "jpn": "EXクシャナアンク α",
             "eng": "Kushala Glare α+",
@@ -21666,12 +21666,12 @@
             4,
             1
         ],
-        "setGroup": 441,
         "setSkills": [
             144
         ],
         "id": 364,
         "order": 423,
+        "setGroup": 441,
         "name": {
             "jpn": "EXクシャナアンク β",
             "eng": "Kushala Glare β+",
@@ -21749,12 +21749,12 @@
             3,
             1
         ],
-        "setGroup": 442,
         "setSkills": [
             199
         ],
         "id": 365,
         "order": 424,
+        "setGroup": 442,
         "name": {
             "jpn": "EXキリンホーン α",
             "eng": "Kirin Horn α+",
@@ -21833,12 +21833,12 @@
             1,
             1
         ],
-        "setGroup": 443,
         "setSkills": [
             199
         ],
         "id": 366,
         "order": 425,
+        "setGroup": 443,
         "name": {
             "jpn": "EXキリンホーン β",
             "eng": "Kirin Horn β+",
@@ -21911,12 +21911,12 @@
         "slots": [
             1
         ],
-        "setGroup": 444,
         "setSkills": [
             177
         ],
         "id": 367,
         "order": 426,
+        "setGroup": 444,
         "name": {
             "jpn": "EXテンタクルヘルム α",
             "eng": "Tentacle Cowl α+",
@@ -21993,12 +21993,12 @@
         "slots": [
             4
         ],
-        "setGroup": 445,
         "setSkills": [
             177
         ],
         "id": 368,
         "order": 427,
+        "setGroup": 445,
         "name": {
             "jpn": "EXテンタクルヘルム β",
             "eng": "Tentacle Cowl β+",
@@ -22075,12 +22075,12 @@
         "slots": [
             3
         ],
-        "setGroup": 448,
         "setSkills": [
             200
         ],
         "id": 371,
         "order": 428,
+        "setGroup": 448,
         "name": {
             "jpn": "EXギルドパレスヘルム α",
             "eng": "Guild Palace Helm α+",
@@ -22158,12 +22158,12 @@
             4,
             2
         ],
-        "setGroup": 449,
         "setSkills": [
             200
         ],
         "id": 372,
         "order": 429,
+        "setGroup": 449,
         "name": {
             "jpn": "EXギルドパレスヘルム β",
             "eng": "Guild Palace Helm β+",
@@ -22237,12 +22237,12 @@
             1,
             1
         ],
-        "setGroup": 450,
         "setSkills": [
             180
         ],
         "id": 373,
         "order": 368,
+        "setGroup": 450,
         "name": {
             "jpn": "EXアークロックヘルム α",
             "eng": "Clockwork Helm α+",
@@ -22320,12 +22320,12 @@
             4,
             1
         ],
-        "setGroup": 451,
         "setSkills": [
             180
         ],
         "id": 374,
         "order": 369,
+        "setGroup": 451,
         "name": {
             "jpn": "EXアークロックヘルム β",
             "eng": "Clockwork Helm β+",
@@ -22403,12 +22403,12 @@
             3,
             1
         ],
-        "setGroup": 453,
         "setSkills": [
             203
         ],
         "id": 376,
         "order": 446,
+        "setGroup": 453,
         "name": {
             "jpn": "EXゾークヘルム α",
             "eng": "Ruinous Helm α+",
@@ -22486,12 +22486,12 @@
             4,
             2
         ],
-        "setGroup": 454,
         "setSkills": [
             203
         ],
         "id": 377,
         "order": 447,
+        "setGroup": 454,
         "name": {
             "jpn": "EXゾークヘルム β",
             "eng": "Ruinous Helm β+",
@@ -22565,12 +22565,12 @@
             3,
             1
         ],
-        "setGroup": 455,
         "setSkills": [
             176
         ],
         "id": 378,
         "order": 431,
+        "setGroup": 455,
         "name": {
             "jpn": "EXアンガルダヘルム α",
             "eng": "Shara Ishvalda Helm α+",
@@ -22648,12 +22648,12 @@
             4,
             2
         ],
-        "setGroup": 456,
         "setSkills": [
             176
         ],
         "id": 379,
         "order": 432,
+        "setGroup": 456,
         "name": {
             "jpn": "EXアンガルダヘルム β",
             "eng": "Shara Ishvalda Helm β+",
@@ -22726,12 +22726,12 @@
         "slots": [
             1
         ],
-        "setGroup": 457,
         "setSkills": [
             195
         ],
         "id": 380,
         "order": 414,
+        "setGroup": 457,
         "name": {
             "jpn": "EXグリードヘルム α",
             "eng": "Esurient Helm α+",
@@ -22809,12 +22809,12 @@
             4,
             3
         ],
-        "setGroup": 458,
         "setSkills": [
             195
         ],
         "id": 381,
         "order": 415,
+        "setGroup": 458,
         "name": {
             "jpn": "EXグリードヘルム β",
             "eng": "Esurient Helm β+",
@@ -22888,12 +22888,12 @@
             3,
             2
         ],
-        "setGroup": 461,
         "setSkills": [
             200
         ],
         "id": 384,
         "order": 448,
+        "setGroup": 461,
         "name": {
             "jpn": "EXギルドワークヘッド α",
             "eng": "Guildwork Head α+",
@@ -22971,12 +22971,12 @@
             4,
             3
         ],
-        "setGroup": 462,
         "setSkills": [
             200
         ],
         "id": 385,
         "order": 449,
+        "setGroup": 462,
         "name": {
             "jpn": "EXギルドワークヘッド β",
             "eng": "Guildwork Head β+",
@@ -23055,9 +23055,9 @@
             2,
             1
         ],
-        "setGroup": 463,
         "id": 386,
         "order": 430,
+        "setGroup": 463,
         "name": {
             "jpn": "EX陽動の耳飾り α",
             "eng": "Showman Earrings α+",
@@ -23114,12 +23114,12 @@
             2,
             2
         ],
-        "setGroup": 464,
         "setSkills": [
             175
         ],
         "id": 387,
         "order": 440,
+        "setGroup": 464,
         "name": {
             "jpn": "EXゴールドルナヘルム α",
             "eng": "Golden Lunehelm α+",
@@ -23197,12 +23197,12 @@
             4,
             2
         ],
-        "setGroup": 465,
         "setSkills": [
             175
         ],
         "id": 388,
         "order": 441,
+        "setGroup": 465,
         "name": {
             "jpn": "EXゴールドルナヘルム β",
             "eng": "Golden Lunehelm β+",
@@ -23276,12 +23276,12 @@
             2,
             2
         ],
-        "setGroup": 466,
         "setSkills": [
             174
         ],
         "id": 389,
         "order": 442,
+        "setGroup": 466,
         "name": {
             "jpn": "EXシルバーソルヘルム α",
             "eng": "Silver Solhelm α+",
@@ -23359,12 +23359,12 @@
             4,
             3
         ],
-        "setGroup": 467,
         "setSkills": [
             174
         ],
         "id": 390,
         "order": 443,
+        "setGroup": 467,
         "name": {
             "jpn": "EXシルバーソルヘルム β",
             "eng": "Silver Solhelm β+",
@@ -23437,12 +23437,12 @@
         "slots": [
             1
         ],
-        "setGroup": 470,
         "setSkills": [
             169
         ],
         "id": 393,
         "order": 438,
+        "setGroup": 470,
         "name": {
             "jpn": "EXジンオウヘルム α",
             "eng": "Zinogre Helm α+",
@@ -23519,12 +23519,12 @@
         "slots": [
             4
         ],
-        "setGroup": 471,
         "setSkills": [
             169
         ],
         "id": 394,
         "order": 439,
+        "setGroup": 471,
         "name": {
             "jpn": "EXジンオウヘルム β",
             "eng": "Zinogre Helm β+",
@@ -23602,12 +23602,12 @@
             2,
             1
         ],
-        "setGroup": 472,
         "setSkills": [
             169
         ],
         "id": 395,
         "order": 604,
+        "setGroup": 472,
         "name": {
             "jpn": "EXゴクオウヘルム α",
             "eng": "Stygian Helm α+",
@@ -23685,12 +23685,12 @@
             4,
             1
         ],
-        "setGroup": 473,
         "setSkills": [
             169
         ],
         "id": 396,
         "order": 605,
+        "setGroup": 473,
         "name": {
             "jpn": "EXゴクオウヘルム β",
             "eng": "Stygian Helm β+",
@@ -23767,9 +23767,9 @@
         "slots": [
             3
         ],
-        "setGroup": 474,
         "id": 397,
         "order": 436,
+        "setGroup": 474,
         "name": {
             "jpn": "EXガルルガヘルム α",
             "eng": "Garuga Helm α+",
@@ -23847,9 +23847,9 @@
             4,
             2
         ],
-        "setGroup": 475,
         "id": 398,
         "order": 437,
+        "setGroup": 475,
         "name": {
             "jpn": "EXガルルガヘルム β",
             "eng": "Garuga Helm β+",
@@ -23927,12 +23927,12 @@
             2,
             2
         ],
-        "setGroup": 476,
         "setSkills": [
             201
         ],
         "id": 399,
         "order": 434,
+        "setGroup": 476,
         "name": {
             "jpn": "EXゾラマグナヘッド α",
             "eng": "Zorah Headgear α+",
@@ -24011,12 +24011,12 @@
             2,
             1
         ],
-        "setGroup": 477,
         "setSkills": [
             201
         ],
         "id": 400,
         "order": 435,
+        "setGroup": 477,
         "name": {
             "jpn": "EXゾラマグナヘッド β",
             "eng": "Zorah Headgear β+",
@@ -24087,12 +24087,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 478,
         "setSkills": [
             208
         ],
         "id": 401,
         "order": 600,
+        "setGroup": 478,
         "name": {
             "jpn": "EX金色ノ添髪 α",
             "eng": "Golden Headdress α+",
@@ -24170,12 +24170,12 @@
             4,
             1
         ],
-        "setGroup": 479,
         "setSkills": [
             208
         ],
         "id": 402,
         "order": 601,
+        "setGroup": 479,
         "name": {
             "jpn": "EX金色ノ添髪 β",
             "eng": "Golden Headdress β+",
@@ -24246,12 +24246,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 480,
         "setSkills": [
             217
         ],
         "id": 403,
         "order": 602,
+        "setGroup": 480,
         "name": {
             "jpn": "EX斉天ノ添髪 α",
             "eng": "Grand God's Peer Mask α+",
@@ -24328,12 +24328,12 @@
         "slots": [
             4
         ],
-        "setGroup": 481,
         "setSkills": [
             217
         ],
         "id": 404,
         "order": 603,
+        "setGroup": 481,
         "name": {
             "jpn": "EX斉天ノ添髪 β",
             "eng": "Grand God's Peer Mask β+",
@@ -24412,12 +24412,12 @@
             2,
             1
         ],
-        "setGroup": 482,
         "setSkills": [
             218
         ],
         "id": 405,
         "order": 608,
+        "setGroup": 482,
         "name": {
             "jpn": "EXブラキウムヘルム α",
             "eng": "Brachydium Helm α+",
@@ -24496,12 +24496,12 @@
             4,
             1
         ],
-        "setGroup": 483,
         "setSkills": [
             218
         ],
         "id": 406,
         "order": 609,
+        "setGroup": 483,
         "name": {
             "jpn": "EXブラキウムヘルム β",
             "eng": "Brachydium Helm β+",
@@ -24576,12 +24576,12 @@
             1,
             1
         ],
-        "setGroup": 484,
         "setSkills": [
             211
         ],
         "id": 407,
         "order": 606,
+        "setGroup": 484,
         "name": {
             "jpn": "EX龍紋ヲ刻マレシ封冠 α",
             "eng": "Safi Crested Crown α+",
@@ -24660,12 +24660,12 @@
             1,
             1
         ],
-        "setGroup": 485,
         "setSkills": [
             211
         ],
         "id": 408,
         "order": 607,
+        "setGroup": 485,
         "name": {
             "jpn": "EX龍紋ヲ刻マレシ封冠 β",
             "eng": "Safi Crested Crown β+",
@@ -24743,12 +24743,12 @@
             3,
             1
         ],
-        "setGroup": 486,
         "setSkills": [
             221
         ],
         "id": 409,
         "order": 612,
+        "setGroup": 486,
         "name": {
             "jpn": "EXエスカドラワイズ α",
             "eng": "Escadora Wisdom α+",
@@ -24826,12 +24826,12 @@
             4,
             1
         ],
-        "setGroup": 487,
         "setSkills": [
             221
         ],
         "id": 410,
         "order": 613,
+        "setGroup": 487,
         "name": {
             "jpn": "EXエスカドラワイズ β",
             "eng": "Escadora Wisdom β+",
@@ -24909,9 +24909,9 @@
             4,
             4
         ],
-        "setGroup": 488,
         "id": 411,
         "order": 813,
+        "setGroup": 488,
         "name": {
             "jpn": "EX封印の龍骸布 α",
             "eng": "Sealed Dragon Cloth α+",
@@ -24980,9 +24980,9 @@
         "slots": [
             4
         ],
-        "setGroup": 489,
         "id": 412,
         "order": 814,
+        "setGroup": 489,
         "name": {
             "jpn": "EX竜人族の耳 α",
             "eng": "Wyverian Ears α+",
@@ -25051,9 +25051,9 @@
         "slots": [
             4
         ],
-        "setGroup": 491,
         "id": 414,
         "order": 812,
+        "setGroup": 491,
         "name": {
             "jpn": "EXキブクレフェイク α",
             "eng": "Duffel Penguin Mask α+",
@@ -25118,12 +25118,12 @@
         "slots": [
             3
         ],
-        "setGroup": 492,
         "setSkills": [
             202
         ],
         "id": 415,
         "order": 444,
+        "setGroup": 492,
         "name": {
             "jpn": "EXエンプレスセクター α",
             "eng": "Empress Crown α+",
@@ -25201,12 +25201,12 @@
             4,
             2
         ],
-        "setGroup": 493,
         "setSkills": [
             202
         ],
         "id": 416,
         "order": 445,
+        "setGroup": 493,
         "name": {
             "jpn": "EXエンプレスセクター β",
             "eng": "Empress Crown β+",
@@ -25277,12 +25277,12 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 494,
         "setSkills": [
             219
         ],
         "id": 417,
         "order": 616,
+        "setGroup": 494,
         "name": {
             "jpn": "EXマムガイラヘルム α",
             "eng": "Kulve Taroth's Fury α+",
@@ -25361,12 +25361,12 @@
             4,
             1
         ],
-        "setGroup": 495,
         "setSkills": [
             219
         ],
         "id": 418,
         "order": 617,
+        "setGroup": 495,
         "name": {
             "jpn": "EXマムガイラヘルム β",
             "eng": "Kulve Taroth's Fury β+",
@@ -25441,12 +25441,12 @@
             2,
             1
         ],
-        "setGroup": 496,
         "setSkills": [
             214
         ],
         "id": 419,
         "order": 802,
+        "setGroup": 496,
         "name": {
             "jpn": "EXローゼヘッド α",
             "eng": "Rose Headpiece α+",
@@ -25511,12 +25511,12 @@
         "slots": [
             3
         ],
-        "setGroup": 498,
         "setSkills": [
             215
         ],
         "id": 421,
         "order": 803,
+        "setGroup": 498,
         "name": {
             "jpn": "EXパッションヘッド α",
             "eng": "Passionate Headdress α+",
@@ -25585,12 +25585,12 @@
         "slots": [
             4
         ],
-        "setGroup": 502,
         "setSkills": [
             212
         ],
         "id": 425,
         "order": 800,
+        "setGroup": 502,
         "name": {
             "jpn": "EXウーロンヘッド α",
             "eng": "Oolong Hair α+",
@@ -25655,12 +25655,12 @@
         "slots": [
             4
         ],
-        "setGroup": 504,
         "setSkills": [
             213
         ],
         "id": 427,
         "order": 801,
+        "setGroup": 504,
         "name": {
             "jpn": "EXアストラヴェール α",
             "eng": "Astral Veil α+",
@@ -25730,9 +25730,9 @@
             2,
             1
         ],
-        "setGroup": 515,
         "id": 438,
         "order": 811,
+        "setGroup": 515,
         "name": {
             "jpn": "EXギンセンザル α",
             "eng": "Pearlspring α+",
@@ -25801,12 +25801,12 @@
         "slots": [
             3
         ],
-        "setGroup": 518,
         "setSkills": [
             170
         ],
         "id": 440,
         "order": 404,
+        "setGroup": 518,
         "name": {
             "jpn": "EXレックスロアヘルム α",
             "eng": "Rex Roar Helm α+",
@@ -25883,12 +25883,12 @@
         "slots": [
             4
         ],
-        "setGroup": 519,
         "setSkills": [
             170
         ],
         "id": 441,
         "order": 405,
+        "setGroup": 519,
         "name": {
             "jpn": "EXレックスロアヘルム β",
             "eng": "Rex Roar Helm β+",
@@ -25965,9 +25965,9 @@
         "slots": [
             1
         ],
-        "setGroup": 520,
         "id": 442,
         "order": 299,
+        "setGroup": 520,
         "name": {
             "jpn": "ガーディアンヘルム α",
             "eng": "Guardian Helm α+",
@@ -26045,12 +26045,12 @@
             4,
             2
         ],
-        "setGroup": 524,
         "setSkills": [
             177
         ],
         "id": 446,
         "order": 619,
+        "setGroup": 524,
         "name": {
             "jpn": "EXテンタクルヘルム γ",
             "eng": "Tentacle Cowl γ+",
@@ -26129,12 +26129,12 @@
             2,
             1
         ],
-        "setGroup": 528,
         "setSkills": [
             220
         ],
         "id": 450,
         "order": 610,
+        "setGroup": 528,
         "name": {
             "jpn": "EXオルムングヘルム α",
             "eng": "Frostfang Helm α+",
@@ -26213,12 +26213,12 @@
             2,
             1
         ],
-        "setGroup": 529,
         "setSkills": [
             220
         ],
         "id": 451,
         "order": 611,
+        "setGroup": 529,
         "name": {
             "jpn": "EXオルムングヘルム β",
             "eng": "Frostfang Helm β+",

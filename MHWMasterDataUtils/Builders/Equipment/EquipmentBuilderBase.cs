@@ -151,6 +151,7 @@ namespace MHWMasterDataUtils.Builders.Equipment
 
                 resultEquipment.Id = equipment.Id;
                 resultEquipment.Order = equipment.Order;
+                resultEquipment.SetGroup = equipment.SetGroup;
                 resultEquipment.Name = name;
                 resultEquipment.Description = description;
                 resultEquipment.Cost = equipment.CraftingCost;

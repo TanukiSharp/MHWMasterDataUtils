@@ -15,8 +15,6 @@ namespace MHWMasterDataUtils.Core
         public ElementalResistances ElementalResistances { get; set; }
         [JsonProperty("slots")]
         public int[] Slots { get; set; }
-        [JsonProperty("setGroup")]
-        public int SetGroup { get; set; }
         [JsonProperty("setSkills")]
         public int[] SetSkills { get; set; }
     }

@@ -10,9 +10,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 2,
         "id": 1284,
         "order": 1,
+        "setGroup": 2,
         "name": {
             "jpn": "レザーグラブ",
             "eng": "Leather Gloves",
@@ -65,9 +65,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 15,
         "id": 1285,
         "order": 2,
+        "setGroup": 15,
         "name": {
             "jpn": "チェーングラブ",
             "eng": "Chainmail Gloves",
@@ -120,9 +120,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 1,
         "id": 1286,
         "order": 3,
+        "setGroup": 1,
         "name": {
             "jpn": "ハンターアーム",
             "eng": "Hunter's Vambraces",
@@ -185,9 +185,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 5,
         "id": 1287,
         "order": 4,
+        "setGroup": 5,
         "name": {
             "jpn": "ボーンアーム",
             "eng": "Bone Vambraces",
@@ -250,9 +250,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 6,
         "id": 1288,
         "order": 10,
+        "setGroup": 6,
         "name": {
             "jpn": "アロイアーム",
             "eng": "Alloy Vambraces",
@@ -319,9 +319,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 9,
         "id": 1289,
         "order": 5,
+        "setGroup": 9,
         "name": {
             "jpn": "ランゴアーム",
             "eng": "Vespoid Vambraces",
@@ -384,9 +384,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 164,
         "id": 1290,
         "order": 6,
+        "setGroup": 164,
         "name": {
             "jpn": "ケストガード",
             "eng": "Kestodon Guards",
@@ -449,9 +449,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 4,
         "id": 1291,
         "order": 8,
+        "setGroup": 4,
         "name": {
             "jpn": "ジャグラスアーム",
             "eng": "Jagras Vambraces",
@@ -518,9 +518,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 10,
         "id": 1292,
         "order": 9,
+        "setGroup": 10,
         "name": {
             "jpn": "クルルアーム",
             "eng": "Kulu Vambraces",
@@ -587,9 +587,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 11,
         "id": 1293,
         "order": 11,
+        "setGroup": 11,
         "name": {
             "jpn": "プケプケアーム",
             "eng": "Pukei Vambraces",
@@ -656,9 +656,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 13,
         "id": 1294,
         "order": 12,
+        "setGroup": 13,
         "name": {
             "jpn": "ボロスアーム",
             "eng": "Barroth Vambraces",
@@ -729,9 +729,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 12,
         "id": 1295,
         "order": 13,
+        "setGroup": 12,
         "name": {
             "jpn": "ジュラアーム",
             "eng": "Jyura Vambraces",
@@ -798,9 +798,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 14,
         "id": 1296,
         "order": 14,
+        "setGroup": 14,
         "name": {
             "jpn": "カガチアーム",
             "eng": "Kadachi Vambraces",
@@ -871,9 +871,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 25,
         "id": 1297,
         "order": 15,
+        "setGroup": 25,
         "name": {
             "jpn": "ハイメタアーム",
             "eng": "High Metal Braces",
@@ -944,9 +944,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 18,
         "id": 1298,
         "order": 19,
+        "setGroup": 18,
         "name": {
             "jpn": "タロスアーム",
             "eng": "Hornetaur Vambraces",
@@ -1017,12 +1017,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 3,
         "setSkills": [
             125
         ],
         "id": 1299,
         "order": 20,
+        "setGroup": 3,
         "name": {
             "jpn": "ジャナフアーム",
             "eng": "Anja Vambraces",
@@ -1093,9 +1093,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 21,
         "id": 1300,
         "order": 21,
+        "setGroup": 21,
         "name": {
             "jpn": "レイアアーム",
             "eng": "Rathian Vambraces",
@@ -1166,9 +1166,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 23,
         "id": 1301,
         "order": 22,
+        "setGroup": 23,
         "name": {
             "jpn": "ツィツィアーム",
             "eng": "Tzitzi Vambraces",
@@ -1239,9 +1239,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 24,
         "id": 1302,
         "order": 23,
+        "setGroup": 24,
         "name": {
             "jpn": "ウルムーアーム",
             "eng": "Lumu Vambraces",
@@ -1308,9 +1308,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 22,
         "id": 1303,
         "order": 24,
+        "setGroup": 22,
         "name": {
             "jpn": "ギルオスアーム",
             "eng": "Girros Vambraces",
@@ -1377,9 +1377,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 28,
         "id": 1304,
         "order": 25,
+        "setGroup": 28,
         "name": {
             "jpn": "バルキンアーム",
             "eng": "Baan Vambraces",
@@ -1450,9 +1450,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 20,
         "id": 1305,
         "order": 16,
+        "setGroup": 20,
         "name": {
             "jpn": "オウビートマーノ",
             "eng": "King Beetle Brachia",
@@ -1523,9 +1523,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 159,
         "id": 1306,
         "order": 17,
+        "setGroup": 159,
         "name": {
             "jpn": "パピメルマーノ",
             "eng": "Butterfly Brachia",
@@ -1596,9 +1596,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 31,
         "id": 1307,
         "order": 26,
+        "setGroup": 31,
         "name": {
             "jpn": "インゴットアーム",
             "eng": "Ingot Vambraces",
@@ -1669,12 +1669,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 27,
         "setSkills": [
             151
         ],
         "id": 1308,
         "order": 29,
+        "setGroup": 27,
         "name": {
             "jpn": "ギエナアーム",
             "eng": "Legiana Vambraces",
@@ -1745,12 +1745,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 29,
         "setSkills": [
             153
         ],
         "id": 1309,
         "order": 30,
+        "setGroup": 29,
         "name": {
             "jpn": "ガロンアーム",
             "eng": "Odogaron Vambraces",
@@ -1821,12 +1821,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 33,
         "setSkills": [
             128
         ],
         "id": 1310,
         "order": 31,
+        "setGroup": 33,
         "name": {
             "jpn": "レウスアーム",
             "eng": "Rathalos Vambraces",
@@ -1897,12 +1897,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 34,
         "setSkills": [
             129
         ],
         "id": 1311,
         "order": 32,
+        "setGroup": 34,
         "name": {
             "jpn": "ディアブロアーム",
             "eng": "Diablos Vambraces",
@@ -1973,12 +1973,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 35,
         "setSkills": [
             130
         ],
         "id": 1312,
         "order": 33,
+        "setGroup": 35,
         "name": {
             "jpn": "キリンアームロング",
             "eng": "Kirin Longarms",
@@ -2049,9 +2049,9 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 26,
         "id": 1313,
         "order": 27,
+        "setGroup": 26,
         "name": {
             "jpn": "デスギアファオスト",
             "eng": "Death Stench Grip",
@@ -2122,9 +2122,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 36,
         "id": 1314,
         "order": 28,
+        "setGroup": 36,
         "name": {
             "jpn": "ブリゲイドアーム",
             "eng": "Brigade Vambraces",
@@ -2195,9 +2195,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 39,
         "id": 1315,
         "order": 34,
+        "setGroup": 39,
         "name": {
             "jpn": "レザーグラブ α",
             "eng": "Leather Gloves α",
@@ -2262,9 +2262,9 @@
         "slots": [
             1
         ],
-        "setGroup": 40,
         "id": 1316,
         "order": 35,
+        "setGroup": 40,
         "name": {
             "jpn": "レザーグラブ β",
             "eng": "Leather Gloves β",
@@ -2321,9 +2321,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 147,
         "id": 1317,
         "order": 36,
+        "setGroup": 147,
         "name": {
             "jpn": "チェーングラブ α",
             "eng": "Chainmail Gloves α",
@@ -2388,9 +2388,9 @@
         "slots": [
             1
         ],
-        "setGroup": 148,
         "id": 1318,
         "order": 37,
+        "setGroup": 148,
         "name": {
             "jpn": "チェーングラブ β",
             "eng": "Chainmail Gloves β",
@@ -2447,9 +2447,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 41,
         "id": 1319,
         "order": 38,
+        "setGroup": 41,
         "name": {
             "jpn": "ハンターアーム α",
             "eng": "Hunter's Vambraces α",
@@ -2514,9 +2514,9 @@
         "slots": [
             1
         ],
-        "setGroup": 42,
         "id": 1320,
         "order": 39,
+        "setGroup": 42,
         "name": {
             "jpn": "ハンターアーム β",
             "eng": "Hunter's Vambraces β",
@@ -2579,9 +2579,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 43,
         "id": 1321,
         "order": 40,
+        "setGroup": 43,
         "name": {
             "jpn": "ボーンアーム α",
             "eng": "Bone Vambraces α",
@@ -2654,9 +2654,9 @@
         "slots": [
             1
         ],
-        "setGroup": 44,
         "id": 1322,
         "order": 41,
+        "setGroup": 44,
         "name": {
             "jpn": "ボーンアーム β",
             "eng": "Bone Vambraces β",
@@ -2723,9 +2723,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 45,
         "id": 1323,
         "order": 42,
+        "setGroup": 45,
         "name": {
             "jpn": "アロイアーム α",
             "eng": "Alloy Vambraces α",
@@ -2802,9 +2802,9 @@
         "slots": [
             1
         ],
-        "setGroup": 46,
         "id": 1324,
         "order": 43,
+        "setGroup": 46,
         "name": {
             "jpn": "アロイアーム β",
             "eng": "Alloy Vambraces β",
@@ -2875,9 +2875,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 51,
         "id": 1325,
         "order": 48,
+        "setGroup": 51,
         "name": {
             "jpn": "ランゴアーム α",
             "eng": "Vespoid Vambraces α",
@@ -2950,9 +2950,9 @@
         "slots": [
             1
         ],
-        "setGroup": 52,
         "id": 1326,
         "order": 49,
+        "setGroup": 52,
         "name": {
             "jpn": "ランゴアーム β",
             "eng": "Vespoid Vambraces β",
@@ -3023,9 +3023,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 57,
         "id": 1327,
         "order": 50,
+        "setGroup": 57,
         "name": {
             "jpn": "タロスアーム α",
             "eng": "Hornetaur Vambraces α",
@@ -3098,9 +3098,9 @@
         "slots": [
             1
         ],
-        "setGroup": 58,
         "id": 1328,
         "order": 51,
+        "setGroup": 58,
         "name": {
             "jpn": "タロスアーム β",
             "eng": "Hornetaur Vambraces β",
@@ -3167,9 +3167,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 165,
         "id": 1329,
         "order": 53,
+        "setGroup": 165,
         "name": {
             "jpn": "ケストガード α",
             "eng": "Kestodon Guards α",
@@ -3242,9 +3242,9 @@
         "slots": [
             1
         ],
-        "setGroup": 166,
         "id": 1330,
         "order": 54,
+        "setGroup": 166,
         "name": {
             "jpn": "ケストガード β",
             "eng": "Kestodon Guards β",
@@ -3311,9 +3311,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 61,
         "id": 1331,
         "order": 59,
+        "setGroup": 61,
         "name": {
             "jpn": "ジャグラスアーム α",
             "eng": "Jagras Vambraces α",
@@ -3390,9 +3390,9 @@
         "slots": [
             1
         ],
-        "setGroup": 62,
         "id": 1332,
         "order": 60,
+        "setGroup": 62,
         "name": {
             "jpn": "ジャグラスアーム β",
             "eng": "Jagras Vambraces β",
@@ -3463,9 +3463,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 63,
         "id": 1333,
         "order": 61,
+        "setGroup": 63,
         "name": {
             "jpn": "クルルアーム α",
             "eng": "Kulu Vambraces α",
@@ -3538,9 +3538,9 @@
         "slots": [
             2
         ],
-        "setGroup": 64,
         "id": 1334,
         "order": 62,
+        "setGroup": 64,
         "name": {
             "jpn": "クルルアーム β",
             "eng": "Kulu Vambraces β",
@@ -3607,9 +3607,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 65,
         "id": 1335,
         "order": 67,
+        "setGroup": 65,
         "name": {
             "jpn": "プケプケアーム α",
             "eng": "Pukei Vambraces α",
@@ -3683,9 +3683,9 @@
             1,
             1
         ],
-        "setGroup": 66,
         "id": 1336,
         "order": 68,
+        "setGroup": 66,
         "name": {
             "jpn": "プケプケアーム β",
             "eng": "Pukei Vambraces β",
@@ -3752,9 +3752,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 69,
         "id": 1337,
         "order": 69,
+        "setGroup": 69,
         "name": {
             "jpn": "ボロスアーム α",
             "eng": "Barroth Vambraces α",
@@ -3831,9 +3831,9 @@
         "slots": [
             1
         ],
-        "setGroup": 70,
         "id": 1338,
         "order": 70,
+        "setGroup": 70,
         "name": {
             "jpn": "ボロスアーム β",
             "eng": "Barroth Vambraces β",
@@ -3904,9 +3904,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 67,
         "id": 1339,
         "order": 73,
+        "setGroup": 67,
         "name": {
             "jpn": "ジュラアーム α",
             "eng": "Jyura Vambraces α",
@@ -3983,9 +3983,9 @@
         "slots": [
             1
         ],
-        "setGroup": 68,
         "id": 1340,
         "order": 74,
+        "setGroup": 68,
         "name": {
             "jpn": "ジュラアーム β",
             "eng": "Jyura Vambraces β",
@@ -4056,9 +4056,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 71,
         "id": 1341,
         "order": 75,
+        "setGroup": 71,
         "name": {
             "jpn": "カガチアーム α",
             "eng": "Kadachi Vambraces α",
@@ -4131,9 +4131,9 @@
         "slots": [
             2
         ],
-        "setGroup": 72,
         "id": 1342,
         "order": 76,
+        "setGroup": 72,
         "name": {
             "jpn": "カガチアーム β",
             "eng": "Kadachi Vambraces β",
@@ -4204,12 +4204,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 93,
         "setSkills": [
             132
         ],
         "id": 1343,
         "order": 71,
+        "setGroup": 93,
         "name": {
             "jpn": "ジャナフアーム α",
             "eng": "Anja Vambraces α",
@@ -4286,12 +4286,12 @@
         "slots": [
             1
         ],
-        "setGroup": 94,
         "setSkills": [
             132
         ],
         "id": 1344,
         "order": 72,
+        "setGroup": 94,
         "name": {
             "jpn": "ジャナフアーム β",
             "eng": "Anja Vambraces β",
@@ -4362,9 +4362,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 73,
         "id": 1345,
         "order": 79,
+        "setGroup": 73,
         "name": {
             "jpn": "レイアアーム α",
             "eng": "Rathian Vambraces α",
@@ -4437,9 +4437,9 @@
         "slots": [
             1
         ],
-        "setGroup": 74,
         "id": 1346,
         "order": 80,
+        "setGroup": 74,
         "name": {
             "jpn": "レイアアーム β",
             "eng": "Rathian Vambraces β",
@@ -4510,9 +4510,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 77,
         "id": 1347,
         "order": 63,
+        "setGroup": 77,
         "name": {
             "jpn": "ツィツィアーム α",
             "eng": "Tzitzi Vambraces α",
@@ -4589,9 +4589,9 @@
         "slots": [
             1
         ],
-        "setGroup": 78,
         "id": 1348,
         "order": 64,
+        "setGroup": 78,
         "name": {
             "jpn": "ツィツィアーム β",
             "eng": "Tzitzi Vambraces β",
@@ -4662,9 +4662,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 79,
         "id": 1349,
         "order": 77,
+        "setGroup": 79,
         "name": {
             "jpn": "ウルムーアーム α",
             "eng": "Lumu Vambraces α",
@@ -4737,9 +4737,9 @@
         "slots": [
             1
         ],
-        "setGroup": 80,
         "id": 1350,
         "order": 78,
+        "setGroup": 80,
         "name": {
             "jpn": "ウルムーアーム β",
             "eng": "Lumu Vambraces β",
@@ -4810,9 +4810,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 75,
         "id": 1351,
         "order": 65,
+        "setGroup": 75,
         "name": {
             "jpn": "ギルオスアーム α",
             "eng": "Girros Vambraces α",
@@ -4885,9 +4885,9 @@
         "slots": [
             1
         ],
-        "setGroup": 76,
         "id": 1352,
         "order": 66,
+        "setGroup": 76,
         "name": {
             "jpn": "ギルオスアーム β",
             "eng": "Girros Vambraces β",
@@ -4958,9 +4958,9 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 97,
         "id": 1353,
         "order": 83,
+        "setGroup": 97,
         "name": {
             "jpn": "バルキンアーム α",
             "eng": "Baan Vambraces α",
@@ -5037,9 +5037,9 @@
         "slots": [
             1
         ],
-        "setGroup": 98,
         "id": 1354,
         "order": 84,
+        "setGroup": 98,
         "name": {
             "jpn": "バルキンアーム β",
             "eng": "Baan Vambraces β",
@@ -5114,9 +5114,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 89,
         "id": 1355,
         "order": 93,
+        "setGroup": 89,
         "name": {
             "jpn": "ハイメタアーム α",
             "eng": "High Metal Braces α",
@@ -5193,9 +5193,9 @@
         "slots": [
             1
         ],
-        "setGroup": 90,
         "id": 1356,
         "order": 94,
+        "setGroup": 90,
         "name": {
             "jpn": "ハイメタアーム β",
             "eng": "High Metal Braces β",
@@ -5266,9 +5266,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 91,
         "id": 1357,
         "order": 95,
+        "setGroup": 91,
         "name": {
             "jpn": "インゴットアーム α",
             "eng": "Ingot Vambraces α",
@@ -5345,9 +5345,9 @@
         "slots": [
             1
         ],
-        "setGroup": 92,
         "id": 1358,
         "order": 96,
+        "setGroup": 92,
         "name": {
             "jpn": "インゴットアーム β",
             "eng": "Ingot Vambraces β",
@@ -5418,12 +5418,12 @@
             "dragon": -4
         },
         "slots": [],
-        "setGroup": 87,
         "setSkills": [
             131
         ],
         "id": 1359,
         "order": 81,
+        "setGroup": 87,
         "name": {
             "jpn": "リオハートアーム α",
             "eng": "Rath Heart Braces α",
@@ -5496,12 +5496,12 @@
         "slots": [
             2
         ],
-        "setGroup": 88,
         "setSkills": [
             131
         ],
         "id": 1360,
         "order": 82,
+        "setGroup": 88,
         "name": {
             "jpn": "リオハートアーム β",
             "eng": "Rath Heart Braces β",
@@ -5572,12 +5572,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 95,
         "setSkills": [
             152
         ],
         "id": 1361,
         "order": 103,
+        "setGroup": 95,
         "name": {
             "jpn": "ギエナアーム α",
             "eng": "Legiana Vambraces α",
@@ -5654,12 +5654,12 @@
         "slots": [
             3
         ],
-        "setGroup": 96,
         "setSkills": [
             152
         ],
         "id": 1362,
         "order": 104,
+        "setGroup": 96,
         "name": {
             "jpn": "ギエナアーム β",
             "eng": "Legiana Vambraces β",
@@ -5730,12 +5730,12 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 81,
         "setSkills": [
             154
         ],
         "id": 1363,
         "order": 105,
+        "setGroup": 81,
         "name": {
             "jpn": "ガロンアーム α",
             "eng": "Odogaron Vambraces α",
@@ -5812,12 +5812,12 @@
         "slots": [
             1
         ],
-        "setGroup": 82,
         "setSkills": [
             154
         ],
         "id": 1364,
         "order": 106,
+        "setGroup": 82,
         "name": {
             "jpn": "ガロンアーム β",
             "eng": "Odogaron Vambraces β",
@@ -5888,12 +5888,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 101,
         "setSkills": [
             135
         ],
         "id": 1365,
         "order": 107,
+        "setGroup": 101,
         "name": {
             "jpn": "レウスアーム α",
             "eng": "Rathalos Vambraces α",
@@ -5970,12 +5970,12 @@
         "slots": [
             1
         ],
-        "setGroup": 102,
         "setSkills": [
             135
         ],
         "id": 1366,
         "order": 108,
+        "setGroup": 102,
         "name": {
             "jpn": "レウスアーム β",
             "eng": "Rathalos Vambraces β",
@@ -6048,12 +6048,12 @@
         "slots": [
             1
         ],
-        "setGroup": 111,
         "setSkills": [
             135
         ],
         "id": 1367,
         "order": 109,
+        "setGroup": 111,
         "name": {
             "jpn": "リオソウルアーム α",
             "eng": "Rath Soul Braces α",
@@ -6130,12 +6130,12 @@
         "slots": [
             2
         ],
-        "setGroup": 112,
         "setSkills": [
             135
         ],
         "id": 1368,
         "order": 110,
+        "setGroup": 112,
         "name": {
             "jpn": "リオソウルアーム β",
             "eng": "Rath Soul Braces β",
@@ -6206,12 +6206,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 103,
         "setSkills": [
             136
         ],
         "id": 1369,
         "order": 111,
+        "setGroup": 103,
         "name": {
             "jpn": "ディアブロアーム α",
             "eng": "Diablos Vambraces α",
@@ -6288,12 +6288,12 @@
         "slots": [
             2
         ],
-        "setGroup": 104,
         "setSkills": [
             136
         ],
         "id": 1370,
         "order": 112,
+        "setGroup": 104,
         "name": {
             "jpn": "ディアブロアーム β",
             "eng": "Diablos Vambraces β",
@@ -6364,12 +6364,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 113,
         "setSkills": [
             136
         ],
         "id": 1371,
         "order": 113,
+        "setGroup": 113,
         "name": {
             "jpn": "ディアネロアーム α",
             "eng": "Diablos Nero Braces α",
@@ -6447,12 +6447,12 @@
             2,
             1
         ],
-        "setGroup": 114,
         "setSkills": [
             136
         ],
         "id": 1372,
         "order": 114,
+        "setGroup": 114,
         "name": {
             "jpn": "ディアネロアーム β",
             "eng": "Diablos Nero Braces β",
@@ -6523,9 +6523,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 83,
         "id": 1373,
         "order": 89,
+        "setGroup": 83,
         "name": {
             "jpn": "ガマルアーム α",
             "eng": "Dodogama Vambraces α",
@@ -6598,9 +6598,9 @@
         "slots": [
             1
         ],
-        "setGroup": 84,
         "id": 1374,
         "order": 90,
+        "setGroup": 84,
         "name": {
             "jpn": "ガマルアーム β",
             "eng": "Dodogama Vambraces β",
@@ -6673,9 +6673,9 @@
         "slots": [
             2
         ],
-        "setGroup": 85,
         "id": 1375,
         "order": 101,
+        "setGroup": 85,
         "name": {
             "jpn": "ラヴァアーム α",
             "eng": "Lavasioth Vambraces α",
@@ -6752,9 +6752,9 @@
         "slots": [
             3
         ],
-        "setGroup": 86,
         "id": 1376,
         "order": 102,
+        "setGroup": 86,
         "name": {
             "jpn": "ラヴァアーム β",
             "eng": "Lavasioth Vambraces β",
@@ -6827,12 +6827,12 @@
         "slots": [
             1
         ],
-        "setGroup": 109,
         "setSkills": [
             138
         ],
         "id": 1377,
         "order": 115,
+        "setGroup": 109,
         "name": {
             "jpn": "ガンキンアーム α",
             "eng": "Uragaan Vambraces α",
@@ -6909,12 +6909,12 @@
         "slots": [
             2
         ],
-        "setGroup": 110,
         "setSkills": [
             138
         ],
         "id": 1378,
         "order": 116,
+        "setGroup": 110,
         "name": {
             "jpn": "ガンキンアーム β",
             "eng": "Uragaan Vambraces β",
@@ -6985,12 +6985,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 107,
         "setSkills": [
             126
         ],
         "id": 1379,
         "order": 126,
+        "setGroup": 107,
         "name": {
             "jpn": "オーグアーム α",
             "eng": "Nergigante Vambraces α",
@@ -7067,12 +7067,12 @@
         "slots": [
             1
         ],
-        "setGroup": 108,
         "setSkills": [
             126
         ],
         "id": 1380,
         "order": 127,
+        "setGroup": 108,
         "name": {
             "jpn": "オーグアーム β",
             "eng": "Nergigante Vambraces β",
@@ -7145,9 +7145,9 @@
         "slots": [
             1
         ],
-        "setGroup": 117,
         "id": 1381,
         "order": 44,
+        "setGroup": 117,
         "name": {
             "jpn": "オウビートマーノ α",
             "eng": "King Beetle Brachia α",
@@ -7225,9 +7225,9 @@
             2,
             1
         ],
-        "setGroup": 118,
         "id": 1382,
         "order": 45,
+        "setGroup": 118,
         "name": {
             "jpn": "オウビートマーノ β",
             "eng": "King Beetle Brachia β",
@@ -7300,9 +7300,9 @@
         "slots": [
             1
         ],
-        "setGroup": 160,
         "id": 1383,
         "order": 46,
+        "setGroup": 160,
         "name": {
             "jpn": "パピメルマーノ α",
             "eng": "Butterfly Brachia α",
@@ -7380,9 +7380,9 @@
             2,
             1
         ],
-        "setGroup": 161,
         "id": 1384,
         "order": 47,
+        "setGroup": 161,
         "name": {
             "jpn": "パピメルマーノ β",
             "eng": "Butterfly Brachia β",
@@ -7453,9 +7453,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 119,
         "id": 1385,
         "order": 97,
+        "setGroup": 119,
         "name": {
             "jpn": "ブリゲイドアーム α",
             "eng": "Brigade Vambraces α",
@@ -7532,9 +7532,9 @@
         "slots": [
             1
         ],
-        "setGroup": 120,
         "id": 1386,
         "order": 98,
+        "setGroup": 120,
         "name": {
             "jpn": "ブリゲイドアーム β",
             "eng": "Brigade Vambraces β",
@@ -7605,9 +7605,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 121,
         "id": 1387,
         "order": 119,
+        "setGroup": 121,
         "name": {
             "jpn": "ダマスクアーム α",
             "eng": "Damascus Vambraces α",
@@ -7684,9 +7684,9 @@
         "slots": [
             1
         ],
-        "setGroup": 122,
         "id": 1388,
         "order": 120,
+        "setGroup": 122,
         "name": {
             "jpn": "ダマスクアーム β",
             "eng": "Damascus Vambraces β",
@@ -7757,9 +7757,9 @@
             "dragon": 4
         },
         "slots": [],
-        "setGroup": 123,
         "id": 1389,
         "order": 121,
+        "setGroup": 123,
         "name": {
             "jpn": "ドーベルアーム α",
             "eng": "Dober Vambraces α",
@@ -7837,9 +7837,9 @@
             1,
             1
         ],
-        "setGroup": 124,
         "id": 1390,
         "order": 122,
+        "setGroup": 124,
         "name": {
             "jpn": "ドーベルアーム β",
             "eng": "Dober Vambraces β",
@@ -7914,12 +7914,12 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 129,
         "setSkills": [
             144
         ],
         "id": 1391,
         "order": 130,
+        "setGroup": 129,
         "name": {
             "jpn": "クシャナハトゥー α",
             "eng": "Kushala Grip α",
@@ -7996,12 +7996,12 @@
         "slots": [
             3
         ],
-        "setGroup": 130,
         "setSkills": [
             144
         ],
         "id": 1392,
         "order": 131,
+        "setGroup": 130,
         "name": {
             "jpn": "クシャナハトゥー β",
             "eng": "Kushala Grip β",
@@ -8074,12 +8074,12 @@
         "slots": [
             1
         ],
-        "setGroup": 127,
         "setSkills": [
             143
         ],
         "id": 1393,
         "order": 128,
+        "setGroup": 127,
         "name": {
             "jpn": "カイザーアーム α",
             "eng": "Kaiser Vambraces α",
@@ -8152,12 +8152,12 @@
         "slots": [
             3
         ],
-        "setGroup": 128,
         "setSkills": [
             143
         ],
         "id": 1394,
         "order": 129,
+        "setGroup": 128,
         "name": {
             "jpn": "カイザーアーム β",
             "eng": "Kaiser Vambraces β",
@@ -8228,12 +8228,12 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 105,
         "setSkills": [
             137
         ],
         "id": 1395,
         "order": 134,
+        "setGroup": 105,
         "name": {
             "jpn": "キリンアームロング α",
             "eng": "Kirin Longarms α",
@@ -8311,12 +8311,12 @@
             1,
             1
         ],
-        "setGroup": 106,
         "setSkills": [
             137
         ],
         "id": 1396,
         "order": 135,
+        "setGroup": 106,
         "name": {
             "jpn": "キリンアームロング β",
             "eng": "Kirin Longarms β",
@@ -8389,12 +8389,12 @@
         "slots": [
             1
         ],
-        "setGroup": 99,
         "setSkills": [
             127
         ],
         "id": 1397,
         "order": 132,
+        "setGroup": 99,
         "name": {
             "jpn": "ウルズアーム α",
             "eng": "Vaal Hazak Braces α",
@@ -8473,12 +8473,12 @@
             1,
             1
         ],
-        "setGroup": 100,
         "setSkills": [
             127
         ],
         "id": 1398,
         "order": 133,
+        "setGroup": 100,
         "name": {
             "jpn": "ウルズアーム β",
             "eng": "Vaal Hazak Braces β",
@@ -8549,12 +8549,12 @@
             "dragon": -2
         },
         "slots": [],
-        "setGroup": 115,
         "setSkills": [
             142
         ],
         "id": 1399,
         "order": 117,
+        "setGroup": 115,
         "name": {
             "jpn": "バゼルアーム α",
             "eng": "Bazel Vambraces α",
@@ -8631,12 +8631,12 @@
         "slots": [
             3
         ],
-        "setGroup": 116,
         "setSkills": [
             142
         ],
         "id": 1400,
         "order": 118,
+        "setGroup": 116,
         "name": {
             "jpn": "バゼルアーム β",
             "eng": "Bazel Vambraces β",
@@ -8709,9 +8709,9 @@
         "slots": [
             1
         ],
-        "setGroup": 131,
         "id": 1401,
         "order": 123,
+        "setGroup": 131,
         "name": {
             "jpn": "デスギアファオスト α",
             "eng": "Death Stench Grip α",
@@ -8789,9 +8789,9 @@
             1,
             1
         ],
-        "setGroup": 132,
         "id": 1402,
         "order": 124,
+        "setGroup": 132,
         "name": {
             "jpn": "デスギアファオスト β",
             "eng": "Death Stench Grip β",
@@ -8864,12 +8864,12 @@
         "slots": [
             1
         ],
-        "setGroup": 133,
         "setSkills": [
             149
         ],
         "id": 1403,
         "order": 138,
+        "setGroup": 133,
         "name": {
             "jpn": "ギルドクロスアーム α",
             "eng": "Guild Cross Vambraces α",
@@ -8946,12 +8946,12 @@
         "slots": [
             3
         ],
-        "setGroup": 134,
         "setSkills": [
             149
         ],
         "id": 1404,
         "order": 139,
+        "setGroup": 134,
         "name": {
             "jpn": "ギルドクロスアーム β",
             "eng": "Guild Cross Vambraces β",
@@ -9024,12 +9024,12 @@
         "slots": [
             1
         ],
-        "setGroup": 125,
         "setSkills": [
             145
         ],
         "id": 1405,
         "order": 136,
+        "setGroup": 125,
         "name": {
             "jpn": "ゼノラージクロウ α",
             "eng": "Xeno'jiiva Claws α",
@@ -9106,12 +9106,12 @@
         "slots": [
             3
         ],
-        "setGroup": 126,
         "setSkills": [
             145
         ],
         "id": 1406,
         "order": 137,
+        "setGroup": 126,
         "name": {
             "jpn": "ゼノラージクロウ β",
             "eng": "Xeno'jiiva Claws β",
@@ -9182,12 +9182,12 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 137,
         "setSkills": [
             147
         ],
         "id": 1409,
         "order": 91,
+        "setGroup": 137,
         "name": {
             "jpn": "ゾラマグナクロウ α",
             "eng": "Zorah Claws α",
@@ -9264,12 +9264,12 @@
         "slots": [
             1
         ],
-        "setGroup": 138,
         "setSkills": [
             147
         ],
         "id": 1410,
         "order": 92,
+        "setGroup": 138,
         "name": {
             "jpn": "ゾラマグナクロウ β",
             "eng": "Zorah Claws β",
@@ -9342,12 +9342,12 @@
         "slots": [
             1
         ],
-        "setGroup": 149,
         "setSkills": [
             150
         ],
         "id": 1411,
         "order": 141,
+        "setGroup": 149,
         "name": {
             "jpn": "シーカーグラブ α",
             "eng": "Commission Vambraces α",
@@ -9424,12 +9424,12 @@
         "slots": [
             2
         ],
-        "setGroup": 150,
         "setSkills": [
             150
         ],
         "id": 1412,
         "order": 142,
+        "setGroup": 150,
         "name": {
             "jpn": "シーカーグラブ β",
             "eng": "Commission Vambraces β",
@@ -9500,9 +9500,9 @@
             "dragon": 0
         },
         "slots": [],
-        "setGroup": 167,
         "id": 1431,
         "order": 0,
+        "setGroup": 167,
         "name": {
             "jpn": "オリジンアーム",
             "eng": "Origin Vambraces",
@@ -9569,9 +9569,9 @@
         "slots": [
             1
         ],
-        "setGroup": 191,
         "id": 1433,
         "order": 146,
+        "setGroup": 191,
         "name": {
             "jpn": "マムガイラアーム α",
             "eng": "Kulve Taroth's Rage α",
@@ -9649,9 +9649,9 @@
             3,
             1
         ],
-        "setGroup": 192,
         "id": 1434,
         "order": 147,
+        "setGroup": 192,
         "name": {
             "jpn": "マムガイラアーム β",
             "eng": "Kulve Taroth's Rage β",
@@ -9726,9 +9726,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 193,
         "id": 1435,
         "order": 150,
+        "setGroup": 193,
         "name": {
             "jpn": "ブロッサムカフス",
             "eng": "Blossom Cuffs",
@@ -9791,9 +9791,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 194,
         "id": 1436,
         "order": 151,
+        "setGroup": 194,
         "name": {
             "jpn": "ダイバーアーム",
             "eng": "Diver's Braces",
@@ -9856,9 +9856,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 195,
         "id": 1437,
         "order": 152,
+        "setGroup": 195,
         "name": {
             "jpn": "ハーベストラーマ",
             "eng": "Harvest Trama",
@@ -9921,9 +9921,9 @@
             "dragon": 1
         },
         "slots": [],
-        "setGroup": 196,
         "id": 1438,
         "order": 153,
+        "setGroup": 196,
         "name": {
             "jpn": "オリオンアーム",
             "eng": "Orion Vambraces",
@@ -9986,12 +9986,12 @@
             "dragon": 4
         },
         "slots": [],
-        "setGroup": 197,
         "setSkills": [
             168
         ],
         "id": 1439,
         "order": 154,
+        "setGroup": 197,
         "name": {
             "jpn": "フルドレスカフス",
             "eng": "Gala Suit Cuffs",
@@ -10054,9 +10054,9 @@
             "dragon": -3
         },
         "slots": [],
-        "setGroup": 201,
         "id": 1441,
         "order": 144,
+        "setGroup": 201,
         "name": {
             "jpn": "バンギスアーム α",
             "eng": "Vangis Vambraces α",
@@ -10133,9 +10133,9 @@
         "slots": [
             2
         ],
-        "setGroup": 202,
         "id": 1442,
         "order": 145,
+        "setGroup": 202,
         "name": {
             "jpn": "バンギスアーム β",
             "eng": "Vangis Vambraces β",
@@ -10209,12 +10209,12 @@
             2,
             2
         ],
-        "setGroup": 206,
         "setSkills": [
             164
         ],
         "id": 1446,
         "order": 183,
+        "setGroup": 206,
         "name": {
             "jpn": "ドラケンアーム α",
             "eng": "Drachen Vambraces α",
@@ -10292,9 +10292,9 @@
             1,
             1
         ],
-        "setGroup": 207,
         "id": 1447,
         "order": 155,
+        "setGroup": 207,
         "name": {
             "jpn": "ブロッサムカフス α",
             "eng": "Blossom Cuffs α",
@@ -10359,9 +10359,9 @@
         "slots": [
             2
         ],
-        "setGroup": 208,
         "id": 1448,
         "order": 156,
+        "setGroup": 208,
         "name": {
             "jpn": "ダイバーアーム α",
             "eng": "Diver's Braces α",
@@ -10431,9 +10431,9 @@
             2,
             1
         ],
-        "setGroup": 209,
         "id": 1449,
         "order": 157,
+        "setGroup": 209,
         "name": {
             "jpn": "ハーベストラーマ α",
             "eng": "Harvest Trama α",
@@ -10503,9 +10503,9 @@
             3,
             1
         ],
-        "setGroup": 210,
         "id": 1450,
         "order": 158,
+        "setGroup": 210,
         "name": {
             "jpn": "オリオンアーム α",
             "eng": "Orion Vambraces α",
@@ -10576,12 +10576,12 @@
             1,
             1
         ],
-        "setGroup": 211,
         "setSkills": [
             168
         ],
         "id": 1451,
         "order": 159,
+        "setGroup": 211,
         "name": {
             "jpn": "フルドレスカフス α",
             "eng": "Gala Suit Cuffs α",
@@ -10648,9 +10648,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 212,
         "id": 1452,
         "order": 160,
+        "setGroup": 212,
         "name": {
             "jpn": "パピオムマーノ",
             "eng": "Butterfly Brachia",
@@ -10721,9 +10721,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 213,
         "id": 1453,
         "order": 161,
+        "setGroup": 213,
         "name": {
             "jpn": "パピオムマーノ α",
             "eng": "Butterfly Brachia α",
@@ -10800,9 +10800,9 @@
         "slots": [
             1
         ],
-        "setGroup": 214,
         "id": 1454,
         "order": 162,
+        "setGroup": 214,
         "name": {
             "jpn": "パピオムマーノ β",
             "eng": "Butterfly Brachia β",
@@ -10873,9 +10873,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 215,
         "id": 1455,
         "order": 163,
+        "setGroup": 215,
         "name": {
             "jpn": "クインビートマーノ",
             "eng": "Queen Beetle Brachia",
@@ -10946,9 +10946,9 @@
             "dragon": 2
         },
         "slots": [],
-        "setGroup": 216,
         "id": 1456,
         "order": 164,
+        "setGroup": 216,
         "name": {
             "jpn": "クインビートマーノ α",
             "eng": "Queen Beetle Brachia α",
@@ -11025,9 +11025,9 @@
         "slots": [
             1
         ],
-        "setGroup": 217,
         "id": 1457,
         "order": 165,
+        "setGroup": 217,
         "name": {
             "jpn": "クインビートマーノ β",
             "eng": "Queen Beetle Brachia β",
@@ -11101,12 +11101,12 @@
             3,
             2
         ],
-        "setGroup": 218,
         "setSkills": [
             127
         ],
         "id": 1458,
         "order": 166,
+        "setGroup": 218,
         "name": {
             "jpn": "ウルズアーム γ",
             "eng": "Vaal Hazak Braces γ",
@@ -11180,12 +11180,12 @@
             2,
             2
         ],
-        "setGroup": 219,
         "setSkills": [
             137
         ],
         "id": 1459,
         "order": 167,
+        "setGroup": 219,
         "name": {
             "jpn": "キリンアームロング γ",
             "eng": "Kirin Longarms γ",
@@ -11262,12 +11262,12 @@
         "slots": [
             3
         ],
-        "setGroup": 220,
         "setSkills": [
             143
         ],
         "id": 1460,
         "order": 168,
+        "setGroup": 220,
         "name": {
             "jpn": "カイザーアーム γ",
             "eng": "Kaiser Vambraces γ",
@@ -11342,12 +11342,12 @@
             1,
             1
         ],
-        "setGroup": 221,
         "setSkills": [
             144
         ],
         "id": 1461,
         "order": 169,
+        "setGroup": 221,
         "name": {
             "jpn": "クシャナハトゥー γ",
             "eng": "Kushala Grip γ",
@@ -11422,12 +11422,12 @@
             1,
             1
         ],
-        "setGroup": 222,
         "setSkills": [
             126
         ],
         "id": 1462,
         "order": 170,
+        "setGroup": 222,
         "name": {
             "jpn": "オーグアーム γ",
             "eng": "Nergigante Vambraces γ",
@@ -11505,12 +11505,12 @@
             3,
             1
         ],
-        "setGroup": 223,
         "setSkills": [
             147
         ],
         "id": 1463,
         "order": 171,
+        "setGroup": 223,
         "name": {
             "jpn": "ゾラマグナクロウ γ",
             "eng": "Zorah Claws γ",
@@ -11585,12 +11585,12 @@
             2,
             1
         ],
-        "setGroup": 224,
         "setSkills": [
             145
         ],
         "id": 1464,
         "order": 172,
+        "setGroup": 224,
         "name": {
             "jpn": "ゼノラージクロウ γ",
             "eng": "Xeno'jiiva Claws γ",
@@ -11667,12 +11667,12 @@
         "slots": [
             3
         ],
-        "setGroup": 229,
         "setSkills": [
             135
         ],
         "id": 1469,
         "order": 180,
+        "setGroup": 229,
         "name": {
             "jpn": "蒼星ノ将【篭手】 α",
             "eng": "Azure Starlord Gauntlets α",
@@ -11745,9 +11745,9 @@
         "slots": [
             3
         ],
-        "setGroup": 230,
         "id": 1470,
         "order": 182,
+        "setGroup": 230,
         "name": {
             "jpn": "ダンテグローブ α",
             "eng": "Dante's Gloves α",
@@ -11824,12 +11824,12 @@
         "slots": [
             3
         ],
-        "setGroup": 231,
         "setSkills": [
             163
         ],
         "id": 1471,
         "order": 148,
+        "setGroup": 231,
         "name": {
             "jpn": "エンプレスアーム α",
             "eng": "Empress Vambraces α",
@@ -11907,12 +11907,12 @@
             3,
             2
         ],
-        "setGroup": 232,
         "setSkills": [
             163
         ],
         "id": 1472,
         "order": 149,
+        "setGroup": 232,
         "name": {
             "jpn": "エンプレスアーム β",
             "eng": "Empress Vambraces β",
@@ -11986,12 +11986,12 @@
             3,
             1
         ],
-        "setGroup": 242,
         "setSkills": [
             163
         ],
         "id": 1482,
         "order": 173,
+        "setGroup": 242,
         "name": {
             "jpn": "エンプレスアーム γ",
             "eng": "Empress Vambraces γ",
@@ -12068,9 +12068,9 @@
         "slots": [
             1
         ],
-        "setGroup": 247,
         "id": 1487,
         "order": 174,
+        "setGroup": 247,
         "name": {
             "jpn": "マムガイラアーム γ",
             "eng": "Kulve Taroth's Rage γ",
@@ -12145,9 +12145,9 @@
             "dragon": 3
         },
         "slots": [],
-        "setGroup": 248,
         "id": 1488,
         "order": 298,
+        "setGroup": 248,
         "name": {
             "jpn": "防衛隊【手甲】 α",
             "eng": "Defender Vambraces α",
@@ -12207,9 +12207,9 @@
         "slots": [
             2
         ],
-        "setGroup": 302,
         "id": 1491,
         "order": 302,
+        "setGroup": 302,
         "name": {
             "jpn": "EXボーンアーム α",
             "eng": "Bone Vambraces α+",
@@ -12283,9 +12283,9 @@
             4,
             1
         ],
-        "setGroup": 303,
         "id": 1492,
         "order": 303,
+        "setGroup": 303,
         "name": {
             "jpn": "EXボーンアーム β",
             "eng": "Bone Vambraces β+",
@@ -12354,9 +12354,9 @@
         "slots": [
             3
         ],
-        "setGroup": 304,
         "id": 1493,
         "order": 304,
+        "setGroup": 304,
         "name": {
             "jpn": "EXアロイアーム α",
             "eng": "Alloy Vambraces α+",
@@ -12430,9 +12430,9 @@
             4,
             1
         ],
-        "setGroup": 305,
         "id": 1494,
         "order": 305,
+        "setGroup": 305,
         "name": {
             "jpn": "EXアロイアーム β",
             "eng": "Alloy Vambraces β+",
@@ -12501,9 +12501,9 @@
         "slots": [
             3
         ],
-        "setGroup": 306,
         "id": 1495,
         "order": 306,
+        "setGroup": 306,
         "name": {
             "jpn": "EXランゴアーム α",
             "eng": "Vespoid Vambraces α+",
@@ -12577,9 +12577,9 @@
             4,
             1
         ],
-        "setGroup": 307,
         "id": 1496,
         "order": 307,
+        "setGroup": 307,
         "name": {
             "jpn": "EXランゴアーム β",
             "eng": "Vespoid Vambraces β+",
@@ -12648,9 +12648,9 @@
         "slots": [
             3
         ],
-        "setGroup": 308,
         "id": 1497,
         "order": 308,
+        "setGroup": 308,
         "name": {
             "jpn": "EXタロスアーム α",
             "eng": "Hornetaur Vambraces α+",
@@ -12724,9 +12724,9 @@
             4,
             2
         ],
-        "setGroup": 309,
         "id": 1498,
         "order": 309,
+        "setGroup": 309,
         "name": {
             "jpn": "EXタロスアーム β",
             "eng": "Hornetaur Vambraces β+",
@@ -12796,9 +12796,9 @@
             1,
             1
         ],
-        "setGroup": 310,
         "id": 1499,
         "order": 310,
+        "setGroup": 310,
         "name": {
             "jpn": "EXケストガード α",
             "eng": "Kestodon Guards α+",
@@ -12868,9 +12868,9 @@
             4,
             1
         ],
-        "setGroup": 311,
         "id": 1500,
         "order": 311,
+        "setGroup": 311,
         "name": {
             "jpn": "EXケストガード β",
             "eng": "Kestodon Guards β+",
@@ -12939,9 +12939,9 @@
         "slots": [
             2
         ],
-        "setGroup": 324,
         "id": 1501,
         "order": 324,
+        "setGroup": 324,
         "name": {
             "jpn": "EXジャグラスアーム α",
             "eng": "Jagras Vambraces α+",
@@ -13018,9 +13018,9 @@
         "slots": [
             4
         ],
-        "setGroup": 325,
         "id": 1502,
         "order": 325,
+        "setGroup": 325,
         "name": {
             "jpn": "EXジャグラスアーム β",
             "eng": "Jagras Vambraces β+",
@@ -13097,9 +13097,9 @@
         "slots": [
             2
         ],
-        "setGroup": 326,
         "id": 1503,
         "order": 326,
+        "setGroup": 326,
         "name": {
             "jpn": "EXツィツィアーム α",
             "eng": "Tzitzi Vambraces α+",
@@ -13176,9 +13176,9 @@
         "slots": [
             4
         ],
-        "setGroup": 327,
         "id": 1504,
         "order": 327,
+        "setGroup": 327,
         "name": {
             "jpn": "EXツィツィアーム β",
             "eng": "Tzitzi Vambraces β+",
@@ -13255,9 +13255,9 @@
         "slots": [
             1
         ],
-        "setGroup": 328,
         "id": 1505,
         "order": 328,
+        "setGroup": 328,
         "name": {
             "jpn": "EXギルオスアーム α",
             "eng": "Girros Vambraces α+",
@@ -13334,9 +13334,9 @@
         "slots": [
             4
         ],
-        "setGroup": 329,
         "id": 1506,
         "order": 329,
+        "setGroup": 329,
         "name": {
             "jpn": "EXギルオスアーム β",
             "eng": "Girros Vambraces β+",
@@ -13413,9 +13413,9 @@
         "slots": [
             2
         ],
-        "setGroup": 330,
         "id": 1507,
         "order": 330,
+        "setGroup": 330,
         "name": {
             "jpn": "EXガマルアーム α",
             "eng": "Dodogama Vambraces α+",
@@ -13492,9 +13492,9 @@
         "slots": [
             4
         ],
-        "setGroup": 331,
         "id": 1508,
         "order": 331,
+        "setGroup": 331,
         "name": {
             "jpn": "EXガマルアーム β",
             "eng": "Dodogama Vambraces β+",
@@ -13572,9 +13572,9 @@
             1,
             1
         ],
-        "setGroup": 332,
         "id": 1509,
         "order": 332,
+        "setGroup": 332,
         "name": {
             "jpn": "EXクルルアーム α",
             "eng": "Kulu Vambraces α+",
@@ -13647,9 +13647,9 @@
         "slots": [
             4
         ],
-        "setGroup": 333,
         "id": 1510,
         "order": 333,
+        "setGroup": 333,
         "name": {
             "jpn": "EXクルルアーム β",
             "eng": "Kulu Vambraces β+",
@@ -13718,9 +13718,9 @@
         "slots": [
             1
         ],
-        "setGroup": 334,
         "id": 1511,
         "order": 334,
+        "setGroup": 334,
         "name": {
             "jpn": "EXプケプケアーム α",
             "eng": "Pukei Vambraces α+",
@@ -13797,9 +13797,9 @@
         "slots": [
             4
         ],
-        "setGroup": 335,
         "id": 1512,
         "order": 335,
+        "setGroup": 335,
         "name": {
             "jpn": "EXプケプケアーム β",
             "eng": "Pukei Vambraces β+",
@@ -13877,9 +13877,9 @@
             3,
             1
         ],
-        "setGroup": 336,
         "id": 1513,
         "order": 338,
+        "setGroup": 336,
         "name": {
             "jpn": "EXボロスアーム α",
             "eng": "Barroth Vambraces α+",
@@ -13953,9 +13953,9 @@
             4,
             2
         ],
-        "setGroup": 337,
         "id": 1514,
         "order": 339,
+        "setGroup": 337,
         "name": {
             "jpn": "EXボロスアーム β",
             "eng": "Barroth Vambraces β+",
@@ -14025,9 +14025,9 @@
             2,
             1
         ],
-        "setGroup": 338,
         "id": 1515,
         "order": 340,
+        "setGroup": 338,
         "name": {
             "jpn": "EXジュラアーム α",
             "eng": "Jyura Vambraces α+",
@@ -14101,9 +14101,9 @@
             4,
             2
         ],
-        "setGroup": 339,
         "id": 1516,
         "order": 341,
+        "setGroup": 339,
         "name": {
             "jpn": "EXジュラアーム β",
             "eng": "Jyura Vambraces β+",
@@ -14172,9 +14172,9 @@
         "slots": [
             3
         ],
-        "setGroup": 340,
         "id": 1517,
         "order": 342,
+        "setGroup": 340,
         "name": {
             "jpn": "EXブランアーム α",
             "eng": "Beo Vambraces α+",
@@ -14247,9 +14247,9 @@
         "slots": [
             4
         ],
-        "setGroup": 341,
         "id": 1518,
         "order": 343,
+        "setGroup": 341,
         "name": {
             "jpn": "EXブランアーム β",
             "eng": "Beo Vambraces β+",
@@ -14318,9 +14318,9 @@
         "slots": [
             2
         ],
-        "setGroup": 342,
         "id": 1519,
         "order": 344,
+        "setGroup": 342,
         "name": {
             "jpn": "EXカガチアーム α",
             "eng": "Kadachi Vambraces α+",
@@ -14398,9 +14398,9 @@
             4,
             2
         ],
-        "setGroup": 343,
         "id": 1520,
         "order": 345,
+        "setGroup": 343,
         "name": {
             "jpn": "EXカガチアーム β",
             "eng": "Kadachi Vambraces β+",
@@ -14478,9 +14478,9 @@
             2,
             1
         ],
-        "setGroup": 344,
         "id": 1521,
         "order": 348,
+        "setGroup": 344,
         "name": {
             "jpn": "EXハイメタアーム α",
             "eng": "High Metal Braces α+",
@@ -14554,9 +14554,9 @@
             4,
             1
         ],
-        "setGroup": 345,
         "id": 1522,
         "order": 349,
+        "setGroup": 345,
         "name": {
             "jpn": "EXハイメタアーム β",
             "eng": "High Metal Braces β+",
@@ -14629,9 +14629,9 @@
         "slots": [
             2
         ],
-        "setGroup": 346,
         "id": 1523,
         "order": 350,
+        "setGroup": 346,
         "name": {
             "jpn": "EXバフバロアーム α",
             "eng": "Banbaro Vambraces α+",
@@ -14704,9 +14704,9 @@
         "slots": [
             4
         ],
-        "setGroup": 347,
         "id": 1524,
         "order": 351,
+        "setGroup": 347,
         "name": {
             "jpn": "EXバフバロアーム β",
             "eng": "Banbaro Vambraces β+",
@@ -14779,12 +14779,12 @@
         "slots": [
             2
         ],
-        "setGroup": 348,
         "setSkills": [
             182
         ],
         "id": 1525,
         "order": 352,
+        "setGroup": 348,
         "name": {
             "jpn": "EXジャナフアーム α",
             "eng": "Anja Vambraces α+",
@@ -14861,12 +14861,12 @@
         "slots": [
             4
         ],
-        "setGroup": 349,
         "setSkills": [
             182
         ],
         "id": 1526,
         "order": 353,
+        "setGroup": 349,
         "name": {
             "jpn": "EXジャナフアーム β",
             "eng": "Anja Vambraces β+",
@@ -14943,12 +14943,12 @@
         "slots": [
             3
         ],
-        "setGroup": 350,
         "setSkills": [
             183
         ],
         "id": 1527,
         "order": 356,
+        "setGroup": 350,
         "name": {
             "jpn": "EXレイアアーム α",
             "eng": "Rathian Vambraces α+",
@@ -15021,12 +15021,12 @@
         "slots": [
             4
         ],
-        "setGroup": 351,
         "setSkills": [
             183
         ],
         "id": 1528,
         "order": 357,
+        "setGroup": 351,
         "name": {
             "jpn": "EXレイアアーム β",
             "eng": "Rathian Vambraces β+",
@@ -15095,12 +15095,12 @@
         "slots": [
             2
         ],
-        "setGroup": 352,
         "setSkills": [
             183
         ],
         "id": 1529,
         "order": 358,
+        "setGroup": 352,
         "name": {
             "jpn": "EXリオハートアーム α",
             "eng": "Rath Heart Braces α+",
@@ -15178,12 +15178,12 @@
             4,
             2
         ],
-        "setGroup": 353,
         "setSkills": [
             183
         ],
         "id": 1530,
         "order": 359,
+        "setGroup": 353,
         "name": {
             "jpn": "EXリオハートアーム β",
             "eng": "Rath Heart Braces β+",
@@ -15257,9 +15257,9 @@
             2,
             2
         ],
-        "setGroup": 354,
         "id": 1531,
         "order": 360,
+        "setGroup": 354,
         "name": {
             "jpn": "EXウルムーアーム α",
             "eng": "Lumu Vambraces α+",
@@ -15333,9 +15333,9 @@
             4,
             1
         ],
-        "setGroup": 355,
         "id": 1532,
         "order": 361,
+        "setGroup": 355,
         "name": {
             "jpn": "EXウルムーアーム β",
             "eng": "Lumu Vambraces β+",
@@ -15408,9 +15408,9 @@
         "slots": [
             2
         ],
-        "setGroup": 356,
         "id": 1533,
         "order": 362,
+        "setGroup": 356,
         "name": {
             "jpn": "EXウルムメアアーム α",
             "eng": "Lumu Phantasm Braces α+",
@@ -15483,9 +15483,9 @@
         "slots": [
             4
         ],
-        "setGroup": 357,
         "id": 1534,
         "order": 363,
+        "setGroup": 357,
         "name": {
             "jpn": "EXウルムメアアーム β",
             "eng": "Lumu Phantasm Braces β+",
@@ -15554,9 +15554,9 @@
         "slots": [
             1
         ],
-        "setGroup": 358,
         "id": 1535,
         "order": 336,
+        "setGroup": 358,
         "name": {
             "jpn": "EXプケラグーナアーム α",
             "eng": "Pukei Lagoon Braces α+",
@@ -15630,9 +15630,9 @@
             4,
             1
         ],
-        "setGroup": 359,
         "id": 1536,
         "order": 337,
+        "setGroup": 359,
         "name": {
             "jpn": "EXプケラグーナアーム β",
             "eng": "Pukei Lagoon Braces β+",
@@ -15701,9 +15701,9 @@
         "slots": [
             2
         ],
-        "setGroup": 360,
         "id": 1537,
         "order": 346,
+        "setGroup": 360,
         "name": {
             "jpn": "EXベニカガチアーム α",
             "eng": "Viper Kadachi Braces α+",
@@ -15780,9 +15780,9 @@
         "slots": [
             4
         ],
-        "setGroup": 361,
         "id": 1538,
         "order": 347,
+        "setGroup": 361,
         "name": {
             "jpn": "EXベニカガチアーム β",
             "eng": "Viper Kadachi Braces β+",
@@ -15859,9 +15859,9 @@
         "slots": [
             2
         ],
-        "setGroup": 362,
         "id": 1539,
         "order": 364,
+        "setGroup": 362,
         "name": {
             "jpn": "EXバルキンアーム α",
             "eng": "Baan Vambraces α+",
@@ -15938,9 +15938,9 @@
         "slots": [
             4
         ],
-        "setGroup": 363,
         "id": 1540,
         "order": 365,
+        "setGroup": 363,
         "name": {
             "jpn": "EXバルキンアーム β",
             "eng": "Baan Vambraces β+",
@@ -16018,9 +16018,9 @@
             2,
             1
         ],
-        "setGroup": 378,
         "id": 1550,
         "order": 370,
+        "setGroup": 378,
         "name": {
             "jpn": "EXインゴットアーム α",
             "eng": "Ingot Vambraces α+",
@@ -16093,9 +16093,9 @@
         "slots": [
             4
         ],
-        "setGroup": 379,
         "id": 1551,
         "order": 371,
+        "setGroup": 379,
         "name": {
             "jpn": "EXインゴットアーム β",
             "eng": "Ingot Vambraces β+",
@@ -16168,12 +16168,12 @@
         "slots": [
             2
         ],
-        "setGroup": 380,
         "setSkills": [
             188
         ],
         "id": 1552,
         "order": 372,
+        "setGroup": 380,
         "name": {
             "jpn": "EXベリオアーム α",
             "eng": "Barioth Vambraces α+",
@@ -16250,12 +16250,12 @@
         "slots": [
             4
         ],
-        "setGroup": 381,
         "setSkills": [
             188
         ],
         "id": 1553,
         "order": 373,
+        "setGroup": 381,
         "name": {
             "jpn": "EXベリオアーム β",
             "eng": "Barioth Vambraces β+",
@@ -16332,12 +16332,12 @@
         "slots": [
             3
         ],
-        "setGroup": 382,
         "setSkills": [
             189
         ],
         "id": 1554,
         "order": 374,
+        "setGroup": 382,
         "name": {
             "jpn": "EXレウスアーム α",
             "eng": "Rathalos Vambraces α+",
@@ -16415,12 +16415,12 @@
             4,
             3
         ],
-        "setGroup": 383,
         "setSkills": [
             189
         ],
         "id": 1555,
         "order": 375,
+        "setGroup": 383,
         "name": {
             "jpn": "EXレウスアーム β",
             "eng": "Rathalos Vambraces β+",
@@ -16493,12 +16493,12 @@
         "slots": [
             2
         ],
-        "setGroup": 384,
         "setSkills": [
             190
         ],
         "id": 1556,
         "order": 378,
+        "setGroup": 384,
         "name": {
             "jpn": "EXディアブロアーム α",
             "eng": "Diablos Vambraces α+",
@@ -16576,12 +16576,12 @@
             4,
             1
         ],
-        "setGroup": 385,
         "setSkills": [
             190
         ],
         "id": 1557,
         "order": 379,
+        "setGroup": 385,
         "name": {
             "jpn": "EXディアブロアーム β",
             "eng": "Diablos Vambraces β+",
@@ -16658,12 +16658,12 @@
         "slots": [
             3
         ],
-        "setGroup": 386,
         "setSkills": [
             191
         ],
         "id": 1558,
         "order": 382,
+        "setGroup": 386,
         "name": {
             "jpn": "EXギエナアーム α",
             "eng": "Legiana Vambraces α+",
@@ -16741,12 +16741,12 @@
             4,
             2
         ],
-        "setGroup": 387,
         "setSkills": [
             191
         ],
         "id": 1559,
         "order": 383,
+        "setGroup": 387,
         "name": {
             "jpn": "EXギエナアーム β",
             "eng": "Legiana Vambraces β+",
@@ -16823,12 +16823,12 @@
         "slots": [
             1
         ],
-        "setGroup": 388,
         "setSkills": [
             192
         ],
         "id": 1560,
         "order": 386,
+        "setGroup": 388,
         "name": {
             "jpn": "EXガロンアーム α",
             "eng": "Odogaron Vambraces α+",
@@ -16905,12 +16905,12 @@
         "slots": [
             4
         ],
-        "setGroup": 389,
         "setSkills": [
             192
         ],
         "id": 1561,
         "order": 387,
+        "setGroup": 389,
         "name": {
             "jpn": "EXガロンアーム β",
             "eng": "Odogaron Vambraces β+",
@@ -16987,9 +16987,9 @@
         "slots": [
             1
         ],
-        "setGroup": 390,
         "id": 1562,
         "order": 390,
+        "setGroup": 390,
         "name": {
             "jpn": "EXラヴァアーム α",
             "eng": "Lavasioth Vambraces α+",
@@ -17066,9 +17066,9 @@
         "slots": [
             4
         ],
-        "setGroup": 391,
         "id": 1563,
         "order": 391,
+        "setGroup": 391,
         "name": {
             "jpn": "EXラヴァアーム β",
             "eng": "Lavasioth Vambraces β+",
@@ -17145,12 +17145,12 @@
         "slots": [
             2
         ],
-        "setGroup": 392,
         "setSkills": [
             193
         ],
         "id": 1564,
         "order": 392,
+        "setGroup": 392,
         "name": {
             "jpn": "EXガンキンアーム α",
             "eng": "Uragaan Vambraces α+",
@@ -17227,12 +17227,12 @@
         "slots": [
             4
         ],
-        "setGroup": 393,
         "setSkills": [
             193
         ],
         "id": 1565,
         "order": 393,
+        "setGroup": 393,
         "name": {
             "jpn": "EXガンキンアーム β",
             "eng": "Uragaan Vambraces β+",
@@ -17309,12 +17309,12 @@
         "slots": [
             1
         ],
-        "setGroup": 394,
         "setSkills": [
             171
         ],
         "id": 1566,
         "order": 394,
+        "setGroup": 394,
         "name": {
             "jpn": "EXナルガアーム α",
             "eng": "Nargacuga Braces α+",
@@ -17391,12 +17391,12 @@
         "slots": [
             4
         ],
-        "setGroup": 395,
         "setSkills": [
             171
         ],
         "id": 1567,
         "order": 395,
+        "setGroup": 395,
         "name": {
             "jpn": "EXナルガアーム β",
             "eng": "Nargacuga Braces β+",
@@ -17469,12 +17469,12 @@
         "slots": [
             1
         ],
-        "setGroup": 396,
         "setSkills": [
             173
         ],
         "id": 1568,
         "order": 396,
+        "setGroup": 396,
         "name": {
             "jpn": "EXディノアーム α",
             "eng": "Glavenus Braces α+",
@@ -17551,12 +17551,12 @@
         "slots": [
             4
         ],
-        "setGroup": 397,
         "setSkills": [
             173
         ],
         "id": 1569,
         "order": 397,
+        "setGroup": 397,
         "name": {
             "jpn": "EXディノアーム β",
             "eng": "Glavenus Braces β+",
@@ -17633,12 +17633,12 @@
         "slots": [
             2
         ],
-        "setGroup": 398,
         "setSkills": [
             172
         ],
         "id": 1570,
         "order": 400,
+        "setGroup": 398,
         "name": {
             "jpn": "EXブラキアーム α",
             "eng": "Brachydios Braces α+",
@@ -17715,12 +17715,12 @@
         "slots": [
             4
         ],
-        "setGroup": 399,
         "setSkills": [
             172
         ],
         "id": 1571,
         "order": 401,
+        "setGroup": 399,
         "name": {
             "jpn": "EXブラキアーム β",
             "eng": "Brachydios Braces β+",
@@ -17797,12 +17797,12 @@
         "slots": [
             1
         ],
-        "setGroup": 400,
         "setSkills": [
             170
         ],
         "id": 1572,
         "order": 402,
+        "setGroup": 400,
         "name": {
             "jpn": "EXレックスアーム α",
             "eng": "Tigrex Braces α+",
@@ -17879,12 +17879,12 @@
         "slots": [
             4
         ],
-        "setGroup": 401,
         "setSkills": [
             170
         ],
         "id": 1573,
         "order": 403,
+        "setGroup": 401,
         "name": {
             "jpn": "EXレックスアーム β",
             "eng": "Tigrex Braces β+",
@@ -17961,12 +17961,12 @@
         "slots": [
             2
         ],
-        "setGroup": 402,
         "setSkills": [
             182
         ],
         "id": 1574,
         "order": 354,
+        "setGroup": 402,
         "name": {
             "jpn": "EXジャナールアーム α",
             "eng": "Fulgur Vambraces α+",
@@ -18044,12 +18044,12 @@
             4,
             2
         ],
-        "setGroup": 403,
         "setSkills": [
             182
         ],
         "id": 1575,
         "order": 355,
+        "setGroup": 403,
         "name": {
             "jpn": "EXジャナールアーム β",
             "eng": "Fulgur Vambraces β+",
@@ -18122,12 +18122,12 @@
         "slots": [
             3
         ],
-        "setGroup": 406,
         "setSkills": [
             181
         ],
         "id": 1578,
         "order": 406,
+        "setGroup": 406,
         "name": {
             "jpn": "EXクロオビアーム α",
             "eng": "Black Belt Braces α+",
@@ -18201,12 +18201,12 @@
             4,
             1
         ],
-        "setGroup": 407,
         "setSkills": [
             181
         ],
         "id": 1579,
         "order": 407,
+        "setGroup": 407,
         "name": {
             "jpn": "EXクロオビアーム β",
             "eng": "Black Belt Braces β+",
@@ -18276,12 +18276,12 @@
             1,
             1
         ],
-        "setGroup": 413,
         "setSkills": [
             191
         ],
         "id": 1582,
         "order": 384,
+        "setGroup": 413,
         "name": {
             "jpn": "EXブリーナアーム α",
             "eng": "Hoarcry Vambraces α+",
@@ -18358,12 +18358,12 @@
         "slots": [
             4
         ],
-        "setGroup": 414,
         "setSkills": [
             191
         ],
         "id": 1583,
         "order": 385,
+        "setGroup": 414,
         "name": {
             "jpn": "EXブリーナアーム β",
             "eng": "Hoarcry Vambraces β+",
@@ -18436,12 +18436,12 @@
         "slots": [
             2
         ],
-        "setGroup": 415,
         "setSkills": [
             189
         ],
         "id": 1584,
         "order": 376,
+        "setGroup": 415,
         "name": {
             "jpn": "EXリオソウルアーム α",
             "eng": "Rath Soul Braces α+",
@@ -18519,12 +18519,12 @@
             4,
             1
         ],
-        "setGroup": 416,
         "setSkills": [
             189
         ],
         "id": 1585,
         "order": 377,
+        "setGroup": 416,
         "name": {
             "jpn": "EXリオソウルアーム β",
             "eng": "Rath Soul Braces β+",
@@ -18602,12 +18602,12 @@
             1,
             1
         ],
-        "setGroup": 417,
         "setSkills": [
             190
         ],
         "id": 1586,
         "order": 380,
+        "setGroup": 417,
         "name": {
             "jpn": "EXディアネロアーム α",
             "eng": "Diablos Nero Braces α+",
@@ -18685,12 +18685,12 @@
             4,
             2
         ],
-        "setGroup": 418,
         "setSkills": [
             190
         ],
         "id": 1587,
         "order": 381,
+        "setGroup": 418,
         "name": {
             "jpn": "EXディアネロアーム β",
             "eng": "Diablos Nero Braces β+",
@@ -18768,12 +18768,12 @@
             2,
             1
         ],
-        "setGroup": 419,
         "setSkills": [
             192
         ],
         "id": 1588,
         "order": 388,
+        "setGroup": 419,
         "name": {
             "jpn": "EXデスガロンアーム α",
             "eng": "Death Garon Braces α+",
@@ -18851,12 +18851,12 @@
             4,
             1
         ],
-        "setGroup": 420,
         "setSkills": [
             192
         ],
         "id": 1589,
         "order": 389,
+        "setGroup": 420,
         "name": {
             "jpn": "EXデスガロンアーム β",
             "eng": "Death Garon Braces β+",
@@ -18934,12 +18934,12 @@
             2,
             1
         ],
-        "setGroup": 421,
         "setSkills": [
             173
         ],
         "id": 1590,
         "order": 398,
+        "setGroup": 421,
         "name": {
             "jpn": "EXディノイエロアーム α",
             "eng": "Acidic Glavenus Braces α+",
@@ -19018,12 +19018,12 @@
             2,
             1
         ],
-        "setGroup": 422,
         "setSkills": [
             173
         ],
         "id": 1591,
         "order": 399,
+        "setGroup": 422,
         "name": {
             "jpn": "EXディノイエロアーム β",
             "eng": "Acidic Glavenus Braces β+",
@@ -19097,12 +19097,12 @@
             1,
             1
         ],
-        "setGroup": 423,
         "setSkills": [
             179
         ],
         "id": 1592,
         "order": 366,
+        "setGroup": 423,
         "name": {
             "jpn": "EXアーティアアーム α",
             "eng": "Artian Vambraces α+",
@@ -19179,12 +19179,12 @@
         "slots": [
             4
         ],
-        "setGroup": 424,
         "setSkills": [
             179
         ],
         "id": 1593,
         "order": 367,
+        "setGroup": 424,
         "name": {
             "jpn": "EXアーティアアーム β",
             "eng": "Artian Vambraces β+",
@@ -19258,9 +19258,9 @@
             2,
             1
         ],
-        "setGroup": 428,
         "id": 1596,
         "order": 408,
+        "setGroup": 428,
         "name": {
             "jpn": "EXドーベルアーム α",
             "eng": "Dober Vambraces α+",
@@ -19338,9 +19338,9 @@
             4,
             1
         ],
-        "setGroup": 429,
         "id": 1597,
         "order": 409,
+        "setGroup": 429,
         "name": {
             "jpn": "EXドーベルアーム β",
             "eng": "Dober Vambraces β+",
@@ -19418,9 +19418,9 @@
             2,
             1
         ],
-        "setGroup": 430,
         "id": 1598,
         "order": 410,
+        "setGroup": 430,
         "name": {
             "jpn": "EXダマスクアーム α",
             "eng": "Damascus Vambraces α+",
@@ -19498,9 +19498,9 @@
             4,
             1
         ],
-        "setGroup": 431,
         "id": 1599,
         "order": 411,
+        "setGroup": 431,
         "name": {
             "jpn": "EXダマスクアーム β",
             "eng": "Damascus Vambraces β+",
@@ -19573,12 +19573,12 @@
         "slots": [
             1
         ],
-        "setGroup": 432,
         "setSkills": [
             178
         ],
         "id": 1600,
         "order": 416,
+        "setGroup": 432,
         "name": {
             "jpn": "EXラヴィーナアーム α",
             "eng": "Rimeguard Vambraces α+",
@@ -19655,12 +19655,12 @@
         "slots": [
             4
         ],
-        "setGroup": 433,
         "setSkills": [
             178
         ],
         "id": 1601,
         "order": 417,
+        "setGroup": 433,
         "name": {
             "jpn": "EXラヴィーナアーム β",
             "eng": "Rimeguard Vambraces β+",
@@ -19737,12 +19737,12 @@
         "slots": [
             3
         ],
-        "setGroup": 434,
         "setSkills": [
             194
         ],
         "id": 1602,
         "order": 412,
+        "setGroup": 434,
         "name": {
             "jpn": "EXプライドアーム α",
             "eng": "Pride Vambraces α+",
@@ -19820,12 +19820,12 @@
             4,
             3
         ],
-        "setGroup": 435,
         "setSkills": [
             194
         ],
         "id": 1603,
         "order": 413,
+        "setGroup": 435,
         "name": {
             "jpn": "EXプライドアーム β",
             "eng": "Pride Vambraces β+",
@@ -19900,12 +19900,12 @@
             1,
             1
         ],
-        "setGroup": 436,
         "setSkills": [
             196
         ],
         "id": 1604,
         "order": 418,
+        "setGroup": 436,
         "name": {
             "jpn": "EXヴァルファーアーム α",
             "eng": "Fellshroud Braces α+",
@@ -19984,12 +19984,12 @@
             1,
             1
         ],
-        "setGroup": 437,
         "setSkills": [
             196
         ],
         "id": 1605,
         "order": 419,
+        "setGroup": 437,
         "name": {
             "jpn": "EXヴァルファーアーム β",
             "eng": "Fellshroud Braces β+",
@@ -20062,12 +20062,12 @@
         "slots": [
             2
         ],
-        "setGroup": 438,
         "setSkills": [
             143
         ],
         "id": 1606,
         "order": 420,
+        "setGroup": 438,
         "name": {
             "jpn": "EXカイザーアーム α",
             "eng": "Kaiser Vambraces α+",
@@ -20145,12 +20145,12 @@
             4,
             3
         ],
-        "setGroup": 439,
         "setSkills": [
             143
         ],
         "id": 1607,
         "order": 421,
+        "setGroup": 439,
         "name": {
             "jpn": "EXカイザーアーム β",
             "eng": "Kaiser Vambraces β+",
@@ -20227,12 +20227,12 @@
         "slots": [
             1
         ],
-        "setGroup": 440,
         "setSkills": [
             144
         ],
         "id": 1608,
         "order": 422,
+        "setGroup": 440,
         "name": {
             "jpn": "EXクシャナハトゥー α",
             "eng": "Kushala Grip α+",
@@ -20306,12 +20306,12 @@
             4,
             2
         ],
-        "setGroup": 441,
         "setSkills": [
             144
         ],
         "id": 1609,
         "order": 423,
+        "setGroup": 441,
         "name": {
             "jpn": "EXクシャナハトゥー β",
             "eng": "Kushala Grip β+",
@@ -20385,12 +20385,12 @@
             3,
             2
         ],
-        "setGroup": 442,
         "setSkills": [
             199
         ],
         "id": 1610,
         "order": 424,
+        "setGroup": 442,
         "name": {
             "jpn": "EXキリンアームロング α",
             "eng": "Kirin Longarms α+",
@@ -20469,12 +20469,12 @@
             2,
             2
         ],
-        "setGroup": 443,
         "setSkills": [
             199
         ],
         "id": 1611,
         "order": 425,
+        "setGroup": 443,
         "name": {
             "jpn": "EXキリンアームロング β",
             "eng": "Kirin Longarms β+",
@@ -20547,12 +20547,12 @@
         "slots": [
             1
         ],
-        "setGroup": 444,
         "setSkills": [
             177
         ],
         "id": 1612,
         "order": 426,
+        "setGroup": 444,
         "name": {
             "jpn": "EXテンタクルアーム α",
             "eng": "Tentacle Gloves α+",
@@ -20629,12 +20629,12 @@
         "slots": [
             4
         ],
-        "setGroup": 445,
         "setSkills": [
             177
         ],
         "id": 1613,
         "order": 427,
+        "setGroup": 445,
         "name": {
             "jpn": "EXテンタクルアーム β",
             "eng": "Tentacle Gloves β+",
@@ -20707,12 +20707,12 @@
         "slots": [
             3
         ],
-        "setGroup": 448,
         "setSkills": [
             200
         ],
         "id": 1616,
         "order": 428,
+        "setGroup": 448,
         "name": {
             "jpn": "EXギルドパレスアーム α",
             "eng": "Guild Palace Braces α+",
@@ -20790,12 +20790,12 @@
             4,
             1
         ],
-        "setGroup": 449,
         "setSkills": [
             200
         ],
         "id": 1617,
         "order": 429,
+        "setGroup": 449,
         "name": {
             "jpn": "EXギルドパレスアーム β",
             "eng": "Guild Palace Braces β+",
@@ -20868,12 +20868,12 @@
         "slots": [
             2
         ],
-        "setGroup": 450,
         "setSkills": [
             180
         ],
         "id": 1618,
         "order": 368,
+        "setGroup": 450,
         "name": {
             "jpn": "EXアークロックアーム α",
             "eng": "Clockwork Braces α+",
@@ -20950,12 +20950,12 @@
         "slots": [
             4
         ],
-        "setGroup": 451,
         "setSkills": [
             180
         ],
         "id": 1619,
         "order": 369,
+        "setGroup": 451,
         "name": {
             "jpn": "EXアークロックアーム β",
             "eng": "Clockwork Braces β+",
@@ -21028,12 +21028,12 @@
         "slots": [
             3
         ],
-        "setGroup": 453,
         "setSkills": [
             203
         ],
         "id": 1620,
         "order": 446,
+        "setGroup": 453,
         "name": {
             "jpn": "EXゾークアーム α",
             "eng": "Ruinous Vambraces α+",
@@ -21111,12 +21111,12 @@
             4,
             1
         ],
-        "setGroup": 454,
         "setSkills": [
             203
         ],
         "id": 1621,
         "order": 447,
+        "setGroup": 454,
         "name": {
             "jpn": "EXゾークアーム β",
             "eng": "Ruinous Vambraces β+",
@@ -21193,12 +21193,12 @@
         "slots": [
             1
         ],
-        "setGroup": 455,
         "setSkills": [
             176
         ],
         "id": 1622,
         "order": 431,
+        "setGroup": 455,
         "name": {
             "jpn": "EXアンガルダアーム α",
             "eng": "Shara Ishvalda Braces α+",
@@ -21275,12 +21275,12 @@
         "slots": [
             4
         ],
-        "setGroup": 456,
         "setSkills": [
             176
         ],
         "id": 1623,
         "order": 432,
+        "setGroup": 456,
         "name": {
             "jpn": "EXアンガルダアーム β",
             "eng": "Shara Ishvalda Braces β+",
@@ -21353,12 +21353,12 @@
         "slots": [
             2
         ],
-        "setGroup": 457,
         "setSkills": [
             195
         ],
         "id": 1624,
         "order": 414,
+        "setGroup": 457,
         "name": {
             "jpn": "EXグリードアーム α",
             "eng": "Esurient Vambraces α+",
@@ -21435,12 +21435,12 @@
         "slots": [
             4
         ],
-        "setGroup": 458,
         "setSkills": [
             195
         ],
         "id": 1625,
         "order": 415,
+        "setGroup": 458,
         "name": {
             "jpn": "EXグリードアーム β",
             "eng": "Esurient Vambraces β+",
@@ -21514,12 +21514,12 @@
             3,
             2
         ],
-        "setGroup": 461,
         "setSkills": [
             200
         ],
         "id": 1628,
         "order": 448,
+        "setGroup": 461,
         "name": {
             "jpn": "EXギルドワークアーム α",
             "eng": "Guildwork Braces α+",
@@ -21597,12 +21597,12 @@
             4,
             3
         ],
-        "setGroup": 462,
         "setSkills": [
             200
         ],
         "id": 1629,
         "order": 449,
+        "setGroup": 462,
         "name": {
             "jpn": "EXギルドワークアーム β",
             "eng": "Guildwork Braces β+",
@@ -21679,12 +21679,12 @@
         "slots": [
             2
         ],
-        "setGroup": 464,
         "setSkills": [
             175
         ],
         "id": 1630,
         "order": 440,
+        "setGroup": 464,
         "name": {
             "jpn": "EXゴールドルナアーム α",
             "eng": "Golden Lunebraces α+",
@@ -21762,12 +21762,12 @@
             4,
             2
         ],
-        "setGroup": 465,
         "setSkills": [
             175
         ],
         "id": 1631,
         "order": 441,
+        "setGroup": 465,
         "name": {
             "jpn": "EXゴールドルナアーム β",
             "eng": "Golden Lunebraces β+",
@@ -21841,12 +21841,12 @@
             2,
             2
         ],
-        "setGroup": 466,
         "setSkills": [
             174
         ],
         "id": 1632,
         "order": 442,
+        "setGroup": 466,
         "name": {
             "jpn": "EXシルバーソルアーム α",
             "eng": "Silver Solbraces α+",
@@ -21924,12 +21924,12 @@
             4,
             2
         ],
-        "setGroup": 467,
         "setSkills": [
             174
         ],
         "id": 1633,
         "order": 443,
+        "setGroup": 467,
         "name": {
             "jpn": "EXシルバーソルアーム β",
             "eng": "Silver Solbraces β+",
@@ -22003,12 +22003,12 @@
             2,
             1
         ],
-        "setGroup": 470,
         "setSkills": [
             169
         ],
         "id": 1636,
         "order": 438,
+        "setGroup": 470,
         "name": {
             "jpn": "EXジンオウアーム α",
             "eng": "Zinogre Braces α+",
@@ -22086,12 +22086,12 @@
             4,
             2
         ],
-        "setGroup": 471,
         "setSkills": [
             169
         ],
         "id": 1637,
         "order": 439,
+        "setGroup": 471,
         "name": {
             "jpn": "EXジンオウアーム β",
             "eng": "Zinogre Braces β+",
@@ -22168,12 +22168,12 @@
         "slots": [
             2
         ],
-        "setGroup": 472,
         "setSkills": [
             169
         ],
         "id": 1638,
         "order": 604,
+        "setGroup": 472,
         "name": {
             "jpn": "EXゴクオウアーム α",
             "eng": "Stygian Vambraces α+",
@@ -22251,12 +22251,12 @@
             4,
             3
         ],
-        "setGroup": 473,
         "setSkills": [
             169
         ],
         "id": 1639,
         "order": 605,
+        "setGroup": 473,
         "name": {
             "jpn": "EXゴクオウアーム β",
             "eng": "Stygian Vambraces β+",
@@ -22329,9 +22329,9 @@
         "slots": [
             1
         ],
-        "setGroup": 474,
         "id": 1640,
         "order": 436,
+        "setGroup": 474,
         "name": {
             "jpn": "EXガルルガアーム α",
             "eng": "Garuga Vambraces α+",
@@ -22404,9 +22404,9 @@
         "slots": [
             4
         ],
-        "setGroup": 475,
         "id": 1641,
         "order": 437,
+        "setGroup": 475,
         "name": {
             "jpn": "EXガルルガアーム β",
             "eng": "Garuga Vambraces β+",
@@ -22480,12 +22480,12 @@
             1,
             1
         ],
-        "setGroup": 476,
         "setSkills": [
             201
         ],
         "id": 1642,
         "order": 434,
+        "setGroup": 476,
         "name": {
             "jpn": "EXゾラマグナクロウ α",
             "eng": "Zorah Claws α+",
@@ -22563,12 +22563,12 @@
             4,
             1
         ],
-        "setGroup": 477,
         "setSkills": [
             201
         ],
         "id": 1643,
         "order": 435,
+        "setGroup": 477,
         "name": {
             "jpn": "EXゾラマグナクロウ β",
             "eng": "Zorah Claws β+",
@@ -22641,12 +22641,12 @@
         "slots": [
             2
         ],
-        "setGroup": 478,
         "setSkills": [
             208
         ],
         "id": 1644,
         "order": 600,
+        "setGroup": 478,
         "name": {
             "jpn": "EX金色ノ篭手 α",
             "eng": "Golden Kote α+",
@@ -22724,12 +22724,12 @@
             4,
             3
         ],
-        "setGroup": 479,
         "setSkills": [
             208
         ],
         "id": 1645,
         "order": 601,
+        "setGroup": 479,
         "name": {
             "jpn": "EX金色ノ篭手 β",
             "eng": "Golden Kote β+",
@@ -22803,12 +22803,12 @@
             2,
             2
         ],
-        "setGroup": 480,
         "setSkills": [
             217
         ],
         "id": 1646,
         "order": 602,
+        "setGroup": 480,
         "name": {
             "jpn": "EX斉天ノ篭手 α",
             "eng": "Grand God's Peer Arms α+",
@@ -22887,12 +22887,12 @@
             2,
             1
         ],
-        "setGroup": 481,
         "setSkills": [
             217
         ],
         "id": 1647,
         "order": 603,
+        "setGroup": 481,
         "name": {
             "jpn": "EX斉天ノ篭手 β",
             "eng": "Grand God's Peer Arms β+",
@@ -22966,12 +22966,12 @@
             2,
             2
         ],
-        "setGroup": 482,
         "setSkills": [
             218
         ],
         "id": 1648,
         "order": 608,
+        "setGroup": 482,
         "name": {
             "jpn": "EXブラキウムアーム α",
             "eng": "Brachydium Braces α+",
@@ -23049,12 +23049,12 @@
             4,
             4
         ],
-        "setGroup": 483,
         "setSkills": [
             218
         ],
         "id": 1649,
         "order": 609,
+        "setGroup": 483,
         "name": {
             "jpn": "EXブラキウムアーム β",
             "eng": "Brachydium Braces β+",
@@ -23129,12 +23129,12 @@
             2,
             2
         ],
-        "setGroup": 484,
         "setSkills": [
             211
         ],
         "id": 1650,
         "order": 606,
+        "setGroup": 484,
         "name": {
             "jpn": "EX龍紋ヲ刻マレシ封甲 α",
             "eng": "Safi Crested Vambraces α+",
@@ -23213,12 +23213,12 @@
             2,
             2
         ],
-        "setGroup": 485,
         "setSkills": [
             211
         ],
         "id": 1651,
         "order": 607,
+        "setGroup": 485,
         "name": {
             "jpn": "EX龍紋ヲ刻マレシ封甲 β",
             "eng": "Safi Crested Vambraces β+",
@@ -23292,12 +23292,12 @@
             3,
             1
         ],
-        "setGroup": 486,
         "setSkills": [
             221
         ],
         "id": 1652,
         "order": 612,
+        "setGroup": 486,
         "name": {
             "jpn": "EXエスカドラアムズ α",
             "eng": "Escadora Armguards α+",
@@ -23375,12 +23375,12 @@
             4,
             3
         ],
-        "setGroup": 487,
         "setSkills": [
             221
         ],
         "id": 1653,
         "order": 613,
+        "setGroup": 487,
         "name": {
             "jpn": "EXエスカドラアムズ β",
             "eng": "Escadora Armguards β+",
@@ -23454,12 +23454,12 @@
             2,
             1
         ],
-        "setGroup": 492,
         "setSkills": [
             202
         ],
         "id": 1654,
         "order": 444,
+        "setGroup": 492,
         "name": {
             "jpn": "EXエンプレスアーム α",
             "eng": "Empress Vambraces α+",
@@ -23537,12 +23537,12 @@
             4,
             1
         ],
-        "setGroup": 493,
         "setSkills": [
             202
         ],
         "id": 1655,
         "order": 445,
+        "setGroup": 493,
         "name": {
             "jpn": "EXエンプレスアーム β",
             "eng": "Empress Vambraces β+",
@@ -23620,12 +23620,12 @@
             3,
             2
         ],
-        "setGroup": 494,
         "setSkills": [
             219
         ],
         "id": 1656,
         "order": 616,
+        "setGroup": 494,
         "name": {
             "jpn": "EXマムガイラアーム α",
             "eng": "Kulve Taroth's Rage α+",
@@ -23703,12 +23703,12 @@
             4,
             4
         ],
-        "setGroup": 495,
         "setSkills": [
             219
         ],
         "id": 1657,
         "order": 617,
+        "setGroup": 495,
         "name": {
             "jpn": "EXマムガイラアーム β",
             "eng": "Kulve Taroth's Rage β+",
@@ -23781,12 +23781,12 @@
         "slots": [
             4
         ],
-        "setGroup": 496,
         "setSkills": [
             214
         ],
         "id": 1658,
         "order": 802,
+        "setGroup": 496,
         "name": {
             "jpn": "EXローゼアーム α",
             "eng": "Rose Arms α+",
@@ -23856,12 +23856,12 @@
             4,
             3
         ],
-        "setGroup": 498,
         "setSkills": [
             215
         ],
         "id": 1660,
         "order": 803,
+        "setGroup": 498,
         "name": {
             "jpn": "EXパッションアーム α",
             "eng": "Passionate Arms α+",
@@ -23930,12 +23930,12 @@
         "slots": [
             4
         ],
-        "setGroup": 502,
         "setSkills": [
             212
         ],
         "id": 1664,
         "order": 800,
+        "setGroup": 502,
         "name": {
             "jpn": "EXウーロンアーム α",
             "eng": "Oolong Sleeves α+",
@@ -24002,12 +24002,12 @@
             1,
             1
         ],
-        "setGroup": 504,
         "setSkills": [
             213
         ],
         "id": 1666,
         "order": 801,
+        "setGroup": 504,
         "name": {
             "jpn": "EXアストラスカーフ α",
             "eng": "Astral Scarf α+",
@@ -24076,9 +24076,9 @@
         "slots": [
             4
         ],
-        "setGroup": 517,
         "id": 1675,
         "order": 810,
+        "setGroup": 517,
         "name": {
             "jpn": "EXマッスルアーム α",
             "eng": "Buff Arms α+",
@@ -24151,12 +24151,12 @@
         "slots": [
             3
         ],
-        "setGroup": 518,
         "setSkills": [
             170
         ],
         "id": 1676,
         "order": 404,
+        "setGroup": 518,
         "name": {
             "jpn": "EXレックスロアアーム α",
             "eng": "Rex Roar Braces α+",
@@ -24233,12 +24233,12 @@
         "slots": [
             4
         ],
-        "setGroup": 519,
         "setSkills": [
             170
         ],
         "id": 1677,
         "order": 405,
+        "setGroup": 519,
         "name": {
             "jpn": "EXレックスロアアーム β",
             "eng": "Rex Roar Braces β+",
@@ -24313,9 +24313,9 @@
             "dragon": 3
         },
         "slots": [],
-        "setGroup": 520,
         "id": 1678,
         "order": 299,
+        "setGroup": 520,
         "name": {
             "jpn": "ガーディアンアーム α",
             "eng": "Guardian Vambraces α+",
@@ -24375,12 +24375,12 @@
             4,
             2
         ],
-        "setGroup": 524,
         "setSkills": [
             177
         ],
         "id": 1682,
         "order": 619,
+        "setGroup": 524,
         "name": {
             "jpn": "EXテンタクルアーム γ",
             "eng": "Tentacle Gloves γ+",
@@ -24458,12 +24458,12 @@
             2,
             2
         ],
-        "setGroup": 528,
         "setSkills": [
             220
         ],
         "id": 1686,
         "order": 610,
+        "setGroup": 528,
         "name": {
             "jpn": "EXオルムングアーム α",
             "eng": "Frostfang Vambraces α+",
@@ -24541,12 +24541,12 @@
             4,
             4
         ],
-        "setGroup": 529,
         "setSkills": [
             220
         ],
         "id": 1687,
         "order": 611,
+        "setGroup": 529,
         "name": {
             "jpn": "EXオルムングアーム β",
             "eng": "Frostfang Vambraces β+",
