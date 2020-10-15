@@ -1461,36 +1461,54 @@
         "treeId": 88,
         "name": {
             "jpn": "氷牙竜派生改",
-            "eng": "Frostfang Barioth",
+            "eng": "Frostfang Barioth Tree",
             "fre": "Barioth crocgivre",
-            "spa": "Barioth Cynodon",
-            "ger": "Frosthauer-Barioth",
-            "ita": "Barioth assiderato",
+            "spa": "Árbol de Barioth Cynodon",
+            "ger": "Frosthauer-Barioth-Baum",
+            "ita": "Serie Barioth assiderato",
             "kor": "빙아룡 파생+",
             "cht": "霜刃冰牙龍衍生改",
             "chs": "霜刃冰牙龙衍生改",
-            "rus": "Ледозубый бариот",
-            "pol": "Barioth Mrozokieł",
-            "ptb": "Barioth Presagélida",
-            "ara": "باريوث أنياب الصقيع"
+            "rus": "Дерево ледозуб. бариота",
+            "pol": "Drzewo Bariotha Mrozokła",
+            "ptb": "Árvore Barioth Presagélida",
+            "ara": "شجرة باريوث أنياب الصقيع"
+        }
+    },
+    {
+        "treeId": 89,
+        "name": {
+            "jpn": "黒龍派生",
+            "eng": "Fatalis Tree",
+            "fre": "Fatalis",
+            "spa": "Árbol de Fatalis",
+            "ger": "Fatalis-Baum",
+            "ita": "Serie Fatalis",
+            "kor": "흑룡 파생",
+            "cht": "黑龍衍生",
+            "chs": "黑龙衍生",
+            "rus": "Древо Фаталиса",
+            "pol": "Drzewo Fatalisa",
+            "ptb": "Árvore Fatalis",
+            "ara": "شجرة فاتاليس"
         }
     },
     {
         "treeId": 92,
         "name": {
             "jpn": "蒼世派生",
-            "eng": "Azure Era",
+            "eng": "Azure Era Tree",
             "fre": "Ère d'azur",
-            "spa": "Era Celeste",
+            "spa": "Árbol de Era Celeste",
             "ger": "Azurära-Baum",
-            "ita": "Era azzurra",
+            "ita": "Serie era azzurra",
             "kor": "푸른빛 파생",
             "cht": "蒼世衍生",
             "chs": "苍世衍生",
-            "rus": "Лазурная эра",
-            "pol": "Epoka lazuru",
-            "ptb": "Era Lazúli",
-            "ara": "عصر اللازورد"
+            "rus": "Дерево лазурной эры",
+            "pol": "Drzewo epoki lazuru",
+            "ptb": "Árvore Era Lazúli",
+            "ara": "شجرة عصر اللازورد"
         }
     }
 ]

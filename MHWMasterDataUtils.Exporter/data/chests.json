@@ -1357,7 +1357,7 @@
             "spa": "Una mezcla de placas pesadas y hueso otorgan gran defensa a esta armadura de Radobaan.",
             "ger": "Eine Mischung aus schwerer Beplattung und Knochen verleihen dieser Rüstung nahezu unüberwindbaren Schutz.",
             "ita": "L'uso di placche e ossa rende questa protezione di Radobaan quasi impenetrabile.",
-            "kor": "라도발킨의 팔 방어구. 밀도 높은 뼈와 갑각을 소재로 써서 단단한 바위도 튕겨낸다.",
+            "kor": "라도발킨의 몸통 방어구. 밀도 높은 뼈와 갑각을 소재로 써서 단단한 바위도 튕겨낸다.",
             "cht": "骨鎚龍的身體防具。 以高密度的骸骨及甲殼自豪， 據說連堅硬的岩石也能被彈飛。",
             "chs": "骨锤龙的身体防具。 以高密度的骸骨及甲壳自豪， 据说连坚硬的岩石也能被弹飞。",
             "rus": "Металлические пластины и шипы делают радобаановые доспехи практически непробиваемыми.",
@@ -4803,7 +4803,7 @@
             "spa": "Una mezcla de placas pesadas y hueso otorgan gran defensa a esta armadura de Radobaan.",
             "ger": "Eine Mischung aus schwerer Beplattung und Knochen verleihen dieser Rüstung nahezu unüberwindbaren Schutz.",
             "ita": "L'uso di placche e ossa rende questa protezione di Radobaan quasi impenetrabile.",
-            "kor": "라도발킨의 팔 방어구. 밀도 높은 뼈와 갑각을 소재로 써서 단단한 바위도 튕겨낸다.",
+            "kor": "라도발킨의 몸통 방어구. 밀도 높은 뼈와 갑각을 소재로 써서 단단한 바위도 튕겨낸다.",
             "cht": "骨鎚龍的身體防具。 以高密度的骸骨及甲殼自豪， 據說連堅硬的岩石也能被彈飛。",
             "chs": "骨锤龙的身体防具。 以高密度的骸骨及甲壳自豪， 据说连坚硬的岩石也能被弹飞。",
             "rus": "Металлические пластины и шипы делают радобаановые доспехи практически непробиваемыми.",
@@ -4882,7 +4882,7 @@
             "spa": "Una mezcla de placas pesadas y hueso otorgan gran defensa a esta armadura de Radobaan.",
             "ger": "Eine Mischung aus schwerer Beplattung und Knochen verleihen dieser Rüstung nahezu unüberwindbaren Schutz.",
             "ita": "L'uso di placche e ossa rende questa protezione di Radobaan quasi impenetrabile.",
-            "kor": "라도발킨의 팔 방어구. 밀도 높은 뼈와 갑각을 소재로 써서 단단한 바위도 튕겨낸다.",
+            "kor": "라도발킨의 몸통 방어구. 밀도 높은 뼈와 갑각을 소재로 써서 단단한 바위도 튕겨낸다.",
             "cht": "骨鎚龍的身體防具。 以高密度的骸骨及甲殼自豪， 據說連堅硬的岩石也能被彈飛。",
             "chs": "骨锤龙的身体防具。 以高密度的骸骨及甲壳自豪， 据说连坚硬的岩石也能被弹飞。",
             "rus": "Металлические пластины и шипы делают радобаановые доспехи практически непробиваемыми.",
@@ -22273,7 +22273,7 @@
             "ita": "Cotta stigea α+",
             "kor": "EX극오우메일 α",
             "cht": "精英·獄狼龍鎧甲 α",
-            "chs": "精英·狱狼龙鎧甲阿尔法",
+            "chs": "精英·狱狼龙铠甲阿尔法",
             "rus": "Стигийский доспех α+",
             "pol": "Zbroja stygijska α+",
             "ptb": "Armadura Tenebrosa α+",
@@ -22355,7 +22355,7 @@
             "ita": "Cotta stigea β+",
             "kor": "EX극오우메일 β",
             "cht": "精英·獄狼龍鎧甲 β",
-            "chs": "精英·狱狼龙鎧甲贝塔",
+            "chs": "精英·狱狼龙铠甲贝塔",
             "rus": "Стигийский доспех β+",
             "pol": "Zbroja stygijska β+",
             "ptb": "Armadura Tenebrosa β+",
@@ -23246,7 +23246,7 @@
             "ita": "Torace ornato Safi α+",
             "kor": "EX용문각인갑주 α",
             "cht": "精英‧龍紋刻印封鎧 α",
-            "chs": "精英·龙纹刻印封鎧阿尔法",
+            "chs": "精英·龙纹刻印封铠阿尔法",
             "rus": "Нагрудник сафи с гребнем α+",
             "pol": "Rodowy kirys Safi α+",
             "ptb": "Peitoral Cristado Safi α+",
@@ -23261,7 +23261,7 @@
             "ita": "Il cuore del Safi'jiiva ti inonderà di potere fino a quando il tuo corpo sarà così corrotto da non desiderare più alcuna cosa.",
             "kor": "무페토-지바의 몸통 방어구. 붉은 갑옷 속 용맥의 힘이 몸속에 파고들어, 끝없는 욕망을 끌어낸다.",
             "cht": "冥赤龍的身體防具。 封印在赤紅鎧甲的龍脈之力 侵蝕人心，散發出無盡的渴望。",
-            "chs": "冥赤龙的身体防具。 封印在赤红鎧甲的龙脉之力 侵蚀人心，散发出无尽的渴望。",
+            "chs": "冥赤龙的身体防具。 封印在赤红铠甲的龙脉之力 侵蚀人心，散发出无尽的渴望。",
             "rus": "Сердце сафи'джиивы дает силу до тех пор, пока тело еще цело и цепляется за жизнь.",
             "pol": "Serce Safi'jiiva napełnia mocą, aż ciało poddaje się i nie pragnie niczego.",
             "ptb": "O coração de Safi'jiiva enche o usuário de poder até seu corpo ficar arruinado e sem anseios.",
@@ -23329,7 +23329,7 @@
             "ita": "Torace ornato Safi β+",
             "kor": "EX용문각인갑주 β",
             "cht": "精英‧龍紋刻印封鎧 β",
-            "chs": "精英·龙纹刻印封鎧贝塔",
+            "chs": "精英·龙纹刻印封铠贝塔",
             "rus": "Нагрудник сафи с гребнем β+",
             "pol": "Rodowy kirys Safi β+",
             "ptb": "Peitoral Cristado Safi β+",
@@ -23344,7 +23344,7 @@
             "ita": "Il cuore del Safi'jiiva ti inonderà di potere fino a quando il tuo corpo sarà così corrotto da non desiderare più alcuna cosa.",
             "kor": "무페토-지바의 몸통 방어구. 붉은 갑옷 속 용맥의 힘이 몸속에 파고들어, 끝없는 욕망을 끌어낸다.",
             "cht": "冥赤龍的身體防具。 封印在赤紅鎧甲的龍脈之力 侵蝕人心，散發出無盡的渴望。",
-            "chs": "冥赤龙的身体防具。 封印在赤红鎧甲的龙脉之力 侵蚀人心，散发出无尽的渴望。",
+            "chs": "冥赤龙的身体防具。 封印在赤红铠甲的龙脉之力 侵蚀人心，散发出无尽的渴望。",
             "rus": "Сердце сафи'джиивы дает силу до тех пор, пока тело еще цело и цепляется за жизнь.",
             "pol": "Serce Safi'jiiva napełnia mocą, aż ciało poddaje się i nie pragnie niczego.",
             "ptb": "O coração de Safi'jiiva enche o usuário de poder até seu corpo ficar arruinado e sem anseios.",
@@ -23760,7 +23760,7 @@
             "ita": "Questa meravigliosa armatura di Kulve Taroth ricorda la nobiltà della dea madre.",
             "kor": "맘-타로트의 몸통 방어구. 그 찬란한 모습은 지모신의  숭고함을 연상시킨다.",
             "cht": "絢輝龍的身體防具。 此美麗的鎧甲據說讓人們 理解地母神多麽的崇高。",
-            "chs": "绚辉龙的身体防具。 此美丽的鎧甲据说让人们 理解地母神多么的崇高。",
+            "chs": "绚辉龙的身体防具。 此美丽的铠甲据说让人们 理解地母神多么的崇高。",
             "rus": "Этот прекрасный доспех Кулве тарот служит напоминанием о благородстве богини-матери.",
             "pol": "Ten przepiękny pancerz Kulve Taroth przypomina o szlachetności bogini matki.",
             "ptb": "Esta bela armadura de Kulve Taroth evoca recordações da nobilidade da mãe deusa.",
@@ -23843,7 +23843,7 @@
             "ita": "Questa meravigliosa armatura di Kulve Taroth ricorda la nobiltà della dea madre.",
             "kor": "맘-타로트의 몸통 방어구. 그 찬란한 모습은 지모신의  숭고함을 연상시킨다.",
             "cht": "絢輝龍的身體防具。 此美麗的鎧甲據說讓人們 理解地母神多麽的崇高。",
-            "chs": "绚辉龙的身体防具。 此美丽的鎧甲据说让人们 理解地母神多么的崇高。",
+            "chs": "绚辉龙的身体防具。 此美丽的铠甲据说让人们 理解地母神多么的崇高。",
             "rus": "Этот прекрасный доспех Кулве тарот служит напоминанием о благородстве богини-матери.",
             "pol": "Ten przepiękny pancerz Kulve Taroth przypomina o szlachetności bogini matki.",
             "ptb": "Esta bela armadura de Kulve Taroth evoca recordações da nobilidade da mãe deusa.",
@@ -23994,7 +23994,7 @@
             "spa": "Crearlo requiere un vale samba sabroso. ¡Pásate la noche bailando con un atuendo a la altura!",
             "ger": "Tanze in diesem Rüstungsteil farbenfroh die Nacht durch! Benötigt ein Lebensfreude-Ticket.",
             "ita": "Richiede un Buono spezie sfrigolanti per essere forgiato. Balla tutta la notte in questi abiti pregiati!",
-            "kor": "정열 티켓으로 만든 팔 방어구. 정열적인 의상을 입고 렛츠 댄스! 이게 바로 진정한 【정열 특집】!",
+            "kor": "정열 티켓으로 만든 몸통 방어구. 정열적인 의상을 입고 렛츠 댄스! 이게 바로 진정한 【정열 특집】!",
             "cht": "用熱情票製作的身體防具。 穿上最耀眼的服裝來跳舞吧！ 這就是【熱情之宴】的精神！",
             "chs": "用热情票制作的身体防具。 穿上最耀眼的服装来跳舞吧！ 这就是【热情之宴】的精神！",
             "rus": "Требуется билет жгучих специй. Танцуйте всю ночь в тончайших шелках!",
@@ -24028,6 +24028,81 @@
             {
                 "skillId": 96,
                 "level": 1
+            }
+        ]
+    },
+    {
+        "seriesId": 450,
+        "defense": 162,
+        "elementalResistances": {
+            "fire": 1,
+            "water": 1,
+            "thunder": 4,
+            "ice": 1,
+            "dragon": 1
+        },
+        "slots": [
+            2,
+            2
+        ],
+        "setSkills": [
+            216
+        ],
+        "id": 1045,
+        "order": 804,
+        "setGroup": 500,
+        "name": {
+            "jpn": "EX魔界ノ主【外套】 α",
+            "eng": "Demonlord Cloak α+",
+            "fre": "Manteau du roi-démon α+",
+            "spa": "Túnica endemoniada α+",
+            "ger": "Dämonenfürst-Umhang α+",
+            "ita": "Mantello signore oscuro α+",
+            "kor": "EX마계의 주인【외투】 α",
+            "cht": "精英·魔界之主【外套】 α",
+            "chs": "精英·魔界之主【外套】阿尔法",
+            "rus": "Плащ владыки демонов α+",
+            "pol": "Płaszcz władcy demon. α+",
+            "ptb": "Capote Demolorde α+",
+            "ara": "عباءة العفريت السيد α+"
+        },
+        "description": {
+            "jpn": "ホラーナイトチケットで作れる 胴防具。禍々しさと高貴さをあわせ 持つ者が【ホラーナイト】に降臨。",
+            "eng": "Requires a Fun Fright Ticket to craft. The fest welcomes the ominous, noble hunter.",
+            "fre": "Bienvenue au festival de l'étrange, noble chasseur. Ticket Terreur requis.",
+            "spa": "Crearla requiere un vale festival de miedo. El festival da la bienvenida al noble e intimidante cazador.",
+            "ger": "Benötigt zur Herstellung ein Spuk-Ticket. Unheilvolle Dinge suchen ihresgleichen...",
+            "ita": "Richiede un buono brivido brioso per essere forgiato. Il festival accoglie il nobile, infausto cacciatore.",
+            "kor": "호러나이트 티켓으로 만든 몸통  방어구.불길한 기운과 고귀함을 함께  갖춘 이가 【호러나이트】에 강림.",
+            "cht": "可使用驚魂夜票製作的身體防具。 散發不祥而華貴的氛圍， 讓持有者在【驚魂夜】霸氣登場。",
+            "chs": "可使用惊魂夜票制作的身体防具。 散发不祥而华贵的气氛， 让持有者在【惊魂夜】霸气登场。",
+            "rus": "Требуется билет веселой жути. <LSNR {Охотник}{Охотница}>, этот праздник посвящен всему зловещему.",
+            "pol": "Wykonanie wymaga kwitu Strasz. Zabawy. Zapraszamy złowieszcze osoby, szlachetny łowco.",
+            "ptb": "Exige um Bilhete Susto Animado para criar. O festival abraça caçadores nobres e sinistros.",
+            "ara": "يتطلب تذكرة الذعر الممتع للتصنيع. يُرحب الاحتفال بالصيّاد النبيل ذو نذير الشؤم."
+        },
+        "cost": 18000,
+        "gender": 3,
+        "rarity": 11,
+        "craft": [
+            {
+                "id": 2727,
+                "quantity": 1
+            },
+            {
+                "id": 1065,
+                "quantity": 1
+            },
+            {
+                "id": 1375,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 29,
+                "level": 3
             }
         ]
     },
@@ -24504,7 +24579,7 @@
             "ita": "Mantello di Namielle γ+",
             "kor": "EX텐터클메일 γ",
             "cht": "精英·觸角鎧甲 γ",
-            "chs": "精英·触角鎧甲伽马",
+            "chs": "精英·触角铠甲伽马",
             "rus": "Плащ щупалец γ+",
             "pol": "Zbroja z macek γ+",
             "ptb": "Capote de Tentáculo γ+",
@@ -24559,6 +24634,172 @@
         ]
     },
     {
+        "seriesId": 476,
+        "defense": 170,
+        "elementalResistances": {
+            "fire": 2,
+            "water": 2,
+            "thunder": 0,
+            "ice": 0,
+            "dragon": 3
+        },
+        "slots": [
+            4
+        ],
+        "setSkills": [
+            174
+        ],
+        "id": 1067,
+        "order": 807,
+        "setGroup": 526,
+        "name": {
+            "jpn": "EX蒼世ノ侍【羽織】 α",
+            "eng": "Azure Age Haori α+",
+            "fre": "Haori Âge d'azur α+",
+            "spa": "Haori Edad Celeste α+",
+            "ger": "Azurära-Haori α+",
+            "ita": "Haori epoca celeste α+",
+            "kor": "EX푸른빛무사【겉옷】 α",
+            "cht": "精英‧蒼世武士【羽織】 α",
+            "chs": "精英·苍世武士【羽织】阿尔法",
+            "rus": "Хаори лазурного воина α+",
+            "pol": "Haori Lazurowej Ery α+",
+            "ptb": "Haori Samurai Lazúli α+",
+            "ara": "هاوري عصر اللازوردي α+"
+        },
+        "description": {
+            "jpn": "蒼き星の煌めきを思わせる胴防具。 新たなる世界を夢見る野心家の 望みと決意が込められた羽織。",
+            "eng": "Armor that glitters like the azure star. A haori filled with the hopes and determination of a wild heart.",
+            "fre": "Armure brillante comme l'astre bleu. Le haori est empli de l'espoir et de la détermination d'un cœur sauvage.",
+            "spa": "Brilla como la estrella celeste. Un haori lleno de la resolución y esperanza de un corazón salvaje.",
+            "ger": "Ein Rüstungsteil, das wie der Azur- stern glitzert. Dieser Haori ist von den Hoffnungen des Herzens erfüllt.",
+            "ita": "Armatura che brilla come l'astro celeste. Un haori colmo delle speranze e la determinazione di un cuore selvaggio.",
+            "kor": "푸른 별빛을 연상시키는 몸통 방어구. 새로운 세계를 꿈꾸는 야심가의 소망과 결의가 담긴 겉옷.",
+            "cht": "讓人聯想到璀璨蒼藍星的身體防具。 懷抱新世界夢想的野心家， 在此彰顯企盼與決心。",
+            "chs": "让人联想到璀璨苍蓝星的身体防具。 怀抱新世界梦想的野心家， 在此彰显企盼与决心。",
+            "rus": "Сияющий как лазурная звезда доспех Хаори, вмещающий в себе надежды и решимость вольного сердца.",
+            "pol": "Pancerz lśniący niczym lazurowa gwiazda. Haori pełne nadziei i determinacji mężnego serca.",
+            "ptb": "Armadura que reluz como a estrela lazúli. Uma haori cheia de esperança e determinação.",
+            "ara": "درع يشعّ كنجم لازوردي. زي هاوري مليء بآمال وعزيمة القلب الجامح."
+        },
+        "cost": 24000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2720,
+                "quantity": 1
+            },
+            {
+                "id": 2701,
+                "quantity": 2
+            },
+            {
+                "id": 2703,
+                "quantity": 1
+            },
+            {
+                "id": 1347,
+                "quantity": 3
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 74,
+                "level": 2
+            },
+            {
+                "skillId": 52,
+                "level": 1
+            }
+        ]
+    },
+    {
+        "seriesId": 477,
+        "defense": 180,
+        "elementalResistances": {
+            "fire": -3,
+            "water": 2,
+            "thunder": -1,
+            "ice": 4,
+            "dragon": -1
+        },
+        "slots": [
+            4,
+            2,
+            1
+        ],
+        "setSkills": [
+            178
+        ],
+        "id": 1068,
+        "order": 618,
+        "setGroup": 527,
+        "name": {
+            "jpn": "EXラヴィーナメイル γ",
+            "eng": "Rimeguard Mail γ+",
+            "fre": "Cotte Velkhana γ+",
+            "spa": "Cota de escarcha γ+",
+            "ger": "Velkhana-Panzerung γ+",
+            "ita": "Cotta di Velkhana γ+",
+            "kor": "EX라비나메일 γ",
+            "cht": "精英‧雪崩鎧甲 γ",
+            "chs": "精英·雪崩铠甲伽马",
+            "rus": "Порубежный доспех γ+",
+            "pol": "Szronowa zbroja γ+",
+            "ptb": "Armadura Geadefesa γ+",
+            "ara": "درع حارس الصقيع γ+"
+        },
+        "description": {
+            "jpn": "イヴェルカーナの特別な胴防具。 歴戦の個体となったモンスターの ただならぬ力を刻んだ極上の装備。",
+            "eng": "Uniquely crafted Velkhana armor. The immeasurable strength of a tempered monster dwells within.",
+            "fre": "Armure unique Velkhana. Renferme la force incalculable d'un monstre alpha.",
+            "spa": "Armadura de Velkhana de artesanía única. Contiene la fuerza inconcebible de un monstruo curtido.",
+            "ger": "Einzigartiges Velkhana-Rüstungs- teil. Die unmessbare Kraft eines Gehärteten Monsters wohnt darin.",
+            "ita": "Armatura unica di Velkhana. Racchiude l'enorme potere di un mostro temprato.",
+            "kor": "이베르카나의 특별한 몸통 방어구. 역전의 개체가 된 몬스터의 예사롭지 않은 힘을 새긴 최고급 장비.",
+            "cht": "冰呪龍的特別身體防具。 魔物化作歷戰個體後， 其超常力量融入其中的極致裝備。",
+            "chs": "冰呪龙的特别身体防具。 怪物化作历战个体后， 其超常力量融入其中的极致装备。",
+            "rus": "Уникальные доспехи велханы, вобравшие в себя непревзойденную мощь закаленного чудовища.",
+            "pol": "Kunsztownie wykonany pancerz z Velkhana. Drzemie w nim wielka moc ujarzmionego potwora.",
+            "ptb": "Armadura de Velkhana única. Impregnada com o poder único de um monstro aguerrido.",
+            "ara": "درع فيلكانا مصنوع بشكل فريد. مُشبع بقوة لا تضاهى تخص وحشًا غاضبًا."
+        },
+        "cost": 24000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2681,
+                "quantity": 1
+            },
+            {
+                "id": 1348,
+                "quantity": 5
+            },
+            {
+                "id": 1349,
+                "quantity": 6
+            },
+            {
+                "id": 1353,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 55,
+                "level": 3
+            },
+            {
+                "skillId": 32,
+                "level": 3
+            }
+        ]
+    },
+    {
         "seriesId": 478,
         "defense": 162,
         "elementalResistances": {
@@ -24587,7 +24828,7 @@
             "ita": "Cotta assiderata α+",
             "kor": "EX오르문그메일 α",
             "cht": "精英·霜刃冰牙龍鎧甲 α",
-            "chs": "精英·霜刃冰牙龙鎧甲阿尔法",
+            "chs": "精英·霜刃冰牙龙铠甲阿尔法",
             "rus": "Доспех ледозубого α+",
             "pol": "Zbroja z Mrozokła α+",
             "ptb": "Armadura de Presagélida α+",
@@ -24670,7 +24911,7 @@
             "ita": "Cotta assiderata β+",
             "kor": "EX오르문그메일 β",
             "cht": "精英·霜刃冰牙龍鎧甲 β",
-            "chs": "精英·霜刃冰牙龙鎧甲贝塔",
+            "chs": "精英·霜刃冰牙龙铠甲贝塔",
             "rus": "Доспех ледозубого β+",
             "pol": "Zbroja z Mrozokła β+",
             "ptb": "Armadura de Presagélida β+",
@@ -24717,6 +24958,174 @@
             {
                 "skillId": 19,
                 "level": 3
+            }
+        ]
+    },
+    {
+        "seriesId": 480,
+        "defense": 180,
+        "elementalResistances": {
+            "fire": -1,
+            "water": 2,
+            "thunder": 2,
+            "ice": 0,
+            "dragon": -4
+        },
+        "slots": [
+            4,
+            4,
+            3
+        ],
+        "setSkills": [
+            222
+        ],
+        "id": 1071,
+        "order": 614,
+        "setGroup": 530,
+        "name": {
+            "jpn": "EXドラゴンハイド α",
+            "eng": "Dragonhide α+",
+            "fre": "Peau de dragon α+",
+            "spa": "Coraza de dragón α+",
+            "ger": "Drachenlederhaut α+",
+            "ita": "Pelle di drago α+",
+            "kor": "EX드래곤하이드 α",
+            "cht": "精英‧龍皮 α",
+            "chs": "精英·龙皮阿尔法",
+            "rus": "Шкура дракона α+",
+            "pol": "Smocza skóra α+",
+            "ptb": "Couro de Dragão α+",
+            "ara": "جلد تنين α+"
+        },
+        "description": {
+            "jpn": "ミラボレアスの胴防具。 黒龍の鼓動が感じられ、身につけた 多くの者が悪夢を見るという。",
+            "eng": "Armor forged from Fatalis parts. Those who wear it are said to have terrible nightmares.",
+            "fre": "Armure Fatalis. Son porteur est hanté par de terrifiants cauchemars.",
+            "spa": "Forjada con partes de Fatalis. Se dice que quienes la llevan sufren de terribles pesadillas.",
+            "ger": "Ein aus Fatalis-Materialien geschmiedetes Rüstungsteil. Es soll Albträume verursachen.",
+            "ita": "Armatura forgiata da parti di Fatalis. Chi la indossa viene tormentato da terribili incubi.",
+            "kor": "밀라보레아스의 몸통 방어구. 흑룡의 고동이 느껴진다. 몸에 걸쳤던  많은 자가 악몽을 꾼다고 한다.",
+            "cht": "黑龍的身體防具。 可以感受到黑龍的鼓動， 據說穿上身會讓人作惡夢。",
+            "chs": "黑龙的身体防具。 可以感受到黑龙的鼓动， 据说穿上身会让人作恶梦。",
+            "rus": "Доспех, созданный из частей Фаталиса. Облачившегося в него воина мучают кошмарные сны.",
+            "pol": "Pancerz wykonany z części Fatalisa. Podobno ci, którzy go noszą, mają straszne koszmary.",
+            "ptb": "Armadura feita de partes de Fatalis. Dizem que dá pesadelos terríveis a quem usa.",
+            "ara": "درع صُنع من أجزاء فاتاليس. يُقال إن من يرتدونه تراودهم كوابيس مفزعة."
+        },
+        "cost": 36000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2757,
+                "quantity": 3
+            },
+            {
+                "id": 2758,
+                "quantity": 3
+            },
+            {
+                "id": 2760,
+                "quantity": 2
+            },
+            {
+                "id": 1408,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 50,
+                "level": 1
+            },
+            {
+                "skillId": 78,
+                "level": 2
+            }
+        ]
+    },
+    {
+        "seriesId": 481,
+        "defense": 180,
+        "elementalResistances": {
+            "fire": -1,
+            "water": 2,
+            "thunder": 2,
+            "ice": 0,
+            "dragon": -4
+        },
+        "slots": [
+            4,
+            4,
+            4
+        ],
+        "setSkills": [
+            222
+        ],
+        "id": 1072,
+        "order": 615,
+        "setGroup": 531,
+        "name": {
+            "jpn": "EXドラゴンハイド β",
+            "eng": "Dragonhide β+",
+            "fre": "Peau de dragon β+",
+            "spa": "Coraza de dragón β+",
+            "ger": "Drachenlederhaut β+",
+            "ita": "Pelle di drago β+",
+            "kor": "EX드래곤하이드 β",
+            "cht": "精英‧龍皮 β",
+            "chs": "精英·龙皮贝塔",
+            "rus": "Шкура дракона β+",
+            "pol": "Smocza skóra β+",
+            "ptb": "Couro de Dragão β+",
+            "ara": "جلد تنين β+"
+        },
+        "description": {
+            "jpn": "ミラボレアスの胴防具。 黒龍の鼓動が感じられ、身につけた 多くの者が悪夢を見るという。",
+            "eng": "Armor forged from Fatalis parts. Those who wear it are said to have terrible nightmares.",
+            "fre": "Armure Fatalis. Son porteur est hanté par de terrifiants cauchemars.",
+            "spa": "Forjada con partes de Fatalis. Se dice que quienes la llevan sufren de terribles pesadillas.",
+            "ger": "Ein aus Fatalis-Materialien geschmiedetes Rüstungsteil. Es soll Albträume verursachen.",
+            "ita": "Armatura forgiata da parti di Fatalis. Chi la indossa viene tormentato da terribili incubi.",
+            "kor": "밀라보레아스의 몸통 방어구. 흑룡의 고동이 느껴진다. 몸에 걸쳤던  많은 자가 악몽을 꾼다고 한다.",
+            "cht": "黑龍的身體防具。 可以感受到黑龍的鼓動， 據說穿上身會讓人作惡夢。",
+            "chs": "黑龙的身体防具。 可以感受到黑龙的鼓动， 据说穿上身会让人作恶梦。",
+            "rus": "Доспех, созданный из частей Фаталиса. Облачившегося в него воина мучают кошмарные сны.",
+            "pol": "Pancerz wykonany z części Fatalisa. Podobno ci, którzy go noszą, mają straszne koszmary.",
+            "ptb": "Armadura feita de partes de Fatalis. Dizem que dá pesadelos terríveis a quem usa.",
+            "ara": "درع صُنع من أجزاء فاتاليس. يُقال إن من يرتدونه تراودهم كوابيس مفزعة."
+        },
+        "cost": 36000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2757,
+                "quantity": 3
+            },
+            {
+                "id": 2758,
+                "quantity": 3
+            },
+            {
+                "id": 2760,
+                "quantity": 2
+            },
+            {
+                "id": 1408,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 50,
+                "level": 1
+            },
+            {
+                "skillId": 78,
+                "level": 1
             }
         ]
     }

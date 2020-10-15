@@ -2556,6 +2556,42 @@
         }
     },
     {
+        "id": 155,
+        "name": {
+            "jpn": "【リュウ】衣装",
+            "eng": "Ryu",
+            "fre": "Ryu",
+            "spa": "Ryu",
+            "ger": "Ryu",
+            "ita": "Ryu",
+            "kor": "【Ryu】의상",
+            "cht": "【RYU】服裝",
+            "chs": "【隆】服装",
+            "rus": "Ryu",
+            "pol": "Ryu",
+            "ptb": "Ryu",
+            "ara": "Ryu"
+        }
+    },
+    {
+        "id": 156,
+        "name": {
+            "jpn": "【さくら】衣装",
+            "eng": "Sakura",
+            "fre": "Sakura",
+            "spa": "Sakura",
+            "ger": "Sakura",
+            "ita": "Sakura",
+            "kor": "【Sakura】 의상",
+            "cht": "【SAKURA】服裝",
+            "chs": "【樱】服装",
+            "rus": "Sakura",
+            "pol": "Sakury",
+            "ptb": "Sakura",
+            "ara": "Sakura"
+        }
+    },
+    {
         "id": 157,
         "name": {
             "jpn": "暁ノ武士【寂】",
@@ -3474,6 +3510,60 @@
         }
     },
     {
+        "id": 216,
+        "name": {
+            "jpn": "リュウ",
+            "eng": "Ryu",
+            "fre": "Ryu",
+            "spa": "Ryu",
+            "ger": "Ryu",
+            "ita": "Ryu",
+            "kor": "Ryu",
+            "cht": "RYU",
+            "chs": "隆",
+            "rus": "Ryu",
+            "pol": "Ryu",
+            "ptb": "Ryu",
+            "ara": "Ryu"
+        }
+    },
+    {
+        "id": 217,
+        "name": {
+            "jpn": "リュウ α",
+            "eng": "Ryu α",
+            "fre": "Ryu α",
+            "spa": "Ryu α",
+            "ger": "Ryu α",
+            "ita": "Ryu α",
+            "kor": "Ryu α",
+            "cht": "RYU α",
+            "chs": "隆阿尔法",
+            "rus": "Ryu α",
+            "pol": "Ryu α",
+            "ptb": "Ryu α",
+            "ara": "Ryu α"
+        }
+    },
+    {
+        "id": 218,
+        "name": {
+            "jpn": "さくら α",
+            "eng": "Sakura α",
+            "fre": "Sakura α",
+            "spa": "Sakura α",
+            "ger": "Sakura α",
+            "ita": "Sakura α",
+            "kor": "Sakura α",
+            "cht": "SAKURA α",
+            "chs": "樱阿尔法",
+            "rus": "Sakura α",
+            "pol": "Sakury α",
+            "ptb": "Sakura α",
+            "ara": "Sakura α"
+        }
+    },
+    {
         "id": 219,
         "name": {
             "jpn": "蒼星ノ将 α",
@@ -4003,7 +4093,7 @@
             "fre": "Loup blanc",
             "spa": "Lobo blanco+",
             "ger": "Schreckenswolf+",
-            "ita": "Stile del lupo bianco",
+            "ita": "Lupo bianco",
             "kor": "【우르파】의상",
             "cht": "【冰狼】服裝",
             "chs": "【冰狼】服装",
@@ -5137,7 +5227,7 @@
             "fre": "Cuir",
             "spa": "Cuero",
             "ger": "Leder",
-            "ita": "Stile armatura cuoio",
+            "ita": "Cuoio",
             "kor": "【레더】의상",
             "cht": "【皮製】服裝",
             "chs": "【皮制】服装",
@@ -5155,7 +5245,7 @@
             "fre": "Mailles",
             "spa": "Malla",
             "ger": "Ketten",
-            "ita": "Stile armatura maglia",
+            "ita": "Maglia",
             "kor": "【체인】의상",
             "cht": "【鎖甲】服裝",
             "chs": "【锁甲】服装",
@@ -5173,7 +5263,7 @@
             "fre": "Chasseur α",
             "spa": "Cazador α",
             "ger": "Jäger- α",
-            "ita": "Stile armatura cacciatore α",
+            "ita": "Cacciatore α",
             "kor": "【헌터 α】의상",
             "cht": "【獵人 α】服裝",
             "chs": "【猎人阿尔法】服装",
@@ -5191,7 +5281,7 @@
             "fre": "Chasseur β",
             "spa": "Cazador β",
             "ger": "Jäger- β",
-            "ita": "Stile armatura cacciatore β",
+            "ita": "Cacciatore β",
             "kor": "【헌터 β】의상",
             "cht": "【獵人 β】服裝",
             "chs": "【猎人贝塔】服装",
@@ -5209,7 +5299,7 @@
             "fre": "Os",
             "spa": "Hueso",
             "ger": "Knochen",
-            "ita": "Stile armatura d'osso",
+            "ita": "Osso",
             "kor": "【본】의상",
             "cht": "【骨製】服裝",
             "chs": "【骨制】服装",
@@ -5227,7 +5317,7 @@
             "fre": "Alliage",
             "spa": "Aleación",
             "ger": "Legierungs",
-            "ita": "Stile armatura in lega",
+            "ita": "Lega",
             "kor": "【얼로이】의상",
             "cht": "【合金】服裝",
             "chs": "【合金】服装",
@@ -5245,7 +5335,7 @@
             "fre": "Vespoid",
             "spa": "Vespoid",
             "ger": "Vespoid",
-            "ita": "Stile armatura Vespoid",
+            "ita": "Vespoid",
             "kor": "【랑고】의상",
             "cht": "【巨蜂】服裝",
             "chs": "【巨蜂】服装",
@@ -5263,7 +5353,7 @@
             "fre": "Hornetaur",
             "spa": "Hornetaur",
             "ger": "Hornetaur",
-            "ita": "Stile armatura Hornetaur",
+            "ita": "Hornetaur",
             "kor": "【타로스】의상",
             "cht": "【巨甲】服裝",
             "chs": "【巨甲】服装",
@@ -5281,7 +5371,7 @@
             "fre": "Kestodon",
             "spa": "Kestodon",
             "ger": "Kestodon",
-            "ita": "Stile armatura Kestodon",
+            "ita": "Kestodon",
             "kor": "【케스토】의상",
             "cht": "【冠突龍】服裝",
             "chs": "【冠突龙】服装",
@@ -5299,7 +5389,7 @@
             "fre": "Gajau",
             "spa": "Gajau",
             "ger": "Gajau",
-            "ita": "Stile armatura Gajau",
+            "ita": "Gajau",
             "kor": "【가쟈우】의상",
             "cht": "【咬魚】服裝",
             "chs": "【咬鱼】服装",
@@ -5335,7 +5425,7 @@
             "fre": "Shamos",
             "spa": "Shamos",
             "ger": "Shamos",
-            "ita": "Stile armatura Shamos",
+            "ita": "Shamos",
             "kor": "【샤무】의상",
             "cht": "【貓蜥龍】服裝",
             "chs": "【猫蜥龙】服装",
@@ -5839,7 +5929,7 @@
             "fre": "Jagras",
             "spa": "Jagras",
             "ger": "Jagras",
-            "ita": "Stile armatura Jagras",
+            "ita": "Jagras",
             "kor": "【쟈그라스】의상",
             "cht": "【凶豺龍】服裝",
             "chs": "【贼龙】服装",
@@ -5857,7 +5947,7 @@
             "fre": "Kulu-Ya-Ku",
             "spa": "Kulu",
             "ger": "Kulu-Ya-Ku",
-            "ita": "Stile armatura Kulu-Ya-Ku",
+            "ita": "Kulu-Ya-Ku",
             "kor": "【쿠루루】의상",
             "cht": "【搔鳥】服裝",
             "chs": "【搔鸟】服装",
@@ -5911,7 +6001,7 @@
             "fre": "Cache-œil Roi-dragon",
             "spa": "Parche rey dragón",
             "ger": "Drachenkönig-Augenklappe",
-            "ita": "Stile benda del re drago",
+            "ita": "Benda del re drago",
             "kor": "【용왕의 척안】의상",
             "cht": "【龍王的獨眼】服裝",
             "chs": "【龙王的独眼】服装",
@@ -5929,7 +6019,7 @@
             "fre": "Lunettes de stratège",
             "spa": "Lentes de estratega",
             "ger": "Strategiker-Brille",
-            "ita": "Stile occhiali da stratega",
+            "ita": "Occhiali da stratega",
             "kor": "【지략의 안경】의상",
             "cht": "【知性眼鏡】服裝",
             "chs": "【知性眼镜】服装",
@@ -5947,7 +6037,7 @@
             "fre": "Plume destructrice",
             "spa": "Pluma pulverizante",
             "ger": "Pulverisierungs-Feder",
-            "ita": "Stile piuma polverizzante",
+            "ita": "Piuma polverizzante",
             "kor": "【깃털장식】의상",
             "cht": "【羽毛裝飾】服裝",
             "chs": "【羽毛装饰】服装",
@@ -5965,7 +6055,7 @@
             "fre": "Tzitzi-Ya-Ku",
             "spa": "Tzitzi",
             "ger": "Tzitzi-Ya-Ku",
-            "ita": "Stile armatura Tzitzi-Ya-Ku",
+            "ita": "Tzitzi-Ya-Ku",
             "kor": "【치치】의상",
             "cht": "【眩鳥】服裝",
             "chs": "【眩鸟】服装",
@@ -5983,7 +6073,7 @@
             "fre": "Grand Girros",
             "spa": "Girros",
             "ger": "Groß-Girros",
-            "ita": "Stile armatura Gran Girros",
+            "ita": "Gran Girros",
             "kor": "【기르오스】의상",
             "cht": "【凶顎龍】服裝",
             "chs": "【痹贼龙】服装",
@@ -6210,6 +6300,24 @@
         }
     },
     {
+        "id": 375,
+        "name": {
+            "jpn": "【スカルスカーフ】衣装",
+            "eng": "Skull Scarf",
+            "fre": "Foulard tête de mort",
+            "spa": "Pañuelo calavera",
+            "ger": "Schädelbandana",
+            "ita": "Bandana con teschio",
+            "kor": "【스컬스카프】의상",
+            "cht": "【骷髏領巾】服裝",
+            "chs": "【骷髅方巾】服装",
+            "rus": "Шарф черепа",
+            "pol": "Szal czaszki",
+            "ptb": "Echarpe Craniana",
+            "ara": "وشاح الجمجمة"
+        }
+    },
+    {
         "id": 376,
         "name": {
             "jpn": "【プケプケ α】衣装",
@@ -6217,7 +6325,7 @@
             "fre": "Pukei-Pukei α",
             "spa": "Pukei α",
             "ger": "Pukei-Pukei- α",
-            "ita": "Stile armatura Pukei-Pukei α",
+            "ita": "Pukei-Pukei α",
             "kor": "【푸케푸케 α】의상",
             "cht": "【毒妖鳥 α】服裝",
             "chs": "【毒妖鸟阿尔法】服装",
@@ -6235,7 +6343,7 @@
             "fre": "Pukei-Pukei β",
             "spa": "Pukei β",
             "ger": "Pukei-Pukei- β",
-            "ita": "Stile armatura Pukei-Pukei β",
+            "ita": "Pukei-Pukei β",
             "kor": "【푸케푸케 β】의상",
             "cht": "【毒妖鳥 β】服裝",
             "chs": "【毒妖鸟贝塔】服装",
@@ -6570,6 +6678,24 @@
         }
     },
     {
+        "id": 396,
+        "name": {
+            "jpn": "【アークロック α】衣装",
+            "eng": "Clockwork α+",
+            "fre": "Steampunk α+",
+            "spa": "Mecánico α+",
+            "ger": "Steampunk α+",
+            "ita": "Vapore",
+            "kor": "【아크로크 α】의상",
+            "cht": "【蒸汽貴族 α】服裝",
+            "chs": "【蒸汽贵族阿尔法】服装",
+            "rus": "Часовые α+",
+            "pol": "Zegarowy α+",
+            "ptb": "Mecânico α+",
+            "ara": "تروس α+"
+        }
+    },
+    {
         "id": 397,
         "name": {
             "jpn": "【ボロス】衣装",
@@ -6577,7 +6703,7 @@
             "fre": "Barroth",
             "spa": "Barroth",
             "ger": "Barroth",
-            "ita": "Stile armatura Barroth",
+            "ita": "Barroth",
             "kor": "【보로스】의상",
             "cht": "【土砂龍】服裝",
             "chs": "【土砂龙】服装",
@@ -6667,7 +6793,7 @@
             "fre": "Boucle de cristal",
             "spa": "Cristal colgante",
             "ger": "Kristallohrring",
-            "ita": "Stile orecchino di cristallo",
+            "ita": "Orecchino di cristallo",
             "kor": "【수정피어스】의상",
             "cht": "【水晶耳環】服裝",
             "chs": "【水晶耳环】服装",
@@ -6793,7 +6919,7 @@
             "fre": "Anjanath α",
             "spa": "Anja α",
             "ger": "Anjanath- α",
-            "ita": "Stile armatura Anjanath α",
+            "ita": "Anjanath α",
             "kor": "【쟈나프 α】의상",
             "cht": "【蠻顎龍 α】服裝",
             "chs": "【蛮颚龙阿尔法】服装",
@@ -6811,7 +6937,7 @@
             "fre": "Anjanath β",
             "spa": "Anja β",
             "ger": "Anjanath- β",
-            "ita": "Stile armatura Anjanath β",
+            "ita": "Anjanath β",
             "kor": "【쟈나프 β】의상",
             "cht": "【蠻顎龍 β】服裝",
             "chs": "【蛮颚龙贝塔】服装",
@@ -6937,7 +7063,7 @@
             "fre": "Jyuratodus",
             "spa": "Jyura",
             "ger": "Jyuratodus",
-            "ita": "Stile armatura Jyuratodus",
+            "ita": "Jyuratodus",
             "kor": "【쥬라】의상",
             "cht": "【泥魚龍】服裝",
             "chs": "【泥鱼龙】服装",
@@ -6955,7 +7081,7 @@
             "fre": "Tobi-Kadachi",
             "spa": "Kadachi",
             "ger": "Tobi-Kadachi",
-            "ita": "Stile armatura Tobi-Kadachi",
+            "ita": "Tobi-Kadachi",
             "kor": "【카가치】의상",
             "cht": "【飛雷龍】服裝",
             "chs": "【飞雷龙】服装",
@@ -7459,7 +7585,7 @@
             "fre": "Paolumu",
             "spa": "Lumu",
             "ger": "Paolumu",
-            "ita": "Stile armatura Paolumu",
+            "ita": "Paolumu",
             "kor": "【우르무】의상",
             "cht": "【浮空龍】服裝",
             "chs": "【浮空龙】服装",
@@ -7495,7 +7621,7 @@
             "fre": "Rathian α",
             "spa": "Rathian α",
             "ger": "Rathian- α",
-            "ita": "Stile armatura Rathian α",
+            "ita": "Rathian α",
             "kor": "【레이아 α】의상",
             "cht": "【雌火龍 α】服裝",
             "chs": "【雌火龙阿尔法】服装",
@@ -7506,6 +7632,24 @@
         }
     },
     {
+        "id": 450,
+        "name": {
+            "jpn": "EX魔界ノ主 α",
+            "eng": "Demonlord α+",
+            "fre": "Roi-démon α+",
+            "spa": "Endemoniado α+",
+            "ger": "Dämonenfürst-Set α+",
+            "ita": "Signore oscuro α+",
+            "kor": "EX마계의 주인 α",
+            "cht": "精英·魔界之主 α",
+            "chs": "精英·魔界之主阿尔法",
+            "rus": "Владыка демонов α+",
+            "pol": "Władcy demonów α+",
+            "ptb": "Demolorde α+",
+            "ara": "العفريت السيد α+"
+        }
+    },
+    {
         "id": 451,
         "name": {
             "jpn": "【レイア β】衣装",
@@ -7513,7 +7657,7 @@
             "fre": "Rathian β",
             "spa": "Rathian β",
             "ger": "Rathian- β",
-            "ita": "Stile armatura Rathian β",
+            "ita": "Rathian β",
             "kor": "【레이아 β】의상",
             "cht": "【雌火龍 β】服裝",
             "chs": "【雌火龙贝塔】服装",
@@ -7549,7 +7693,7 @@
             "fre": "Radobaan α",
             "spa": "Radobaan α",
             "ger": "Radobaan- α",
-            "ita": "Stile armatura Radobaan α",
+            "ita": "Radobaan α",
             "kor": "【발킨 α】의상",
             "cht": "【骨鎚龍 α】服裝",
             "chs": "【骨锤龙阿尔法】服装",
@@ -7585,7 +7729,7 @@
             "fre": "Radobaan β",
             "spa": "Radobaan β",
             "ger": "Radobaan- β",
-            "ita": "Stile armatura Radobaan β",
+            "ita": "Radobaan β",
             "kor": "【발킨 β】의상",
             "cht": "【骨鎚龍 β】服裝",
             "chs": "【骨锤龙贝塔】服装",
@@ -7632,6 +7776,24 @@
         }
     },
     {
+        "id": 458,
+        "name": {
+            "jpn": "【魔界ノ主】衣装",
+            "eng": "Demonlord",
+            "fre": "Roi-démon",
+            "spa": "Endemoniado",
+            "ger": "Dämonenfürst",
+            "ita": "Signore oscuro",
+            "kor": "【마계의 주인】의상",
+            "cht": "【魔界之主】服裝",
+            "chs": "【魔界之主】服装",
+            "rus": "Владыка демонов",
+            "pol": "Władca demonów",
+            "ptb": "Demolorde",
+            "ara": "العفريت السيد"
+        }
+    },
+    {
         "id": 459,
         "name": {
             "jpn": "【ウーロン】衣装",
@@ -7675,7 +7837,7 @@
             "fre": "Haut-métal",
             "spa": "Megametal",
             "ger": "Hochmetall",
-            "ita": "Stile armatura in ipermetallo",
+            "ita": "Ipermetallo",
             "kor": "【하이메탈】의상",
             "cht": "【礦石】服裝",
             "chs": "【矿石】服装",
@@ -7711,7 +7873,7 @@
             "fre": "Oreilles de lapin",
             "spa": "Diadema liebre",
             "ger": "Hasen-Haarreif",
-            "ita": "Stile armatura lepre pilota",
+            "ita": "Lepre pilota",
             "kor": "【토끼귀】의상",
             "cht": "【兔耳朵】服裝",
             "chs": "【兔耳朵】服装",
@@ -7730,7 +7892,7 @@
             "spa": "Carrao algodón",
             "ger": "Flauschhuhn",
             "ita": "Rallus mollis",
-            "kor": "【폭신폭신 뜸부기】 의상",
+            "kor": "【폭신폭신 뜸부기】의상",
             "cht": "【柔毛秧雞】服裝",
             "chs": "【柔毛秧鸡】服装",
             "rus": "Пуховый коростель",
@@ -7755,6 +7917,24 @@
             "pol": "Perłowy α+",
             "ptb": "Fonte-pérola α+",
             "ara": "ينبوع اللؤلؤ α+"
+        }
+    },
+    {
+        "id": 466,
+        "name": {
+            "jpn": "【カガチのエリマキ】衣装",
+            "eng": "Kadachi Scarf",
+            "fre": "Écharpe Kadachi",
+            "spa": "Bufanda Kadachi",
+            "ger": "Kadachi-Stola",
+            "ita": "Sciarpa di Kadachi",
+            "kor": "【카가치의목도리】의상",
+            "cht": "【飛雷龍圍巾】服裝",
+            "chs": "【飞雷龙围巾】服装",
+            "rus": "Шарф кадачи",
+            "pol": "Szal z Kadachi",
+            "ptb": "Echarpe de Kadachi",
+            "ara": "وشاح كاداتشي"
         }
     },
     {
@@ -7884,6 +8064,60 @@
         }
     },
     {
+        "id": 475,
+        "name": {
+            "jpn": "【蒼星ノ将】衣装",
+            "eng": "Azure Starlord",
+            "fre": "Paladin des étoiles",
+            "spa": "Rey celestial",
+            "ger": "Azurstern-Gebieter",
+            "ita": "Sommo celeste",
+            "kor": "【파란별 장군】의상",
+            "cht": "【蒼星之將】服裝",
+            "chs": "【苍星之将】服装",
+            "rus": "Лазурный звездный лорд",
+            "pol": "Pan Lazurowej Gwiazdy",
+            "ptb": "Senhor Estelar Lazúli",
+            "ara": "سيد نجوم لازوردي"
+        }
+    },
+    {
+        "id": 476,
+        "name": {
+            "jpn": "EX蒼世ノ侍 α",
+            "eng": "Azure Age α+",
+            "fre": "Âge d'azur α+",
+            "spa": "Edad Celeste α+",
+            "ger": "Azurära-Set α+",
+            "ita": "Epoca celeste α+",
+            "kor": "EX푸른빛무사 α",
+            "cht": "精英‧蒼世武士 α",
+            "chs": "精英·苍世武士阿尔法",
+            "rus": "Лазурный воин α+",
+            "pol": "Lazurowa Ery α+",
+            "ptb": "Samurai Lazúli α+",
+            "ara": "عصر اللازوردي α+"
+        }
+    },
+    {
+        "id": 477,
+        "name": {
+            "jpn": "EXラヴィーナ γ",
+            "eng": "Velkhana γ+",
+            "fre": "Velkhana γ+",
+            "spa": "Velkhana γ+",
+            "ger": "Velkhana-Set γ+",
+            "ita": "Velkhana γ+",
+            "kor": "EX라비나 γ",
+            "cht": "精英‧雪崩 γ",
+            "chs": "精英·雪崩伽马",
+            "rus": "Велхана γ+",
+            "pol": "Velkhana γ+",
+            "ptb": "Velkhana γ+",
+            "ara": "فيلكانا γ+"
+        }
+    },
+    {
         "id": 478,
         "name": {
             "jpn": "EXオルムング α",
@@ -7920,6 +8154,42 @@
         }
     },
     {
+        "id": 480,
+        "name": {
+            "jpn": "EXドラゴン α",
+            "eng": "Fatalis α+",
+            "fre": "Fatalis α+",
+            "spa": "Fatalis α+",
+            "ger": "Fatalis-Set α+",
+            "ita": "Fatalis α+",
+            "kor": "EX드래곤 α",
+            "cht": "精英‧龍 α",
+            "chs": "精英·龙阿尔法",
+            "rus": "Фаталис α+",
+            "pol": "Fatalis α+",
+            "ptb": "Fatalis α+",
+            "ara": "فاتاليس α+"
+        }
+    },
+    {
+        "id": 481,
+        "name": {
+            "jpn": "EXドラゴン β",
+            "eng": "Fatalis β+",
+            "fre": "Fatalis β+",
+            "spa": "Fatalis β+",
+            "ger": "Fatalis-Set β+",
+            "ita": "Fatalis β+",
+            "kor": "EX드래곤 β",
+            "cht": "精英‧龍 β",
+            "chs": "精英·龙贝塔",
+            "rus": "Фаталис β+",
+            "pol": "Fatalis β+",
+            "ptb": "Fatalis β+",
+            "ara": "فاتاليس β+"
+        }
+    },
+    {
         "id": 484,
         "name": {
             "jpn": "EXレオン α",
@@ -7953,6 +8223,42 @@
             "pol": "Claire α+",
             "ptb": "Claire α+",
             "ara": "كلير α+"
+        }
+    },
+    {
+        "id": 486,
+        "name": {
+            "jpn": "【レオン】衣装",
+            "eng": "Leon+",
+            "fre": "Leon +",
+            "spa": "Leon+",
+            "ger": "Leon+",
+            "ita": "Leon+",
+            "kor": "【레온】의상",
+            "cht": "【里昂】服裝",
+            "chs": "【里昂】服装",
+            "rus": "Леон+",
+            "pol": "Leon+",
+            "ptb": "Leon+",
+            "ara": "ليون+"
+        }
+    },
+    {
+        "id": 487,
+        "name": {
+            "jpn": "【クレア】衣装",
+            "eng": "Claire+",
+            "fre": "Claire +",
+            "spa": "Claire+",
+            "ger": "Claire+",
+            "ita": "Claire+",
+            "kor": "【클레어】의상",
+            "cht": "【克蕾兒】服裝",
+            "chs": "【克莱尔】服装",
+            "rus": "Клэр+",
+            "pol": "Claire+",
+            "ptb": "Claire+",
+            "ara": "كلير+"
         }
     },
     {
@@ -8938,7 +9244,7 @@
             "ita": "Kulve α",
             "kor": "【맘가이라 α】의상",
             "cht": "【絢輝龍鎧羅 α】服裝",
-            "chs": "【绚辉龙鎧罗阿尔法】服装",
+            "chs": "【绚辉龙铠罗阿尔法】服装",
             "rus": "Кулве α",
             "pol": "Kulve α",
             "ptb": "Kulve α",
@@ -8956,7 +9262,7 @@
             "ita": "Kulve β",
             "kor": "【맘가이라 β】의상",
             "cht": "【絢輝龍鎧羅 β】服裝",
-            "chs": "【绚辉龙鎧罗贝塔】服装",
+            "chs": "【绚辉龙铠罗贝塔】服装",
             "rus": "Кулве β",
             "pol": "Kulve β",
             "ptb": "Kulve β",
@@ -8974,7 +9280,7 @@
             "ita": "Kulve γ",
             "kor": "【맘가이라 γ】의상",
             "cht": "【絢輝龍鎧羅 γ】服裝",
-            "chs": "【绚辉龙鎧罗伽马】服装",
+            "chs": "【绚辉龙铠罗伽马】服装",
             "rus": "Кулве γ",
             "pol": "Kulve γ",
             "ptb": "Kulve γ",
@@ -8989,7 +9295,7 @@
             "fre": "Gardien",
             "spa": "Vigilante",
             "ger": "Wächter",
-            "ita": "Stile armatura guardiano",
+            "ita": "Guardiano",
             "kor": "【가디언】의상",
             "cht": "【守護者】服裝",
             "chs": "【守护者】服装",
@@ -9000,6 +9306,528 @@
         }
     },
     {
+        "id": 546,
+        "name": {
+            "jpn": "【EXランゴ】衣装",
+            "eng": "Vespoid+",
+            "fre": "Vespoid +",
+            "spa": "Vespoid+",
+            "ger": "Vespoid+",
+            "ita": "Vespoid+",
+            "kor": "【EX랑고】의상",
+            "cht": "【精英·巨蜂】服裝",
+            "chs": "【精英·巨蜂】服装",
+            "rus": "Осоид+",
+            "pol": "Vespoid+",
+            "ptb": "Vespoidea+",
+            "ara": "فيسبويد+"
+        }
+    },
+    {
+        "id": 547,
+        "name": {
+            "jpn": "【EXタロス】衣装",
+            "eng": "Hornetaur+",
+            "fre": "Hornetaur +",
+            "spa": "Hornetaur+",
+            "ger": "Hornetaur+",
+            "ita": "Hornetaur+",
+            "kor": "【EX타로스】의상",
+            "cht": "【精英·巨甲蟲】服裝",
+            "chs": "【精英·巨甲虫】服装",
+            "rus": "Роготавр+",
+            "pol": "Hornetaur+",
+            "ptb": "Chifrotauro+",
+            "ara": "هورنتور+"
+        }
+    },
+    {
+        "id": 548,
+        "name": {
+            "jpn": "【EXウルグ】衣装",
+            "eng": "Wulg+",
+            "fre": "Wulg +",
+            "spa": "Wulg+",
+            "ger": "Wulg+",
+            "ita": "Wulg+",
+            "kor": "【EX우르그】의상",
+            "cht": "【精英·冰豺龍】服裝",
+            "chs": "【精英·冰豺龙】服装",
+            "rus": "Вальг+",
+            "pol": "Wulg+",
+            "ptb": "Wulg+",
+            "ara": "وولغ+"
+        }
+    },
+    {
+        "id": 549,
+        "name": {
+            "jpn": "【EXコルトス】衣装",
+            "eng": "Cortos+",
+            "fre": "Cortos +",
+            "spa": "Kertos+",
+            "ger": "Cortos+",
+            "ita": "Cortos+",
+            "kor": "【EX코르토스】의상",
+            "cht": "【精英·冬翼龍】服裝",
+            "chs": "【精英·冬翼龙】服装",
+            "rus": "Кортос+",
+            "pol": "Cortos+",
+            "ptb": "Cortos+",
+            "ara": "كورتوس+"
+        }
+    },
+    {
+        "id": 550,
+        "name": {
+            "jpn": "【EXジャグラス】衣装",
+            "eng": "Jagras+",
+            "fre": "Jagras +",
+            "spa": "Jagras+",
+            "ger": "Jagras+",
+            "ita": "Jagras+",
+            "kor": "【EX쟈그라스】의상",
+            "cht": "【精英·凶豺龍】服裝",
+            "chs": "【精英·贼龙】服装",
+            "rus": "Яграс+",
+            "pol": "Jagras+",
+            "ptb": "Jagras+",
+            "ara": "جاغراس+"
+        }
+    },
+    {
+        "id": 551,
+        "name": {
+            "jpn": "【EXツィツィ】衣装",
+            "eng": "Tzitzi-Ya-Ku+",
+            "fre": "Tzitzi-Ya-Ku +",
+            "spa": "Tzitzi-Ya-Ku+",
+            "ger": "Tzitzi-Ya-Ku+",
+            "ita": "Tzitzi+",
+            "kor": "【EX치치】의상",
+            "cht": "【精英·眩鳥】服裝",
+            "chs": "【精英·眩鸟】服装",
+            "rus": "Цици-йа-ку+",
+            "pol": "Tzitzi-Ya-Ku+",
+            "ptb": "Tzitzi-Ya-Ku+",
+            "ara": "تسيتسي-يا-كو+"
+        }
+    },
+    {
+        "id": 552,
+        "name": {
+            "jpn": "【EXギルオス】衣装",
+            "eng": "Great Girros+",
+            "fre": "Grand Girros +",
+            "spa": "Gran Girros+",
+            "ger": "Groß-Girros+",
+            "ita": "Girros+",
+            "kor": "【EX기르오스】의상",
+            "cht": "【精英·凶顎龍】服裝",
+            "chs": "【精英·痹贼龙】服装",
+            "rus": "Большой гиррос+",
+            "pol": "Wielkiego Girrosa+",
+            "ptb": "Grande Girros+",
+            "ara": "غيروس العظيم+"
+        }
+    },
+    {
+        "id": 553,
+        "name": {
+            "jpn": "【EXガマル】衣装",
+            "eng": "Dodogama+",
+            "fre": "Dodogama +",
+            "spa": "Dodogama+",
+            "ger": "Dodogama+",
+            "ita": "Dodogama+",
+            "kor": "【EX가마루】의상",
+            "cht": "【精英·岩賊龍】服裝",
+            "chs": "【精英·岩贼龙】服装",
+            "rus": "Додогама+",
+            "pol": "Dodogama+",
+            "ptb": "Dodogama+",
+            "ara": "دودوغما+"
+        }
+    },
+    {
+        "id": 554,
+        "name": {
+            "jpn": "【EXクルル】衣装",
+            "eng": "Kulu-Ya-Ku+",
+            "fre": "Kulu-Ya-Ku +",
+            "spa": "Kulu-Ya-Ku+",
+            "ger": "Kulu-Ya-Ku+",
+            "ita": "Kulu+",
+            "kor": "【EX쿠루루】의상",
+            "cht": "【精英·搔鳥】服裝",
+            "chs": "【精英·搔鸟】服装",
+            "rus": "Кулу-йа-ку+",
+            "pol": "Kulu-Ya-Ku+",
+            "ptb": "Kulu-Ya-Ku+",
+            "ara": "كولو-يا-كو+"
+        }
+    },
+    {
+        "id": 555,
+        "name": {
+            "jpn": "【EXプケプケ】衣装",
+            "eng": "Pukei-Pukei+",
+            "fre": "Pukei-Pukei +",
+            "spa": "Pukei-Pukei+",
+            "ger": "Pukei-Pukei+",
+            "ita": "Pukei+",
+            "kor": "【EX푸케푸케】의상",
+            "cht": "【精英·毒妖鳥】服裝",
+            "chs": "【精英·毒妖鸟】服装",
+            "rus": "Поки-поки+",
+            "pol": "Pukei-Pukei+",
+            "ptb": "Pukei-Pukei+",
+            "ara": "بوكي-بوكي+"
+        }
+    },
+    {
+        "id": 556,
+        "name": {
+            "jpn": "【EXプケラグーナ】衣装",
+            "eng": "Coral Pukei+",
+            "fre": "Pukei-Pukei corail +",
+            "spa": "Coral Pukei+",
+            "ger": "Korallen-Pukei+",
+            "ita": "Pukei corallino+",
+            "kor": "【EX푸케라그나】의상",
+            "cht": "【精英·妖水】服裝",
+            "chs": "【精英·妖水】服装",
+            "rus": "Коралловый поки+",
+            "pol": "Koralowy Pukei+",
+            "ptb": "Pukei Coralino+",
+            "ara": "بوكي مرجاني+"
+        }
+    },
+    {
+        "id": 557,
+        "name": {
+            "jpn": "【EXボロス】衣装",
+            "eng": "Barroth+",
+            "fre": "Barroth +",
+            "spa": "Barroth+",
+            "ger": "Barroth+",
+            "ita": "Barroth+",
+            "kor": "【EX보로스】의상",
+            "cht": "【精英·土砂龍】服裝",
+            "chs": "【精英·土砂龙】服装",
+            "rus": "Баррот+",
+            "pol": "Barroth+",
+            "ptb": "Barroth+",
+            "ara": "باروث+"
+        }
+    },
+    {
+        "id": 558,
+        "name": {
+            "jpn": "【EXジュラ】衣装",
+            "eng": "Jyuratodus+",
+            "fre": "Jyuratodus +",
+            "spa": "Jyuratodus+",
+            "ger": "Jyuratodus+",
+            "ita": "Jyura+",
+            "kor": "【EX쥬라】의상",
+            "cht": "【精英·泥魚龍】服裝",
+            "chs": "【精英·泥鱼龙】服装",
+            "rus": "Юратод+",
+            "pol": "Jyuratodusa+",
+            "ptb": "Jyuratodus+",
+            "ara": "جيوراتودوس+"
+        }
+    },
+    {
+        "id": 559,
+        "name": {
+            "jpn": "【EXブラン】衣装",
+            "eng": "Beotodus+",
+            "fre": "Beotodus +",
+            "spa": "Beotodus+",
+            "ger": "Beotodus+",
+            "ita": "Beotodus+",
+            "kor": "【EX브란】의상",
+            "cht": "【精英·冰魚龍】服裝",
+            "chs": "【精英·冰鱼龙】服装",
+            "rus": "Беотод+",
+            "pol": "Beotodusa+",
+            "ptb": "Beotodus+",
+            "ara": "بيوتودس+"
+        }
+    },
+    {
+        "id": 560,
+        "name": {
+            "jpn": "【EXカガチ】衣装",
+            "eng": "Tobi-Kadachi+",
+            "fre": "Tobi-Kadachi +",
+            "spa": "Tobi-Kadachi+",
+            "ger": "Tobi-Kadachi+",
+            "ita": "Kadachi+",
+            "kor": "【EX카가치】의상",
+            "cht": "【精英·飛雷龍】服裝",
+            "chs": "【精英·飞雷龙】服装",
+            "rus": "Тоби-кадачи+",
+            "pol": "Tobi-Kadachi+",
+            "ptb": "Tobi-Kadachi+",
+            "ara": "توبي-كاداتشي+"
+        }
+    },
+    {
+        "id": 561,
+        "name": {
+            "jpn": "【EXベニカガチ】衣装",
+            "eng": "Viper Kadachi+",
+            "fre": "Tobi-Kadachi vipère +",
+            "spa": "Kadachi Vípero+",
+            "ger": "Viper+",
+            "ita": "Kadachi vipera+",
+            "kor": "【EX베니카가치】의상",
+            "cht": "【精英·朱毒】服裝",
+            "chs": "【精英·朱毒】服装",
+            "rus": "Аспидовый кадачи+",
+            "pol": "Żmijowy Kadachi+",
+            "ptb": "Kadachi Vípero+",
+            "ara": "كاداتشي ثعباني+"
+        }
+    },
+    {
+        "id": 562,
+        "name": {
+            "jpn": "【EXバフバロ α】衣装",
+            "eng": "Banbaro α+",
+            "fre": "Banbaro α+",
+            "spa": "Banbaro α+",
+            "ger": "Banbaro α+",
+            "ita": "Banbaro α+",
+            "kor": "【EX버프바로 α】의상",
+            "cht": "【精英·猛牛龍 α】服裝",
+            "chs": "【精英·猛牛龙阿尔法】服装",
+            "rus": "Банбаро α+",
+            "pol": "Banbaro α+",
+            "ptb": "Banbaro α+",
+            "ara": "بنبارو α+"
+        }
+    },
+    {
+        "id": 563,
+        "name": {
+            "jpn": "【EXバフバロ β】衣装",
+            "eng": "Banbaro β+",
+            "fre": "Banbaro β+",
+            "spa": "Banbaro β+",
+            "ger": "Banbaro β+",
+            "ita": "Banbaro β+",
+            "kor": "【EX버프바로 β】의상",
+            "cht": "【精英·猛牛龍 β】服裝",
+            "chs": "【精英·猛牛龙贝塔】服装",
+            "rus": "Банбаро β+",
+            "pol": "Banbaro β+",
+            "ptb": "Banbaro β+",
+            "ara": "بنبارو β+"
+        }
+    },
+    {
+        "id": 564,
+        "name": {
+            "jpn": "【EXジャナフ α】衣装",
+            "eng": "Anjanath α+",
+            "fre": "Anjanath α+",
+            "spa": "Anjanath α+",
+            "ger": "Anjanath α+",
+            "ita": "Anjanath α+",
+            "kor": "【EX쟈나프 α】의상",
+            "cht": "【精英·蠻顎龍 α】服裝",
+            "chs": "【精英·蛮颚龙阿尔法】服装",
+            "rus": "Аньянат α+",
+            "pol": "Anjanatha α+",
+            "ptb": "Anjanath α+",
+            "ara": "أنجاناث α+"
+        }
+    },
+    {
+        "id": 565,
+        "name": {
+            "jpn": "【EXジャナフ β】衣装",
+            "eng": "Anjanath β+",
+            "fre": "Anjanath β+",
+            "spa": "Anjanath β+",
+            "ger": "Anjanath β+",
+            "ita": "Anjanath β+",
+            "kor": "【EX쟈나프 β】의상",
+            "cht": "【精英·蠻顎龍 β】服裝",
+            "chs": "【精英·蛮颚龙贝塔】服装",
+            "rus": "Аньянат β+",
+            "pol": "Anjanatha β+",
+            "ptb": "Anjanath β+",
+            "ara": "أنجاناث β+"
+        }
+    },
+    {
+        "id": 566,
+        "name": {
+            "jpn": "【EXジャナール α】衣装",
+            "eng": "Fulgur Anja α+",
+            "fre": "Anjanath tonnerre α+",
+            "spa": "Fulgúreo α+",
+            "ger": "Fulgur α+",
+            "ita": "Anja tonante α+",
+            "kor": "【EX쟈나르 α】의상",
+            "cht": "【精英·雷顎 α】服裝",
+            "chs": "【精英·雷颚阿尔法】服装",
+            "rus": "Гром. аньянат α+",
+            "pol": "Piorunowy Anja α+",
+            "ptb": "Anjanath Fulgurante α+",
+            "ara": "أنجا رعدي α+"
+        }
+    },
+    {
+        "id": 567,
+        "name": {
+            "jpn": "【EXジャナール β】衣装",
+            "eng": "Fulgur Anja β+",
+            "fre": "Anjanath tonnerre β+",
+            "spa": "Fulgúreo β+",
+            "ger": "Fulgur β+",
+            "ita": "Anja tonante β+",
+            "kor": "【EX쟈나르 β】의상",
+            "cht": "【精英·雷顎 β】服裝",
+            "chs": "【精英·雷颚贝塔】服装",
+            "rus": "Гром. аньянат β+",
+            "pol": "Piorunowy Anja β+",
+            "ptb": "Anjanath Fulgurante β+",
+            "ara": "أنجا رعدي β+"
+        }
+    },
+    {
+        "id": 568,
+        "name": {
+            "jpn": "【EXレイア α】衣装",
+            "eng": "Rathian α+",
+            "fre": "Rathian α+",
+            "spa": "Rathian α+",
+            "ger": "Rathian α+",
+            "ita": "Rathian α+",
+            "kor": "【EX레이아 α】의상",
+            "cht": "【精英·雌火龍 α】服裝",
+            "chs": "【精英·雌火龙阿尔法】服装",
+            "rus": "Ратиана α+",
+            "pol": "Rathiana α+",
+            "ptb": "Rathian α+",
+            "ara": "راثيان α+"
+        }
+    },
+    {
+        "id": 569,
+        "name": {
+            "jpn": "【EXレイア β】衣装",
+            "eng": "Rathian β+",
+            "fre": "Rathian β+",
+            "spa": "Rathian β+",
+            "ger": "Rathian β+",
+            "ita": "Rathian β+",
+            "kor": "【EX레이아 β】의상",
+            "cht": "【精英·雌火龍 β】服裝",
+            "chs": "【精英·雌火龙贝塔】服装",
+            "rus": "Ратиана β+",
+            "pol": "Rathiana β+",
+            "ptb": "Rathian β+",
+            "ara": "راثيان β+"
+        }
+    },
+    {
+        "id": 570,
+        "name": {
+            "jpn": "【EXリオハート α】衣装",
+            "eng": "Rath Heart α+",
+            "fre": "Cœur Rathian α+",
+            "spa": "Corazón Rath α+",
+            "ger": "Rathianherz α+",
+            "ita": "Cuore di Rath α+",
+            "kor": "【EX리오하트 α】의상",
+            "cht": "【精英·火龍心 α】服裝",
+            "chs": "【精英·火龙心阿尔法】服装",
+            "rus": "Сердце рат α+",
+            "pol": "Serce Ratha α+",
+            "ptb": "Coração Rath α+",
+            "ara": "قلب راث α+"
+        }
+    },
+    {
+        "id": 571,
+        "name": {
+            "jpn": "【EXリオハート β】衣装",
+            "eng": "Rath Heart β+",
+            "fre": "Cœur Rathian β+",
+            "spa": "Corazón Rath β+",
+            "ger": "Rathianherz β+",
+            "ita": "Cuore di Rath β+",
+            "kor": "【EX리오하트 β】의상",
+            "cht": "【精英·火龍心 β】服裝",
+            "chs": "【精英·火龙心贝塔】服装",
+            "rus": "Сердце рат β+",
+            "pol": "Serce Ratha β+",
+            "ptb": "Coração Rath β+",
+            "ara": "قلب راث β+"
+        }
+    },
+    {
+        "id": 572,
+        "name": {
+            "jpn": "【EXウルムー】衣装",
+            "eng": "Paolumu+",
+            "fre": "Paolumu +",
+            "spa": "Paolumu+",
+            "ger": "Paolumu+",
+            "ita": "Paolumu+",
+            "kor": "【EX우르무】의상",
+            "cht": "【精英·浮空龍】服裝",
+            "chs": "【精英·浮空龙】服装",
+            "rus": "Паолуму+",
+            "pol": "Paolumu+",
+            "ptb": "Paolumu+",
+            "ara": "باولومو+"
+        }
+    },
+    {
+        "id": 573,
+        "name": {
+            "jpn": "【EXウルムメア】衣装",
+            "eng": "Lumu Phantasm+",
+            "fre": "Paolumu belladone +",
+            "spa": "Fantasmal+",
+            "ger": "Nachtschatten+",
+            "ita": "Paulumu onirico+",
+            "kor": "【EX우르무메어】의상",
+            "cht": "【精英·浮夢】服裝",
+            "chs": "【精英·浮梦】服装",
+            "rus": "Фантазм луму+",
+            "pol": "Fantazmat z Lumu+",
+            "ptb": "Ilusão Lumu+",
+            "ara": "طيف لومو+"
+        }
+    },
+    {
+        "id": 574,
+        "name": {
+            "jpn": "【EXバルキン】衣装",
+            "eng": "Radobaan+",
+            "fre": "Radobaan +",
+            "spa": "Radobaan+",
+            "ger": "Radobaan+",
+            "ita": "Baan+",
+            "kor": "【EX발킨】의상",
+            "cht": "【精英·骨鎚龍】服裝",
+            "chs": "【精英·骨锤龙】服装",
+            "rus": "Радобаан+",
+            "pol": "Radobaana+",
+            "ptb": "Radobaan+",
+            "ara": "رادوبان+"
+        }
+    },
+    {
         "id": 575,
         "name": {
             "jpn": "【アーティア】衣装",
@@ -9007,7 +9835,7 @@
             "fre": "Artian",
             "spa": "Artiano",
             "ger": "Artian",
-            "ita": "Stile armatura Artian",
+            "ita": "Artian",
             "kor": "【아티어】의상",
             "cht": "【機械】服裝",
             "chs": "【机械】服装",
@@ -9018,6 +9846,582 @@
         }
     },
     {
+        "id": 576,
+        "name": {
+            "jpn": "【EXベリオ α】衣装",
+            "eng": "Barioth α+",
+            "fre": "Barioth α+",
+            "spa": "Barioth α+",
+            "ger": "Barioth α+",
+            "ita": "Barioth α+",
+            "kor": "【EX벨리오 α】의상",
+            "cht": "【精英·冰牙龍 α】服裝",
+            "chs": "【精英·冰牙龙阿尔法】服装",
+            "rus": "Бариот α+",
+            "pol": "Barioth α+",
+            "ptb": "Barioth α+",
+            "ara": "باريوث α+"
+        }
+    },
+    {
+        "id": 577,
+        "name": {
+            "jpn": "【EXベリオ β】衣装",
+            "eng": "Barioth β+",
+            "fre": "Barioth β+",
+            "spa": "Barioth β+",
+            "ger": "Barioth β+",
+            "ita": "Barioth β+",
+            "kor": "【EX벨리오 β】의상",
+            "cht": "【精英·冰牙龍 β】服裝",
+            "chs": "【精英·冰牙龙贝塔】服装",
+            "rus": "Бариот β+",
+            "pol": "Barioth β+",
+            "ptb": "Barioth β+",
+            "ara": "باريوث β+"
+        }
+    },
+    {
+        "id": 578,
+        "name": {
+            "jpn": "【EXレウス α】衣装",
+            "eng": "Rathalos α+",
+            "fre": "Rathalos α+",
+            "spa": "Rathalos α+",
+            "ger": "Rathalos α+",
+            "ita": "Rathalos α+",
+            "kor": "【EX레우스 α】의상",
+            "cht": "【精英·火龍 α】服裝",
+            "chs": "【精英·火龙阿尔法】服装",
+            "rus": "Раталос α+",
+            "pol": "Rathalos α+",
+            "ptb": "Rathalos α+",
+            "ara": "راذالوس α+"
+        }
+    },
+    {
+        "id": 579,
+        "name": {
+            "jpn": "【EXレウス β】衣装",
+            "eng": "Rathalos β+",
+            "fre": "Rathalos β+",
+            "spa": "Rathalos β+",
+            "ger": "Rathalos β+",
+            "ita": "Rathalos β+",
+            "kor": "【EX레우스 β】의상",
+            "cht": "【精英·火龍 β】服裝",
+            "chs": "【精英·火龙贝塔】服装",
+            "rus": "Раталос β+",
+            "pol": "Rathalos β+",
+            "ptb": "Rathalos β+",
+            "ara": "راذالوس β+"
+        }
+    },
+    {
+        "id": 580,
+        "name": {
+            "jpn": "【EXリオソウル α】衣装",
+            "eng": "Rath Soul α+",
+            "fre": "Âme Rathalos α+",
+            "spa": "Alma Rath α+",
+            "ger": "Rathalosseelen α+",
+            "ita": "Anima di Rath α+",
+            "kor": "【EX리오소울 α】의상",
+            "cht": "【精英·火龍魂 α】服裝",
+            "chs": "【精英·火龙魂阿尔法】服装",
+            "rus": "Душа раты α+",
+            "pol": "Dusza Ratha α+",
+            "ptb": "Alma de Rath α+",
+            "ara": "روح راث α+"
+        }
+    },
+    {
+        "id": 581,
+        "name": {
+            "jpn": "【EXリオソウル β】衣装",
+            "eng": "Rath Soul β+",
+            "fre": "Âme Rathalos β+",
+            "spa": "Alma Rath β+",
+            "ger": "Rathalosseelen β+",
+            "ita": "Anima di Rath β+",
+            "kor": "【EX리오소울 β】의상",
+            "cht": "【精英·火龍魂 β】服裝",
+            "chs": "【精英·火龙魂贝塔】服装",
+            "rus": "Душа раты β+",
+            "pol": "Dusza Ratha β+",
+            "ptb": "Alma de Rath β+",
+            "ara": "روح راث β+"
+        }
+    },
+    {
+        "id": 582,
+        "name": {
+            "jpn": "【EXディアブロ α】衣装",
+            "eng": "Diablos α+",
+            "fre": "Diablos α+",
+            "spa": "Diablos α+",
+            "ger": "Diablos α+",
+            "ita": "Diablos α+",
+            "kor": "【EX디아블로 α】의상",
+            "cht": "【精英·角龍 α】服裝",
+            "chs": "【精英·角龙阿尔法】服装",
+            "rus": "Диаблос α+",
+            "pol": "Diablos α+",
+            "ptb": "Diablos α+",
+            "ara": "ديابلوس α+"
+        }
+    },
+    {
+        "id": 583,
+        "name": {
+            "jpn": "【EXディアブロ β】衣装",
+            "eng": "Diablos β+",
+            "fre": "Diablos β+",
+            "spa": "Diablos β+",
+            "ger": "Diablos β+",
+            "ita": "Diablos β+",
+            "kor": "【EX디아블로 β】의상",
+            "cht": "【精英·角龍 β】服裝",
+            "chs": "【精英·角龙贝塔】服装",
+            "rus": "Диаблос β+",
+            "pol": "Diablos β+",
+            "ptb": "Diablos β+",
+            "ara": "ديابلوس β+"
+        }
+    },
+    {
+        "id": 584,
+        "name": {
+            "jpn": "【EXディアネロ α】衣装",
+            "eng": "Diablos Nero α+",
+            "fre": "Diablos noire α+",
+            "spa": "Diablos Negra α+",
+            "ger": "Diablos-Nero α+",
+            "ita": "Diablos nera α+",
+            "kor": "【EX디아네로 α】의상",
+            "cht": "【精英·暴君角龍 α】服裝",
+            "chs": "【精英·暴君角龙阿尔法】服装",
+            "rus": "Жуткая диаблос α+",
+            "pol": "Czarna Diabla α+",
+            "ptb": "Diablos Negra α+",
+            "ara": "نيرو ديابلوس α+"
+        }
+    },
+    {
+        "id": 585,
+        "name": {
+            "jpn": "【EXディアネロ β】衣装",
+            "eng": "Diablos Nero β+",
+            "fre": "Diablos noire β+",
+            "spa": "Diablos Negra β+",
+            "ger": "Diablos-Nero β+",
+            "ita": "Diablos nera β+",
+            "kor": "【EX디아네로 β】의상",
+            "cht": "【精英·暴君角龍 β】服裝",
+            "chs": "【精英·暴君角龙贝塔】服装",
+            "rus": "Жуткая диаблос β+",
+            "pol": "Czarna Diabla β+",
+            "ptb": "Diablos Negra β+",
+            "ara": "نيرو ديابلوس β+"
+        }
+    },
+    {
+        "id": 586,
+        "name": {
+            "jpn": "【EXギエナ α】衣装",
+            "eng": "Legiana α+",
+            "fre": "Legiana α +",
+            "spa": "Legiana α+",
+            "ger": "Legiana α+",
+            "ita": "Legia α+",
+            "kor": "【EX기에나 α】의상",
+            "cht": "【精英·風漂龍 α】服裝",
+            "chs": "【精英·风漂龙阿尔法】服装",
+            "rus": "Легиана α+",
+            "pol": "Legiany α+",
+            "ptb": "Legiana α+",
+            "ara": "ليغيانا α+"
+        }
+    },
+    {
+        "id": 587,
+        "name": {
+            "jpn": "【EXギエナ β】衣装",
+            "eng": "Legiana β+",
+            "fre": "Legiana β +",
+            "spa": "Legiana β+",
+            "ger": "Legiana β+",
+            "ita": "Legia β+",
+            "kor": "【EX기에나 β】의상",
+            "cht": "【精英·風漂龍 β】服裝",
+            "chs": "【精英·风漂龙贝塔】服装",
+            "rus": "Легиана β+",
+            "pol": "Legiany β+",
+            "ptb": "Legiana β+",
+            "ara": "ليغيانا β+"
+        }
+    },
+    {
+        "id": 588,
+        "name": {
+            "jpn": "【EXブリーナ α】衣装",
+            "eng": "Shrieking Legia α+",
+            "fre": "Legiana blizzard α+",
+            "spa": "Aullador α+",
+            "ger": "Schneesturm α+",
+            "ita": "Legiana glaciale α+",
+            "kor": "【EX브리나 α】의상",
+            "cht": "【精英·霜漂 α】服裝",
+            "chs": "【精英·霜漂阿尔法】服装",
+            "rus": "Визжащая легиана α+",
+            "pol": "Wrzeszcząca Legia α+",
+            "ptb": "Legia Estridente α+",
+            "ara": "ليغيا الصارخ α+"
+        }
+    },
+    {
+        "id": 589,
+        "name": {
+            "jpn": "【EXブリーナ β】衣装",
+            "eng": "Shrieking Legia β+",
+            "fre": "Legiana blizzard β+",
+            "spa": "Aullador β+",
+            "ger": "Schneesturm β+",
+            "ita": "Legiana glaciale β+",
+            "kor": "【EX브리나 β】의상",
+            "cht": "【精英·霜漂 β】服裝",
+            "chs": "【精英·霜漂贝塔】服装",
+            "rus": "Визжащая легиана β+",
+            "pol": "Wrzeszcząca Legia β+",
+            "ptb": "Legia Estridente β+",
+            "ara": "ليغيا الصارخ β+"
+        }
+    },
+    {
+        "id": 590,
+        "name": {
+            "jpn": "【EXガロン α】衣装",
+            "eng": "Odogaron α+",
+            "fre": "Odogaron α+",
+            "spa": "Odogaron α+",
+            "ger": "Odogaron α+",
+            "ita": "Odogaron α+",
+            "kor": "【EX가론 α】의상",
+            "cht": "【精英·慘爪 α】服裝",
+            "chs": "【精英·惨爪阿尔法】服装",
+            "rus": "Одогарон α+",
+            "pol": "Odogaron α+",
+            "ptb": "Odogaron α+",
+            "ara": "أودوغارون α+"
+        }
+    },
+    {
+        "id": 591,
+        "name": {
+            "jpn": "【EXガロン β】衣装",
+            "eng": "Odogaron β+",
+            "fre": "Odogaron β+",
+            "spa": "Odogaron β+",
+            "ger": "Odogaron β+",
+            "ita": "Odogaron β+",
+            "kor": "【EX가론 β】의상",
+            "cht": "【精英·慘爪 β】服裝",
+            "chs": "【精英·惨爪贝塔】服装",
+            "rus": "Одогарон β+",
+            "pol": "Odogaron β+",
+            "ptb": "Odogaron β+",
+            "ara": "أودوغارون β+"
+        }
+    },
+    {
+        "id": 592,
+        "name": {
+            "jpn": "【EXデスガロン α】衣装",
+            "eng": "Death Garon α+",
+            "fre": "Odogaron désastre α+",
+            "spa": "Ébano α+",
+            "ger": "Vulkan α+",
+            "ita": "Odogaron d'ebano α+",
+            "kor": "【EX데스가론 α】의상",
+            "cht": "【精英·亡爪 α】服裝",
+            "chs": "【精英·亡爪阿尔法】服装",
+            "rus": "Смертельный гарон α+",
+            "pol": "Garon Śmierci α+",
+            "ptb": "Garon Mortal α+",
+            "ara": "غارون الموت α+"
+        }
+    },
+    {
+        "id": 593,
+        "name": {
+            "jpn": "【EXデスガロン β】衣装",
+            "eng": "Death Garon β+",
+            "fre": "Odogaron désastre β+",
+            "spa": "Ébano β+",
+            "ger": "Vulkan β+",
+            "ita": "Odogaron d'ebano β+",
+            "kor": "【EX데스가론 β】의상",
+            "cht": "【精英·亡爪 β】服裝",
+            "chs": "【精英·亡爪贝塔】服装",
+            "rus": "Смертельный гарон β+",
+            "pol": "Garon Śmierci β+",
+            "ptb": "Garon Mortal β+",
+            "ara": "غارون الموت β+"
+        }
+    },
+    {
+        "id": 594,
+        "name": {
+            "jpn": "【EXラヴァ】衣装",
+            "eng": "Lavasioth+",
+            "fre": "Lavasioth +",
+            "spa": "Lavasioth+",
+            "ger": "Lavasioth+",
+            "ita": "Lavasioth+",
+            "kor": "【EX라바】의상",
+            "cht": "【精英·熔岩龍】服裝",
+            "chs": "【精英·熔岩龙】服装",
+            "rus": "Лавасиот+",
+            "pol": "Lavasioth+",
+            "ptb": "Lavasioth+",
+            "ara": "لافاسيوث+"
+        }
+    },
+    {
+        "id": 595,
+        "name": {
+            "jpn": "【EXガンキン】衣装",
+            "eng": "Uragaan+",
+            "fre": "Uragaan +",
+            "spa": "Uragaan+",
+            "ger": "Uragaan+",
+            "ita": "Uragaan+",
+            "kor": "【EX간킨】의상",
+            "cht": "【精英·爆鎚龍】服裝",
+            "chs": "【精英·爆锤龙】服装",
+            "rus": "Урагаан+",
+            "pol": "Uragaan+",
+            "ptb": "Uragaan+",
+            "ara": "أوراغان+"
+        }
+    },
+    {
+        "id": 596,
+        "name": {
+            "jpn": "【EXナルガ α】衣装",
+            "eng": "Nargacuga α+",
+            "fre": "Nargacuga α+",
+            "spa": "Nargacuga α+",
+            "ger": "Nargacuga α+",
+            "ita": "Nargacuga α+",
+            "kor": "【EX나르가 α】의상",
+            "cht": "【精英·迅龍 α】服裝",
+            "chs": "【精英·迅龙阿尔法】服装",
+            "rus": "Наргакуга α+",
+            "pol": "Nargacuga α+",
+            "ptb": "Nargacuga α+",
+            "ara": "نارغاكوغا α+"
+        }
+    },
+    {
+        "id": 597,
+        "name": {
+            "jpn": "【EXナルガ β】衣装",
+            "eng": "Nargacuga β+",
+            "fre": "Nargacuga β+",
+            "spa": "Nargacuga β+",
+            "ger": "Nargacuga β+",
+            "ita": "Nargacuga β+",
+            "kor": "【EX나르가 β】의상",
+            "cht": "【精英·迅龍 β】服裝",
+            "chs": "【精英·迅龙贝塔】服装",
+            "rus": "Наргакуга β+",
+            "pol": "Nargacuga β+",
+            "ptb": "Nargacuga β+",
+            "ara": "نارغاكوغا β+"
+        }
+    },
+    {
+        "id": 598,
+        "name": {
+            "jpn": "【EXディノ α】衣装",
+            "eng": "Glavenus α+",
+            "fre": "Glavenus α+",
+            "spa": "Glavenus α+",
+            "ger": "Glavenus α+",
+            "ita": "Glavenus α+",
+            "kor": "【EX디노 α】의상",
+            "cht": "【精英·斬龍 α】服裝",
+            "chs": "【精英·斩龙阿尔法】服装",
+            "rus": "Главенус α+",
+            "pol": "Glavenus α+",
+            "ptb": "Glavenus α+",
+            "ara": "غلافنيوس α+"
+        }
+    },
+    {
+        "id": 599,
+        "name": {
+            "jpn": "【EXディノ β】衣装",
+            "eng": "Glavenus β+",
+            "fre": "Glavenus β+",
+            "spa": "Glavenus β+",
+            "ger": "Glavenus β+",
+            "ita": "Glavenus β+",
+            "kor": "【EX디노 β】의상",
+            "cht": "【精英·斬龍 β】服裝",
+            "chs": "【精英·斩龙贝塔】服装",
+            "rus": "Главенус β+",
+            "pol": "Glavenus β+",
+            "ptb": "Glavenus β+",
+            "ara": "غلافنيوس β+"
+        }
+    },
+    {
+        "id": 600,
+        "name": {
+            "jpn": "【EXディノイエロ α】衣装",
+            "eng": "Acidic Glavenus α+",
+            "fre": "Glavenus acide α+",
+            "spa": "Acídico α+",
+            "ger": "Säure α+",
+            "ita": "Glavenus caustico α+",
+            "kor": "【EX디노이에로 α】의상",
+            "cht": "【精英·斬黃 α】服裝",
+            "chs": "【精英·斩黄阿尔法】服装",
+            "rus": "Кислотный главенус α+",
+            "pol": "Kwasowy Glavenus α+",
+            "ptb": "Glavenus Ácido α+",
+            "ara": "غلافنيوس حمضي α+"
+        }
+    },
+    {
+        "id": 601,
+        "name": {
+            "jpn": "【EXディノイエロ β】衣装",
+            "eng": "Acidic Glavenus β+",
+            "fre": "Glavenus acide β+",
+            "spa": "Acídico β+",
+            "ger": "Säure β+",
+            "ita": "Glavenus caustico β+",
+            "kor": "【EX디노이에로 β】의상",
+            "cht": "【精英·斬黃 β】服裝",
+            "chs": "【精英·斩黄贝塔】服装",
+            "rus": "Кислотный главенус β+",
+            "pol": "Kwasowy Glavenus β+",
+            "ptb": "Glavenus Ácido β+",
+            "ara": "غلافنيوس حمضي β+"
+        }
+    },
+    {
+        "id": 602,
+        "name": {
+            "jpn": "【EXブラキ α】衣装",
+            "eng": "Brachydios α+",
+            "fre": "Brachydios α+",
+            "spa": "Brachydios α+",
+            "ger": "Brachydios α+",
+            "ita": "Brachydios α+",
+            "kor": "【EX브라키 α】의상",
+            "cht": "【精英·碎龍 α】服裝",
+            "chs": "【精英·碎龙阿尔法】服装",
+            "rus": "Брахидиос α+",
+            "pol": "Brachydios α+",
+            "ptb": "Brachydios α+",
+            "ara": "براكيديوس α+"
+        }
+    },
+    {
+        "id": 603,
+        "name": {
+            "jpn": "【EXブラキ β】衣装",
+            "eng": "Brachydios β+",
+            "fre": "Brachydios β+",
+            "spa": "Brachydios β+",
+            "ger": "Brachydios β+",
+            "ita": "Brachydios β+",
+            "kor": "【EX브라키 β】의상",
+            "cht": "【精英·碎龍 β】服裝",
+            "chs": "【精英·碎龙贝塔】服装",
+            "rus": "Брахидиос β+",
+            "pol": "Brachydios β+",
+            "ptb": "Brachydios β+",
+            "ara": "براكيديوس β+"
+        }
+    },
+    {
+        "id": 604,
+        "name": {
+            "jpn": "【EXレックス α】衣装",
+            "eng": "Tigrex α+",
+            "fre": "Tigrex α+",
+            "spa": "Tigrex α+",
+            "ger": "Tigrex α+",
+            "ita": "Tigrex α+",
+            "kor": "【EX렉스 α】의상",
+            "cht": "【精英·轟龍 α】服裝",
+            "chs": "【精英·轰龙阿尔法】服装",
+            "rus": "Тигрекс α+",
+            "pol": "Tigrex α+",
+            "ptb": "Tigrex α+",
+            "ara": "تغريكس α+"
+        }
+    },
+    {
+        "id": 605,
+        "name": {
+            "jpn": "【EXレックス β】衣装",
+            "eng": "Tigrex β+",
+            "fre": "Tigrex β+",
+            "spa": "Tigrex β+",
+            "ger": "Tigrex β+",
+            "ita": "Tigrex β+",
+            "kor": "【EX렉스 β】의상",
+            "cht": "【精英·轟龍 β】服裝",
+            "chs": "【精英·轰龙贝塔】服装",
+            "rus": "Тигрекс β+",
+            "pol": "Tigrex β+",
+            "ptb": "Tigrex β+",
+            "ara": "تغريكس β+"
+        }
+    },
+    {
+        "id": 606,
+        "name": {
+            "jpn": "【EXレックスロア α】衣装",
+            "eng": "Brute Tigrex α+",
+            "fre": "Tigrex berserk α+",
+            "spa": "Pardo α+",
+            "ger": "Brachial α+",
+            "ita": "Tigrex brutale α+",
+            "kor": "【EX렉스로어 α】의상",
+            "cht": "【精英·轟吼 α】服裝",
+            "chs": "【精英·轰吼阿尔法】服装",
+            "rus": "Свирепый тигрекс α+",
+            "pol": "Zwalistego Tigrexa α+",
+            "ptb": "Tigrex Bruto α+",
+            "ara": "تغريكس غاشم α+"
+        }
+    },
+    {
+        "id": 607,
+        "name": {
+            "jpn": "【EXレックスロア β】衣装",
+            "eng": "Brute Tigrex β+",
+            "fre": "Tigrex berserk β+",
+            "spa": "Pardo β+",
+            "ger": "Brachial β+",
+            "ita": "Tigrex brutale β+",
+            "kor": "【EX렉스로어 β】의상",
+            "cht": "【精英·轟吼 β】服裝",
+            "chs": "【精英·轰吼贝塔】服装",
+            "rus": "Свирепый тигрекс β+",
+            "pol": "Zwalistego Tigrexa β+",
+            "ptb": "Tigrex Bruto β+",
+            "ara": "تغريكس غاشم β+"
+        }
+    },
+    {
         "id": 608,
         "name": {
             "jpn": "【クロオビ】衣装",
@@ -9025,7 +10429,7 @@
             "fre": "Ceinture noire",
             "spa": "Cinturón negro",
             "ger": "Schwarzgurt",
-            "ita": "Stile armatura cintura nera",
+            "ita": "Cintura nera",
             "kor": "【검은띠】의상",
             "cht": "【黑帶】服裝",
             "chs": "【黑带】服装",
@@ -9036,6 +10440,312 @@
         }
     },
     {
+        "id": 609,
+        "name": {
+            "jpn": "【EXプライド α】衣装",
+            "eng": "Seething Bazel α+",
+            "fre": "Bazelgeuse vulcan α+",
+            "spa": "Magma α+",
+            "ger": "Brodelnder α+",
+            "ita": "Bazel vulcanico α+",
+            "kor": "【EX프라이드 α】의상",
+            "cht": "【精英·矜持 α】服裝",
+            "chs": "【精英·矜持阿尔法】服装",
+            "rus": "Вспыльчивый базельгейс α+",
+            "pol": "Rozzłoszczonego Bazela α+",
+            "ptb": "Bazel Vulcânico α+",
+            "ara": "بازيل متأجج α+"
+        }
+    },
+    {
+        "id": 610,
+        "name": {
+            "jpn": "【EXプライド β】衣装",
+            "eng": "Seething Bazel β+",
+            "fre": "Bazelgeuse vulcan β+",
+            "spa": "Magma β+",
+            "ger": "Brodelnder β+",
+            "ita": "Bazel vulcanico β+",
+            "kor": "【EX프라이드 β】의상",
+            "cht": "【精英·矜持 β】服裝",
+            "chs": "【精英·矜持贝塔】服装",
+            "rus": "Вспыльчивый базельгейс β+",
+            "pol": "Rozzłoszczonego Bazela β+",
+            "ptb": "Bazel Vulcânico β+",
+            "ara": "بازيل متأجج β+"
+        }
+    },
+    {
+        "id": 611,
+        "name": {
+            "jpn": "【EXグリード α】衣装",
+            "eng": "Savage Jho α+",
+            "fre": "Deviljho carnage α+",
+            "spa": "Salvaje α+",
+            "ger": "Wilder Jho α+",
+            "ita": "Deviljho selvaggio α+",
+            "kor": "【EX그리드 α】의상",
+            "cht": "【精英·貪欲 α】服裝",
+            "chs": "【精英·贪欲阿尔法】服装",
+            "rus": "Лютый девильо α+",
+            "pol": "Dzikiego Jho α+",
+            "ptb": "Jho Selvagem α+",
+            "ara": "ديفيلجو الهمجي α+"
+        }
+    },
+    {
+        "id": 612,
+        "name": {
+            "jpn": "【EXグリード β】衣装",
+            "eng": "Savage Jho β+",
+            "fre": "Deviljho carnage β+",
+            "spa": "Salvaje β+",
+            "ger": "Wilder Jho β+",
+            "ita": "Deviljho selvaggio β+",
+            "kor": "【EX그리드 β】의상",
+            "cht": "【精英·貪欲 β】服裝",
+            "chs": "【精英·贪欲贝塔】服装",
+            "rus": "Лютый девильо β+",
+            "pol": "Dzikiego Jho β+",
+            "ptb": "Jho Selvagem β+",
+            "ara": "ديفيلجو الهمجي β+"
+        }
+    },
+    {
+        "id": 613,
+        "name": {
+            "jpn": "【EXラヴィーナ α】衣装",
+            "eng": "Velkhana α+",
+            "fre": "Velkhana α+",
+            "spa": "Velkhana α+",
+            "ger": "Velkhana α+",
+            "ita": "Velkhana α+",
+            "kor": "【EX라비나 α】의상",
+            "cht": "【精英·雪崩 α】服裝",
+            "chs": "【精英·雪崩阿尔法】服装",
+            "rus": "Велхана α+",
+            "pol": "Velkhany α+",
+            "ptb": "Velkhana α+",
+            "ara": "فيلكانا α+"
+        }
+    },
+    {
+        "id": 614,
+        "name": {
+            "jpn": "【EXラヴィーナ β】衣装",
+            "eng": "Velkhana β+",
+            "fre": "Velkhana β+",
+            "spa": "Velkhana β+",
+            "ger": "Velkhana β+",
+            "ita": "Velkhana β+",
+            "kor": "【EX라비나 β】의상",
+            "cht": "【精英·雪崩 β】服裝",
+            "chs": "【精英·雪崩贝塔】服装",
+            "rus": "Велхана β+",
+            "pol": "Velkhany β+",
+            "ptb": "Velkhana β+",
+            "ara": "فيلكانا β+"
+        }
+    },
+    {
+        "id": 615,
+        "name": {
+            "jpn": "【EXヴァルファー α】衣装",
+            "eng": "Blackveil Hazak α+",
+            "fre": "Vaal Hazak fléau α+",
+            "spa": "Espóreo α+",
+            "ger": "Velum α+",
+            "ita": "Vaal funereo α+",
+            "kor": "【EX바르퍼 α】의상",
+            "cht": "【精英·死滅 α】服裝",
+            "chs": "【精英·死灭阿尔法】服装",
+            "rus": "Тленный ваал-хазак α+",
+            "pol": "Welonowego Vaal Hazaka α+",
+            "ptb": "Hazak Velado α+",
+            "ara": "هازاك الستار الأسود α+"
+        }
+    },
+    {
+        "id": 616,
+        "name": {
+            "jpn": "【EXヴァルファー β】衣装",
+            "eng": "Blackveil Hazak β+",
+            "fre": "Vaal Hazak fléau β+",
+            "spa": "Espóreo β+",
+            "ger": "Velum β+",
+            "ita": "Vaal funereo β+",
+            "kor": "【EX바르퍼 β】의상",
+            "cht": "【精英·死滅 β】服裝",
+            "chs": "【精英·死灭贝塔】服装",
+            "rus": "Тленный ваал-хазак β+",
+            "pol": "Welonowego Vaal Hazaka β+",
+            "ptb": "Hazak Velado β+",
+            "ara": "هازاك الستار الأسود β+"
+        }
+    },
+    {
+        "id": 617,
+        "name": {
+            "jpn": "【EXカイザー α】衣装",
+            "eng": "Teostra α+",
+            "fre": "Kaiser α+",
+            "spa": "Káiser α+",
+            "ger": "Teostra α+",
+            "ita": "Kaiser α+",
+            "kor": "【EX카이저 α】의상",
+            "cht": "【精英·帝王 α】服裝",
+            "chs": "【精英·帝王阿尔法】服装",
+            "rus": "Теостра α+",
+            "pol": "Teostry α+",
+            "ptb": "Teostra α+",
+            "ara": "تيوسترا α+"
+        }
+    },
+    {
+        "id": 618,
+        "name": {
+            "jpn": "【EXカイザー β】衣装",
+            "eng": "Teostra β+",
+            "fre": "Kaiser β+",
+            "spa": "Káiser β+",
+            "ger": "Teostra β+",
+            "ita": "Kaiser β+",
+            "kor": "【EX카이저 β】의상",
+            "cht": "【精英·帝王 β】服裝",
+            "chs": "【精英·帝王贝塔】服装",
+            "rus": "Теостра β+",
+            "pol": "Teostry β+",
+            "ptb": "Teostra β+",
+            "ara": "تيوسترا β+"
+        }
+    },
+    {
+        "id": 619,
+        "name": {
+            "jpn": "【EXクシャナ α】衣装",
+            "eng": "Kushala α+",
+            "fre": "Kushala α+",
+            "spa": "Kushala α+",
+            "ger": "Kushala α+",
+            "ita": "Kushala α+",
+            "kor": "【EX크샤나 α】의상",
+            "cht": "【精英·鋼龍 α】服裝",
+            "chs": "【精英·钢龙阿尔法】服装",
+            "rus": "Кушала α+",
+            "pol": "Kushali α+",
+            "ptb": "Kushala α+",
+            "ara": "كوشالا α+"
+        }
+    },
+    {
+        "id": 620,
+        "name": {
+            "jpn": "【EXクシャナ β】衣装",
+            "eng": "Kushala β+",
+            "fre": "Kushala β+",
+            "spa": "Kushala β+",
+            "ger": "Kushala β+",
+            "ita": "Kushala β+",
+            "kor": "【EX크샤나 β】의상",
+            "cht": "【精英·鋼龍 β】服裝",
+            "chs": "【精英·钢龙贝塔】服装",
+            "rus": "Кушала β+",
+            "pol": "Kushali β+",
+            "ptb": "Kushala β+",
+            "ara": "كوشالا β+"
+        }
+    },
+    {
+        "id": 621,
+        "name": {
+            "jpn": "【EXキリン α】衣装",
+            "eng": "Kirin α+",
+            "fre": "Kirin α+",
+            "spa": "Kirin α+",
+            "ger": "Kirin α+",
+            "ita": "Kirin α+",
+            "kor": "【EX키린 α】의상",
+            "cht": "【精英·麒麟 α】服裝",
+            "chs": "【精英·麒麟阿尔法】服装",
+            "rus": "Кирин α+",
+            "pol": "Kirina α+",
+            "ptb": "Kirin α+",
+            "ara": "كيرين α+"
+        }
+    },
+    {
+        "id": 622,
+        "name": {
+            "jpn": "【EXキリン β】衣装",
+            "eng": "Kirin β+",
+            "fre": "Kirin β+",
+            "spa": "Kirin β+",
+            "ger": "Kirin β+",
+            "ita": "Kirin β+",
+            "kor": "【EX키린 β】의상",
+            "cht": "【精英·麒麟 β】服裝",
+            "chs": "【精英·麒麟贝塔】服装",
+            "rus": "Кирин β+",
+            "pol": "Kirina β+",
+            "ptb": "Kirin β+",
+            "ara": "كيرين β+"
+        }
+    },
+    {
+        "id": 623,
+        "name": {
+            "jpn": "【EXテンタクル α】衣装",
+            "eng": "Namielle α+",
+            "fre": "Namielle α+",
+            "spa": "Namielle α+",
+            "ger": "Namielle α+",
+            "ita": "Namielle α+",
+            "kor": "【EX텐터클 α】의상",
+            "cht": "【精英·觸角 α】服裝",
+            "chs": "【精英·触角阿尔法】服装",
+            "rus": "Намиэль α+",
+            "pol": "Namiella α+",
+            "ptb": "Namielle α+",
+            "ara": "ناميال α+"
+        }
+    },
+    {
+        "id": 624,
+        "name": {
+            "jpn": "【EXテンタクル β】衣装",
+            "eng": "Namielle β+",
+            "fre": "Namielle β+",
+            "spa": "Namielle β+",
+            "ger": "Namielle β+",
+            "ita": "Namielle β+",
+            "kor": "【EX텐터클 β】의상",
+            "cht": "【精英·觸角 β】服裝",
+            "chs": "【精英·触角贝塔】服装",
+            "rus": "Намиэль β+",
+            "pol": "Namiella β+",
+            "ptb": "Namielle β+",
+            "ara": "ناميال β+"
+        }
+    },
+    {
+        "id": 625,
+        "name": {
+            "jpn": "【ギルドパレス】衣装",
+            "eng": "Guild Palace+",
+            "fre": "Palazzo +",
+            "spa": "Triunfal+",
+            "ger": "Palast+",
+            "ita": "Palatium+",
+            "kor": "【길드팰리스】의상",
+            "cht": "【公會宮殿】服裝",
+            "chs": "【公会宫殿】服装",
+            "rus": "Дворец гильдии+",
+            "pol": "Pałac Gildii+",
+            "ptb": "Palácio da Guilda+",
+            "ara": "قصر النقابة+"
+        }
+    },
+    {
         "id": 626,
         "name": {
             "jpn": "【身軽さの耳飾り】衣装",
@@ -9043,7 +10753,7 @@
             "fre": "Acrobate",
             "spa": "Acróbata",
             "ger": "Akrobat",
-            "ita": "Stile armatura acrobata",
+            "ita": "Acrobata",
             "kor": "【날렵함의귀걸이】의상",
             "cht": "【敏捷耳飾】服裝",
             "chs": "【敏捷耳饰】服装",
@@ -9061,7 +10771,7 @@
             "fre": "Virtuose",
             "spa": "Artista",
             "ger": "Unterhalter",
-            "ita": "Stile armatura showman",
+            "ita": "Showman",
             "kor": "【양동의귀걸이】의상",
             "cht": "【佯動耳飾】服裝",
             "chs": "【佯动耳饰】服装",
@@ -9072,6 +10782,762 @@
         }
     },
     {
+        "id": 628,
+        "name": {
+            "jpn": "【EXアンガルダ α】衣装",
+            "eng": "Shara Ishvalda α+",
+            "fre": "Shara Ishvalda α +",
+            "spa": "Shara Ishvalda α+",
+            "ger": "Shara Ishvalda α+",
+            "ita": "Shara Ishvalda α+",
+            "kor": "【EX안가루다 α】의상",
+            "cht": "【精英·迦樓羅 α】服裝",
+            "chs": "【精英·迦楼罗阿尔法】服装",
+            "rus": "Шара-ишвалда α+",
+            "pol": "Shar Ishvalda α+",
+            "ptb": "Shara Ishvalda α+",
+            "ara": "شارا إشفالدا α+"
+        }
+    },
+    {
+        "id": 629,
+        "name": {
+            "jpn": "【EXアンガルダ β】衣装",
+            "eng": "Shara Ishvalda β+",
+            "fre": "Shara Ishvalda β +",
+            "spa": "Shara Ishvalda β+",
+            "ger": "Shara Ishvalda β+",
+            "ita": "Shara Ishvalda β+",
+            "kor": "【EX안가루다 β】의상",
+            "cht": "【精英·迦樓羅 β】服裝",
+            "chs": "【精英·迦楼罗贝塔】服装",
+            "rus": "Шара-ишвалда β+",
+            "pol": "Shar Ishvalda β+",
+            "ptb": "Shara Ishvalda β+",
+            "ara": "شارا إشفالدا β+"
+        }
+    },
+    {
+        "id": 630,
+        "name": {
+            "jpn": "【EXガルルガ α】衣装",
+            "eng": "Yian Garuga α+",
+            "fre": "Yian Garuga α+",
+            "spa": "Yian Garuga α+",
+            "ger": "Yian Garuga α+",
+            "ita": "Yian Garuga α+",
+            "kor": "【EX가루루가 α】의상",
+            "cht": "【精英·黑狼鳥 α】服裝",
+            "chs": "【精英·黑狼鸟阿尔法】服装",
+            "rus": "Йан-гаруга α+",
+            "pol": "Yian Garugi α+",
+            "ptb": "Yian Garuga α+",
+            "ara": "إيان غاروغا α+"
+        }
+    },
+    {
+        "id": 631,
+        "name": {
+            "jpn": "【EXガルルガ β】衣装",
+            "eng": "Yian Garuga β+",
+            "fre": "Yian Garuga β+",
+            "spa": "Yian Garuga β+",
+            "ger": "Yian Garuga β+",
+            "ita": "Yian Garuga β+",
+            "kor": "【EX가루루가 β】의상",
+            "cht": "【精英·黑狼鳥 β】服裝",
+            "chs": "【精英·黑狼鸟贝塔】服装",
+            "rus": "Йан-гаруга β+",
+            "pol": "Yian Garugi β+",
+            "ptb": "Yian Garuga β+",
+            "ara": "إيان غاروغا β+"
+        }
+    },
+    {
+        "id": 632,
+        "name": {
+            "jpn": "【EXジンオウ α】衣装",
+            "eng": "Zinogre α+",
+            "fre": "Zinogre α+",
+            "spa": "Zinogre α+",
+            "ger": "Zinogre α+",
+            "ita": "Zinogre α+",
+            "kor": "【EX진오우 α】의상",
+            "cht": "【精英·雷狼龍 α】服裝",
+            "chs": "【精英·雷狼龙阿尔法】服装",
+            "rus": "Зиногр α+",
+            "pol": "Zinogra α+",
+            "ptb": "Zinogre α+",
+            "ara": "زينغر α+"
+        }
+    },
+    {
+        "id": 633,
+        "name": {
+            "jpn": "【EXジンオウ β】衣装",
+            "eng": "Zinogre β+",
+            "fre": "Zinogre β+",
+            "spa": "Zinogre β+",
+            "ger": "Zinogre β+",
+            "ita": "Zinogre β+",
+            "kor": "【EX진오우 β】의상",
+            "cht": "【精英·雷狼龍 β】服裝",
+            "chs": "【精英·雷狼龙贝塔】服装",
+            "rus": "Зиногр β+",
+            "pol": "Zinogra β+",
+            "ptb": "Zinogre β+",
+            "ara": "زينغر β+"
+        }
+    },
+    {
+        "id": 634,
+        "name": {
+            "jpn": "【EXゴールドルナ α】衣装",
+            "eng": "Golden Lune α+",
+            "fre": "Lunedor α+",
+            "spa": "Luna dorada α+",
+            "ger": "Gold-Mond α+",
+            "ita": "Doriluna α+",
+            "kor": "【EX골드루나 α】의상",
+            "cht": "【精英·金黃澄月 α】服裝",
+            "chs": "【精英·金黄澄月阿尔法】服装",
+            "rus": "Золотая луна α+",
+            "pol": "Złotego księżyca α+",
+            "ptb": "Luna Dourada α+",
+            "ara": "القمر الذهبي α+"
+        }
+    },
+    {
+        "id": 635,
+        "name": {
+            "jpn": "【EXゴールドルナ β】衣装",
+            "eng": "Golden Lune β+",
+            "fre": "Lunedor β+",
+            "spa": "Luna dorada β+",
+            "ger": "Gold-Mond β+",
+            "ita": "Doriluna β+",
+            "kor": "【EX골드루나 β】의상",
+            "cht": "【精英·金黃澄月 β】服裝",
+            "chs": "【精英·金黄澄月贝塔】服装",
+            "rus": "Золотая луна β+",
+            "pol": "Złotego księżyca β+",
+            "ptb": "Luna Dourada β+",
+            "ara": "القمر الذهبي β+"
+        }
+    },
+    {
+        "id": 636,
+        "name": {
+            "jpn": "【EXシルバーソル α】衣装",
+            "eng": "Silver Sol α+",
+            "fre": "Solargent α+",
+            "spa": "Sol plateado α+",
+            "ger": "Silber-Sonnen α+",
+            "ita": "Solargento α+",
+            "kor": "【EX실버솔 α】의상",
+            "cht": "【精英·銀白耀日 α】服裝",
+            "chs": "【精英·银白耀日阿尔法】服装",
+            "rus": "Серебряная ратиана α+",
+            "pol": "Srebrnego słońca α+",
+            "ptb": "Sol Prateado α+",
+            "ara": "الشمس الفضية α+"
+        }
+    },
+    {
+        "id": 637,
+        "name": {
+            "jpn": "【EXシルバーソル β】衣装",
+            "eng": "Silver Sol β+",
+            "fre": "Solargent β+",
+            "spa": "Sol plateado β+",
+            "ger": "Silber-Sonnen β+",
+            "ita": "Solargento β+",
+            "kor": "【EX실버솔 β】의상",
+            "cht": "【精英·銀白耀日 β】服裝",
+            "chs": "【精英·银白耀日贝塔】服装",
+            "rus": "Серебряная ратиана β+",
+            "pol": "Srebrnego słońca β+",
+            "ptb": "Sol Prateado β+",
+            "ara": "الشمس الفضية β+"
+        }
+    },
+    {
+        "id": 638,
+        "name": {
+            "jpn": "【EXエンプレス α】衣装",
+            "eng": "Lunastra α+",
+            "fre": "Imperatrix α+",
+            "spa": "Lunastra α+",
+            "ger": "Lunastra α+",
+            "ita": "Imperatrice α+",
+            "kor": "【EX엠프리스 α】의상",
+            "cht": "【精英·皇后 α】服裝",
+            "chs": "【精英·皇后阿尔法】服装",
+            "rus": "Лунастра α+",
+            "pol": "Lunastry α+",
+            "ptb": "Lunastra α+",
+            "ara": "لوناسترا α+"
+        }
+    },
+    {
+        "id": 639,
+        "name": {
+            "jpn": "【EXエンプレス β】衣装",
+            "eng": "Lunastra β+",
+            "fre": "Imperatrix β+",
+            "spa": "Lunastra β+",
+            "ger": "Lunastra β+",
+            "ita": "Imperatrice β+",
+            "kor": "【EX엠프리스 β】의상",
+            "cht": "【精英·皇后 β】服裝",
+            "chs": "【精英·皇后贝塔】服装",
+            "rus": "Лунастра β+",
+            "pol": "Lunastry β+",
+            "ptb": "Lunastra β+",
+            "ara": "لوناسترا β+"
+        }
+    },
+    {
+        "id": 640,
+        "name": {
+            "jpn": "【EXゾーク α】衣装",
+            "eng": "Ruiner Nergi α+",
+            "fre": "Nergigante chaos α+",
+            "spa": "Regio α+",
+            "ger": "Ruinen α+",
+            "ita": "Nergigante razziatore α+",
+            "kor": "【EX조크 α】의상",
+            "cht": "【精英·狂紋 α】服裝",
+            "chs": "【精英·狂纹阿尔法】服装",
+            "rus": "Нергигант-губитель α+",
+            "pol": "Niszczycielskiego Nergi α+",
+            "ptb": "Nergi Ferrenho α+",
+            "ara": "نيرغي المخرّب α+"
+        }
+    },
+    {
+        "id": 641,
+        "name": {
+            "jpn": "【EXゾーク β】衣装",
+            "eng": "Ruiner Nergi β+",
+            "fre": "Nergigante chaos β+",
+            "spa": "Regio β+",
+            "ger": "Ruinen β+",
+            "ita": "Nergigante razziatore β+",
+            "kor": "【EX조크 β】의상",
+            "cht": "【精英·狂紋 β】服裝",
+            "chs": "【精英·狂纹贝塔】服装",
+            "rus": "Нергигант-губитель β+",
+            "pol": "Niszczycielskiego Nergi β+",
+            "ptb": "Nergi Ferrenho β+",
+            "ara": "نيرغي المخرّب β+"
+        }
+    },
+    {
+        "id": 642,
+        "name": {
+            "jpn": "【ギルドワーク】衣装",
+            "eng": "Guildwork+",
+            "fre": "Clair de Lune +",
+            "spa": "Taberna lunar+",
+            "ger": "Gildenuniform+",
+            "ita": "Adiutor+",
+            "kor": "【길드워크】의상",
+            "cht": "【公會成果】服裝",
+            "chs": "【公会成果】服装",
+            "rus": "Гильдейский+",
+            "pol": "Gildia+",
+            "ptb": "Guildofício+",
+            "ara": "عمل النقابة+"
+        }
+    },
+    {
+        "id": 643,
+        "name": {
+            "jpn": "【EX金色 α】衣装",
+            "eng": "Rajang α+",
+            "fre": "Rajang α+",
+            "spa": "Rajang α+",
+            "ger": "Rajang α+",
+            "ita": "Rajang α+",
+            "kor": "【EX금빛 α】의상",
+            "cht": "【精英·金色 α】服裝",
+            "chs": "【精英·金色阿尔法】服装",
+            "rus": "Раянг α+",
+            "pol": "Rajanga α+",
+            "ptb": "Rajang α+",
+            "ara": "راجانغ α+"
+        }
+    },
+    {
+        "id": 644,
+        "name": {
+            "jpn": "【EX金色 β】衣装",
+            "eng": "Rajang β+",
+            "fre": "Rajang β+",
+            "spa": "Rajang β+",
+            "ger": "Rajang β+",
+            "ita": "Rajang β+",
+            "kor": "【EX금빛 β】의상",
+            "cht": "【精英·金色 β】服裝",
+            "chs": "【精英·金色贝塔】服装",
+            "rus": "Раянг β+",
+            "pol": "Rajanga β+",
+            "ptb": "Rajang β+",
+            "ara": "راجانغ β+"
+        }
+    },
+    {
+        "id": 645,
+        "name": {
+            "jpn": "【EXゴクオウ α】衣装",
+            "eng": "Stygian Zin α+",
+            "fre": "Zinogre stygien α+",
+            "spa": "Zinogre Estigio α+",
+            "ger": "Höllen-Zinogre α+",
+            "ita": "Zinogre stigeo α+",
+            "kor": "【EX극오우 α】의상",
+            "cht": "【精英·獄狼龍 α】服裝",
+            "chs": "【精英·狱狼龙阿尔法】服装",
+            "rus": "Стигийский зиногр α+",
+            "pol": "Stygijskiego Zina α+",
+            "ptb": "Zin Tenebroso α+",
+            "ara": "زينغر جهنمي α+"
+        }
+    },
+    {
+        "id": 646,
+        "name": {
+            "jpn": "【EXゴクオウ β】衣装",
+            "eng": "Stygian Zin β+",
+            "fre": "Zinogre stygien β+",
+            "spa": "Zinogre Estigio β+",
+            "ger": "Höllen-Zinogre β+",
+            "ita": "Zinogre stigeo β+",
+            "kor": "【EX극오우 β】의상",
+            "cht": "【精英·獄狼龍 β】服裝",
+            "chs": "【精英·狱狼龙贝塔】服装",
+            "rus": "Стигийский зиногр β+",
+            "pol": "Stygijskiego Zina β+",
+            "ptb": "Zin Tenebroso β+",
+            "ara": "زينغر جهنمي β+"
+        }
+    },
+    {
+        "id": 647,
+        "name": {
+            "jpn": "【EX龍紋 α】衣装",
+            "eng": "Safi'jiiva α+",
+            "fre": "Safi'jiiva α+",
+            "spa": "Safi'jiiva α+",
+            "ger": "Safi'jiiva α+",
+            "ita": "Safi'jiiva α+",
+            "kor": "【EX용문 α】의상",
+            "cht": "【精英‧龍紋 α】服裝",
+            "chs": "【精英·龙纹阿尔法】服装",
+            "rus": "Сафи'джиива α+",
+            "pol": "Safi'jiiva α+",
+            "ptb": "Safi'jiiva α+",
+            "ara": "صافيجيفا α+"
+        }
+    },
+    {
+        "id": 648,
+        "name": {
+            "jpn": "【EX龍紋 β】衣装",
+            "eng": "Safi'jiiva β+",
+            "fre": "Safi'jiiva β+",
+            "spa": "Safi'jiiva β+",
+            "ger": "Safi'jiiva β+",
+            "ita": "Safi'jiiva β+",
+            "kor": "【EX용문 β】의상",
+            "cht": "【精英‧龍紋 β】服裝",
+            "chs": "【精英·龙纹贝塔】服装",
+            "rus": "Сафи'джиива β+",
+            "pol": "Safi'jiiva β+",
+            "ptb": "Safi'jiiva β+",
+            "ara": "صافيجيفا β+"
+        }
+    },
+    {
+        "id": 649,
+        "name": {
+            "jpn": "【EX斉天 α】衣装",
+            "eng": "Furious Rajang α+",
+            "fre": "Rajang orage α+",
+            "spa": "Rajang Rabioso α+",
+            "ger": "Zorniger Rajang α+",
+            "ita": "Rajang furioso α+",
+            "kor": "【EX제천 α】의상",
+            "cht": "【精英·齊天 α】服裝",
+            "chs": "【精英·齐天阿尔法】服装",
+            "rus": "Взбешенный раянг α+",
+            "pol": "Wściekłego Rajanga α+",
+            "ptb": "Rajang Furioso α+",
+            "ara": "راجانغ الغاضب α+"
+        }
+    },
+    {
+        "id": 650,
+        "name": {
+            "jpn": "【EX斉天 β】衣装",
+            "eng": "Furious Rajang β+",
+            "fre": "Rajang orage β+",
+            "spa": "Rajang Rabioso β+",
+            "ger": "Zorniger Rajang β+",
+            "ita": "Rajang furioso β+",
+            "kor": "【EX제천 β】의상",
+            "cht": "【精英·齊天 β】服裝",
+            "chs": "【精英·齐天贝塔】服装",
+            "rus": "Взбешенный раянг β+",
+            "pol": "Wściekłego Rajanga β+",
+            "ptb": "Rajang Furioso β+",
+            "ara": "راجانغ الغاضب β+"
+        }
+    },
+    {
+        "id": 651,
+        "name": {
+            "jpn": "【EXブラキウム α】衣装",
+            "eng": "Raging Brachy α+",
+            "fre": "Brachydios tempête α+",
+            "spa": "Brach Colérico α+",
+            "ger": "Wütiger Brachydium α+",
+            "ita": "Brachydios rabbioso α+",
+            "kor": "【EX브라키움 α】의상",
+            "cht": "【精英·鐵腕 α】服裝",
+            "chs": "【精英·铁腕阿尔法】服装",
+            "rus": "Неистовый брахидиос α+",
+            "pol": "Rozgniewanego Brachydiosa α+",
+            "ptb": "Brachy Colérico α+",
+            "ara": "براكيديوس الحانق α+"
+        }
+    },
+    {
+        "id": 652,
+        "name": {
+            "jpn": "【EXブラキウム β】衣装",
+            "eng": "Raging Brachy β+",
+            "fre": "Brachydios tempête β+",
+            "spa": "Brach Colérico β+",
+            "ger": "Wütiger Brachydium β+",
+            "ita": "Brachydios rabbioso β+",
+            "kor": "【EX브라키움 β】의상",
+            "cht": "【精英·鐵腕 β】服裝",
+            "chs": "【精英·铁腕贝塔】服装",
+            "rus": "Неистовый брахидиос β+",
+            "pol": "Rozgniewanego Brachydiosa β+",
+            "ptb": "Brachy Colérico β+",
+            "ara": "براكيديوس الحانق β+"
+        }
+    },
+    {
+        "id": 653,
+        "name": {
+            "jpn": "【EXオルムング α】衣装",
+            "eng": "Frostfang Barioth α+",
+            "fre": "Barioth crocgivre α+",
+            "spa": "Barioth Cynodon α+",
+            "ger": "Frosthauer-Barioth α+",
+            "ita": "Barioth assiderato α+",
+            "kor": "【EX오르문그 α】의상",
+            "cht": "【精英·霜刃冰牙龍 α】服裝",
+            "chs": "【精英·霜刃冰牙龙阿尔法】服装",
+            "rus": "Ледозубый бариот α+",
+            "pol": "Bariotha Mrozokła α+",
+            "ptb": "Barioth Presagélida α+",
+            "ara": "باريوث أنياب الصقيع α+"
+        }
+    },
+    {
+        "id": 654,
+        "name": {
+            "jpn": "【EXオルムング β】衣装",
+            "eng": "Frostfang Barioth β+",
+            "fre": "Barioth crocgivre β+",
+            "spa": "Barioth Cynodon β+",
+            "ger": "Frosthauer-Barioth β+",
+            "ita": "Barioth assiderato β+",
+            "kor": "【EX오르문그 β】의상",
+            "cht": "【精英·霜刃冰牙龍 β】服裝",
+            "chs": "【精英·霜刃冰牙龙贝塔】服装",
+            "rus": "Ледозубый бариот β+",
+            "pol": "Bariotha Mrozokła β+",
+            "ptb": "Barioth Presagélida β+",
+            "ara": "باريوث أنياب الصقيع β+"
+        }
+    },
+    {
+        "id": 655,
+        "name": {
+            "jpn": "【EXエスカドラ α】衣装",
+            "eng": "Alatreon α+",
+            "fre": "Alatreon α+",
+            "spa": "Alatreon α+",
+            "ger": "Alatreon α+",
+            "ita": "Alatreon α+",
+            "kor": "【EX에스카드라 α】의상",
+            "cht": "【精英·煌黑龍 α】服裝",
+            "chs": "【精英·煌黑龙阿尔法】服装",
+            "rus": "Алатреон α+",
+            "pol": "Alatreona α+",
+            "ptb": "Alatreon α+",
+            "ara": "ألاتريون α+"
+        }
+    },
+    {
+        "id": 656,
+        "name": {
+            "jpn": "【EXエスカドラ β】衣装",
+            "eng": "Alatreon β+",
+            "fre": "Alatreon β+",
+            "spa": "Alatreon β+",
+            "ger": "Alatreon β+",
+            "ita": "Alatreon β+",
+            "kor": "【EX에스카드라 β】의상",
+            "cht": "【精英·煌黑龍 β】服裝",
+            "chs": "【精英·煌黑龙贝塔】服装",
+            "rus": "Алатреон β+",
+            "pol": "Alatreona β+",
+            "ptb": "Alatreon β+",
+            "ara": "ألاتريون β+"
+        }
+    },
+    {
+        "id": 657,
+        "name": {
+            "jpn": "【EXドラゴン α】衣装",
+            "eng": "Fatalis α+",
+            "fre": "Fatalis α+",
+            "spa": "Fatalis α+",
+            "ger": "Fatalis α+",
+            "ita": "Fatalis α+",
+            "kor": "【EX드래곤 α】의상 ",
+            "cht": "【精英‧龍 α】服裝",
+            "chs": "【精英·龙阿尔法】服装",
+            "rus": "Фаталис α+",
+            "pol": "Fatalis α+",
+            "ptb": "Fatalis α+",
+            "ara": "فاتاليس α+"
+        }
+    },
+    {
+        "id": 658,
+        "name": {
+            "jpn": "【EXドラゴン β】衣装",
+            "eng": "Fatalis β+",
+            "fre": "Fatalis β+",
+            "spa": "Fatalis β+",
+            "ger": "Fatalis β+",
+            "ita": "Fatalis β+",
+            "kor": "【EX드래곤 β】의상 ",
+            "cht": "【精英‧龍 β】服裝",
+            "chs": "【精英·龙贝塔】服装",
+            "rus": "Фаталис β+",
+            "pol": "Fatalis β+",
+            "ptb": "Fatalis β+",
+            "ara": "فاتاليس β+"
+        }
+    },
+    {
+        "id": 659,
+        "name": {
+            "jpn": "【EXマムガイラ α】衣装",
+            "eng": "Kulve Taroth α+",
+            "fre": "Kulve Taroth α+",
+            "spa": "Kulve Taroth α+",
+            "ger": "Kulve α+",
+            "ita": "Kulve Taroth α+",
+            "kor": "【EX맘가이라 α】의상",
+            "cht": "【精英·絢輝龍鎧羅 α】服裝",
+            "chs": "【精英·绚辉龙铠罗阿尔法】服装",
+            "rus": "Кулве тарот α+",
+            "pol": "Kulve Taroth α+",
+            "ptb": "Kulve Taroth α+",
+            "ara": "كولف تاروث α+"
+        }
+    },
+    {
+        "id": 660,
+        "name": {
+            "jpn": "【EXマムガイラ β】衣装",
+            "eng": "Kulve Taroth β+",
+            "fre": "Kulve Taroth β+",
+            "spa": "Kulve Taroth β+",
+            "ger": "Kulve β+",
+            "ita": "Kulve Taroth β+",
+            "kor": "【EX맘가이라 β】의상",
+            "cht": "【精英·絢輝龍鎧羅 β】服裝",
+            "chs": "【精英·绚辉龙铠罗贝塔】服装",
+            "rus": "Кулве тарот β+",
+            "pol": "Kulve Taroth β+",
+            "ptb": "Kulve Taroth β+",
+            "ara": "كولف تاروث β+"
+        }
+    },
+    {
+        "id": 661,
+        "name": {
+            "jpn": "【封印の龍骸布】衣装",
+            "eng": "Sealed Dragon Cloth",
+            "fre": "Châle-dragon interdit",
+            "spa": "Sudario de dragón",
+            "ger": "Drachenstoff-Schal",
+            "ita": "Velo nero",
+            "kor": "【봉인의 용해포】의상",
+            "cht": "【封印的龍骸布】服裝",
+            "chs": "【封印的龙骸布】服装",
+            "rus": "Ткань печати дракона",
+            "pol": "Tkanina zapieczętowanego smoka",
+            "ptb": "Tecido de Dragão Selado",
+            "ara": "قماش تغطية التنين"
+        }
+    },
+    {
+        "id": 662,
+        "name": {
+            "jpn": "【竜人族の耳】衣装",
+            "eng": "Wyverian Ears",
+            "fre": "Oreilles de Wyvérien",
+            "spa": "Orejas wyverianas",
+            "ger": "Wyverianer-Ohren",
+            "ita": "Orecchie wyverniane",
+            "kor": "【용인족의 귀】의상",
+            "cht": "【龍人族之耳】服裝",
+            "chs": "【龙人族之耳】服装",
+            "rus": "Уши виверианца",
+            "pol": "Wiweriańskie uszy",
+            "ptb": "Orelhas Serperianas",
+            "ara": "أذنا البشري التنين"
+        }
+    },
+    {
+        "id": 663,
+        "name": {
+            "jpn": "【キブクレフェイク】衣装",
+            "eng": "Duffel Penguin+",
+            "fre": "Masque de manchot +",
+            "spa": "Pingüino lanudo+",
+            "ger": "Bauschpinguin+",
+            "ita": "Pinguino+",
+            "kor": "【껴입기펭귄페이크】의상",
+            "cht": "【企鵝頭套】服裝",
+            "chs": "【企鹅头套】服装",
+            "rus": "Пингвин-полярник+",
+            "pol": "Pingwin bajowy+",
+            "ptb": "Pinguim Felpudo+",
+            "ara": "البطريق المنفوش+"
+        }
+    },
+    {
+        "id": 664,
+        "name": {
+            "jpn": "【ギンセンザル】衣装",
+            "eng": "Pearlspring+",
+            "fre": "Singe d'argent +",
+            "spa": "Termargénteo+",
+            "ger": "Perlenquell+",
+            "ita": "Macaco argentato+",
+            "kor": "【은천원숭이】의상",
+            "cht": "【溫泉銀猴】服裝",
+            "chs": "【温泉银猴】服装",
+            "rus": "Жемчужный источник+",
+            "pol": "Perłowy+",
+            "ptb": "Fonte-pérola+",
+            "ara": "ينبوع اللؤلؤ+"
+        }
+    },
+    {
+        "id": 665,
+        "name": {
+            "jpn": "【マッスル α】衣装",
+            "eng": "Buff Body α+",
+            "fre": "Fitness α+",
+            "spa": "Cuerpo fuerte α+",
+            "ger": "Kräftiger Körper α+",
+            "ita": "Corpo palestrato α+",
+            "kor": "【머슬 α】의상",
+            "cht": "【健美 α】服裝",
+            "chs": "【健美阿尔法】服装",
+            "rus": "Мускулы α+",
+            "pol": "Niezła rzeźba α+",
+            "ptb": "Corpo Sarado α+",
+            "ara": "هيكل التقوية α+"
+        }
+    },
+    {
+        "id": 666,
+        "name": {
+            "jpn": "【蒼世ノ侍】衣装",
+            "eng": "Azure Age",
+            "fre": "Âge d'azur",
+            "spa": "Edad Celeste",
+            "ger": "Azurära",
+            "ita": "Epoca celeste",
+            "kor": "【푸른빛무사】의상",
+            "cht": "【蒼世武士】服裝",
+            "chs": "【苍世武士】服装",
+            "rus": "Лазурный воин",
+            "pol": "Lazurowa Era",
+            "ptb": "Samurai Lazúli",
+            "ara": "عصر اللازورد"
+        }
+    },
+    {
+        "id": 669,
+        "name": {
+            "jpn": "【EXラヴィーナ γ】衣装",
+            "eng": "Velkhana γ+",
+            "fre": "Velkhana γ+",
+            "spa": "Velkhana γ+",
+            "ger": "Velkhana γ+",
+            "ita": "Velkhana γ+",
+            "kor": "【EX라비나 γ】의상",
+            "cht": "【精英·雪崩 γ】服裝",
+            "chs": "【精英·雪崩伽马】服装",
+            "rus": "Велхана γ+",
+            "pol": "Velkhany γ+",
+            "ptb": "Velkhana γ+",
+            "ara": "فيلكانا γ+"
+        }
+    },
+    {
+        "id": 670,
+        "name": {
+            "jpn": "【EXテンタクル γ】衣装",
+            "eng": "Namielle γ+",
+            "fre": "Namielle γ+",
+            "spa": "Namielle γ+",
+            "ger": "Namielle γ+",
+            "ita": "Namielle γ+",
+            "kor": "【EX텐터클 γ】의상",
+            "cht": "【精英·觸角 γ】服裝",
+            "chs": "【精英·触角伽马】服装",
+            "rus": "Намиэль γ+",
+            "pol": "Namiella γ+",
+            "ptb": "Namielle γ+",
+            "ara": "ناميال γ+"
+        }
+    },
+    {
+        "id": 672,
+        "name": {
+            "jpn": "【マッスル γ】衣装",
+            "eng": "Buff Body γ+",
+            "fre": "Fitness γ+",
+            "spa": "Cuerpo fuerte γ+",
+            "ger": "Kräftiger Körper γ+",
+            "ita": "Corpo palestrato γ+",
+            "kor": "【머슬 γ】의상",
+            "cht": "【健美 γ】服裝",
+            "chs": "【健美伽马】服装",
+            "rus": "Мускулы γ+",
+            "pol": "Niezła rzeźba γ+",
+            "ptb": "Corpo Sarado γ+",
+            "ara": "هيكل التقوية γ+"
+        }
+    },
+    {
         "id": 673,
         "name": {
             "jpn": "【インナー α】衣装",
@@ -9079,7 +11545,7 @@
             "fre": "Sous-vêtements α",
             "spa": "Ropa íntima α",
             "ger": "Merino α",
-            "ita": "Stile armatura intimo α",
+            "ita": "Intimo α",
             "kor": "【이너 α】의상",
             "cht": "【內衣 α】服裝",
             "chs": "【内衣阿尔法】服装",
@@ -9090,6 +11556,24 @@
         }
     },
     {
+        "id": 674,
+        "name": {
+            "jpn": "【アークロック β】衣装",
+            "eng": "Clockwork β+",
+            "fre": "Steampunk β+",
+            "spa": "Mecánico β+",
+            "ger": "Steampunk β+",
+            "ita": "Vapore β+",
+            "kor": "【아크로크 β】의상",
+            "cht": "【蒸汽貴族 β】服裝",
+            "chs": "【蒸汽贵族贝塔】服装",
+            "rus": "Часовые β+",
+            "pol": "Zegarowy β+",
+            "ptb": "Mecânico β+",
+            "ara": "تروس β+"
+        }
+    },
+    {
         "id": 675,
         "name": {
             "jpn": "【インナー β】衣装",
@@ -9097,7 +11581,7 @@
             "fre": "Sous-vêtements β",
             "spa": "Ropa íntima β",
             "ger": "Merino β",
-            "ita": "Stile armatura intimo β",
+            "ita": "Intimo β",
             "kor": "【이너 β】의상",
             "cht": "【內衣 β】服裝",
             "chs": "【内衣贝塔】服装",

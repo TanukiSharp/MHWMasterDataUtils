@@ -40,7 +40,7 @@
             [100,50,80,20,0,0,0]
         ],
         "id": 6,
-        "parentId": 50,
+        "parentId": 55,
         "sortOrder": 10,
         "name": {
             "jpn": "メタルバグパイプⅠ",
@@ -136,7 +136,7 @@
             [80,70,30,70,0,0,0]
         ],
         "id": 7,
-        "parentId": 175,
+        "parentId": 180,
         "sortOrder": 11,
         "name": {
             "jpn": "メタルバグパイプⅡ",
@@ -232,7 +232,7 @@
             [60,70,30,90,0,0,0]
         ],
         "id": 8,
-        "parentId": 175,
+        "parentId": 180,
         "sortOrder": 12,
         "name": {
             "jpn": "メタルバグパイプⅢ",
@@ -336,7 +336,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 9,
-        "parentId": 177,
+        "parentId": 182,
         "sortOrder": 13,
         "name": {
             "jpn": "グレートバグパイプⅠ",
@@ -440,7 +440,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 10,
-        "parentId": 178,
+        "parentId": 182,
         "sortOrder": 14,
         "name": {
             "jpn": "グレートバグパイプⅡ",
@@ -548,7 +548,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 11,
-        "parentId": 43,
+        "parentId": 184,
         "sortOrder": 15,
         "name": {
             "jpn": "グレートバグパイプⅢ",
@@ -657,7 +657,7 @@
             [90,50,50,80,80,0,0]
         ],
         "id": 12,
-        "parentId": 51,
+        "parentId": 42,
         "sortOrder": 16,
         "name": {
             "jpn": "フォルティッシモⅠ",
@@ -770,7 +770,7 @@
             [60,60,20,150,90,20,0]
         ],
         "id": 13,
-        "parentId": 52,
+        "parentId": 56,
         "sortOrder": 17,
         "name": {
             "jpn": "フォルティッシモⅡ",
@@ -872,7 +872,7 @@
             [120,120,40,50,70,0,0]
         ],
         "id": 14,
-        "parentId": 182,
+        "parentId": 186,
         "sortOrder": 18,
         "name": {
             "jpn": "ネルガルグルーヴ",
@@ -973,7 +973,7 @@
             [110,120,40,50,80,0,0]
         ],
         "id": 15,
-        "parentId": 182,
+        "parentId": 186,
         "sortOrder": 19,
         "name": {
             "jpn": "寂滅の一節",
@@ -1085,7 +1085,7 @@
             [80,50,80,90,0,0,0]
         ],
         "id": 16,
-        "parentId": 42,
+        "parentId": 188,
         "sortOrder": 20,
         "name": {
             "jpn": "サンダーガイダⅠ",
@@ -1305,7 +1305,7 @@
             [110,50,80,100,10,0,0]
         ],
         "id": 18,
-        "parentId": 57,
+        "parentId": 62,
         "sortOrder": 22,
         "name": {
             "jpn": "ライトニングドラムⅠ",
@@ -1417,7 +1417,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 19,
-        "parentId": 58,
+        "parentId": 63,
         "sortOrder": 23,
         "name": {
             "jpn": "ライトニングドラムⅡ",
@@ -1529,7 +1529,7 @@
             [90,60,80,80,70,20,0]
         ],
         "id": 20,
-        "parentId": 59,
+        "parentId": 64,
         "sortOrder": 24,
         "name": {
             "jpn": "ライトニングドラムⅢ",
@@ -1645,7 +1645,7 @@
             [70,70,30,80,0,0,0]
         ],
         "id": 21,
-        "parentId": 188,
+        "parentId": 192,
         "sortOrder": 25,
         "name": {
             "jpn": "クルルドゥダⅠ",
@@ -1755,7 +1755,7 @@
             [80,50,80,90,0,0,0]
         ],
         "id": 22,
-        "parentId": 188,
+        "parentId": 64,
         "sortOrder": 26,
         "name": {
             "jpn": "クルルドゥダⅡ",
@@ -1869,7 +1869,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 23,
-        "parentId": 56,
+        "parentId": 67,
         "sortOrder": 27,
         "name": {
             "jpn": "クルルドゥダⅢ",
@@ -1991,7 +1991,7 @@
             [110,50,80,100,10,0,0]
         ],
         "id": 24,
-        "parentId": 62,
+        "parentId": 68,
         "sortOrder": 28,
         "name": {
             "jpn": "リーシャタブルⅠ",
@@ -2109,7 +2109,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 25,
-        "parentId": 63,
+        "parentId": 194,
         "sortOrder": 29,
         "name": {
             "jpn": "リーシャタブルⅡ",
@@ -2231,7 +2231,7 @@
             [90,60,80,80,70,20,0]
         ],
         "id": 26,
-        "parentId": 64,
+        "parentId": 42,
         "sortOrder": 30,
         "name": {
             "jpn": "リーシャタブルⅢ",
@@ -2339,7 +2339,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 27,
-        "parentId": 68,
+        "parentId": 69,
         "sortOrder": 31,
         "name": {
             "jpn": "ヴァルキリコーダー",
@@ -2455,7 +2455,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 28,
-        "parentId": 194,
+        "parentId": 75,
         "sortOrder": 32,
         "name": {
             "jpn": "クイーンリコーダー",
@@ -2573,7 +2573,7 @@
             [80,50,50,80,90,0,0]
         ],
         "id": 29,
-        "parentId": 42,
+        "parentId": 76,
         "sortOrder": 33,
         "name": {
             "jpn": "サクラノリコーダー",
@@ -2691,7 +2691,7 @@
             [70,50,60,120,60,40,0]
         ],
         "id": 30,
-        "parentId": 69,
+        "parentId": 77,
         "sortOrder": 34,
         "name": {
             "jpn": "ロイヤルリコーダー",
@@ -2808,7 +2808,7 @@
             [60,70,30,90,0,0,0]
         ],
         "id": 31,
-        "parentId": 73,
+        "parentId": 198,
         "sortOrder": 35,
         "name": {
             "jpn": "アクアバグパイプⅠ",
@@ -2923,7 +2923,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 32,
-        "parentId": 74,
+        "parentId": 200,
         "sortOrder": 36,
         "name": {
             "jpn": "アクアバグパイプⅡ",
@@ -3038,7 +3038,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 33,
-        "parentId": 196,
+        "parentId": -1,
         "sortOrder": 37,
         "name": {
             "jpn": "アクアバグパイプⅢ",
@@ -3082,7 +3082,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3154,7 +3154,7 @@
             [100,50,80,100,20,0,0]
         ],
         "id": 34,
-        "parentId": 69,
+        "parentId": 80,
         "sortOrder": 38,
         "name": {
             "jpn": "ウォータータムタムⅠ",
@@ -3272,7 +3272,7 @@
             [90,50,50,80,80,0,0]
         ],
         "id": 35,
-        "parentId": 75,
+        "parentId": 81,
         "sortOrder": 39,
         "name": {
             "jpn": "ウォータータムタムⅡ",
@@ -3390,7 +3390,7 @@
             [90,60,80,80,70,20,0]
         ],
         "id": 36,
-        "parentId": 76,
+        "parentId": 82,
         "sortOrder": 40,
         "name": {
             "jpn": "ウォータータムタムⅢ",
@@ -3507,7 +3507,7 @@
             [50,50,80,120,0,0,0]
         ],
         "id": 37,
-        "parentId": -1,
+        "parentId": 85,
         "sortOrder": 41,
         "name": {
             "jpn": "グレイスバグパイプⅠ",
@@ -3551,7 +3551,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3618,7 +3618,7 @@
             [110,50,50,80,60,0,0]
         ],
         "id": 38,
-        "parentId": 80,
+        "parentId": -1,
         "sortOrder": 42,
         "name": {
             "jpn": "グレイスバグパイプⅡ",
@@ -3662,7 +3662,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3735,7 +3735,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 39,
-        "parentId": 81,
+        "parentId": 86,
         "sortOrder": 43,
         "name": {
             "jpn": "セクタード",
@@ -3852,7 +3852,7 @@
             [130,30,60,80,40,60,0]
         ],
         "id": 40,
-        "parentId": 82,
+        "parentId": 87,
         "sortOrder": 44,
         "name": {
             "jpn": "レイ＝セクタード",
@@ -3967,7 +3967,7 @@
             [110,60,80,0,0,0,0]
         ],
         "id": 41,
-        "parentId": 83,
+        "parentId": 90,
         "sortOrder": 45,
         "name": {
             "jpn": "ボーンホルンⅠ",
@@ -4070,7 +4070,7 @@
             [90,60,80,20,0,0,0]
         ],
         "id": 42,
-        "parentId": 84,
+        "parentId": -1,
         "sortOrder": 46,
         "name": {
             "jpn": "ボーンホルンⅡ",
@@ -4114,7 +4114,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4173,7 +4173,7 @@
             [80,50,50,70,0,0,0]
         ],
         "id": 43,
-        "parentId": 85,
+        "parentId": 91,
         "sortOrder": 47,
         "name": {
             "jpn": "ボーンホルンⅢ",
@@ -4280,7 +4280,7 @@
             [120,70,30,80,0,0,0]
         ],
         "id": 44,
-        "parentId": 85,
+        "parentId": 92,
         "sortOrder": 48,
         "name": {
             "jpn": "ハードボーンホルンⅠ",
@@ -4502,7 +4502,7 @@
             [140,70,30,100,10,0,0]
         ],
         "id": 46,
-        "parentId": 86,
+        "parentId": 119,
         "sortOrder": 50,
         "name": {
             "jpn": "ハードボーンホルンⅢ",
@@ -4616,7 +4616,7 @@
             [110,100,40,40,60,0,0]
         ],
         "id": 47,
-        "parentId": 87,
+        "parentId": 120,
         "sortOrder": 51,
         "name": {
             "jpn": "ヘビィボーンホルンⅠ",
@@ -4730,7 +4730,7 @@
             [110,120,40,50,80,0,0]
         ],
         "id": 48,
-        "parentId": 88,
+        "parentId": 119,
         "sortOrder": 52,
         "name": {
             "jpn": "ヘビィボーンホルンⅡ",
@@ -4843,7 +4843,7 @@
             [100,100,40,40,70,0,0]
         ],
         "id": 49,
-        "parentId": 92,
+        "parentId": -1,
         "sortOrder": 53,
         "name": {
             "jpn": "ガマルホルンⅠ",
@@ -4890,7 +4890,7 @@
             2,
             2
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -5071,7 +5071,7 @@
             [130,70,30,70,0,0,0]
         ],
         "id": 51,
-        "parentId": 122,
+        "parentId": 224,
         "sortOrder": 55,
         "name": {
             "jpn": "ブレイズホルンⅠ",
@@ -5299,7 +5299,7 @@
             [140,70,30,100,10,0,0]
         ],
         "id": 53,
-        "parentId": 212,
+        "parentId": 221,
         "sortOrder": 57,
         "name": {
             "jpn": "ジャナフバローネⅠ",
@@ -5749,7 +5749,7 @@
             [110,70,30,90,0,0,0]
         ],
         "id": 57,
-        "parentId": 221,
+        "parentId": -1,
         "sortOrder": 61,
         "name": {
             "jpn": "ブルームホルンⅡ",
@@ -5793,7 +5793,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -7017,7 +7017,7 @@
             "spa": "Rookslayer Bazelreid",
             "ger": "Bazel-Jagdhorn",
             "ita": "Torre incursione Bazel",
-            "kor": "폭린고바제르라이드",
+            "kor": "폭린고 바젤라이드",
             "cht": "爆鱗鼓赤紅星光",
             "chs": "爆鳞鼓赤红星光",
             "rus": "Гроза птиц базельрайда",
@@ -9100,7 +9100,7 @@
             "ita": "Corno neracciaio I",
             "kor": "흑강의용피리Ⅰ",
             "cht": "黑鋼龍笛Ⅰ",
-            "chs": "黒钢龙笛1",
+            "chs": "黑钢龙笛1",
             "rus": "Черный драконий рог 1",
             "pol": "Smoczy róg ze stali I",
             "ptb": "Draconoro Aço Negro I",
@@ -13411,7 +13411,7 @@
             [30,60,20,140,0,0,0]
         ],
         "id": 131,
-        "parentId": 171,
+        "parentId": 43,
         "sortOrder": 140,
         "name": {
             "jpn": "防衛隊支援型大鼓Ⅰ",
@@ -13509,7 +13509,7 @@
             [30,60,20,150,40,0,0]
         ],
         "id": 132,
-        "parentId": 171,
+        "parentId": 51,
         "sortOrder": 141,
         "name": {
             "jpn": "防衛隊支援型大鼓Ⅱ",
@@ -13607,7 +13607,7 @@
             [50,50,50,80,120,0,0]
         ],
         "id": 133,
-        "parentId": 173,
+        "parentId": 52,
         "sortOrder": 142,
         "name": {
             "jpn": "防衛隊支援型大鼓Ⅲ",
@@ -13705,7 +13705,7 @@
             [30,50,50,80,140,0,0]
         ],
         "id": 134,
-        "parentId": 46,
+        "parentId": 53,
         "sortOrder": 143,
         "name": {
             "jpn": "防衛隊支援型大鼓Ⅳ",
@@ -13803,7 +13803,7 @@
             [90,30,30,110,40,100,0]
         ],
         "id": 135,
-        "parentId": 49,
+        "parentId": 54,
         "sortOrder": 144,
         "name": {
             "jpn": "防衛隊支援型大鼓Ⅴ",
@@ -13902,7 +13902,7 @@
             [90,80,30,30,80,90,0]
         ],
         "id": 141,
-        "parentId": 53,
+        "parentId": 57,
         "sortOrder": 150,
         "name": {
             "jpn": "スフォルツァンドⅠ",
@@ -14016,7 +14016,7 @@
             [80,80,30,30,80,100,0]
         ],
         "id": 142,
-        "parentId": 54,
+        "parentId": 58,
         "sortOrder": 151,
         "name": {
             "jpn": "スフォルツァンドⅡ",
@@ -14130,7 +14130,7 @@
             [120,30,30,60,50,80,30]
         ],
         "id": 143,
-        "parentId": 55,
+        "parentId": 59,
         "sortOrder": 152,
         "name": {
             "jpn": "スフォルツァンドⅢ",
@@ -14237,7 +14237,7 @@
             [150,30,90,30,30,50,20]
         ],
         "id": 144,
-        "parentId": 180,
+        "parentId": 60,
         "sortOrder": 153,
         "name": {
             "jpn": "シャミセン【烏】",
@@ -14343,7 +14343,7 @@
             [150,30,90,30,30,50,20]
         ],
         "id": 145,
-        "parentId": 180,
+        "parentId": 61,
         "sortOrder": 154,
         "name": {
             "jpn": "シャミセン【狼】",
@@ -14444,7 +14444,7 @@
             [80,30,30,110,40,110,0]
         ],
         "id": 146,
-        "parentId": 184,
+        "parentId": 188,
         "sortOrder": 155,
         "name": {
             "jpn": "寂滅の一節【魂】",
@@ -14556,7 +14556,7 @@
             [100,100,40,50,60,50,0]
         ],
         "id": 147,
-        "parentId": 60,
+        "parentId": 65,
         "sortOrder": 156,
         "name": {
             "jpn": "ライトニングドラムⅣ",
@@ -14675,7 +14675,7 @@
             [100,80,30,30,80,80,0]
         ],
         "id": 148,
-        "parentId": 61,
+        "parentId": 66,
         "sortOrder": 157,
         "name": {
             "jpn": "王琴トドロキ",
@@ -14794,7 +14794,7 @@
             [130,30,90,30,30,70,20]
         ],
         "id": 149,
-        "parentId": 186,
+        "parentId": 190,
         "sortOrder": 158,
         "name": {
             "jpn": "王琴トドロキ改",
@@ -14913,7 +14913,7 @@
             [120,30,90,30,30,80,20]
         ],
         "id": 150,
-        "parentId": 186,
+        "parentId": 66,
         "sortOrder": 159,
         "name": {
             "jpn": "王牙琴【鳴雷】",
@@ -15258,7 +15258,7 @@
             [110,30,30,110,40,80,0]
         ],
         "id": 153,
-        "parentId": 65,
+        "parentId": 69,
         "sortOrder": 162,
         "name": {
             "jpn": "ネスルジェレサⅠ",
@@ -15380,7 +15380,7 @@
             [110,30,30,110,40,80,0]
         ],
         "id": 154,
-        "parentId": 66,
+        "parentId": 70,
         "sortOrder": 163,
         "name": {
             "jpn": "ネスルジェレサⅡ",
@@ -15496,7 +15496,7 @@
             [80,30,30,110,40,110,0]
         ],
         "id": 155,
-        "parentId": 190,
+        "parentId": 71,
         "sortOrder": 164,
         "name": {
             "jpn": "ストライプドラゴング",
@@ -15612,7 +15612,7 @@
             [70,30,30,110,40,120,0]
         ],
         "id": 156,
-        "parentId": 66,
+        "parentId": 72,
         "sortOrder": 165,
         "name": {
             "jpn": "ストライプドラゴング改",
@@ -15728,7 +15728,7 @@
             [60,30,30,110,40,130,0]
         ],
         "id": 157,
-        "parentId": 192,
+        "parentId": 73,
         "sortOrder": 166,
         "name": {
             "jpn": "轟鼓【虎鐘】",
@@ -15844,7 +15844,7 @@
             [90,100,40,50,70,50,0]
         ],
         "id": 158,
-        "parentId": 70,
+        "parentId": 78,
         "sortOrder": 167,
         "name": {
             "jpn": "ロイヤルリコーダー改",
@@ -15958,7 +15958,7 @@
             [110,30,30,110,40,80,0]
         ],
         "id": 159,
-        "parentId": 71,
+        "parentId": 79,
         "sortOrder": 168,
         "name": {
             "jpn": "ハイネスリコーダー",
@@ -16076,7 +16076,7 @@
             [120,30,30,60,50,80,30]
         ],
         "id": 160,
-        "parentId": 72,
+        "parentId": 198,
         "sortOrder": 169,
         "name": {
             "jpn": "ゴルトリコーダー",
@@ -16194,7 +16194,7 @@
             [110,80,30,30,80,70,0]
         ],
         "id": 161,
-        "parentId": 77,
+        "parentId": 203,
         "sortOrder": 170,
         "name": {
             "jpn": "ウォータータムタムⅣ",
@@ -16312,7 +16312,7 @@
             [80,80,30,30,80,100,0]
         ],
         "id": 162,
-        "parentId": 78,
+        "parentId": 203,
         "sortOrder": 171,
         "name": {
             "jpn": "ラグーナドラムⅠ",
@@ -16431,7 +16431,7 @@
             [120,30,30,60,50,60,50]
         ],
         "id": 163,
-        "parentId": 79,
+        "parentId": 80,
         "sortOrder": 172,
         "name": {
             "jpn": "ラグーナドラムⅡ",
@@ -16556,7 +16556,7 @@
             [90,80,30,30,80,90,0]
         ],
         "id": 164,
-        "parentId": 198,
+        "parentId": 83,
         "sortOrder": 173,
         "name": {
             "jpn": "ヒドゥントーン",
@@ -16678,7 +16678,7 @@
             [150,20,20,70,40,30,70]
         ],
         "id": 165,
-        "parentId": 198,
+        "parentId": 84,
         "sortOrder": 174,
         "name": {
             "jpn": "ヒドゥントーン改",
@@ -16800,7 +16800,7 @@
             [140,20,20,70,40,30,80]
         ],
         "id": 166,
-        "parentId": 200,
+        "parentId": 85,
         "sortOrder": 175,
         "name": {
             "jpn": "夜笛【逢魔】",
@@ -16917,7 +16917,7 @@
             [100,80,30,30,80,80,0]
         ],
         "id": 167,
-        "parentId": 203,
+        "parentId": 88,
         "sortOrder": 176,
         "name": {
             "jpn": "レイ＝セクタード改",
@@ -17034,7 +17034,7 @@
             [80,80,30,30,80,100,0]
         ],
         "id": 168,
-        "parentId": 203,
+        "parentId": 89,
         "sortOrder": 177,
         "name": {
             "jpn": "ブリーナ＝セクタード",
@@ -17151,7 +17151,7 @@
             [60,20,30,90,90,70,40]
         ],
         "id": 169,
-        "parentId": 80,
+        "parentId": 87,
         "sortOrder": 178,
         "name": {
             "jpn": "リルン＝グレイシア",
@@ -17267,7 +17267,7 @@
             [110,100,40,50,50,50,0]
         ],
         "id": 170,
-        "parentId": 89,
+        "parentId": 121,
         "sortOrder": 179,
         "name": {
             "jpn": "マッドボーンホルンⅠ",
@@ -17385,7 +17385,7 @@
             [100,100,40,50,60,50,0]
         ],
         "id": 171,
-        "parentId": 87,
+        "parentId": 119,
         "sortOrder": 180,
         "name": {
             "jpn": "マッドボーンホルンⅡ",
@@ -17503,7 +17503,7 @@
             [90,100,40,50,70,50,0]
         ],
         "id": 172,
-        "parentId": 90,
+        "parentId": 122,
         "sortOrder": 181,
         "name": {
             "jpn": "マッドボーンホルンⅢ",
@@ -17729,7 +17729,7 @@
             [140,30,30,60,50,40,50]
         ],
         "id": 174,
-        "parentId": 91,
+        "parentId": 212,
         "sortOrder": 183,
         "name": {
             "jpn": "氷琴アイスフィール",
@@ -17738,7 +17738,7 @@
             "spa": "Eisfyl sonoro",
             "ger": "Sonorer Eisfyl",
             "ita": "Eisfyl maestro del corno",
-            "kor": "빙금 아이스필드",
+            "kor": "빙금 아이스필",
             "cht": "冰琴凍土",
             "chs": "冰琴冻土",
             "rus": "Звонкий Айсфил",
@@ -17842,7 +17842,7 @@
             [100,80,30,30,80,80,0]
         ],
         "id": 175,
-        "parentId": 119,
+        "parentId": 151,
         "sortOrder": 184,
         "name": {
             "jpn": "ガマルコーラスⅠ",
@@ -17956,7 +17956,7 @@
             [140,30,30,60,50,60,30]
         ],
         "id": 176,
-        "parentId": 120,
+        "parentId": -1,
         "sortOrder": 185,
         "name": {
             "jpn": "ガマルコーラスⅡ",
@@ -18003,7 +18003,7 @@
             3,
             2
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -18063,7 +18063,7 @@
             [110,30,30,110,40,80,0]
         ],
         "id": 177,
-        "parentId": 119,
+        "parentId": -1,
         "sortOrder": 186,
         "name": {
             "jpn": "灼炎のフランアニマー",
@@ -18169,7 +18169,7 @@
             [120,30,30,60,50,80,30]
         ],
         "id": 178,
-        "parentId": 121,
+        "parentId": 214,
         "sortOrder": 187,
         "name": {
             "jpn": "灼炎のフランアニマー改",
@@ -18275,7 +18275,7 @@
             [120,30,30,60,50,80,30]
         ],
         "id": 179,
-        "parentId": 119,
+        "parentId": -1,
         "sortOrder": 188,
         "name": {
             "jpn": "斬竜笛イブレス",
@@ -18394,7 +18394,7 @@
             [80,100,40,50,80,50,0]
         ],
         "id": 180,
-        "parentId": 151,
+        "parentId": -1,
         "sortOrder": 189,
         "name": {
             "jpn": "蛮顎竜ノ鼻唄Ⅰ",
@@ -18733,7 +18733,7 @@
             [80,100,40,50,80,50,0]
         ],
         "id": 183,
-        "parentId": 214,
+        "parentId": -1,
         "sortOrder": 192,
         "name": {
             "jpn": "ホーン＝ジャナールⅡ",
@@ -18779,7 +18779,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -22752,7 +22752,7 @@
             [100,20,30,90,90,30,40]
         ],
         "id": 219,
-        "parentId": 64,
+        "parentId": 74,
         "sortOrder": 228,
         "name": {
             "jpn": "カーサスドラゴング",
@@ -22856,7 +22856,7 @@
             [90,20,30,90,90,40,40]
         ],
         "id": 220,
-        "parentId": 67,
+        "parentId": 196,
         "sortOrder": 229,
         "name": {
             "jpn": "吼鼓【鬼咬】",
@@ -23251,6 +23251,203 @@
                     "quantity": 1
                 }
             ]
+        }
+    },
+    {
+        "songs": [
+            {
+                "effect": 0,
+                "note1": 0,
+                "note2": 0
+            },
+            {
+                "effect": 2,
+                "note1": 0,
+                "note2": 2,
+                "note3": 2,
+                "note4": 1
+            },
+            {
+                "effect": 42,
+                "note1": 2,
+                "note2": 1,
+                "note3": 2
+            },
+            {
+                "effect": 43,
+                "note1": 1,
+                "note2": 2,
+                "note3": 1,
+                "note4": 0
+            }
+        ],
+        "sharpness": [
+            [140,20,20,70,40,30,30],
+            [140,20,20,70,40,30,40],
+            [140,20,20,70,40,30,50],
+            [140,20,20,70,40,30,60],
+            [140,20,20,70,40,30,70],
+            [140,20,20,70,40,30,80]
+        ],
+        "id": 224,
+        "parentId": -1,
+        "sortOrder": 233,
+        "name": {
+            "jpn": "ミラメノス",
+            "eng": "Fatalis Menace",
+            "fre": "Menace Fatalis",
+            "spa": "Amenaza Fatalis",
+            "ger": "Fatalis-Terror",
+            "ita": "Minaccia di Fatalis",
+            "kor": "밀라메너스",
+            "cht": "黑龍威脅",
+            "chs": "黑龙威胁",
+            "rus": "Угроза Фаталиса",
+            "pol": "Groźba Fatalisa",
+            "ptb": "Ameaça de Fatalis",
+            "ara": "تهديد فاتاليس"
+        },
+        "description": {
+            "jpn": "ミラボレアスの狩猟笛。 絶望の詩を耳にした者は、感情を 持たない狂戦士と化すという。",
+            "eng": "A Fatalis hunting horn of despair. Its song causes listeners to turn into unfeeling beasts.",
+            "fre": "Corne de chasse Fatalis. Ceux qui écoutent son chant se transforment en bêtes enragées.",
+            "spa": "Cornamusa desesperante de Fatalis. Su melodía convierte a sus víctimas en bestias sin conocimiento.",
+            "ger": "Dieses Fatalis-Jagdhorn der Verzweiflung führt Zuhörern die Abgründe ihrer Seele vor.",
+            "ita": "Corno da caccia di Fatalis. Le sue melodie trasformano chi le ascolta in belve senz'anima.",
+            "kor": "밀라보레아스의 수렵피리. 절망의 노래를 들은 자는 감정 없는 광전사로 변한다",
+            "cht": "黑龍的狩獵笛。 聽見絕望詩篇的勇者們， 將化身為冷酷無情的狂戰士。",
+            "chs": "黑龙的狩猎笛。 听见绝望诗篇的勇者们， 将化身为冷酷无情的狂战士。",
+            "rus": "Охотничий рог отчаяния Фаталиса. Его звук лишает чувств всякого, кто его слышит.",
+            "pol": "Róg łowiecki rozpaczy Fatalisa. Jego zew zmienia słuchaczy w nieczułe bestie.",
+            "ptb": "Berrante desesperador de Fatalis. Quem escuta sua melodia vira uma fera desalmada.",
+            "ara": "قرن صيد لفاتاليس منغمس في اليأس. تحتم أغانيه على المستمعين وتحولهم إلى وحوش ضارية."
+        },
+        "damage": 1302,
+        "rarity": 11,
+        "treeId": 89,
+        "affinity": -40,
+        "craftingCost": 28000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 90,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": [
+                {
+                    "id": 2756,
+                    "quantity": 3
+                },
+                {
+                    "id": 2759,
+                    "quantity": 1
+                },
+                {
+                    "id": 2758,
+                    "quantity": 1
+                },
+                {
+                    "id": 2760,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    {
+        "songs": [
+            {
+                "effect": 0,
+                "note1": 0,
+                "note2": 0
+            },
+            {
+                "effect": 2,
+                "note1": 0,
+                "note2": 2,
+                "note3": 2,
+                "note4": 1
+            },
+            {
+                "effect": 42,
+                "note1": 2,
+                "note2": 1,
+                "note3": 2
+            },
+            {
+                "effect": 43,
+                "note1": 1,
+                "note2": 2,
+                "note3": 1,
+                "note4": 0
+            }
+        ],
+        "sharpness": [
+            [140,20,20,70,40,30,30],
+            [140,20,20,70,40,30,40],
+            [140,20,20,70,40,30,50],
+            [140,20,20,70,40,30,60],
+            [140,20,20,70,40,30,70],
+            [140,20,20,70,40,30,80]
+        ],
+        "id": 225,
+        "parentId": -1,
+        "sortOrder": 234,
+        "name": {
+            "jpn": "ミラメノスアギカ",
+            "eng": "Fatalis Menace Wailer",
+            "fre": "Hurlement Fatalis",
+            "spa": "Laúd amenaza Fatalis",
+            "ger": "Fatalis-Terrorklampfe",
+            "ita": "Lamento minaccioso Fatalis",
+            "kor": "밀라메너스아기카",
+            "cht": "黑龍絕望琴",
+            "chs": "黑龙绝望琴",
+            "rus": "Гриф угрозы фаталиса",
+            "pol": "Brzdękadło groźby Fatalisa",
+            "ptb": "Melodiosa Ameaça de Fatalis",
+            "ara": "آلة عويل تهديد فاتاليس"
+        },
+        "description": {
+            "jpn": "ミラボレアスの狩猟笛。 絶望の詩を耳にした者は、感情を 持たない狂戦士と化すという。",
+            "eng": "A Fatalis hunting horn of despair. Its song causes listeners to turn into unfeeling beasts.",
+            "fre": "Corne de chasse Fatalis. Ceux qui écoutent son chant se transforment en bêtes enragées.",
+            "spa": "Cornamusa desesperante de Fatalis. Su melodía convierte a sus víctimas en bestias sin conocimiento.",
+            "ger": "Dieses Fatalis-Jagdhorn der Verzweiflung führt Zuhörern die Abgründe ihrer Seele vor.",
+            "ita": "Corno da caccia di Fatalis. Le sue melodie trasformano chi le ascolta in belve senz'anima.",
+            "kor": "밀라보레아스의 수렵피리. 절망의 노래를 들은 자는 감정 없는 광전사로 변한다",
+            "cht": "黑龍的狩獵笛。 聽見絕望詩篇的勇者們， 將化身為冷酷無情的狂戰士。",
+            "chs": "黑龙的狩猎笛。 听见绝望诗篇的勇者们， 将化身为冷酷无情的狂战士。",
+            "rus": "Охотничий рог отчаяния Фаталиса. Его звук лишает чувств всякого, кто его слышит.",
+            "pol": "Róg łowiecki rozpaczy Fatalisa. Jego zew zmienia słuchaczy w nieczułe bestie.",
+            "ptb": "Berrante desesperador de Fatalis. Quem escuta sua melodia vira uma fera desalmada.",
+            "ara": "قرن صيد لفاتاليس منغمس في اليأس. تحتم أغانيه على المستمعين وتحولهم إلى وحوش ضارية."
+        },
+        "damage": 1469,
+        "rarity": 12,
+        "treeId": 89,
+        "affinity": -20,
+        "craftingCost": 80000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 150,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": false,
+            "items": []
         }
     },
     {

@@ -1,7 +1,7 @@
 [
     {
         "id": 3123,
-        "order": 1,
+        "order": 4,
         "setGroup": 203,
         "name": {
             "jpn": "追い風の護石",
@@ -50,7 +50,7 @@
     },
     {
         "id": 3128,
-        "order": 2,
+        "order": 5,
         "setGroup": 0,
         "name": {
             "jpn": "耐毒の護石Ⅰ",
@@ -113,7 +113,7 @@
     },
     {
         "id": 3129,
-        "order": 3,
+        "order": 6,
         "setGroup": 1,
         "name": {
             "jpn": "耐毒の護石Ⅱ",
@@ -176,7 +176,7 @@
     },
     {
         "id": 3130,
-        "order": 4,
+        "order": 7,
         "setGroup": 2,
         "name": {
             "jpn": "耐毒の護石Ⅲ",
@@ -239,7 +239,7 @@
     },
     {
         "id": 3131,
-        "order": 5,
+        "order": 8,
         "setGroup": 3,
         "name": {
             "jpn": "攻撃の護石Ⅰ",
@@ -302,7 +302,7 @@
     },
     {
         "id": 3132,
-        "order": 6,
+        "order": 9,
         "setGroup": 4,
         "name": {
             "jpn": "攻撃の護石Ⅱ",
@@ -365,7 +365,7 @@
     },
     {
         "id": 3133,
-        "order": 7,
+        "order": 10,
         "setGroup": 5,
         "name": {
             "jpn": "攻撃の護石Ⅲ",
@@ -428,7 +428,7 @@
     },
     {
         "id": 3134,
-        "order": 10,
+        "order": 13,
         "setGroup": 6,
         "name": {
             "jpn": "防御の護石Ⅰ",
@@ -491,7 +491,7 @@
     },
     {
         "id": 3135,
-        "order": 11,
+        "order": 14,
         "setGroup": 7,
         "name": {
             "jpn": "防御の護石Ⅱ",
@@ -554,7 +554,7 @@
     },
     {
         "id": 3136,
-        "order": 12,
+        "order": 15,
         "setGroup": 8,
         "name": {
             "jpn": "防御の護石Ⅲ",
@@ -617,7 +617,7 @@
     },
     {
         "id": 3137,
-        "order": 15,
+        "order": 18,
         "setGroup": 9,
         "name": {
             "jpn": "耐痺の護石Ⅰ",
@@ -680,7 +680,7 @@
     },
     {
         "id": 3138,
-        "order": 16,
+        "order": 19,
         "setGroup": 10,
         "name": {
             "jpn": "耐痺の護石Ⅱ",
@@ -743,7 +743,7 @@
     },
     {
         "id": 3139,
-        "order": 17,
+        "order": 20,
         "setGroup": 11,
         "name": {
             "jpn": "耐痺の護石Ⅲ",
@@ -806,7 +806,7 @@
     },
     {
         "id": 3140,
-        "order": 18,
+        "order": 21,
         "setGroup": 12,
         "name": {
             "jpn": "耐眠の護石Ⅰ",
@@ -869,7 +869,7 @@
     },
     {
         "id": 3141,
-        "order": 19,
+        "order": 22,
         "setGroup": 13,
         "name": {
             "jpn": "耐眠の護石Ⅱ",
@@ -932,7 +932,7 @@
     },
     {
         "id": 3142,
-        "order": 20,
+        "order": 23,
         "setGroup": 14,
         "name": {
             "jpn": "耐眠の護石Ⅲ",
@@ -995,7 +995,7 @@
     },
     {
         "id": 3143,
-        "order": 21,
+        "order": 24,
         "setGroup": 15,
         "name": {
             "jpn": "耐絶の護石Ⅰ",
@@ -1058,7 +1058,7 @@
     },
     {
         "id": 3144,
-        "order": 22,
+        "order": 25,
         "setGroup": 16,
         "name": {
             "jpn": "耐絶の護石Ⅱ",
@@ -1121,7 +1121,7 @@
     },
     {
         "id": 3145,
-        "order": 23,
+        "order": 26,
         "setGroup": 17,
         "name": {
             "jpn": "耐絶の護石Ⅲ",
@@ -1184,7 +1184,7 @@
     },
     {
         "id": 3146,
-        "order": 173,
+        "order": 176,
         "setGroup": 18,
         "name": {
             "jpn": "耐爆の護石Ⅰ",
@@ -1247,7 +1247,7 @@
     },
     {
         "id": 3147,
-        "order": 174,
+        "order": 177,
         "setGroup": 19,
         "name": {
             "jpn": "耐爆の護石Ⅱ",
@@ -1310,7 +1310,7 @@
     },
     {
         "id": 3148,
-        "order": 175,
+        "order": 178,
         "setGroup": 20,
         "name": {
             "jpn": "耐爆の護石Ⅲ",
@@ -1373,7 +1373,7 @@
     },
     {
         "id": 3149,
-        "order": 140,
+        "order": 143,
         "setGroup": 21,
         "name": {
             "jpn": "耐裂の護石Ⅰ",
@@ -1436,7 +1436,7 @@
     },
     {
         "id": 3150,
-        "order": 141,
+        "order": 144,
         "setGroup": 22,
         "name": {
             "jpn": "耐裂の護石Ⅱ",
@@ -1499,7 +1499,7 @@
     },
     {
         "id": 3151,
-        "order": 142,
+        "order": 145,
         "setGroup": 23,
         "name": {
             "jpn": "耐裂の護石Ⅲ",
@@ -1562,7 +1562,7 @@
     },
     {
         "id": 3152,
-        "order": 226,
+        "order": 229,
         "setGroup": 24,
         "name": {
             "jpn": "耐防の護石Ⅰ",
@@ -1625,7 +1625,7 @@
     },
     {
         "id": 3153,
-        "order": 227,
+        "order": 230,
         "setGroup": 25,
         "name": {
             "jpn": "耐防の護石Ⅱ",
@@ -1688,7 +1688,7 @@
     },
     {
         "id": 3154,
-        "order": 228,
+        "order": 231,
         "setGroup": 26,
         "name": {
             "jpn": "耐防の護石Ⅲ",
@@ -1751,7 +1751,7 @@
     },
     {
         "id": 3158,
-        "order": 229,
+        "order": 232,
         "setGroup": 30,
         "name": {
             "jpn": "耳栓の護石Ⅰ",
@@ -1814,7 +1814,7 @@
     },
     {
         "id": 3159,
-        "order": 230,
+        "order": 233,
         "setGroup": 258,
         "name": {
             "jpn": "耳栓の護石Ⅱ",
@@ -1877,7 +1877,7 @@
     },
     {
         "id": 3160,
-        "order": 231,
+        "order": 234,
         "setGroup": 259,
         "name": {
             "jpn": "耳栓の護石Ⅲ",
@@ -1940,7 +1940,7 @@
     },
     {
         "id": 3161,
-        "order": 24,
+        "order": 27,
         "setGroup": 31,
         "name": {
             "jpn": "防風の護石Ⅰ",
@@ -2003,7 +2003,7 @@
     },
     {
         "id": 3162,
-        "order": 25,
+        "order": 28,
         "setGroup": 260,
         "name": {
             "jpn": "防風の護石Ⅱ",
@@ -2066,7 +2066,7 @@
     },
     {
         "id": 3163,
-        "order": 26,
+        "order": 29,
         "setGroup": 261,
         "name": {
             "jpn": "防風の護石Ⅲ",
@@ -2129,7 +2129,7 @@
     },
     {
         "id": 3164,
-        "order": 234,
+        "order": 237,
         "setGroup": 32,
         "name": {
             "jpn": "耐震の護石Ⅰ",
@@ -2192,7 +2192,7 @@
     },
     {
         "id": 3165,
-        "order": 235,
+        "order": 238,
         "setGroup": 33,
         "name": {
             "jpn": "耐震の護石Ⅱ",
@@ -2255,7 +2255,7 @@
     },
     {
         "id": 3166,
-        "order": 29,
+        "order": 32,
         "setGroup": 34,
         "name": {
             "jpn": "体力の護石Ⅰ",
@@ -2318,7 +2318,7 @@
     },
     {
         "id": 3167,
-        "order": 30,
+        "order": 33,
         "setGroup": 35,
         "name": {
             "jpn": "体力の護石Ⅱ",
@@ -2381,7 +2381,7 @@
     },
     {
         "id": 3168,
-        "order": 31,
+        "order": 34,
         "setGroup": 36,
         "name": {
             "jpn": "体力の護石Ⅲ",
@@ -2444,7 +2444,7 @@
     },
     {
         "id": 3169,
-        "order": 32,
+        "order": 35,
         "setGroup": 37,
         "name": {
             "jpn": "治癒の護石Ⅰ",
@@ -2507,7 +2507,7 @@
     },
     {
         "id": 3170,
-        "order": 33,
+        "order": 36,
         "setGroup": 38,
         "name": {
             "jpn": "治癒の護石Ⅱ",
@@ -2570,7 +2570,7 @@
     },
     {
         "id": 3171,
-        "order": 34,
+        "order": 37,
         "setGroup": 39,
         "name": {
             "jpn": "治癒の護石Ⅲ",
@@ -2633,7 +2633,7 @@
     },
     {
         "id": 3172,
-        "order": 143,
+        "order": 146,
         "setGroup": 40,
         "name": {
             "jpn": "早復の護石Ⅰ",
@@ -2696,7 +2696,7 @@
     },
     {
         "id": 3173,
-        "order": 145,
+        "order": 148,
         "setGroup": 264,
         "name": {
             "jpn": "早復の護石Ⅲ",
@@ -2759,7 +2759,7 @@
     },
     {
         "id": 3174,
-        "order": 144,
+        "order": 147,
         "setGroup": 41,
         "name": {
             "jpn": "早復の護石Ⅱ",
@@ -2822,7 +2822,7 @@
     },
     {
         "id": 3175,
-        "order": 35,
+        "order": 38,
         "setGroup": 42,
         "name": {
             "jpn": "耐火の護石Ⅰ",
@@ -2885,7 +2885,7 @@
     },
     {
         "id": 3176,
-        "order": 36,
+        "order": 39,
         "setGroup": 43,
         "name": {
             "jpn": "耐火の護石Ⅱ",
@@ -2948,7 +2948,7 @@
     },
     {
         "id": 3177,
-        "order": 37,
+        "order": 40,
         "setGroup": 44,
         "name": {
             "jpn": "耐火の護石Ⅲ",
@@ -3011,7 +3011,7 @@
     },
     {
         "id": 3178,
-        "order": 38,
+        "order": 41,
         "setGroup": 45,
         "name": {
             "jpn": "耐水の護石Ⅰ",
@@ -3074,7 +3074,7 @@
     },
     {
         "id": 3179,
-        "order": 39,
+        "order": 42,
         "setGroup": 46,
         "name": {
             "jpn": "耐水の護石Ⅱ",
@@ -3137,7 +3137,7 @@
     },
     {
         "id": 3180,
-        "order": 40,
+        "order": 43,
         "setGroup": 47,
         "name": {
             "jpn": "耐水の護石Ⅲ",
@@ -3200,7 +3200,7 @@
     },
     {
         "id": 3181,
-        "order": 146,
+        "order": 149,
         "setGroup": 48,
         "name": {
             "jpn": "耐氷の護石Ⅰ",
@@ -3263,7 +3263,7 @@
     },
     {
         "id": 3182,
-        "order": 147,
+        "order": 150,
         "setGroup": 49,
         "name": {
             "jpn": "耐氷の護石Ⅱ",
@@ -3326,7 +3326,7 @@
     },
     {
         "id": 3183,
-        "order": 148,
+        "order": 151,
         "setGroup": 50,
         "name": {
             "jpn": "耐氷の護石Ⅲ",
@@ -3389,7 +3389,7 @@
     },
     {
         "id": 3184,
-        "order": 41,
+        "order": 44,
         "setGroup": 51,
         "name": {
             "jpn": "耐雷の護石Ⅰ",
@@ -3452,7 +3452,7 @@
     },
     {
         "id": 3185,
-        "order": 42,
+        "order": 45,
         "setGroup": 52,
         "name": {
             "jpn": "耐雷の護石Ⅱ",
@@ -3515,7 +3515,7 @@
     },
     {
         "id": 3186,
-        "order": 43,
+        "order": 46,
         "setGroup": 53,
         "name": {
             "jpn": "耐雷の護石Ⅲ",
@@ -3578,7 +3578,7 @@
     },
     {
         "id": 3187,
-        "order": 176,
+        "order": 179,
         "setGroup": 54,
         "name": {
             "jpn": "耐龍の護石Ⅰ",
@@ -3641,7 +3641,7 @@
     },
     {
         "id": 3188,
-        "order": 177,
+        "order": 180,
         "setGroup": 55,
         "name": {
             "jpn": "耐龍の護石Ⅱ",
@@ -3704,7 +3704,7 @@
     },
     {
         "id": 3189,
-        "order": 178,
+        "order": 181,
         "setGroup": 56,
         "name": {
             "jpn": "耐龍の護石Ⅲ",
@@ -3767,7 +3767,7 @@
     },
     {
         "id": 3190,
-        "order": 149,
+        "order": 152,
         "setGroup": 57,
         "name": {
             "jpn": "耐属の護石Ⅰ",
@@ -3830,7 +3830,7 @@
     },
     {
         "id": 3191,
-        "order": 150,
+        "order": 153,
         "setGroup": 58,
         "name": {
             "jpn": "耐属の護石Ⅱ",
@@ -3893,7 +3893,7 @@
     },
     {
         "id": 3192,
-        "order": 151,
+        "order": 154,
         "setGroup": 59,
         "name": {
             "jpn": "耐属の護石Ⅲ",
@@ -3956,7 +3956,7 @@
     },
     {
         "id": 3193,
-        "order": 44,
+        "order": 47,
         "setGroup": 60,
         "name": {
             "jpn": "火炎の護石Ⅰ",
@@ -4019,7 +4019,7 @@
     },
     {
         "id": 3194,
-        "order": 45,
+        "order": 48,
         "setGroup": 61,
         "name": {
             "jpn": "火炎の護石Ⅱ",
@@ -4082,7 +4082,7 @@
     },
     {
         "id": 3195,
-        "order": 46,
+        "order": 49,
         "setGroup": 62,
         "name": {
             "jpn": "火炎の護石Ⅲ",
@@ -4145,7 +4145,7 @@
     },
     {
         "id": 3196,
-        "order": 49,
+        "order": 52,
         "setGroup": 63,
         "name": {
             "jpn": "流水の護石Ⅰ",
@@ -4208,7 +4208,7 @@
     },
     {
         "id": 3197,
-        "order": 50,
+        "order": 53,
         "setGroup": 64,
         "name": {
             "jpn": "流水の護石Ⅱ",
@@ -4271,7 +4271,7 @@
     },
     {
         "id": 3198,
-        "order": 51,
+        "order": 54,
         "setGroup": 65,
         "name": {
             "jpn": "流水の護石Ⅲ",
@@ -4334,7 +4334,7 @@
     },
     {
         "id": 3199,
-        "order": 152,
+        "order": 155,
         "setGroup": 66,
         "name": {
             "jpn": "氷結の護石Ⅰ",
@@ -4397,7 +4397,7 @@
     },
     {
         "id": 3200,
-        "order": 153,
+        "order": 156,
         "setGroup": 67,
         "name": {
             "jpn": "氷結の護石Ⅱ",
@@ -4460,7 +4460,7 @@
     },
     {
         "id": 3201,
-        "order": 154,
+        "order": 157,
         "setGroup": 68,
         "name": {
             "jpn": "氷結の護石Ⅲ",
@@ -4523,7 +4523,7 @@
     },
     {
         "id": 3202,
-        "order": 54,
+        "order": 57,
         "setGroup": 69,
         "name": {
             "jpn": "雷光の護石Ⅰ",
@@ -4586,7 +4586,7 @@
     },
     {
         "id": 3203,
-        "order": 55,
+        "order": 58,
         "setGroup": 70,
         "name": {
             "jpn": "雷光の護石Ⅱ",
@@ -4649,7 +4649,7 @@
     },
     {
         "id": 3204,
-        "order": 56,
+        "order": 59,
         "setGroup": 71,
         "name": {
             "jpn": "雷光の護石Ⅲ",
@@ -4712,7 +4712,7 @@
     },
     {
         "id": 3205,
-        "order": 179,
+        "order": 182,
         "setGroup": 72,
         "name": {
             "jpn": "破龍の護石Ⅰ",
@@ -4775,7 +4775,7 @@
     },
     {
         "id": 3206,
-        "order": 180,
+        "order": 183,
         "setGroup": 73,
         "name": {
             "jpn": "破龍の護石Ⅱ",
@@ -4838,7 +4838,7 @@
     },
     {
         "id": 3207,
-        "order": 181,
+        "order": 184,
         "setGroup": 74,
         "name": {
             "jpn": "破龍の護石Ⅲ",
@@ -4901,7 +4901,7 @@
     },
     {
         "id": 3208,
-        "order": 59,
+        "order": 62,
         "setGroup": 75,
         "name": {
             "jpn": "毒撃の護石Ⅰ",
@@ -4964,7 +4964,7 @@
     },
     {
         "id": 3209,
-        "order": 60,
+        "order": 63,
         "setGroup": 76,
         "name": {
             "jpn": "毒撃の護石Ⅱ",
@@ -5027,7 +5027,7 @@
     },
     {
         "id": 3210,
-        "order": 61,
+        "order": 64,
         "setGroup": 77,
         "name": {
             "jpn": "毒撃の護石Ⅲ",
@@ -5090,7 +5090,7 @@
     },
     {
         "id": 3211,
-        "order": 63,
+        "order": 66,
         "setGroup": 78,
         "name": {
             "jpn": "痺撃の護石Ⅰ",
@@ -5153,7 +5153,7 @@
     },
     {
         "id": 3212,
-        "order": 64,
+        "order": 67,
         "setGroup": 79,
         "name": {
             "jpn": "痺撃の護石Ⅱ",
@@ -5216,7 +5216,7 @@
     },
     {
         "id": 3213,
-        "order": 65,
+        "order": 68,
         "setGroup": 80,
         "name": {
             "jpn": "痺撃の護石Ⅲ",
@@ -5279,7 +5279,7 @@
     },
     {
         "id": 3214,
-        "order": 67,
+        "order": 70,
         "setGroup": 81,
         "name": {
             "jpn": "睡撃の護石Ⅰ",
@@ -5342,7 +5342,7 @@
     },
     {
         "id": 3215,
-        "order": 68,
+        "order": 71,
         "setGroup": 82,
         "name": {
             "jpn": "睡撃の護石Ⅱ",
@@ -5405,7 +5405,7 @@
     },
     {
         "id": 3216,
-        "order": 69,
+        "order": 72,
         "setGroup": 83,
         "name": {
             "jpn": "睡撃の護石Ⅲ",
@@ -5468,7 +5468,7 @@
     },
     {
         "id": 3217,
-        "order": 184,
+        "order": 187,
         "setGroup": 84,
         "name": {
             "jpn": "爆破の護石Ⅰ",
@@ -5531,7 +5531,7 @@
     },
     {
         "id": 3218,
-        "order": 185,
+        "order": 188,
         "setGroup": 85,
         "name": {
             "jpn": "爆破の護石Ⅱ",
@@ -5594,7 +5594,7 @@
     },
     {
         "id": 3219,
-        "order": 186,
+        "order": 189,
         "setGroup": 86,
         "name": {
             "jpn": "爆破の護石Ⅲ",
@@ -5657,7 +5657,7 @@
     },
     {
         "id": 3220,
-        "order": 157,
+        "order": 160,
         "setGroup": 87,
         "name": {
             "jpn": "達人の護石Ⅰ",
@@ -5720,7 +5720,7 @@
     },
     {
         "id": 3221,
-        "order": 158,
+        "order": 161,
         "setGroup": 88,
         "name": {
             "jpn": "達人の護石Ⅱ",
@@ -5783,7 +5783,7 @@
     },
     {
         "id": 3222,
-        "order": 159,
+        "order": 162,
         "setGroup": 89,
         "name": {
             "jpn": "達人の護石Ⅲ",
@@ -5846,7 +5846,7 @@
     },
     {
         "id": 3223,
-        "order": 286,
+        "order": 289,
         "setGroup": 90,
         "name": {
             "jpn": "超心の護石",
@@ -5909,7 +5909,7 @@
     },
     {
         "id": 3225,
-        "order": 237,
+        "order": 240,
         "setGroup": 92,
         "name": {
             "jpn": "痛撃の護石Ⅰ",
@@ -5972,7 +5972,7 @@
     },
     {
         "id": 3226,
-        "order": 238,
+        "order": 241,
         "setGroup": 93,
         "name": {
             "jpn": "痛撃の護石Ⅱ",
@@ -6035,7 +6035,7 @@
     },
     {
         "id": 3227,
-        "order": 240,
+        "order": 243,
         "setGroup": 94,
         "name": {
             "jpn": "集中の護石Ⅰ",
@@ -6098,7 +6098,7 @@
     },
     {
         "id": 3228,
-        "order": 241,
+        "order": 244,
         "setGroup": 95,
         "name": {
             "jpn": "集中の護石Ⅱ",
@@ -6161,7 +6161,7 @@
     },
     {
         "id": 3229,
-        "order": 289,
+        "order": 292,
         "setGroup": 96,
         "name": {
             "jpn": "昂揚の護石Ⅰ",
@@ -6224,7 +6224,7 @@
     },
     {
         "id": 3230,
-        "order": 290,
+        "order": 293,
         "setGroup": 97,
         "name": {
             "jpn": "昂揚の護石Ⅱ",
@@ -6287,7 +6287,7 @@
     },
     {
         "id": 3231,
-        "order": 188,
+        "order": 191,
         "setGroup": 99,
         "name": {
             "jpn": "抜刀の護石Ⅰ",
@@ -6350,7 +6350,7 @@
     },
     {
         "id": 3232,
-        "order": 189,
+        "order": 192,
         "setGroup": 100,
         "name": {
             "jpn": "抜刀の護石Ⅱ",
@@ -6413,7 +6413,7 @@
     },
     {
         "id": 3233,
-        "order": 243,
+        "order": 246,
         "setGroup": 101,
         "name": {
             "jpn": "重撃の護石Ⅰ",
@@ -6476,7 +6476,7 @@
     },
     {
         "id": 3234,
-        "order": 244,
+        "order": 247,
         "setGroup": 102,
         "name": {
             "jpn": "重撃の護石Ⅱ",
@@ -6539,7 +6539,7 @@
     },
     {
         "id": 3235,
-        "order": 71,
+        "order": 74,
         "setGroup": 103,
         "name": {
             "jpn": "ＫＯの護石Ⅰ",
@@ -6602,7 +6602,7 @@
     },
     {
         "id": 3236,
-        "order": 72,
+        "order": 75,
         "setGroup": 104,
         "name": {
             "jpn": "ＫＯの護石Ⅱ",
@@ -6665,7 +6665,7 @@
     },
     {
         "id": 3237,
-        "order": 73,
+        "order": 76,
         "setGroup": 263,
         "name": {
             "jpn": "ＫＯの護石Ⅲ",
@@ -6728,7 +6728,7 @@
     },
     {
         "id": 3238,
-        "order": 74,
+        "order": 77,
         "setGroup": 105,
         "name": {
             "jpn": "奪気の護石Ⅰ",
@@ -6791,7 +6791,7 @@
     },
     {
         "id": 3239,
-        "order": 75,
+        "order": 78,
         "setGroup": 106,
         "name": {
             "jpn": "奪気の護石Ⅱ",
@@ -6854,7 +6854,7 @@
     },
     {
         "id": 3240,
-        "order": 76,
+        "order": 79,
         "setGroup": 107,
         "name": {
             "jpn": "奪気の護石Ⅲ",
@@ -6917,7 +6917,7 @@
     },
     {
         "id": 3241,
-        "order": 259,
+        "order": 262,
         "setGroup": 108,
         "name": {
             "jpn": "全開の護石Ⅰ",
@@ -6980,7 +6980,7 @@
     },
     {
         "id": 3242,
-        "order": 260,
+        "order": 263,
         "setGroup": 109,
         "name": {
             "jpn": "全開の護石Ⅱ",
@@ -7043,7 +7043,7 @@
     },
     {
         "id": 3243,
-        "order": 264,
+        "order": 267,
         "setGroup": 110,
         "name": {
             "jpn": "挑戦の護石Ⅰ",
@@ -7106,7 +7106,7 @@
     },
     {
         "id": 3244,
-        "order": 265,
+        "order": 268,
         "setGroup": 111,
         "name": {
             "jpn": "挑戦の護石Ⅱ",
@@ -7169,7 +7169,7 @@
     },
     {
         "id": 3245,
-        "order": 269,
+        "order": 272,
         "setGroup": 112,
         "name": {
             "jpn": "無傷の護石Ⅰ",
@@ -7232,7 +7232,7 @@
     },
     {
         "id": 3246,
-        "order": 270,
+        "order": 273,
         "setGroup": 113,
         "name": {
             "jpn": "無傷の護石Ⅱ",
@@ -7295,7 +7295,7 @@
     },
     {
         "id": 3247,
-        "order": 246,
+        "order": 249,
         "setGroup": 116,
         "name": {
             "jpn": "逆上の護石Ⅰ",
@@ -7358,7 +7358,7 @@
     },
     {
         "id": 3248,
-        "order": 247,
+        "order": 250,
         "setGroup": 117,
         "name": {
             "jpn": "逆上の護石Ⅱ",
@@ -7421,7 +7421,7 @@
     },
     {
         "id": 3249,
-        "order": 191,
+        "order": 194,
         "setGroup": 121,
         "name": {
             "jpn": "特射の護石Ⅰ",
@@ -7484,7 +7484,7 @@
     },
     {
         "id": 3250,
-        "order": 192,
+        "order": 195,
         "setGroup": 122,
         "name": {
             "jpn": "特射の護石Ⅱ",
@@ -7547,7 +7547,7 @@
     },
     {
         "id": 3251,
-        "order": 77,
+        "order": 80,
         "setGroup": 123,
         "name": {
             "jpn": "砲術の護石Ⅰ",
@@ -7610,7 +7610,7 @@
     },
     {
         "id": 3252,
-        "order": 78,
+        "order": 81,
         "setGroup": 124,
         "name": {
             "jpn": "砲術の護石Ⅱ",
@@ -7673,7 +7673,7 @@
     },
     {
         "id": 3253,
-        "order": 79,
+        "order": 82,
         "setGroup": 125,
         "name": {
             "jpn": "砲術の護石Ⅲ",
@@ -7736,7 +7736,7 @@
     },
     {
         "id": 3254,
-        "order": 193,
+        "order": 196,
         "setGroup": 128,
         "name": {
             "jpn": "強走の護石Ⅰ",
@@ -7799,7 +7799,7 @@
     },
     {
         "id": 3255,
-        "order": 194,
+        "order": 197,
         "setGroup": 129,
         "name": {
             "jpn": "強走の護石Ⅱ",
@@ -7862,7 +7862,7 @@
     },
     {
         "id": 3256,
-        "order": 196,
+        "order": 199,
         "setGroup": 130,
         "name": {
             "jpn": "体術の護石Ⅰ",
@@ -7925,7 +7925,7 @@
     },
     {
         "id": 3257,
-        "order": 197,
+        "order": 200,
         "setGroup": 131,
         "name": {
             "jpn": "体術の護石Ⅱ",
@@ -7988,7 +7988,7 @@
     },
     {
         "id": 3258,
-        "order": 201,
+        "order": 204,
         "setGroup": 132,
         "name": {
             "jpn": "早気の護石Ⅰ",
@@ -8051,7 +8051,7 @@
     },
     {
         "id": 3259,
-        "order": 202,
+        "order": 205,
         "setGroup": 133,
         "name": {
             "jpn": "早気の護石Ⅱ",
@@ -8114,7 +8114,7 @@
     },
     {
         "id": 3260,
-        "order": 80,
+        "order": 83,
         "setGroup": 134,
         "name": {
             "jpn": "無食の護石Ⅰ",
@@ -8177,7 +8177,7 @@
     },
     {
         "id": 3261,
-        "order": 81,
+        "order": 84,
         "setGroup": 135,
         "name": {
             "jpn": "無食の護石Ⅱ",
@@ -8240,7 +8240,7 @@
     },
     {
         "id": 3262,
-        "order": 82,
+        "order": 85,
         "setGroup": 136,
         "name": {
             "jpn": "無食の護石Ⅲ",
@@ -8303,7 +8303,7 @@
     },
     {
         "id": 3263,
-        "order": 162,
+        "order": 165,
         "setGroup": 137,
         "name": {
             "jpn": "回避の護石Ⅰ",
@@ -8366,7 +8366,7 @@
     },
     {
         "id": 3264,
-        "order": 163,
+        "order": 166,
         "setGroup": 138,
         "name": {
             "jpn": "回避の護石Ⅱ",
@@ -8429,7 +8429,7 @@
     },
     {
         "id": 3265,
-        "order": 164,
+        "order": 167,
         "setGroup": 262,
         "name": {
             "jpn": "回避の護石Ⅲ",
@@ -8492,7 +8492,7 @@
     },
     {
         "id": 3266,
-        "order": 204,
+        "order": 207,
         "setGroup": 139,
         "name": {
             "jpn": "跳躍の護石Ⅰ",
@@ -8555,7 +8555,7 @@
     },
     {
         "id": 3267,
-        "order": 205,
+        "order": 208,
         "setGroup": 140,
         "name": {
             "jpn": "跳躍の護石Ⅱ",
@@ -8618,7 +8618,7 @@
     },
     {
         "id": 3268,
-        "order": 83,
+        "order": 86,
         "setGroup": 141,
         "name": {
             "jpn": "鉄壁の護石Ⅰ",
@@ -8681,7 +8681,7 @@
     },
     {
         "id": 3269,
-        "order": 84,
+        "order": 87,
         "setGroup": 142,
         "name": {
             "jpn": "鉄壁の護石Ⅱ",
@@ -8744,7 +8744,7 @@
     },
     {
         "id": 3270,
-        "order": 85,
+        "order": 88,
         "setGroup": 143,
         "name": {
             "jpn": "鉄壁の護石Ⅲ",
@@ -8807,7 +8807,7 @@
     },
     {
         "id": 3271,
-        "order": 167,
+        "order": 170,
         "setGroup": 144,
         "name": {
             "jpn": "納刀の護石Ⅰ",
@@ -8870,7 +8870,7 @@
     },
     {
         "id": 3272,
-        "order": 168,
+        "order": 171,
         "setGroup": 145,
         "name": {
             "jpn": "納刀の護石Ⅱ",
@@ -8933,7 +8933,7 @@
     },
     {
         "id": 3273,
-        "order": 169,
+        "order": 172,
         "setGroup": 146,
         "name": {
             "jpn": "納刀の護石Ⅲ",
@@ -8996,7 +8996,7 @@
     },
     {
         "id": 3274,
-        "order": 88,
+        "order": 91,
         "setGroup": 147,
         "name": {
             "jpn": "友愛の護石Ⅰ",
@@ -9059,7 +9059,7 @@
     },
     {
         "id": 3275,
-        "order": 89,
+        "order": 92,
         "setGroup": 148,
         "name": {
             "jpn": "友愛の護石Ⅱ",
@@ -9122,7 +9122,7 @@
     },
     {
         "id": 3276,
-        "order": 90,
+        "order": 93,
         "setGroup": 149,
         "name": {
             "jpn": "友愛の護石Ⅲ",
@@ -9185,7 +9185,7 @@
     },
     {
         "id": 3277,
-        "order": 93,
+        "order": 96,
         "setGroup": 150,
         "name": {
             "jpn": "持続の護石Ⅰ",
@@ -9248,7 +9248,7 @@
     },
     {
         "id": 3278,
-        "order": 94,
+        "order": 97,
         "setGroup": 151,
         "name": {
             "jpn": "持続の護石Ⅱ",
@@ -9311,7 +9311,7 @@
     },
     {
         "id": 3279,
-        "order": 95,
+        "order": 98,
         "setGroup": 152,
         "name": {
             "jpn": "持続の護石Ⅲ",
@@ -9374,7 +9374,7 @@
     },
     {
         "id": 3280,
-        "order": 96,
+        "order": 99,
         "setGroup": 153,
         "name": {
             "jpn": "早食の護石Ⅰ",
@@ -9437,7 +9437,7 @@
     },
     {
         "id": 3281,
-        "order": 97,
+        "order": 100,
         "setGroup": 154,
         "name": {
             "jpn": "早食の護石Ⅱ",
@@ -9500,7 +9500,7 @@
     },
     {
         "id": 3282,
-        "order": 98,
+        "order": 101,
         "setGroup": 155,
         "name": {
             "jpn": "早食の護石Ⅲ",
@@ -9563,7 +9563,7 @@
     },
     {
         "id": 3283,
-        "order": 170,
+        "order": 173,
         "setGroup": 156,
         "name": {
             "jpn": "研磨の護石Ⅰ",
@@ -9626,7 +9626,7 @@
     },
     {
         "id": 3284,
-        "order": 171,
+        "order": 174,
         "setGroup": 157,
         "name": {
             "jpn": "研磨の護石Ⅱ",
@@ -9689,7 +9689,7 @@
     },
     {
         "id": 3285,
-        "order": 172,
+        "order": 175,
         "setGroup": 158,
         "name": {
             "jpn": "研磨の護石Ⅲ",
@@ -9752,7 +9752,7 @@
     },
     {
         "id": 3286,
-        "order": 207,
+        "order": 210,
         "setGroup": 159,
         "name": {
             "jpn": "爆師の護石Ⅰ",
@@ -9815,7 +9815,7 @@
     },
     {
         "id": 3287,
-        "order": 208,
+        "order": 211,
         "setGroup": 160,
         "name": {
             "jpn": "爆師の護石Ⅱ",
@@ -9878,7 +9878,7 @@
     },
     {
         "id": 3288,
-        "order": 209,
+        "order": 212,
         "setGroup": 161,
         "name": {
             "jpn": "爆師の護石Ⅲ",
@@ -9941,7 +9941,7 @@
     },
     {
         "id": 3289,
-        "order": 210,
+        "order": 213,
         "setGroup": 162,
         "name": {
             "jpn": "茸好の護石Ⅰ",
@@ -10004,7 +10004,7 @@
     },
     {
         "id": 3290,
-        "order": 211,
+        "order": 214,
         "setGroup": 163,
         "name": {
             "jpn": "茸好の護石Ⅱ",
@@ -10067,7 +10067,7 @@
     },
     {
         "id": 3292,
-        "order": 99,
+        "order": 102,
         "setGroup": 165,
         "name": {
             "jpn": "加護の護石Ⅰ",
@@ -10130,7 +10130,7 @@
     },
     {
         "id": 3293,
-        "order": 100,
+        "order": 103,
         "setGroup": 166,
         "name": {
             "jpn": "加護の護石Ⅱ",
@@ -10193,7 +10193,7 @@
     },
     {
         "id": 3294,
-        "order": 101,
+        "order": 104,
         "setGroup": 167,
         "name": {
             "jpn": "加護の護石Ⅲ",
@@ -10256,7 +10256,7 @@
     },
     {
         "id": 3295,
-        "order": 102,
+        "order": 105,
         "setGroup": 168,
         "name": {
             "jpn": "采配の護石Ⅰ",
@@ -10319,7 +10319,7 @@
     },
     {
         "id": 3296,
-        "order": 103,
+        "order": 106,
         "setGroup": 169,
         "name": {
             "jpn": "采配の護石Ⅱ",
@@ -10382,7 +10382,7 @@
     },
     {
         "id": 3297,
-        "order": 104,
+        "order": 107,
         "setGroup": 170,
         "name": {
             "jpn": "采配の護石Ⅲ",
@@ -10445,7 +10445,7 @@
     },
     {
         "id": 3298,
-        "order": 107,
+        "order": 110,
         "setGroup": 171,
         "name": {
             "jpn": "植学の護石Ⅰ",
@@ -10508,7 +10508,7 @@
     },
     {
         "id": 3299,
-        "order": 108,
+        "order": 111,
         "setGroup": 172,
         "name": {
             "jpn": "植学の護石Ⅱ",
@@ -10571,7 +10571,7 @@
     },
     {
         "id": 3300,
-        "order": 109,
+        "order": 112,
         "setGroup": 173,
         "name": {
             "jpn": "植学の護石Ⅲ",
@@ -10634,7 +10634,7 @@
     },
     {
         "id": 3301,
-        "order": 111,
+        "order": 114,
         "setGroup": 174,
         "name": {
             "jpn": "地学の護石Ⅰ",
@@ -10697,7 +10697,7 @@
     },
     {
         "id": 3302,
-        "order": 112,
+        "order": 115,
         "setGroup": 175,
         "name": {
             "jpn": "地学の護石Ⅱ",
@@ -10760,7 +10760,7 @@
     },
     {
         "id": 3303,
-        "order": 113,
+        "order": 116,
         "setGroup": 176,
         "name": {
             "jpn": "地学の護石Ⅲ",
@@ -10823,7 +10823,7 @@
     },
     {
         "id": 3304,
-        "order": 272,
+        "order": 275,
         "setGroup": 177,
         "name": {
             "jpn": "渾身の護石Ⅰ",
@@ -10886,7 +10886,7 @@
     },
     {
         "id": 3305,
-        "order": 273,
+        "order": 276,
         "setGroup": 178,
         "name": {
             "jpn": "渾身の護石Ⅱ",
@@ -10949,7 +10949,7 @@
     },
     {
         "id": 3306,
-        "order": 114,
+        "order": 117,
         "setGroup": 179,
         "name": {
             "jpn": "投石の護石Ⅰ",
@@ -11012,7 +11012,7 @@
     },
     {
         "id": 3307,
-        "order": 115,
+        "order": 118,
         "setGroup": 180,
         "name": {
             "jpn": "投石の護石Ⅱ",
@@ -11075,7 +11075,7 @@
     },
     {
         "id": 3308,
-        "order": 116,
+        "order": 119,
         "setGroup": 181,
         "name": {
             "jpn": "投石の護石Ⅲ",
@@ -11138,7 +11138,7 @@
     },
     {
         "id": 3309,
-        "order": 117,
+        "order": 120,
         "setGroup": 182,
         "name": {
             "jpn": "潜伏の護石Ⅰ",
@@ -11201,7 +11201,7 @@
     },
     {
         "id": 3310,
-        "order": 118,
+        "order": 121,
         "setGroup": 183,
         "name": {
             "jpn": "潜伏の護石Ⅱ",
@@ -11264,7 +11264,7 @@
     },
     {
         "id": 3311,
-        "order": 119,
+        "order": 122,
         "setGroup": 184,
         "name": {
             "jpn": "潜伏の護石Ⅲ",
@@ -11327,7 +11327,7 @@
     },
     {
         "id": 3312,
-        "order": 275,
+        "order": 278,
         "setGroup": 185,
         "name": {
             "jpn": "耐衝の護石Ⅰ",
@@ -11390,7 +11390,7 @@
     },
     {
         "id": 3313,
-        "order": 276,
+        "order": 279,
         "setGroup": 186,
         "name": {
             "jpn": "耐衝の護石Ⅱ",
@@ -11453,37 +11453,37 @@
     },
     {
         "id": 3314,
-        "order": 120,
+        "order": 123,
         "setGroup": 188,
         "name": {
-            "jpn": "環境の護石Ⅰ",
-            "eng": "Survival Charm I",
-            "fre": "Collier de survie",
-            "spa": "Cigua supervivencia I",
-            "ger": "Überleben-Talisman I",
-            "ita": "Amuleto sopravvivenza I",
-            "kor": "환경의 호석Ⅰ",
-            "cht": "環境護石Ⅰ",
-            "chs": "环境护石1",
-            "rus": "Оберег выживания 1",
-            "pol": "Amulet przetrwania I",
-            "ptb": "Amuleto de Sobrevivência I",
-            "ara": "سحر النجاة I"
+            "jpn": "煙復の護石Ⅰ",
+            "eng": "Smoke Charm I",
+            "fre": "Collier de fumée",
+            "spa": "Cigua humo I",
+            "ger": "Rauch-Talisman I",
+            "ita": "Amuleto spore I",
+            "kor": "연기 회복의 호석Ⅰ",
+            "cht": "煙復護石Ⅰ",
+            "chs": "烟复护石1",
+            "rus": "Оберег спор 1",
+            "pol": "Amulet dymu I",
+            "ptb": "Amuleto de Fumaça I",
+            "ara": "سحر الدخان I"
         },
         "description": {
-            "jpn": "環境利用の知識スキルが アップするお守り。 ",
-            "eng": "A charm that enhances the Survival Expert skill.",
-            "fre": "Un accessoire qui augmente le talent Ami de la nature.",
-            "spa": "Un esotérico amuleto capaz de potenciar la habilidad experto en supervivencia.",
-            "ger": "Dieses Amulett verstärkt deine Überlebensexperte-Fähigkeit.",
-            "ita": "Un accessorio che potenzia l'abilità Esperto di sopravvivenza.",
-            "kor": "환경 이용 지식 스킬이 향상되는 부적.",
-            "cht": "能夠提升 環境利用知識技能的護身符。",
-            "chs": "能够提升 环境利用知识技能的护身符。",
-            "rus": "Усиливает навык \"Специалист по выживанию\".",
-            "pol": "Amulet wzmacniający umiejętność Mistrz Przetrwania.",
-            "ptb": "Um amuleto que melhora a habilidade Sobrevivente.",
-            "ara": "سحر يُحسن من مهارة خبير النجاة."
+            "jpn": "綿胞子草の知識スキルが アップするお守り。 ",
+            "eng": "A charm that enhances the Sporepuff Expert skill.",
+            "fre": "Un accessoire qui augmente le talent Expert sporenlit.",
+            "spa": "Un esotérico amuleto capaz de potenciar la habilidad experto en hierbasporas.",
+            "ger": "Dieses Amulett verstärkt deine Sporenbausch-Experte-Fähigkeit.",
+            "ita": "Un accessorio che potenzia l'abilità Esperto di spore.",
+            "kor": "면 포자풀의 지식 스킬이 향상되는 부적. ",
+            "cht": "能夠提升棉花孢子草的 知識技能的護身符。 ",
+            "chs": "能够提升棉花孢子草的 知识技能的护身符。",
+            "rus": "Усиливает навык \"Знаток споровиков\".",
+            "pol": "Ozdoba wzmacniająca umiejętność Ekspert od Purchawic.",
+            "ptb": "Um amuleto que aumenta a habilidade Mestre em Esporífera.",
+            "ara": "سحر يُحسن من مهارة خبير نفحات الحبوب."
         },
         "cost": 1500,
         "gender": 3,
@@ -11516,37 +11516,37 @@
     },
     {
         "id": 3315,
-        "order": 121,
+        "order": 124,
         "setGroup": 189,
         "name": {
-            "jpn": "環境の護石Ⅱ",
-            "eng": "Survival Charm II",
-            "fre": "Collier de survie II",
-            "spa": "Cigua supervivencia II",
-            "ger": "ÜberlebenTalisman II",
-            "ita": "Amuleto sopravvivenza II",
-            "kor": "환경의 호석Ⅱ",
-            "cht": "環境護石Ⅱ",
-            "chs": "环境护石2",
-            "rus": "Оберег выживания 2",
-            "pol": "Amulet przetrwania II",
-            "ptb": "Amuleto de Sobrevivência II",
-            "ara": "سحر النجاة II"
+            "jpn": "煙復の護石Ⅱ",
+            "eng": "Smoke Charm II",
+            "fre": "Collier de fumée II",
+            "spa": "Cigua humo II",
+            "ger": "Rauch-Talisman II",
+            "ita": "Amuleto spore II",
+            "kor": "연기 회복의 호석Ⅱ",
+            "cht": "煙復護石Ⅱ",
+            "chs": "烟复护石2",
+            "rus": "Оберег спор 2",
+            "pol": "Amulet dymu II",
+            "ptb": "Amuleto de Fumaça II",
+            "ara": "سحر الدخان II"
         },
         "description": {
-            "jpn": "環境利用の知識スキルが アップするお守り。 ",
-            "eng": "A charm that enhances the Survival Expert skill.",
-            "fre": "Un accessoire qui augmente le talent Ami de la nature.",
-            "spa": "Un esotérico amuleto capaz de potenciar la habilidad experto en supervivencia.",
-            "ger": "Dieses Amulett verstärkt deine Überlebensexperte-Fähigkeit.",
-            "ita": "Un accessorio che potenzia l'abilità Esperto di sopravvivenza.",
-            "kor": "환경 이용 지식 스킬이 향상되는 부적.",
-            "cht": "能夠提升 環境利用知識技能的護身符。",
-            "chs": "能够提升 环境利用知识技能的护身符。",
-            "rus": "Усиливает навык \"Специалист по выживанию\".",
-            "pol": "Amulet wzmacniający umiejętność Mistrz Przetrwania.",
-            "ptb": "Um amuleto que melhora a habilidade Sobrevivente.",
-            "ara": "سحر يُحسن من مهارة خبير النجاة."
+            "jpn": "綿胞子草の知識スキルが アップするお守り。 ",
+            "eng": "A charm that enhances the Sporepuff Expert skill.",
+            "fre": "Un accessoire qui augmente le talent Expert sporenlit.",
+            "spa": "Un esotérico amuleto capaz de potenciar la habilidad experto en hierbasporas.",
+            "ger": "Dieses Amulett verstärkt deine Sporenbausch-Experte-Fähigkeit.",
+            "ita": "Un accessorio che potenzia l'abilità Esperto di spore.",
+            "kor": "면 포자풀의 지식 스킬이 향상되는 부적. ",
+            "cht": "能夠提升棉花孢子草的 知識技能的護身符。 ",
+            "chs": "能够提升棉花孢子草的 知识技能的护身符。",
+            "rus": "Усиливает навык \"Знаток споровиков\".",
+            "pol": "Ozdoba wzmacniająca umiejętność Ekspert od Purchawic.",
+            "ptb": "Um amuleto que aumenta a habilidade Mestre em Esporífera.",
+            "ara": "سحر يُحسن من مهارة خبير نفحات الحبوب."
         },
         "cost": 6000,
         "gender": 3,
@@ -11579,37 +11579,37 @@
     },
     {
         "id": 3316,
-        "order": 122,
+        "order": 125,
         "setGroup": 190,
         "name": {
-            "jpn": "環境の護石Ⅲ",
-            "eng": "Survival Charm III",
-            "fre": "Collier de survie III",
-            "spa": "Cigua supervivencia III",
-            "ger": "ÜberlebenTalismanIII",
-            "ita": "Amuleto sopravvivenza III",
-            "kor": "환경의 호석Ⅲ",
-            "cht": "環境護石Ⅲ",
-            "chs": "环境护石3",
-            "rus": "Оберег выживания 3",
-            "pol": "Amulet przetrwania III",
-            "ptb": "Amuleto de Sobrevivência III",
-            "ara": "سحر النجاة III"
+            "jpn": "煙復の護石Ⅲ",
+            "eng": "Smoke Charm III",
+            "fre": "Collier de fumée III",
+            "spa": "Cigua humo III",
+            "ger": "Rauch-Talisman III",
+            "ita": "Amuleto spore III",
+            "kor": "연기 회복의 호석Ⅲ",
+            "cht": "煙復護石Ⅲ",
+            "chs": "烟复护石3",
+            "rus": "Оберег спор 3",
+            "pol": "Amulet dymu III",
+            "ptb": "Amuleto de Fumaça III",
+            "ara": "سحر الدخان III"
         },
         "description": {
-            "jpn": "環境利用の知識スキルが アップするお守り。 ",
-            "eng": "A charm that enhances the Survival Expert skill.",
-            "fre": "Un accessoire qui augmente le talent Ami de la nature.",
-            "spa": "Un esotérico amuleto capaz de potenciar la habilidad experto en supervivencia.",
-            "ger": "Dieses Amulett verstärkt deine Überlebensexperte-Fähigkeit.",
-            "ita": "Un accessorio che potenzia l'abilità Esperto di sopravvivenza.",
-            "kor": "환경 이용 지식 스킬이 향상되는 부적.",
-            "cht": "能夠提升 環境利用知識技能的護身符。",
-            "chs": "能够提升 环境利用知识技能的护身符。",
-            "rus": "Усиливает навык \"Специалист по выживанию\".",
-            "pol": "Amulet wzmacniający umiejętność Mistrz Przetrwania.",
-            "ptb": "Um amuleto que melhora a habilidade Sobrevivente.",
-            "ara": "سحر يُحسن من مهارة خبير النجاة."
+            "jpn": "綿胞子草の知識スキルが アップするお守り。 ",
+            "eng": "A charm that enhances the Sporepuff Expert skill.",
+            "fre": "Un accessoire qui augmente le talent Expert sporenlit.",
+            "spa": "Un esotérico amuleto capaz de potenciar la habilidad experto en hierbasporas.",
+            "ger": "Dieses Amulett verstärkt deine Sporenbausch-Experte-Fähigkeit.",
+            "ita": "Un accessorio che potenzia l'abilità Esperto di spore.",
+            "kor": "면 포자풀의 지식 스킬이 향상되는 부적. ",
+            "cht": "能夠提升棉花孢子草的 知識技能的護身符。 ",
+            "chs": "能够提升棉花孢子草的 知识技能的护身符。",
+            "rus": "Усиливает навык \"Знаток споровиков\".",
+            "pol": "Ozdoba wzmacniająca umiejętność Ekspert od Purchawic.",
+            "ptb": "Um amuleto que aumenta a habilidade Mestre em Esporífera.",
+            "ara": "سحر يُحسن من مهارة خبير نفحات الحبوب."
         },
         "cost": 12000,
         "gender": 3,
@@ -11642,7 +11642,7 @@
     },
     {
         "id": 3317,
-        "order": 123,
+        "order": 126,
         "setGroup": 191,
         "name": {
             "jpn": "沼渡りの護石Ⅰ",
@@ -11705,7 +11705,7 @@
     },
     {
         "id": 3318,
-        "order": 124,
+        "order": 127,
         "setGroup": 192,
         "name": {
             "jpn": "沼渡りの護石Ⅱ",
@@ -11768,7 +11768,7 @@
     },
     {
         "id": 3319,
-        "order": 125,
+        "order": 128,
         "setGroup": 193,
         "name": {
             "jpn": "沼渡りの護石Ⅲ",
@@ -11831,7 +11831,7 @@
     },
     {
         "id": 3320,
-        "order": 126,
+        "order": 129,
         "setGroup": 194,
         "name": {
             "jpn": "昆虫学の護石Ⅰ",
@@ -11894,7 +11894,7 @@
     },
     {
         "id": 3321,
-        "order": 127,
+        "order": 130,
         "setGroup": 195,
         "name": {
             "jpn": "昆虫学の護石Ⅱ",
@@ -11957,7 +11957,7 @@
     },
     {
         "id": 3322,
-        "order": 128,
+        "order": 131,
         "setGroup": 196,
         "name": {
             "jpn": "昆虫学の護石Ⅲ",
@@ -12020,7 +12020,7 @@
     },
     {
         "id": 3323,
-        "order": 278,
+        "order": 281,
         "setGroup": 197,
         "name": {
             "jpn": "耐瘴の護石Ⅰ",
@@ -12083,7 +12083,7 @@
     },
     {
         "id": 3324,
-        "order": 279,
+        "order": 282,
         "setGroup": 198,
         "name": {
             "jpn": "耐瘴の護石Ⅱ",
@@ -12146,22 +12146,22 @@
     },
     {
         "id": 3325,
-        "order": 280,
+        "order": 283,
         "setGroup": 199,
         "name": {
-            "jpn": "耐瘴の護石Ⅲ",
-            "eng": "Miasma Charm III",
-            "fre": "Talisman impie III",
-            "spa": "Cigua miasma III",
-            "ger": "Miasma-Talisman III",
-            "ita": "Amuleto effluvio III",
-            "kor": "독기 내성의 호석Ⅲ",
-            "cht": "耐瘴護石Ⅲ",
-            "chs": "耐瘴护石3",
-            "rus": "Оберег от миазм 3",
-            "pol": "Amulet miazmatów III",
-            "ptb": "Amuleto de Miasma III",
-            "ara": "سحر الخانق III"
+            "jpn": "Unavailable",
+            "eng": "Unavailable",
+            "fre": "Unavailable",
+            "spa": "Unavailable",
+            "ger": "Unavailable",
+            "ita": "Unavailable",
+            "kor": "Unavailable",
+            "cht": "Unavailable",
+            "chs": "Unavailable",
+            "rus": "Unavailable",
+            "pol": "Unavailable",
+            "ptb": "Unavailable",
+            "ara": "Unavailable"
         },
         "description": {
             "jpn": "瘴気耐性スキルが アップするお守り。 ",
@@ -12209,7 +12209,7 @@
     },
     {
         "id": 3326,
-        "order": 129,
+        "order": 132,
         "setGroup": 200,
         "name": {
             "jpn": "威嚇の護石Ⅰ",
@@ -12272,22 +12272,22 @@
     },
     {
         "id": 3327,
-        "order": 130,
+        "order": 133,
         "setGroup": 201,
         "name": {
-            "jpn": "威嚇の護石Ⅱ",
-            "eng": "Intimidator Charm II",
-            "fre": "Collier de malepeur II",
-            "spa": "Cigua intimidante II",
-            "ger": "EinschüchternTlismnII",
-            "ita": "Amuleto intimidatore II",
-            "kor": "위협의 호석Ⅱ",
-            "cht": "威嚇護石Ⅱ",
-            "chs": "威吓护石2",
-            "rus": "Оберег устрашения 2",
-            "pol": "Amulet zastraszacza II",
-            "ptb": "Amuleto Intimidante II",
-            "ara": "سحر المخيف II"
+            "jpn": "Unavailable",
+            "eng": "Unavailable",
+            "fre": "Unavailable",
+            "spa": "Unavailable",
+            "ger": "Unavailable",
+            "ita": "Unavailable",
+            "kor": "Unavailable",
+            "cht": "Unavailable",
+            "chs": "Unavailable",
+            "rus": "Unavailable",
+            "pol": "Unavailable",
+            "ptb": "Unavailable",
+            "ara": "Unavailable"
         },
         "description": {
             "jpn": "威嚇スキルが アップするお守り。 ",
@@ -12335,7 +12335,7 @@
     },
     {
         "id": 3328,
-        "order": 131,
+        "order": 134,
         "setGroup": 202,
         "name": {
             "jpn": "威嚇の護石Ⅲ",
@@ -12398,7 +12398,7 @@
     },
     {
         "id": 3329,
-        "order": 213,
+        "order": 216,
         "setGroup": 248,
         "name": {
             "jpn": "覚醒の護石Ⅰ",
@@ -12461,7 +12461,7 @@
     },
     {
         "id": 3330,
-        "order": 214,
+        "order": 217,
         "setGroup": 249,
         "name": {
             "jpn": "覚醒の護石Ⅱ",
@@ -12524,7 +12524,7 @@
     },
     {
         "id": 3331,
-        "order": 216,
+        "order": 219,
         "setGroup": 250,
         "name": {
             "jpn": "匠の護石Ⅰ",
@@ -12587,7 +12587,7 @@
     },
     {
         "id": 3332,
-        "order": 217,
+        "order": 220,
         "setGroup": 251,
         "name": {
             "jpn": "匠の護石Ⅱ",
@@ -12650,7 +12650,7 @@
     },
     {
         "id": 3333,
-        "order": 218,
+        "order": 221,
         "setGroup": 252,
         "name": {
             "jpn": "匠の護石Ⅲ",
@@ -12713,7 +12713,7 @@
     },
     {
         "id": 3334,
-        "order": 251,
+        "order": 254,
         "setGroup": 253,
         "name": {
             "jpn": "底力の護石Ⅰ",
@@ -12776,7 +12776,7 @@
     },
     {
         "id": 3335,
-        "order": 252,
+        "order": 255,
         "setGroup": 254,
         "name": {
             "jpn": "底力の護石Ⅱ",
@@ -12839,7 +12839,7 @@
     },
     {
         "id": 3336,
-        "order": 256,
+        "order": 259,
         "setGroup": 255,
         "name": {
             "jpn": "整備の護石Ⅰ",
@@ -12902,7 +12902,7 @@
     },
     {
         "id": 3337,
-        "order": 257,
+        "order": 260,
         "setGroup": 256,
         "name": {
             "jpn": "整備の護石Ⅱ",
@@ -12965,7 +12965,7 @@
     },
     {
         "id": 3338,
-        "order": 258,
+        "order": 261,
         "setGroup": 257,
         "name": {
             "jpn": "整備の護石Ⅲ",
@@ -13028,7 +13028,7 @@
     },
     {
         "id": 3339,
-        "order": 132,
+        "order": 135,
         "setGroup": 229,
         "name": {
             "jpn": "砲撃手の護石Ⅰ",
@@ -13091,7 +13091,7 @@
     },
     {
         "id": 3340,
-        "order": 133,
+        "order": 136,
         "setGroup": 230,
         "name": {
             "jpn": "砲撃手の護石Ⅱ",
@@ -13154,7 +13154,7 @@
     },
     {
         "id": 3341,
-        "order": 134,
+        "order": 137,
         "setGroup": 231,
         "name": {
             "jpn": "小食の護石",
@@ -13217,7 +13217,7 @@
     },
     {
         "id": 3342,
-        "order": 281,
+        "order": 284,
         "setGroup": 217,
         "name": {
             "jpn": "通常弾の護石",
@@ -13280,7 +13280,7 @@
     },
     {
         "id": 3343,
-        "order": 292,
+        "order": 295,
         "setGroup": 218,
         "name": {
             "jpn": "貫通弾の護石",
@@ -13343,7 +13343,7 @@
     },
     {
         "id": 3344,
-        "order": 294,
+        "order": 297,
         "setGroup": 219,
         "name": {
             "jpn": "散弾の護石",
@@ -13406,7 +13406,7 @@
     },
     {
         "id": 3345,
-        "order": 296,
+        "order": 299,
         "setGroup": 220,
         "name": {
             "jpn": "毒瓶の護石",
@@ -13469,7 +13469,7 @@
     },
     {
         "id": 3346,
-        "order": 297,
+        "order": 300,
         "setGroup": 221,
         "name": {
             "jpn": "麻痺瓶の護石",
@@ -13532,7 +13532,7 @@
     },
     {
         "id": 3347,
-        "order": 298,
+        "order": 301,
         "setGroup": 222,
         "name": {
             "jpn": "睡眠瓶の護石",
@@ -13595,7 +13595,7 @@
     },
     {
         "id": 3348,
-        "order": 299,
+        "order": 302,
         "setGroup": 223,
         "name": {
             "jpn": "爆破瓶の護石",
@@ -13658,7 +13658,7 @@
     },
     {
         "id": 3350,
-        "order": 136,
+        "order": 139,
         "setGroup": 225,
         "name": {
             "jpn": "不屈の護石",
@@ -13721,7 +13721,7 @@
     },
     {
         "id": 3352,
-        "order": 137,
+        "order": 140,
         "setGroup": 227,
         "name": {
             "jpn": "笛吹きの護石",
@@ -13784,7 +13784,7 @@
     },
     {
         "id": 3353,
-        "order": 139,
+        "order": 142,
         "setGroup": 228,
         "name": {
             "jpn": "装填の護石",
@@ -13847,7 +13847,7 @@
     },
     {
         "id": 3354,
-        "order": 221,
+        "order": 224,
         "setGroup": 208,
         "name": {
             "jpn": "泥浴びの護石",
@@ -13914,7 +13914,7 @@
     },
     {
         "id": 3355,
-        "order": 222,
+        "order": 225,
         "setGroup": 209,
         "name": {
             "jpn": "仕掛け弾の護石",
@@ -13981,7 +13981,7 @@
     },
     {
         "id": 3356,
-        "order": 223,
+        "order": 226,
         "setGroup": 212,
         "name": {
             "jpn": "狩猟生活の護石",
@@ -14048,7 +14048,7 @@
     },
     {
         "id": 3357,
-        "order": 224,
+        "order": 227,
         "setGroup": 213,
         "name": {
             "jpn": "調達の護石",
@@ -14115,7 +14115,7 @@
     },
     {
         "id": 3358,
-        "order": 225,
+        "order": 228,
         "setGroup": 214,
         "name": {
             "jpn": "採集鉄人の護石",
@@ -14182,7 +14182,7 @@
     },
     {
         "id": 3359,
-        "order": 283,
+        "order": 286,
         "setGroup": 210,
         "name": {
             "jpn": "心頭滅却の護石",
@@ -14249,7 +14249,7 @@
     },
     {
         "id": 3360,
-        "order": 284,
+        "order": 287,
         "setGroup": 211,
         "name": {
             "jpn": "騎手の護石",
@@ -14316,7 +14316,7 @@
     },
     {
         "id": 3361,
-        "order": 285,
+        "order": 288,
         "setGroup": 215,
         "name": {
             "jpn": "調査達人の護石",
@@ -14383,7 +14383,7 @@
     },
     {
         "id": 3362,
-        "order": 135,
+        "order": 138,
         "setGroup": 232,
         "name": {
             "jpn": "追跡の護石",
@@ -14446,7 +14446,7 @@
     },
     {
         "id": 3363,
-        "order": 300,
+        "order": 303,
         "setGroup": 216,
         "name": {
             "jpn": "風水の護石",
@@ -14513,7 +14513,7 @@
     },
     {
         "id": 3364,
-        "order": 301,
+        "order": 304,
         "setGroup": 233,
         "name": {
             "jpn": "疾風の護石",
@@ -14580,7 +14580,7 @@
     },
     {
         "id": 3365,
-        "order": 302,
+        "order": 305,
         "setGroup": 234,
         "name": {
             "jpn": "滅龍の護石",
@@ -14647,7 +14647,7 @@
     },
     {
         "id": 3366,
-        "order": 303,
+        "order": 306,
         "setGroup": 235,
         "name": {
             "jpn": "堅守の護石",
@@ -14714,7 +14714,7 @@
     },
     {
         "id": 3367,
-        "order": 198,
+        "order": 201,
         "setGroup": 236,
         "name": {
             "jpn": "体術の護石Ⅲ",
@@ -14777,7 +14777,7 @@
     },
     {
         "id": 3379,
-        "order": 8,
+        "order": 11,
         "setGroup": 300,
         "name": {
             "jpn": "攻撃の護石Ⅳ",
@@ -14840,7 +14840,7 @@
     },
     {
         "id": 3380,
-        "order": 9,
+        "order": 12,
         "setGroup": 301,
         "name": {
             "jpn": "攻撃の護石Ⅴ",
@@ -14903,7 +14903,7 @@
     },
     {
         "id": 3381,
-        "order": 13,
+        "order": 16,
         "setGroup": 302,
         "name": {
             "jpn": "防御の護石Ⅳ",
@@ -14966,7 +14966,7 @@
     },
     {
         "id": 3382,
-        "order": 14,
+        "order": 17,
         "setGroup": 303,
         "name": {
             "jpn": "防御の護石Ⅴ",
@@ -15029,7 +15029,7 @@
     },
     {
         "id": 3383,
-        "order": 27,
+        "order": 30,
         "setGroup": 304,
         "name": {
             "jpn": "防風の護石Ⅳ",
@@ -15092,7 +15092,7 @@
     },
     {
         "id": 3384,
-        "order": 28,
+        "order": 31,
         "setGroup": 305,
         "name": {
             "jpn": "防風の護石Ⅴ",
@@ -15155,7 +15155,7 @@
     },
     {
         "id": 3385,
-        "order": 47,
+        "order": 50,
         "setGroup": 306,
         "name": {
             "jpn": "火炎の護石Ⅳ",
@@ -15218,7 +15218,7 @@
     },
     {
         "id": 3386,
-        "order": 48,
+        "order": 51,
         "setGroup": 307,
         "name": {
             "jpn": "火炎の護石Ⅴ",
@@ -15281,7 +15281,7 @@
     },
     {
         "id": 3387,
-        "order": 52,
+        "order": 55,
         "setGroup": 308,
         "name": {
             "jpn": "流水の護石Ⅳ",
@@ -15344,7 +15344,7 @@
     },
     {
         "id": 3388,
-        "order": 53,
+        "order": 56,
         "setGroup": 309,
         "name": {
             "jpn": "流水の護石Ⅴ",
@@ -15407,7 +15407,7 @@
     },
     {
         "id": 3389,
-        "order": 57,
+        "order": 60,
         "setGroup": 310,
         "name": {
             "jpn": "雷光の護石Ⅳ",
@@ -15470,7 +15470,7 @@
     },
     {
         "id": 3390,
-        "order": 58,
+        "order": 61,
         "setGroup": 311,
         "name": {
             "jpn": "雷光の護石Ⅴ",
@@ -15533,7 +15533,7 @@
     },
     {
         "id": 3391,
-        "order": 86,
+        "order": 89,
         "setGroup": 312,
         "name": {
             "jpn": "鉄壁の護石Ⅳ",
@@ -15596,7 +15596,7 @@
     },
     {
         "id": 3392,
-        "order": 87,
+        "order": 90,
         "setGroup": 313,
         "name": {
             "jpn": "鉄壁の護石Ⅴ",
@@ -15659,7 +15659,7 @@
     },
     {
         "id": 3393,
-        "order": 91,
+        "order": 94,
         "setGroup": 314,
         "name": {
             "jpn": "友愛の護石Ⅳ",
@@ -15722,7 +15722,7 @@
     },
     {
         "id": 3394,
-        "order": 92,
+        "order": 95,
         "setGroup": 315,
         "name": {
             "jpn": "友愛の護石Ⅴ",
@@ -15785,7 +15785,7 @@
     },
     {
         "id": 3395,
-        "order": 105,
+        "order": 108,
         "setGroup": 316,
         "name": {
             "jpn": "采配の護石Ⅳ",
@@ -15848,7 +15848,7 @@
     },
     {
         "id": 3396,
-        "order": 106,
+        "order": 109,
         "setGroup": 317,
         "name": {
             "jpn": "采配の護石Ⅴ",
@@ -15911,7 +15911,7 @@
     },
     {
         "id": 3397,
-        "order": 110,
+        "order": 113,
         "setGroup": 318,
         "name": {
             "jpn": "植学の護石Ⅳ",
@@ -15974,7 +15974,7 @@
     },
     {
         "id": 3398,
-        "order": 155,
+        "order": 158,
         "setGroup": 319,
         "name": {
             "jpn": "氷結の護石Ⅳ",
@@ -16037,7 +16037,7 @@
     },
     {
         "id": 3399,
-        "order": 156,
+        "order": 159,
         "setGroup": 320,
         "name": {
             "jpn": "氷結の護石Ⅴ",
@@ -16100,7 +16100,7 @@
     },
     {
         "id": 3400,
-        "order": 160,
+        "order": 163,
         "setGroup": 321,
         "name": {
             "jpn": "達人の護石Ⅳ",
@@ -16162,8 +16162,54 @@
         ]
     },
     {
+        "id": 3401,
+        "order": 164,
+        "setGroup": 322,
+        "name": {
+            "jpn": "達人の護石Ⅴ",
+            "eng": "Master's Charm V",
+            "fre": "Collier spirituel V",
+            "spa": "Cigua maestra V",
+            "ger": "Meister-Talisman V",
+            "ita": "Amuleto esperto  V",
+            "kor": "달인의 호석Ⅴ",
+            "cht": "達人護石Ⅴ",
+            "chs": "达人护石5",
+            "rus": "Оберег мастера 5",
+            "pol": "Amulet mistrza V",
+            "ptb": "Amuleto de Mestre V",
+            "ara": "سحر السيد V"
+        },
+        "description": {
+            "jpn": "見切りスキルが アップするお守り。 ",
+            "eng": "A charm that enhances the Critical Eye skill.",
+            "fre": "Un accessoire qui augmente le talent Maître d'armes.",
+            "spa": "Un esotérico amuleto capaz de potenciar la habilidad bonus afinidad.",
+            "ger": "Dieses Amulett verstärkt deine Kritischer-Blick-Fähigkeit.",
+            "ita": "Un accessorio che potenzia l'abilità Occhio critico.",
+            "kor": "간파 스킬이 향상되는 부적. ",
+            "cht": "能夠提升 看破技能的護身符。 ",
+            "chs": "能够提升 看破技能的护身符。",
+            "rus": "Усиливает навык \"Критический взгляд\".",
+            "pol": "Amulet wzmacniający umiejętność Krytyczne Oko.",
+            "ptb": "Um amuleto que aumenta a habilidade Olho Crítico.",
+            "ara": "سحر يُحسن من مهارة عين الحسم."
+        },
+        "cost": 16000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 48,
+                "level": 5
+            }
+        ]
+    },
+    {
         "id": 3402,
-        "order": 165,
+        "order": 168,
         "setGroup": 323,
         "name": {
             "jpn": "回避の護石Ⅳ",
@@ -16226,7 +16272,7 @@
     },
     {
         "id": 3403,
-        "order": 166,
+        "order": 169,
         "setGroup": 324,
         "name": {
             "jpn": "回避の護石Ⅴ",
@@ -16289,7 +16335,7 @@
     },
     {
         "id": 3404,
-        "order": 182,
+        "order": 185,
         "setGroup": 325,
         "name": {
             "jpn": "破龍の護石Ⅳ",
@@ -16352,7 +16398,7 @@
     },
     {
         "id": 3405,
-        "order": 183,
+        "order": 186,
         "setGroup": 326,
         "name": {
             "jpn": "破龍の護石Ⅴ",
@@ -16415,7 +16461,7 @@
     },
     {
         "id": 3406,
-        "order": 190,
+        "order": 193,
         "setGroup": 327,
         "name": {
             "jpn": "抜刀の護石Ⅲ",
@@ -16461,7 +16507,7 @@
     },
     {
         "id": 3407,
-        "order": 195,
+        "order": 198,
         "setGroup": 328,
         "name": {
             "jpn": "強走の護石Ⅲ",
@@ -16524,7 +16570,7 @@
     },
     {
         "id": 3408,
-        "order": 199,
+        "order": 202,
         "setGroup": 329,
         "name": {
             "jpn": "体術の護石Ⅳ",
@@ -16587,7 +16633,7 @@
     },
     {
         "id": 3409,
-        "order": 200,
+        "order": 203,
         "setGroup": 330,
         "name": {
             "jpn": "体術の護石Ⅴ",
@@ -16633,7 +16679,7 @@
     },
     {
         "id": 3410,
-        "order": 203,
+        "order": 206,
         "setGroup": 331,
         "name": {
             "jpn": "早気の護石Ⅲ",
@@ -16696,7 +16742,7 @@
     },
     {
         "id": 3411,
-        "order": 206,
+        "order": 209,
         "setGroup": 332,
         "name": {
             "jpn": "跳躍の護石Ⅲ",
@@ -16759,7 +16805,7 @@
     },
     {
         "id": 3412,
-        "order": 212,
+        "order": 215,
         "setGroup": 333,
         "name": {
             "jpn": "茸好の護石Ⅲ",
@@ -16822,7 +16868,7 @@
     },
     {
         "id": 3413,
-        "order": 215,
+        "order": 218,
         "setGroup": 334,
         "name": {
             "jpn": "覚醒の護石Ⅲ",
@@ -16885,7 +16931,7 @@
     },
     {
         "id": 3414,
-        "order": 219,
+        "order": 222,
         "setGroup": 335,
         "name": {
             "jpn": "匠の護石Ⅳ",
@@ -16947,8 +16993,54 @@
         ]
     },
     {
+        "id": 3415,
+        "order": 223,
+        "setGroup": 336,
+        "name": {
+            "jpn": "匠の護石Ⅴ",
+            "eng": "Handicraft Charm V",
+            "fre": "Talisman du forgeron V",
+            "spa": "Cigua artesanía V",
+            "ger": "Handwerk-Talisman V",
+            "ita": "Amuleto artigiano V",
+            "kor": "장인의 호석Ⅴ",
+            "cht": "匠之護石Ⅴ",
+            "chs": "匠之护石5",
+            "rus": "Оберег остроты 5",
+            "pol": "Amulet rękodzieła V",
+            "ptb": "Amuleto Artesanato V",
+            "ara": "سحر الحرفية V"
+        },
+        "description": {
+            "jpn": "匠スキルが アップするお守り。 ",
+            "eng": "A charm that enhances the Handicraft skill.",
+            "fre": "Un accessoire qui augmente le talent  Savoir-faire.",
+            "spa": "Un esotérico amuleto capaz de potenciar la habilidad artesanía.",
+            "ger": "Dieses Amulett verstärkt deine Handwerk-Fähigkeit.",
+            "ita": "Un accessorio che potenzia l'abilità Artigiano.",
+            "kor": "장인 스킬이 향상되는 부적. ",
+            "cht": "能夠提升 匠技能的護身符。 ",
+            "chs": "能够提升 匠技能的护身符。",
+            "rus": "Усиливает навык \"Ремесло\".",
+            "pol": "Amulet wzmacniający umiejętność Rękodzieło.",
+            "ptb": "Um amuleto que aumenta a habilidade Artesanato.",
+            "ara": "سحر يُحسن من مهارة الحرفية."
+        },
+        "cost": 24000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 54,
+                "level": 5
+            }
+        ]
+    },
+    {
         "id": 3416,
-        "order": 232,
+        "order": 235,
         "setGroup": 337,
         "name": {
             "jpn": "耳栓の護石Ⅳ",
@@ -17010,8 +17102,54 @@
         ]
     },
     {
-        "id": 3418,
+        "id": 3417,
         "order": 236,
+        "setGroup": 338,
+        "name": {
+            "jpn": "耳栓の護石Ⅴ",
+            "eng": "Earplugs Charm V",
+            "fre": "Talisman de banshee V",
+            "spa": "Anti rugidos V",
+            "ger": "OhrstöpselTalisman V",
+            "ita": "Amuleto udito V",
+            "kor": "귀마개의 호석Ⅴ",
+            "cht": "耳塞護石Ⅴ",
+            "chs": "耳塞护石5",
+            "rus": "Оберег ушей 5",
+            "pol": "Amulet zatyczek V",
+            "ptb": "Amuleto de Tampões V",
+            "ara": "سحر سدادات الأذن V"
+        },
+        "description": {
+            "jpn": "耳栓スキルが アップするお守り。 ",
+            "eng": "A charm that enhances the Earplugs skill.",
+            "fre": "Un accessoire qui augmente le talent Bouchon d'oreilles.",
+            "spa": "Un esotérico amuleto capaz de potenciar la habilidad anti rugidos.",
+            "ger": "Dieses Amulett verstärkt deine Ohrstöpsel-Fähigkeit.",
+            "ita": "Un accessorio che potenzia l'abilità Protezione udito.",
+            "kor": "귀마개 스킬이 향상되는 부적. ",
+            "cht": "能夠提升 耳塞技能的護身符。 ",
+            "chs": "能够提升 耳塞技能的护身符。",
+            "rus": "Усиливает навык \"Наушники\".",
+            "pol": "Amulet wzmacniający umiejętność Zatyczki do Uszu.",
+            "ptb": "Um amuleto que melhora a habilidade Tampões.",
+            "ara": "سحر يُحسن من مهارة سدادات الأذن."
+        },
+        "cost": 24000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 11,
+                "level": 5
+            }
+        ]
+    },
+    {
+        "id": 3418,
+        "order": 239,
         "setGroup": 339,
         "name": {
             "jpn": "耐震の護石Ⅲ",
@@ -17073,8 +17211,54 @@
         ]
     },
     {
-        "id": 3420,
+        "id": 3419,
         "order": 242,
+        "setGroup": 340,
+        "name": {
+            "jpn": "痛撃の護石Ⅲ",
+            "eng": "Exploiter Charm III",
+            "fre": "Talisman de cruauté III",
+            "spa": "Cigua provecho III",
+            "ger": "Vorteil-Talisman III",
+            "ita": "Amuleto abuso III",
+            "kor": "통격의 호석Ⅲ",
+            "cht": "痛擊護石Ⅲ",
+            "chs": "痛击护石3",
+            "rus": "Оберег хитреца 3",
+            "pol": "Amulet spryciarza III",
+            "ptb": "Amuleto de Fraqueza III",
+            "ara": "سحر المستغِل III"
+        },
+        "description": {
+            "jpn": "弱点特効スキルが アップするお守り。 ",
+            "eng": "A charm that enhances the Weakness Exploit skill.",
+            "fre": "Un accessoire qui augmente le talent Mise à mort.",
+            "spa": "Un esotérico amuleto capaz de potenciar la habilidad bonus punto débil.",
+            "ger": "Dieses Amulett verstärkt deine Schwächevorteil-Fähigkeit.",
+            "ita": "Un accessorio che potenzia l'abilità Punto debole.",
+            "kor": "약점 특효 스킬이 향상되는 부적. ",
+            "cht": "能夠提升 弱點特效技能的護身符。 ",
+            "chs": "能够提升 弱点特效技能的护身符。",
+            "rus": "Усиливает навык \"Поиск уязвимостей\".",
+            "pol": "Amulet wzmacniający umiejętność Wykorzystanie Słabości.",
+            "ptb": "Um amuleto que aumenta a habilidade Exploração de Fraqueza.",
+            "ara": "سحر يُحسن من مهارة استغلال نقاط الضعف."
+        },
+        "cost": 16000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 50,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "id": 3420,
+        "order": 245,
         "setGroup": 341,
         "name": {
             "jpn": "集中の護石Ⅲ",
@@ -17137,7 +17321,7 @@
     },
     {
         "id": 3421,
-        "order": 245,
+        "order": 248,
         "setGroup": 342,
         "name": {
             "jpn": "重撃の護石Ⅲ",
@@ -17200,7 +17384,7 @@
     },
     {
         "id": 3422,
-        "order": 248,
+        "order": 251,
         "setGroup": 343,
         "name": {
             "jpn": "逆上の護石Ⅲ",
@@ -17263,7 +17447,7 @@
     },
     {
         "id": 3423,
-        "order": 249,
+        "order": 252,
         "setGroup": 344,
         "name": {
             "jpn": "逆上の護石Ⅳ",
@@ -17326,7 +17510,7 @@
     },
     {
         "id": 3424,
-        "order": 250,
+        "order": 253,
         "setGroup": 345,
         "name": {
             "jpn": "逆上の護石Ⅴ",
@@ -17389,7 +17573,7 @@
     },
     {
         "id": 3425,
-        "order": 253,
+        "order": 256,
         "setGroup": 346,
         "name": {
             "jpn": "底力の護石Ⅲ",
@@ -17452,7 +17636,7 @@
     },
     {
         "id": 3426,
-        "order": 254,
+        "order": 257,
         "setGroup": 347,
         "name": {
             "jpn": "底力の護石Ⅳ",
@@ -17515,7 +17699,7 @@
     },
     {
         "id": 3427,
-        "order": 255,
+        "order": 258,
         "setGroup": 348,
         "name": {
             "jpn": "底力の護石Ⅴ",
@@ -17578,7 +17762,7 @@
     },
     {
         "id": 3428,
-        "order": 261,
+        "order": 264,
         "setGroup": 349,
         "name": {
             "jpn": "全開の護石Ⅲ",
@@ -17641,7 +17825,7 @@
     },
     {
         "id": 3429,
-        "order": 262,
+        "order": 265,
         "setGroup": 350,
         "name": {
             "jpn": "全開の護石Ⅳ",
@@ -17704,7 +17888,7 @@
     },
     {
         "id": 3430,
-        "order": 263,
+        "order": 266,
         "setGroup": 351,
         "name": {
             "jpn": "全開の護石Ⅴ",
@@ -17767,7 +17951,7 @@
     },
     {
         "id": 3431,
-        "order": 266,
+        "order": 269,
         "setGroup": 352,
         "name": {
             "jpn": "挑戦の護石Ⅲ",
@@ -17830,7 +18014,7 @@
     },
     {
         "id": 3432,
-        "order": 267,
+        "order": 270,
         "setGroup": 353,
         "name": {
             "jpn": "挑戦の護石Ⅳ",
@@ -17893,7 +18077,7 @@
     },
     {
         "id": 3433,
-        "order": 268,
+        "order": 271,
         "setGroup": 354,
         "name": {
             "jpn": "挑戦の護石Ⅴ",
@@ -17956,7 +18140,7 @@
     },
     {
         "id": 3434,
-        "order": 271,
+        "order": 274,
         "setGroup": 355,
         "name": {
             "jpn": "無傷の護石Ⅲ",
@@ -18019,7 +18203,7 @@
     },
     {
         "id": 3435,
-        "order": 274,
+        "order": 277,
         "setGroup": 356,
         "name": {
             "jpn": "渾身の護石Ⅲ",
@@ -18082,7 +18266,7 @@
     },
     {
         "id": 3436,
-        "order": 277,
+        "order": 280,
         "setGroup": 357,
         "name": {
             "jpn": "耐衝の護石Ⅲ",
@@ -18145,7 +18329,7 @@
     },
     {
         "id": 3437,
-        "order": 287,
+        "order": 290,
         "setGroup": 358,
         "name": {
             "jpn": "超心の護石Ⅱ",
@@ -18207,8 +18391,54 @@
         ]
     },
     {
-        "id": 3439,
+        "id": 3438,
         "order": 291,
+        "setGroup": 359,
+        "name": {
+            "jpn": "超心の護石Ⅲ",
+            "eng": "Critical Charm III",
+            "fre": "Talisman de furie III",
+            "spa": "Cigua crítica III",
+            "ger": "KritischerTalisman III",
+            "ita": "Amuleto critico III",
+            "kor": "초회심의 호석Ⅲ",
+            "cht": "超心護石Ⅲ",
+            "chs": "超心护石3",
+            "rus": "Оберег критического урона 3",
+            "pol": "Amulet krytyczny III",
+            "ptb": "Amuleto Crítico III",
+            "ara": "سحر الحسم III"
+        },
+        "description": {
+            "jpn": "超会心スキルが アップするお守り。 ",
+            "eng": "A charm that enhances the Critical Boost skill.",
+            "fre": "Un accessoire qui augmente le talent Berserker.",
+            "spa": "Un esotérico amuleto capaz de potenciar la habilidad bonus críticos.",
+            "ger": "Dieses Amulett verstärkt deine Kritischer-Boost-Fähigkeit.",
+            "ita": "Un accessorio che potenzia l'abilità Bonus critico.",
+            "kor": "슈퍼회심 스킬이 향상되는 부적. ",
+            "cht": "能夠提升 超會心技能的護身符。 ",
+            "chs": "能够提升 超会心技能的护身符。",
+            "rus": "Усиливает навык \"Усиление критических атак\".",
+            "pol": "Amulet wzmacniający umiejętność Wzmocnienie Krytyków.",
+            "ptb": "Um amuleto que aumenta a habilidade Reforço Crítico.",
+            "ara": "سحر يُحسن من مهارة تعزيز الحسم."
+        },
+        "cost": 24000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 49,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "id": 3439,
+        "order": 294,
         "setGroup": 360,
         "name": {
             "jpn": "昂揚の護石Ⅲ",
@@ -18271,7 +18501,7 @@
     },
     {
         "id": 3440,
-        "order": 307,
+        "order": 311,
         "setGroup": 361,
         "name": {
             "jpn": "転福の護石Ⅰ",
@@ -18334,7 +18564,7 @@
     },
     {
         "id": 3441,
-        "order": 308,
+        "order": 312,
         "setGroup": 362,
         "name": {
             "jpn": "転福の護石Ⅱ",
@@ -18397,7 +18627,7 @@
     },
     {
         "id": 3442,
-        "order": 309,
+        "order": 313,
         "setGroup": 363,
         "name": {
             "jpn": "転福の護石Ⅲ",
@@ -18443,7 +18673,7 @@
     },
     {
         "id": 3443,
-        "order": 304,
+        "order": 308,
         "setGroup": 364,
         "name": {
             "jpn": "守勢の護石Ⅰ",
@@ -18506,7 +18736,7 @@
     },
     {
         "id": 3444,
-        "order": 305,
+        "order": 309,
         "setGroup": 365,
         "name": {
             "jpn": "守勢の護石Ⅱ",
@@ -18569,7 +18799,7 @@
     },
     {
         "id": 3445,
-        "order": 306,
+        "order": 310,
         "setGroup": 366,
         "name": {
             "jpn": "守勢の護石Ⅲ",
@@ -18632,7 +18862,7 @@
     },
     {
         "id": 3446,
-        "order": 310,
+        "order": 314,
         "setGroup": 367,
         "name": {
             "jpn": "剛力の護石",
@@ -18681,7 +18911,7 @@
     },
     {
         "id": 3447,
-        "order": 311,
+        "order": 315,
         "setGroup": 368,
         "name": {
             "jpn": "業物の護石",
@@ -18726,7 +18956,7 @@
     },
     {
         "id": 3448,
-        "order": 312,
+        "order": 316,
         "setGroup": 369,
         "name": {
             "jpn": "封印の護石",
@@ -18775,7 +19005,7 @@
     },
     {
         "id": 3449,
-        "order": 313,
+        "order": 317,
         "setGroup": 370,
         "name": {
             "jpn": "根性の護石",
@@ -18820,7 +19050,7 @@
     },
     {
         "id": 3450,
-        "order": 62,
+        "order": 65,
         "setGroup": 371,
         "name": {
             "jpn": "毒撃の護石Ⅳ",
@@ -18883,7 +19113,7 @@
     },
     {
         "id": 3451,
-        "order": 66,
+        "order": 69,
         "setGroup": 372,
         "name": {
             "jpn": "痺撃の護石Ⅳ",
@@ -18946,7 +19176,7 @@
     },
     {
         "id": 3452,
-        "order": 70,
+        "order": 73,
         "setGroup": 373,
         "name": {
             "jpn": "睡撃の護石Ⅳ",
@@ -19009,7 +19239,7 @@
     },
     {
         "id": 3453,
-        "order": 187,
+        "order": 190,
         "setGroup": 374,
         "name": {
             "jpn": "爆破の護石Ⅳ",
@@ -19068,7 +19298,7 @@
     },
     {
         "id": 3454,
-        "order": 282,
+        "order": 285,
         "setGroup": 375,
         "name": {
             "jpn": "通常弾の護石Ⅱ",
@@ -19131,7 +19361,7 @@
     },
     {
         "id": 3455,
-        "order": 293,
+        "order": 296,
         "setGroup": 376,
         "name": {
             "jpn": "貫通弾の護石Ⅱ",
@@ -19194,7 +19424,7 @@
     },
     {
         "id": 3456,
-        "order": 295,
+        "order": 298,
         "setGroup": 377,
         "name": {
             "jpn": "散弾の護石Ⅱ",
@@ -19257,7 +19487,7 @@
     },
     {
         "id": 3457,
-        "order": 138,
+        "order": 141,
         "setGroup": 378,
         "name": {
             "jpn": "笛吹きの護石Ⅱ",
@@ -19315,6 +19545,73 @@
             {
                 "skillId": 68,
                 "level": 2
+            }
+        ]
+    },
+    {
+        "id": 3462,
+        "order": 307,
+        "setGroup": 383,
+        "name": {
+            "jpn": "削撃の護石",
+            "eng": "Shaver Charm",
+            "fre": "Bracelet du rasoir",
+            "spa": "Cigua trepadora",
+            "ger": "Rasierer-Talisman",
+            "ita": "Amuleto graffiante",
+            "kor": "삭격의 호석",
+            "cht": "削擊護石",
+            "chs": "削击护石",
+            "rus": "Оберег брадобрея",
+            "pol": "Amulet młokosa",
+            "ptb": "Amuleto Barbeador",
+            "ara": "سحر الشفرة"
+        },
+        "description": {
+            "jpn": "クラッチ攻撃強化スキルと クライマースキルが アップするお守り。",
+            "eng": "A charm that enhances the Clutch Claw Boost and Cliffhanger skills.",
+            "fre": "Un accessoire qui augmente les talents Booster de griffe et Monte-en-l'air.",
+            "spa": "Un esotérico amuleto capaz de potenciar las habilidades bonus garra retráctil y experto en trepar.",
+            "ger": "Dieses Amulett verstärkt deine Klammerklauen-Boost- und Kletterer-Fähigkeiten.",
+            "ita": "Un accessorio che potenzia le abilità Potenziamento rampino e Scalatore.",
+            "kor": "클러치 공격 강화 스킬과 클라이머 스킬이  향상되는 부적. ",
+            "cht": "能夠提升 飛翔爪攻擊強化技能 與攀岩者技能的護身符。",
+            "chs": "能够提升飞翔爪攻击强化技能, 以及攀岩者技能的护身符。",
+            "rus": "Усиливает навыки Хватательный коготь и Скалолаз.",
+            "pol": "Amulet wzmacniający umiejętności Wzmoc. pazura chwytnego i Wisielec.",
+            "ptb": "Um amuleto que melhora as habilidades Reforço da Prendedora e Suspensão.",
+            "ara": "سحر يحسن من مهارتي تعزيز المخلب القابض والخطاف."
+        },
+        "cost": 16000,
+        "gender": 3,
+        "rarity": 9,
+        "craft": [
+            {
+                "id": 1030,
+                "quantity": 5
+            },
+            {
+                "id": 1049,
+                "quantity": 3
+            },
+            {
+                "id": 214,
+                "quantity": 1
+            },
+            {
+                "id": 218,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 223,
+                "level": 1
+            },
+            {
+                "skillId": 111,
+                "level": 1
             }
         ]
     }

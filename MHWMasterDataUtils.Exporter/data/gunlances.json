@@ -13,7 +13,7 @@
             [100,50,80,20,0,0,0]
         ],
         "id": 6,
-        "parentId": 69,
+        "parentId": 74,
         "sortOrder": 10,
         "name": {
             "jpn": "アイアンガンランスⅠ",
@@ -82,7 +82,7 @@
             [70,70,30,80,0,0,0]
         ],
         "id": 7,
-        "parentId": 188,
+        "parentId": 193,
         "sortOrder": 11,
         "name": {
             "jpn": "アイアンガンランスⅡ",
@@ -151,7 +151,7 @@
             [60,70,30,90,0,0,0]
         ],
         "id": 8,
-        "parentId": 188,
+        "parentId": 193,
         "sortOrder": 12,
         "name": {
             "jpn": "アイアンガンランスⅢ",
@@ -228,7 +228,7 @@
             [80,50,80,90,0,0,0]
         ],
         "id": 9,
-        "parentId": 190,
+        "parentId": 195,
         "sortOrder": 13,
         "name": {
             "jpn": "スティールガンランスⅠ",
@@ -305,7 +305,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 10,
-        "parentId": 64,
+        "parentId": -1,
         "sortOrder": 14,
         "name": {
             "jpn": "スティールガンランスⅡ",
@@ -349,7 +349,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -386,7 +386,7 @@
             [90,50,50,80,80,0,0]
         ],
         "id": 11,
-        "parentId": 70,
+        "parentId": 75,
         "sortOrder": 15,
         "name": {
             "jpn": "スティールガンランスⅢ",
@@ -465,7 +465,7 @@
             [70,50,50,80,100,0,0]
         ],
         "id": 12,
-        "parentId": 69,
+        "parentId": 76,
         "sortOrder": 16,
         "name": {
             "jpn": "クロムガンランスⅠ",
@@ -548,7 +548,7 @@
             [60,60,20,150,90,20,0]
         ],
         "id": 13,
-        "parentId": 167,
+        "parentId": 77,
         "sortOrder": 17,
         "name": {
             "jpn": "クロムガンランスⅡ",
@@ -627,7 +627,7 @@
             [120,120,40,50,70,0,0]
         ],
         "id": 14,
-        "parentId": 73,
+        "parentId": 79,
         "sortOrder": 18,
         "name": {
             "jpn": "ネルガルクランブル",
@@ -705,7 +705,7 @@
             [110,120,40,50,80,0,0]
         ],
         "id": 15,
-        "parentId": 74,
+        "parentId": 201,
         "sortOrder": 19,
         "name": {
             "jpn": "焼滅の種火",
@@ -788,7 +788,7 @@
             [70,70,30,80,0,0,0]
         ],
         "id": 16,
-        "parentId": 193,
+        "parentId": 80,
         "sortOrder": 20,
         "name": {
             "jpn": "パルサーガンランスⅠ",
@@ -865,7 +865,7 @@
             [80,50,80,90,0,0,0]
         ],
         "id": 17,
-        "parentId": 195,
+        "parentId": 81,
         "sortOrder": 21,
         "name": {
             "jpn": "パルサーガンランスⅡ",
@@ -946,7 +946,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 18,
-        "parentId": -1,
+        "parentId": 82,
         "sortOrder": 22,
         "name": {
             "jpn": "パルサーガンランスⅢ",
@@ -990,7 +990,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -1027,7 +1027,7 @@
             [110,50,50,80,60,0,0]
         ],
         "id": 19,
-        "parentId": 75,
+        "parentId": 83,
         "sortOrder": 23,
         "name": {
             "jpn": "飛雷銃槍テツカガチ",
@@ -1110,7 +1110,7 @@
             [100,60,60,100,50,30,0]
         ],
         "id": 21,
-        "parentId": 77,
+        "parentId": 84,
         "sortOrder": 24,
         "name": {
             "jpn": "飛雷銃槍【蜻蛉切】",
@@ -1193,7 +1193,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 22,
-        "parentId": 79,
+        "parentId": 114,
         "sortOrder": 25,
         "name": {
             "jpn": "火竜銃槍Ⅰ",
@@ -1274,7 +1274,7 @@
             [90,50,80,100,30,0,0]
         ],
         "id": 23,
-        "parentId": 201,
+        "parentId": 113,
         "sortOrder": 26,
         "name": {
             "jpn": "火竜銃槍Ⅱ",
@@ -1357,7 +1357,7 @@
             [110,50,50,80,60,0,0]
         ],
         "id": 24,
-        "parentId": -1,
+        "parentId": 115,
         "sortOrder": 27,
         "name": {
             "jpn": "レッドルーク",
@@ -1440,7 +1440,7 @@
             [110,60,80,80,50,20,0]
         ],
         "id": 25,
-        "parentId": 80,
+        "parentId": 113,
         "sortOrder": 28,
         "name": {
             "jpn": "ブルールーク",
@@ -1523,7 +1523,7 @@
             [80,50,60,120,50,40,0]
         ],
         "id": 26,
-        "parentId": 81,
+        "parentId": 116,
         "sortOrder": 29,
         "name": {
             "jpn": "ブルーチャリオット",
@@ -1606,7 +1606,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 27,
-        "parentId": 84,
+        "parentId": -1,
         "sortOrder": 30,
         "name": {
             "jpn": "プリンセスバースト",
@@ -1683,7 +1683,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 28,
-        "parentId": -1,
+        "parentId": 173,
         "sortOrder": 31,
         "name": {
             "jpn": "プリンセスバースト改",
@@ -1766,7 +1766,7 @@
             [90,50,50,80,80,0,0]
         ],
         "id": 29,
-        "parentId": 85,
+        "parentId": -1,
         "sortOrder": 32,
         "name": {
             "jpn": "ローゼスバースト",
@@ -1849,7 +1849,7 @@
             [80,60,60,100,70,30,0]
         ],
         "id": 30,
-        "parentId": 86,
+        "parentId": -1,
         "sortOrder": 33,
         "name": {
             "jpn": "ロイヤルバースト",
@@ -1932,7 +1932,7 @@
             [60,70,30,90,0,0,0]
         ],
         "id": 31,
-        "parentId": 113,
+        "parentId": -1,
         "sortOrder": 34,
         "name": {
             "jpn": "マッドガンランスⅠ",
@@ -1976,7 +1976,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2013,7 +2013,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 32,
-        "parentId": 115,
+        "parentId": 215,
         "sortOrder": 35,
         "name": {
             "jpn": "マッドガンランスⅡ",
@@ -2094,7 +2094,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 33,
-        "parentId": 113,
+        "parentId": -1,
         "sortOrder": 36,
         "name": {
             "jpn": "マッドガンランスⅢ",
@@ -2138,7 +2138,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2175,7 +2175,7 @@
             [100,50,80,100,20,0,0]
         ],
         "id": 34,
-        "parentId": 116,
+        "parentId": 217,
         "sortOrder": 37,
         "name": {
             "jpn": "シュラムバスターⅠ",
@@ -2341,7 +2341,7 @@
             [110,60,80,80,50,20,0]
         ],
         "id": 36,
-        "parentId": 206,
+        "parentId": -1,
         "sortOrder": 39,
         "name": {
             "jpn": "シュラムバスターⅢ",
@@ -2387,7 +2387,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -2663,7 +2663,7 @@
             [130,30,60,80,40,60,0]
         ],
         "id": 40,
-        "parentId": 215,
+        "parentId": -1,
         "sortOrder": 43,
         "name": {
             "jpn": "ギエナキャノンⅡ",
@@ -2707,7 +2707,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -6196,7 +6196,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 20,
-        "parentId": 76,
+        "parentId": 81,
         "sortOrder": 87,
         "name": {
             "jpn": "飛雷銃槍テツカガチ改",
@@ -6450,7 +6450,7 @@
             "spa": "Lanza pistola Insaciable",
             "ger": "Unersättliche Gewehrlanze",
             "ita": "Lancia-fucile insaziabile",
-            "kor": "폭총창 그라그리드",
+            "kor": "폭총창 굴라그리드",
             "cht": "暴銃槍格拉古利德",
             "chs": "暴铳枪格拉古利德",
             "rus": "Ненасытная копьепушка",
@@ -8915,7 +8915,7 @@
             [30,60,20,140,0,0,0]
         ],
         "id": 125,
-        "parentId": 64,
+        "parentId": 170,
         "sortOrder": 140,
         "name": {
             "jpn": "防衛隊改良型銃槍Ⅰ",
@@ -8984,7 +8984,7 @@
             [30,60,20,150,40,0,0]
         ],
         "id": 126,
-        "parentId": 65,
+        "parentId": 171,
         "sortOrder": 141,
         "name": {
             "jpn": "防衛隊改良型銃槍Ⅱ",
@@ -9053,7 +9053,7 @@
             [50,50,50,80,120,0,0]
         ],
         "id": 127,
-        "parentId": 66,
+        "parentId": 71,
         "sortOrder": 142,
         "name": {
             "jpn": "防衛隊改良型銃槍Ⅲ",
@@ -9122,7 +9122,7 @@
             [30,50,50,80,140,0,0]
         ],
         "id": 128,
-        "parentId": 67,
+        "parentId": 72,
         "sortOrder": 143,
         "name": {
             "jpn": "防衛隊改良型銃槍Ⅳ",
@@ -9191,7 +9191,7 @@
             [90,30,30,110,40,100,0]
         ],
         "id": 129,
-        "parentId": 68,
+        "parentId": 73,
         "sortOrder": 144,
         "name": {
             "jpn": "防衛隊改良型銃槍Ⅴ",
@@ -9260,7 +9260,7 @@
             [80,80,30,30,80,100,0]
         ],
         "id": 135,
-        "parentId": 167,
+        "parentId": 197,
         "sortOrder": 150,
         "name": {
             "jpn": "クロムハルベルトⅠ",
@@ -9344,7 +9344,7 @@
             [70,80,30,30,80,110,0]
         ],
         "id": 136,
-        "parentId": 170,
+        "parentId": 197,
         "sortOrder": 151,
         "name": {
             "jpn": "クロムハルベルトⅡ",
@@ -9428,7 +9428,7 @@
             [110,30,30,60,50,90,30]
         ],
         "id": 137,
-        "parentId": 171,
+        "parentId": 75,
         "sortOrder": 152,
         "name": {
             "jpn": "クロムハルベルトⅢ",
@@ -9512,7 +9512,7 @@
             [140,30,90,30,30,60,20]
         ],
         "id": 138,
-        "parentId": 71,
+        "parentId": 78,
         "sortOrder": 153,
         "name": {
             "jpn": "黒羽の銃槍Ⅰ",
@@ -9595,7 +9595,7 @@
             [140,30,90,30,30,60,20]
         ],
         "id": 139,
-        "parentId": 72,
+        "parentId": 79,
         "sortOrder": 154,
         "name": {
             "jpn": "黒羽の銃槍Ⅱ",
@@ -9673,7 +9673,7 @@
             [80,30,30,110,40,110,0]
         ],
         "id": 140,
-        "parentId": 193,
+        "parentId": -1,
         "sortOrder": 155,
         "name": {
             "jpn": "焼滅の種火【禍】",
@@ -9756,7 +9756,7 @@
             [90,80,30,30,80,90,0]
         ],
         "id": 141,
-        "parentId": 197,
+        "parentId": -1,
         "sortOrder": 156,
         "name": {
             "jpn": "飛雷銃槍【蜻蛉切】改",
@@ -9839,7 +9839,7 @@
             [120,30,90,30,30,80,20]
         ],
         "id": 142,
-        "parentId": 197,
+        "parentId": 85,
         "sortOrder": 157,
         "name": {
             "jpn": "万雷銃槍【蜻蛉切】",
@@ -9922,7 +9922,7 @@
             [90,80,30,30,80,90,0]
         ],
         "id": 143,
-        "parentId": 75,
+        "parentId": 86,
         "sortOrder": 158,
         "name": {
             "jpn": "飛毒銃槍ベニヒバナ",
@@ -10005,7 +10005,7 @@
             [120,30,90,30,30,80,20]
         ],
         "id": 144,
-        "parentId": 78,
+        "parentId": -1,
         "sortOrder": 159,
         "name": {
             "jpn": "飛毒銃槍ベニヒバナ改",
@@ -10088,7 +10088,7 @@
             [120,30,90,30,30,80,20]
         ],
         "id": 145,
-        "parentId": 79,
+        "parentId": 113,
         "sortOrder": 160,
         "name": {
             "jpn": "飛毒銃槍【紅火蜂】",
@@ -10171,7 +10171,7 @@
             [100,100,40,50,60,50,0]
         ],
         "id": 146,
-        "parentId": 82,
+        "parentId": -1,
         "sortOrder": 161,
         "name": {
             "jpn": "ブルーチャリオット改",
@@ -10254,7 +10254,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 147,
-        "parentId": 83,
+        "parentId": 206,
         "sortOrder": 162,
         "name": {
             "jpn": "ソウルチャリオット",
@@ -10337,7 +10337,7 @@
             [120,30,30,60,50,80,30]
         ],
         "id": 148,
-        "parentId": 81,
+        "parentId": -1,
         "sortOrder": 163,
         "name": {
             "jpn": "ガンチャリオット",
@@ -10420,7 +10420,7 @@
             [90,100,40,50,70,50,0]
         ],
         "id": 149,
-        "parentId": -1,
+        "parentId": 208,
         "sortOrder": 164,
         "name": {
             "jpn": "ロイヤルバースト改",
@@ -10499,7 +10499,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 150,
-        "parentId": 113,
+        "parentId": -1,
         "sortOrder": 165,
         "name": {
             "jpn": "ハイネスバースト",
@@ -10582,7 +10582,7 @@
             [60,80,30,30,80,120,0]
         ],
         "id": 151,
-        "parentId": 114,
+        "parentId": 223,
         "sortOrder": 166,
         "name": {
             "jpn": "クイーンバースト",
@@ -10833,7 +10833,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 154,
-        "parentId": 173,
+        "parentId": -1,
         "sortOrder": 169,
         "name": {
             "jpn": "デュアルトゥース",
@@ -11157,7 +11157,7 @@
             [120,30,30,60,50,80,30]
         ],
         "id": 158,
-        "parentId": 217,
+        "parentId": -1,
         "sortOrder": 173,
         "name": {
             "jpn": "ブリーナキャノン",
@@ -11203,7 +11203,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -15968,7 +15968,7 @@
             [10,30,50,50,60,120,80]
         ],
         "id": 222,
-        "parentId": 208,
+        "parentId": -1,
         "sortOrder": 237,
         "name": {
             "jpn": "ホワイトナイツ",
@@ -16033,6 +16033,157 @@
                     "quantity": 1
                 }
             ]
+        }
+    },
+    {
+        "shelling": {
+            "shellType": 0,
+            "shellLevel": 7
+        },
+        "sharpness": [
+            [140,20,20,70,40,30,30],
+            [140,20,20,70,40,30,40],
+            [140,20,20,70,40,30,50],
+            [140,20,20,70,40,30,60],
+            [140,20,20,70,40,30,70],
+            [140,20,20,70,40,30,80]
+        ],
+        "id": 223,
+        "parentId": -1,
+        "sortOrder": 238,
+        "name": {
+            "jpn": "黒龍銃槍",
+            "eng": "Fatalis Gunlance",
+            "fre": "Lancecanon Fatalis",
+            "spa": "Lanza pistola Fatalis",
+            "ger": "Fatalis-Gewehrlanze",
+            "ita": "Lancia-fucile drago nero",
+            "kor": "흑룡총창",
+            "cht": "黑龍銃槍",
+            "chs": "黑龙铳枪",
+            "rus": "Копьепушка Фаталиса",
+            "pol": "Lancopał Fatalisa",
+            "ptb": "Lançarma de Fatalis",
+            "ara": "بندقية رمح فاتاليس"
+        },
+        "description": {
+            "jpn": "ミラボレアスの銃槍。 呪いの至宝と謳われる邪眼の 光を直視すると怖気が走る。",
+            "eng": "A Fatalis gunlance that curses with its evil gaze. Its very glimmer instills fear.",
+            "fre": "Lancecanon Fatalis. Son regard maléfique inspire la peur.",
+            "spa": "Lanza pistola de Fatalis que lanza maldiciones con su maligna mirada. Su mero brillo es terrorífico.",
+            "ger": "Eine Fatalis-Gewehrlanze, deren Antlitz verflucht. Ihr Leuchten verbreitet Angst und Schrecken.",
+            "ita": "Lancia-fucile di Fatalis che maledice con il suo sguardo. Provoca puro terrore.",
+            "kor": "밀라보레아스의 건랜스.  저주받은 보석이라 불리는 사안은 보는 이를 공포로 몰아넣는다.",
+            "cht": "黑龍的銃槍。 邪眼之光有詛咒至寶之稱， 直視後隨即壟罩在恐懼之中。",
+            "chs": "黑龙的铳枪。 邪眼之光被称为诅咒至宝， 直视都能令人不寒而栗。",
+            "rus": "Копьепушка Фаталиса, несущая проклятье. Каждый ее отблеск сеет страх.",
+            "pol": "Lancopał Fatalisa przeklinający samym swym złym spojrzeniem. Jego blask wzbudza strach.",
+            "ptb": "Lançarma de Fatalis cujo olhar cruel lança maldições. Até seu brilho provoca medo.",
+            "ara": "تطلق بندقية رمح فاتاليس لعنتها بنظرتها الشريرة. ويغرس بريقها ذاته الخوف في النفوس."
+        },
+        "damage": 782,
+        "rarity": 11,
+        "treeId": 89,
+        "affinity": -40,
+        "craftingCost": 28000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 90,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": [
+                {
+                    "id": 2756,
+                    "quantity": 3
+                },
+                {
+                    "id": 2759,
+                    "quantity": 1
+                },
+                {
+                    "id": 2758,
+                    "quantity": 1
+                },
+                {
+                    "id": 2760,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    {
+        "shelling": {
+            "shellType": 0,
+            "shellLevel": 7
+        },
+        "sharpness": [
+            [130,20,20,70,40,30,40],
+            [130,20,20,70,40,30,50],
+            [130,20,20,70,40,30,60],
+            [130,20,20,70,40,30,70],
+            [130,20,20,70,40,30,80],
+            [130,20,20,70,40,30,90]
+        ],
+        "id": 224,
+        "parentId": -1,
+        "sortOrder": 239,
+        "name": {
+            "jpn": "真・黒龍銃槍",
+            "eng": "True Fatalis Gunlance",
+            "fre": "Lancecanon Fatalis ultime",
+            "spa": "Lza. pist. Fatalis real",
+            "ger": "Echte Fatalis-Gewehrlanze",
+            "ita": "Lancia-fucile drago ebano",
+            "kor": "진-흑룡총창",
+            "cht": "真‧黑龍銃槍",
+            "chs": "真·黑龙铳枪",
+            "rus": "Истинная копьепушка Фаталиса",
+            "pol": "Prawdz. lancop. Fatalisa",
+            "ptb": "Lançarma Veraz Fatalis",
+            "ara": "بندقية رماح فاتاليس حقيقية"
+        },
+        "description": {
+            "jpn": "ミラボレアスの銃槍。 呪いの至宝と謳われる邪眼の 光を直視すると怖気が走る。",
+            "eng": "A Fatalis gunlance that curses with its evil gaze. Its very glimmer instills fear.",
+            "fre": "Lancecanon Fatalis. Son regard maléfique inspire la peur.",
+            "spa": "Lanza pistola de Fatalis que lanza maldiciones con su maligna mirada. Su mero brillo es terrorífico.",
+            "ger": "Eine Fatalis-Gewehrlanze, deren Antlitz verflucht. Ihr Leuchten verbreitet Angst und Schrecken.",
+            "ita": "Lancia-fucile di Fatalis che maledice con il suo sguardo. Provoca puro terrore.",
+            "kor": "밀라보레아스의 건랜스.  저주받은 보석이라 불리는 사안은 보는 이를 공포로 몰아넣는다.",
+            "cht": "黑龍的銃槍。 邪眼之光有詛咒至寶之稱， 直視後隨即壟罩在恐懼之中。",
+            "chs": "黑龙的铳枪。 邪眼之光被称为诅咒至宝， 直视都能令人不寒而栗。",
+            "rus": "Копьепушка Фаталиса, несущая проклятье. Каждый ее отблеск сеет страх.",
+            "pol": "Lancopał Fatalisa przeklinający samym swym złym spojrzeniem. Jego blask wzbudza strach.",
+            "ptb": "Lançarma de Fatalis cujo olhar cruel lança maldições. Até seu brilho provoca medo.",
+            "ara": "تطلق بندقية رمح فاتاليس لعنتها بنظرتها الشريرة. ويغرس بريقها ذاته الخوف في النفوس."
+        },
+        "damage": 897,
+        "rarity": 12,
+        "treeId": 89,
+        "affinity": -20,
+        "craftingCost": 80000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 150,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": false,
+            "items": []
         }
     },
     {

@@ -10,7 +10,7 @@
             [90,50,80,30,0,0,0]
         ],
         "id": 6,
-        "parentId": -1,
+        "parentId": 213,
         "sortOrder": 10,
         "name": {
             "jpn": "調査団試作盾斧Ⅰ",
@@ -76,7 +76,7 @@
             [70,70,30,80,0,0,0]
         ],
         "id": 7,
-        "parentId": 109,
+        "parentId": -1,
         "sortOrder": 11,
         "name": {
             "jpn": "調査団試作盾斧Ⅱ",
@@ -120,7 +120,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -142,7 +142,7 @@
             [50,70,30,100,0,0,0]
         ],
         "id": 8,
-        "parentId": 110,
+        "parentId": 205,
         "sortOrder": 12,
         "name": {
             "jpn": "調査団試作盾斧Ⅲ",
@@ -216,7 +216,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 9,
-        "parentId": 109,
+        "parentId": -1,
         "sortOrder": 13,
         "name": {
             "jpn": "精鋭調査団盾斧Ⅰ",
@@ -260,7 +260,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -290,7 +290,7 @@
             [50,50,80,120,0,0,0]
         ],
         "id": 10,
-        "parentId": 111,
+        "parentId": -1,
         "sortOrder": 14,
         "name": {
             "jpn": "精鋭調査団盾斧Ⅱ",
@@ -334,7 +334,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -368,7 +368,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 11,
-        "parentId": 109,
+        "parentId": -1,
         "sortOrder": 15,
         "name": {
             "jpn": "精鋭調査団盾斧Ⅲ",
@@ -414,7 +414,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -444,7 +444,7 @@
             [80,50,50,80,90,0,0]
         ],
         "id": 12,
-        "parentId": 112,
+        "parentId": -1,
         "sortOrder": 16,
         "name": {
             "jpn": "クロムガーディアンⅠ",
@@ -490,7 +490,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -600,7 +600,7 @@
             [110,120,40,50,80,0,0]
         ],
         "id": 14,
-        "parentId": 199,
+        "parentId": -1,
         "sortOrder": 18,
         "name": {
             "jpn": "ネルガルスイング",
@@ -646,7 +646,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -833,7 +833,7 @@
             [100,50,80,100,20,0,0]
         ],
         "id": 17,
-        "parentId": 213,
+        "parentId": -1,
         "sortOrder": 21,
         "name": {
             "jpn": "火竜の盾斧Ⅱ",
@@ -879,7 +879,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -993,7 +993,7 @@
             [70,50,60,120,60,40,0]
         ],
         "id": 19,
-        "parentId": 205,
+        "parentId": -1,
         "sortOrder": 23,
         "name": {
             "jpn": "焔斧ハルバリオン",
@@ -8297,7 +8297,7 @@
             [30,60,20,150,40,0,0]
         ],
         "id": 122,
-        "parentId": 81,
+        "parentId": 199,
         "sortOrder": 141,
         "name": {
             "jpn": "防衛隊合体式盾斧Ⅱ",
@@ -8363,7 +8363,7 @@
             [50,50,50,80,120,0,0]
         ],
         "id": 123,
-        "parentId": 82,
+        "parentId": -1,
         "sortOrder": 142,
         "name": {
             "jpn": "防衛隊合体式盾斧Ⅲ",
@@ -8407,7 +8407,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -8429,7 +8429,7 @@
             [30,50,50,80,140,0,0]
         ],
         "id": 124,
-        "parentId": -1,
+        "parentId": 211,
         "sortOrder": 143,
         "name": {
             "jpn": "防衛隊合体式盾斧Ⅳ",
@@ -8473,7 +8473,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -8495,7 +8495,7 @@
             [90,30,30,110,40,100,0]
         ],
         "id": 125,
-        "parentId": 83,
+        "parentId": -1,
         "sortOrder": 144,
         "name": {
             "jpn": "防衛隊合体式盾斧Ⅴ",
@@ -8539,7 +8539,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -8561,7 +8561,7 @@
             [90,80,30,30,80,90,0]
         ],
         "id": 131,
-        "parentId": 197,
+        "parentId": -1,
         "sortOrder": 150,
         "name": {
             "jpn": "クロムフォートⅠ",
@@ -8804,7 +8804,7 @@
             [90,80,30,30,80,90,0]
         ],
         "id": 134,
-        "parentId": 137,
+        "parentId": -1,
         "sortOrder": 153,
         "name": {
             "jpn": "王盾斧ライモン",
@@ -14521,6 +14521,151 @@
                     "quantity": 1
                 }
             ]
+        }
+    },
+    {
+        "phialType": 0,
+        "sharpness": [
+            [150,20,20,70,40,30,20],
+            [150,20,20,70,40,30,30],
+            [150,20,20,70,40,30,40],
+            [150,20,20,70,40,30,50],
+            [150,20,20,70,40,30,60],
+            [150,20,20,70,40,30,70]
+        ],
+        "id": 211,
+        "parentId": -1,
+        "sortOrder": 230,
+        "name": {
+            "jpn": "黒龍盾斧",
+            "eng": "Fatalis Charger",
+            "fre": "Chargeur Fatalis",
+            "spa": "Carga Fatalis",
+            "ger": "Fatalis-Angreifer",
+            "ita": "Carica drago nero",
+            "kor": "흑룡순부",
+            "cht": "黑龍盾斧",
+            "chs": "黑龙盾斧",
+            "rus": "Сила Фаталиса",
+            "pol": "Ładownik Fatalisa",
+            "ptb": "Carga de Fatalis",
+            "ara": "شاحن فاتاليس"
+        },
+        "description": {
+            "jpn": "ミラボレアスの盾斧。 黒き龍の討伐に参加したハンターが 手にした素材で改良に成功した。",
+            "eng": "A Fatalis charge blade that hunters fashioned from the black dragon they helped hunt.",
+            "fre": "Volto-hache Fatalis. Le symbole de ceux qui ont chassé le dragon noir.",
+            "spa": "Hacha cargada de Fatalis, creada a imagen del dragón negro que su dueño ayudó a cazar.",
+            "ger": "Eine Fatalis-Energieklinge, hergestellt aus jenem eigens erlegten schwarzen Drachen.",
+            "ita": "Lama caricata di Fatalis che raffigura il drago nero abbattuto dai cacciatori.",
+            "kor": "밀라보레아스의 차지액스. 검은 용의 토벌에 참가한 헌터가  획득한 소재를 사용해 개량했다.",
+            "cht": "黑龍的盾斧。 由討伐了黑龍的獵人們， 成功利用素材所改良的武器。",
+            "chs": "黑龙的盾斧。 猎人们从被讨伐的黑龙那里获取了 素材，经过改良后成功制成的武器。",
+            "rus": "Силовой клинок Фаталиса, созданный охотниками из черного дракона, которого они помогли убить.",
+            "pol": "Ładowane ostrze Fatalisa wykonane przez łowców z czarnego smoka, którego pomogli upolować.",
+            "ptb": "Lâmina dínamo de Fatalis criada por caçadores que ajudaram a matar o dragão sombrio.",
+            "ara": "نصل فاتاليس المشحون الذي صنعه الصيادون من التنين الأسود الذي ساعدوا في صيده."
+        },
+        "damage": 1116,
+        "rarity": 11,
+        "treeId": 89,
+        "affinity": -40,
+        "craftingCost": 28000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 90,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": [
+                {
+                    "id": 2756,
+                    "quantity": 3
+                },
+                {
+                    "id": 2759,
+                    "quantity": 1
+                },
+                {
+                    "id": 2758,
+                    "quantity": 1
+                },
+                {
+                    "id": 2760,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    {
+        "phialType": 0,
+        "sharpness": [
+            [150,20,20,70,40,30,20],
+            [150,20,20,70,40,30,30],
+            [150,20,20,70,40,30,40],
+            [150,20,20,70,40,30,50],
+            [150,20,20,70,40,30,60],
+            [150,20,20,70,40,30,70]
+        ],
+        "id": 212,
+        "parentId": -1,
+        "sortOrder": 231,
+        "name": {
+            "jpn": "真・黒龍盾斧",
+            "eng": "True Fatalis Charger",
+            "fre": "Chargeur ultime Fatalis",
+            "spa": "Carga Fatalis real",
+            "ger": "Echter Fatalis-Angreifer",
+            "ita": "Carica drago ebano",
+            "kor": "진-흑룡순부",
+            "cht": "真‧黑龍盾斧",
+            "chs": "真·黑龙盾斧",
+            "rus": "Истинная сила Фаталиса",
+            "pol": "Prawdz. ładown. Fatalisa",
+            "ptb": "Carga Veraz de Fatalis",
+            "ara": "نصل هجوم فاتاليس الحقيقي"
+        },
+        "description": {
+            "jpn": "ミラボレアスの盾斧。 黒き龍の討伐に参加したハンターが 手にした素材で改良に成功した。",
+            "eng": "A Fatalis charge blade that hunters fashioned from the black dragon they helped hunt.",
+            "fre": "Volto-hache Fatalis. Le symbole de ceux qui ont chassé le dragon noir.",
+            "spa": "Hacha cargada de Fatalis, creada a imagen del dragón negro que su dueño ayudó a cazar.",
+            "ger": "Eine Fatalis-Energieklinge, hergestellt aus jenem eigens erlegten schwarzen Drachen.",
+            "ita": "Lama caricata di Fatalis che raffigura il drago nero abbattuto dai cacciatori.",
+            "kor": "밀라보레아스의 차지액스. 검은 용의 토벌에 참가한 헌터가  획득한 소재를 사용해 개량했다.",
+            "cht": "黑龍的盾斧。 由討伐了黑龍的獵人們， 成功利用素材所改良的武器。",
+            "chs": "黑龙的盾斧。 猎人们从被讨伐的黑龙那里获取了 素材，经过改良后成功制成的武器。",
+            "rus": "Силовой клинок Фаталиса, созданный охотниками из черного дракона, которого они помогли убить.",
+            "pol": "Ładowane ostrze Fatalisa wykonane przez łowców z czarnego smoka, którego pomogli upolować.",
+            "ptb": "Lâmina dínamo de Fatalis criada por caçadores que ajudaram a matar o dragão sombrio.",
+            "ara": "نصل فاتاليس المشحون الذي صنعه الصيادون من التنين الأسود الذي ساعدوا في صيده."
+        },
+        "damage": 1224,
+        "rarity": 12,
+        "treeId": 89,
+        "affinity": -20,
+        "craftingCost": 80000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 150,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": false,
+            "items": []
         }
     },
     {

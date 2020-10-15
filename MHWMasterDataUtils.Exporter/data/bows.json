@@ -14,7 +14,7 @@
             "spa": "Arco Férreo I",
             "ger": "Eisenbogen I",
             "ita": "Arco di ferro I",
-            "kor": "강궁Ⅰ",
+            "kor": "철궁Ⅰ",
             "cht": "鐵弓Ⅰ",
             "chs": "铁弓1",
             "rus": "Железный лук 1",
@@ -75,7 +75,7 @@
             "spa": "Arco Férreo II",
             "ger": "Eisenbogen II",
             "ita": "Arco di ferro II",
-            "kor": "강궁Ⅱ",
+            "kor": "철궁Ⅱ",
             "cht": "鐵弓Ⅱ",
             "chs": "铁弓2",
             "rus": "Железный лук 2",
@@ -136,7 +136,7 @@
             "spa": "Arco Férreo III",
             "ger": "Eisenbogen III",
             "ita": "Arco di ferro III",
-            "kor": "강궁Ⅲ",
+            "kor": "철궁Ⅲ",
             "cht": "鐵弓Ⅲ",
             "chs": "铁弓3",
             "rus": "Железный лук 3",
@@ -5532,7 +5532,7 @@
             "spa": "Arco Insurrecto",
             "ger": "Rebellenbogen",
             "ita": "Arco ribelle",
-            "kor": "폭주의 흉노",
+            "kor": "폭주의 흉궁",
             "cht": "暴徒的凶弓",
             "chs": "暴徒凶弓",
             "rus": "Лук мятежника",
@@ -5606,7 +5606,7 @@
             "spa": "Puntal Malvado",
             "ger": "Garstiger Doppeltreffer",
             "ita": "Pilastro malvagio",
-            "kor": "뷔란 블레이즈",
+            "kor": "빌런블레이즈",
             "cht": "惡棍之弓",
             "chs": "恶棍之弓",
             "rus": "Злодейский гребень",
@@ -14093,6 +14093,287 @@
                     "quantity": 1
                 }
             ]
+        }
+    },
+    {
+        "coatings": [
+            0,
+            2,
+            5,
+            7,
+            8
+        ],
+        "id": 217,
+        "parentId": -1,
+        "sortOrder": 234,
+        "name": {
+            "jpn": "殲滅と破壊の剛弓",
+            "eng": "Bow of Rack & Ruin",
+            "fre": "Ruines et Destruction",
+            "spa": "Dolor y Calamidad",
+            "ger": "Bogen des Verfalls",
+            "ita": "Arco dolo e ruina",
+            "kor": "섬멸과 파괴의 강궁",
+            "cht": "破壞殲滅之剛弓",
+            "chs": "破坏歼灭之刚弓",
+            "rus": "Лук погибели и разорения",
+            "pol": "Łuk katuszy i zniszcz.",
+            "ptb": "Arco do Dano Destruidor",
+            "ara": "قوس الدمار"
+        },
+        "description": {
+            "jpn": "ミラボレアスの弓。 禍々しき矢が飛翔する先に待ち 受けるは断滅と崩壊への序曲。",
+            "eng": "The whir of the wicked arrows fired from this Fatalis bow sing a prelude to destruction.",
+            "fre": "Arc Fatalis. Le sifflement des flèches chantent le prélude de la destruction.",
+            "spa": "El zumbido de las flechas malditas que dispara este arco de Fatalis son preludio de la destrucción.",
+            "ger": "Das Surren der sündhaften Pfeile dieses Fatalis-Bogens singt von der Zerstörung.",
+            "ita": "Lo scoccare delle frecce di quest'arco evocano un preludio di distruzione.",
+            "kor": "밀라보레아스의 활. 재앙의 화살이 날아간 그곳에선 파멸과 붕괴의 서곡이 울려 퍼지리.",
+            "cht": "黑龍的弓。 降災之箭矢抵達的終點， 奏響著滅絕和崩壞的序曲。",
+            "chs": "黑龙的弓。 灾祸之箭矢飞射之处，将奏响起 灭绝和崩坏的序曲。",
+            "rus": "Жуткий свист выпущенной из этого лука Фаталиса стрелы звучит как прелюдия к разрушению.",
+            "pol": "Świst strzał wystrzeliwanych z tego łuku Fatalisa stanowi preludium do zniszczenia.",
+            "ptb": "O zumbido das flechas terríveis lançadas por esse arco de Fatalis são o prelúdio da destruição.",
+            "ara": "يفتتح أزيز السهام اللعينة التي يطلقها قوس فاتاليس قصيدة الدمار."
+        },
+        "damage": 408,
+        "rarity": 10,
+        "treeId": 89,
+        "affinity": -40,
+        "craftingCost": 28000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 120,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": [
+                {
+                    "id": 2756,
+                    "quantity": 3
+                },
+                {
+                    "id": 2759,
+                    "quantity": 1
+                },
+                {
+                    "id": 2758,
+                    "quantity": 1
+                },
+                {
+                    "id": 2760,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    {
+        "coatings": [
+            0,
+            2,
+            5,
+            7,
+            8
+        ],
+        "id": 218,
+        "parentId": -1,
+        "sortOrder": 235,
+        "name": {
+            "jpn": "断滅と崩壊の剛烈弓",
+            "eng": "Bow of Vice & Violence",
+            "fre": "Vice et Violence",
+            "spa": "Vicio y Violencia",
+            "ger": "Bogen der Brutalität",
+            "ita": "Arco vizio e violenza",
+            "kor": "단멸과 붕괴의 강렬궁",
+            "cht": "斷滅崩壞之剛烈弓",
+            "chs": "断灭崩坏之刚烈弓",
+            "rus": "Лук порока и жестокости",
+            "pol": "Łuk występku i przemocy",
+            "ptb": "Arco do Vício Violento",
+            "ara": "قوس الظلام والعنف"
+        },
+        "description": {
+            "jpn": "ミラボレアスの弓。 禍々しき矢が飛翔する先に待ち 受けるは断滅と崩壊への序曲。",
+            "eng": "The whir of the wicked arrows fired from this Fatalis bow sing a prelude to destruction.",
+            "fre": "Arc Fatalis. Le sifflement des flèches chantent le prélude de la destruction.",
+            "spa": "El zumbido de las flechas malditas que dispara este arco de Fatalis son preludio de la destrucción.",
+            "ger": "Das Surren der sündhaften Pfeile dieses Fatalis-Bogens singt von der Zerstörung.",
+            "ita": "Lo scoccare delle frecce di quest'arco evocano un preludio di distruzione.",
+            "kor": "밀라보레아스의 활. 재앙의 화살이 날아간 그곳에선 파멸과 붕괴의 서곡이 울려 퍼지리.",
+            "cht": "黑龍的弓。 降災之箭矢抵達的終點， 奏響著滅絕和崩壞的序曲。",
+            "chs": "黑龙的弓。 灾祸之箭矢飞射之处，将奏响起 灭绝和崩坏的序曲。",
+            "rus": "Жуткий свист выпущенной из этого лука Фаталиса стрелы звучит как прелюдия к разрушению.",
+            "pol": "Świst strzał wystrzeliwanych z tego łuku Fatalisa stanowi preludium do zniszczenia.",
+            "ptb": "O zumbido das flechas terríveis lançadas por esse arco de Fatalis são o prelúdio da destruição.",
+            "ara": "يفتتح أزيز السهام اللعينة التي يطلقها قوس فاتاليس قصيدة الدمار."
+        },
+        "damage": 444,
+        "rarity": 11,
+        "treeId": 89,
+        "affinity": -30,
+        "craftingCost": 80000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 120,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": []
+        }
+    },
+    {
+        "coatings": [
+            0,
+            2,
+            6,
+            8,
+            10
+        ],
+        "id": 219,
+        "parentId": -1,
+        "sortOrder": 236,
+        "name": {
+            "jpn": "蒼世ノ龍弓【天翔】",
+            "eng": "Azure Era \"Soaring Dragon\"",
+            "fre": "Ère d'azur \"Arc du dragon\"",
+            "spa": "Era Celeste (dragón volante)",
+            "ger": "Azurära \"Aufsteigender Drache\"",
+            "ita": "Era azzurra \"Drago ruggente\"",
+            "kor": "푸른빛용궁【천상】",
+            "cht": "蒼世龍弓【天翔】",
+            "chs": "苍世龙弓【天翔】",
+            "rus": "\"Парящий дракон\" лазурн. эры",
+            "pol": "Ep. laz. Szybujący smok",
+            "ptb": "\"Dragão Voador\" Era Lazúli",
+            "ara": "تنين العصر اللازوردي المحلق"
+        },
+        "description": {
+            "jpn": "蒼き星の煌めきを思わせる弓。 覚悟をもった狩人が手にすれば、 剛勇な蒼き魂が心に宿る。",
+            "eng": "A bow that gleams with the glow of the azure star. Its essence lies within hunters ready to stand tall.",
+            "fre": "Un arc brillant comme l'étoile d'azur. Son essence réside dans les chasseurs fiers et courageux.",
+            "spa": "Un arco que reluce con el brillo de la estrella celeste. Si das la talla, su esencia vivirá contigo.",
+            "ger": "Ein Bogen, der mit dem Glanz des Azursterns leuchtet. Verlässlich- keit zeichnet ihn besonders aus.",
+            "ita": "Un arco che ricorda il bagliore di un astro celeste. La sua essenza giace nei cacciatori.",
+            "kor": "푸른 별빛을 연상시키는 활. 준비된 헌터가 손에 들면 용감한 푸른 영혼이 마음에 깃든다.",
+            "cht": "讓人聯想到璀璨蒼藍星的弓。 有所覺悟的獵人只要拿在手上， 心中將會湧現堅毅勇敢的蒼藍精神。",
+            "chs": "让人联想到璀璨苍蓝星的弓。 有所觉悟的猎人只要拿在手上， 心中将会涌现坚毅勇敢的苍蓝精神。",
+            "rus": "Лук, несущий в себе отблеск лазурной звезды. Он дает охотникам силу стоять насмерть.",
+            "pol": "Łuk lśniący blaskiem lazurowej gwiazdy. Jego istotą są łowcy gotowi stanąć do walki.",
+            "ptb": "Arco que brilha como a estrela lazúli. Sua essência vive nos caçadores que se impõem.",
+            "ara": "قوس يومض بوهيج النجم اللازوردي. جوهره يقبع داخل الصيادين الجاهزين للمجابهة."
+        },
+        "damage": 312,
+        "rarity": 8,
+        "treeId": 92,
+        "affinity": 30,
+        "craftingCost": 16000,
+        "defense": 0,
+        "elderseal": 0,
+        "elementStatus": 2,
+        "elementStatusDamage": 180,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": [
+                {
+                    "id": 2719,
+                    "quantity": 1
+                },
+                {
+                    "id": 1350,
+                    "quantity": 1
+                },
+                {
+                    "id": 1352,
+                    "quantity": 2
+                },
+                {
+                    "id": 1065,
+                    "quantity": 2
+                }
+            ]
+        }
+    },
+    {
+        "coatings": [
+            0,
+            2,
+            6,
+            8,
+            10
+        ],
+        "id": 220,
+        "parentId": -1,
+        "sortOrder": 237,
+        "name": {
+            "jpn": "真・蒼世ノ龍弓【天翔】",
+            "eng": "Azure Era \"Soaring Dragon\"+",
+            "fre": "Ère d'azur \"Arc du dragon\" +",
+            "spa": "Era Celeste (dragón volante)+",
+            "ger": "Azurära \"Aufsteigender Drache\"+",
+            "ita": "Era azzurra \"Drago ruggente\"+",
+            "kor": "진-푸른빛용궁【천상】",
+            "cht": "真‧蒼世龍弓【天翔】",
+            "chs": "真·苍世龙弓【天翔】",
+            "rus": "\"Парящий дракон\" лаз. эры+",
+            "pol": "Ep. laz. Szybujący smok+",
+            "ptb": "\"Dragão Voador\" Era Lazúli+",
+            "ara": "تنين عصر لازوردي محلق+"
+        },
+        "description": {
+            "jpn": "蒼き星の煌めきを思わせる弓。 覚悟をもった狩人が手にすれば、 剛勇な蒼き魂が心に宿る。",
+            "eng": "A bow that gleams with the glow of the azure star. Its essence lies within hunters ready to stand tall.",
+            "fre": "Un arc brillant comme l'étoile d'azur. Son essence réside dans les chasseurs fiers et courageux.",
+            "spa": "Un arco que reluce con el brillo de la estrella celeste. Si das la talla, su esencia vivirá contigo.",
+            "ger": "Ein Bogen, der mit dem Glanz des Azursterns leuchtet. Verlässlich- keit zeichnet ihn besonders aus.",
+            "ita": "Un arco che ricorda il bagliore di un astro celeste. La sua essenza giace nei cacciatori.",
+            "kor": "푸른 별빛을 연상시키는 활. 준비된 헌터가 손에 들면 용감한 푸른 영혼이 마음에 깃든다.",
+            "cht": "讓人聯想到璀璨蒼藍星的弓。 有所覺悟的獵人只要拿在手上， 心中將會湧現堅毅勇敢的蒼藍精神。",
+            "chs": "让人联想到璀璨苍蓝星的弓。 有所觉悟的猎人只要拿在手上， 心中将会涌现坚毅勇敢的苍蓝精神。",
+            "rus": "Лук, несущий в себе отблеск лазурной звезды. Он дает охотникам силу стоять насмерть.",
+            "pol": "Łuk lśniący blaskiem lazurowej gwiazdy. Jego istotą są łowcy gotowi stanąć do walki.",
+            "ptb": "Arco que brilha como a estrela lazúli. Sua essência vive nos caçadores que se impõem.",
+            "ara": "قوس يومض بوهيج النجم اللازوردي. جوهره يقبع داخل الصيادين الجاهزين للمجابهة."
+        },
+        "damage": 324,
+        "rarity": 11,
+        "treeId": 92,
+        "affinity": 30,
+        "craftingCost": 80000,
+        "defense": 0,
+        "elderseal": 0,
+        "elementStatus": 2,
+        "elementStatusDamage": 330,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": false,
+            "items": []
         }
     },
     {

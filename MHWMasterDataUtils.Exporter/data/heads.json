@@ -25539,7 +25539,7 @@
             "spa": "Crearla requiere un vale samba sabroso. ¡Pásate la noche bailando con un atuendo a la altura!",
             "ger": "Tanze in diesem Rüstungsteil farbenfroh die Nacht durch! Benötigt ein Lebensfreude-Ticket.",
             "ita": "Richiede un Buono spezie sfrigolanti per essere forgiato. Balla tutta la notte in questi abiti pregiati!",
-            "kor": "정열 티켓으로 만든 팔 방어구. 정열적인 의상을 입고 렛츠 댄스! 이게 바로 진정한 【정열 특집】!",
+            "kor": "정열 티켓으로 만든 머리 방어구. 정열적인 의상을 입고 렛츠 댄스! 이게 바로 진정한 【정열 특집】!",
             "cht": "可使用熱情票製作的頭部防具。 穿上最耀眼的服裝來跳舞吧！ 這就是【熱情之宴】的精神！",
             "chs": "可使用热情票制作的头部防具。 穿上最耀眼的服装来跳舞吧！ 这就是【热情之宴】的精神！",
             "rus": "Требуется билет жгучих специй. Танцуйте всю ночь в тончайших шелках!",
@@ -25568,6 +25568,80 @@
         "skills": [
             {
                 "skillId": 73,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "seriesId": 450,
+        "defense": 162,
+        "elementalResistances": {
+            "fire": 1,
+            "water": 1,
+            "thunder": 4,
+            "ice": 1,
+            "dragon": 1
+        },
+        "slots": [
+            4
+        ],
+        "setSkills": [
+            216
+        ],
+        "id": 423,
+        "order": 804,
+        "setGroup": 500,
+        "name": {
+            "jpn": "EX魔界ノ主【艶髪】 α",
+            "eng": "Demonlord Hair α+",
+            "fre": "Cornes du roi-démon α+",
+            "spa": "Cabellera endemoniada α+",
+            "ger": "Dämonenfürst-Perücke α+",
+            "ita": "Capelli signore oscuro α+",
+            "kor": "EX마계의 주인【반짝이는 헤어】 α",
+            "cht": "精英·魔界之主【艷髮】 α",
+            "chs": "精英·魔界之主【靓发】阿尔法",
+            "rus": "Шерсть владыки демонов α+",
+            "pol": "Włosy władcy demonów α+",
+            "ptb": "Cabelo Demolorde α+",
+            "ara": "شعر العفريت السيد α+"
+        },
+        "description": {
+            "jpn": "ホラーナイトチケットで作れる 頭防具。禍々しさと高貴さをあわせ 持つ者が【ホラーナイト】に降臨。",
+            "eng": "Requires a Fun Fright Ticket to craft. The fest welcomes the ominous, noble hunter.",
+            "fre": "Bienvenue au festival de l'étrange, noble chasseur. Ticket Terreur requis.",
+            "spa": "Crearla requiere un vale festival de miedo. El festival da la bienvenida al noble e intimidante cazador.",
+            "ger": "Benötigt zur Herstellung ein Spuk-Ticket. Unheilvolle Dinge suchen ihresgleichen...",
+            "ita": "Richiede un buono brivido brioso per essere forgiato. Il festival accoglie il nobile, infausto cacciatore.",
+            "kor": "호러나이트 티켓으로 만든 머리  방어구.불길한 기운과 고귀함을 함께  갖춘 이가 【호러나이트】에 강림.",
+            "cht": "可使用驚魂夜票製作的頭部防具。 散發不祥而華貴的氛圍， 讓持有者在【驚魂夜】霸氣登場。",
+            "chs": "可使用惊魂夜票制作的头部防具。 散发不祥而华贵的气氛， 让持有者在【惊魂夜】霸气登场。",
+            "rus": "Требуется билет веселой жути. <LSNR {Охотник}{Охотница}>, этот праздник посвящен всему зловещему.",
+            "pol": "Wykonanie wymaga kwitu Strasz. Zabawy. Zapraszamy złowieszcze osoby, szlachetny łowco.",
+            "ptb": "Exige um Bilhete Susto Animado para criar. O festival abraça caçadores nobres e sinistros.",
+            "ara": "يتطلب تذكرة الذعر الممتع للتصنيع. يُرحب الاحتفال بالصيّاد النبيل ذو نذير الشؤم."
+        },
+        "cost": 18000,
+        "gender": 3,
+        "rarity": 11,
+        "craft": [
+            {
+                "id": 2727,
+                "quantity": 1
+            },
+            {
+                "id": 1065,
+                "quantity": 1
+            },
+            {
+                "id": 1377,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 80,
                 "level": 3
             }
         ]
@@ -26115,6 +26189,172 @@
         ]
     },
     {
+        "seriesId": 476,
+        "defense": 170,
+        "elementalResistances": {
+            "fire": 2,
+            "water": 2,
+            "thunder": 0,
+            "ice": 0,
+            "dragon": 3
+        },
+        "slots": [
+            4
+        ],
+        "setSkills": [
+            174
+        ],
+        "id": 448,
+        "order": 807,
+        "setGroup": 526,
+        "name": {
+            "jpn": "EX蒼世ノ侍【艶髪】 α",
+            "eng": "Azure Age Hair α+",
+            "fre": "Coiffure Âge d'azur α+",
+            "spa": "Pelo Edad Celeste α+",
+            "ger": "Azurära-Frisur α+",
+            "ita": "Capelli epoca celeste α+",
+            "kor": "EX푸른빛무사【반짝이는 헤어】 α",
+            "cht": "精英‧蒼世武士【艷髮】 α",
+            "chs": "精英·苍世武士【艳发】阿尔法",
+            "rus": "Прическа лазурного воина α+",
+            "pol": "Fryzura Lazurowej Ery α+",
+            "ptb": "Cabelo Samurai Lazúli α+",
+            "ara": "شعر عصر اللازوردي α+"
+        },
+        "description": {
+            "jpn": "蒼き星の煌めきを思わせる頭防具。 新たなる世界を夢見る野心家の 豪傑さが現れている艶髪。",
+            "eng": "Armor that glitters like the azure star. A stunning hairstyle, fit for a wild heart that dreams of a new era.",
+            "fre": "Armure brillante comme l'astre bleu. Une coiffure superbe pour un cœur sauvage rêvant à une ère nouvelle.",
+            "spa": "Brilla como la estrella celeste. Un peinado salvaje como tu corazón, que sueña con una nueva era.",
+            "ger": "Ein Rüstungsteil, das wie der Azur- stern glitzert. Wie gemacht für jene, deren Herz für eine neue Ära brennt!",
+            "ita": "Armatura che brilla come l'astro celeste. Una capigliatura splendida di chi sogna una nuova epoca.",
+            "kor": "푸른 별빛을 연상시키는 머리 방어구. 새로운 세계를 꿈꾸는 야심가의 풍모가 느껴지는 헤어 스타일.",
+            "cht": "讓人聯想到璀璨蒼藍星的頭部防具。  懷抱新世界夢想的野心家， 在此彰顯豪傑的氣魄。",
+            "chs": "让人联想到璀璨苍蓝星的头部防具。  怀抱新世界梦想的野心家， 在此彰显豪杰的气魄。",
+            "rus": "Сияющий как лазурная звезда доспех. Потрясающая прическа, подходящая для грезящих новой эрой вольных сердец.",
+            "pol": "Pancerz lśniący niczym lazurowa gwiazda. Olśniewająca fryzura dla śmiałków marzących o nowej erze.",
+            "ptb": "Armadura que reluz como a estrela lazúli. Um penteado estonteante, digno da nova era.",
+            "ara": "درع يشعّ كنجم لازوردي. تصفيفة شعر مذهلة ومناسبة لقلب جامح يحلم بالعصر الجديد."
+        },
+        "cost": 24000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2720,
+                "quantity": 1
+            },
+            {
+                "id": 2701,
+                "quantity": 2
+            },
+            {
+                "id": 2702,
+                "quantity": 2
+            },
+            {
+                "id": 1348,
+                "quantity": 2
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 102,
+                "level": 3
+            },
+            {
+                "skillId": 50,
+                "level": 1
+            }
+        ]
+    },
+    {
+        "seriesId": 477,
+        "defense": 180,
+        "elementalResistances": {
+            "fire": -3,
+            "water": 2,
+            "thunder": -1,
+            "ice": 4,
+            "dragon": -1
+        },
+        "slots": [
+            4,
+            4,
+            1
+        ],
+        "setSkills": [
+            178
+        ],
+        "id": 449,
+        "order": 618,
+        "setGroup": 527,
+        "name": {
+            "jpn": "EXラヴィーナヘルム γ",
+            "eng": "Rimeguard Helm γ+",
+            "fre": "Heaume Velkhana γ+",
+            "spa": "Yelmo de escarcha γ+",
+            "ger": "Velkhana-Kopfschutz γ+",
+            "ita": "Elmo di Velkhana γ+",
+            "kor": "EX라비나헬름 γ",
+            "cht": "精英‧雪崩頭盔 γ",
+            "chs": "精英·雪崩头盔伽马",
+            "rus": "Порубежный шлем γ+",
+            "pol": "Szronowy hełm γ+",
+            "ptb": "Elmo Geadefesa γ+",
+            "ara": "خوذة حارس الصقيع γ+"
+        },
+        "description": {
+            "jpn": "イヴェルカーナの特別な頭防具。 歴戦の個体となったモンスターの ただならぬ力を刻んだ極上の装備。",
+            "eng": "Uniquely crafted Velkhana armor. The immeasurable strength of a tempered monster dwells within.",
+            "fre": "Armure unique Velkhana. Renferme la force incalculable d'un monstre alpha.",
+            "spa": "Armadura de Velkhana de artesanía única. Contiene la fuerza inconcebible de un monstruo curtido.",
+            "ger": "Einzigartiges Velkhana-Rüstungs- teil. Die unmessbare Kraft eines Gehärteten Monsters wohnt darin.",
+            "ita": "Armatura unica di Velkhana. Racchiude l'enorme potere di un mostro temprato.",
+            "kor": "이베르카나의 특별한 머리 방어구. 역전의 개체가 된 몬스터의 예사롭지  않은 힘을 새긴 최고급 장비.",
+            "cht": "冰呪龍的特別頭部防具。 魔物化作歷戰個體後， 其超常力量融入其中的極致裝備。",
+            "chs": "冰呪龙的特别头部防具。 怪物化作历战个体后， 其超常力量融入其中的极致装备。",
+            "rus": "Уникальные доспехи велханы, вобравшие в себя непревзойденную мощь закаленного чудовища.",
+            "pol": "Kunsztownie wykonany pancerz z Velkhana. Drzemie w nim wielka moc ujarzmionego potwora.",
+            "ptb": "Armadura de Velkhana única. Impregnada com o poder único de um monstro aguerrido.",
+            "ara": "درع فيلكانا مصنوع بشكل فريد. مُشبع بقوة لا تضاهى تخص وحشًا غاضبًا."
+        },
+        "cost": 24000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2681,
+                "quantity": 1
+            },
+            {
+                "id": 1348,
+                "quantity": 5
+            },
+            {
+                "id": 1350,
+                "quantity": 5
+            },
+            {
+                "id": 1066,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 186,
+                "level": 3
+            },
+            {
+                "skillId": 67,
+                "level": 1
+            }
+        ]
+    },
+    {
         "seriesId": 478,
         "defense": 162,
         "elementalResistances": {
@@ -26275,6 +26515,170 @@
             {
                 "skillId": 48,
                 "level": 2
+            }
+        ]
+    },
+    {
+        "seriesId": 480,
+        "defense": 180,
+        "elementalResistances": {
+            "fire": -1,
+            "water": 2,
+            "thunder": 2,
+            "ice": 0,
+            "dragon": -4
+        },
+        "slots": [
+            3,
+            2,
+            2
+        ],
+        "setSkills": [
+            222
+        ],
+        "id": 452,
+        "order": 614,
+        "setGroup": 530,
+        "name": {
+            "jpn": "EXドラゴンヘッド α",
+            "eng": "Dragonhead α+",
+            "fre": "Tête de Dragon α+",
+            "spa": "Cabeza de dragón α+",
+            "ger": "Drachenhaupt α+",
+            "ita": "Testa di drago α+",
+            "kor": "EX드래곤헤드 α",
+            "cht": "精英‧龍頭頭盔 α",
+            "chs": "精英·龙头头盔阿尔法",
+            "rus": "Драконий шлем α+",
+            "pol": "Smocza głowa α+",
+            "ptb": "Cabeça de Dragão α+",
+            "ara": "رأس تنين α+"
+        },
+        "description": {
+            "jpn": "ミラボレアスの頭防具。 黒龍の唸りを思い起こさせられ、 幻影に怯え狂死した使用者も。",
+            "eng": "Head armor that evokes the howl of Fatalis and the fear of all those who died under his gaze.",
+            "fre": "Armure Fatalis. Elle évoque la peur de ceux qui ont succombé à son regard.",
+            "spa": "Yelmo que evoca al aullido de Fatalis, y al terror de todos aquellos que sucumbieron bajo su mirada.",
+            "ger": "Dieser Kopfschutz beschwört das Heulen des Fatalis und die Angst aller, die in seinem Blick starben.",
+            "ita": "Armatura che ricorda l'urlo del Fatalis e il terrore di chi è caduto sotto il suo sguardo.",
+            "kor": "밀라보레아스의 머리 방어구. 흑룡의 포효가 떠오르는 머리 장비. 환영에 시달리다 죽은 자도.",
+            "cht": "黑龍的頭部防具。 彷彿可以聽見黑龍的低吼， 據說曾有使用者因其幻影發狂而死。",
+            "chs": "黑龙的头部防具。 彷佛可以听见黑龙的低吼， 据说曾有使用者因其幻影发狂而死。",
+            "rus": "Шлем, вызывающий в памяти вой Фаталиса и страх всех павших пред его взором.",
+            "pol": "Pancerz na głowę przywołujący ryk Fatalisa i lęk tych, którzy zginęli pod jego spojrzeniem.",
+            "ptb": "Equipamento de cabeça que evoca o urro de Fatalis e o pavor de quem morreu sob seu olhar.",
+            "ara": "درع رأس يستحضر صياح فاتاليس والخوف من كل أولئك الذين ماتوا تحت أنظاره."
+        },
+        "cost": 36000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2757,
+                "quantity": 3
+            },
+            {
+                "id": 2759,
+                "quantity": 1
+            },
+            {
+                "id": 2760,
+                "quantity": 1
+            },
+            {
+                "id": 1312,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 4,
+                "level": 3
+            },
+            {
+                "skillId": 80,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "seriesId": 481,
+        "defense": 180,
+        "elementalResistances": {
+            "fire": -1,
+            "water": 2,
+            "thunder": 2,
+            "ice": 0,
+            "dragon": -4
+        },
+        "slots": [
+            4,
+            4,
+            4
+        ],
+        "setSkills": [
+            222
+        ],
+        "id": 453,
+        "order": 615,
+        "setGroup": 531,
+        "name": {
+            "jpn": "EXドラゴンヘッド β",
+            "eng": "Dragonhead β+",
+            "fre": "Tête de Dragon β+",
+            "spa": "Cabeza de dragón β+",
+            "ger": "Drachenhaupt β+",
+            "ita": "Testa di drago β+",
+            "kor": "EX드래곤헤드 β",
+            "cht": "精英‧龍頭頭盔 β",
+            "chs": "精英·龙头头盔贝塔",
+            "rus": "Драконий шлем β+",
+            "pol": "Smocza głowa β+",
+            "ptb": "Cabeça de Dragão β+",
+            "ara": "رأس تنين β+"
+        },
+        "description": {
+            "jpn": "ミラボレアスの頭防具。 黒龍の唸りを思い起こさせられ、 幻影に怯え狂死した使用者も。",
+            "eng": "Head armor that evokes the howl of Fatalis and the fear of all those who died under his gaze.",
+            "fre": "Armure Fatalis. Elle évoque la peur de ceux qui ont succombé à son regard.",
+            "spa": "Yelmo que evoca al aullido de Fatalis, y al terror de todos aquellos que sucumbieron bajo su mirada.",
+            "ger": "Dieser Kopfschutz beschwört das Heulen des Fatalis und die Angst aller, die in seinem Blick starben.",
+            "ita": "Armatura che ricorda l'urlo del Fatalis e il terrore di chi è caduto sotto il suo sguardo.",
+            "kor": "밀라보레아스의 머리 방어구. 흑룡의 포효가 떠오르는 머리 장비. 환영에 시달리다 죽은 자도.",
+            "cht": "黑龍的頭部防具。 彷彿可以聽見黑龍的低吼， 據說曾有使用者因其幻影發狂而死。",
+            "chs": "黑龙的头部防具。 彷佛可以听见黑龙的低吼， 据说曾有使用者因其幻影发狂而死。",
+            "rus": "Шлем, вызывающий в памяти вой Фаталиса и страх всех павших пред его взором.",
+            "pol": "Pancerz na głowę przywołujący ryk Fatalisa i lęk tych, którzy zginęli pod jego spojrzeniem.",
+            "ptb": "Equipamento de cabeça que evoca o urro de Fatalis e o pavor de quem morreu sob seu olhar.",
+            "ara": "درع رأس يستحضر صياح فاتاليس والخوف من كل أولئك الذين ماتوا تحت أنظاره."
+        },
+        "cost": 36000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2757,
+                "quantity": 3
+            },
+            {
+                "id": 2759,
+                "quantity": 1
+            },
+            {
+                "id": 2760,
+                "quantity": 1
+            },
+            {
+                "id": 1312,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 4,
+                "level": 3
             }
         ]
     }

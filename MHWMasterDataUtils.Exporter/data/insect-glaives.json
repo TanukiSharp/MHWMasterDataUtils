@@ -10,7 +10,7 @@
             [90,50,80,30,0,0,0]
         ],
         "id": 7,
-        "parentId": 116,
+        "parentId": -1,
         "sortOrder": 10,
         "name": {
             "jpn": "アイアンブレードⅠ",
@@ -76,7 +76,7 @@
             [70,70,30,80,0,0,0]
         ],
         "id": 8,
-        "parentId": 119,
+        "parentId": -1,
         "sortOrder": 11,
         "name": {
             "jpn": "アイアンブレードⅡ",
@@ -120,7 +120,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -216,7 +216,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 10,
-        "parentId": 90,
+        "parentId": -1,
         "sortOrder": 13,
         "name": {
             "jpn": "スティールブレードⅠ",
@@ -260,7 +260,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -290,7 +290,7 @@
             [50,50,80,120,0,0,0]
         ],
         "id": 11,
-        "parentId": 91,
+        "parentId": -1,
         "sortOrder": 14,
         "name": {
             "jpn": "スティールブレードⅡ",
@@ -334,7 +334,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -444,7 +444,7 @@
             [80,50,50,80,90,0,0]
         ],
         "id": 13,
-        "parentId": 210,
+        "parentId": -1,
         "sortOrder": 16,
         "name": {
             "jpn": "クロムブレードⅠ",
@@ -490,7 +490,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -8841,7 +8841,7 @@
             [30,60,20,150,40,0,0]
         ],
         "id": 129,
-        "parentId": 116,
+        "parentId": 218,
         "sortOrder": 141,
         "name": {
             "jpn": "防衛隊両刃型操虫棍Ⅱ",
@@ -8907,7 +8907,7 @@
             [50,50,50,80,120,0,0]
         ],
         "id": 130,
-        "parentId": 117,
+        "parentId": -1,
         "sortOrder": 142,
         "name": {
             "jpn": "防衛隊両刃型操虫棍Ⅲ",
@@ -8951,7 +8951,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -8973,7 +8973,7 @@
             [30,50,50,80,140,0,0]
         ],
         "id": 131,
-        "parentId": 116,
+        "parentId": -1,
         "sortOrder": 143,
         "name": {
             "jpn": "防衛隊両刃型操虫棍Ⅳ",
@@ -9017,7 +9017,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -9039,7 +9039,7 @@
             [90,30,30,110,40,100,0]
         ],
         "id": 132,
-        "parentId": 118,
+        "parentId": -1,
         "sortOrder": 144,
         "name": {
             "jpn": "防衛隊両刃型操虫棍Ⅴ",
@@ -9083,7 +9083,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -9186,7 +9186,7 @@
             [70,80,30,30,80,110,0]
         ],
         "id": 139,
-        "parentId": 144,
+        "parentId": -1,
         "sortOrder": 151,
         "name": {
             "jpn": "クロムトライデントⅡ",
@@ -9233,7 +9233,7 @@
             1,
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -9428,7 +9428,7 @@
             [120,30,90,30,30,80,20]
         ],
         "id": 142,
-        "parentId": 212,
+        "parentId": -1,
         "sortOrder": 154,
         "name": {
             "jpn": "王棍イナズマ改",
@@ -9726,7 +9726,7 @@
             [80,30,30,110,40,110,0]
         ],
         "id": 146,
-        "parentId": 218,
+        "parentId": -1,
         "sortOrder": 158,
         "name": {
             "jpn": "撲滅の導灯【闇】",
@@ -15622,6 +15622,151 @@
                     "quantity": 1
                 }
             ]
+        }
+    },
+    {
+        "insectBonus": 6,
+        "sharpness": [
+            [140,20,20,70,40,30,30],
+            [140,20,20,70,40,30,40],
+            [140,20,20,70,40,30,50],
+            [140,20,20,70,40,30,60],
+            [140,20,20,70,40,30,70],
+            [140,20,20,70,40,30,80]
+        ],
+        "id": 231,
+        "parentId": -1,
+        "sortOrder": 243,
+        "name": {
+            "jpn": "黒龍棍",
+            "eng": "Fatalis Glaive",
+            "fre": "Glaive Fatalis",
+            "spa": "Glaive Fatalis",
+            "ger": "Fatalis-Glefe",
+            "ita": "Falcione Fatalis",
+            "kor": "흑룡곤",
+            "cht": "黑龍棍",
+            "chs": "黑龙棍",
+            "rus": "Глефа Фаталиса",
+            "pol": "Glewia Fatalisa",
+            "ptb": "Glaive de Fatalis",
+            "ara": "سيف فاتاليس"
+        },
+        "description": {
+            "jpn": "ミラボレアスの操虫棍。 自然なる力と邪悪なる力、相容れ ない力を操る極意が求められる。",
+            "eng": "Within this Fatalis insect glaive, nature and evil both seek the key to control the uncontrollable.",
+            "fre": "Insectoglaive Fatalis. Même le bien ou le mal ne peuvent asservir l'incontrôlable.",
+            "spa": "En este glaive insecto de Fatalis se aúnan naturaleza y maldad para intentar controlar lo incontrolable.",
+            "ger": "In dieser Fatalis-Insektenglefe wollen die Natur und das Böse das Unkontrollierbare beherrschen.",
+            "ita": "In questo falcione insetto di Fatalis, la natura e il male cercano la chiave per controllare l'incontrollabile.",
+            "kor": "밀라보레아스의 조충곤.  자연의 힘과 사악한 힘, 상충하는  힘을 다룰 비법을 터득해야 한다.",
+            "cht": "黑龍的操蟲棍。 自然之力與邪惡之力相互牴觸， 持有者須徹底通曉操控之道。",
+            "chs": "黑龙的操虫棍。 自然之力与邪恶之力相克， 持有者须彻底通晓操控之道。",
+            "rus": "В этой глефе насекомых Фаталиса природа и зло пытаются найти способ управлять неуправляемым.",
+            "pol": "Owadzia glewia Fatalisa, w której natura i zło walczą o kontrolę nad nieokiełznaniem.",
+            "ptb": "Dentro dessa glaive inseto de Fatalis, a natureza e o mal tentam controlar o incontrolável.",
+            "ara": "داخل سيف حشرة فاتاليس تسكن الطبيعة ويتقلب الشر في محاولة لتقلد زمام الجامح."
+        },
+        "damage": 961,
+        "rarity": 11,
+        "treeId": 89,
+        "affinity": -40,
+        "craftingCost": 28000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 60,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": [
+                {
+                    "id": 2756,
+                    "quantity": 3
+                },
+                {
+                    "id": 2759,
+                    "quantity": 1
+                },
+                {
+                    "id": 2758,
+                    "quantity": 1
+                },
+                {
+                    "id": 2760,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    {
+        "insectBonus": 6,
+        "sharpness": [
+            [140,20,20,70,40,30,30],
+            [140,20,20,70,40,30,40],
+            [140,20,20,70,40,30,50],
+            [140,20,20,70,40,30,60],
+            [140,20,20,70,40,30,70],
+            [140,20,20,70,40,30,80]
+        ],
+        "id": 232,
+        "parentId": -1,
+        "sortOrder": 244,
+        "name": {
+            "jpn": "真・黒龍棍",
+            "eng": "True Fatalis Dyaus",
+            "fre": "Vrai Dyaus Fatalis",
+            "spa": "Dyaus Fatalis real",
+            "ger": "Echter Fatalis-Dyaus",
+            "ita": "Dyaus drago ebano",
+            "kor": "진-흑룡곤",
+            "cht": "真·黑龍棍",
+            "chs": "真·黑龙棍",
+            "rus": "Истинный Фаталис-Деус",
+            "pol": "Prawdz. glewia Fatalisa",
+            "ptb": "Diaus Veraz de Fatalis",
+            "ara": "ديوس فاتاليس الحقيقي"
+        },
+        "description": {
+            "jpn": "ミラボレアスの操虫棍。 自然なる力と邪悪なる力、相容れ ない力を操る極意が求められる。",
+            "eng": "Within this Fatalis insect glaive, nature and evil both seek the key to control the uncontrollable.",
+            "fre": "Insectoglaive Fatalis. Même le bien ou le mal ne peuvent asservir l'incontrôlable.",
+            "spa": "En este glaive insecto de Fatalis se aúnan naturaleza y maldad para intentar controlar lo incontrolable.",
+            "ger": "In dieser Fatalis-Insektenglefe wollen die Natur und das Böse das Unkontrollierbare beherrschen.",
+            "ita": "In questo falcione insetto di Fatalis, la natura e il male cercano la chiave per controllare l'incontrollabile.",
+            "kor": "밀라보레아스의 조충곤.  자연의 힘과 사악한 힘, 상충하는  힘을 다룰 비법을 터득해야 한다.",
+            "cht": "黑龍的操蟲棍。 自然之力與邪惡之力相互牴觸， 持有者須徹底通曉操控之道。",
+            "chs": "黑龙的操虫棍。 自然之力与邪恶之力相克， 持有者须彻底通晓操控之道。",
+            "rus": "В этой глефе насекомых Фаталиса природа и зло пытаются найти способ управлять неуправляемым.",
+            "pol": "Owadzia glewia Fatalisa, w której natura i zło walczą o kontrolę nad nieokiełznaniem.",
+            "ptb": "Dentro dessa glaive inseto de Fatalis, a natureza e o mal tentam controlar o incontrolável.",
+            "ara": "داخل سيف حشرة فاتاليس تسكن الطبيعة ويتقلب الشر في محاولة لتقلد زمام الجامح."
+        },
+        "damage": 1100,
+        "rarity": 12,
+        "treeId": 89,
+        "affinity": -30,
+        "craftingCost": 80000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 120,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": false,
+            "items": []
         }
     },
     {

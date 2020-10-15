@@ -9,7 +9,7 @@
             [90,50,80,30,0,0,0]
         ],
         "id": 8,
-        "parentId": 30,
+        "parentId": 158,
         "sortOrder": 10,
         "name": {
             "jpn": "ハンターナイフⅠ",
@@ -74,7 +74,7 @@
             [70,70,30,80,0,0,0]
         ],
         "id": 9,
-        "parentId": 156,
+        "parentId": 159,
         "sortOrder": 11,
         "name": {
             "jpn": "ハンターナイフⅡ",
@@ -139,7 +139,7 @@
             [50,70,30,100,0,0,0]
         ],
         "id": 10,
-        "parentId": 173,
+        "parentId": 158,
         "sortOrder": 12,
         "name": {
             "jpn": "ハンターナイフⅢ",
@@ -212,7 +212,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 11,
-        "parentId": 156,
+        "parentId": 26,
         "sortOrder": 13,
         "name": {
             "jpn": "スティールナイフⅠ",
@@ -285,7 +285,7 @@
             [50,50,80,120,0,0,0]
         ],
         "id": 12,
-        "parentId": 158,
+        "parentId": 31,
         "sortOrder": 14,
         "name": {
             "jpn": "スティールナイフⅡ",
@@ -362,7 +362,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 13,
-        "parentId": 159,
+        "parentId": 32,
         "sortOrder": 15,
         "name": {
             "jpn": "スティールナイフⅢ",
@@ -437,7 +437,7 @@
             [80,50,50,80,90,0,0]
         ],
         "id": 14,
-        "parentId": 158,
+        "parentId": 33,
         "sortOrder": 16,
         "name": {
             "jpn": "クロムスライサーⅠ",
@@ -516,7 +516,7 @@
             [50,60,20,150,90,30,0]
         ],
         "id": 15,
-        "parentId": 26,
+        "parentId": 34,
         "sortOrder": 17,
         "name": {
             "jpn": "クロムスライサーⅡ",
@@ -591,7 +591,7 @@
             [110,120,40,50,80,0,0]
         ],
         "id": 16,
-        "parentId": 34,
+        "parentId": 35,
         "sortOrder": 18,
         "name": {
             "jpn": "ネルガルジャック",
@@ -665,7 +665,7 @@
             [90,120,40,50,100,0,0]
         ],
         "id": 17,
-        "parentId": 161,
+        "parentId": 36,
         "sortOrder": 19,
         "name": {
             "jpn": "討滅の尖兵",
@@ -744,7 +744,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 18,
-        "parentId": 25,
+        "parentId": 38,
         "sortOrder": 20,
         "name": {
             "jpn": "フレイムナイフⅠ",
@@ -821,7 +821,7 @@
             [100,50,80,100,20,0,0]
         ],
         "id": 19,
-        "parentId": 35,
+        "parentId": 164,
         "sortOrder": 21,
         "name": {
             "jpn": "フレイムナイフⅡ",
@@ -900,7 +900,7 @@
             [90,50,50,80,80,0,0]
         ],
         "id": 20,
-        "parentId": 36,
+        "parentId": 165,
         "sortOrder": 22,
         "name": {
             "jpn": "ヒートエッジ",
@@ -979,7 +979,7 @@
             [90,60,60,100,60,30,0]
         ],
         "id": 21,
-        "parentId": 37,
+        "parentId": 25,
         "sortOrder": 23,
         "name": {
             "jpn": "コロナ",
@@ -1058,7 +1058,7 @@
             [70,70,30,80,0,0,0]
         ],
         "id": 25,
-        "parentId": 43,
+        "parentId": 9,
         "sortOrder": 25,
         "name": {
             "jpn": "アクアメッサーⅠ",
@@ -1135,7 +1135,7 @@
             [80,50,80,90,0,0,0]
         ],
         "id": 26,
-        "parentId": 167,
+        "parentId": 44,
         "sortOrder": 26,
         "name": {
             "jpn": "アクアメッサーⅡ",
@@ -1212,7 +1212,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 27,
-        "parentId": 43,
+        "parentId": 45,
         "sortOrder": 27,
         "name": {
             "jpn": "アクアメッサーⅢ",
@@ -1289,7 +1289,7 @@
             [100,50,80,100,20,0,0]
         ],
         "id": 28,
-        "parentId": 169,
+        "parentId": 46,
         "sortOrder": 28,
         "name": {
             "jpn": "フラッドウェイブⅠ",
@@ -1368,7 +1368,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 29,
-        "parentId": 9,
+        "parentId": 47,
         "sortOrder": 29,
         "name": {
             "jpn": "フラッドウェイブⅡ",
@@ -1447,7 +1447,7 @@
             [100,60,60,100,50,30,0]
         ],
         "id": 30,
-        "parentId": 44,
+        "parentId": 48,
         "sortOrder": 30,
         "name": {
             "jpn": "フラッドウェイブⅢ",
@@ -1526,7 +1526,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 35,
-        "parentId": 175,
+        "parentId": -1,
         "sortOrder": 31,
         "name": {
             "jpn": "プリンセスレイピア",
@@ -1603,7 +1603,7 @@
             [110,50,50,80,60,0,0]
         ],
         "id": 36,
-        "parentId": 175,
+        "parentId": 55,
         "sortOrder": 32,
         "name": {
             "jpn": "クイーンレイピア",
@@ -1682,7 +1682,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 37,
-        "parentId": 177,
+        "parentId": 56,
         "sortOrder": 33,
         "name": {
             "jpn": "クイーンローズ",
@@ -1761,7 +1761,7 @@
             [90,60,60,100,60,30,0]
         ],
         "id": 38,
-        "parentId": 178,
+        "parentId": 57,
         "sortOrder": 34,
         "name": {
             "jpn": "ロイヤルローズ",
@@ -1840,7 +1840,7 @@
             [60,70,30,90,0,0,0]
         ],
         "id": 44,
-        "parentId": 183,
+        "parentId": 65,
         "sortOrder": 35,
         "name": {
             "jpn": "ブルームナイフⅠ",
@@ -1913,7 +1913,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 45,
-        "parentId": 57,
+        "parentId": 66,
         "sortOrder": 36,
         "name": {
             "jpn": "ブルームナイフⅡ",
@@ -1990,7 +1990,7 @@
             [40,50,80,130,0,0,0]
         ],
         "id": 46,
-        "parentId": 63,
+        "parentId": 67,
         "sortOrder": 37,
         "name": {
             "jpn": "ブルームナイフⅢ",
@@ -2067,7 +2067,7 @@
             [90,50,50,80,80,0,0]
         ],
         "id": 47,
-        "parentId": 64,
+        "parentId": 185,
         "sortOrder": 38,
         "name": {
             "jpn": "ダチュラブロッサムⅠ",
@@ -2147,7 +2147,7 @@
             [80,50,50,80,90,0,0]
         ],
         "id": 48,
-        "parentId": 65,
+        "parentId": 185,
         "sortOrder": 39,
         "name": {
             "jpn": "ダチュラブロッサムⅡ",
@@ -2227,7 +2227,7 @@
             [90,120,40,50,100,0,0]
         ],
         "id": 49,
-        "parentId": 66,
+        "parentId": 187,
         "sortOrder": 40,
         "name": {
             "jpn": "ダチュラブロッサムⅢ",
@@ -2307,7 +2307,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 39,
-        "parentId": 57,
+        "parentId": 61,
         "sortOrder": 41,
         "name": {
             "jpn": "ウルムーナイフⅠ",
@@ -2380,7 +2380,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 40,
-        "parentId": 58,
+        "parentId": 62,
         "sortOrder": 42,
         "name": {
             "jpn": "ウルムーナイフⅡ",
@@ -2457,7 +2457,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 41,
-        "parentId": 59,
+        "parentId": 180,
         "sortOrder": 43,
         "name": {
             "jpn": "ウルムータバールⅠ",
@@ -2537,7 +2537,7 @@
             [90,50,50,80,80,0,0]
         ],
         "id": 42,
-        "parentId": 60,
+        "parentId": 181,
         "sortOrder": 44,
         "name": {
             "jpn": "ウルムータバールⅡ",
@@ -2617,7 +2617,7 @@
             [80,50,60,120,50,40,0]
         ],
         "id": 43,
-        "parentId": 61,
+        "parentId": 181,
         "sortOrder": 45,
         "name": {
             "jpn": "ウルムータバールⅢ",
@@ -2697,7 +2697,7 @@
             [90,60,80,20,0,0,0]
         ],
         "id": 55,
-        "parentId": 192,
+        "parentId": 74,
         "sortOrder": 46,
         "name": {
             "jpn": "ボーンククリⅠ",
@@ -2762,7 +2762,7 @@
             [80,50,80,40,0,0,0]
         ],
         "id": 56,
-        "parentId": 191,
+        "parentId": 75,
         "sortOrder": 47,
         "name": {
             "jpn": "ボーンククリⅡ",
@@ -2827,7 +2827,7 @@
             [80,50,50,70,0,0,0]
         ],
         "id": 57,
-        "parentId": 229,
+        "parentId": 76,
         "sortOrder": 48,
         "name": {
             "jpn": "ボーンククリⅢ",
@@ -2896,7 +2896,7 @@
             [110,70,30,90,0,0,0]
         ],
         "id": 58,
-        "parentId": 68,
+        "parentId": 77,
         "sortOrder": 49,
         "name": {
             "jpn": "チーフククリⅠ",
@@ -2969,7 +2969,7 @@
             [100,70,30,100,0,0,0]
         ],
         "id": 59,
-        "parentId": 74,
+        "parentId": 78,
         "sortOrder": 50,
         "name": {
             "jpn": "チーフククリⅡ",
@@ -3042,7 +3042,7 @@
             [130,70,30,100,20,0,0]
         ],
         "id": 60,
-        "parentId": 75,
+        "parentId": 194,
         "sortOrder": 51,
         "name": {
             "jpn": "チーフククリⅢ",
@@ -3117,7 +3117,7 @@
             [100,100,40,40,70,0,0]
         ],
         "id": 61,
-        "parentId": 76,
+        "parentId": 195,
         "sortOrder": 52,
         "name": {
             "jpn": "グランドバロングⅠ",
@@ -3192,7 +3192,7 @@
             [90,120,40,50,100,0,0]
         ],
         "id": 62,
-        "parentId": 77,
+        "parentId": 196,
         "sortOrder": 53,
         "name": {
             "jpn": "グランドバロングⅡ",
@@ -3271,7 +3271,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 31,
-        "parentId": 204,
+        "parentId": 52,
         "sortOrder": 54,
         "name": {
             "jpn": "グレイスファイターⅠ",
@@ -3344,7 +3344,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 32,
-        "parentId": 44,
+        "parentId": 53,
         "sortOrder": 55,
         "name": {
             "jpn": "グレイスファイターⅡ",
@@ -3423,7 +3423,7 @@
             [80,50,50,80,90,0,0]
         ],
         "id": 33,
-        "parentId": 50,
+        "parentId": 54,
         "sortOrder": 56,
         "name": {
             "jpn": "トリアングラー",
@@ -3502,7 +3502,7 @@
             [120,30,60,80,40,70,0]
         ],
         "id": 34,
-        "parentId": 51,
+        "parentId": 175,
         "sortOrder": 57,
         "name": {
             "jpn": "レイ＝トリアングラー",
@@ -3581,7 +3581,7 @@
             [110,70,30,90,0,0,0]
         ],
         "id": 74,
-        "parentId": 212,
+        "parentId": 93,
         "sortOrder": 58,
         "name": {
             "jpn": "サンダーエッジⅠ",
@@ -3658,7 +3658,7 @@
             [100,70,30,100,0,0,0]
         ],
         "id": 75,
-        "parentId": 212,
+        "parentId": 94,
         "sortOrder": 59,
         "name": {
             "jpn": "サンダーエッジⅡ",
@@ -3735,7 +3735,7 @@
             [140,70,30,100,10,0,0]
         ],
         "id": 76,
-        "parentId": 89,
+        "parentId": 94,
         "sortOrder": 60,
         "name": {
             "jpn": "ライトニングバトラーⅠ",
@@ -3814,7 +3814,7 @@
             [100,100,40,40,70,0,0]
         ],
         "id": 77,
-        "parentId": 92,
+        "parentId": -1,
         "sortOrder": 61,
         "name": {
             "jpn": "ライトニングバトラーⅡ",
@@ -3860,7 +3860,7 @@
         "slots": [
             2
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3893,7 +3893,7 @@
             [100,120,40,50,90,0,0]
         ],
         "id": 78,
-        "parentId": 93,
+        "parentId": 95,
         "sortOrder": 62,
         "name": {
             "jpn": "ライトニングバトラーⅢ",
@@ -3972,7 +3972,7 @@
             [70,50,50,80,0,0,0]
         ],
         "id": 68,
-        "parentId": 79,
+        "parentId": 88,
         "sortOrder": 63,
         "name": {
             "jpn": "ジャグラスエッジⅠ",
@@ -4049,7 +4049,7 @@
             [100,70,30,100,0,0,0]
         ],
         "id": 69,
-        "parentId": 85,
+        "parentId": 207,
         "sortOrder": 64,
         "name": {
             "jpn": "ジャグラスエッジⅡ",
@@ -4126,7 +4126,7 @@
             [80,70,30,120,0,0,0]
         ],
         "id": 70,
-        "parentId": 86,
+        "parentId": 207,
         "sortOrder": 65,
         "name": {
             "jpn": "ジャグラスエッジⅢ",
@@ -4203,7 +4203,7 @@
             [100,100,40,40,70,0,0]
         ],
         "id": 71,
-        "parentId": 87,
+        "parentId": 209,
         "sortOrder": 66,
         "name": {
             "jpn": "ジャグラスガロテⅠ",
@@ -4283,7 +4283,7 @@
             [90,100,40,40,80,0,0]
         ],
         "id": 72,
-        "parentId": 88,
+        "parentId": 210,
         "sortOrder": 67,
         "name": {
             "jpn": "ジャグラスガロテⅡ",
@@ -4363,7 +4363,7 @@
             [90,120,40,50,100,0,0]
         ],
         "id": 73,
-        "parentId": 207,
+        "parentId": -1,
         "sortOrder": 68,
         "name": {
             "jpn": "ジャグラスガロテⅢ",
@@ -4410,7 +4410,7 @@
             3,
             2
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4443,7 +4443,7 @@
             [120,70,30,80,0,0,0]
         ],
         "id": 85,
-        "parentId": 129,
+        "parentId": 131,
         "sortOrder": 69,
         "name": {
             "jpn": "ブレイズエッジⅠ",
@@ -4516,7 +4516,7 @@
             [100,70,30,100,0,0,0]
         ],
         "id": 86,
-        "parentId": 128,
+        "parentId": -1,
         "sortOrder": 70,
         "name": {
             "jpn": "ブレイズエッジⅡ",
@@ -4560,7 +4560,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4593,7 +4593,7 @@
             [100,100,40,40,70,0,0]
         ],
         "id": 87,
-        "parentId": 130,
+        "parentId": 140,
         "sortOrder": 71,
         "name": {
             "jpn": "フラムエルシーカ",
@@ -4670,7 +4670,7 @@
             [100,120,40,50,90,0,0]
         ],
         "id": 88,
-        "parentId": 128,
+        "parentId": 141,
         "sortOrder": 72,
         "name": {
             "jpn": "蛮顎剣フラムシーカ",
@@ -4747,7 +4747,7 @@
             [80,50,50,70,0,0,0]
         ],
         "id": 79,
-        "parentId": 96,
+        "parentId": 99,
         "sortOrder": 73,
         "name": {
             "jpn": "ドラグロエッジⅠ",
@@ -4820,7 +4820,7 @@
             [120,70,30,80,0,0,0]
         ],
         "id": 80,
-        "parentId": 97,
+        "parentId": -1,
         "sortOrder": 74,
         "name": {
             "jpn": "ドラグロエッジⅡ",
@@ -4864,7 +4864,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -4897,7 +4897,7 @@
             [110,70,30,90,0,0,0]
         ],
         "id": 81,
-        "parentId": 98,
+        "parentId": 100,
         "sortOrder": 75,
         "name": {
             "jpn": "ドラグロエッジⅢ",
@@ -4974,7 +4974,7 @@
             [140,70,30,100,10,0,0]
         ],
         "id": 82,
-        "parentId": 96,
+        "parentId": 101,
         "sortOrder": 76,
         "name": {
             "jpn": "ボルボクラブⅠ",
@@ -5053,7 +5053,7 @@
             [110,100,40,40,60,0,0]
         ],
         "id": 83,
-        "parentId": 99,
+        "parentId": -1,
         "sortOrder": 77,
         "name": {
             "jpn": "ボルボクラブⅡ",
@@ -5100,7 +5100,7 @@
             1,
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -5133,7 +5133,7 @@
             [100,120,40,50,90,0,0]
         ],
         "id": 84,
-        "parentId": -1,
+        "parentId": 128,
         "sortOrder": 78,
         "name": {
             "jpn": "ボルボクラブⅢ",
@@ -5180,7 +5180,7 @@
             2,
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -5213,7 +5213,7 @@
             [120,70,30,80,0,0,0]
         ],
         "id": 63,
-        "parentId": 79,
+        "parentId": 83,
         "sortOrder": 79,
         "name": {
             "jpn": "スパイクエッジⅠ",
@@ -5286,7 +5286,7 @@
             [110,70,30,90,0,0,0]
         ],
         "id": 64,
-        "parentId": 80,
+        "parentId": 84,
         "sortOrder": 80,
         "name": {
             "jpn": "スパイクエッジⅡ",
@@ -5363,7 +5363,7 @@
             [140,70,30,100,10,0,0]
         ],
         "id": 65,
-        "parentId": 81,
+        "parentId": 202,
         "sortOrder": 81,
         "name": {
             "jpn": "バルキンガロテⅠ",
@@ -5440,7 +5440,7 @@
             [100,100,40,40,70,0,0]
         ],
         "id": 66,
-        "parentId": 82,
+        "parentId": 202,
         "sortOrder": 82,
         "name": {
             "jpn": "バルキンガロテⅡ",
@@ -5517,7 +5517,7 @@
             [100,120,40,50,90,0,0]
         ],
         "id": 67,
-        "parentId": 83,
+        "parentId": 200,
         "sortOrder": 83,
         "name": {
             "jpn": "バルキンガロテⅢ",
@@ -5594,7 +5594,7 @@
             [110,70,30,90,0,0,0]
         ],
         "id": 89,
-        "parentId": 222,
+        "parentId": -1,
         "sortOrder": 84,
         "name": {
             "jpn": "龍骨剣Ⅰ",
@@ -5744,7 +5744,7 @@
             [150,100,30,30,60,30,0]
         ],
         "id": 91,
-        "parentId": -1,
+        "parentId": 224,
         "sortOrder": 86,
         "name": {
             "jpn": "龍骨剣Ⅲ",
@@ -5790,7 +5790,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -5823,7 +5823,7 @@
             [40,50,80,130,0,0,0]
         ],
         "id": 92,
-        "parentId": 224,
+        "parentId": 231,
         "sortOrder": 87,
         "name": {
             "jpn": "雷刃",
@@ -6294,7 +6294,7 @@
             "spa": "Emblema Teostra",
             "ger": "Teostras Wappen",
             "ita": "Emblema Teostra",
-            "kor": "테오엠블렘",
+            "kor": "테오엠블럼",
             "cht": "炎王紋章",
             "chs": "炎王纹章",
             "rus": "Эмблема теостры",
@@ -6442,7 +6442,7 @@
             [80,50,50,80,90,0,0]
         ],
         "id": 23,
-        "parentId": 39,
+        "parentId": 43,
         "sortOrder": 95,
         "name": {
             "jpn": "ヘビィバング改",
@@ -6521,7 +6521,7 @@
             [90,120,40,50,100,0,0]
         ],
         "id": 24,
-        "parentId": 40,
+        "parentId": 167,
         "sortOrder": 96,
         "name": {
             "jpn": "マスターバング",
@@ -6600,7 +6600,7 @@
             [40,50,80,130,0,0,0]
         ],
         "id": 22,
-        "parentId": 25,
+        "parentId": 42,
         "sortOrder": 97,
         "name": {
             "jpn": "ヘビィバング",
@@ -6677,7 +6677,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 50,
-        "parentId": 56,
+        "parentId": 71,
         "sortOrder": 98,
         "name": {
             "jpn": "ギルオスナイフⅠ",
@@ -6750,7 +6750,7 @@
             [50,50,80,120,0,0,0]
         ],
         "id": 51,
-        "parentId": 68,
+        "parentId": 72,
         "sortOrder": 99,
         "name": {
             "jpn": "ギルオスナイフⅡ",
@@ -6827,7 +6827,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 52,
-        "parentId": 69,
+        "parentId": 73,
         "sortOrder": 100,
         "name": {
             "jpn": "マラドタバールⅠ",
@@ -6904,7 +6904,7 @@
             [90,50,50,80,80,0,0]
         ],
         "id": 53,
-        "parentId": 70,
+        "parentId": 189,
         "sortOrder": 101,
         "name": {
             "jpn": "マラドタバールⅡ",
@@ -6981,7 +6981,7 @@
             [80,50,60,120,50,40,0]
         ],
         "id": 54,
-        "parentId": 71,
+        "parentId": 189,
         "sortOrder": 102,
         "name": {
             "jpn": "マラドタバールⅢ",
@@ -8691,7 +8691,7 @@
             "spa": "Filo Lunastra",
             "ger": "Kaiserin-Schneide",
             "ita": "Taglio fiamma",
-            "kor": "엠프리스엣지",
+            "kor": "엠프리스에지",
             "cht": "皇后銳劍",
             "chs": "皇后锐剑",
             "rus": "Гребень императрицы",
@@ -8770,7 +8770,7 @@
             "spa": "Filo Lunastra (Luna)",
             "ger": "Kaiserin-Schneide \"Lunastra\"",
             "ita": "Taglio fiamma \"Vampa\"",
-            "kor": "엠프리스엣지-염비",
+            "kor": "엠프리스에지-염비",
             "cht": "皇后銳劍‧炎妃",
             "chs": "皇后锐剑·炎妃",
             "rus": "Гребень \"Пламя\"",
@@ -8850,7 +8850,7 @@
             "spa": "Filo Lunastra (Nerg)",
             "ger": "KaiserinSchneide\"Nergigante\"",
             "ita": "Taglio fiamma \"Rovina\"",
-            "kor": "엠프리스엣지-멸진",
+            "kor": "엠프리스에지-멸진",
             "cht": "皇后銳劍‧滅盡",
             "chs": "皇后锐剑·灭尽",
             "rus": "Гребень \"Разруха\"",
@@ -8930,7 +8930,7 @@
             "spa": "Filo Lunastra (Xeno)",
             "ger": "KaiserinSchneide\"Xeno'jiiva\"",
             "ita": "Taglio fiamma \"Stige\"",
-            "kor": "엠프리스엣지-명등",
+            "kor": "엠프리스에지-명등",
             "cht": "皇后銳劍‧冥燈",
             "chs": "皇后锐剑·冥灯",
             "rus": "Гребень \"Стикс\"",
@@ -9621,7 +9621,7 @@
             [30,60,20,140,0,0,0]
         ],
         "id": 142,
-        "parentId": 25,
+        "parentId": 29,
         "sortOrder": 145,
         "name": {
             "jpn": "防衛隊戦斧型撃剣Ⅰ",
@@ -9686,7 +9686,7 @@
             [30,60,20,150,40,0,0]
         ],
         "id": 143,
-        "parentId": 26,
+        "parentId": 30,
         "sortOrder": 146,
         "name": {
             "jpn": "防衛隊戦斧型撃剣Ⅱ",
@@ -9751,7 +9751,7 @@
             [50,50,50,80,120,0,0]
         ],
         "id": 144,
-        "parentId": 27,
+        "parentId": 156,
         "sortOrder": 147,
         "name": {
             "jpn": "防衛隊戦斧型撃剣Ⅲ",
@@ -9816,7 +9816,7 @@
             [30,50,50,80,140,0,0]
         ],
         "id": 145,
-        "parentId": 28,
+        "parentId": 173,
         "sortOrder": 148,
         "name": {
             "jpn": "防衛隊戦斧型撃剣Ⅳ",
@@ -9881,7 +9881,7 @@
             [90,30,30,110,40,100,0]
         ],
         "id": 146,
-        "parentId": 29,
+        "parentId": 156,
         "sortOrder": 149,
         "name": {
             "jpn": "防衛隊戦斧型撃剣Ⅴ",
@@ -9946,7 +9946,7 @@
             [80,80,30,30,80,100,0]
         ],
         "id": 147,
-        "parentId": 31,
+        "parentId": 161,
         "sortOrder": 150,
         "name": {
             "jpn": "クロムナイトソードⅠ",
@@ -10026,7 +10026,7 @@
             [70,80,30,30,80,110,0]
         ],
         "id": 148,
-        "parentId": 32,
+        "parentId": 162,
         "sortOrder": 151,
         "name": {
             "jpn": "クロムナイトソードⅡ",
@@ -10106,7 +10106,7 @@
             [110,30,30,60,50,90,30]
         ],
         "id": 149,
-        "parentId": 33,
+        "parentId": 25,
         "sortOrder": 152,
         "name": {
             "jpn": "クロムナイトソードⅢ",
@@ -10181,7 +10181,7 @@
             [70,30,30,110,40,120,0]
         ],
         "id": 150,
-        "parentId": 162,
+        "parentId": 37,
         "sortOrder": 153,
         "name": {
             "jpn": "討滅の尖兵【狂】",
@@ -10260,7 +10260,7 @@
             [100,100,40,50,60,50,0]
         ],
         "id": 151,
-        "parentId": 38,
+        "parentId": 39,
         "sortOrder": 154,
         "name": {
             "jpn": "コロナ改",
@@ -10339,7 +10339,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 152,
-        "parentId": 164,
+        "parentId": 40,
         "sortOrder": 155,
         "name": {
             "jpn": "ブルーコロナ",
@@ -10418,7 +10418,7 @@
             [120,30,30,60,50,80,30]
         ],
         "id": 153,
-        "parentId": 165,
+        "parentId": 41,
         "sortOrder": 156,
         "name": {
             "jpn": "プラチナムドーン",
@@ -10497,7 +10497,7 @@
             [80,80,30,30,80,100,0]
         ],
         "id": 154,
-        "parentId": 41,
+        "parentId": 43,
         "sortOrder": 157,
         "name": {
             "jpn": "レガシーバング",
@@ -10572,7 +10572,7 @@
             [130,30,30,60,50,50,50]
         ],
         "id": 155,
-        "parentId": 42,
+        "parentId": 169,
         "sortOrder": 158,
         "name": {
             "jpn": "レジェンドバング",
@@ -10651,7 +10651,7 @@
             [100,80,30,30,80,80,0]
         ],
         "id": 156,
-        "parentId": 45,
+        "parentId": 49,
         "sortOrder": 159,
         "name": {
             "jpn": "フラッドウェイブⅣ",
@@ -10730,7 +10730,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 158,
-        "parentId": 48,
+        "parentId": 204,
         "sortOrder": 161,
         "name": {
             "jpn": "アイシクルスパイク",
@@ -10807,7 +10807,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 159,
-        "parentId": 49,
+        "parentId": 44,
         "sortOrder": 162,
         "name": {
             "jpn": "アイシクルスパイク改",
@@ -10884,7 +10884,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 160,
-        "parentId": 171,
+        "parentId": 50,
         "sortOrder": 163,
         "name": {
             "jpn": "ナールドボッシェ",
@@ -10961,7 +10961,7 @@
             [80,80,30,30,80,100,0]
         ],
         "id": 161,
-        "parentId": 52,
+        "parentId": 175,
         "sortOrder": 164,
         "name": {
             "jpn": "レイ＝トリアングラー改",
@@ -11040,7 +11040,7 @@
             [70,80,30,30,80,110,0]
         ],
         "id": 162,
-        "parentId": 53,
+        "parentId": 177,
         "sortOrder": 165,
         "name": {
             "jpn": "ブリーナ＝トリアングラー",
@@ -11119,7 +11119,7 @@
             [50,20,30,90,90,80,40]
         ],
         "id": 163,
-        "parentId": 54,
+        "parentId": 178,
         "sortOrder": 166,
         "name": {
             "jpn": "ネフ＝グレイシア",
@@ -11198,7 +11198,7 @@
             [100,100,40,50,60,50,0]
         ],
         "id": 164,
-        "parentId": -1,
+        "parentId": 58,
         "sortOrder": 167,
         "name": {
             "jpn": "ロイヤルローズ改",
@@ -11273,7 +11273,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 165,
-        "parentId": 55,
+        "parentId": 59,
         "sortOrder": 168,
         "name": {
             "jpn": "ハイネスローズ",
@@ -11352,7 +11352,7 @@
             [60,80,30,30,80,120,0]
         ],
         "id": 166,
-        "parentId": 56,
+        "parentId": 60,
         "sortOrder": 169,
         "name": {
             "jpn": "ルナティックローズ",
@@ -11431,7 +11431,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 167,
-        "parentId": 62,
+        "parentId": 183,
         "sortOrder": 170,
         "name": {
             "jpn": "ウルムーアーミンⅠ",
@@ -11511,7 +11511,7 @@
             [140,30,30,60,50,60,30]
         ],
         "id": 168,
-        "parentId": 180,
+        "parentId": 57,
         "sortOrder": 171,
         "name": {
             "jpn": "ウルムーアーミンⅡ",
@@ -11591,7 +11591,7 @@
             [60,80,30,30,80,120,0]
         ],
         "id": 169,
-        "parentId": 181,
+        "parentId": 63,
         "sortOrder": 172,
         "name": {
             "jpn": "ニュクスタバールⅠ",
@@ -11670,7 +11670,7 @@
             [60,80,30,30,80,120,0]
         ],
         "id": 170,
-        "parentId": 181,
+        "parentId": 64,
         "sortOrder": 173,
         "name": {
             "jpn": "ニュクスタバールⅡ",
@@ -11749,7 +11749,7 @@
             [60,80,30,30,80,120,0]
         ],
         "id": 171,
-        "parentId": 67,
+        "parentId": 56,
         "sortOrder": 174,
         "name": {
             "jpn": "ダチュラフルブルームⅠ",
@@ -11829,7 +11829,7 @@
             [110,30,30,60,50,70,50]
         ],
         "id": 172,
-        "parentId": 185,
+        "parentId": 68,
         "sortOrder": 175,
         "name": {
             "jpn": "ダチュラフルブルームⅡ",
@@ -11909,7 +11909,7 @@
             [70,80,30,30,80,110,0]
         ],
         "id": 173,
-        "parentId": 46,
+        "parentId": 171,
         "sortOrder": 176,
         "name": {
             "jpn": "ラグーナブロッサムⅠ",
@@ -11989,7 +11989,7 @@
             [110,30,30,60,50,70,50]
         ],
         "id": 174,
-        "parentId": 47,
+        "parentId": 171,
         "sortOrder": 177,
         "name": {
             "jpn": "ラグーナブロッサムⅡ",
@@ -12069,7 +12069,7 @@
             [90,100,40,50,80,40,0]
         ],
         "id": 175,
-        "parentId": 72,
+        "parentId": 191,
         "sortOrder": 178,
         "name": {
             "jpn": "ナーガ＝サクスⅠ",
@@ -12146,7 +12146,7 @@
             [90,100,40,50,80,40,0]
         ],
         "id": 176,
-        "parentId": 73,
+        "parentId": 192,
         "sortOrder": 179,
         "name": {
             "jpn": "ナーガ＝サクスⅡ",
@@ -12223,7 +12223,7 @@
             [70,80,30,30,80,110,0]
         ],
         "id": 177,
-        "parentId": 189,
+        "parentId": 191,
         "sortOrder": 180,
         "name": {
             "jpn": "ヒドゥンエッジ",
@@ -12232,7 +12232,7 @@
             "spa": "Filo oculto",
             "ger": "Versteckte Schneide",
             "ita": "Lama occulta",
-            "kor": "히든엣지",
+            "kor": "히든에지",
             "cht": "隱密銳劍",
             "chs": "隐密锐剑",
             "rus": "Скрытый предел",
@@ -12300,7 +12300,7 @@
             [140,20,20,70,40,30,80]
         ],
         "id": 178,
-        "parentId": 189,
+        "parentId": 229,
         "sortOrder": 181,
         "name": {
             "jpn": "ヒドゥンエッジ改",
@@ -12309,7 +12309,7 @@
             "spa": "Filo oculto+",
             "ger": "Versteckte Schneide+",
             "ita": "Lama occulta+",
-            "kor": "히든엣지+",
+            "kor": "히든에지+",
             "cht": "隱密銳劍‧改",
             "chs": "隐密锐剑·改",
             "rus": "Скрытый предел+",
@@ -12377,7 +12377,7 @@
             [130,20,20,70,40,30,90]
         ],
         "id": 179,
-        "parentId": 191,
+        "parentId": 68,
         "sortOrder": 182,
         "name": {
             "jpn": "闇夜剣【昏冥】",
@@ -12454,7 +12454,7 @@
             [90,100,40,50,70,50,0]
         ],
         "id": 180,
-        "parentId": 78,
+        "parentId": 56,
         "sortOrder": 183,
         "name": {
             "jpn": "ラグドスアッシュⅠ",
@@ -12533,7 +12533,7 @@
             [80,100,40,50,80,50,0]
         ],
         "id": 181,
-        "parentId": 194,
+        "parentId": 79,
         "sortOrder": 184,
         "name": {
             "jpn": "ラグドスアッシュⅡ",
@@ -12612,7 +12612,7 @@
             [70,100,40,50,90,50,0]
         ],
         "id": 182,
-        "parentId": 195,
+        "parentId": 80,
         "sortOrder": 185,
         "name": {
             "jpn": "ラグドスアッシュⅢ",
@@ -12691,7 +12691,7 @@
             [140,30,30,60,50,40,50]
         ],
         "id": 183,
-        "parentId": 196,
+        "parentId": 81,
         "sortOrder": 186,
         "name": {
             "jpn": "アイスブリーゼ",
@@ -12700,7 +12700,7 @@
             "spa": "Vendaval de hielo",
             "ger": "Eiswind",
             "ita": "Crioburrasca",
-            "kor": "아이스브리즈",
+            "kor": "아이스브리제",
             "cht": "嚴冰微風",
             "chs": "严冰微风",
             "rus": "Ледяная буря",
@@ -12770,7 +12770,7 @@
             [130,30,30,60,50,50,50]
         ],
         "id": 184,
-        "parentId": 56,
+        "parentId": 82,
         "sortOrder": 187,
         "name": {
             "jpn": "氷帝アンナパレス",
@@ -12849,7 +12849,7 @@
             [110,100,40,50,50,50,0]
         ],
         "id": 185,
-        "parentId": 84,
+        "parentId": 79,
         "sortOrder": 188,
         "name": {
             "jpn": "ラグドスバルキンⅠ",
@@ -12926,7 +12926,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 186,
-        "parentId": 202,
+        "parentId": 85,
         "sortOrder": 189,
         "name": {
             "jpn": "ラグドスバルキンⅡ",
@@ -13003,7 +13003,7 @@
             [160,100,30,30,50,30,0]
         ],
         "id": 187,
-        "parentId": 202,
+        "parentId": 86,
         "sortOrder": 190,
         "name": {
             "jpn": "ザルファバトラーⅠ",
@@ -13082,7 +13082,7 @@
             [60,50,110,90,60,20,10]
         ],
         "id": 188,
-        "parentId": 200,
+        "parentId": 87,
         "sortOrder": 191,
         "name": {
             "jpn": "ザルファバトラーⅡ",
@@ -13161,7 +13161,7 @@
             [80,100,40,40,140,0,0]
         ],
         "id": 189,
-        "parentId": 207,
+        "parentId": 89,
         "sortOrder": 192,
         "name": {
             "jpn": "牙竜剣【悪喰】Ⅰ",
@@ -13241,7 +13241,7 @@
             [100,80,30,30,80,80,0]
         ],
         "id": 190,
-        "parentId": 209,
+        "parentId": 90,
         "sortOrder": 193,
         "name": {
             "jpn": "牙竜剣【悪喰】Ⅱ",
@@ -13321,7 +13321,7 @@
             [70,30,30,110,40,120,0]
         ],
         "id": 191,
-        "parentId": 210,
+        "parentId": 91,
         "sortOrder": 194,
         "name": {
             "jpn": "レックスクロウ",
@@ -13398,7 +13398,7 @@
             [60,30,30,110,40,130,0]
         ],
         "id": 192,
-        "parentId": -1,
+        "parentId": 212,
         "sortOrder": 195,
         "name": {
             "jpn": "レックスクロウ改",
@@ -13475,7 +13475,7 @@
             [50,30,30,110,40,140,0]
         ],
         "id": 193,
-        "parentId": 89,
+        "parentId": 212,
         "sortOrder": 196,
         "name": {
             "jpn": "轟剣【虎眼】",
@@ -13552,7 +13552,7 @@
             [100,100,40,50,60,50,0]
         ],
         "id": 194,
-        "parentId": 94,
+        "parentId": 96,
         "sortOrder": 197,
         "name": {
             "jpn": "ライトニングバトラーⅣ",
@@ -13631,7 +13631,7 @@
             [110,30,30,110,40,80,0]
         ],
         "id": 195,
-        "parentId": 94,
+        "parentId": 97,
         "sortOrder": 198,
         "name": {
             "jpn": "王剣シツライ",
@@ -13710,7 +13710,7 @@
             [130,30,90,30,30,70,20]
         ],
         "id": 196,
-        "parentId": -1,
+        "parentId": 98,
         "sortOrder": 199,
         "name": {
             "jpn": "王剣シツライ改",
@@ -13789,7 +13789,7 @@
             [120,30,90,30,30,80,20]
         ],
         "id": 197,
-        "parentId": 95,
+        "parentId": 96,
         "sortOrder": 200,
         "name": {
             "jpn": "王牙剣【折雷】",
@@ -14009,7 +14009,7 @@
             [100,30,30,110,40,90,0]
         ],
         "id": 200,
-        "parentId": -1,
+        "parentId": 130,
         "sortOrder": 203,
         "name": {
             "jpn": "ディノバトラーⅠ",
@@ -14055,7 +14055,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -14168,7 +14168,7 @@
             [90,100,40,50,70,50,0]
         ],
         "id": 202,
-        "parentId": 100,
+        "parentId": 129,
         "sortOrder": 205,
         "name": {
             "jpn": "ボルボスクランブルⅠ",
@@ -14248,7 +14248,7 @@
             [90,100,40,50,70,50,0]
         ],
         "id": 203,
-        "parentId": 101,
+        "parentId": 128,
         "sortOrder": 206,
         "name": {
             "jpn": "ボルボスクランブルⅡ",
@@ -14328,7 +14328,7 @@
             [90,100,40,50,70,50,0]
         ],
         "id": 204,
-        "parentId": 185,
+        "parentId": 69,
         "sortOrder": 207,
         "name": {
             "jpn": "ディオスエッジ",
@@ -14337,7 +14337,7 @@
             "spa": "Filo Brachydios",
             "ger": "Dios-Schneide",
             "ita": "Lama Dios",
-            "kor": "디오스엣지",
+            "kor": "디오스에지",
             "cht": "碎龍銳劍",
             "chs": "碎龙锐剑",
             "rus": "Гребень диоса",
@@ -14405,7 +14405,7 @@
             [80,30,30,110,40,110,0]
         ],
         "id": 205,
-        "parentId": 187,
+        "parentId": 70,
         "sortOrder": 208,
         "name": {
             "jpn": "爆剣サーモバレッジ",
@@ -14414,7 +14414,7 @@
             "spa": "Aluvión pujante",
             "ger": "Durchschlag-Sperrfeuer",
             "ita": "Raffica esplosiva",
-            "kor": "폭검 서모바렛지",
+            "kor": "폭검 서모버라지",
             "cht": "爆劍戰火之刀",
             "chs": "爆剑战火之刀",
             "rus": "Громкий обстрел",
@@ -14559,7 +14559,7 @@
             [70,100,40,50,90,50,0]
         ],
         "id": 207,
-        "parentId": 131,
+        "parentId": -1,
         "sortOrder": 210,
         "name": {
             "jpn": "蛮顎剣フラムシーカ改",
@@ -14636,7 +14636,7 @@
             [70,100,40,50,90,50,0]
         ],
         "id": 208,
-        "parentId": -1,
+        "parentId": 222,
         "sortOrder": 211,
         "name": {
             "jpn": "蛮炎剣ロギンシーカ",
@@ -14713,7 +14713,7 @@
             [70,100,40,50,90,50,0]
         ],
         "id": 209,
-        "parentId": 140,
+        "parentId": -1,
         "sortOrder": 212,
         "name": {
             "jpn": "雷顎剣ドネルシーカ",
@@ -14790,7 +14790,7 @@
             [70,100,40,50,90,50,0]
         ],
         "id": 210,
-        "parentId": 141,
+        "parentId": -1,
         "sortOrder": 213,
         "name": {
             "jpn": "雷顎剣ドネルシーカ改",
@@ -14867,7 +14867,7 @@
             [70,100,40,50,90,50,0]
         ],
         "id": 211,
-        "parentId": -1,
+        "parentId": 198,
         "sortOrder": 214,
         "name": {
             "jpn": "蛮雷剣カーリシーカ",
@@ -14944,7 +14944,7 @@
             [170,70,20,20,80,40,0]
         ],
         "id": 212,
-        "parentId": 198,
+        "parentId": -1,
         "sortOrder": 215,
         "name": {
             "jpn": "龍封じの古剣Ⅰ",
@@ -14991,7 +14991,7 @@
             1,
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -15024,7 +15024,7 @@
             [170,70,20,20,80,40,0]
         ],
         "id": 213,
-        "parentId": -1,
+        "parentId": 234,
         "sortOrder": 216,
         "name": {
             "jpn": "龍封じの古剣Ⅱ",
@@ -15071,7 +15071,7 @@
             1,
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -15261,7 +15261,7 @@
             [60,80,30,30,80,120,0]
         ],
         "id": 217,
-        "parentId": 231,
+        "parentId": -1,
         "sortOrder": 220,
         "name": {
             "jpn": "ヒュドロスディスク",
@@ -15307,7 +15307,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -16098,7 +16098,7 @@
             [100,20,30,90,90,30,40]
         ],
         "id": 229,
-        "parentId": 90,
+        "parentId": 89,
         "sortOrder": 232,
         "name": {
             "jpn": "カーサスクロウ",
@@ -16175,7 +16175,7 @@
             [90,20,30,90,90,40,40]
         ],
         "id": 230,
-        "parentId": 91,
+        "parentId": 92,
         "sortOrder": 233,
         "name": {
             "jpn": "吼剣【地咬】",
@@ -16393,7 +16393,7 @@
             [10,30,50,50,60,120,80]
         ],
         "id": 233,
-        "parentId": 171,
+        "parentId": 51,
         "sortOrder": 236,
         "name": {
             "jpn": "シルバーボッシュ",
@@ -16458,6 +16458,149 @@
                     "quantity": 1
                 }
             ]
+        }
+    },
+    {
+        "sharpness": [
+            [140,20,20,70,40,30,30],
+            [140,20,20,70,40,30,40],
+            [140,20,20,70,40,30,50],
+            [140,20,20,70,40,30,60],
+            [140,20,20,70,40,30,70],
+            [140,20,20,70,40,30,80]
+        ],
+        "id": 234,
+        "parentId": -1,
+        "sortOrder": 237,
+        "name": {
+            "jpn": "黒龍剣",
+            "eng": "Fatalis Sword",
+            "fre": "Épée Fatalis",
+            "spa": "Espada Fatalis",
+            "ger": "Fatalis-Schwert",
+            "ita": "Spada drago nero",
+            "kor": "흑룡검",
+            "cht": "黑龍劍",
+            "chs": "黑龙剑",
+            "rus": "Меч Фаталиса",
+            "pol": "Miecz Fatalisa",
+            "ptb": "Espada de Fatalis",
+            "ara": "سيف فاتاليس"
+        },
+        "description": {
+            "jpn": "ミラボレアスの片手剣。 究極の力を継ぎ、一振りで大 陸を揺るがすとまで言われる。",
+            "eng": "The ultimate power in this Fatalis sword & shield is said to shake continents with a mere slash.",
+            "fre": "Épée & bouclier Fatalis. Une arme qui fait trembler les continents d'un seul coup.",
+            "spa": "Dicen que el poder de esta espada y escudo de Fatalis puede sacudir a continentes enteros de un tajo.",
+            "ger": "Die ultimative Kraft dieses Schwert & Schild aus Fatalis soll Kontinente mit einem Hieb erschüttern können.",
+            "ita": "L'immenso potere racchiuso in questa spada e scudo di Fatalis fa tremare i continenti con un colpo.",
+            "kor": "밀라보레아스의 한손검.  궁극의 힘을 이어 받아, 대지를  뒤흔들 정도의 위력을 지녔다.",
+            "cht": "黑龍的單手劍。 繼承了終極之力，據說只要一揮舞， 連山河都能為之動搖。",
+            "chs": "黑龙的片手剑。 继承了终极之力，据说只要一挥舞， 连山河都能为之动摇。",
+            "rus": "Невероятная сила Фаталиса, воплощенная в мече, сотрясает континенты.",
+            "pol": "Niezrównana moc miecza i tarczy Fatalisa ma sprawiać, że jedno cięcie wstrząsa kontynentami.",
+            "ptb": "Dizem que o poder supremo dessa espada e escudo de Fatalis consegue abalar continentes.",
+            "ara": "يقال إن القوة المطلقة في سيف ودرع فاتاليس يمكنها زلزلة قارات بحركة بسيطة."
+        },
+        "damage": 434,
+        "rarity": 11,
+        "treeId": 89,
+        "affinity": -40,
+        "craftingCost": 28000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 60,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": [
+                {
+                    "id": 2756,
+                    "quantity": 3
+                },
+                {
+                    "id": 2759,
+                    "quantity": 1
+                },
+                {
+                    "id": 2758,
+                    "quantity": 1
+                },
+                {
+                    "id": 2760,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    {
+        "sharpness": [
+            [140,20,20,70,40,30,30],
+            [140,20,20,70,40,30,40],
+            [140,20,20,70,40,30,50],
+            [140,20,20,70,40,30,60],
+            [140,20,20,70,40,30,70],
+            [140,20,20,70,40,30,80]
+        ],
+        "id": 235,
+        "parentId": -1,
+        "sortOrder": 238,
+        "name": {
+            "jpn": "真・黒龍剣",
+            "eng": "True Fatalis Sword",
+            "fre": "Épée ultime Fatalis",
+            "spa": "Espada Fatalis real",
+            "ger": "Echtes Fatalis-Schwert",
+            "ita": "Spada drago ebano",
+            "kor": "진-흑룡검",
+            "cht": "真‧黑龍劍",
+            "chs": "真·黑龙剑",
+            "rus": "Истинный меч Фаталиса",
+            "pol": "Prawdziwy miecz Fatalisa",
+            "ptb": "Espada Veraz de Fatalis",
+            "ara": "سيف فاتاليس الحقيقي"
+        },
+        "description": {
+            "jpn": "ミラボレアスの片手剣。 究極の力を継ぎ、一振りで大 陸を揺るがすとまで言われる。",
+            "eng": "The ultimate power in this Fatalis sword & shield is said to shake continents with a mere slash.",
+            "fre": "Épée & bouclier Fatalis. Une arme qui fait trembler les continents d'un seul coup.",
+            "spa": "Dicen que el poder de esta espada y escudo de Fatalis puede sacudir a continentes enteros de un tajo.",
+            "ger": "Die ultimative Kraft dieses Schwert & Schild aus Fatalis soll Kontinente mit einem Hieb erschüttern können.",
+            "ita": "L'immenso potere racchiuso in questa spada e scudo di Fatalis fa tremare i continenti con un colpo.",
+            "kor": "밀라보레아스의 한손검.  궁극의 힘을 이어 받아, 대지를  뒤흔들 정도의 위력을 지녔다.",
+            "cht": "黑龍的單手劍。 繼承了終極之力，據說只要一揮舞， 連山河都能為之動搖。",
+            "chs": "黑龙的片手剑。 继承了终极之力，据说只要一挥舞， 连山河都能为之动摇。",
+            "rus": "Невероятная сила Фаталиса, воплощенная в мече, сотрясает континенты.",
+            "pol": "Niezrównana moc miecza i tarczy Fatalisa ma sprawiać, że jedno cięcie wstrząsa kontynentami.",
+            "ptb": "Dizem que o poder supremo dessa espada e escudo de Fatalis consegue abalar continentes.",
+            "ara": "يقال إن القوة المطلقة في سيف ودرع فاتاليس يمكنها زلزلة قارات بحركة بسيطة."
+        },
+        "damage": 490,
+        "rarity": 12,
+        "treeId": 89,
+        "affinity": -30,
+        "craftingCost": 80000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 120,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": false,
+            "items": []
         }
     },
     {

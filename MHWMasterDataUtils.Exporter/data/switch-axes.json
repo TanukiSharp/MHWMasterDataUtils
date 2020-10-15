@@ -12,7 +12,7 @@
             [100,50,80,20,0,0,0]
         ],
         "id": 7,
-        "parentId": 72,
+        "parentId": 80,
         "sortOrder": 10,
         "name": {
             "jpn": "鉄製試作剣斧Ⅰ",
@@ -80,7 +80,7 @@
             [80,70,30,70,0,0,0]
         ],
         "id": 8,
-        "parentId": 73,
+        "parentId": 80,
         "sortOrder": 11,
         "name": {
             "jpn": "鉄製試作剣斧Ⅱ",
@@ -148,7 +148,7 @@
             [60,70,30,90,0,0,0]
         ],
         "id": 9,
-        "parentId": 74,
+        "parentId": 210,
         "sortOrder": 12,
         "name": {
             "jpn": "鉄製試作剣斧Ⅲ",
@@ -225,7 +225,7 @@
             [70,50,80,100,0,0,0]
         ],
         "id": 10,
-        "parentId": 200,
+        "parentId": -1,
         "sortOrder": 13,
         "name": {
             "jpn": "鋼鉄製改良剣斧Ⅰ",
@@ -269,7 +269,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -302,7 +302,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 11,
-        "parentId": 200,
+        "parentId": 81,
         "sortOrder": 14,
         "name": {
             "jpn": "鋼鉄製改良剣斧Ⅱ",
@@ -383,7 +383,7 @@
             [90,50,50,80,80,0,0]
         ],
         "id": 12,
-        "parentId": 202,
+        "parentId": 82,
         "sortOrder": 15,
         "name": {
             "jpn": "鋼鉄製改良剣斧Ⅲ",
@@ -462,7 +462,7 @@
             [70,50,50,80,100,0,0]
         ],
         "id": 13,
-        "parentId": 203,
+        "parentId": 83,
         "sortOrder": 16,
         "name": {
             "jpn": "合金製完成剣斧Ⅰ",
@@ -545,7 +545,7 @@
             [60,60,20,150,90,20,0]
         ],
         "id": 14,
-        "parentId": -1,
+        "parentId": 84,
         "sortOrder": 17,
         "name": {
             "jpn": "合金製完成剣斧Ⅱ",
@@ -592,7 +592,7 @@
             1,
             1
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -623,7 +623,7 @@
             [120,120,40,50,70,0,0]
         ],
         "id": 15,
-        "parentId": 75,
+        "parentId": -1,
         "sortOrder": 18,
         "name": {
             "jpn": "ネルガルガッシュ",
@@ -669,7 +669,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -700,7 +700,7 @@
             [110,120,40,50,80,0,0]
         ],
         "id": 16,
-        "parentId": 78,
+        "parentId": 114,
         "sortOrder": 19,
         "name": {
             "jpn": "断滅の一閃",
@@ -782,7 +782,7 @@
             [90,50,80,80,0,0,0]
         ],
         "id": 21,
-        "parentId": 84,
+        "parentId": -1,
         "sortOrder": 20,
         "name": {
             "jpn": "サンダーアックスⅠ",
@@ -826,7 +826,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -862,7 +862,7 @@
             [80,50,80,90,0,0,0]
         ],
         "id": 22,
-        "parentId": 82,
+        "parentId": 148,
         "sortOrder": 21,
         "name": {
             "jpn": "サンダーアックスⅡ",
@@ -942,7 +942,7 @@
             [110,50,80,100,10,0,0]
         ],
         "id": 23,
-        "parentId": 85,
+        "parentId": -1,
         "sortOrder": 22,
         "name": {
             "jpn": "ライトニングアクセルⅠ",
@@ -1106,7 +1106,7 @@
             [90,60,80,80,70,20,0]
         ],
         "id": 25,
-        "parentId": 86,
+        "parentId": 217,
         "sortOrder": 24,
         "name": {
             "jpn": "ライトニングアクセルⅢ",
@@ -1515,7 +1515,7 @@
             [50,50,80,120,0,0,0]
         ],
         "id": 30,
-        "parentId": 223,
+        "parentId": -1,
         "sortOrder": 29,
         "name": {
             "jpn": "ジャグラスアックスⅢ",
@@ -1559,7 +1559,7 @@
         "hiddenElementStatus": 0,
         "hiddenElementStatusDamage": 0,
         "slots": [],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -3338,7 +3338,7 @@
             [60,50,80,110,0,0,0]
         ],
         "id": 17,
-        "parentId": 80,
+        "parentId": 114,
         "sortOrder": 53,
         "name": {
             "jpn": "グレイスアックスⅠ",
@@ -3414,7 +3414,7 @@
             [100,50,50,80,70,0,0]
         ],
         "id": 18,
-        "parentId": 80,
+        "parentId": 116,
         "sortOrder": 54,
         "name": {
             "jpn": "グレイスアックスⅡ",
@@ -3494,7 +3494,7 @@
             [90,50,50,80,80,0,0]
         ],
         "id": 19,
-        "parentId": 210,
+        "parentId": 114,
         "sortOrder": 55,
         "name": {
             "jpn": "ホロウコラム",
@@ -3574,7 +3574,7 @@
             [130,30,60,80,40,60,0]
         ],
         "id": 20,
-        "parentId": -1,
+        "parentId": 117,
         "sortOrder": 56,
         "name": {
             "jpn": "レイ＝ホロウコラム",
@@ -8846,7 +8846,7 @@
             [30,60,20,140,0,0,0]
         ],
         "id": 126,
-        "parentId": 69,
+        "parentId": 205,
         "sortOrder": 140,
         "name": {
             "jpn": "防衛隊変形式剣斧Ⅰ",
@@ -8914,7 +8914,7 @@
             [30,60,20,150,40,0,0]
         ],
         "id": 127,
-        "parentId": 70,
+        "parentId": 205,
         "sortOrder": 141,
         "name": {
             "jpn": "防衛隊変形式剣斧Ⅱ",
@@ -8982,7 +8982,7 @@
             [50,50,50,80,120,0,0]
         ],
         "id": 128,
-        "parentId": 71,
+        "parentId": 75,
         "sortOrder": 142,
         "name": {
             "jpn": "防衛隊変形式剣斧Ⅲ",
@@ -9050,7 +9050,7 @@
             [30,50,50,80,140,0,0]
         ],
         "id": 129,
-        "parentId": 198,
+        "parentId": 78,
         "sortOrder": 143,
         "name": {
             "jpn": "防衛隊変形式剣斧Ⅳ",
@@ -9118,7 +9118,7 @@
             [90,30,30,110,40,100,0]
         ],
         "id": 130,
-        "parentId": 61,
+        "parentId": 79,
         "sortOrder": 144,
         "name": {
             "jpn": "防衛隊変形式剣斧Ⅴ",
@@ -9187,7 +9187,7 @@
             [90,80,30,30,80,90,0]
         ],
         "id": 136,
-        "parentId": 75,
+        "parentId": 82,
         "sortOrder": 150,
         "name": {
             "jpn": "クロムデスマキナⅠ",
@@ -9271,7 +9271,7 @@
             [80,80,30,30,80,100,0]
         ],
         "id": 137,
-        "parentId": 76,
+        "parentId": 85,
         "sortOrder": 151,
         "name": {
             "jpn": "クロムデスマキナⅡ",
@@ -9355,7 +9355,7 @@
             [120,30,30,60,50,80,30]
         ],
         "id": 138,
-        "parentId": 77,
+        "parentId": -1,
         "sortOrder": 152,
         "name": {
             "jpn": "クロムデスマキナⅢ",
@@ -9402,7 +9402,7 @@
             1,
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -9438,7 +9438,7 @@
             [150,30,90,30,30,50,20]
         ],
         "id": 139,
-        "parentId": 205,
+        "parentId": 86,
         "sortOrder": 153,
         "name": {
             "jpn": "黒羽の剣斧Ⅰ",
@@ -9520,7 +9520,7 @@
             [150,30,90,30,30,50,20]
         ],
         "id": 140,
-        "parentId": 205,
+        "parentId": 87,
         "sortOrder": 154,
         "name": {
             "jpn": "黒羽の剣斧Ⅱ",
@@ -9597,7 +9597,7 @@
             [80,30,30,110,40,110,0]
         ],
         "id": 141,
-        "parentId": 79,
+        "parentId": 115,
         "sortOrder": 155,
         "name": {
             "jpn": "断滅の一閃【破】",
@@ -9679,7 +9679,7 @@
             [90,80,30,30,80,90,0]
         ],
         "id": 142,
-        "parentId": 81,
+        "parentId": -1,
         "sortOrder": 156,
         "name": {
             "jpn": "レイ＝ホロウコラム改",
@@ -9759,7 +9759,7 @@
             [80,80,30,30,80,100,0]
         ],
         "id": 143,
-        "parentId": 82,
+        "parentId": 215,
         "sortOrder": 157,
         "name": {
             "jpn": "ブリーナ＝ホロウコラム",
@@ -9839,7 +9839,7 @@
             [60,20,30,90,90,70,40]
         ],
         "id": 144,
-        "parentId": 83,
+        "parentId": -1,
         "sortOrder": 158,
         "name": {
             "jpn": "ヘクター＝グレイシア",
@@ -9919,7 +9919,7 @@
             [110,80,30,30,80,70,0]
         ],
         "id": 145,
-        "parentId": 87,
+        "parentId": -1,
         "sortOrder": 159,
         "name": {
             "jpn": "ライトニングアクセルⅣ",
@@ -9965,7 +9965,7 @@
         "slots": [
             2
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -10001,7 +10001,7 @@
             [100,80,30,30,80,80,0]
         ],
         "id": 146,
-        "parentId": -1,
+        "parentId": 227,
         "sortOrder": 160,
         "name": {
             "jpn": "迅雷の剣斧Ⅰ",
@@ -10047,7 +10047,7 @@
         "slots": [
             2
         ],
-        "canDowngrade": false,
+        "canDowngrade": true,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -10083,7 +10083,7 @@
             [130,30,90,30,30,70,20]
         ],
         "id": 147,
-        "parentId": 114,
+        "parentId": -1,
         "sortOrder": 161,
         "name": {
             "jpn": "迅雷の剣斧Ⅱ",
@@ -10130,7 +10130,7 @@
             2,
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -10248,7 +10248,7 @@
             [70,80,30,30,80,110,0]
         ],
         "id": 149,
-        "parentId": 114,
+        "parentId": -1,
         "sortOrder": 163,
         "name": {
             "jpn": "ダチュラガーデンⅠ",
@@ -10331,7 +10331,7 @@
             [120,30,30,60,50,60,50]
         ],
         "id": 150,
-        "parentId": 117,
+        "parentId": -1,
         "sortOrder": 164,
         "name": {
             "jpn": "ダチュラガーデンⅡ",
@@ -10378,7 +10378,7 @@
             2,
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -10496,7 +10496,7 @@
             [120,30,30,60,50,60,50]
         ],
         "id": 152,
-        "parentId": 215,
+        "parentId": -1,
         "sortOrder": 166,
         "name": {
             "jpn": "ルブラルラグーンⅡ",
@@ -10542,7 +10542,7 @@
         "slots": [
             2
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -10578,7 +10578,7 @@
             [80,80,30,30,80,100,0]
         ],
         "id": 153,
-        "parentId": 115,
+        "parentId": 223,
         "sortOrder": 167,
         "name": {
             "jpn": "ヒドゥンアックス",
@@ -10658,7 +10658,7 @@
             [70,80,30,30,80,110,0]
         ],
         "id": 154,
-        "parentId": 114,
+        "parentId": -1,
         "sortOrder": 168,
         "name": {
             "jpn": "ヒドゥンアックス改",
@@ -10738,7 +10738,7 @@
             [140,20,20,70,40,30,80]
         ],
         "id": 155,
-        "parentId": 116,
+        "parentId": -1,
         "sortOrder": 169,
         "name": {
             "jpn": "闇夜剣斧【弦月】",
@@ -10818,7 +10818,7 @@
             [110,50,50,80,110,0,0]
         ],
         "id": 156,
-        "parentId": 148,
+        "parentId": -1,
         "sortOrder": 170,
         "name": {
             "jpn": "重機ギガントモーターⅠ",
@@ -10864,7 +10864,7 @@
         "slots": [
             3
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -11062,7 +11062,7 @@
             [50,30,30,110,40,140,0]
         ],
         "id": 159,
-        "parentId": 217,
+        "parentId": -1,
         "sortOrder": 173,
         "name": {
             "jpn": "レックスレイダーⅡ",
@@ -11108,7 +11108,7 @@
         "slots": [
             1
         ],
-        "canDowngrade": true,
+        "canDowngrade": false,
         "craft": {
             "isCraftable": false,
             "items": [
@@ -16217,6 +16217,155 @@
                     "quantity": 1
                 }
             ]
+        }
+    },
+    {
+        "phial": {
+            "type": 0
+        },
+        "sharpness": [
+            [150,20,20,70,40,30,20],
+            [150,20,20,70,40,30,30],
+            [150,20,20,70,40,30,40],
+            [150,20,20,70,40,30,50],
+            [150,20,20,70,40,30,60],
+            [150,20,20,70,40,30,70]
+        ],
+        "id": 227,
+        "parentId": -1,
+        "sortOrder": 241,
+        "name": {
+            "jpn": "黒龍剣斧",
+            "eng": "Fatalis End",
+            "fre": "Fin du Fatalis",
+            "spa": "Fin Fatalis",
+            "ger": "Fatalis-Ende",
+            "ita": "Fine del drago nero",
+            "kor": "흑룡검부",
+            "cht": "黑龍劍斧",
+            "chs": "黑龙剑斧",
+            "rus": "Рок Фаталиса",
+            "pol": "Koniec Fatalisa",
+            "ptb": "Fim de Fatalis",
+            "ara": "نهاية فاتاليس"
+        },
+        "description": {
+            "jpn": "ミラボレアスの剣斧。 甦りし黒龍伝説に終止符を打った 者達の証。様々な思い出を刻む。",
+            "eng": "A fabled switch axe that fell the legendary black dragon. It has seen both agony and joy.",
+            "fre": "Morpho-hache Fatalis. Une arme d'agonie et de joie, qui aurait terrassé le dragon noir.",
+            "spa": "Hacha espada fabulosa que abatió al legendario dragón negro. Ha avistado felicidad y agonía por igual.",
+            "ger": "Diese sagenhafte Morph-Axt soll einst den legendären schwarzen Drachen gefällt haben.",
+            "ita": "Una spadascia leggendaria che sconfisse il drago nero. Ha visto agonia e gioia allo stesso tempo.",
+            "kor": "밀라보레아스의 슬래시액스.  부활한 흑룡 전설에 종지부를 찍은  자들의 증표. 다양한 추억을 새긴다.",
+            "cht": "黑龍的劍斧， 終結黑龍傳說的勇者之證。 刻畫著許多回憶。",
+            "chs": "黑龙的剑斧， 终结黑龙传说的勇者之证。 充满过往回忆。",
+            "rus": "Знаменитый выкидной топор, сразивший легендарного черного дракона. Он повидал и победы, и поражения.",
+            "pol": "Topór sprężynowy, który powalił legendarnego czarnego smoka. Skrywa w sobie agonię i radość.",
+            "ptb": "Transmachado lendário que abateu o infame dragão sombrio. Já presenciou alegria e agonia.",
+            "ara": "فأس السيف الأسطورية التي فتكت بالتنين الأسود الأسطوري. لقد شهدت المعاناة والبهجة."
+        },
+        "damage": 1085,
+        "rarity": 11,
+        "treeId": 89,
+        "affinity": -40,
+        "craftingCost": 28000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 90,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": [
+                {
+                    "id": 2756,
+                    "quantity": 3
+                },
+                {
+                    "id": 2759,
+                    "quantity": 1
+                },
+                {
+                    "id": 2758,
+                    "quantity": 1
+                },
+                {
+                    "id": 2760,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    {
+        "phial": {
+            "type": 0
+        },
+        "sharpness": [
+            [150,20,20,70,40,30,20],
+            [150,20,20,70,40,30,30],
+            [150,20,20,70,40,30,40],
+            [150,20,20,70,40,30,50],
+            [150,20,20,70,40,30,60],
+            [150,20,20,70,40,30,70]
+        ],
+        "id": 228,
+        "parentId": -1,
+        "sortOrder": 242,
+        "name": {
+            "jpn": "真・黒龍剣斧",
+            "eng": "True Fatalis End",
+            "fre": "Fin ultime du Fatalis",
+            "spa": "Fin Fatalis real",
+            "ger": "Echtes Fatalis-Ende",
+            "ita": "Fine del drago ebano",
+            "kor": "진-흑룡검부",
+            "cht": "真‧黑龍劍斧",
+            "chs": "真·黑龙剑斧",
+            "rus": "Истинный рок Фаталиса",
+            "pol": "Prawdz. koniec Fatalisa",
+            "ptb": "Fim Veraz de Fatalis",
+            "ara": "نهاية فاتاليس الحقيقية"
+        },
+        "description": {
+            "jpn": "ミラボレアスの剣斧。 甦りし黒龍伝説に終止符を打った 者達の証。様々な思い出を刻む。",
+            "eng": "A fabled switch axe that fell the legendary black dragon. It has seen both agony and joy.",
+            "fre": "Morpho-hache Fatalis. Une arme d'agonie et de joie, qui aurait terrassé le dragon noir.",
+            "spa": "Hacha espada fabulosa que abatió al legendario dragón negro. Ha avistado felicidad y agonía por igual.",
+            "ger": "Diese sagenhafte Morph-Axt soll einst den legendären schwarzen Drachen gefällt haben.",
+            "ita": "Una spadascia leggendaria che sconfisse il drago nero. Ha visto agonia e gioia allo stesso tempo.",
+            "kor": "밀라보레아스의 슬래시액스.  부활한 흑룡 전설에 종지부를 찍은  자들의 증표. 다양한 추억을 새긴다.",
+            "cht": "黑龍的劍斧， 終結黑龍傳說的勇者之證。 刻畫著許多回憶。",
+            "chs": "黑龙的剑斧， 终结黑龙传说的勇者之证。 充满过往回忆。",
+            "rus": "Знаменитый выкидной топор, сразивший легендарного черного дракона. Он повидал и победы, и поражения.",
+            "pol": "Topór sprężynowy, który powalił legendarnego czarnego smoka. Skrywa w sobie agonię i radość.",
+            "ptb": "Transmachado lendário que abateu o infame dragão sombrio. Já presenciou alegria e agonia.",
+            "ara": "فأس السيف الأسطورية التي فتكت بالتنين الأسود الأسطوري. لقد شهدت المعاناة والبهجة."
+        },
+        "damage": 1225,
+        "rarity": 12,
+        "treeId": 89,
+        "affinity": -30,
+        "craftingCost": 80000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 150,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": false,
+            "items": []
         }
     },
     {

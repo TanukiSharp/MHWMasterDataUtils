@@ -34028,6 +34028,429 @@
     },
     {
         "specialAmmo": 2,
+        "deviation": 3,
+        "ammos": [
+            {
+                "type": 0,
+                "capacity": 10,
+                "shotType": 1,
+                "reload": 2
+            },
+            {
+                "type": 1,
+                "capacity": 9,
+                "shotType": 1,
+                "reload": 3
+            },
+            {
+                "type": 2,
+                "capacity": 8,
+                "shotType": 1,
+                "reload": 0
+            },
+            {
+                "type": 3,
+                "capacity": 10,
+                "shotType": 2,
+                "reload": 2
+            },
+            {
+                "type": 4,
+                "capacity": 9,
+                "shotType": 2,
+                "reload": 2
+            },
+            {
+                "type": 5,
+                "capacity": 8,
+                "shotType": 2,
+                "reload": 3
+            },
+            {
+                "type": 6,
+                "capacity": 10,
+                "shotType": 2,
+                "reload": 1
+            },
+            {
+                "type": 7,
+                "capacity": 9,
+                "shotType": 3,
+                "reload": 2
+            },
+            {
+                "type": 8,
+                "capacity": 8,
+                "shotType": 4,
+                "reload": 2
+            },
+            {
+                "type": 9,
+                "capacity": 1,
+                "shotType": 9,
+                "reload": 4
+            },
+            {
+                "type": 10,
+                "capacity": 1,
+                "shotType": 9,
+                "reload": 4
+            },
+            {
+                "type": 11,
+                "capacity": 1,
+                "shotType": 9,
+                "reload": 4
+            },
+            {
+                "type": 12,
+                "capacity": 1,
+                "shotType": 11,
+                "reload": 4
+            },
+            {
+                "type": 13,
+                "capacity": 4,
+                "shotType": 2,
+                "reload": 3
+            },
+            {
+                "type": 14,
+                "capacity": 3,
+                "shotType": 4,
+                "reload": 4
+            },
+            {
+                "type": 15,
+                "capacity": 3,
+                "shotType": 4,
+                "reload": 4
+            },
+            {
+                "type": 16,
+                "capacity": 3,
+                "shotType": 3,
+                "reload": 0
+            },
+            {
+                "type": 21,
+                "capacity": 1,
+                "shotType": 10,
+                "reload": 0
+            },
+            {
+                "type": 22,
+                "capacity": 10,
+                "shotType": 1,
+                "reload": 2
+            },
+            {
+                "type": 24,
+                "capacity": 1,
+                "shotType": 10,
+                "reload": 2
+            },
+            {
+                "type": 26,
+                "capacity": 10,
+                "shotType": 1,
+                "reload": 2
+            },
+            {
+                "type": 28,
+                "capacity": 10,
+                "shotType": 1,
+                "reload": 2
+            },
+            {
+                "type": 30,
+                "capacity": 10,
+                "shotType": 4,
+                "reload": 4
+            },
+            {
+                "type": 34,
+                "capacity": 3,
+                "shotType": 2,
+                "reload": 3
+            }
+        ],
+        "id": 212,
+        "parentId": -1,
+        "sortOrder": 225,
+        "name": {
+            "jpn": "ヴォルキャノン",
+            "eng": "Vor Cannon",
+            "fre": "Canon Vor",
+            "spa": "Cañón Vor",
+            "ger": "Vor-Kanone",
+            "ita": "Cannone Vor",
+            "kor": "볼캐넌",
+            "cht": "黑龍砲",
+            "chs": "黑龙炮",
+            "rus": "Пушка Фора",
+            "pol": "Działo Vor",
+            "ptb": "Canhão Vor",
+            "ara": "مدفع فور"
+        },
+        "description": {
+            "jpn": "ミラボレアスの重弩。 黒龍の魂を封じ込め、汎用性、 威力共に想像を絶する性能を得た。",
+            "eng": "A heavy bowgun containing the soul of Fatalis. Sports peerless power and performance.",
+            "fre": "Fusarbalète lourd Fatalis. Contient l'âme du dragon noir. Une puissance sans égale.",
+            "spa": "Ballesta pesada que contiene el alma de Fatalis. Su potencia y rendimiento no tienen parangón.",
+            "ger": "Ein Schweres Bogengewehr mit der Seele eines Fatalis. Unvergleichlich in Kraft und Haltbarkeit.",
+            "ita": "Una balestra pesante che racchiude l'anima del Fatalis. Offre potenza e performance.",
+            "kor": "밀라보레아스의 헤비보우건. 흑룡의 혼을 봉인하여, 뛰어난 범용성과 위력을 갖췄다.",
+            "cht": "黑龍的重弩。 封印了黑龍的魂魄， 具有超乎想像的泛用性和威力。",
+            "chs": "黑龙的重弩。 封印了黑龙的魂魄， 具有难以想象的多用性和威力。",
+            "rus": "Тяжелое лукорудие, вместившее в себя душу Фаталиса. Обладает непревзойденной мощью.",
+            "pol": "Ciężkie łukodziałko z duszą Fatalisa. Niezrównana moc i efektywność.",
+            "ptb": "Fuzilarco pesado que contém a alma de Fatalis. Seu poder e desempenho são inigualáveis.",
+            "ara": "بندقية قوس ثقيلة تحمل روح فاتاليس. قوة وأداء لا نظير لهما في الرياضة."
+        },
+        "damage": 435,
+        "rarity": 10,
+        "treeId": 89,
+        "affinity": -40,
+        "craftingCost": 28000,
+        "defense": 0,
+        "elderseal": 0,
+        "elementStatus": 0,
+        "elementStatusDamage": 0,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": [
+                {
+                    "id": 2756,
+                    "quantity": 3
+                },
+                {
+                    "id": 2759,
+                    "quantity": 1
+                },
+                {
+                    "id": 2758,
+                    "quantity": 1
+                },
+                {
+                    "id": 2760,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    {
+        "specialAmmo": 2,
+        "deviation": 3,
+        "ammos": [
+            {
+                "type": 0,
+                "capacity": 10,
+                "shotType": 1,
+                "reload": 2
+            },
+            {
+                "type": 1,
+                "capacity": 9,
+                "shotType": 1,
+                "reload": 3
+            },
+            {
+                "type": 2,
+                "capacity": 8,
+                "shotType": 1,
+                "reload": 0
+            },
+            {
+                "type": 3,
+                "capacity": 10,
+                "shotType": 2,
+                "reload": 2
+            },
+            {
+                "type": 4,
+                "capacity": 9,
+                "shotType": 2,
+                "reload": 2
+            },
+            {
+                "type": 5,
+                "capacity": 8,
+                "shotType": 2,
+                "reload": 3
+            },
+            {
+                "type": 6,
+                "capacity": 10,
+                "shotType": 2,
+                "reload": 1
+            },
+            {
+                "type": 7,
+                "capacity": 9,
+                "shotType": 3,
+                "reload": 2
+            },
+            {
+                "type": 8,
+                "capacity": 8,
+                "shotType": 4,
+                "reload": 2
+            },
+            {
+                "type": 9,
+                "capacity": 1,
+                "shotType": 9,
+                "reload": 4
+            },
+            {
+                "type": 10,
+                "capacity": 1,
+                "shotType": 9,
+                "reload": 4
+            },
+            {
+                "type": 11,
+                "capacity": 1,
+                "shotType": 9,
+                "reload": 4
+            },
+            {
+                "type": 12,
+                "capacity": 1,
+                "shotType": 11,
+                "reload": 4
+            },
+            {
+                "type": 13,
+                "capacity": 4,
+                "shotType": 2,
+                "reload": 3
+            },
+            {
+                "type": 14,
+                "capacity": 3,
+                "shotType": 4,
+                "reload": 4
+            },
+            {
+                "type": 15,
+                "capacity": 3,
+                "shotType": 4,
+                "reload": 4
+            },
+            {
+                "type": 16,
+                "capacity": 3,
+                "shotType": 3,
+                "reload": 0
+            },
+            {
+                "type": 21,
+                "capacity": 1,
+                "shotType": 10,
+                "reload": 0
+            },
+            {
+                "type": 22,
+                "capacity": 10,
+                "shotType": 1,
+                "reload": 2
+            },
+            {
+                "type": 24,
+                "capacity": 1,
+                "shotType": 10,
+                "reload": 2
+            },
+            {
+                "type": 26,
+                "capacity": 10,
+                "shotType": 1,
+                "reload": 2
+            },
+            {
+                "type": 28,
+                "capacity": 10,
+                "shotType": 1,
+                "reload": 2
+            },
+            {
+                "type": 30,
+                "capacity": 10,
+                "shotType": 4,
+                "reload": 4
+            },
+            {
+                "type": 34,
+                "capacity": 3,
+                "shotType": 2,
+                "reload": 3
+            }
+        ],
+        "id": 213,
+        "parentId": -1,
+        "sortOrder": 226,
+        "name": {
+            "jpn": "ヴォルバスター",
+            "eng": "Vor Buster",
+            "fre": "Décimeur Vor",
+            "spa": "Vengador Vor",
+            "ger": "Vor-Sprenger",
+            "ita": "Distruttore Vor",
+            "kor": "볼버스터",
+            "cht": "黑龍殲滅砲",
+            "chs": "黑龙歼灭炮",
+            "rus": "Копье Фора",
+            "pol": "Pogromca Vor",
+            "ptb": "Destruidor Vor",
+            "ara": "محطّم فور"
+        },
+        "description": {
+            "jpn": "ミラボレアスの重弩。 黒龍の魂を封じ込め、汎用性、 威力共に想像を絶する性能を得た。",
+            "eng": "A heavy bowgun containing the soul of Fatalis. Sports peerless power and performance.",
+            "fre": "Fusarbalète lourd Fatalis. Contient l'âme du dragon noir. Une puissance sans égale.",
+            "spa": "Ballesta pesada que contiene el alma de Fatalis. Su potencia y rendimiento no tienen parangón.",
+            "ger": "Ein Schweres Bogengewehr mit der Seele eines Fatalis. Unvergleichlich in Kraft und Haltbarkeit.",
+            "ita": "Una balestra pesante che racchiude l'anima del Fatalis. Offre potenza e performance.",
+            "kor": "밀라보레아스의 헤비보우건. 흑룡의 혼을 봉인하여, 뛰어난 범용성과 위력을 갖췄다.",
+            "cht": "黑龍的重弩。 封印了黑龍的魂魄， 具有超乎想像的泛用性和威力。",
+            "chs": "黑龙的重弩。 封印了黑龙的魂魄， 具有难以想象的多用性和威力。",
+            "rus": "Тяжелое лукорудие, вместившее в себя душу Фаталиса. Обладает непревзойденной мощью.",
+            "pol": "Ciężkie łukodziałko z duszą Fatalisa. Niezrównana moc i efektywność.",
+            "ptb": "Fuzilarco pesado que contém a alma de Fatalis. Seu poder e desempenho são inigualáveis.",
+            "ara": "بندقية قوس ثقيلة تحمل روح فاتاليس. قوة وأداء لا نظير لهما في الرياضة."
+        },
+        "damage": 510,
+        "rarity": 11,
+        "treeId": 89,
+        "affinity": -20,
+        "craftingCost": 80000,
+        "defense": 0,
+        "elderseal": 0,
+        "elementStatus": 0,
+        "elementStatusDamage": 0,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": false,
+            "items": []
+        }
+    },
+    {
+        "specialAmmo": 2,
         "deviation": 2,
         "ammos": [
             {

@@ -23918,6 +23918,80 @@
         ]
     },
     {
+        "seriesId": 450,
+        "defense": 162,
+        "elementalResistances": {
+            "fire": 1,
+            "water": 1,
+            "thunder": 4,
+            "ice": 1,
+            "dragon": 1
+        },
+        "slots": [
+            4
+        ],
+        "setSkills": [
+            216
+        ],
+        "id": 1662,
+        "order": 804,
+        "setGroup": 500,
+        "name": {
+            "jpn": "EX魔界ノ主【黒腕】 α",
+            "eng": "Demonlord Blackarm α+",
+            "fre": "Gants du roi-démon α+",
+            "spa": "Brazos endemoniados α+",
+            "ger": "Dämonenfürst-Armschutz α+",
+            "ita": "Braccia signore oscuro α+",
+            "kor": "EX마계의 주인【검은팔】 α",
+            "cht": "精英·魔界之主【黑腕部】 α",
+            "chs": "精英·魔界之主【黑腕部】阿尔法",
+            "rus": "Чернорукий владыка демонов α+",
+            "pol": "Zbroja władcy demonów α+",
+            "ptb": "Braçonegro Demolorde α+",
+            "ara": "ذراع العفريت السيد السوداء α+"
+        },
+        "description": {
+            "jpn": "ホラーナイトチケットで作れる 腕防具。禍々しさと高貴さをあわせ 持つ者が【ホラーナイト】に降臨。",
+            "eng": "Requires a Fun Fright Ticket to craft. The fest welcomes the ominous, noble hunter.",
+            "fre": "Bienvenue au festival de l'étrange, noble chasseur. Ticket Terreur requis.",
+            "spa": "Crearlos requiere un vale festival de miedo. El festival da la bienvenida al noble e intimidante cazador.",
+            "ger": "Benötigt zur Herstellung ein Spuk-Ticket. Unheilvolle Dinge suchen ihresgleichen...",
+            "ita": "Richiede un buono brivido brioso per essere forgiato. Il festival accoglie il nobile, infausto cacciatore.",
+            "kor": "호러나이트 티켓으로 만든 팔  방어구.불길한 기운과 고귀함을 함께  갖춘 이가 【호러나이트】에 강림.",
+            "cht": "可使用驚魂夜票製作的腕部防具。 散發不祥而華貴的氛圍， 讓持有者在【驚魂夜】霸氣登場。",
+            "chs": "可使用惊魂夜票制作的腕部防具。 散发不祥而华贵的气氛， 让持有者在【惊魂夜】霸气登场。",
+            "rus": "Требуется билет веселой жути. <LSNR {Охотник}{Охотница}>, этот праздник посвящен всему зловещему.",
+            "pol": "Wykonanie wymaga kwitu Strasz. Zabawy. Zapraszamy złowieszcze osoby, szlachetny łowco.",
+            "ptb": "Exige um Bilhete Susto Animado para criar. O festival abraça caçadores nobres e sinistros.",
+            "ara": "يتطلب تذكرة الذعر الممتع للتصنيع. يُرحب الاحتفال بالصيّاد النبيل ذو نذير الشؤم."
+        },
+        "cost": 18000,
+        "gender": 3,
+        "rarity": 11,
+        "craft": [
+            {
+                "id": 2727,
+                "quantity": 1
+            },
+            {
+                "id": 1065,
+                "quantity": 1
+            },
+            {
+                "id": 1375,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 54,
+                "level": 3
+            }
+        ]
+    },
+    {
         "seriesId": 452,
         "defense": 120,
         "elementalResistances": {
@@ -24445,6 +24519,173 @@
         ]
     },
     {
+        "seriesId": 476,
+        "defense": 170,
+        "elementalResistances": {
+            "fire": 2,
+            "water": 2,
+            "thunder": 0,
+            "ice": 0,
+            "dragon": 3
+        },
+        "slots": [
+            1,
+            1,
+            1
+        ],
+        "setSkills": [
+            174
+        ],
+        "id": 1684,
+        "order": 807,
+        "setGroup": 526,
+        "name": {
+            "jpn": "EX蒼世ノ侍【袖】 α",
+            "eng": "Azure Age Sleeve α+",
+            "fre": "Manches Âge d'azur α+",
+            "spa": "Mangas Edad Celeste α+",
+            "ger": "Azurära-Kote α+",
+            "ita": "Guanti epoca celeste α+",
+            "kor": "EX푸른빛무사【소매】 α",
+            "cht": "精英‧蒼世武士【袖】 α",
+            "chs": "精英·苍世武士【袖】阿尔法",
+            "rus": "Наручи лазурного воина α+",
+            "pol": "Rękaw Lazurowej Ery α+",
+            "ptb": "Mangas Samurai Lazúli α+",
+            "ara": "أكمام عصر اللازوردي α+"
+        },
+        "description": {
+            "jpn": "蒼き星の煌めきを思わせる腕防具。 新たなる世界を夢見る野心家は 理想を求め、肩で風を切って歩く。",
+            "eng": "Armor that glitters like the azure star. Oh wild heart, cut down the wind, and blaze a path to a new era.",
+            "fre": "Armure brillante comme l'astre bleu. Son cœur sauvage tranche le vent et enflamme la route vers une nouvelle ère.",
+            "spa": "Brilla como la estrella celeste. Tu corazón salvaje corta el viento y te lleva hacia nuevas eras.",
+            "ger": "Ein Rüstungsteil, das wie der Azur- stern glitzert. Oh wildes Herz, ebne den Weg in eine neue Ära!",
+            "ita": "Armatura che brilla come l'astro celeste. Oh cuore selvaggio, supera il vento verso una nuova epoca.",
+            "kor": "푸른 별빛을 연상시키는 팔 방어구. 새로운 세계를 꿈꾸는 야심가는 이상을 추구하며 앞을 향해 나아갈뿐.",
+            "cht": "讓人聯想到璀璨蒼藍星的身體防具。 懷抱新世界夢想的野心家， 為了理想闊步向前。",
+            "chs": "让人联想到璀璨苍蓝星的身体防具。 怀抱新世界梦想的野心家， 为了理想阔步向前。",
+            "rus": "Доспех, сияющий как лазурная звезда. Вольное сердце! Успокой ветра и озари путь в новую эру.",
+            "pol": "Pancerz lśniący jak lazurowa gwiazda. Mężnie ujarzmij wiatr i wypal szlak ku nowej erze.",
+            "ptb": "Armadura que reluz como a estrela lazúli. Coração bravio, abra o caminho da nova era.",
+            "ara": "درع يشعّ كنجم لازوردي. أيها القلب الجامح، امنع الرياح وارسم طريقًا للعصر الجديد."
+        },
+        "cost": 24000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2720,
+                "quantity": 1
+            },
+            {
+                "id": 2701,
+                "quantity": 2
+            },
+            {
+                "id": 2703,
+                "quantity": 1
+            },
+            {
+                "id": 1353,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 52,
+                "level": 2
+            },
+            {
+                "skillId": 50,
+                "level": 1
+            }
+        ]
+    },
+    {
+        "seriesId": 477,
+        "defense": 180,
+        "elementalResistances": {
+            "fire": -3,
+            "water": 2,
+            "thunder": -1,
+            "ice": 4,
+            "dragon": -1
+        },
+        "slots": [
+            4,
+            3
+        ],
+        "setSkills": [
+            178
+        ],
+        "id": 1685,
+        "order": 618,
+        "setGroup": 527,
+        "name": {
+            "jpn": "EXラヴィーナアーム γ",
+            "eng": "Rimeguard Vambraces γ+",
+            "fre": "Avant-bras Velkhana γ+",
+            "spa": "Brazales de escarcha γ+",
+            "ger": "Velkhana-Armschienen γ+",
+            "ita": "Parabraccia di Velkhana γ+",
+            "kor": "EX라비나암 γ",
+            "cht": "精英‧雪崩腕甲 γ",
+            "chs": "精英·雪崩腕甲伽马",
+            "rus": "Порубежные наручи γ+",
+            "pol": "Szronowe zarękawia γ+",
+            "ptb": "Avambraços Geadefesa γ+",
+            "ara": "درع ساعد حارس الصقيع γ+"
+        },
+        "description": {
+            "jpn": "イヴェルカーナの特別な腕防具。 歴戦の個体となったモンスターの ただならぬ力を刻んだ極上の装備。",
+            "eng": "Uniquely crafted Velkhana armor. The immeasurable strength of a tempered monster dwells within.",
+            "fre": "Armure unique Velkhana. Renferme la force incalculable d'un monstre alpha.",
+            "spa": "Armadura de Velkhana de artesanía única. Contiene la fuerza inconcebible de un monstruo curtido.",
+            "ger": "Einzigartiges Velkhana-Rüstungs- teil. Die unmessbare Kraft eines Gehärteten Monsters wohnt darin.",
+            "ita": "Armatura unica di Velkhana. Racchiude l'enorme potere di un mostro temprato.",
+            "kor": "이베르카나의 특별한 팔 방어구. 역전의 개체가 된 몬스터의 예사롭지 않은 힘을 새긴 최고급 장비.",
+            "cht": "冰呪龍的特別腕部防具。 魔物化作歷戰個體後， 其超常力量融入其中的極致裝備。",
+            "chs": "冰呪龙的特别腕部防具。 怪物化作历战个体后， 其超常力量融入其中的极致装备。",
+            "rus": "Уникальные доспехи велханы, вобравшие в себя непревзойденную мощь закаленного чудовища.",
+            "pol": "Kunsztownie wykonany pancerz z Velkhana. Drzemie w nim wielka moc ujarzmionego potwora.",
+            "ptb": "Armadura de Velkhana única. Impregnada com o poder único de um monstro aguerrido.",
+            "ara": "درع فيلكانا مصنوع بشكل فريد. مُشبع بقوة لا تضاهى تخص وحشًا غاضبًا."
+        },
+        "cost": 24000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2681,
+                "quantity": 1
+            },
+            {
+                "id": 1348,
+                "quantity": 5
+            },
+            {
+                "id": 1352,
+                "quantity": 7
+            },
+            {
+                "id": 1066,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 22,
+                "level": 3
+            },
+            {
+                "skillId": 32,
+                "level": 3
+            }
+        ]
+    },
+    {
         "seriesId": 478,
         "defense": 162,
         "elementalResistances": {
@@ -24603,6 +24844,169 @@
             {
                 "skillId": 48,
                 "level": 2
+            }
+        ]
+    },
+    {
+        "seriesId": 480,
+        "defense": 180,
+        "elementalResistances": {
+            "fire": -1,
+            "water": 2,
+            "thunder": 2,
+            "ice": 0,
+            "dragon": -4
+        },
+        "slots": [
+            4,
+            1
+        ],
+        "setSkills": [
+            222
+        ],
+        "id": 1688,
+        "order": 614,
+        "setGroup": 530,
+        "name": {
+            "jpn": "EXドラゴンクロウ α",
+            "eng": "Dragonclaws α+",
+            "fre": "Griffes de dragon α+",
+            "spa": "Garras de dragón α+",
+            "ger": "Drachenklauen α+",
+            "ita": "Artigli di drago α+",
+            "kor": "EX드래곤클로 α",
+            "cht": "精英‧龍鋼爪 α",
+            "chs": "精英·龙钢爪阿尔法",
+            "rus": "Когти дракона α+",
+            "pol": "Smocze szpony α+",
+            "ptb": "Garras de Dragão α+",
+            "ara": "مخالب تنين α+"
+        },
+        "description": {
+            "jpn": "ミラボレアスの腕防具。 ふと、この腕が次は自身の命 を奪うのではとの恐怖が湧く。",
+            "eng": "Armor with the power of Fatalis. Makes even the wearer fear for their life.",
+            "fre": "Armure Fatalis. Elle dégage une telle puissance que même son porteur craint pour sa vie.",
+            "spa": "Armadura con el poder de Fatalis. Hace temer por su propia vida incluso a quien las porta.",
+            "ger": "Ein Rüstungsteil mit der Kraft des Fatalis. Selbst ihr Träger fühlt sich bedroht!",
+            "ita": "Armatura che racchiude il potere del Fatalis. Anche chi la indossa teme per la propria vita.",
+            "kor": "밀라보레아스 팔 방어구. 다음엔 자신의 생명을 뺏기지 않을까 문득 공포에 휩싸인다.",
+            "cht": "黑龍的腕部防具。 戴在手上讓人有種不知哪天 會被奪去性命的恐懼感。",
+            "chs": "黑龙的腕部防具。 戴在手上让人有种不知哪天 会被夺去性命的恐惧感。",
+            "rus": "Доспех, вобравший мощь Фаталиса. Даже его обладатель опасается за свою жизнь.",
+            "pol": "Pancerz z mocą Fatalisa. Nawet ten, kto go nosi, obawia się o swoje życie.",
+            "ptb": "Armadura com o poder de Fatalis. Incute o medo da morte até em quem usa.",
+            "ara": "درع مفعم بقوة فاتاليس. يجعل من يرتديه يخاف على حياته."
+        },
+        "cost": 36000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2757,
+                "quantity": 3
+            },
+            {
+                "id": 2756,
+                "quantity": 3
+            },
+            {
+                "id": 2759,
+                "quantity": 2
+            },
+            {
+                "id": 1336,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 50,
+                "level": 1
+            },
+            {
+                "skillId": 54,
+                "level": 3
+            }
+        ]
+    },
+    {
+        "seriesId": 481,
+        "defense": 180,
+        "elementalResistances": {
+            "fire": -1,
+            "water": 2,
+            "thunder": 2,
+            "ice": 0,
+            "dragon": -4
+        },
+        "slots": [
+            4,
+            4,
+            4
+        ],
+        "setSkills": [
+            222
+        ],
+        "id": 1689,
+        "order": 615,
+        "setGroup": 531,
+        "name": {
+            "jpn": "EXドラゴンクロウ β",
+            "eng": "Dragonclaws β+",
+            "fre": "Griffes de dragon β+",
+            "spa": "Garras de dragón β+",
+            "ger": "Drachenklauen β+",
+            "ita": "Artigli di drago β+",
+            "kor": "EX드래곤클로 β",
+            "cht": "精英‧龍鋼爪 β",
+            "chs": "精英·龙钢爪贝塔",
+            "rus": "Когти дракона β+",
+            "pol": "Smocze szpony β+",
+            "ptb": "Garras de Dragão β+",
+            "ara": "مخالب تنين β+"
+        },
+        "description": {
+            "jpn": "ミラボレアスの腕防具。 ふと、この腕が次は自身の命 を奪うのではとの恐怖が湧く。",
+            "eng": "Armor with the power of Fatalis. Makes even the wearer fear for their life.",
+            "fre": "Armure Fatalis. Elle dégage une telle puissance que même son porteur craint pour sa vie.",
+            "spa": "Armadura con el poder de Fatalis. Hace temer por su propia vida incluso a quien las porta.",
+            "ger": "Ein Rüstungsteil mit der Kraft des Fatalis. Selbst ihr Träger fühlt sich bedroht!",
+            "ita": "Armatura che racchiude il potere del Fatalis. Anche chi la indossa teme per la propria vita.",
+            "kor": "밀라보레아스 팔 방어구. 다음엔 자신의 생명을 뺏기지 않을까 문득 공포에 휩싸인다.",
+            "cht": "黑龍的腕部防具。 戴在手上讓人有種不知哪天 會被奪去性命的恐懼感。",
+            "chs": "黑龙的腕部防具。 戴在手上让人有种不知哪天 会被夺去性命的恐惧感。",
+            "rus": "Доспех, вобравший мощь Фаталиса. Даже его обладатель опасается за свою жизнь.",
+            "pol": "Pancerz z mocą Fatalisa. Nawet ten, kto go nosi, obawia się o swoje życie.",
+            "ptb": "Armadura com o poder de Fatalis. Incute o medo da morte até em quem usa.",
+            "ara": "درع مفعم بقوة فاتاليس. يجعل من يرتديه يخاف على حياته."
+        },
+        "cost": 36000,
+        "gender": 3,
+        "rarity": 12,
+        "craft": [
+            {
+                "id": 2757,
+                "quantity": 3
+            },
+            {
+                "id": 2756,
+                "quantity": 3
+            },
+            {
+                "id": 2759,
+                "quantity": 2
+            },
+            {
+                "id": 1336,
+                "quantity": 1
+            }
+        ],
+        "isPermanent": false,
+        "skills": [
+            {
+                "skillId": 50,
+                "level": 1
             }
         ]
     }

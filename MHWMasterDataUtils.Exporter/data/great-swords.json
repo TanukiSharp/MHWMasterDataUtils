@@ -15799,7 +15799,7 @@
             [90,30,30,110,40,100,0]
         ],
         "id": 231,
-        "parentId": -1,
+        "parentId": 230,
         "sortOrder": 232,
         "name": {
             "jpn": "レイトウ本マグロ",
@@ -15878,7 +15878,7 @@
             [150,30,30,60,50,50,30]
         ],
         "id": 232,
-        "parentId": 230,
+        "parentId": -1,
         "sortOrder": 233,
         "name": {
             "jpn": "ギルドパレスプレート",
@@ -16019,7 +16019,7 @@
             [70,30,30,110,40,120,0]
         ],
         "id": 234,
-        "parentId": -1,
+        "parentId": 231,
         "sortOrder": 235,
         "name": {
             "jpn": "瞬間レイトウ本マグロ",
@@ -16229,6 +16229,149 @@
     },
     {
         "sharpness": [
+            [160,20,20,70,40,30,10],
+            [160,20,20,70,40,30,20],
+            [160,20,20,70,40,30,30],
+            [160,20,20,70,40,30,40],
+            [160,20,20,70,40,30,50],
+            [160,20,20,70,40,30,60]
+        ],
+        "id": 237,
+        "parentId": -1,
+        "sortOrder": 238,
+        "name": {
+            "jpn": "ミラブレイド",
+            "eng": "Fatalis Blade",
+            "fre": "Lame Fatalis",
+            "spa": "Hoja Fatalis",
+            "ger": "Fatalis-Klinge",
+            "ita": "Lama Fatalis",
+            "kor": "밀라블레이드",
+            "cht": "黑龍刃",
+            "chs": "黑龙刃",
+            "rus": "Клинок Фаталиса",
+            "pol": "Ostrze Fatalisa",
+            "ptb": "Lâmina de Fatalis",
+            "ara": "نصل فاتاليس"
+        },
+        "description": {
+            "jpn": "ミラボレアスの大剣。 この剣を持つ者は古龍との 永遠の闘いを宿命づけられる。",
+            "eng": "Those who hold this Fatalis great sword are destined to be locked in an eternal struggle with the beast.",
+            "fre": "Grande épée Fatalis. Ceux qui la manient sont maudits à combattre la bête pour l'éternité.",
+            "spa": "Quienes blandan esta gran espada de Fatalis terminarán sellados con la bestia en un forcejeo eterno.",
+            "ger": "Wer dieses Fatalis-Großschwert führt, ist zum ewigen Ringen mit der schwarzen Bestie verdammt.",
+            "ita": "Coloro che impugnano questo spadone di Fatalis sono condannati a una lotta eterna con la creatura.",
+            "kor": "밀라보레아스의 대검. 소유자는 고룡과 영원히  싸워야 하는 운명을 갖게 된다.",
+            "cht": "黑龍的大劍。 這把劍的持有者， 與古龍之間將面臨永遠纏鬥的宿命。",
+            "chs": "黑龙的大剑。 这把剑的持有者将面临与古龙之间 永远缠斗的宿命。",
+            "rus": "Обладателю этого двуручного меча Фаталиса суждено провести вечность в схватке с чудищем.",
+            "pol": "Temu, kto dzierży miecz dwuręczny Fatalisa, przeznaczona jest wieczna walka z tą bestią.",
+            "ptb": "Quem empunha este espadão de Fatalis tem como destino batalhar eternamente com a fera.",
+            "ara": "من يحمل سيف فاتاليس العظيم مقدّر له خوض صراع أبدي ضد الوحش."
+        },
+        "damage": 1488,
+        "rarity": 11,
+        "treeId": 89,
+        "affinity": -40,
+        "craftingCost": 28000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 120,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": true,
+            "items": [
+                {
+                    "id": 2756,
+                    "quantity": 3
+                },
+                {
+                    "id": 2759,
+                    "quantity": 1
+                },
+                {
+                    "id": 2758,
+                    "quantity": 1
+                },
+                {
+                    "id": 2760,
+                    "quantity": 1
+                }
+            ]
+        }
+    },
+    {
+        "sharpness": [
+            [160,20,20,70,40,30,10],
+            [160,20,20,70,40,30,20],
+            [160,20,20,70,40,30,30],
+            [160,20,20,70,40,30,40],
+            [160,20,20,70,40,30,50],
+            [160,20,20,70,40,30,60]
+        ],
+        "id": 238,
+        "parentId": 237,
+        "sortOrder": 239,
+        "name": {
+            "jpn": "ブラックミラブレイド",
+            "eng": "Black Fatalis Blade",
+            "fre": "Lame noire Fatalis",
+            "spa": "Hoja Fatalis Negra",
+            "ger": "Schwarze Fatalis-Klinge",
+            "ita": "Lama nera Fatalis",
+            "kor": "블랙밀라블레이드",
+            "cht": "黑龍玄刃",
+            "chs": "黑龙玄刃",
+            "rus": "Черный клинок Фаталиса",
+            "pol": "Czarne ostrze Fatalisa",
+            "ptb": "Lâmina Negra de Fatalis",
+            "ara": "نصل فاتاليس الأسود"
+        },
+        "description": {
+            "jpn": "ミラボレアスの大剣。 この剣を持つ者は古龍との 永遠の闘いを宿命づけられる。",
+            "eng": "Those who hold this Fatalis great sword are destined to be locked in an eternal struggle with the beast.",
+            "fre": "Grande épée Fatalis. Ceux qui la manient sont maudits à combattre la bête pour l'éternité.",
+            "spa": "Quienes blandan esta gran espada de Fatalis terminarán sellados con la bestia en un forcejeo eterno.",
+            "ger": "Wer dieses Fatalis-Großschwert führt, ist zum ewigen Ringen mit der schwarzen Bestie verdammt.",
+            "ita": "Coloro che impugnano questo spadone di Fatalis sono condannati a una lotta eterna con la creatura.",
+            "kor": "밀라보레아스의 대검. 소유자는 고룡과 영원히  싸워야 하는 운명을 갖게 된다.",
+            "cht": "黑龍的大劍。 這把劍的持有者， 與古龍之間將面臨永遠纏鬥的宿命。",
+            "chs": "黑龙的大剑。 这把剑的持有者将面临与古龙之间 永远缠斗的宿命。",
+            "rus": "Обладателю этого двуручного меча Фаталиса суждено провести вечность в схватке с чудищем.",
+            "pol": "Temu, kto dzierży miecz dwuręczny Fatalisa, przeznaczona jest wieczna walka z tą bestią.",
+            "ptb": "Quem empunha este espadão de Fatalis tem como destino batalhar eternamente com a fera.",
+            "ara": "من يحمل سيف فاتاليس العظيم مقدّر له خوض صراع أبدي ضد الوحش."
+        },
+        "damage": 1632,
+        "rarity": 12,
+        "treeId": 89,
+        "affinity": -30,
+        "craftingCost": 80000,
+        "defense": 0,
+        "elderseal": 3,
+        "elementStatus": 5,
+        "elementStatusDamage": 180,
+        "hiddenElementStatus": 0,
+        "hiddenElementStatusDamage": 0,
+        "slots": [
+            4,
+            4
+        ],
+        "canDowngrade": false,
+        "craft": {
+            "isCraftable": false,
+            "items": []
+        }
+    },
+    {
+        "sharpness": [
             [150,30,30,60,50,30,0],
             [150,30,30,60,50,30,10],
             [150,30,30,60,50,30,20],
@@ -16237,7 +16380,7 @@
             [150,30,30,60,50,30,50]
         ],
         "id": 239,
-        "parentId": 231,
+        "parentId": 232,
         "sortOrder": 240,
         "name": {
             "jpn": "宮廷王剣【金星】",
@@ -16838,7 +16981,7 @@
             [100,50,50,50,60,90,0]
         ],
         "id": 252,
-        "parentId": 232,
+        "parentId": -1,
         "sortOrder": 253,
         "name": {
             "jpn": "赤龍ノ断ツ剣・火",
@@ -16884,7 +17027,7 @@
         "slots": [
             4
         ],
-        "canDowngrade": true
+        "canDowngrade": false
     },
     {
         "sharpness": [

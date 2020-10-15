@@ -7348,6 +7348,138 @@
         "carryLimit": 99
     },
     {
+        "equipmentId": 401,
+        "skills": [
+            {
+                "skillId": 184,
+                "level": 1
+            }
+        ],
+        "id": 2273,
+        "name": {
+            "jpn": "陽動珠【３】",
+            "eng": "Diversion Jewel 3",
+            "fre": "Joyau de la diversion [3]",
+            "spa": "Joya de distracción 3",
+            "ger": "Ablenkung-Juwel 3",
+            "ita": "Gioiello provocatore 3",
+            "kor": "양동주【３】",
+            "cht": "佯動珠【３】",
+            "chs": "佯动珠【3】",
+            "rus": "Самоцвет отвлечения 3",
+            "pol": "Klejnot dywersji 3",
+            "ptb": "Joia da Distração 3",
+            "ara": "حلية التمويه 3"
+        },
+        "description": {
+            "jpn": "陽動攻撃スキルが アップする装飾品。",
+            "eng": "A decoration that enhances the Provoker skill.",
+            "fre": "Augmente le talent Provocateur.",
+            "spa": "Un adorno con el que potenciar la habilidad provocación.",
+            "ger": "Diese Dekoration verstärkt deine Provozierer-Fähigkeit.",
+            "ita": "Gioiello che potenzia l'effetto dell'abilità Provocatore.",
+            "kor": "양동 공격 스킬이 향상되는 장식품.",
+            "cht": "能夠提升 佯動攻擊技能的裝飾品。",
+            "chs": "能够提升 佯动攻击技能的饰品。",
+            "rus": "Усиливает навык \"Провокатор\".",
+            "pol": "Ozdoba wzmacniająca umiejętność Prowokator.",
+            "ptb": "Um adorno que melhora a habilidade Provocador.",
+            "ara": "إضافة تُحسن من مهارة المحرّض."
+        },
+        "rarity": 11,
+        "buyPrice": 80000,
+        "sellPrice": 8000,
+        "carryLimit": 99
+    },
+    {
+        "equipmentId": 402,
+        "skills": [
+            {
+                "skillId": 187,
+                "level": 1
+            }
+        ],
+        "id": 2274,
+        "name": {
+            "jpn": "受身珠【３】",
+            "eng": "Acrobat Jewel 3",
+            "fre": "Joyau de l'acrobate [3]",
+            "spa": "Joya acróbata 3",
+            "ger": "Akrobaten-Juwel 3",
+            "ita": "Gioiello atterraggio perfetto 3",
+            "kor": "낙법주【３】",
+            "cht": "受身珠【３】",
+            "chs": "受身珠【3】",
+            "rus": "Самоцвет акробата 3",
+            "pol": "Klejnot akrobacji 3",
+            "ptb": "Joia do Acrobata 3",
+            "ara": "حلية البهلوان 3"
+        },
+        "description": {
+            "jpn": "受け身術スキルが アップする装飾品。",
+            "eng": "A decoration that enhances the Safe Landing skill.",
+            "fre": "Augmente le talent Atterrissage en douceur.",
+            "spa": "Un adorno con el que potenciar la habilidad aterrizaje seguro.",
+            "ger": "Diese Dekoration verstärkt deine Sichere-Landung-Fähigkeit.",
+            "ita": "Gioiello che potenzia l'effetto dell'abilità Atterraggio perfetto.",
+            "kor": "낙법술 스킬이 향상되는 장식품.",
+            "cht": "能夠提升 受身術技能的裝飾品。",
+            "chs": "能够提升 受身术技能的饰品。",
+            "rus": "Усиливает навык \"Безопасное приземление\".",
+            "pol": "Ozdoba wzmacniająca umiejętność Bezpieczne Lądowanie.",
+            "ptb": "Um adorno que melhora a habilidade Pouso Seguro.",
+            "ara": "إضافة تُحسن من مهارة الهبوط الآمن."
+        },
+        "rarity": 11,
+        "buyPrice": 80000,
+        "sellPrice": 8000,
+        "carryLimit": 99
+    },
+    {
+        "equipmentId": 403,
+        "skills": [
+            {
+                "skillId": 223,
+                "level": 1
+            }
+        ],
+        "id": 2275,
+        "name": {
+            "jpn": "削撃珠【３】",
+            "eng": "Shaver Jewel 3",
+            "fre": "Joyau du rasoir [3]",
+            "spa": "Joya trepadora 3",
+            "ger": "Rasierer-Juwel 3",
+            "ita": "Gioiello potenziamento rampino 3",
+            "kor": "삭격주【３】",
+            "cht": "削擊珠【３】",
+            "chs": "削击珠【3】",
+            "rus": "Самоцвет брадобрея 3",
+            "pol": "Klejnot młokosa 3",
+            "ptb": "Joia Barbeadora 3",
+            "ara": "حلية الشفرة 3"
+        },
+        "description": {
+            "jpn": "クラッチ攻撃強化スキルが アップする装飾品。",
+            "eng": "A decoration that enhances the Clutch Claw Boost skill.",
+            "fre": "Augmente le talent Booster de griffe.",
+            "spa": "Un adorno con el que potenciar la habilidad bonus garra retráctil.",
+            "ger": "Diese Dekoration verstärkt deine Klammerklauen-Boost-Fähigkeit.",
+            "ita": "Gioiello che potenzia l'effetto dell'abilità Potenziamento rampino.",
+            "kor": "클러치 공격 강화 스킬이 향상되는 장식품.",
+            "cht": "能夠提升 飛翔爪攻擊強化技能的裝飾品。",
+            "chs": "能够提升 飞翔爪攻击强化技能的饰品。",
+            "rus": "Усиливает навык \"Усиление хватательного когтя\".",
+            "pol": "Ozdoba wzmacniająca umiejętność Wzmocnienie pazura chwytnego.",
+            "ptb": "Um adorno que melhora a habilidade Reforço da Prendedora.",
+            "ara": "إضافة تُحسن من مهارة تعزيز المخلب القابض."
+        },
+        "rarity": 11,
+        "buyPrice": 80000,
+        "sellPrice": 8000,
+        "carryLimit": 99
+    },
+    {
         "equipmentId": 295,
         "skills": [
             {
